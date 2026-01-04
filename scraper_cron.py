@@ -9,10 +9,12 @@ from Newspapers.api_elespanol import ElEspanolScraper
 from Newspapers.api_20minutos import VeinteMinutosScraper
 from Newspapers.api_lavozdegalicia import LaVozDeGaliciaScraper
 
+
 import json
 import hashlib
 from datetime import datetime, timedelta
 import time
+
 
 SCRAPERS = {
     'abc.es': ABCScraper(),
@@ -27,6 +29,7 @@ SCRAPERS = {
     '20minutos.es': VeinteMinutosScraper()
 }
 
+
 URLS = {
     'abc.es': 'https://www.abc.es',
     'elmundo.es': 'https://www.elmundo.es',
@@ -39,6 +42,7 @@ URLS = {
     'lavozdegalicia.es': 'https://www.lavozdegalicia.es',
     '20minutos.es': 'https://www.20minutos.es'
 }
+
 
 def scrape_all():
     """10 periódicos → dedup → histórico 7 días → JSON único"""
@@ -140,6 +144,25 @@ def scrape_all():
     with open('noticias_completas.json', 'w', encoding='utf-8') as f:
         json.dump(recent_articles, f, ensure_ascii=False, indent=2)
     
+    # 🆕 FILTRAR ÚLTIMAS 24H Y CREAR JSON ADICIONAL
+    cutoff_24h = datetime.now() - timedelta(hours=24)
+    articles_24h = []
+    
+    for art in recent_articles:
+        try:
+            art_date = datetime.fromisoformat(art['scraped_at'].replace('Z', '+00:00'))
+            if art_date >= cutoff_24h:
+                articles_24h.append(art)
+        except:
+            pass  # Ignorar artículos sin fecha válida
+    
+    # 💾 JSON ÚLTIMAS 24H
+    with open('noticias_24h.json', 'w', encoding='utf-8') as f:
+        json.dump(articles_24h, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n⏰ ÚLTIMAS 24H: {len(articles_24h)} noticias")
+    print(f"   📁 noticias_24h.json → {len(articles_24h)*0.8/1000:.1f}KB")
+    
     # STATS
     print(f"\n🎉 FINAL: {len(recent_articles)} noticias (7 días)")
     print(f"   📁 noticias_completas.json → {len(recent_articles)*0.8/1000:.1f}KB")
@@ -149,7 +172,15 @@ def scrape_all():
         domains[art.get('domain', '?')] = domains.get(art.get('domain', '?'), 0) + 1
     print(f"   🏆 Top: {dict(sorted(domains.items(), key=lambda x: x[1], reverse=True)[:5])}")
     
+    # STATS 24H
+    domains_24h = {}
+    for art in articles_24h:
+        domains_24h[art.get('domain', '?')] = domains_24h.get(art.get('domain', '?'), 0) + 1
+    if domains_24h:
+        print(f"   🏆 Top 24h: {dict(sorted(domains_24h.items(), key=lambda x: x[1], reverse=True)[:5])}")
+    
     return recent_articles
+
 
 if __name__ == '__main__':
     scrape_all()

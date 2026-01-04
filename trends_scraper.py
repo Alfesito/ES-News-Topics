@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Google Trends + X Trends España + Análisis Noticias 24h
-IDs: 1-99=Google (24h/4h) | 100+=X Trends
-Campos: id, title, source, volume, timeframe, news_count (añadido)
+Google Trends + X Trends + Tags de Noticias España
+IDs: 1-99=Google (24h/4h) | 100+=X Trends | 200+=Tags Noticias
+Campos: id, title, source, volume, timeframe, news_count
 """
 
 
@@ -13,6 +13,7 @@ from playwright.async_api import async_playwright
 import re
 import requests
 from difflib import SequenceMatcher
+from collections import Counter
 
 
 def similar(a, b):
@@ -34,47 +35,121 @@ def fetch_news_24h(url):
         return []
 
 
+def extract_tags_as_trends(news_articles, base_id=200):
+    """
+    Extrae tags de las noticias y los convierte en trends.
+    Cuenta cuántas noticias tiene cada tag.
+    """
+    print("\n🏷️ Extrayendo tags de noticias como trends...")
+    
+    # Contador de tags
+    tag_counter = Counter()
+    
+    for article in news_articles:
+        tags = article.get('tags', [])
+        if isinstance(tags, list):
+            for tag in tags:
+                if tag and isinstance(tag, str) and tag.strip():
+                    # Normalizar tag
+                    normalized_tag = tag.strip().lower()
+                    tag_counter[normalized_tag] += 1
+    
+    # Convertir tags a trends
+    tag_trends = []
+    for idx, (tag, count) in enumerate(tag_counter.most_common(50)):  # Top 50 tags
+        trend = {
+            'id': base_id + idx,
+            'title': tag.title(),  # Capitalizar primera letra
+            'source': 'news_tags',
+            'volume': f'{count} artículos',
+            'timeframe': '24h noticias',
+            'news_count': count
+        }
+        tag_trends.append(trend)
+    
+    print(f"✅ {len(tag_trends)} tags extraídos como trends")
+    return tag_trends
+
+
 def count_news_by_trend(trends, news_articles):
     """
     Cuenta cuántas noticias tratan sobre cada trend.
-    Usa coincidencia fuzzy para detectar trends en títulos/subtítulos.
+    Usa coincidencia fuzzy para detectar trends en títulos/subtítulos/tags.
     """
     print("\n🔍 Analizando coincidencias trends-noticias...")
     
     for trend in trends:
+        # Si ya tiene news_count (tags), saltar
+        if trend.get('source') == 'news_tags':
+            continue
+        
         trend_title = trend['title'].lower()
         # Tokenizar trend (palabras clave principales)
         trend_keywords = set(re.findall(r'\w+', trend_title))
         # Filtrar stopwords comunes
-        stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 'es', 'por', 'con', 'para'}
+        stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 'es', 'por', 'con', 'para', 'al'}
         trend_keywords = trend_keywords - stopwords
         
         count = 0
-        matched_news = []
         
         for article in news_articles:
             title = article.get('title', '').lower()
             subtitle = article.get('subtitle', '').lower()
-            combined_text = f"{title} {subtitle}"
+            tags = [t.lower() for t in article.get('tags', []) if isinstance(t, str)]
+            combined_text = f"{title} {subtitle} {' '.join(tags)}"
             
-            # Método 1: Similitud directa (>70% match)
-            if similar(trend_title, title) > 0.7 or similar(trend_title, subtitle) > 0.7:
+            # Método 1: Similitud directa con título (>70% match)
+            if similar(trend_title, title) > 0.7:
                 count += 1
-                matched_news.append(article.get('title', '')[:50])
                 continue
             
-            # Método 2: Keywords (al menos 50% de keywords del trend presentes)
+            # Método 2: Match exacto en tags
+            if trend_title in tags:
+                count += 1
+                continue
+            
+            # Método 3: Keywords (al menos 60% de keywords del trend presentes)
             if trend_keywords:
                 matched_keywords = sum(1 for kw in trend_keywords if kw in combined_text)
-                if matched_keywords >= len(trend_keywords) * 0.5:
+                if matched_keywords >= len(trend_keywords) * 0.6:
                     count += 1
-                    matched_news.append(article.get('title', '')[:50])
         
         trend['news_count'] = count
         if count > 0:
             print(f"  🔗 '{trend['title'][:40]}': {count} noticias")
     
     return trends
+
+
+def merge_and_deduplicate_trends(all_trends):
+    """
+    Fusiona trends duplicados, manteniendo el de menor ID y sumando news_count.
+    """
+    print("\n🔄 Eliminando duplicados y fusionando trends...")
+    
+    # Diccionario: title_normalized -> trend
+    merged = {}
+    
+    for trend in all_trends:
+        # Normalizar título para comparación
+        title_key = re.sub(r'[^\w\s]', '', trend['title'].lower()).strip()
+        
+        if title_key in merged:
+            # Ya existe: mantener el de menor ID y sumar news_count
+            existing = merged[title_key]
+            if trend['id'] < existing['id']:
+                # Actualizar con el trend de menor ID pero sumar counts
+                trend['news_count'] = existing.get('news_count', 0) + trend.get('news_count', 0)
+                merged[title_key] = trend
+            else:
+                # Mantener existente pero sumar counts
+                existing['news_count'] = existing.get('news_count', 0) + trend.get('news_count', 0)
+        else:
+            merged[title_key] = trend
+    
+    unique_trends = list(merged.values())
+    print(f"✅ {len(all_trends)} trends → {len(unique_trends)} únicos")
+    return unique_trends
 
 
 def categorize_trends(trends):
@@ -188,7 +263,7 @@ async def scrape_trends24(url, selector1, selector2, base_id):
         trends = []
         sections = await page.query_selector_all(selector2)
         
-        for sec_idx, section in enumerate(sections[:3]):  # Máximo 3 secciones
+        for sec_idx, section in enumerate(sections[:3]):
             try:
                 list_elem = await section.query_selector('ol.stat-card-list')
                 if not list_elem:
@@ -279,7 +354,7 @@ async def scrape_getdaytrends(url, selector1, selector2, base_id):
 
 
 async def main():
-    print("🚀 GOOGLE TRENDS + X TRENDS + ANÁLISIS NOTICIAS ESPAÑA")
+    print("🚀 GOOGLE TRENDS + X TRENDS + TAGS NOTICIAS ESPAÑA")
     
     print("🔄 Scraping Google Trends 24h...")
     google_24h = await scrape_trends('24')
@@ -290,22 +365,22 @@ async def main():
     print("🔄 Scraping X Trends...")
     xtrends = await scrape_xtrends()
     
-    # Combinar trends
-    all_trends = google_24h + google_4h + xtrends
-    
-    # Eliminar duplicados preservando el más bajo ID
-    seen_titles = {}
-    unique_trends = []
-    for trend in all_trends:
-        title_key = re.sub(r'[^\w\s]', '', trend['title'].lower())
-        if title_key not in seen_titles or trend['id'] < seen_titles[title_key]:
-            seen_titles[title_key] = trend['id']
-            unique_trends.append(trend)
-    
-    # 📰 ANÁLISIS DE NOTICIAS
+    # 📰 ANÁLISIS DE NOTICIAS Y EXTRACCIÓN DE TAGS
     news_url = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/noticias_24h.json"
     news_articles = fetch_news_24h(news_url)
     
+    # Extraer tags como trends
+    tag_trends = []
+    if news_articles:
+        tag_trends = extract_tags_as_trends(news_articles)
+    
+    # Combinar todos los trends
+    all_trends = google_24h + google_4h + xtrends + tag_trends
+    
+    # Deduplicar y fusionar trends similares
+    unique_trends = merge_and_deduplicate_trends(all_trends)
+    
+    # Contar noticias para trends de Google/X (tags ya tienen count)
     if news_articles:
         unique_trends = count_news_by_trend(unique_trends, news_articles)
     
@@ -320,6 +395,7 @@ async def main():
         'summary': {
             'google_total': len(google_24h) + len(google_4h),
             'xtrends_total': len(xtrends),
+            'tags_total': len(tag_trends),
             'unique_total': len(sorted_trends),
             'with_news': len(trends_top),
             'without_news': len(trends_normal)
@@ -334,6 +410,7 @@ async def main():
     
     print("\n✅ Guardado: trends_google&x.json")
     print(f"📊 Total: {len(sorted_trends)} trends | 🔝 Con noticias: {len(trends_top)} | 📰 Sin noticias: {len(trends_normal)}")
+    print(f"🏷️ Tags extraídos: {len(tag_trends)}")
 
 
 if __name__ == "__main__":

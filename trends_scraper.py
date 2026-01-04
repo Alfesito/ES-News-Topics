@@ -35,16 +35,55 @@ def fetch_news_24h(url):
         return []
 
 
+def unify_tags(tag_counter):
+    """
+    Unifica tags donde uno contiene a otro.
+    Ejemplo: 'Trump' y 'Donald Trump' -> mantiene 'Trump'
+    Mantiene el tag más corto y suma los counts.
+    """
+    print("\n🔗 Unificando tags similares...")
+
+    # Convertir a lista ordenada por longitud (más cortos primero)
+    tags_sorted = sorted(tag_counter.items(), key=lambda x: len(x[0]))
+
+    unified = {}
+    merged_count = 0
+
+    for tag, count in tags_sorted:
+        # Buscar si este tag está contenido en algún tag ya unificado
+        found_parent = None
+        for unified_tag in list(unified.keys()):
+            # Si el tag actual está contenido en un tag unificado
+            if tag in unified_tag or unified_tag in tag:
+                # Mantener el más corto
+                if len(tag) < len(unified_tag):
+                    # Reemplazar el unificado por el más corto
+                    unified[tag] = unified.pop(unified_tag) + count
+                    found_parent = tag
+                else:
+                    # Agregar al existente
+                    unified[unified_tag] += count
+                    found_parent = unified_tag
+                merged_count += 1
+                break
+
+        if not found_parent:
+            unified[tag] = count
+
+    print(f"✅ {len(tag_counter)} tags → {len(unified)} unificados ({merged_count} fusionados)")
+    return unified
+
+
 def extract_tags_as_trends(news_articles, base_id=200):
     """
     Extrae tags de las noticias y los convierte en trends.
-    Cuenta cuántas noticias tiene cada tag.
+    Cuenta cuántas noticias tiene cada tag y unifica tags similares.
     """
     print("\n🏷️ Extrayendo tags de noticias como trends...")
-    
+
     # Contador de tags
     tag_counter = Counter()
-    
+
     for article in news_articles:
         tags = article.get('tags', [])
         if isinstance(tags, list):
@@ -53,10 +92,13 @@ def extract_tags_as_trends(news_articles, base_id=200):
                     # Normalizar tag
                     normalized_tag = tag.strip().lower()
                     tag_counter[normalized_tag] += 1
-    
-    # Convertir tags a trends
+
+    # Unificar tags similares
+    unified_tags = unify_tags(tag_counter)
+
+    # Convertir tags a trends (ordenar por count)
     tag_trends = []
-    for idx, (tag, count) in enumerate(tag_counter.most_common(50)):  # Top 50 tags
+    for idx, (tag, count) in enumerate(sorted(unified_tags.items(), key=lambda x: x[1], reverse=True)[:50]):
         trend = {
             'id': base_id + idx,
             'title': tag.title(),  # Capitalizar primera letra
@@ -66,7 +108,7 @@ def extract_tags_as_trends(news_articles, base_id=200):
             'news_count': count
         }
         tag_trends.append(trend)
-    
+
     print(f"✅ {len(tag_trends)} tags extraídos como trends")
     return tag_trends
 
@@ -77,47 +119,47 @@ def count_news_by_trend(trends, news_articles):
     Usa coincidencia fuzzy para detectar trends en títulos/subtítulos/tags.
     """
     print("\n🔍 Analizando coincidencias trends-noticias...")
-    
+
     for trend in trends:
         # Si ya tiene news_count (tags), saltar
         if trend.get('source') == 'news_tags':
             continue
-        
+
         trend_title = trend['title'].lower()
         # Tokenizar trend (palabras clave principales)
         trend_keywords = set(re.findall(r'\w+', trend_title))
         # Filtrar stopwords comunes
         stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 'es', 'por', 'con', 'para', 'al'}
         trend_keywords = trend_keywords - stopwords
-        
+
         count = 0
-        
+
         for article in news_articles:
             title = article.get('title', '').lower()
             subtitle = article.get('subtitle', '').lower()
             tags = [t.lower() for t in article.get('tags', []) if isinstance(t, str)]
             combined_text = f"{title} {subtitle} {' '.join(tags)}"
-            
+
             # Método 1: Similitud directa con título (>70% match)
             if similar(trend_title, title) > 0.7:
                 count += 1
                 continue
-            
+
             # Método 2: Match exacto en tags
             if trend_title in tags:
                 count += 1
                 continue
-            
+
             # Método 3: Keywords (al menos 60% de keywords del trend presentes)
             if trend_keywords:
                 matched_keywords = sum(1 for kw in trend_keywords if kw in combined_text)
                 if matched_keywords >= len(trend_keywords) * 0.6:
                     count += 1
-        
+
         trend['news_count'] = count
         if count > 0:
             print(f"  🔗 '{trend['title'][:40]}': {count} noticias")
-    
+
     return trends
 
 
@@ -126,14 +168,14 @@ def merge_and_deduplicate_trends(all_trends):
     Fusiona trends duplicados, manteniendo el de menor ID y sumando news_count.
     """
     print("\n🔄 Eliminando duplicados y fusionando trends...")
-    
+
     # Diccionario: title_normalized -> trend
     merged = {}
-    
+
     for trend in all_trends:
         # Normalizar título para comparación
         title_key = re.sub(r'[^\w\s]', '', trend['title'].lower()).strip()
-        
+
         if title_key in merged:
             # Ya existe: mantener el de menor ID y sumar news_count
             existing = merged[title_key]
@@ -146,7 +188,7 @@ def merge_and_deduplicate_trends(all_trends):
                 existing['news_count'] = existing.get('news_count', 0) + trend.get('news_count', 0)
         else:
             merged[title_key] = trend
-    
+
     unique_trends = list(merged.values())
     print(f"✅ {len(all_trends)} trends → {len(unique_trends)} únicos")
     return unique_trends
@@ -156,13 +198,13 @@ def categorize_trends(trends):
     """Categoriza trends en 'top' (con noticias) y normales"""
     trends_with_news = [t for t in trends if t.get('news_count', 0) > 0]
     trends_without_news = [t for t in trends if t.get('news_count', 0) == 0]
-    
+
     # Ordenar trends con noticias por: news_count DESC, luego por ID ASC
     trends_with_news.sort(key=lambda x: (-x['news_count'], x['id']))
-    
+
     # Ordenar trends sin noticias por ID ASC
     trends_without_news.sort(key=lambda x: x['id'])
-    
+
     return trends_with_news, trends_without_news
 
 
@@ -174,32 +216,32 @@ async def scrape_trends(hours):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         )
         page = await context.new_page()
-        
+
         url = f"https://trends.google.com/trending?geo=ES&hl=es&sort=search-volume&hours={hours}"
         await page.goto(url, wait_until='networkidle', timeout=45000)
-        
+
         await page.wait_for_selector('table.enOdEe-wZVHld-zg7Cn', timeout=30000)
         await page.wait_for_selector('tr[data-row-id]', timeout=20000)
-        
+
         rows = await page.query_selector_all('tr[data-row-id]')
         trends = []
-        
+
         base_id = 1 if hours == '24' else 20  # 1-19=24h, 20-39=4h
-        
+
         for i, row in enumerate(rows[:15]):
             try:
                 title_elem = await row.query_selector('div.mZ3RIc')
                 title = await title_elem.inner_text() if title_elem else ''
-                
+
                 if not title.strip():
                     continue
-                
+
                 volume_elem = await row.query_selector('div.lqv0Cb, div.qNpYPd')
                 volume = await volume_elem.inner_text() if volume_elem else '0'
-                
+
                 time_elem = await row.query_selector('div.A7jE4')
                 time = await time_elem.inner_text() if time_elem else ''
-                
+
                 trend = {
                     'id': base_id + i,
                     'title': title.strip(),
@@ -211,7 +253,7 @@ async def scrape_trends(hours):
                 trends.append(trend)
             except:
                 continue
-        
+
         await browser.close()
         print(f"Google {hours}h: {len(trends)} trends")
         return trends
@@ -223,10 +265,10 @@ async def scrape_xtrends():
         ("https://trends24.in/spain/", 'h2', 'section.stat-card', scrape_trends24),
         ("https://getdaytrends.com/spain/", '[data-testid="trend"]', None, scrape_getdaytrends),
     ]
-    
+
     xtrends = []
     base_id = 100
-    
+
     for idx, (url, selector1, selector2, scraper) in enumerate(sources):
         try:
             print(f"🔄 Probando X Trends fuente {idx+1}: {url}")
@@ -238,11 +280,11 @@ async def scrape_xtrends():
         except Exception as e:
             print(f"❌ X Trends fuente {idx+1} falló: {str(e)[:100]}")
             continue
-    
+
     if not xtrends:
         print("⚠️ Todas las fuentes X Trends fallaron - usando fallback")
         xtrends = []
-    
+
     print(f"X Trends total: {len(xtrends)}")
     return xtrends
 
@@ -256,42 +298,42 @@ async def scrape_trends24(url, selector1, selector2, base_id):
             viewport={'width': 1280, 'height': 720}
         )
         page = await context.new_page()
-        
+
         await page.goto(url, wait_until='domcontentloaded', timeout=45000)
         await page.wait_for_selector(selector1, timeout=30000)
-        
+
         trends = []
         sections = await page.query_selector_all(selector2)
-        
+
         for sec_idx, section in enumerate(sections[:3]):
             try:
                 list_elem = await section.query_selector('ol.stat-card-list')
                 if not list_elem:
                     continue
-                
+
                 items = await list_elem.query_selector_all('li.stat-card-item')
-                
+
                 for i, item in enumerate(items[:10]):
                     try:
                         link_elem = await item.query_selector('a.trend-link')
                         title = await link_elem.inner_text() if link_elem else ''
-                        
+
                         if not title.strip():
                             continue
-                        
+
                         item_text = await item.inner_text()
                         volume = 'N/A'
-                        
+
                         match = re.search(r'with ([\d.]+[KMB]?) tweet', item_text, re.IGNORECASE)
                         if match:
                             volume = match.group(1) + 'M tweets'
-                        
+
                         timeframe = '24h trends'
                         if 'longest' in item_text.lower():
                             match_time = re.search(r'for (\d+) hrs?', item_text)
                             if match_time:
                                 timeframe = f"{match_time.group(1)}h trending"
-                        
+
                         trend = {
                             'id': base_id + (sec_idx * 10) + i + 1,
                             'title': title.strip(),
@@ -305,7 +347,7 @@ async def scrape_trends24(url, selector1, selector2, base_id):
                         continue
             except:
                 continue
-        
+
         await browser.close()
         return trends
 
@@ -319,24 +361,24 @@ async def scrape_getdaytrends(url, selector1, selector2, base_id):
             viewport={'width': 1280, 'height': 720}
         )
         page = await context.new_page()
-        
+
         await page.goto(url, wait_until='domcontentloaded', timeout=45000)
         await page.wait_for_selector(selector1, timeout=30000)
-        
+
         trends = []
         items = await page.query_selector_all(selector1)
-        
+
         for i, item in enumerate(items[:25]):
             try:
                 title_elem = await item.query_selector('div[data-testid="trend-name"]')
                 title = await title_elem.inner_text() if title_elem else ''
-                
+
                 if not title.strip():
                     continue
-                
+
                 volume_elem = await item.query_selector('[data-testid="tweets"]')
                 volume = await volume_elem.inner_text() if volume_elem else 'N/A'
-                
+
                 trend = {
                     'id': base_id + i,
                     'title': title.strip(),
@@ -348,48 +390,48 @@ async def scrape_getdaytrends(url, selector1, selector2, base_id):
                 trends.append(trend)
             except:
                 continue
-        
+
         await browser.close()
         return trends
 
 
 async def main():
     print("🚀 GOOGLE TRENDS + X TRENDS + TAGS NOTICIAS ESPAÑA")
-    
+
     print("🔄 Scraping Google Trends 24h...")
     google_24h = await scrape_trends('24')
-    
+
     print("🔄 Scraping Google Trends 4h...")
     google_4h = await scrape_trends('4')
-    
+
     print("🔄 Scraping X Trends...")
     xtrends = await scrape_xtrends()
-    
+
     # 📰 ANÁLISIS DE NOTICIAS Y EXTRACCIÓN DE TAGS
     news_url = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/noticias_24h.json"
     news_articles = fetch_news_24h(news_url)
-    
+
     # Extraer tags como trends
     tag_trends = []
     if news_articles:
         tag_trends = extract_tags_as_trends(news_articles)
-    
+
     # Combinar todos los trends
     all_trends = google_24h + google_4h + xtrends + tag_trends
-    
+
     # Deduplicar y fusionar trends similares
     unique_trends = merge_and_deduplicate_trends(all_trends)
-    
+
     # Contar noticias para trends de Google/X (tags ya tienen count)
     if news_articles:
         unique_trends = count_news_by_trend(unique_trends, news_articles)
-    
+
     # Categorizar y ordenar
     trends_top, trends_normal = categorize_trends(unique_trends)
-    
+
     # Combinar: primero TOP (con noticias), luego normales
     sorted_trends = trends_top + trends_normal
-    
+
     result = {
         'timestamp': datetime.now().isoformat(),
         'summary': {
@@ -402,12 +444,12 @@ async def main():
         },
         'trends': sorted_trends
     }
-    
+
     print(json.dumps(result, indent=2, ensure_ascii=False))
-    
+
     with open('trends_google&x.json', 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
-    
+
     print("\n✅ Guardado: trends_google&x.json")
     print(f"📊 Total: {len(sorted_trends)} trends | 🔝 Con noticias: {len(trends_top)} | 📰 Sin noticias: {len(trends_normal)}")
     print(f"🏷️ Tags extraídos: {len(tag_trends)}")

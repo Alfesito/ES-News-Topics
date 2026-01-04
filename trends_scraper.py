@@ -14,6 +14,7 @@ import re
 import requests
 from difflib import SequenceMatcher
 from collections import Counter
+import unicodedata
 
 
 def similar(a, b):
@@ -35,11 +36,25 @@ def fetch_news_24h(url):
         return []
 
 
+def normalize_for_comparison(text):
+    """
+    Normaliza texto para comparación eliminando tildes y diacríticos.
+    'Nicolás' -> 'nicolas' (para comparación)
+    """
+    # Normalizar NFD (descomponer caracteres con tildes)
+    text = unicodedata.normalize('NFD', text)
+    # Eliminar marcas diacríticas (tildes, acentos)
+    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+    return text.lower()
+
+
 def unify_tags(tag_counter):
     """
-    Unifica tags donde uno contiene a otro.
-    Ejemplo: 'Trump' y 'Donald Trump' -> mantiene 'Trump'
-    Mantiene el tag más corto y suma los counts.
+    Unifica tags donde uno contiene a otro, considerando tildes.
+    Ejemplos: 
+    - 'Nicolas Maduro' y 'Nicolás Maduro' -> mantiene 'Nicolás Maduro' (con tilde)
+    - 'Trump' y 'Donald Trump' -> mantiene 'Trump'
+    - 'Venezuela' y 'Venezue' -> mantiene 'Venezuela' (el más completo)
     """
     print("\n🔗 Unificando tags similares...")
 
@@ -50,20 +65,47 @@ def unify_tags(tag_counter):
     merged_count = 0
 
     for tag, count in tags_sorted:
+        tag_normalized = normalize_for_comparison(tag)
+
         # Buscar si este tag está contenido en algún tag ya unificado
         found_parent = None
         for unified_tag in list(unified.keys()):
-            # Si el tag actual está contenido en un tag unificado
-            if tag in unified_tag or unified_tag in tag:
-                # Mantener el más corto
-                if len(tag) < len(unified_tag):
-                    # Reemplazar el unificado por el más corto
+            unified_normalized = normalize_for_comparison(unified_tag)
+
+            # Si son iguales sin tildes, mantener el que tiene tildes
+            if tag_normalized == unified_normalized:
+                # Preferir el que tiene tildes (más caracteres Unicode especiales)
+                if tag != tag.encode('ascii', 'ignore').decode('ascii'):
+                    # tag tiene tildes, reemplazar
                     unified[tag] = unified.pop(unified_tag) + count
                     found_parent = tag
                 else:
-                    # Agregar al existente
+                    # unified_tag tiene tildes (o ambos sin), mantener existente
                     unified[unified_tag] += count
                     found_parent = unified_tag
+                merged_count += 1
+                break
+
+            # Si uno contiene al otro (ignorando tildes)
+            if tag_normalized in unified_normalized or unified_normalized in tag_normalized:
+                # Determinar cuál mantener
+                # Si uno es prefijo del otro, mantener el más largo (completo)
+                if unified_normalized.startswith(tag_normalized):
+                    # 'venezue' es prefijo de 'venezuela' -> mantener 'venezuela'
+                    unified[unified_tag] += count
+                    found_parent = unified_tag
+                elif tag_normalized.startswith(unified_normalized):
+                    # 'venezuela' contiene 'venezue' -> reemplazar por 'venezuela'
+                    unified[tag] = unified.pop(unified_tag) + count
+                    found_parent = tag
+                else:
+                    # Caso general: mantener el más corto (ej: 'trump' vs 'donald trump')
+                    if len(tag_normalized) < len(unified_normalized):
+                        unified[tag] = unified.pop(unified_tag) + count
+                        found_parent = tag
+                    else:
+                        unified[unified_tag] += count
+                        found_parent = unified_tag
                 merged_count += 1
                 break
 
@@ -89,7 +131,7 @@ def extract_tags_as_trends(news_articles, base_id=200):
         if isinstance(tags, list):
             for tag in tags:
                 if tag and isinstance(tag, str) and tag.strip():
-                    # Normalizar tag
+                    # Normalizar tag (mantener tildes)
                     normalized_tag = tag.strip().lower()
                     tag_counter[normalized_tag] += 1
 

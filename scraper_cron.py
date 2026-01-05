@@ -17,30 +17,30 @@ import time
 
 
 SCRAPERS = {
-    'abc.es': ABCScraper(),
-    'elmundo.es': ElMundoScraper(),
-    'eldiario.es': ElDiarioScraper(),
-    'elpais.com': ElPaisScraper(),
-    'larazon.es': LaRazonScraper(),
-    'publico.es': PublicoScraper(),
-    'lavanguardia.com': LaVanguardiaScraper(),
-    'elespanol.com': ElEspanolScraper(),
-    'lavozdegalicia.es': LaVozDeGaliciaScraper(),
-    '20minutos.es': VeinteMinutosScraper()
+    'ABC': ABCScraper(),
+    'El Mundo': ElMundoScraper(),
+    'El Diario': ElDiarioScraper(),
+    'El Pais': ElPaisScraper(),
+    'La Razon': LaRazonScraper(),
+    'Publico': PublicoScraper(),
+    'La Vanguardia': LaVanguardiaScraper(),
+    'El Español': ElEspanolScraper(),
+    'La Voz De Galicia': LaVozDeGaliciaScraper(),
+    '20 Minutos': VeinteMinutosScraper()
 }
 
 
 URLS = {
-    'abc.es': 'https://www.abc.es',
-    'elmundo.es': 'https://www.elmundo.es',
-    'eldiario.es': 'https://www.eldiario.es',
-    'elpais.com': 'https://elpais.com',
-    'larazon.es': 'https://www.larazon.es',
-    'publico.es': 'https://www.publico.es',
-    'lavanguardia.com': 'https://www.lavanguardia.com',
-    'elespanol.com': 'https://www.elespanol.com',
-    'lavozdegalicia.es': 'https://www.lavozdegalicia.es',
-    '20minutos.es': 'https://www.20minutos.es'
+    'ABC': 'https://www.abc.es',
+    'El Mundo': 'https://www.elmundo.es',
+    'El Diario': 'https://www.eldiario.es',
+    'El Pais': 'https://elpais.com',
+    'La Razon': 'https://www.larazon.es',
+    'Publico': 'https://www.publico.es',
+    'La Vanguardia': 'https://www.lavanguardia.com',
+    'El Español': 'https://www.elespanol.com',
+    'La Voz De Galicia': 'https://www.lavozdegalicia.es',
+    '20 Minutos': 'https://www.20minutos.es'
 }
 
 

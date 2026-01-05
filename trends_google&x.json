@@ -1,29 +1,21 @@
 {
-  "timestamp": "2026-01-05T17:23:53.523794",
+  "timestamp": "2026-01-05T17:47:19.392597",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 84,
-    "with_news": 70,
-    "without_news": 14
+    "unique_total": 81,
+    "with_news": 72,
+    "without_news": 9
   },
   "trends": [
-    {
-      "id": 200,
-      "title": "Ue - Union Europea",
-      "source": "news_tags",
-      "volume": "304 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 304
-    },
     {
       "id": 101,
       "title": "Venezuela",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 287
+      "news_count": 289
     },
     {
       "id": 102,
@@ -31,15 +23,23 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 176
+      "news_count": 187
     },
     {
       "id": 203,
+      "title": "Cia",
+      "source": "news_tags",
+      "volume": "114 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 114
+    },
+    {
+      "id": 204,
       "title": "Nidos",
       "source": "news_tags",
-      "volume": "87 artículos",
+      "volume": "96 artículos",
       "timeframe": "24h noticias",
-      "news_count": 87
+      "news_count": 96
     },
     {
       "id": 103,
@@ -47,7 +47,7 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 82
+      "news_count": 77
     },
     {
       "id": 104,
@@ -55,23 +55,23 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 73
+      "news_count": 72
     },
     {
-      "id": 204,
+      "id": 205,
       "title": "America Latina",
       "source": "news_tags",
-      "volume": "68 artículos",
+      "volume": "71 artículos",
       "timeframe": "24h noticias",
-      "news_count": 68
+      "news_count": 71
     },
     {
-      "id": 2,
+      "id": 11,
       "title": "a que hora es la cabalgata de reyes",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 8 h (24h)",
-      "news_count": 52
+      "news_count": 61
     },
     {
       "id": 113,
@@ -79,146 +79,226 @@
       "source": "x_trends",
       "volume": "43MM tweets",
       "timeframe": "24h trends",
-      "news_count": 48
-    },
-    {
-      "id": 205,
-      "title": "Seguridad Social",
-      "source": "news_tags",
-      "volume": "47 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 47
+      "news_count": 52
     },
     {
       "id": 206,
       "title": "Madrid",
       "source": "news_tags",
-      "volume": "46 artículos",
+      "volume": "50 artículos",
       "timeframe": "24h noticias",
-      "news_count": 46
+      "news_count": 50
     },
     {
-      "id": 207,
-      "title": "Vivienda Asequible",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 208,
-      "title": "Jubilacion",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 209,
-      "title": "Oposiciones",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 210,
-      "title": "Crans-Montana",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 211,
-      "title": "Naufragio Indonesia",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 212,
-      "title": "Pensiones Pais Vasco",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 33,
+      "id": 30,
       "title": "nieve madrid aemet",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
+      "news_count": 48
+    },
+    {
+      "id": 207,
+      "title": "Aemet",
+      "source": "news_tags",
+      "volume": "41 artículos",
+      "timeframe": "24h noticias",
       "news_count": 41
     },
     {
-      "id": 213,
+      "id": 208,
+      "title": "Temporal En Espana",
+      "source": "news_tags",
+      "volume": "40 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 40
+    },
+    {
+      "id": 209,
+      "title": "Vivienda Asequible",
+      "source": "news_tags",
+      "volume": "40 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 40
+    },
+    {
+      "id": 210,
+      "title": "País Vasco",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 211,
       "title": "Politics",
       "source": "news_tags",
-      "volume": "36 artículos",
+      "volume": "37 artículos",
       "timeframe": "24h noticias",
-      "news_count": 36
+      "news_count": 37
+    },
+    {
+      "id": 212,
+      "title": "Jubilacion",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
+    },
+    {
+      "id": 213,
+      "title": "Oposiciones",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
     },
     {
       "id": 214,
-      "title": "Aemet - Agencia Estatal De Meteorologia",
+      "title": "Crans-Montana",
       "source": "news_tags",
-      "volume": "36 artículos",
+      "volume": "37 artículos",
       "timeframe": "24h noticias",
-      "news_count": 36
+      "news_count": 37
     },
     {
       "id": 215,
-      "title": "Temporal En Espana",
+      "title": "Naufragio Indonesia",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
+    },
+    {
+      "id": 216,
+      "title": "Internacional",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
+      "id": 217,
+      "title": "Loteria Del Nino 2026",
       "source": "news_tags",
       "volume": "34 artículos",
       "timeframe": "24h noticias",
       "news_count": 34
     },
     {
-      "id": 217,
-      "title": "Internacional",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 31
-    },
-    {
       "id": 218,
       "title": "Directo",
       "source": "news_tags",
-      "volume": "30 artículos",
+      "volume": "32 artículos",
       "timeframe": "24h noticias",
-      "news_count": 30
+      "news_count": 32
     },
     {
-      "id": 219,
-      "title": "Loteria Del Nino 2026",
+      "id": 220,
+      "title": "Guia Loteria Nino",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
+    },
+    {
+      "id": 221,
+      "title": "Ayuso",
       "source": "news_tags",
       "volume": "28 artículos",
       "timeframe": "24h noticias",
       "news_count": 28
     },
     {
-      "id": 220,
+      "id": 222,
+      "title": "Santoral Hoy",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 223,
+      "title": "Horoscopo Hoy",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 224,
+      "title": "Hora Loteria Nino",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 8,
+      "title": "cabalgata reyes barcelona 2026",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 27
+    },
+    {
+      "id": 32,
+      "title": "cabalgata oviedo 2026",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 27
+    },
+    {
+      "id": 225,
+      "title": "Barcelona",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
+      "id": 226,
       "title": "Politica",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 14,
+      "title": "horario mercadona hoy",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 25
+    },
+    {
+      "id": 29,
+      "title": "cabalgata barcelona",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 25
+    },
+    {
+      "id": 227,
+      "title": "Mercadona",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 228,
+      "title": "Loteria Nino Chatgpt",
       "source": "news_tags",
       "volume": "24 artículos",
       "timeframe": "24h noticias",
       "news_count": 24
     },
     {
-      "id": 221,
-      "title": "Guia Loteria Nino",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 222,
+      "id": 229,
       "title": "Mario Picazo",
       "source": "news_tags",
       "volume": "22 artículos",
@@ -226,100 +306,12 @@
       "news_count": 22
     },
     {
-      "id": 223,
-      "title": "Santoral Hoy",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 224,
-      "title": "Horoscopo Hoy",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 225,
-      "title": "Hora Loteria Nino",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 226,
-      "title": "Ayuso",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 227,
-      "title": "Barcelona",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 7,
-      "title": "cabalgata reyes barcelona 2026",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
-      "news_count": 20
-    },
-    {
-      "id": 26,
-      "title": "recorrido cabalgata reyes barcelona 2026",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 20
-    },
-    {
-      "id": 30,
-      "title": "cabalgata gijon 2026",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 20
-    },
-    {
-      "id": 25,
-      "title": "horario mercadona hoy",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 19
-    },
-    {
-      "id": 228,
-      "title": "Mercadona",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 229,
-      "title": "Caracas",
-      "source": "news_tags",
-      "volume": "18 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
       "id": 230,
-      "title": "Loteria Nino Chatgpt",
+      "title": "Rebajas",
       "source": "news_tags",
-      "volume": "18 artículos",
+      "volume": "21 artículos",
       "timeframe": "24h noticias",
-      "news_count": 18
+      "news_count": 21
     },
     {
       "id": 231,
@@ -331,7 +323,7 @@
     },
     {
       "id": 232,
-      "title": "Opinión",
+      "title": "Caracas",
       "source": "news_tags",
       "volume": "17 artículos",
       "timeframe": "24h noticias",
@@ -339,7 +331,7 @@
     },
     {
       "id": 233,
-      "title": "Carlos Herrera",
+      "title": "Vicente Valles",
       "source": "news_tags",
       "volume": "17 artículos",
       "timeframe": "24h noticias",
@@ -347,22 +339,62 @@
     },
     {
       "id": 234,
-      "title": "Tiempo",
+      "title": "Carlos Herrera",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 235,
+      "title": "Delcy Rodríguez",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 236,
+      "title": "Conflictos Diplomaticos",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 237,
+      "title": "Opinión",
       "source": "news_tags",
       "volume": "16 artículos",
       "timeframe": "24h noticias",
       "news_count": 16
     },
     {
-      "id": 235,
-      "title": "Rebajas",
+      "id": 238,
+      "title": "María Corina Machado",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 4,
+      "title": "horario cabalgata reyes",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 15
+    },
+    {
+      "id": 239,
+      "title": "Petróleo",
       "source": "news_tags",
       "volume": "15 artículos",
       "timeframe": "24h noticias",
       "news_count": 15
     },
     {
-      "id": 236,
+      "id": 240,
       "title": "Pedro Sánchez",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -370,15 +402,31 @@
       "news_count": 15
     },
     {
-      "id": 237,
-      "title": "Conflictos Diplomaticos",
-      "source": "news_tags",
-      "volume": "15 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 15
+      "id": 115,
+      "title": "Venezolanos",
+      "source": "x_trends",
+      "volume": "22MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 14
     },
     {
-      "id": 238,
+      "id": 241,
+      "title": "Chavismo",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 242,
+      "title": "Militares",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 243,
       "title": "Pedro Banos",
       "source": "news_tags",
       "volume": "14 artículos",
@@ -386,23 +434,15 @@
       "news_count": 14
     },
     {
-      "id": 239,
-      "title": "Laliga Ea Sports",
+      "id": 244,
+      "title": "Pp - Partido Popular",
       "source": "news_tags",
       "volume": "14 artículos",
       "timeframe": "24h noticias",
       "news_count": 14
     },
     {
-      "id": 115,
-      "title": "Venezolanos",
-      "source": "x_trends",
-      "volume": "22MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 13
-    },
-    {
-      "id": 240,
+      "id": 245,
       "title": "Nieve",
       "source": "news_tags",
       "volume": "13 artículos",
@@ -410,64 +450,24 @@
       "news_count": 13
     },
     {
-      "id": 241,
-      "title": "Petróleo",
+      "id": 246,
+      "title": "Tiempo",
       "source": "news_tags",
-      "volume": "13 artículos",
+      "volume": "12 artículos",
       "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 242,
-      "title": "Chavismo",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 243,
-      "title": "María Corina Machado",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 244,
-      "title": "Pp - Partido Popular",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 245,
-      "title": "Psoe (Partido Socialista Obrero Español)",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 105,
-      "title": "Gonzalo",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
       "news_count": 12
     },
     {
-      "id": 246,
-      "title": "Fútbol",
-      "source": "news_tags",
-      "volume": "11 artículos",
-      "timeframe": "24h noticias",
+      "id": 25,
+      "title": "horario cabalgata reyes madrid",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 11
     },
     {
       "id": 247,
-      "title": "Vicente Valles",
+      "title": "Laliga Ea Sports",
       "source": "news_tags",
       "volume": "11 artículos",
       "timeframe": "24h noticias",
@@ -475,19 +475,27 @@
     },
     {
       "id": 248,
-      "title": "Sucesos",
+      "title": "Gobierno De España",
+      "source": "news_tags",
+      "volume": "11 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 11
+    },
+    {
+      "id": 249,
+      "title": "Psoe",
       "source": "news_tags",
       "volume": "10 artículos",
       "timeframe": "24h noticias",
       "news_count": 10
     },
     {
-      "id": 249,
-      "title": "Breaking News",
-      "source": "news_tags",
-      "volume": "10 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 10
+      "id": 105,
+      "title": "Gonzalo",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 7
     },
     {
       "id": 1,
@@ -498,28 +506,36 @@
       "news_count": 6
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "nieve madrid",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 6
     },
     {
-      "id": 8,
-      "title": "horario cabalgata reyes",
+      "id": 10,
+      "title": "atletico de madrid",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 6
-    },
-    {
-      "id": 15,
-      "title": "iberia reyes magos",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 21 h (24h)",
       "news_count": 5
+    },
+    {
+      "id": 27,
+      "title": "julian assange",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 4
+    },
+    {
+      "id": 3,
+      "title": "recorrido cabalgata sevilla 2026",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 2
     },
     {
       "id": 9,
@@ -530,19 +546,19 @@
       "news_count": 2
     },
     {
-      "id": 3,
+      "id": 31,
+      "title": "recorrido cabalgata reyes zaragoza",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 2
+    },
+    {
+      "id": 2,
       "title": "loteria del niño",
       "source": "google",
       "volume": "20 mil+ búsquedas",
       "timeframe": "hace 10 h (24h)",
-      "news_count": 1
-    },
-    {
-      "id": 20,
-      "title": "recorrido cabalgata",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
       "news_count": 1
     },
     {
@@ -554,124 +570,12 @@
       "news_count": 1
     },
     {
-      "id": 27,
-      "title": "cabalgata reyes bilbao 2026",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 1
-    },
-    {
-      "id": 34,
-      "title": "recorrido cabalgata reyes zaragoza",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 1
-    },
-    {
-      "id": 4,
-      "title": "psg - paris fc",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 6,
-      "title": "deportivo - cádiz",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 10,
-      "title": "real zaragoza",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 11,
-      "title": "girona fc",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 12,
-      "title": "gta vi",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 13,
-      "title": "amorim",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 14,
-      "title": "tiempo en sevilla",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 0
-    },
-    {
       "id": 23,
-      "title": "egipto - benín",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 24,
       "title": "sara carbonero",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 28,
-      "title": "julian assange",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 29,
-      "title": "cabalgata malaga",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 31,
-      "title": "ivan apaolaza",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "sergio jimenez",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
+      "news_count": 1
     },
     {
       "id": 114,
@@ -679,6 +583,78 @@
       "source": "x_trends",
       "volume": "33MM tweets",
       "timeframe": "24h trends",
+      "news_count": 1
+    },
+    {
+      "id": 5,
+      "title": "psg - paris fc",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 22 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 7,
+      "title": "deportivo - cádiz",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 22 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 12,
+      "title": "egipto - benín",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 13,
+      "title": "gta vi",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 16 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 15,
+      "title": "tiempo en sevilla",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "cabalgata malaga",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 28,
+      "title": "sergio jimenez",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 33,
+      "title": "galatasaray - trabzonspor",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 34,
+      "title": "telemadrid directo",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
       "news_count": 0
     }
   ]

@@ -66,11 +66,18 @@ class ABCScraper(NewsScraperBase):
             author = self.text.cleantext(authorlink) if authorlink else ''
         
         # TAGS
-        navtopics = soup.find('nav', class_='voc-topics__header')
         tags = []
+        # Buscar el nav correcto (dos clases juntas)
+        navtopics = soup.find('nav', class_='voc-topics__header')
         if navtopics:
+            # Los tags están en <a> con clase voc-topics__link (también con dos guiones)
             taglinks = navtopics.find_all('a', class_='voc-topics__link')
-            tags = [self.text.cleantext(a.get('title') or a.text.strip()) for a in taglinks]
+            for a in taglinks:
+                # Usar title si existe, sino el texto
+                tag_text = a.get('title') or a.get_text(strip=True)
+                tag_clean = self.text.cleantext(tag_text)
+                if tag_clean and tag_clean.lower() != 'más temas':  # Filtrar "Más temas"
+                    tags.append(tag_clean)
         
         # BODY
         bodyparagraphs = soup.find_all('p', class_='voc-p')[:12]

@@ -93,8 +93,7 @@ def scrape_all():
                 ).hexdigest()
                 
                 art['hash'] = content_hash
-                art['domain'] = domain
-                art['newspaper'] = getattr(scraper, 'name', domain)
+                art['newspaper'] = domain
                 art['scraped_at'] = datetime.now().isoformat()
             
             all_articles.extend(enriched)

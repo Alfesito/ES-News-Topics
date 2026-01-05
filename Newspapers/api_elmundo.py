@@ -65,7 +65,7 @@ class ElMundoScraper(NewsScraperBase):
                 'El Mundo',          # source
                 article_id,          # id
                 date_str,            # date
-                tags[:3],            # tags
+                tags,                # tags
                 title,               # title
                 subtitle,            # subtitle
                 link,                # url

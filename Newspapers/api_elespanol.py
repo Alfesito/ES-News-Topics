@@ -74,10 +74,10 @@ class ElEspanolScraper(NewsScraperBase):
         tags = []
         tag_container = soup.select_one('.tags, .etiquetas, ul.tags')
         if tag_container:
-            tags = [self.text.cleantext(a) for a in tag_container.find_all('a')][:8]
+            tags = [self.text.cleantext(a) for a in tag_container.find_all('a')]
         else:
             meta_tags = soup.find_all('meta', attrs={'property': 'article:tag'})
-            tags = [t.get('content', '').strip() for t in meta_tags if t.get('content')] [:8]
+            tags = [t.get('content', '').strip() for t in meta_tags if t.get('content')]
 
         # BODY: buscar contenedores comunes y párrafos
         body_container = (soup.find('div', class_=re.compile(r'(article-body|contenido|cuerpo|article-content|article__body)')) or

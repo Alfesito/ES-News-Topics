@@ -72,11 +72,11 @@ class LaVanguardiaScraper(NewsScraperBase):
         tags = []
         tag_cont = soup.select_one('ul.tags, ul.etiquetas, .tags, .article-tags')
         if tag_cont:
-            tags = [self.text.cleantext(a) for a in tag_cont.find_all('a')][:8]
+            tags = [self.text.cleantext(a) for a in tag_cont.find_all('a')]
         else:
             # meta tag fallback
             meta_tags = soup.find_all('meta', attrs={'property': 'article:tag'})
-            tags = [t.get('content', '').strip() for t in meta_tags if t.get('content')] [:8]
+            tags = [t.get('content', '').strip() for t in meta_tags if t.get('content')]
 
         # BODY: buscar contenedores habituales y el bloque específico de La Vanguardia
         body_container = (soup.find('div', class_='article-modules') or

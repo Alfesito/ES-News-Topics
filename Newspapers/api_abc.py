@@ -70,7 +70,7 @@ class ABCScraper(NewsScraperBase):
         tags = []
         if navtopics:
             taglinks = navtopics.find_all('a', class_='voc-topics__link')
-            tags = [self.text.cleantext(a.get('title') or a.text.strip()) for a in taglinks][:8]
+            tags = [self.text.cleantext(a.get('title') or a.text.strip()) for a in taglinks]
         
         # BODY
         bodyparagraphs = soup.find_all('p', class_='voc-p')[:12]

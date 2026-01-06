@@ -1,0 +1,57 @@
+name: Análisis de Tags de Noticias
+
+on:
+  schedule:
+    # Ejecutar cada 2 horas
+    - cron: '0 */2 * * *'
+
+  # Permitir ejecución manual
+  workflow_dispatch:
+
+  # Ejecutar en cada push a main (opcional, comentar si no se desea)
+  push:
+    branches:
+      - main
+
+jobs:
+  analyze-tags:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Create output directory
+      run: |
+        mkdir -p tags_json
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run tags analysis
+      run: |
+        python analyze_news_tags.py
+      continue-on-error: false
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+    - name: Commit and push results
+      run: |
+        git add tags_json/*.json
+        git diff --staged --quiet || git commit -m "🔄 Update tags analysis - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -5,7 +5,6 @@ IDs: 1-99=Google (24h/4h) | 100+=X Trends | 200+=Tags Noticias
 Campos: id, title, source, volume, timeframe, news_count
 """
 
-
 import json
 from datetime import datetime
 import asyncio
@@ -41,11 +40,172 @@ def normalize_for_comparison(text):
     Normaliza texto para comparación eliminando tildes y diacríticos.
     'Nicolás' -> 'nicolas' (para comparación)
     """
-    # Normalizar NFD (descomponer caracteres con tildes)
     text = unicodedata.normalize('NFD', text)
-    # Eliminar marcas diacríticas (tildes, acentos)
     text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
     return text.lower()
+
+
+def normalize_title(title):
+    """
+    Normaliza título eliminando tildes y convirtiendo a minúsculas para comparación.
+    """
+    text = unicodedata.normalize('NFD', title)
+    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+    return text.lower().strip()
+
+
+def capitalize_title(title):
+    """
+    Capitaliza correctamente un título:
+    - Primera letra de cada palabra en mayúscula
+    - Excepto preposiciones/artículos (a menos que sean primera palabra)
+    """
+    lowercase_words = {'de', 'del', 'la', 'el', 'los', 'las', 'y', 'en', 'un', 'una', 
+                       'con', 'por', 'para', 'al', 'a', 'o', 'u', 'e'}
+
+    words = title.split()
+    capitalized = []
+
+    for i, word in enumerate(words):
+        if i == 0:
+            capitalized.append(word.capitalize())
+        elif word.isdigit():
+            capitalized.append(word)
+        elif word.lower() in lowercase_words:
+            capitalized.append(word.lower())
+        else:
+            capitalized.append(word.capitalize())
+
+    return ' '.join(capitalized)
+
+
+def extract_keywords(title):
+    """
+    Extrae palabras clave significativas de un título.
+    """
+    stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 
+                 'es', 'por', 'con', 'para', 'al', 'a', 'o', 'que', 'se', 'su'}
+
+    normalized = normalize_title(title)
+    words = re.findall(r'\b\w+\b', normalized)
+    keywords = {w for w in words if w not in stopwords and len(w) > 2}
+
+    return keywords
+
+
+def should_merge_trends(trend1, trend2, threshold=0.75):
+    """
+    Determina si dos trends deben fusionarse basándose en múltiples criterios.
+
+    Criterios de fusión:
+    1. Similitud de texto > threshold (75%)
+    2. Uno contiene al otro (normalizado)
+    3. Comparten >= 70% de palabras clave significativas
+    """
+    title1 = trend1['title']
+    title2 = trend2['title']
+
+    norm1 = normalize_title(title1)
+    norm2 = normalize_title(title2)
+
+    # Criterio 1: Similitud alta
+    similarity = similar(norm1, norm2)
+    if similarity >= threshold:
+        return True, similarity
+
+    # Criterio 2: Contención (uno contiene al otro)
+    if norm1 in norm2 or norm2 in norm1:
+        shorter = min(len(norm1), len(norm2))
+        longer = max(len(norm1), len(norm2))
+        containment_ratio = shorter / longer if longer > 0 else 0
+
+        if containment_ratio >= 0.6:
+            return True, containment_ratio
+
+    # Criterio 3: Palabras clave compartidas
+    keywords1 = extract_keywords(title1)
+    keywords2 = extract_keywords(title2)
+
+    if keywords1 and keywords2:
+        shared = keywords1 & keywords2
+        total = keywords1 | keywords2
+        jaccard = len(shared) / len(total) if total else 0
+
+        if jaccard >= 0.7:
+            return True, jaccard
+
+    return False, 0.0
+
+
+def unify_related_trends(trends):
+    """
+    Unifica trends relacionados manteniendo el más relevante.
+
+    Reglas de selección:
+    - Mantener el trend con menor ID (más prioritario)
+    - Sumar news_count de todos los trends fusionados
+    - Combinar sources si son diferentes
+    - Preferir título más corto y descriptivo
+    """
+    print("\n🔗 Unificando trends relacionados...")
+
+    unified_groups = []
+    processed = set()
+
+    for i, trend1 in enumerate(trends):
+        if i in processed:
+            continue
+
+        group = {
+            'trends': [trend1],
+            'indices': [i]
+        }
+
+        for j, trend2 in enumerate(trends[i+1:], start=i+1):
+            if j in processed:
+                continue
+
+            should_merge, score = should_merge_trends(trend1, trend2)
+
+            if should_merge:
+                group['trends'].append(trend2)
+                group['indices'].append(j)
+                processed.add(j)
+                print(f"  🔗 Fusionando: '{trend1['title'][:30]}' + '{trend2['title'][:30]}' (score: {score:.2f})")
+
+        unified_groups.append(group)
+        processed.add(i)
+
+    unified_trends = []
+
+    for group in unified_groups:
+        group_trends = group['trends']
+
+        if len(group_trends) == 1:
+            trend = group_trends[0].copy()
+            trend['title'] = capitalize_title(trend['title'])
+            unified_trends.append(trend)
+        else:
+            main_trend = min(group_trends, key=lambda t: t['id'])
+            total_news = sum(t.get('news_count', 0) for t in group_trends)
+            sources = list(set(t['source'] for t in group_trends))
+
+            best_title = max(group_trends, 
+                           key=lambda t: (len(extract_keywords(t['title'])), -len(t['title'])))['title']
+
+            unified_trend = main_trend.copy()
+            unified_trend['title'] = capitalize_title(best_title)
+            unified_trend['news_count'] = total_news
+
+            if len(sources) > 1:
+                unified_trend['merged_sources'] = sources
+
+            unified_trends.append(unified_trend)
+
+    print(f"✅ {len(trends)} trends → {len(unified_trends)} después de unificación")
+    print(f"📊 Fusionados: {len(trends) - len(unified_trends)} grupos")
+
+    return unified_trends
 
 
 def unify_tags(tag_counter):
@@ -58,7 +218,6 @@ def unify_tags(tag_counter):
     """
     print("\n🔗 Unificando tags similares...")
 
-    # Convertir a lista ordenada por longitud (más cortos primero)
     tags_sorted = sorted(tag_counter.items(), key=lambda x: len(x[0]))
 
     unified = {}
@@ -67,39 +226,28 @@ def unify_tags(tag_counter):
     for tag, count in tags_sorted:
         tag_normalized = normalize_for_comparison(tag)
 
-        # Buscar si este tag está contenido en algún tag ya unificado
         found_parent = None
         for unified_tag in list(unified.keys()):
             unified_normalized = normalize_for_comparison(unified_tag)
 
-            # Si son iguales sin tildes, mantener el que tiene tildes
             if tag_normalized == unified_normalized:
-                # Preferir el que tiene tildes (más caracteres Unicode especiales)
                 if tag != tag.encode('ascii', 'ignore').decode('ascii'):
-                    # tag tiene tildes, reemplazar
                     unified[tag] = unified.pop(unified_tag) + count
                     found_parent = tag
                 else:
-                    # unified_tag tiene tildes (o ambos sin), mantener existente
                     unified[unified_tag] += count
                     found_parent = unified_tag
                 merged_count += 1
                 break
 
-            # Si uno contiene al otro (ignorando tildes)
             if tag_normalized in unified_normalized or unified_normalized in tag_normalized:
-                # Determinar cuál mantener
-                # Si uno es prefijo del otro, mantener el más largo (completo)
                 if unified_normalized.startswith(tag_normalized):
-                    # 'venezue' es prefijo de 'venezuela' -> mantener 'venezuela'
                     unified[unified_tag] += count
                     found_parent = unified_tag
                 elif tag_normalized.startswith(unified_normalized):
-                    # 'venezuela' contiene 'venezue' -> reemplazar por 'venezuela'
                     unified[tag] = unified.pop(unified_tag) + count
                     found_parent = tag
                 else:
-                    # Caso general: mantener el más corto (ej: 'trump' vs 'donald trump')
                     if len(tag_normalized) < len(unified_normalized):
                         unified[tag] = unified.pop(unified_tag) + count
                         found_parent = tag
@@ -123,7 +271,6 @@ def extract_tags_as_trends(news_articles, base_id=200):
     """
     print("\n🏷️ Extrayendo tags de noticias como trends...")
 
-    # Contador de tags
     tag_counter = Counter()
 
     for article in news_articles:
@@ -131,19 +278,16 @@ def extract_tags_as_trends(news_articles, base_id=200):
         if isinstance(tags, list):
             for tag in tags:
                 if tag and isinstance(tag, str) and tag.strip():
-                    # Normalizar tag (mantener tildes)
                     normalized_tag = tag.strip().lower()
                     tag_counter[normalized_tag] += 1
 
-    # Unificar tags similares
     unified_tags = unify_tags(tag_counter)
 
-    # Convertir tags a trends (ordenar por count)
     tag_trends = []
     for idx, (tag, count) in enumerate(sorted(unified_tags.items(), key=lambda x: x[1], reverse=True)[:50]):
         trend = {
             'id': base_id + idx,
-            'title': tag.title(),  # Capitalizar primera letra
+            'title': tag.title(),
             'source': 'news_tags',
             'volume': f'{count} artículos',
             'timeframe': '24h noticias',
@@ -163,14 +307,11 @@ def count_news_by_trend(trends, news_articles):
     print("\n🔍 Analizando coincidencias trends-noticias...")
 
     for trend in trends:
-        # Si ya tiene news_count (tags), saltar
         if trend.get('source') == 'news_tags':
             continue
 
         trend_title = trend['title'].lower()
-        # Tokenizar trend (palabras clave principales)
         trend_keywords = set(re.findall(r'\w+', trend_title))
-        # Filtrar stopwords comunes
         stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 'es', 'por', 'con', 'para', 'al'}
         trend_keywords = trend_keywords - stopwords
 
@@ -182,17 +323,14 @@ def count_news_by_trend(trends, news_articles):
             tags = [t.lower() for t in article.get('tags', []) if isinstance(t, str)]
             combined_text = f"{title} {subtitle} {' '.join(tags)}"
 
-            # Método 1: Similitud directa con título (>70% match)
             if similar(trend_title, title) > 0.7:
                 count += 1
                 continue
 
-            # Método 2: Match exacto en tags
             if trend_title in tags:
                 count += 1
                 continue
 
-            # Método 3: Keywords (al menos 60% de keywords del trend presentes)
             if trend_keywords:
                 matched_keywords = sum(1 for kw in trend_keywords if kw in combined_text)
                 if matched_keywords >= len(trend_keywords) * 0.6:
@@ -211,22 +349,17 @@ def merge_and_deduplicate_trends(all_trends):
     """
     print("\n🔄 Eliminando duplicados y fusionando trends...")
 
-    # Diccionario: title_normalized -> trend
     merged = {}
 
     for trend in all_trends:
-        # Normalizar título para comparación
         title_key = re.sub(r'[^\w\s]', '', trend['title'].lower()).strip()
 
         if title_key in merged:
-            # Ya existe: mantener el de menor ID y sumar news_count
             existing = merged[title_key]
             if trend['id'] < existing['id']:
-                # Actualizar con el trend de menor ID pero sumar counts
                 trend['news_count'] = existing.get('news_count', 0) + trend.get('news_count', 0)
                 merged[title_key] = trend
             else:
-                # Mantener existente pero sumar counts
                 existing['news_count'] = existing.get('news_count', 0) + trend.get('news_count', 0)
         else:
             merged[title_key] = trend
@@ -240,40 +373,24 @@ def get_sort_priority(trend):
     """
     Asigna prioridad de ordenación basada en los criterios especificados.
     Retorna tupla: (prioridad, -news_count, id)
-    - Prioridad menor = aparece primero
-    - news_count negativo para orden descendente
     """
     news_count = trend.get('news_count', 0)
     source = trend.get('source', '')
     volume = trend.get('volume', '').lower()
-    
-    # Verificar si el volumen contiene 'MM' o 'M' (millones)
+
     has_mm = 'mm' in volume or bool(re.search(r'\d+[.,]?\d*\s*m\b', volume))
-    
-    # Verificar si contiene 'mil+' o 'K' (miles)
     has_k = 'mil+' in volume or 'k' in volume
-    
-    # Prioridad 1: news_count >= 75
+
     if news_count >= 75:
         return (1, -news_count, trend['id'])
-    
-    # Prioridad 2: source == x_trends && tiene MM
     elif source == 'x_trends' and has_mm:
         return (2, -news_count, trend['id'])
-    
-    # Prioridad 3: news_count >= 30 y < 75
     elif 30 <= news_count < 75:
         return (3, -news_count, trend['id'])
-    
-    # Prioridad 4: source == google && volume contiene mil+ o K
     elif source == 'google' and has_k:
         return (4, -news_count, trend['id'])
-    
-    # Prioridad 5: source == google && volume NO contiene MM/M ni mil+/K
     elif source == 'google' and not has_mm and not has_k:
         return (5, -news_count, trend['id'])
-    
-    # Prioridad 6: resto (incluye news_tags, x_trends sin MM, etc.)
     else:
         return (6, -news_count, trend['id'])
 
@@ -301,7 +418,7 @@ async def scrape_trends(hours):
         rows = await page.query_selector_all('tr[data-row-id]')
         trends = []
 
-        base_id = 1 if hours == '24' else 20  # 1-19=24h, 20-39=4h
+        base_id = 1 if hours == '24' else 20
 
         for i, row in enumerate(rows[:15]):
             try:
@@ -350,8 +467,8 @@ async def scrape_xtrends():
             trends = await scraper(url, selector1, selector2, base_id + (idx * 50))
             if trends:
                 print(f"✅ X Trends fuente {idx+1}: {len(trends)} trends")
-                xtrends.extend(trends[:20])  # Máximo 20 por fuente
-                break  # Usar primera fuente que funcione
+                xtrends.extend(trends[:20])
+                break
         except Exception as e:
             print(f"❌ X Trends fuente {idx+1} falló: {str(e)[:100]}")
             continue
@@ -482,27 +599,23 @@ async def main():
     print("🔄 Scraping X Trends...")
     xtrends = await scrape_xtrends()
 
-    # 📰 ANÁLISIS DE NOTICIAS Y EXTRACCIÓN DE TAGS
     news_url = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/noticias_24h.json"
     news_articles = fetch_news_24h(news_url)
 
-    # Extraer tags como trends
     tag_trends = []
     if news_articles:
         tag_trends = extract_tags_as_trends(news_articles)
 
-    # Combinar todos los trends
     all_trends = google_24h + google_4h + xtrends + tag_trends
 
-    # Deduplicar y fusionar trends similares
     unique_trends = merge_and_deduplicate_trends(all_trends)
 
-    # Contar noticias para trends de Google/X (tags ya tienen count)
     if news_articles:
         unique_trends = count_news_by_trend(unique_trends, news_articles)
 
-    # Categorizar y ordenar
-    sorted_trends = sort_trends_custom(unique_trends)
+    unified_trends = unify_related_trends(unique_trends)
+
+    sorted_trends = sort_trends_custom(unified_trends)
 
     result = {
         'timestamp': datetime.now().isoformat(),
@@ -511,6 +624,7 @@ async def main():
             'xtrends_total': len(xtrends),
             'tags_total': len(tag_trends),
             'unique_total': len(sorted_trends),
+            'unified_count': len(unique_trends) - len(unified_trends),
             'with_news': sum(1 for t in sorted_trends if t.get('news_count', 0) > 0),
             'without_news': sum(1 for t in sorted_trends if t.get('news_count', 0) == 0)
         },
@@ -523,9 +637,12 @@ async def main():
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     print("\n✅ Guardado: trends_google&x.json")
-    print(f"📊 Total: {len(sorted_trends)} trends | 🔝 Con noticias: {len(trends_top)} | 📰 Sin noticias: {len(trends_normal)}")
+    print(f"📊 Total: {len(sorted_trends)} trends")
+    print(f"🔗 Trends unificados: {len(unique_trends) - len(unified_trends)}")
+    print(f"🔝 Con noticias: {sum(1 for t in sorted_trends if t.get('news_count', 0) > 0)}")
     print(f"🏷️ Tags extraídos: {len(tag_trends)}")
 
 
 if __name__ == "__main__":
     asyncio.run(main())
+    

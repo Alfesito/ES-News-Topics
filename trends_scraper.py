@@ -236,18 +236,51 @@ def merge_and_deduplicate_trends(all_trends):
     return unique_trends
 
 
-def categorize_trends(trends):
-    """Categoriza trends en 'top' (con noticias) y normales"""
-    trends_with_news = [t for t in trends if t.get('news_count', 0) > 0]
-    trends_without_news = [t for t in trends if t.get('news_count', 0) == 0]
+def get_sort_priority(trend):
+    """
+    Asigna prioridad de ordenación basada en los criterios especificados.
+    Retorna tupla: (prioridad, -news_count, id)
+    - Prioridad menor = aparece primero
+    - news_count negativo para orden descendente
+    """
+    news_count = trend.get('news_count', 0)
+    source = trend.get('source', '')
+    volume = trend.get('volume', '').lower()
+    
+    # Verificar si el volumen contiene 'MM' o 'M' (millones)
+    has_mm = 'mm' in volume or bool(re.search(r'\d+[.,]?\d*\s*m\b', volume))
+    
+    # Verificar si contiene 'mil+' o 'K' (miles)
+    has_k = 'mil+' in volume or 'k' in volume
+    
+    # Prioridad 1: news_count >= 75
+    if news_count >= 75:
+        return (1, -news_count, trend['id'])
+    
+    # Prioridad 2: source == x_trends && tiene MM
+    elif source == 'x_trends' and has_mm:
+        return (2, -news_count, trend['id'])
+    
+    # Prioridad 3: news_count >= 30 y < 75
+    elif 30 <= news_count < 75:
+        return (3, -news_count, trend['id'])
+    
+    # Prioridad 4: source == google && volume contiene mil+ o K
+    elif source == 'google' and has_k:
+        return (4, -news_count, trend['id'])
+    
+    # Prioridad 5: source == google && volume NO contiene MM/M ni mil+/K
+    elif source == 'google' and not has_mm and not has_k:
+        return (5, -news_count, trend['id'])
+    
+    # Prioridad 6: resto (incluye news_tags, x_trends sin MM, etc.)
+    else:
+        return (6, -news_count, trend['id'])
 
-    # Ordenar trends con noticias por: news_count DESC, luego por ID ASC
-    trends_with_news.sort(key=lambda x: (-x['news_count'], x['id']))
 
-    # Ordenar trends sin noticias por ID ASC
-    trends_without_news.sort(key=lambda x: x['id'])
-
-    return trends_with_news, trends_without_news
+def sort_trends_custom(trends):
+    """Ordena trends según los criterios personalizados."""
+    return sorted(trends, key=get_sort_priority)
 
 
 async def scrape_trends(hours):
@@ -469,10 +502,7 @@ async def main():
         unique_trends = count_news_by_trend(unique_trends, news_articles)
 
     # Categorizar y ordenar
-    trends_top, trends_normal = categorize_trends(unique_trends)
-
-    # Combinar: primero TOP (con noticias), luego normales
-    sorted_trends = trends_top + trends_normal
+    sorted_trends = sort_trends_custom(unique_trends)
 
     result = {
         'timestamp': datetime.now().isoformat(),
@@ -481,8 +511,8 @@ async def main():
             'xtrends_total': len(xtrends),
             'tags_total': len(tag_trends),
             'unique_total': len(sorted_trends),
-            'with_news': len(trends_top),
-            'without_news': len(trends_normal)
+            'with_news': sum(1 for t in sorted_trends if t.get('news_count', 0) > 0),
+            'without_news': sum(1 for t in sorted_trends if t.get('news_count', 0) == 0)
         },
         'trends': sorted_trends
     }

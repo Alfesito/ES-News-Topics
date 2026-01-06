@@ -1,11 +1,12 @@
 {
-  "timestamp": "2026-01-06T10:50:47.037748",
+  "timestamp": "2026-01-06T11:20:16.853578",
   "summary": {
     "google_total": 30,
     "xtrends_total": 11,
     "tags_total": 50,
-    "unique_total": 83,
-    "with_news": 67,
+    "unique_total": 79,
+    "unified_count": 5,
+    "with_news": 63,
     "without_news": 16
   },
   "trends": [
@@ -18,12 +19,28 @@
       "news_count": 283
     },
     {
-      "id": 201,
+      "id": 20,
       "title": "Loteria Nino Chatgpt",
-      "source": "news_tags",
-      "volume": "197 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 197
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 202,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Nicolás Maduro Guerra",
+      "source": "x_trends",
+      "volume": "16MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 189,
+      "merged_sources": [
+        "news_tags",
+        "x_trends"
+      ]
     },
     {
       "id": 112,
@@ -32,14 +49,6 @@
       "volume": "52MM tweets",
       "timeframe": "24h trends",
       "news_count": 176
-    },
-    {
-      "id": 202,
-      "title": "Nicolás Maduro Guerra",
-      "source": "news_tags",
-      "volume": "137 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 137
     },
     {
       "id": 203,
@@ -51,7 +60,7 @@
     },
     {
       "id": 204,
-      "title": "Loteria Del Nino 2026",
+      "title": "Loteria del Nino 2026",
       "source": "news_tags",
       "volume": "120 artículos",
       "timeframe": "24h noticias",
@@ -64,6 +73,26 @@
       "volume": "7.4MM tweets",
       "timeframe": "24h trends",
       "news_count": 106
+    },
+    {
+      "id": 220,
+      "title": "Primer Premio Loteria Nino",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 94
+    },
+    {
+      "id": 114,
+      "title": "Cia",
+      "source": "x_trends",
+      "volume": "7.7MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 86,
+      "merged_sources": [
+        "news_tags",
+        "x_trends"
+      ]
     },
     {
       "id": 207,
@@ -82,24 +111,16 @@
       "news_count": 78
     },
     {
-      "id": 209,
-      "title": "Cia",
-      "source": "news_tags",
-      "volume": "75 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 75
-    },
-    {
       "id": 1,
-      "title": "a que hora es el sorteo del niño",
+      "title": "A Que Hora Es el Sorteo del Niño",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 73
     },
     {
-      "id": 9,
-      "title": "cabalgata reyes barcelona 2026",
+      "id": 8,
+      "title": "Cabalgata Reyes Barcelona 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 23 h (24h)",
@@ -170,14 +191,6 @@
       "news_count": 57
     },
     {
-      "id": 113,
-      "title": "Nicolás Maduro",
-      "source": "x_trends",
-      "volume": "16MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 52
-    },
-    {
       "id": 218,
       "title": "Jorge Rey",
       "source": "news_tags",
@@ -187,23 +200,7 @@
     },
     {
       "id": 219,
-      "title": "Roscon De Reyes",
-      "source": "news_tags",
-      "volume": "47 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 47
-    },
-    {
-      "id": 220,
-      "title": "Primer Premio Loteria Nino",
-      "source": "news_tags",
-      "volume": "47 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 47
-    },
-    {
-      "id": 221,
-      "title": "Segundo Premio Loteria Nino",
+      "title": "Roscon de Reyes",
       "source": "news_tags",
       "volume": "47 artículos",
       "timeframe": "24h noticias",
@@ -218,6 +215,14 @@
       "news_count": 39
     },
     {
+      "id": 230,
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
       "id": 223,
       "title": "Delcy Rodríguez",
       "source": "news_tags",
@@ -226,18 +231,210 @@
       "news_count": 31
     },
     {
+      "id": 23,
+      "title": "Pascua Militar 2026",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 16
+    },
+    {
+      "id": 5,
+      "title": "Baltasar",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 15
+    },
+    {
+      "id": 13,
+      "title": "Nevadas",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 9
+    },
+    {
+      "id": 9,
+      "title": "Melchor Gaspar y Baltasar",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
+      "news_count": 8
+    },
+    {
+      "id": 14,
+      "title": "Julian Assange",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 6
+    },
+    {
+      "id": 2,
+      "title": "Sara Carbonero",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 4
+    },
+    {
+      "id": 6,
+      "title": "Beltran Iraburu",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 3
+    },
+    {
+      "id": 10,
+      "title": "Por Donde Van los Reyes Magos",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 3
+    },
+    {
+      "id": 25,
+      "title": "Jd",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 3
+    },
+    {
+      "id": 29,
+      "title": "Precio Luz Hoy",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 3,
+      "title": "El Corte Ingles",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 4,
+      "title": "Joao Cancelo",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 7,
+      "title": "Titanic",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 14 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 11,
+      "title": "Egipto - Benín",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 20 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 12,
+      "title": "Ivan Apaolaza",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 15,
+      "title": "Roberto Carlos",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 13 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 22,
+      "title": "Liam Rosenior",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 24,
+      "title": "Pablo Carreño",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "Albarracin",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 28,
+      "title": "El Tiempo en Pamplona",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 34,
+      "title": "Iphone 16 e",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 2
+    },
+    {
+      "id": 30,
+      "title": "Molina de Aragon",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 31,
+      "title": "Noon",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 32,
+      "title": "Rockstar Games Gta 6",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 33,
+      "title": "Doctrina Donroe",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
       "id": 224,
       "title": "Politics",
       "source": "news_tags",
       "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 230,
-      "title": "Eeuu",
-      "source": "news_tags",
-      "volume": "17 artículos",
       "timeframe": "24h noticias",
       "news_count": 29
     },
@@ -298,14 +495,6 @@
       "news_count": 17
     },
     {
-      "id": 31,
-      "title": "pascua militar 2026",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 16
-    },
-    {
       "id": 233,
       "title": "Militares Carrera",
       "source": "news_tags",
@@ -315,19 +504,11 @@
     },
     {
       "id": 234,
-      "title": "Petróleos De Venezuela",
+      "title": "Petróleos de Venezuela",
       "source": "news_tags",
       "volume": "16 artículos",
       "timeframe": "24h noticias",
       "news_count": 16
-    },
-    {
-      "id": 6,
-      "title": "baltasar",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 15
     },
     {
       "id": 235,
@@ -378,14 +559,6 @@
       "news_count": 13
     },
     {
-      "id": 114,
-      "title": "China",
-      "source": "x_trends",
-      "volume": "7.7MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 11
-    },
-    {
       "id": 242,
       "title": "Chavismo",
       "source": "news_tags",
@@ -419,39 +592,23 @@
     },
     {
       "id": 246,
-      "title": "Unión Europea (Ue)",
+      "title": "Unión Europea (ue)",
       "source": "news_tags",
       "volume": "10 artículos",
       "timeframe": "24h noticias",
       "news_count": 10
     },
     {
-      "id": 4,
-      "title": "melchor",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 9
-    },
-    {
-      "id": 13,
-      "title": "nevadas",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "id": 104,
+      "title": "Melchor",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
       "news_count": 9
     },
     {
       "id": 247,
       "title": "Cuba",
-      "source": "news_tags",
-      "volume": "9 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 9
-    },
-    {
-      "id": 248,
-      "title": "Ee Uu",
       "source": "news_tags",
       "volume": "9 artículos",
       "timeframe": "24h noticias",
@@ -466,62 +623,6 @@
       "news_count": 9
     },
     {
-      "id": 25,
-      "title": "feliz dia de reyes 2026",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 8
-    },
-    {
-      "id": 14,
-      "title": "julian assange",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
-      "news_count": 6
-    },
-    {
-      "id": 20,
-      "title": "a qué hora es la lotería del niño",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 5
-    },
-    {
-      "id": 2,
-      "title": "sara carbonero",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
-      "news_count": 4
-    },
-    {
-      "id": 7,
-      "title": "beltran iraburu",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 3
-    },
-    {
-      "id": 10,
-      "title": "por donde van los reyes magos",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
-      "news_count": 3
-    },
-    {
-      "id": 27,
-      "title": "jd",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
-      "news_count": 3
-    },
-    {
       "id": 103,
       "title": "Cancelo",
       "source": "x_trends",
@@ -530,132 +631,12 @@
       "news_count": 2
     },
     {
-      "id": 23,
-      "title": "precio luz hoy",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 1
-    },
-    {
       "id": 101,
       "title": "Analista",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 1
-    },
-    {
-      "id": 3,
-      "title": "el corte ingles",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 5,
-      "title": "joao cancelo",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 8,
-      "title": "titanic",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 11,
-      "title": "egipto - benín",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 12,
-      "title": "ivan apaolaza",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
-      "title": "roberto carlos",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 24,
-      "title": "liam rosenior",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 26,
-      "title": "pablo carreño",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 28,
-      "title": "euskalmet",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 29,
-      "title": "albarracin",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 30,
-      "title": "el tiempo en pamplona",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "rockstar games gta 6",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
-      "title": "molina de aragon",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 34,
-      "title": "doctrina donroe",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
     },
     {
       "id": 105,

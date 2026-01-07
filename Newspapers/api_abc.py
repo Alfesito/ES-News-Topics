@@ -1,6 +1,6 @@
 from Scraper.Base_Scraper import NewsScraperBase
 from urllib.parse import urljoin
-from TagEnricher import TagEnricher
+from .TagEnricher import TagEnricher
 
 class ABCScraper(NewsScraperBase):
     def __init__(self):

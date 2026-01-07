@@ -1,5 +1,5 @@
 from Scraper.Base_Scraper import NewsScraperBase
-from TagEnricher import TagEnricher
+from .TagEnricher import TagEnricher
 from urllib.parse import urljoin
 import re
 

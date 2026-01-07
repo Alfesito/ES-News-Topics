@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-07T15:51:09.551308",
+  "timestamp": "2026-01-07T16:32:17.939958",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 15,
+    "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 83,
+    "unique_total": 77,
     "unified_count": 6,
-    "with_news": 58,
-    "without_news": 25
+    "with_news": 54,
+    "without_news": 23
   },
   "trends": [
     {
@@ -27,7 +27,7 @@
       "news_count": 178
     },
     {
-      "id": 103,
+      "id": 104,
       "title": "Trump",
       "source": "x_trends",
       "volume": "N/A",
@@ -38,7 +38,7 @@
       "id": 112,
       "title": "Venezuela",
       "source": "x_trends",
-      "volume": "42MM tweets",
+      "volume": "36MM tweets",
       "timeframe": "24h trends",
       "news_count": 153
     },
@@ -59,20 +59,20 @@
       "news_count": 82
     },
     {
-      "id": 115,
-      "title": "Delcy",
-      "source": "x_trends",
-      "volume": "7.1MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 60
-    },
-    {
       "id": 114,
       "title": "Soles",
       "source": "x_trends",
-      "volume": "7.8MM tweets",
+      "volume": "7.2MM tweets",
       "timeframe": "24h trends",
       "news_count": 5
+    },
+    {
+      "id": 113,
+      "title": "Greenland",
+      "source": "x_trends",
+      "volume": "9.6MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 0
     },
     {
       "id": 205,
@@ -107,7 +107,7 @@
       "news_count": 53
     },
     {
-      "id": 102,
+      "id": 103,
       "title": "Reyes",
       "source": "x_trends",
       "volume": "N/A",
@@ -115,12 +115,16 @@
       "news_count": 51
     },
     {
-      "id": 104,
-      "title": "Greenland",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 50
+      "id": 34,
+      "title": "Groelandia",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 50,
+      "merged_sources": [
+        "x_trends",
+        "google"
+      ]
     },
     {
       "id": 209,
@@ -227,11 +231,11 @@
       "news_count": 31
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Donald Trump Groenlandia",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 29
     },
     {
@@ -247,15 +251,7 @@
       "title": "Renfe",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 2
-    },
-    {
-      "id": 20,
-      "title": "Albacete Real Madrid",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 2
     },
     {
@@ -263,15 +259,7 @@
       "title": "Sorteo Copa del Rey",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
-      "news_count": 1
-    },
-    {
-      "id": 22,
-      "title": "Nueva Borrasca Goretti",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 1
     },
     {
@@ -279,7 +267,7 @@
       "title": "Granada - Rayo Vallecano",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0
     },
     {
@@ -295,7 +283,7 @@
       "title": "Calendario 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0
     },
     {
@@ -303,7 +291,7 @@
       "title": "West Ham - Nottingham Forest",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0
     },
     {
@@ -311,19 +299,11 @@
       "title": "Sassuolo - Juventus",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0
     },
     {
       "id": 9,
-      "title": "Muere Bela Tarr",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 10,
       "title": "Pelicans - Lakers",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -331,35 +311,67 @@
       "news_count": 0
     },
     {
+      "id": 10,
+      "title": "Melissa Pinto",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 20 min (24h)",
+      "news_count": 0
+    },
+    {
       "id": 11,
-      "title": "Bruce Willis",
+      "title": "Sepe",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 13,
+      "title": "Aeat",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 14,
+      "title": "Semana Santa 2026",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 23 h (24h)",
       "news_count": 0
     },
     {
-      "id": 12,
-      "title": "Sepe",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 14,
-      "title": "Aeat",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 0
-    },
-    {
       "id": 15,
-      "title": "Semana Santa 2026",
+      "title": "Crvena Zvezda - Valencia",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 22 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 20,
+      "title": "Entradas Albacete Real Madrid",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 21,
+      "title": "Donde Ver Supercopa de España",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 22,
+      "title": "Sri Lanka Vs Pakistan",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -367,59 +379,43 @@
       "title": "Balizas V16",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 24,
-      "title": "Sri Lanka Vs Pakistan",
+      "title": "Renfe Avlo",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
       "news_count": 0
     },
     {
       "id": 25,
-      "title": "Donde Ver Supercopa de España",
+      "title": "Joaquin Prat",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
-      "id": 26,
-      "title": "Entradas Albacete Balompie",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 27,
-      "title": "Cultural Leonesa",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 34,
+      "id": 31,
       "title": "Petrolero Ruso",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 10
     },
     {
-      "id": 30,
-      "title": "Rfef",
+      "id": 26,
+      "title": "Pensiones",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 40 min (4h)",
       "news_count": 2
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Simon Yates",
       "source": "google",
       "volume": "500+ búsquedas",
@@ -427,19 +423,19 @@
       "news_count": 0
     },
     {
-      "id": 29,
-      "title": "Joaquin Prat",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 31,
+      "id": 28,
       "title": "Sergio Jimenez",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 29,
+      "title": "Copa de la Reina",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0
     },
     {
@@ -447,7 +443,7 @@
       "title": "Groenlandia Pertenece a Dinamarca",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -627,48 +623,8 @@
       "news_count": 1
     },
     {
-      "id": 125,
-      "title": "Islandia",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 1
-    },
-    {
-      "id": 101,
+      "id": 102,
       "title": "#laisladelastentaciones24",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 121,
-      "title": "#tem7e",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "#nosomos7e",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 123,
-      "title": "Pilar Rahola",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 124,
-      "title": "Marta",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

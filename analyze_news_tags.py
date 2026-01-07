@@ -254,20 +254,10 @@ def analyze_tag_network(news_url):
     }
 
     # Guardar resultados
-    with open('tag_relations.json', 'w', encoding='utf-8') as f:
+    with open('./tags_json/tag_relations.json', 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     print("\n✅ Resultados guardados en: tag_relations.json")
-
-    # Mostrar ejemplos
-    print("\n📊 Top 10 tags con más relaciones:")
-    sorted_tags = sorted(tag_stats.items(), key=lambda x: x[1]['related_count'], reverse=True)[:10]
-    for i, (tag, stats) in enumerate(sorted_tags, 1):
-        print(f"  {i}. {tag}: {stats['related_count']} relaciones, {stats['frequency']} apariciones")
-
-    print("\n🎯 Clusters más grandes:")
-    for i, cluster in enumerate(clusters[:5], 1):
-        print(f"  {i}. Tamaño {cluster['size']}: {', '.join(cluster['tags'][:5])}...")
 
     return result
 

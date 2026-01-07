@@ -44,15 +44,12 @@ jobs:
         python analyze_news_tags.py
       continue-on-error: false
 
-    - name: Configure Git
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+    - name: Debug files
+      run: ls -la *.json
 
-    - name: Commit and push results
-      run: |
-        git add tags_json/*.json
-        git diff --staged --quiet || git commit -m "🔄 Update tags analysis - $(date +'%Y-%m-%d %H:%M:%S UTC')"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit JSON
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        file_pattern: '*.json'
+        commit_message: "Update trends ${{ github.event.head_commit.timestamp }}"
+        skip_fetch: true

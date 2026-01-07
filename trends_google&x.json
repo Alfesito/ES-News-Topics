@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-07T05:49:54.086490",
+  "timestamp": "2026-01-07T06:36:00.919533",
   "summary": {
-    "google_total": 25,
-    "xtrends_total": 15,
+    "google_total": 30,
+    "xtrends_total": 11,
     "tags_total": 50,
     "unique_total": 80,
     "unified_count": 3,
-    "with_news": 63,
-    "without_news": 17
+    "with_news": 60,
+    "without_news": 20
   },
   "trends": [
     {
@@ -43,14 +43,6 @@
       "news_count": 157
     },
     {
-      "id": 25,
-      "title": "Venezuela Nicolás Maduro",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 113
-    },
-    {
       "id": 218,
       "title": "Donde Se Ha Vendido Primer Premio",
       "source": "news_tags",
@@ -70,7 +62,7 @@
       "id": 114,
       "title": "Cia",
       "source": "x_trends",
-      "volume": "11MM tweets",
+      "volume": "10MM tweets",
       "timeframe": "24h trends",
       "news_count": 82,
       "merged_sources": [
@@ -82,7 +74,7 @@
       "id": 115,
       "title": "Delcy",
       "source": "x_trends",
-      "volume": "9.9MM tweets",
+      "volume": "9.8MM tweets",
       "timeframe": "24h trends",
       "news_count": 61
     },
@@ -90,7 +82,7 @@
       "id": 113,
       "title": "Nicolás Maduro",
       "source": "x_trends",
-      "volume": "21MM tweets",
+      "volume": "20MM tweets",
       "timeframe": "24h trends",
       "news_count": 34
     },
@@ -101,6 +93,14 @@
       "volume": "72 artículos",
       "timeframe": "24h noticias",
       "news_count": 72
+    },
+    {
+      "id": 33,
+      "title": "Hoy",
+      "source": "google",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 65
     },
     {
       "id": 207,
@@ -239,11 +239,19 @@
       "news_count": 30
     },
     {
-      "id": 14,
+      "id": 5,
+      "title": "Sorteo Copa del Rey",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 18
+    },
+    {
+      "id": 15,
       "title": "Reina Letizia Pascua Militar 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 5
     },
     {
@@ -251,39 +259,23 @@
       "title": "Muere Bela Tarr",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 2
     },
     {
-      "id": 6,
-      "title": "Jd",
+      "id": 4,
+      "title": "Barça - Maccabi Tel Aviv",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 1
     },
     {
       "id": 7,
-      "title": "Copa del Rey",
+      "title": "Jd",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
-      "news_count": 1
-    },
-    {
-      "id": 11,
-      "title": "Barça - Maccabi Tel Aviv",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
-      "news_count": 1
-    },
-    {
-      "id": 20,
-      "title": "Netflix",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 1
     },
     {
@@ -291,7 +283,7 @@
       "title": "Bershka",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 0
     },
     {
@@ -299,19 +291,19 @@
       "title": "Granada - Rayo Vallecano",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Rb Salzburg - Bayern",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
-      "id": 5,
+      "id": 8,
       "title": "Nike",
       "source": "google",
       "volume": "20 mil+ búsquedas",
@@ -319,27 +311,27 @@
       "news_count": 0
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Argelia - Rd Congo",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 9,
-      "title": "West Ham - Nottingham Forest",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
       "id": 10,
+      "title": "West Ham - Nottingham Forest",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 11,
       "title": "Sassuolo - Juventus",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
@@ -347,47 +339,55 @@
       "title": "Pull",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
-      "id": 15,
-      "title": "Telecinco",
+      "id": 14,
+      "title": "La Isla de las Tentaciones 9",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 20 min (24h)",
       "news_count": 0
     },
     {
-      "id": 27,
-      "title": "Primer Premio Lotería Niño",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 9
-    },
-    {
-      "id": 22,
+      "id": 21,
       "title": "David Ucles Premio Nadal",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 8
     },
     {
-      "id": 24,
-      "title": "Cope",
+      "id": 32,
+      "title": "Ok",
       "source": "google",
-      "volume": "200+ búsquedas",
+      "volume": "100+ búsquedas",
       "timeframe": "hace 10 min (4h)",
       "news_count": 2
     },
     {
-      "id": 21,
-      "title": "Grizzlies - Spurs",
+      "id": 25,
+      "title": "Tiempo Barcelona",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 20,
+      "title": "Cope Directo",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 22,
+      "title": "Kings - Mavericks",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
       "news_count": 0
     },
     {
@@ -395,31 +395,63 @@
       "title": "Trey Murphy Iii",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 24,
+      "title": "Nueva Borrasca",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0
     },
     {
       "id": 26,
-      "title": "Kings - Mavericks",
+      "title": "Timberwolves - Heat",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
       "id": 28,
-      "title": "Timberwolves - Heat",
+      "title": "Onda Cero",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 29,
+      "title": "Lebron James",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 30,
+      "title": "Es Radio",
       "source": "google",
       "volume": "100+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
-      "id": 29,
-      "title": "Sorteo Octavos Copa Rey",
+      "id": 31,
+      "title": "Tiempo en Zaragoza",
       "source": "google",
       "volume": "100+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 30 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 34,
+      "title": "Tiempo Vitoria",
+      "source": "google",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
       "news_count": 0
     },
     {
@@ -515,7 +547,7 @@
       "title": "Comprobar Lotería del Niño",
       "source": "google",
       "volume": "1 M+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 13
     },
     {
@@ -607,22 +639,6 @@
       "news_count": 9
     },
     {
-      "id": 124,
-      "title": "Asvel",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 4
-    },
-    {
-      "id": 123,
-      "title": "Garuba",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 2
-    },
-    {
       "id": 104,
       "title": "Baltasar",
       "source": "x_trends",
@@ -632,23 +648,7 @@
     },
     {
       "id": 121,
-      "title": "Fran Rivera",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "Mateu Lahoz",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 125,
-      "title": "Juan Iglesias",
+      "title": "#bcnadal2",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

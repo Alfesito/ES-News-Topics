@@ -37,9 +37,13 @@ class ElMundoScraper(NewsScraperBase):
             author_links = article.find_all('a', href=re.compile(r'autores?'))
             author = self.text.cleantext(author_links[0]) if author_links else 'Redacción'
 
-            # Tags / kicker
+            # Tags / kicker - LIMPIEZA DEL PUNTO FINAL
             kicker = article.find(class_=re.compile(r'ue-c-cover-content__kicker'))
-            tags = [self.text.cleantext(kicker)] if kicker else ['General']
+            if kicker:
+                tag_text = self.text.cleantext(kicker).rstrip('.')  # Eliminar punto final
+                tags = [tag_text] if tag_text else ['General']
+            else:
+                tags = ['General']
 
             # Intentar subtítulo desde la tarjeta de portada (si existe)
             subtitle = ''
@@ -133,12 +137,13 @@ class ElMundoScraper(NewsScraperBase):
 
             image['credits'] = self.image.format_credits(cap_text, alt_text, desc_text)
 
-        # Tags: kicker si existe
+        # Tags: kicker si existe - LIMPIEZA DEL PUNTO FINAL
         tags = []
         kicker = False
-        #kicker = soup.select_one('.ue-c-article__kicker')
         if kicker:
-            tags = [self.text.cleantext(kicker)]
+            tag_text = self.text.cleantext(kicker).rstrip('.')  # Eliminar punto final
+            if tag_text:
+                tags = [tag_text]
 
         # Title
         title_h1 = soup.find('h1', class_='ue-c-article__headline')

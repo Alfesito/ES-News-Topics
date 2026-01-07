@@ -51,14 +51,6 @@ class TagEnricher:
                 if first_key:
                     print(f"   Ejemplo: '{first_key}' -> {tag_dict[first_key][:3]}...")
             
-            # Opción 2: Usar transitive_relations
-            elif 'transitive_relations' in data and isinstance(data['transitive_relations'], dict):
-                print(f"✅ Usando 'transitive_relations' con {len(data['transitive_relations'])} tags")
-                tag_dict = data['transitive_relations']
-                first_key = list(tag_dict.keys())[0] if tag_dict else None
-                if first_key:
-                    print(f"   Ejemplo: '{first_key}' -> {tag_dict[first_key][:3]}...")
-            
             # Opción 3: Convertir tag_stats si tiene related_tags
             elif 'tag_stats' in data and isinstance(data['tag_stats'], list):
                 print(f"✅ Convirtiendo 'tag_stats' ({len(data['tag_stats'])} elementos)")
@@ -149,7 +141,7 @@ class TagEnricher:
                         
                         # Buscar el tag relacionado en el texto completo
                         if related_tag_lower in full_text:
-                            if related_tag not in enriched_tags:
+                            if related_tag.lower() not in enriched_tags.lower():
                                 enriched_tags.add(related_tag)
                                 tags_found += 1
             

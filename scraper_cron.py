@@ -17,16 +17,16 @@ import time
 
 
 SCRAPERS = {
-    'ABC': ABCScraper(),
-    'El Mundo': ElMundoScraper(),
+    #'ABC': ABCScraper(),
+    #'El Mundo': ElMundoScraper(),
     'El Diario': ElDiarioScraper(),
     'El Pais': ElPaisScraper(),
     'La Razon': LaRazonScraper(),
     'Publico': PublicoScraper(),
-    'La Vanguardia': LaVanguardiaScraper(),
+    #'La Vanguardia': LaVanguardiaScraper(),
     'El Español': ElEspanolScraper(),
     'La Voz De Galicia': LaVozDeGaliciaScraper(),
-    '20 Minutos': VeinteMinutosScraper()
+    #'20 Minutos': VeinteMinutosScraper()
 }
 
 

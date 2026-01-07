@@ -2,6 +2,7 @@ from Scraper.Base_Scraper import NewsScraperBase
 from urllib.parse import urljoin
 from .TagEnricher import TagEnricher
 
+
 class ABCScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('abc.es')
@@ -130,8 +131,10 @@ class ABCScraper(NewsScraperBase):
 
         return {
             'title': title, 'subtitle': subtitle, 'author': author,
-            'tags': tags, 'body': body, 'image': image
+            'tags': enriched_tags,  # ✅ CORREGIDO - usar enriched_tags
+            'body': body, 'image': image
         }
+
 
 # Flask 
 if __name__ == '__main__':

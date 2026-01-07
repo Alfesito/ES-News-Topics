@@ -24,7 +24,7 @@ def capitalize_tag(tag):
     Capitaliza correctamente un tag.
     """
     lowercase_words = {'de', 'del', 'la', 'el', 'los', 'las', 'y', 'en', 'un', 'una', 
-                       'con', 'por', 'para', 'al', 'a', 'o', 'u', 'e'}
+                       'con', 'por', 'para', 'al', 'a', 'o', 'u', 'e', "-", "vs", "vs."}
 
     words = tag.split()
     capitalized = []

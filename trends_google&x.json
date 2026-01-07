@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-01-07T10:50:55.100829",
+  "timestamp": "2026-01-07T11:21:28.965969",
   "summary": {
     "google_total": 30,
     "xtrends_total": 15,
     "tags_total": 50,
-    "unique_total": 82,
+    "unique_total": 84,
     "unified_count": 4,
-    "with_news": 57,
-    "without_news": 25
+    "with_news": 58,
+    "without_news": 26
   },
   "trends": [
     {
       "id": 200,
-      "title": "Premios Loteria Nino",
+      "title": "Loteria Nino",
       "source": "news_tags",
       "volume": "436 artículos",
       "timeframe": "24h noticias",
-      "news_count": 492
+      "news_count": 436
     },
     {
-      "id": 103,
+      "id": 102,
       "title": "Trump",
       "source": "x_trends",
       "volume": "N/A",
@@ -27,10 +27,10 @@
       "news_count": 172
     },
     {
-      "id": 102,
+      "id": 112,
       "title": "Venezuela",
       "source": "x_trends",
-      "volume": "N/A",
+      "volume": "63MM tweets",
       "timeframe": "24h trends",
       "news_count": 162
     },
@@ -70,7 +70,7 @@
       "id": 115,
       "title": "Delcy",
       "source": "x_trends",
-      "volume": "8.4MM tweets",
+      "volume": "8MM tweets",
       "timeframe": "24h trends",
       "news_count": 64
     },
@@ -78,7 +78,7 @@
       "id": 113,
       "title": "Nicolás Maduro",
       "source": "x_trends",
-      "volume": "12MM tweets",
+      "volume": "11MM tweets",
       "timeframe": "24h trends",
       "news_count": 35
     },
@@ -113,6 +113,26 @@
       "volume": "66 artículos",
       "timeframe": "24h noticias",
       "news_count": 66
+    },
+    {
+      "id": 2,
+      "title": "Primer Premio Lotería Niño",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 62,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "#rebajas",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 58
     },
     {
       "id": 210,
@@ -179,7 +199,7 @@
       "news_count": 55
     },
     {
-      "id": 104,
+      "id": 103,
       "title": "Greenland",
       "source": "x_trends",
       "volume": "N/A",
@@ -211,15 +231,15 @@
       "news_count": 31
     },
     {
-      "id": 30,
+      "id": 27,
       "title": "Donald Trump Groenlandia",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 26
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "David Ucles",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -231,11 +251,11 @@
       "title": "Muere Bela Tarr",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 2
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Seguridad Social",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -243,7 +263,7 @@
       "news_count": 2
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "Kutxabank",
       "source": "google",
       "volume": "2 mil+ búsquedas",
@@ -251,27 +271,19 @@
       "news_count": 2
     },
     {
-      "id": 1,
-      "title": "Loteria del Niño Comprobar",
-      "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 1
-    },
-    {
       "id": 12,
       "title": "Telecinco",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 1
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Granada - Rayo Vallecano",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 0
     },
     {
@@ -279,7 +291,7 @@
       "title": "Sorteo Copa del Rey",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
@@ -287,44 +299,44 @@
       "title": "Rb Salzburg - Bayern",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "timeframe": "hace 22 h (24h)",
       "news_count": 0
     },
     {
       "id": 5,
-      "title": "Argelia - Rd Congo",
+      "title": "Barça - Maccabi Tel Aviv",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 16 h (24h)",
       "news_count": 0
     },
     {
-      "id": 7,
-      "title": "Pull",
+      "id": 6,
+      "title": "Argelia - Rd Congo",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 0
     },
     {
       "id": 8,
-      "title": "West Ham - Nottingham Forest",
+      "title": "Pull",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 22 h (24h)",
       "news_count": 0
     },
     {
       "id": 9,
-      "title": "Sassuolo - Juventus",
+      "title": "West Ham - Nottingham Forest",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 16 h (24h)",
       "news_count": 0
     },
     {
       "id": 10,
-      "title": "Barça - Maccabi Tel Aviv",
+      "title": "Sassuolo - Juventus",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 16 h (24h)",
@@ -343,7 +355,7 @@
       "title": "Donde Ver la Supercopa de España",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "timeframe": "hace 22 h (24h)",
       "news_count": 0
     },
     {
@@ -351,27 +363,19 @@
       "title": "Sepe",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
       "id": 21,
-      "title": "Calendario 2026",
+      "title": "Aeat",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 22,
-      "title": "Aeat",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 24,
+      "id": 23,
       "title": "Bbva",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -379,16 +383,16 @@
       "news_count": 0
     },
     {
-      "id": 25,
-      "title": "Yahoo",
+      "id": 24,
+      "title": "Iberdrola",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
-      "id": 27,
-      "title": "Outlook",
+      "id": 26,
+      "title": "Santander",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -396,30 +400,14 @@
     },
     {
       "id": 28,
-      "title": "Santander",
+      "title": "Calendario Laboral 2026",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 29,
-      "title": "Boe",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 31,
-      "title": "Iberdrola",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
+      "id": 29,
       "title": "Unicaja",
       "source": "google",
       "volume": "1 mil+ búsquedas",
@@ -427,8 +415,32 @@
       "news_count": 0
     },
     {
-      "id": 33,
+      "id": 30,
       "title": "Caixabank Pago Pensiones Enero",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 31,
+      "title": "Borrasca Goretti",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 32,
+      "title": "David Uclés Premio Nadal",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 33,
+      "title": "Ilia Topuria",
       "source": "google",
       "volume": "500+ búsquedas",
       "timeframe": "hace 1 h (4h)",
@@ -439,7 +451,7 @@
       "title": "Michael Schumacher",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -563,11 +575,11 @@
       "news_count": 13
     },
     {
-      "id": 122,
-      "title": "El Supremo",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
+      "id": 242,
+      "title": "Ábalos",
+      "source": "news_tags",
+      "volume": "12 artículos",
+      "timeframe": "24h noticias",
       "news_count": 12
     },
     {
@@ -627,23 +639,23 @@
       "news_count": 9
     },
     {
-      "id": 125,
-      "title": "Koldo",
+      "id": 105,
+      "title": "Soles",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 6
     },
     {
-      "id": 124,
-      "title": "Ábalos",
+      "id": 125,
+      "title": "Irán y Cuba",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 5
+      "news_count": 3
     },
     {
-      "id": 105,
+      "id": 104,
       "title": "Baltasar",
       "source": "x_trends",
       "volume": "N/A",
@@ -652,7 +664,7 @@
     },
     {
       "id": 121,
-      "title": "#audiencias",
+      "title": "Elisa Mouliaá",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -660,7 +672,15 @@
     },
     {
       "id": 123,
-      "title": "Epifanía del Señor",
+      "title": "Efe Aghama",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 124,
+      "title": "Errejón",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

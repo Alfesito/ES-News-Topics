@@ -66,7 +66,7 @@ class TagEnricher:
                 continue
             
             # Dividir el tag principal en palabras y buscar en el texto
-            main_tag_words = main_tag.lower().split()
+            main_tag_words = main_tag.lower()
             
             # Verificar si alguna palabra del tag principal aparece en el texto
             if any(word in full_text for word in main_tag_words if len(word) > 3):
@@ -80,6 +80,7 @@ class TagEnricher:
                     # Buscar el tag relacionado en el texto completo
                     if related_tag_lower in full_text:
                         enriched_tags.add(related_tag)
+                break
         
         return list(enriched_tags)
     

@@ -1,10 +1,14 @@
 from Scraper.Base_Scraper import NewsScraperBase
+from .TagEnricher import TagEnricher
 from urllib.parse import urljoin
 import re
+
 
 class VeinteMinutosScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('20minutos.es')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
 
     def _scrape_list_articles(self, soup, base_url):
         results = []
@@ -118,6 +122,9 @@ class VeinteMinutosScraper(NewsScraperBase):
             body_parts.append(t)
         body = ' '.join(body_parts)[:6000]
 
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
+
         # IMAGE
         image = self.image.extract_image(soup, [
             'figure img[src]', 'img[src].imagen, img[src].foto', 'meta[property="og:image"]'
@@ -156,7 +163,7 @@ class VeinteMinutosScraper(NewsScraperBase):
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,  # Usar los tags enriquecidos
             'body': body,
             'image': image
         }

@@ -1,9 +1,11 @@
 from Scraper.Base_Scraper import NewsScraperBase
 from urllib.parse import urljoin
+from TagEnricher import TagEnricher
 
 class ABCScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('abc.es')
+        self.tag_enricher = TagEnricher()
     
     def _scrape_list_articles(self, soup, base_url):
         results = []
@@ -67,16 +69,14 @@ class ABCScraper(NewsScraperBase):
         
         # TAGS
         tags = []
-        # Buscar el nav correcto (dos clases juntas)
-        navtopics = soup.find('nav', class_='voc-topics__header')
+        navtopics = False
+        #navtopics = soup.find('nav', class_='voc-topics__header')
         if navtopics:
-            # Los tags están en <a> con clase voc-topics__link (también con dos guiones)
             taglinks = navtopics.find_all('a', class_='voc-topics__link')
             for a in taglinks:
-                # Usar title si existe, sino el texto
                 tag_text = a.get('title') or a.get_text(strip=True)
                 tag_clean = self.text.cleantext(tag_text)
-                if tag_clean and tag_clean.lower() != 'más temas':  # Filtrar "Más temas"
+                if tag_clean and tag_clean.lower() != 'más temas':
                     tags.append(tag_clean)
         
         # BODY
@@ -87,6 +87,9 @@ class ABCScraper(NewsScraperBase):
             if len(ptext) > 30:
                 body_parts.append(ptext)
         body = ' '.join(body_parts)[:3000]
+        
+        # ENRIQUECER TAGS con el TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
         
         # IMAGE
         image = self.image.extract_image(soup, [

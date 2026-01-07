@@ -1,4 +1,5 @@
 from Scraper.Base_Scraper import NewsScraperBase
+from Scraper.TagEnricher import TagEnricher
 from urllib.parse import urljoin
 import re
 
@@ -6,7 +7,8 @@ import re
 class LaVanguardiaScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('lavanguardia.com')
-
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
 
     def _scrape_list_articles(self, soup, base_url):
         results = []
@@ -26,26 +28,21 @@ class LaVanguardiaScraper(NewsScraperBase):
             elif not link.startswith('http'):
                 continue
 
-
             # autor en card
             list_author = ''
             auth_card = article.select_one('.author, .byline, .nota__autor, .autor')
             if auth_card:
                 list_author = self.text.cleantext(auth_card)
 
-
             time_tag = article.find('time')
             date_raw = time_tag.get('datetime') if time_tag else ''
             datetimestr = self.date.normalizedatetime(date_raw)
-
 
             details = self.scrape_article_details(link)
             final_title = details.get('title', title) or title
             final_author = details.get('author', list_author) or list_author
 
-
             articleid = self.idgen.generate_id_from_url(link) if link else self.idgen.generateshortid('LaVanguardia', datetimestr, final_title)
-
 
             ordered = self.article.create_ordered_article(
                 'La Vanguardia', articleid, datetimestr, details.get('tags', []),
@@ -56,17 +53,14 @@ class LaVanguardiaScraper(NewsScraperBase):
             results.append(ordered)
         return results[:25]
 
-
     def _scrape_article_details(self, soup):
         # TITLE
         title_elem = soup.find('h1')
         title = self.text.cleantext(title_elem) if title_elem else ''
 
-
         # SUBTITLE
         subtitle_elem = (soup.select_one('p.lead') or soup.select_one('h2.subtitulo') or soup.find('h2'))
         subtitle = self.text.cleantext(subtitle_elem) if subtitle_elem else ''
-
 
         # AUTHOR: buscar a[rel=author] o .byline o meta[name=author]
         author = ''
@@ -78,11 +72,11 @@ class LaVanguardiaScraper(NewsScraperBase):
             if meta_author:
                 author = meta_author.get('content', '').strip()
 
-
         # TAGS - Estructura específica de La Vanguardia
         tags = []
         # Buscar el contenedor de tags
-        tags_container = soup.find('div', class_='tags-container')
+        tags_container = False
+        #tags_container = soup.find('div', class_='tags-container')
         if tags_container:
             # Buscar todos los enlaces con clase 'tag-name'
             tag_links = tags_container.find_all('a', class_='tag-name')
@@ -96,7 +90,6 @@ class LaVanguardiaScraper(NewsScraperBase):
             meta_tags = soup.find_all('meta', attrs={'property': 'article:tag'})
             tags = [t.get('content', '').strip() for t in meta_tags if t.get('content')]
 
-
         # BODY: buscar contenedores habituales y el bloque específico de La Vanguardia
         body_container = (soup.find('div', class_='article-modules') or
                           soup.find('div', itemprop='articleBody') or
@@ -109,7 +102,6 @@ class LaVanguardiaScraper(NewsScraperBase):
             paragraphs = paragraphs[:30]
         else:
             paragraphs = soup.find_all('p')[:30]
-
 
         body_parts = []
         for p in paragraphs:
@@ -125,6 +117,8 @@ class LaVanguardiaScraper(NewsScraperBase):
             body_parts.append(t)
         body = ' '.join(body_parts)[:5000]
 
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
 
         # IMAGE
         image = self.image.extract_image(soup, [
@@ -140,7 +134,6 @@ class LaVanguardiaScraper(NewsScraperBase):
             if not figcap:
                 figcap = soup.select_one('figcaption')
 
-
             if figcap:
                 txt = figcap.get_text(separator=' ').strip()
                 if '—' in txt:
@@ -153,24 +146,22 @@ class LaVanguardiaScraper(NewsScraperBase):
                     if sp:
                         caption_author = self.text.cleantext(sp)
 
-
             if not caption_text:
                 img_elem = soup.select_one('figure img') or soup.select_one('img')
                 if img_elem:
                     caption_text = (img_elem.get('alt') or '').strip()
 
-
             image['credits'] = self.image.format_credits(caption_text, caption_author)
-
 
         return {
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,  # Usar los tags enriquecidos
             'body': body,
             'image': image
         }
+
 
 # Flask
 if __name__ == '__main__':

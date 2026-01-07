@@ -1,10 +1,13 @@
 from Scraper.Base_Scraper import NewsScraperBase
+from TagEnricher import TagEnricher
 import re
 
 
 class ElMundoScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('El Mundo')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
 
     def _scrape_list_articles(self, soup, base_url):
         results = []
@@ -40,7 +43,6 @@ class ElMundoScraper(NewsScraperBase):
 
             # Intentar subtítulo desde la tarjeta de portada (si existe)
             subtitle = ''
-            # buscar párrafo o elemento con resumen en el item
             p_summary = article.find('p')
             if p_summary:
                 subtitle = self.text.cleantext(p_summary)
@@ -54,24 +56,24 @@ class ElMundoScraper(NewsScraperBase):
                     img_url = img_url.split(',')[0].strip().split(' ')[0]
                 image['url'] = img_url
                 alt_text = img_tag.get('alt', '')
-                # Poner alt en credits inicialmente (por si no se enriquece más tarde)
                 image['credits'] = self.image.format_credits(alt_text) 
-            # Fecha e ID (ID determinístico a partir de la URL cuando esté disponible)
+
+            # Fecha e ID
             date_str = self.date.normalizedatetime()
             article_id = self.idgen.generate_id_from_url(link) if link else self.idgen.generateshortid('ElMundo', date_str, title)
 
             # Datos básicos sin detalle
             article_data = self.article.create_ordered_article(
-                'El Mundo',          # source
-                article_id,          # id
-                date_str,            # date
-                tags,                # tags
-                title,               # title
-                subtitle,            # subtitle
-                link,                # url
-                author,              # author (se puede sobreescribir en detalle)
-                image,               # image (se rellenará mejor al entrar en el artículo)
-                ''                   # body (si no lo usas aquí)
+                'El Mundo',
+                article_id,
+                date_str,
+                tags,
+                title,
+                subtitle,
+                link,
+                author,
+                image,
+                ''
             )
             results.append(article_data)
 
@@ -105,7 +107,6 @@ class ElMundoScraper(NewsScraperBase):
         author_div = soup.select_one('.ue-c-article__author-name-item')
         if author_div:
             raw_author = self.text.cleantext(author_div)
-            # A veces contiene "Nombre\nEnviado especial ..." -> quedarnos con la primera línea
             author = raw_author.split('\n')[0].strip()
             if not author:
                 author = 'Redacción'
@@ -120,7 +121,6 @@ class ElMundoScraper(NewsScraperBase):
                 if not url:
                     srcset = img.get('srcset') or img.get('data-srcset') or ''
                     if srcset:
-                        # elegir la primera URL del srcset
                         url = srcset.split(',')[0].strip().split(' ')[0]
                 image['url'] = url
                 alt_text = img.get('alt', '').strip()
@@ -131,25 +131,25 @@ class ElMundoScraper(NewsScraperBase):
             desc = fig.select_one('.ue-c-article__media-description')
             desc_text = self.text.cleantext(desc) if desc else ''
 
-            # Unir credits, alt y description en un solo campo `credits`
             image['credits'] = self.image.format_credits(cap_text, alt_text, desc_text)
+
         # Tags: kicker si existe
         tags = []
-        kicker = soup.select_one('.ue-c-article__kicker')
+        kicker = False
+        #kicker = soup.select_one('.ue-c-article__kicker')
         if kicker:
             tags = [self.text.cleantext(kicker)]
 
-        # Title: si se quisiera, podemos extraer el h1
+        # Title
         title_h1 = soup.find('h1', class_='ue-c-article__headline')
         title = self.text.cleantext(title_h1) if title_h1 else ''
 
-        # Body: buscar contenedor principal del artículo y concatenar párrafos válidos
+        # Body: buscar contenedor principal del artículo
         body = ''
         body_container = soup.find('div', attrs={'data-section': 'articleBody'}) or soup.find('div', class_=re.compile(r'ue-l-article__body'))
         if body_container:
             paragraphs = []
             for p in body_container.find_all('p'):
-                # omitir párrafos que estén dentro de listings, taboola, cover-content o newsletters
                 skip = False
                 for anc in p.find_parents():
                     cls = anc.get('class') or []
@@ -163,23 +163,21 @@ class ElMundoScraper(NewsScraperBase):
                     paragraphs.append(text)
             body = '\n\n'.join(paragraphs)
 
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
+
         return {
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,  # Usar los tags enriquecidos
             'body': body,
             'image': image
         }
 
-    # Enriquecimiento de artículo: usar la implementación por defecto de la clase base (merge conservador)
-    # (No se redefine aquí para evitar sobrescribir datos extraídos desde la portada.)
-
-    # Ejemplo de helper si tu Base_Scraper no lo tiene aún
     def fetch_article_details(self, url):
         """
         Descarga el HTML de un artículo y devuelve el dict de _scrape_article_details.
-        Llama a esto cuando el usuario entra en un artículo concreto.
         """
         import requests
         from bs4 import BeautifulSoup

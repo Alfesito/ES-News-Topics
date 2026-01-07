@@ -141,7 +141,7 @@ class TagEnricher:
                         
                         # Buscar el tag relacionado en el texto completo
                         if related_tag_lower in full_text:
-                            if related_tag.lower() not in enriched_tags.lower():
+                            if related_tag not in enriched_tags:
                                 enriched_tags.add(related_tag)
                                 tags_found += 1
             

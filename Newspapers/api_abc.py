@@ -12,7 +12,7 @@ class ABCScraper(NewsScraperBase):
         results = []
         mainwrapper = soup.find('div', class_='voc-wrapper')
         if not mainwrapper:
-            return [{'error': 'No ABC structure'}]
+            return []  # Cambiado de error dict a lista vacía
         
         articles = mainwrapper.find_all('article')[:25]
         for article in articles:
@@ -53,7 +53,7 @@ class ABCScraper(NewsScraperBase):
         return results[:25]
     
     def _scrape_article_details(self, soup):
-        # TITLE - Manejo None
+        # TITLE
         title_elem = soup.find('h1', class_='voc-title')
         title = self.text.cleantext(title_elem) if title_elem else ''
         
@@ -70,8 +70,8 @@ class ABCScraper(NewsScraperBase):
         
         # TAGS
         tags = []
-        navtopics = False
         #navtopics = soup.find('nav', class_='voc-topics__header')
+        navtopics = False
         if navtopics:
             taglinks = navtopics.find_all('a', class_='voc-topics__link')
             for a in taglinks:
@@ -99,17 +99,14 @@ class ABCScraper(NewsScraperBase):
             'meta[property="og:image"]'
         ])
 
-        # Completar credits: buscar figcaption con texto y autor; fallback a alt del img
+        # Completar credits
         if not image.get('credits'):
             caption_text = ''
             caption_author = ''
-            # buscar figura principal
             fig = soup.find('figure', class_='voc-img-figure')
             figcap = None
             if fig:
-                # figcaption puede ser sibling o descendiente
                 figcap = fig.find_next_sibling('figcaption') or fig.find('figcaption')
-            # si no lo encontramos junto a la figura, buscar cualquier contenedor conocido
             if not figcap:
                 figcap = soup.find('figcaption', class_='voc-figcaption-container')
 
@@ -121,7 +118,6 @@ class ABCScraper(NewsScraperBase):
                 if author_span:
                     caption_author = self.text.cleantext(author_span)
 
-            # fallback: usar alt del img si no hay caption
             if not caption_text:
                 img_elem = soup.select_one('figure.voc-img-figure img.voc-img') or soup.select_one('img.voc-img')
                 if img_elem:
@@ -130,9 +126,12 @@ class ABCScraper(NewsScraperBase):
             image['credits'] = self.image.format_credits(caption_text, caption_author)
 
         return {
-            'title': title, 'subtitle': subtitle, 'author': author,
-            'tags': enriched_tags,  # ✅ CORREGIDO - usar enriched_tags
-            'body': body, 'image': image
+            'title': title, 
+            'subtitle': subtitle, 
+            'author': author,
+            'tags': enriched_tags,  # ✅ CORREGIDO: usar enriched_tags
+            'body': body, 
+            'image': image
         }
 
 

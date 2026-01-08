@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-01-08T21:44:40.805355",
+  "timestamp": "2026-01-08T22:22:32.496286",
   "summary": {
     "google_total": 30,
     "xtrends_total": 15,
     "tags_total": 50,
-    "unique_total": 82,
-    "unified_count": 3,
-    "with_news": 63,
-    "without_news": 19
+    "unique_total": 85,
+    "unified_count": 2,
+    "with_news": 69,
+    "without_news": 16
   },
   "trends": [
     {
-      "id": 7,
+      "id": 6,
       "title": "As",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 40 min (24h)",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 780
     },
     {
@@ -51,11 +51,11 @@
       "news_count": 238
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Loteria Nacional",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 40 min (24h)",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 158,
       "merged_sources": [
         "google",
@@ -119,18 +119,6 @@
       "news_count": 75
     },
     {
-      "id": 115,
-      "title": "Greenland",
-      "source": "x_trends",
-      "volume": "2.5MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 72,
-      "merged_sources": [
-        "x_trends",
-        "news_tags"
-      ]
-    },
-    {
       "id": 113,
       "title": "Minnesota",
       "source": "x_trends",
@@ -147,12 +135,28 @@
       "news_count": 2
     },
     {
+      "id": 115,
+      "title": "Irán",
+      "source": "x_trends",
+      "volume": "2.4MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 2
+    },
+    {
       "id": 114,
       "title": "Soles",
       "source": "x_trends",
-      "volume": "2.6MM tweets",
+      "volume": "2.4MM tweets",
       "timeframe": "24h trends",
       "news_count": 1
+    },
+    {
+      "id": 212,
+      "title": "Groenlandia",
+      "source": "news_tags",
+      "volume": "72 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 72
     },
     {
       "id": 213,
@@ -371,19 +375,35 @@
       "news_count": 31
     },
     {
-      "id": 6,
+      "id": 20,
+      "title": "Real Madrid",
+      "source": "google",
+      "volume": "200 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 16
+    },
+    {
+      "id": 33,
+      "title": "Sport",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 11
+    },
+    {
+      "id": 7,
       "title": "Final Supercopa España",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 8
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Siro Ouro",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 4
     },
     {
@@ -395,11 +415,19 @@
       "news_count": 4
     },
     {
+      "id": 32,
+      "title": "Simeone",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 3
+    },
+    {
       "id": 5,
       "title": "Real Madrid - Maccabi Tel Aviv",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 2
     },
     {
@@ -407,27 +435,19 @@
       "title": "Arsenal - Liverpool",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 3,
-      "title": "Psg - Marsella",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
       "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
-      "id": 9,
-      "title": "Movistar Plus",
+      "id": 4,
+      "title": "Psg - Marsella",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Drive",
       "source": "google",
       "volume": "20 mil+ búsquedas",
@@ -435,40 +455,56 @@
       "news_count": 0
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Ticketmaster",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 12,
+      "title": "Psg",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0
     },
     {
       "id": 13,
-      "title": "Psg",
+      "title": "Cuando Es el Reencuentro de la Isla de las Tentaciones 9",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 22 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 14,
+      "title": "Primitiva 8 Enero 2026",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 15,
+      "title": "Movistar Plus",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
-      "id": 14,
-      "title": "Cuando Es el Reencuentro de la Isla de las Tentaciones 9",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
-      "title": "Nueva Pirámide Nutricional",
+      "id": 28,
+      "title": "Milan - Genoa",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 29,
-      "title": "Fallecido Actor Siro Ouro",
+      "title": "Valencia - Mónaco",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -476,42 +512,26 @@
     },
     {
       "id": 30,
-      "title": "Valencia - Mónaco",
+      "title": "María José Campanario",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
       "id": 31,
-      "title": "Milan - Genoa",
+      "title": "Eduardo Navarrete",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "María José Campanario",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
-      "title": "Al-nassr - al Qadisiya",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
       "id": 34,
-      "title": "Cómo Va el Madrid",
+      "title": "Tarjeta Roja",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -603,6 +623,14 @@
       "news_count": 16
     },
     {
+      "id": 121,
+      "title": "Manuel",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 11
+    },
+    {
       "id": 103,
       "title": "Valverde",
       "source": "x_trends",
@@ -619,20 +647,28 @@
       "news_count": 9
     },
     {
+      "id": 122,
+      "title": "Anita",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 6
+    },
+    {
       "id": 1,
       "title": "Atlético Madrid - Real Madrid",
       "source": "google",
       "volume": "1 M+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 5
     },
     {
-      "id": 122,
-      "title": "Rodrygo",
+      "id": 125,
+      "title": "Retenidos",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 5
+      "news_count": 1
     },
     {
       "id": 105,
@@ -643,16 +679,8 @@
       "news_count": 0
     },
     {
-      "id": 121,
-      "title": "Vinicius",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
       "id": 123,
-      "title": "#ghdúoestreno",
+      "title": "Florentino",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -660,15 +688,7 @@
     },
     {
       "id": 124,
-      "title": "Mendy",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 125,
-      "title": "Le Normand",
+      "title": "Caminero",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-01-09T07:46:39.508408",
+  "timestamp": "2026-01-09T08:32:34.255450",
   "summary": {
-    "google_total": 29,
-    "xtrends_total": 15,
+    "google_total": 30,
+    "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 89,
-    "unified_count": 2,
+    "unique_total": 86,
+    "unified_count": 4,
     "with_news": 67,
-    "without_news": 22
+    "without_news": 19
   },
   "trends": [
     {
-      "id": 9,
+      "id": 8,
       "title": "As",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 576
     },
     {
@@ -67,12 +67,16 @@
       "news_count": 131
     },
     {
-      "id": 206,
-      "title": "Internacional",
-      "source": "news_tags",
-      "volume": "120 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 120
+      "id": 10,
+      "title": "Loteria Nacional",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 120,
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
       "id": 207,
@@ -91,18 +95,10 @@
       "news_count": 76
     },
     {
-      "id": 115,
-      "title": "Minnesota",
-      "source": "x_trends",
-      "volume": "2.7MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 19
-    },
-    {
       "id": 111,
       "title": "Minneapolis",
       "source": "x_trends",
-      "volume": "33MM tweets",
+      "volume": "32MM tweets",
       "timeframe": "24h trends",
       "news_count": 9
     },
@@ -110,7 +106,7 @@
       "id": 112,
       "title": "Irán",
       "source": "x_trends",
-      "volume": "26MM tweets",
+      "volume": "30MM tweets",
       "timeframe": "24h trends",
       "news_count": 2
     },
@@ -118,7 +114,7 @@
       "id": 113,
       "title": "Renee Nicole Good",
       "source": "x_trends",
-      "volume": "7.5MM tweets",
+      "volume": "7.7MM tweets",
       "timeframe": "24h trends",
       "news_count": 1
     },
@@ -127,6 +123,14 @@
       "title": "Arsenal",
       "source": "x_trends",
       "volume": "3MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 115,
+      "title": "Liverpool",
+      "source": "x_trends",
+      "volume": "1.8MM tweets",
       "timeframe": "24h trends",
       "news_count": 0
     },
@@ -206,8 +210,8 @@
       "id": 21,
       "title": "Donald Trump Maduro",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 43
     },
     {
@@ -233,6 +237,14 @@
       "volume": "39 artículos",
       "timeframe": "24h noticias",
       "news_count": 39
+    },
+    {
+      "id": 23,
+      "title": "Rae",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 35
     },
     {
       "id": 220,
@@ -287,23 +299,15 @@
       "title": "Jesus Calleja",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 5
     },
     {
-      "id": 14,
-      "title": "Simeone",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
-      "news_count": 5
-    },
-    {
-      "id": 3,
+      "id": 2,
       "title": "Siro Ouro",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 4
     },
     {
@@ -311,15 +315,15 @@
       "title": "Gh Duo",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 4
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Final Supercopa España",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 4
     },
     {
@@ -327,23 +331,23 @@
       "title": "Real Madrid - Maccabi Tel Aviv",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 3
     },
     {
-      "id": 10,
-      "title": "Sorteo Lotería Nacional",
+      "id": 15,
+      "title": "Juanes",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 1
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Arsenal - Liverpool",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0
     },
     {
@@ -351,7 +355,7 @@
       "title": "Psg - Marsella",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0
     },
     {
@@ -359,39 +363,39 @@
       "title": "Bruno Mars",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 0
     },
     {
       "id": 12,
-      "title": "Nueva Pirámide Nutricional",
+      "title": "Bruno Mars Madrid",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 0
     },
     {
       "id": 13,
-      "title": "Bruno Mars Madrid",
+      "title": "Nueva Pirámide Nutricional",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Primitiva 8 Enero 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
       "id": 20,
-      "title": "Jazz - Mavericks",
+      "title": "Philippe Junot",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
@@ -399,28 +403,28 @@
       "title": "Actor Siro Ouro la Mesias",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 4
     },
     {
-      "id": 31,
+      "id": 33,
       "title": "Ozempic Efecto Rebote",
       "source": "google",
       "volume": "100+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 3
     },
     {
-      "id": 23,
-      "title": "Timberwolves - Cavaliers",
+      "id": 32,
+      "title": "De Juana Chaos",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 2
     },
     {
       "id": 24,
-      "title": "Bulls - Heat",
+      "title": "Gran Hermano Duo",
       "source": "google",
       "volume": "500+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -431,55 +435,55 @@
       "title": "Aryna Sabalenka",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 27,
-      "title": "Philippe Junot",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 28,
-      "title": "Rafael Jódar",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 29,
-      "title": "Gran Hermano Duo",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 30,
-      "title": "Lorenzo Musetti",
+      "id": 26,
+      "title": "Word",
       "source": "google",
       "volume": "200+ búsquedas",
       "timeframe": "hace 40 min (4h)",
       "news_count": 0
     },
     {
-      "id": 32,
+      "id": 27,
+      "title": "Carlos Vives",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 28,
+      "title": "Burlington",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 29,
+      "title": "Rafael Jódar",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 31,
+      "title": "Lorenzo Musetti",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 34,
       "title": "Euskalmet",
       "source": "google",
       "volume": "100+ búsquedas",
       "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
-      "title": "Elcorreo",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
@@ -659,8 +663,16 @@
       "news_count": 7
     },
     {
-      "id": 124,
-      "title": "Oreshnik",
+      "id": 102,
+      "title": "Simeone",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 5
+    },
+    {
+      "id": 105,
+      "title": "Sorloth",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -668,30 +680,14 @@
     },
     {
       "id": 1,
-      "title": "Atlético Madrid - Real Madrid",
+      "title": "Resumen Real Madrid Atlético de Madrid",
       "source": "google",
       "volume": "1 M+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 4
     },
     {
-      "id": 125,
-      "title": "Belén Ro",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 3
-    },
-    {
-      "id": 102,
-      "title": "Carlos Lozano",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 104,
+      "id": 103,
       "title": "Baena",
       "source": "x_trends",
       "volume": "N/A",
@@ -699,24 +695,8 @@
       "news_count": 0
     },
     {
-      "id": 105,
+      "id": 104,
       "title": "Rudiger",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "#buenosdías",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 123,
-      "title": "Mc 6",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

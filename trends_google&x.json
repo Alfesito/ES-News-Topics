@@ -1,23 +1,15 @@
 {
-  "timestamp": "2026-01-10T11:39:12.818258",
+  "timestamp": "2026-01-10T12:41:12.497708",
   "summary": {
-    "google_total": 26,
-    "xtrends_total": 13,
+    "google_total": 24,
+    "xtrends_total": 14,
     "tags_total": 50,
-    "unique_total": 85,
-    "unified_count": 3,
-    "with_news": 58,
-    "without_news": 27
+    "unique_total": 79,
+    "unified_count": 4,
+    "with_news": 57,
+    "without_news": 22
   },
   "trends": [
-    {
-      "id": 121,
-      "title": "J. B.",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 304
-    },
     {
       "id": 200,
       "title": "Cia",
@@ -75,26 +67,30 @@
       "news_count": 118
     },
     {
-      "id": 207,
-      "title": "Internacional",
-      "source": "news_tags",
-      "volume": "76 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 76
+      "id": 3,
+      "title": "Loteria Nacional",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 40 min (24h)",
+      "news_count": 76,
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
       "id": 115,
-      "title": "Presos",
+      "title": "Madrid",
       "source": "x_trends",
-      "volume": "2.6MM tweets",
+      "volume": "2.5MM tweets",
       "timeframe": "24h trends",
-      "news_count": 16
+      "news_count": 42
     },
     {
       "id": 114,
       "title": "Zapatero",
       "source": "x_trends",
-      "volume": "4.3MM tweets",
+      "volume": "4.4MM tweets",
       "timeframe": "24h trends",
       "news_count": 10
     },
@@ -110,7 +106,7 @@
       "id": 112,
       "title": "Minneapolis",
       "source": "x_trends",
-      "volume": "8.2MM tweets",
+      "volume": "6.7MM tweets",
       "timeframe": "24h trends",
       "news_count": 3
     },
@@ -227,35 +223,35 @@
       "news_count": 30
     },
     {
-      "id": 6,
+      "id": 8,
       "title": "Explosion Gas Madrid Carabanchel",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 9
     },
     {
-      "id": 20,
+      "id": 23,
       "title": "Smi",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 3
     },
     {
-      "id": 7,
+      "id": 9,
       "title": "Patricia Conde",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 1
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Fa Cup",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 1
     },
     {
@@ -263,7 +259,7 @@
       "title": "Getafe - Real Sociedad",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
@@ -271,44 +267,36 @@
       "title": "Copa Africa",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 3,
-      "title": "Cádiz - Sporting Gijón",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
       "id": 4,
-      "title": "Equipo de Investigación la Casa de los Gemelos",
+      "title": "Cádiz - Sporting Gijón",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 0
     },
     {
       "id": 5,
+      "title": "Real Oviedo - Real Betis",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 30 min (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 6,
       "title": "Jessica Goicoechea",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 0
     },
     {
-      "id": 8,
-      "title": "Barça - Partizan",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 9,
-      "title": "Frankfurt - Dortmund",
+      "id": 7,
+      "title": "Equipo de Investigación la Casa de los Gemelos",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 16 h (24h)",
@@ -316,122 +304,90 @@
     },
     {
       "id": 10,
-      "title": "Nina Dobrev",
+      "title": "Barça - Partizan",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
       "id": 11,
-      "title": "Lakers - Bucks",
+      "title": "Frankfurt - Dortmund",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
-      "id": 13,
-      "title": "El Desafio",
+      "id": 12,
+      "title": "Nina Dobrev",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 19 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 14,
+      "title": "Lakers - Bucks",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 15,
+      "title": "Daniel Illescas",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
-      "id": 14,
-      "title": "Rocio Flores",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
-      "title": "Jose Yelamo",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 21,
-      "title": "Carlos Alcaraz",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
       "id": 22,
-      "title": "Manex Lozano",
+      "title": "Mirandés - Almería",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 30,
-      "title": "Euromillones Viernes",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 1
-    },
-    {
-      "id": 23,
-      "title": "Valve Steam Machine",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0
     },
     {
       "id": 24,
-      "title": "Barça Madrid",
+      "title": "Valve Steam Machine",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 25,
-      "title": "Belmonte",
+      "title": "Barça Madrid",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
       "id": 26,
-      "title": "Comprobar Cuponazo Once",
+      "title": "Manex Lozano",
       "source": "google",
-      "volume": "500+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 27,
-      "title": "Sorteo Loteria Nacional Hoy",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
       "news_count": 0
     },
     {
       "id": 28,
-      "title": "Chris Martin",
+      "title": "Alcaraz Sinner",
       "source": "google",
-      "volume": "100+ búsquedas",
+      "volume": "200+ búsquedas",
       "timeframe": "hace 3 h (4h)",
-      "news_count": 0
+      "news_count": 1
     },
     {
-      "id": 29,
-      "title": "Dominica",
+      "id": 27,
+      "title": "Everton Vs Sunderland",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0
     },
     {
@@ -521,14 +477,6 @@
       "volume": "23 artículos",
       "timeframe": "24h noticias",
       "news_count": 23
-    },
-    {
-      "id": 235,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
     },
     {
       "id": 236,
@@ -643,6 +591,14 @@
       "news_count": 14
     },
     {
+      "id": 123,
+      "title": "Sinner",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 1
+    },
+    {
       "id": 102,
       "title": "Gym Tony",
       "source": "x_trends",
@@ -660,14 +616,6 @@
     },
     {
       "id": 104,
-      "title": "#deviernes",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 105,
       "title": "Getafe",
       "source": "x_trends",
       "volume": "N/A",
@@ -675,16 +623,24 @@
       "news_count": 0
     },
     {
-      "id": 122,
-      "title": "José Bono",
+      "id": 105,
+      "title": "#deviernes",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 0
     },
     {
-      "id": 123,
-      "title": "Monarquía",
+      "id": 122,
+      "title": "Villarejo",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 124,
+      "title": "Basconia",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

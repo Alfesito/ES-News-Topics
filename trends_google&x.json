@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-10T22:44:15.294602",
+  "timestamp": "2026-01-10T23:20:30.585539",
   "summary": {
     "google_total": 30,
     "xtrends_total": 15,
     "tags_total": 50,
-    "unique_total": 83,
-    "unified_count": 2,
-    "with_news": 57,
+    "unique_total": 84,
+    "unified_count": 5,
+    "with_news": 58,
     "without_news": 26
   },
   "trends": [
@@ -54,7 +54,7 @@
       "id": 115,
       "title": "Patagonia",
       "source": "x_trends",
-      "volume": "4.6MM tweets",
+      "volume": "4.8MM tweets",
       "timeframe": "24h trends",
       "news_count": 1
     },
@@ -62,7 +62,7 @@
       "id": 114,
       "title": "Canadá",
       "source": "x_trends",
-      "volume": "4.9MM tweets",
+      "volume": "5.1MM tweets",
       "timeframe": "24h trends",
       "news_count": 0
     },
@@ -75,20 +75,24 @@
       "news_count": 72
     },
     {
+      "id": 2,
+      "title": "Loteria Nacional",
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 52,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
       "id": 206,
       "title": "Politica Exterior",
       "source": "news_tags",
       "volume": "51 artículos",
       "timeframe": "24h noticias",
       "news_count": 51
-    },
-    {
-      "id": 207,
-      "title": "Internacional",
-      "source": "news_tags",
-      "volume": "48 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 48
     },
     {
       "id": 208,
@@ -147,15 +151,15 @@
       "news_count": 30
     },
     {
-      "id": 6,
+      "id": 11,
       "title": "Barcelona - Madrid",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 7
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 11
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Can Yaman",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -163,7 +167,7 @@
       "news_count": 5
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Nucleo Nacional",
       "source": "google",
       "volume": "2 mil+ búsquedas",
@@ -171,19 +175,27 @@
       "news_count": 5
     },
     {
-      "id": 11,
+      "id": 12,
+      "title": "Liga F",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 4
+    },
+    {
+      "id": 13,
       "title": "Andorra Fc",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 1
     },
     {
-      "id": 27,
+      "id": 29,
       "title": "Racing",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 1
     },
     {
@@ -191,27 +203,27 @@
       "title": "Real Oviedo - Real Betis",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 2,
-      "title": "Lotería Nacional de Hoy",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
       "id": 3,
-      "title": "Valencia C. F. - Elche C. F.",
+      "title": "Valencia Vs Elche",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0
     },
     {
       "id": 4,
+      "title": "Racing de Santander - Real Zaragoza",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 5,
       "title": "Girona - Osasuna",
       "source": "google",
       "volume": "50 mil+ búsquedas",
@@ -219,23 +231,15 @@
       "news_count": 0
     },
     {
-      "id": 5,
-      "title": "Racing de Santander - Real Zaragoza",
+      "id": 6,
+      "title": "Manchester City - Exeter City",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0
     },
     {
       "id": 7,
-      "title": "Manchester City - Exeter City",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 8,
       "title": "U. D. las Palmas - Deportivo",
       "source": "google",
       "volume": "20 mil+ búsquedas",
@@ -243,107 +247,107 @@
       "news_count": 0
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Villarreal - Alavés",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0
     },
     {
-      "id": 12,
-      "title": "Mirandés - Almería",
+      "id": 10,
+      "title": "Lorena Castell",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 13,
-      "title": "Argelia - Nigeria",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
       "id": 14,
-      "title": "Lorena Castell",
+      "title": "Mirandés - Almería",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
       "id": 15,
+      "title": "Argelia - Nigeria",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 20,
+      "title": "Real Zaragoza",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 24,
       "title": "Anne Hathaway",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 25,
-      "title": "Charlton - Chelsea",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 26,
-      "title": "Egipto Vs",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 29,
-      "title": "Pilar Rahola",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 30,
-      "title": "Paula Echevarría",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 31,
-      "title": "Dos Jovenes Muertos en Logroño",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "Gonzalez Laya",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
-      "title": "Racing Zaragoza",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
-      "id": 34,
+      "id": 25,
+      "title": "Yeison Jiménez",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "Paula Echevarría",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 30,
+      "title": "Pilar Rahola",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 31,
+      "title": "Gonzalez Laya",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 32,
+      "title": "Costa de Marfil",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 33,
       "title": "Baltasar Garzón",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 34,
+      "title": "Manresa - Breogán",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -426,8 +430,8 @@
       "timeframe": "24h trends",
       "news_count": 21,
       "merged_sources": [
-        "news_tags",
-        "x_trends"
+        "x_trends",
+        "news_tags"
       ]
     },
     {
@@ -623,7 +627,7 @@
       "news_count": 9
     },
     {
-      "id": 102,
+      "id": 101,
       "title": "Irán",
       "source": "x_trends",
       "volume": "N/A",
@@ -639,7 +643,7 @@
       "news_count": 7
     },
     {
-      "id": 101,
+      "id": 102,
       "title": "#lagaladelosgemelos",
       "source": "x_trends",
       "volume": "N/A",
@@ -647,8 +651,16 @@
       "news_count": 0
     },
     {
+      "id": 121,
+      "title": "#gottalentestreno",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
       "id": 122,
-      "title": "Kenan Kodro",
+      "title": "Soberon",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -656,7 +668,7 @@
     },
     {
       "id": 123,
-      "title": "Corberán",
+      "title": "Rams",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -664,7 +676,7 @@
     },
     {
       "id": 124,
-      "title": "Soberón",
+      "title": "Sellés",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -672,7 +684,7 @@
     },
     {
       "id": 125,
-      "title": "Tárrega",
+      "title": "Panthers",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

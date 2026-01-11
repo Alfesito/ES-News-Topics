@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-01-11T05:26:29.138749",
+  "timestamp": "2026-01-11T05:48:47.324106",
   "summary": {
-    "google_total": 18,
+    "google_total": 17,
     "xtrends_total": 14,
     "tags_total": 50,
-    "unique_total": 75,
-    "unified_count": 3,
-    "with_news": 58,
+    "unique_total": 73,
+    "unified_count": 4,
+    "with_news": 56,
     "without_news": 17
   },
   "trends": [
     {
-      "id": 201,
+      "id": 200,
       "title": "Cia",
       "source": "news_tags",
-      "volume": "183 artículos",
+      "volume": "199 artículos",
       "timeframe": "24h noticias",
-      "news_count": 216
+      "news_count": 232
     },
     {
-      "id": 200,
-      "title": "Ue",
+      "id": 201,
+      "title": "Unión Europea",
       "source": "news_tags",
-      "volume": "194 artículos",
+      "volume": "173 artículos",
       "timeframe": "24h noticias",
-      "news_count": 194
+      "news_count": 188
     },
     {
       "id": 202,
       "title": "Trump",
       "source": "news_tags",
-      "volume": "157 artículos",
+      "volume": "169 artículos",
       "timeframe": "24h noticias",
-      "news_count": 157
+      "news_count": 169
     },
     {
       "id": 203,
-      "title": "Estados Unidos",
+      "title": "Madrid (estados Unidos)",
       "source": "news_tags",
-      "volume": "100 artículos",
+      "volume": "110 artículos",
       "timeframe": "24h noticias",
-      "news_count": 100
+      "news_count": 125
     },
     {
       "id": 204,
       "title": "Gobierno",
       "source": "news_tags",
-      "volume": "93 artículos",
+      "volume": "88 artículos",
       "timeframe": "24h noticias",
-      "news_count": 93
+      "news_count": 88
     },
     {
       "id": 205,
       "title": "España",
       "source": "news_tags",
-      "volume": "78 artículos",
+      "volume": "76 artículos",
       "timeframe": "24h noticias",
-      "news_count": 78
-    },
-    {
-      "id": 114,
-      "title": "Patagonia",
-      "source": "x_trends",
-      "volume": "5.6MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 1
+      "news_count": 76
     },
     {
       "id": 112,
@@ -75,24 +67,32 @@
       "news_count": 0
     },
     {
+      "id": 114,
+      "title": "Patagonia",
+      "source": "x_trends",
+      "volume": "5.6MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
       "id": 2,
       "title": "Loteria Nacional",
       "source": "google",
       "volume": "100 mil+ búsquedas",
       "timeframe": "hace 17 h (24h)",
-      "news_count": 67,
+      "news_count": 70,
       "merged_sources": [
-        "news_tags",
-        "google"
+        "google",
+        "news_tags"
       ]
     },
     {
       "id": 207,
       "title": "Politica Exterior",
       "source": "news_tags",
-      "volume": "59 artículos",
+      "volume": "62 artículos",
       "timeframe": "24h noticias",
-      "news_count": 59
+      "news_count": 62
     },
     {
       "id": 208,
@@ -104,14 +104,6 @@
     },
     {
       "id": 209,
-      "title": "America del Sur",
-      "source": "news_tags",
-      "volume": "45 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 45
-    },
-    {
-      "id": 210,
       "title": "B50m",
       "source": "news_tags",
       "volume": "40 artículos",
@@ -119,8 +111,16 @@
       "news_count": 40
     },
     {
+      "id": 210,
+      "title": "Groenlandia",
+      "source": "news_tags",
+      "volume": "40 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 40
+    },
+    {
       "id": 211,
-      "title": "Psoe",
+      "title": "America del Sur",
       "source": "news_tags",
       "volume": "38 artículos",
       "timeframe": "24h noticias",
@@ -130,29 +130,29 @@
       "id": 212,
       "title": "Derechos Humanos",
       "source": "news_tags",
-      "volume": "36 artículos",
+      "volume": "38 artículos",
       "timeframe": "24h noticias",
-      "news_count": 36
+      "news_count": 38
     },
     {
-      "id": 213,
-      "title": "Groenlandia",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 215,
-      "title": "Gente",
+      "id": 214,
+      "title": "Casa Blanca",
       "source": "news_tags",
       "volume": "33 artículos",
       "timeframe": "24h noticias",
       "news_count": 33
     },
     {
+      "id": 215,
+      "title": "Psoe",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 32
+    },
+    {
       "id": 216,
-      "title": "Barcelona",
+      "title": "Rusia",
       "source": "news_tags",
       "volume": "32 artículos",
       "timeframe": "24h noticias",
@@ -160,11 +160,27 @@
     },
     {
       "id": 217,
-      "title": "Rusia",
+      "title": "Barcelona",
       "source": "news_tags",
-      "volume": "31 artículos",
+      "volume": "32 artículos",
       "timeframe": "24h noticias",
-      "news_count": 31
+      "news_count": 32
+    },
+    {
+      "id": 218,
+      "title": "Gente",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 219,
+      "title": "Nicolás Maduro",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
     },
     {
       "id": 8,
@@ -172,14 +188,14 @@
       "source": "google",
       "volume": "20 mil+ búsquedas",
       "timeframe": "hace 9 h (24h)",
-      "news_count": 6
+      "news_count": 8
     },
     {
       "id": 7,
       "title": "Can Yaman",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 5
     },
     {
@@ -227,7 +243,7 @@
       "title": "Girona - Osasuna",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0
     },
     {
@@ -251,7 +267,7 @@
       "title": "U. D. las Palmas - Deportivo",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0
     },
     {
@@ -279,7 +295,7 @@
       "news_count": 0
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Manifestacion Antifascista Barcelona",
       "source": "google",
       "volume": "100+ búsquedas",
@@ -288,39 +304,15 @@
     },
     {
       "id": 20,
-      "title": "Celtics - Spurs",
+      "title": "Dos Jóvenes Muertos en Logroño",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0
-    },
-    {
-      "id": 21,
-      "title": "Alianza Lima",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 218,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 219,
-      "title": "Casa Blanca",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
     },
     {
       "id": 220,
-      "title": "Caracas",
+      "title": "Europa",
       "source": "news_tags",
       "volume": "26 artículos",
       "timeframe": "24h noticias",
@@ -328,31 +320,31 @@
     },
     {
       "id": 221,
-      "title": "Nicolás Maduro",
+      "title": "Economia",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 222,
+      "title": "Caracas",
       "source": "news_tags",
       "volume": "24 artículos",
       "timeframe": "24h noticias",
       "news_count": 24
     },
     {
-      "id": 222,
-      "title": "Familia",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
       "id": 223,
       "title": "Primeros",
       "source": "news_tags",
-      "volume": "22 artículos",
+      "volume": "23 artículos",
       "timeframe": "24h noticias",
-      "news_count": 22
+      "news_count": 23
     },
     {
       "id": 224,
-      "title": "Historia",
+      "title": "Politics",
       "source": "news_tags",
       "volume": "22 artículos",
       "timeframe": "24h noticias",
@@ -360,23 +352,23 @@
     },
     {
       "id": 225,
-      "title": "Sociedad",
+      "title": "Xi Jinping",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 226,
+      "title": "Dinamarca",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
       "news_count": 21
     },
     {
-      "id": 226,
-      "title": "Otan",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
       "id": 227,
-      "title": "Economia",
+      "title": "Sociedad",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -384,15 +376,15 @@
     },
     {
       "id": 228,
-      "title": "Xi Jinping",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "20 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 20
+      "news_count": 19
     },
     {
       "id": 229,
-      "title": "Petróleo",
+      "title": "Otan",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
@@ -400,7 +392,7 @@
     },
     {
       "id": 230,
-      "title": "Politics",
+      "title": "Familia",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
@@ -408,6 +400,22 @@
     },
     {
       "id": 231,
+      "title": "Historia",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 232,
+      "title": "Chavismo",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 233,
       "title": "Alberto Núñez Feijoo",
       "source": "news_tags",
       "volume": "18 artículos",
@@ -415,75 +423,55 @@
       "news_count": 18
     },
     {
-      "id": 232,
-      "title": "Dinamarca",
+      "id": 234,
+      "title": "Victimas",
       "source": "news_tags",
       "volume": "17 artículos",
       "timeframe": "24h noticias",
       "news_count": 17
     },
     {
-      "id": 105,
-      "title": "Cataluña",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 16,
-      "merged_sources": [
-        "news_tags",
-        "x_trends"
-      ]
-    },
-    {
-      "id": 233,
-      "title": "Chavismo",
-      "source": "news_tags",
-      "volume": "16 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 16
-    },
-    {
-      "id": 234,
-      "title": "Victimas",
-      "source": "news_tags",
-      "volume": "16 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 16
-    },
-    {
       "id": 235,
-      "title": "Podemos",
+      "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "15 artículos",
+      "volume": "17 artículos",
       "timeframe": "24h noticias",
-      "news_count": 15
+      "news_count": 17
     },
     {
       "id": 236,
-      "title": "Unión Europea",
+      "title": "Petróleos de Venezuela",
       "source": "news_tags",
-      "volume": "15 artículos",
+      "volume": "17 artículos",
       "timeframe": "24h noticias",
-      "news_count": 15
+      "news_count": 17
     },
     {
       "id": 237,
-      "title": "Energía Eólica",
+      "title": "Podemos",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 238,
+      "title": "Reino Unido",
       "source": "news_tags",
       "volume": "15 artículos",
       "timeframe": "24h noticias",
       "news_count": 15
     },
     {
-      "id": 238,
-      "title": "Tiempo",
+      "id": 239,
+      "title": "Salud Mental",
       "source": "news_tags",
-      "volume": "14 artículos",
+      "volume": "15 artículos",
       "timeframe": "24h noticias",
-      "news_count": 14
+      "news_count": 15
     },
     {
-      "id": 239,
+      "id": 242,
       "title": "Moncloa",
       "source": "news_tags",
       "volume": "14 artículos",
@@ -491,32 +479,8 @@
       "news_count": 14
     },
     {
-      "id": 240,
-      "title": "Reino Unido",
-      "source": "news_tags",
-      "volume": "14 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 14
-    },
-    {
-      "id": 241,
-      "title": "Salud Mental",
-      "source": "news_tags",
-      "volume": "14 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 14
-    },
-    {
-      "id": 242,
-      "title": "Datos",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
       "id": 243,
-      "title": "Navidad",
+      "title": "Erc",
       "source": "news_tags",
       "volume": "13 artículos",
       "timeframe": "24h noticias",
@@ -524,15 +488,23 @@
     },
     {
       "id": 245,
-      "title": "Erc",
+      "title": "Ucrania",
       "source": "news_tags",
-      "volume": "12 artículos",
+      "volume": "13 artículos",
       "timeframe": "24h noticias",
-      "news_count": 12
+      "news_count": 13
     },
     {
       "id": 246,
-      "title": "Irpf",
+      "title": "Partido Popular (pp)",
+      "source": "news_tags",
+      "volume": "13 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 13
+    },
+    {
+      "id": 247,
+      "title": "Datos",
       "source": "news_tags",
       "volume": "12 artículos",
       "timeframe": "24h noticias",
@@ -540,7 +512,7 @@
     },
     {
       "id": 248,
-      "title": "Guardia Civil",
+      "title": "Cultura",
       "source": "news_tags",
       "volume": "12 artículos",
       "timeframe": "24h noticias",
@@ -548,7 +520,7 @@
     },
     {
       "id": 249,
-      "title": "Pedro Sánchez",
+      "title": "Navidad",
       "source": "news_tags",
       "volume": "12 artículos",
       "timeframe": "24h noticias",
@@ -560,7 +532,7 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 9
+      "news_count": 11
     },
     {
       "id": 101,
@@ -568,7 +540,7 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 6
+      "news_count": 8
     },
     {
       "id": 103,
@@ -576,7 +548,15 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 5
+      "news_count": 4
+    },
+    {
+      "id": 105,
+      "title": "Cataluña",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 2
     },
     {
       "id": 104,

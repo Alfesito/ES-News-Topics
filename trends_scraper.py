@@ -619,7 +619,7 @@ async def main():
     print("🔄 Scraping X Trends...")
     xtrends = await scrape_xtrends()
 
-    news_url = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/noticias_24h.json"
+    news_url = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/news_json/noticias_24h.json"
     news_articles = fetch_news_24h(news_url)
 
     tag_trends = []

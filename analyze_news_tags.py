@@ -340,7 +340,7 @@ if __name__ == "__main__":
     import sys
 
     # URL del JSON de noticias
-    NEWS_URL = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/noticias_24h.json"
+    NEWS_URL = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/news_json/noticias_24h.json"
 
     # Si se pasa un argumento, consultar ese tag
     if len(sys.argv) > 1:

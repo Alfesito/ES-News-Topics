@@ -653,7 +653,7 @@ async def main():
 
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
-    with open('trends_google&x.json', 'w', encoding='utf-8') as f:
+    with open('./tags_json/trends_google&x.json', 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     print("\n✅ Guardado: trends_google&x.json")

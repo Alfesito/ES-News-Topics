@@ -24,6 +24,7 @@ jobs:
     
     - name: 📰 Scrape → JSON
       run: |
+        python trends_scraper.py
         python scraper_cron_lv1.py
         python analyze_news_tags.py
         python scraper_cron_lv2.py

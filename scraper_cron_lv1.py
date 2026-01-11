@@ -1,12 +1,8 @@
-from Newspapers.api_abc import ABCScraper
-from Newspapers.api_elmundo import ElMundoScraper
 from Newspapers.api_eldiario import ElDiarioScraper
 from Newspapers.api_elpais import ElPaisScraper
 from Newspapers.api_larazon import LaRazonScraper
 from Newspapers.api_publico import PublicoScraper
-from Newspapers.api_lavanguardia import LaVanguardiaScraper
 from Newspapers.api_elespanol import ElEspanolScraper
-from Newspapers.api_20minutos import VeinteMinutosScraper
 from Newspapers.api_lavozdegalicia import LaVozDeGaliciaScraper
 
 
@@ -17,30 +13,22 @@ import time
 
 
 SCRAPERS = {
-    'ABC': ABCScraper(),
-    'El Mundo': ElMundoScraper(),
     'El Diario': ElDiarioScraper(),
-    'El Pais': ElPaisScraper(),
-    'La Razon': LaRazonScraper(),
-    'Publico': PublicoScraper(),
-    'La Vanguardia': LaVanguardiaScraper(),
+    'El País': ElPaisScraper(),
+    'La Razón': LaRazonScraper(),
+    'Público': PublicoScraper(),
     'El Español': ElEspanolScraper(),
-    'La Voz De Galicia': LaVozDeGaliciaScraper(),
-    '20 Minutos': VeinteMinutosScraper()
+    'La Voz De Galicia': LaVozDeGaliciaScraper()
 }
 
 
 URLS = {
-    'ABC': 'https://www.abc.es',
-    'El Mundo': 'https://www.elmundo.es',
     'El Diario': 'https://www.eldiario.es',
-    'El Pais': 'https://elpais.com',
-    'La Razon': 'https://www.larazon.es',
-    'Publico': 'https://www.publico.es',
-    'La Vanguardia': 'https://www.lavanguardia.com',
+    'El País': 'https://elpais.com',
+    'La Razón': 'https://www.larazon.es',
+    'Público': 'https://www.publico.es',
     'El Español': 'https://www.elespanol.com',
-    'La Voz De Galicia': 'https://www.lavozdegalicia.es',
-    '20 Minutos': 'https://www.20minutos.es'
+    'La Voz De Galicia': 'https://www.lavozdegalicia.es'
 }
 
 
@@ -106,7 +94,7 @@ def scrape_all():
     
     # 📂 CARGAR HISTÓRICO ANTERIOR
     try:
-        with open('noticias_completas.json', 'r', encoding='utf-8') as f:
+        with open('./news_json/noticias_completas.json', 'r', encoding='utf-8') as f:
             old_articles = json.load(f)
         print(f"📂 Histórico: {len(old_articles)} artículos")
     except:
@@ -140,7 +128,7 @@ def scrape_all():
     recent_articles.sort(key=lambda x: x.get('scraped_at', ''), reverse=True)
     
     # 💾 JSON FINAL (7 días)
-    with open('noticias_completas.json', 'w', encoding='utf-8') as f:
+    with open('./news_json/noticias_completas.json', 'w', encoding='utf-8') as f:
         json.dump(recent_articles, f, ensure_ascii=False, indent=2)
     
     # 🆕 FILTRAR ÚLTIMAS 24H Y CREAR JSON ADICIONAL
@@ -156,7 +144,7 @@ def scrape_all():
             pass  # Ignorar artículos sin fecha válida
     
     # 💾 JSON ÚLTIMAS 24H
-    with open('noticias_24h.json', 'w', encoding='utf-8') as f:
+    with open('./news_json/noticias_24h.json', 'w', encoding='utf-8') as f:
         json.dump(articles_24h, f, ensure_ascii=False, indent=2)
     
     print(f"\n⏰ ÚLTIMAS 24H: {len(articles_24h)} noticias")

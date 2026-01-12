@@ -25,12 +25,6 @@ class ElEspanolScraper(NewsScraperBase):
             elif not link.startswith('http'):
                 continue
 
-            # autor en tarjeta
-            list_author = ''
-            auth_card = article.select_one('.author, .autor, .byline')
-            if auth_card:
-                list_author = self.text.cleantext(auth_card)
-
             # fecha
             time_tag = article.find('time')
             date_raw = time_tag.get('datetime') if time_tag else ''
@@ -69,6 +63,13 @@ class ElEspanolScraper(NewsScraperBase):
             meta_author = soup.find('meta', attrs={'name': 'author'})
             if meta_author:
                 author = meta_author.get('content', '').strip()
+
+        # Limpiar el author si contiene "Publicada" o "Publicado"
+        if author:
+            if ' Publicada' in author:
+                author = author.split(' Publicada')[0].strip()
+            elif ' Publicado' in author:
+                author = author.split(' Publicado')[0].strip()
 
         # TAGS
         tags = []

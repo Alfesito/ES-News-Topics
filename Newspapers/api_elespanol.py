@@ -37,7 +37,7 @@ class ElEspanolScraper(NewsScraperBase):
 
             ordered = self.article.create_ordered_article(
                 'El Español', articleid, datetimestr, details.get('tags', []),
-                final_title, details.get('subtitle', ''), link, final_author,
+                final_title, details.get('subtitle', ''), link, details.get('author', ''),
                 details.get('image', {'url': '', 'credits': ''}),
                 details.get('body', '')
             )

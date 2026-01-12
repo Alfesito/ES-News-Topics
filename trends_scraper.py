@@ -302,20 +302,21 @@ def extract_tags_as_trends(news_articles, base_id=200):
 def count_news_by_trend(trends, news_articles):
     """
     Cuenta cuántas noticias tratan sobre cada trend.
-    Solo cuenta si TODAS las palabras del trend aparecen como PALABRAS COMPLETAS
-    en título/subtítulo/tags (usando word boundaries para evitar coincidencias parciales).
+    Verifica que TODAS las palabras del trend aparezcan en el texto de la noticia
+    (title + subtitles + tags), sin importar el orden, usando normalización.
     """
     print("\n🔍 Analizando coincidencias trends-noticias...")
+
+    stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 
+                 'es', 'por', 'con', 'para', 'al', 'a', 'o'}
 
     for trend in trends:
         if trend.get('source') == 'news_tags':
             continue
 
-        trend_title = trend['title'].lower()
-        
-        # Extraer todas las palabras del trend (sin stopwords)
-        stopwords = {'el', 'la', 'los', 'las', 'de', 'del', 'y', 'en', 'un', 'una', 'es', 'por', 'con', 'para', 'al', 'a', 'o'}
-        trend_words = [w for w in re.findall(r'\w+', trend_title) if w not in stopwords]
+        # Normalizar el título del trend y extraer palabras
+        trend_normalized = normalize_for_comparison(trend['title'])
+        trend_words = [w for w in re.findall(r'\w+', trend_normalized) if w not in stopwords]
         
         if not trend_words:
             trend['news_count'] = 0
@@ -324,21 +325,17 @@ def count_news_by_trend(trends, news_articles):
         count = 0
 
         for article in news_articles:
-            title = article.get('title', '').lower()
-            subtitle = article.get('subtitle', '').lower()
-            tags = [t.lower() for t in article.get('tags', []) if isinstance(t, str)]
+            # Obtener y normalizar todo el texto de la noticia
+            title = article.get('title', '')
+            subtitles = article.get('subtitles', '')
+            tags = article.get('tags', [])
             
-            # Combinar título, subtítulo y tags en un solo texto
-            combined_text = f"{title} {subtitle} {' '.join(tags)}"
+            # Combinar todo el texto
+            combined_text = f"{title} {subtitles} {' '.join(tags)}"
+            normalized_text = normalize_for_comparison(combined_text)
             
-            # Verificar si TODAS las palabras del trend están presentes como palabras completas
-            # Usar \b para word boundaries: \bcia\b coincide "cia" pero NO "parecía"
-            all_words_found = all(
-                re.search(r'\b' + re.escape(word) + r'\b', combined_text) 
-                for word in trend_words
-            )
-            
-            if all_words_found:
+            # Verificar que TODAS las palabras del trend estén presentes
+            if all(word in normalized_text for word in trend_words):
                 count += 1
 
         trend['news_count'] = count

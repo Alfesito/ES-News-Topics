@@ -1,41 +1,49 @@
 {
-  "timestamp": "2026-01-12T10:34:36.425703",
+  "timestamp": "2026-01-12T11:24:06.811776",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 11,
-    "tags_total": 0,
-    "unique_total": 36,
-    "unified_count": 2,
-    "with_news": 0,
-    "without_news": 36
+    "xtrends_total": 13,
+    "tags_total": 50,
+    "unique_total": 85,
+    "unified_count": 5,
+    "with_news": 60,
+    "without_news": 25
   },
   "trends": [
     {
-      "id": 111,
-      "title": "Irán",
-      "source": "x_trends",
-      "volume": "27MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 0
+      "id": 200,
+      "title": "Cia",
+      "source": "news_tags",
+      "volume": "90 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 98
+    },
+    {
+      "id": 201,
+      "title": "Ue",
+      "source": "news_tags",
+      "volume": "82 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 82
     },
     {
       "id": 113,
       "title": "Madrid",
       "source": "x_trends",
-      "volume": "10MM tweets",
+      "volume": "11MM tweets",
       "timeframe": "24h trends",
-      "news_count": 0
+      "news_count": 21
+    },
+    {
+      "id": 111,
+      "title": "Irán",
+      "source": "x_trends",
+      "volume": "28MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 6
     },
     {
       "id": 114,
-      "title": "4e First Family Time",
-      "source": "x_trends",
-      "volume": "6.3MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 115,
       "title": "Connor",
       "source": "x_trends",
       "volume": "5.4MM tweets",
@@ -43,12 +51,112 @@
       "news_count": 0
     },
     {
+      "id": 115,
+      "title": "4e First Family Time",
+      "source": "x_trends",
+      "volume": "4.8MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 202,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "72 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 72
+    },
+    {
+      "id": 203,
+      "title": "España",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
+      "id": 204,
+      "title": "Estados Unidos",
+      "source": "news_tags",
+      "volume": "41 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 41
+    },
+    {
+      "id": 205,
+      "title": "Gobierno",
+      "source": "news_tags",
+      "volume": "34 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 34
+    },
+    {
+      "id": 209,
+      "title": "Derecho Internacional",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 206,
+      "title": "Politica Monetaria",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 5,
+      "title": "Globos de Oro 2026",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 20,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Jerome Powell",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 8
+    },
+    {
+      "id": 14,
+      "title": "Endesa",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 7
+    },
+    {
+      "id": 25,
+      "title": "Jordi Sevilla",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 7
+    },
+    {
+      "id": 15,
+      "title": "Xabi Alonso",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 16 h (24h)",
+      "news_count": 3
+    },
+    {
       "id": 2,
       "title": "Marca",
       "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 0
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 1
     },
     {
       "id": 3,
@@ -63,15 +171,7 @@
       "title": "As",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 5,
-      "title": "Premios Globos de Oro 2026",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
@@ -79,7 +179,7 @@
       "title": "Marta Sanahuja",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0
     },
     {
@@ -87,7 +187,7 @@
       "title": "Sport",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
@@ -95,7 +195,7 @@
       "title": "Rayo Vallecano - R.c.d. Mallorca",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0
     },
     {
@@ -103,7 +203,7 @@
       "title": "Bet365",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
@@ -111,23 +211,15 @@
       "title": "Movistar Plus",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
       "id": 11,
-      "title": "Delia Bullido",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 12,
       "title": "Golden Globes 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0,
       "merged_sources": [
         "x_trends",
@@ -135,124 +227,464 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Drive",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0
     },
     {
-      "id": 14,
+      "id": 13,
+      "title": "Delia Bullido",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 20 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 20,
       "title": "Calculadora",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
-      "title": "Gemini",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 23,
-      "title": "Sepe",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 24,
-      "title": "Teams",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 25,
+      "id": 21,
+      "title": "Sepe",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 22,
+      "title": "Word",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 23,
       "title": "Rae",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 26,
-      "title": "Jerome Powell",
+      "title": "Burlington",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 27,
-      "title": "Jordi Sevilla",
+      "title": "Premios Globos de Oro 2026 Ganadores",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 20 min (4h)",
       "news_count": 0
     },
     {
-      "id": 29,
-      "title": "Word",
+      "id": 28,
+      "title": "Marc Giro",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 6,
+      "merged_sources": [
+        "x_trends",
+        "google"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Ana Rosa Quintana",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 29,
+      "title": "Fitur",
+      "source": "google",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
       "id": 30,
-      "title": "Marc Giro",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 31,
-      "title": "Burlington",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "Fitur",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
       "title": "Sm",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 34,
-      "title": "Jessie Buckley",
       "source": "google",
       "volume": "500+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
+    },
+    {
+      "id": 31,
+      "title": "Jaume Munar",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 32,
+      "title": "Ucm",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 33,
+      "title": "Casting la Ruleta de la Suerte",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 207,
+      "title": "Barcelona",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 208,
+      "title": "Erc",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 210,
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 211,
+      "title": "Historia",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 212,
+      "title": "Sociedad",
+      "source": "news_tags",
+      "volume": "15 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 15
+    },
+    {
+      "id": 213,
+      "title": "Datos",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 215,
+      "title": "Economia",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 216,
+      "title": "Gente",
+      "source": "news_tags",
+      "volume": "13 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 13
+    },
+    {
+      "id": 219,
+      "title": "Psoe",
+      "source": "news_tags",
+      "volume": "12 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 12
     },
     {
       "id": 1,
       "title": "Barcelona - Real Madrid",
       "source": "google",
       "volume": "1 M+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 0
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 10
+    },
+    {
+      "id": 220,
+      "title": "Dana",
+      "source": "news_tags",
+      "volume": "10 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 10
+    },
+    {
+      "id": 221,
+      "title": "Futbolistas",
+      "source": "news_tags",
+      "volume": "10 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 10
+    },
+    {
+      "id": 222,
+      "title": "Vox",
+      "source": "news_tags",
+      "volume": "9 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 9
+    },
+    {
+      "id": 223,
+      "title": "Opinión",
+      "source": "news_tags",
+      "volume": "9 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 9
+    },
+    {
+      "id": 224,
+      "title": "Unión Europea",
+      "source": "news_tags",
+      "volume": "9 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 9
+    },
+    {
+      "id": 225,
+      "title": "Vivienda Asequible",
+      "source": "news_tags",
+      "volume": "9 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 9
+    },
+    {
+      "id": 228,
+      "title": "Rusia",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 229,
+      "title": "Podemos",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 230,
+      "title": "Fiscalia",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 231,
+      "title": "Victimas",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 232,
+      "title": "Catalunya",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 233,
+      "title": "Tribunales",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 234,
+      "title": "Groenlandia",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 235,
+      "title": "América Latina",
+      "source": "news_tags",
+      "volume": "8 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 8
+    },
+    {
+      "id": 236,
+      "title": "Flick",
+      "source": "news_tags",
+      "volume": "7 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 7
+    },
+    {
+      "id": 237,
+      "title": "Europa",
+      "source": "news_tags",
+      "volume": "7 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 7
+    },
+    {
+      "id": 238,
+      "title": "Familia",
+      "source": "news_tags",
+      "volume": "7 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 7
+    },
+    {
+      "id": 239,
+      "title": "Politics",
+      "source": "news_tags",
+      "volume": "7 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 7
+    },
+    {
+      "id": 240,
+      "title": "Hollywood",
+      "source": "news_tags",
+      "volume": "7 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 7
+    },
+    {
+      "id": 241,
+      "title": "Casa Blanca",
+      "source": "news_tags",
+      "volume": "7 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 7
+    },
+    {
+      "id": 242,
+      "title": "Iva",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 243,
+      "title": "Sumar",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 244,
+      "title": "Instagram",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 245,
+      "title": "El Tiempo",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 246,
+      "title": "Carlos Mazón",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 247,
+      "title": "Cine Espanol",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 248,
+      "title": "Breaking News",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 249,
+      "title": "Pedro Sánchez",
+      "source": "news_tags",
+      "volume": "6 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 6
+    },
+    {
+      "id": 104,
+      "title": "Raphinha",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 5
+    },
+    {
+      "id": 105,
+      "title": "Lamine",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 3
+    },
+    {
+      "id": 122,
+      "title": "Atresmedia",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 3
+    },
+    {
+      "id": 103,
+      "title": "Carreras",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 1
     },
     {
       "id": 101,
@@ -265,38 +697,6 @@
     {
       "id": 102,
       "title": "#coac2026p1",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 103,
-      "title": "Carreras",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 104,
-      "title": "Raphinha",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 105,
-      "title": "Lamine",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 121,
-      "title": "Pradas",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

@@ -32,7 +32,6 @@ class ElEspanolScraper(NewsScraperBase):
 
             details = self.scrape_article_details(link)
             final_title = details.get('title', title) or title
-            final_author = details.get('author', list_author) or list_author
 
             articleid = self.idgen.generate_id_from_url(link) if link else self.idgen.generateshortid('ElEspanol', datetimestr, final_title)
 

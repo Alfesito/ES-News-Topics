@@ -169,7 +169,7 @@ class ElMundoScraper(NewsScraperBase):
             body = '\n\n'.join(paragraphs)
 
         # ENRIQUECER TAGS con TagEnricher
-        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
 
         return {
             'title': title,

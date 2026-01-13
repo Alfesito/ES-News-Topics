@@ -1,10 +1,13 @@
 from Scraper.Base_Scraper import NewsScraperBase
 from urllib.parse import urljoin
+from .TagEnricher import TagEnricher
 import re
 
 class PublicoScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('publico.es')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
 
     def _scrape_list_articles(self, soup, base_url):
         results = []
@@ -145,11 +148,14 @@ class PublicoScraper(NewsScraperBase):
 
             image['credits'] = self.image.format_credits(caption_text, caption_author)
 
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
+
         return {
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,
             'body': body,
             'image': image
         }

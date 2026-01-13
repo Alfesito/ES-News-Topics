@@ -1,9 +1,12 @@
 from Scraper.Base_Scraper import NewsScraperBase
+from .TagEnricher import TagEnricher
 import re
 
 class LaRazonScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('larazon.es')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
     
     def _scrape_list_articles(self, soup, base_url):
         """TU CÓDIGO ORIGINAL scrape_all_articles_larazon EXACTO"""
@@ -121,12 +124,15 @@ class LaRazonScraper(NewsScraperBase):
         meta_image = soup.find('meta', property='og:image')
         if meta_image and not image['url']:
             image = {'url': meta_image.get('content', ''), 'credits': ''}
+
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
         
         return {
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,
             'body': body,
             'image': image
         }

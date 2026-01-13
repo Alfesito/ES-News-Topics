@@ -1,10 +1,13 @@
 from Scraper.Base_Scraper import NewsScraperBase
 from urllib.parse import urljoin
+from .TagEnricher import TagEnricher
 import re
 
 class LaVozDeGaliciaScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('lavozdegalicia.es')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
 
     def _scrape_list_articles(self, soup, base_url):
         results = []

@@ -123,7 +123,7 @@ class VeinteMinutosScraper(NewsScraperBase):
         body = ' '.join(body_parts)[:6000]
 
         # ENRIQUECER TAGS con TagEnricher
-        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
 
         # IMAGE
         image = self.image.extract_image(soup, [

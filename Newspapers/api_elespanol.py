@@ -1,10 +1,13 @@
 from Scraper.Base_Scraper import NewsScraperBase
 from urllib.parse import urljoin
+from .TagEnricher import TagEnricher
 import re
 
 class ElEspanolScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('elespanol.com')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
 
     def _scrape_list_articles(self, soup, base_url):
         results = []
@@ -101,6 +104,9 @@ class ElEspanolScraper(NewsScraperBase):
             body_parts.append(t)
         body = ' '.join(body_parts)[:5000]
 
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
+
         # IMAGE: usar helper y completar créditos desde figcaption o alt
         image = self.image.extract_image(soup, [
             'figure img[src]', 'img[src].foto, img[src].imagen', 'meta[property="og:image"]'
@@ -139,7 +145,7 @@ class ElEspanolScraper(NewsScraperBase):
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,
             'body': body,
             'image': image
         }

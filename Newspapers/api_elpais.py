@@ -1,8 +1,11 @@
 from Scraper.Base_Scraper import NewsScraperBase
+from .TagEnricher import TagEnricher
 
 class ElPaisScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('El País')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
     
     def _scrape_list_articles(self, soup, base_url):
         """TU CÓDIGO ORIGINAL scrape_all_articles EXACTO"""
@@ -87,6 +90,9 @@ class ElPaisScraper(NewsScraperBase):
         body = ' '.join([self.text.cleantext(p) for p in body_paragraphs 
                         if len(self.text.cleantext(p)) > 30])[:3000]
         
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
+        
         # IMAGEN ROBUSTA
         image = {'url': '', 'credits': ''}
         main_figure = soup.find('figure', class_='am am-h')
@@ -120,7 +126,7 @@ class ElPaisScraper(NewsScraperBase):
             'title': title,
             'subtitle': subtitle,
             'author': author,
-            'tags': tags,
+            'tags': enriched_tags,
             'body': body,
             'image': image
         }

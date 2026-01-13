@@ -90,7 +90,7 @@ class ABCScraper(NewsScraperBase):
         body = ' '.join(body_parts)[:3000]
         
         # ENRIQUECER TAGS con el TagEnricher
-        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle, body)
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
         
         # IMAGE
         image = self.image.extract_image(soup, [

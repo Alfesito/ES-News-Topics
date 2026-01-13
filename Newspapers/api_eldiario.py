@@ -1,10 +1,13 @@
 from Flask_App.Flask_App import NewsFlaskApp
 from Scraper.Base_Scraper import NewsScraperBase
+from .TagEnricher import TagEnricher
 import re
 
 class ElDiarioScraper(NewsScraperBase):
     def __init__(self):
         super().__init__('eldiario.es')
+        # Inicializar el enriquecedor de tags
+        self.tag_enricher = TagEnricher()
     
     def _scrape_list_articles(self, soup, base_url):
         """TU CÓDIGO ORIGINAL scrape_all_articles EXACTO"""
@@ -87,6 +90,9 @@ class ElDiarioScraper(NewsScraperBase):
         body_paragraphs = soup.find_all('p', class_='article-text')[:12]
         body = ' '.join([self.text.cleantext(p) for p in body_paragraphs if len(self.text.cleantext(p)) > 30])[:3000]
         
+        # ENRIQUECER TAGS con TagEnricher
+        enriched_tags = self.tag_enricher.enrich_tags(tags, title, subtitle)
+
         # IMAGEN ROBUSTA
         image = {'url': '', 'credits': ''}
         main_figure = soup.find('figure', class_='ni-figure')
@@ -113,7 +119,7 @@ class ElDiarioScraper(NewsScraperBase):
             'title': title,
             'subtitle': subtitle,
             'author': author or 'Redacción',
-            'tags': tags,
+            'tags': enriched_tags,
             'body': body,
             'image': image
         }

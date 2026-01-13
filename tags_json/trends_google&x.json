@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-13T17:27:46.727786",
+  "timestamp": "2026-01-13T17:29:28.356091",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 15,
+    "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 89,
+    "unique_total": 82,
     "unified_count": 2,
-    "with_news": 62,
-    "without_news": 27
+    "with_news": 60,
+    "without_news": 22
   },
   "trends": [
     {
@@ -19,20 +19,20 @@
       "news_count": 182
     },
     {
-      "id": 201,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "166 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 166
-    },
-    {
       "id": 202,
       "title": "Trump",
       "source": "news_tags",
       "volume": "136 artículos",
       "timeframe": "24h noticias",
       "news_count": 136
+    },
+    {
+      "id": 111,
+      "title": "Madrid",
+      "source": "x_trends",
+      "volume": "6.5MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 118
     },
     {
       "id": 204,
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": 111,
+      "id": 112,
       "title": "Xabi Alonso",
       "source": "x_trends",
       "volume": "4.3MM tweets",
@@ -183,7 +183,7 @@
       "news_count": 41
     },
     {
-      "id": 31,
+      "id": 32,
       "title": "Ing",
       "source": "google",
       "volume": "1 mil+ búsquedas",
@@ -263,7 +263,7 @@
       "news_count": 29
     },
     {
-      "id": 27,
+      "id": 28,
       "title": "Twitter",
       "source": "google",
       "volume": "2 mil+ búsquedas",
@@ -287,14 +287,6 @@
       "news_count": 4
     },
     {
-      "id": 26,
-      "title": "Dakar",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 4
-    },
-    {
       "id": 7,
       "title": "Pedro Sánchez Alquileres",
       "source": "google",
@@ -303,7 +295,7 @@
       "news_count": 3
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Pintus",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -324,6 +316,14 @@
       "source": "google",
       "volume": "20 mil+ búsquedas",
       "timeframe": "hace 17 h (24h)",
+      "news_count": 1
+    },
+    {
+      "id": 13,
+      "title": "Copa del Rey",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 10 min (24h)",
       "news_count": 1
     },
     {
@@ -367,7 +367,15 @@
       "news_count": 0
     },
     {
-      "id": 13,
+      "id": 12,
+      "title": "Ticketmaster",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 15,
       "title": "Valencia - Zaragoza",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -375,43 +383,11 @@
       "news_count": 0
     },
     {
-      "id": 14,
-      "title": "Sevilla Celta",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
-      "title": "Juventus - Cremonese",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 21,
-      "title": "Ticketmaster",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 22,
+      "id": 23,
       "title": "Princesa Irene de Grecia",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 30 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 23,
-      "title": "Bts",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -424,6 +400,14 @@
     },
     {
       "id": 25,
+      "title": "Bts",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
       "title": "Pensión No Contributiva",
       "source": "google",
       "volume": "2 mil+ búsquedas",
@@ -431,16 +415,16 @@
       "news_count": 0
     },
     {
-      "id": 28,
-      "title": "Malaga Lluvias",
+      "id": 27,
+      "title": "Rally Dakar Clasificación",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0
     },
     {
       "id": 29,
-      "title": "Bono Alquiler Joven Andalucia",
+      "title": "Malaga Lluvias",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -455,11 +439,11 @@
       "news_count": 0
     },
     {
-      "id": 32,
-      "title": "Riyadh Air Metropolitano",
+      "id": 31,
+      "title": "Bono Alquiler Joven Andalucia",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -639,24 +623,8 @@
       "news_count": 12
     },
     {
-      "id": 123,
-      "title": "Los Domingos",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8
-    },
-    {
-      "id": 115,
-      "title": "Bellingham",
-      "source": "x_trends",
-      "volume": "343KM tweets",
-      "timeframe": "24h trends",
-      "news_count": 2
-    },
-    {
-      "id": 124,
-      "title": "Errejon",
+      "id": 105,
+      "title": "Zidane",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -679,7 +647,15 @@
       "news_count": 0
     },
     {
-      "id": 112,
+      "id": 113,
+      "title": "Erika",
+      "source": "x_trends",
+      "volume": "558KM tweets",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 114,
       "title": "Steelers",
       "source": "x_trends",
       "volume": "547KM tweets",
@@ -687,42 +663,10 @@
       "news_count": 0
     },
     {
-      "id": 113,
-      "title": "Erika",
-      "source": "x_trends",
-      "volume": "526KM tweets",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 114,
+      "id": 115,
       "title": "Endrick",
       "source": "x_trends",
       "volume": "376KM tweets",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 121,
-      "title": "#goya2026",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "Romería",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 125,
-      "title": "Monedero",
-      "source": "x_trends",
-      "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 0
     }

@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-01-13T07:27:51.315471",
+  "timestamp": "2026-01-13T07:45:54.588748",
   "summary": {
     "google_total": 26,
     "xtrends_total": 13,
     "tags_total": 50,
     "unique_total": 80,
     "unified_count": 3,
-    "with_news": 62,
-    "without_news": 18
+    "with_news": 63,
+    "without_news": 17
   },
   "trends": [
     {
       "id": 200,
       "title": "Gobierno",
       "source": "news_tags",
-      "volume": "92 artículos",
+      "volume": "94 artículos",
       "timeframe": "24h noticias",
-      "news_count": 92
+      "news_count": 94
     },
     {
-      "id": 201,
+      "id": 202,
       "title": "Trump",
       "source": "news_tags",
       "volume": "80 artículos",
@@ -32,7 +32,7 @@
       "source": "x_trends",
       "volume": "8.6MM tweets",
       "timeframe": "24h trends",
-      "news_count": 58
+      "news_count": 61
     },
     {
       "id": 111,
@@ -40,7 +40,7 @@
       "source": "x_trends",
       "volume": "45MM tweets",
       "timeframe": "24h trends",
-      "news_count": 46
+      "news_count": 47
     },
     {
       "id": 114,
@@ -48,7 +48,7 @@
       "source": "x_trends",
       "volume": "3.9MM tweets",
       "timeframe": "24h trends",
-      "news_count": 35
+      "news_count": 37
     },
     {
       "id": 115,
@@ -56,7 +56,7 @@
       "source": "x_trends",
       "volume": "3.5MM tweets",
       "timeframe": "24h trends",
-      "news_count": 35
+      "news_count": 36
     },
     {
       "id": 112,
@@ -83,28 +83,40 @@
       "news_count": 54
     },
     {
+      "id": 205,
+      "title": "Viviendas",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
       "id": 214,
       "title": "Redes Sociales",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
-      "id": 206,
-      "title": "Viviendas",
-      "source": "news_tags",
-      "volume": "40 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 40
+      "news_count": 42
     },
     {
       "id": 207,
       "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "40 artículos",
+      "volume": "41 artículos",
       "timeframe": "24h noticias",
-      "news_count": 40
+      "news_count": 41
+    },
+    {
+      "id": 1,
+      "title": "Arbeloa",
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 14 h (24h)",
+      "news_count": 35,
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
       "id": 208,
@@ -115,30 +127,18 @@
       "news_count": 35
     },
     {
-      "id": 1,
-      "title": "Arbeloa",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 32,
-      "merged_sources": [
-        "google",
-        "news_tags"
-      ]
-    },
-    {
       "id": 209,
       "title": "Psoe (partido Socialista Obrero Español)",
       "source": "news_tags",
-      "volume": "32 artículos",
+      "volume": "33 artículos",
       "timeframe": "24h noticias",
-      "news_count": 32
+      "news_count": 33
     },
     {
-      "id": 12,
+      "id": 5,
       "title": "Jordi Sevilla",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
+      "volume": "10 mil+ búsquedas",
       "timeframe": "hace 23 h (24h)",
       "news_count": 10
     },
@@ -151,16 +151,24 @@
       "news_count": 7
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Julio Iglesias",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
-      "news_count": 4
+      "news_count": 5
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Pedro Sánchez Alquileres",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 2
+    },
+    {
+      "id": 10,
+      "title": "Telecinco",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 10 h (24h)",
@@ -183,16 +191,8 @@
       "news_count": 1
     },
     {
-      "id": 8,
-      "title": "Telecinco Directo",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
-      "news_count": 1
-    },
-    {
       "id": 9,
-      "title": "Telecinco",
+      "title": "Telecinco Directo",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 10 h (24h)",
@@ -215,15 +215,15 @@
       "news_count": 0
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "S. D. Huesca - Córdoba",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Liverpool - Barnsley",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -231,7 +231,7 @@
       "news_count": 0
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Asteroide Potencialmente Peligroso",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -239,11 +239,11 @@
       "news_count": 0
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Psg",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0
     },
     {
@@ -255,27 +255,19 @@
       "news_count": 0
     },
     {
-      "id": 20,
-      "title": "Kings - Lakers",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
       "id": 25,
       "title": "Nfl",
       "source": "google",
       "volume": "500+ búsquedas",
       "timeframe": "hace 3 h (4h)",
-      "news_count": 17
+      "news_count": 18
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Tiempo",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 12,
       "merged_sources": [
         "google",
@@ -283,11 +275,19 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Tiempo en Sevilla",
       "source": "google",
       "volume": "500+ búsquedas",
       "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 23,
+      "title": "Luka Dončić",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -303,7 +303,7 @@
       "title": "Mavericks - Nets",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -311,11 +311,11 @@
       "title": "Clippers - Hornets",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
-      "id": 28,
+      "id": 29,
       "title": "Esradio",
       "source": "google",
       "volume": "200+ búsquedas",
@@ -350,9 +350,9 @@
       "id": 213,
       "title": "Economia",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 28
     },
     {
       "id": 215,
@@ -380,7 +380,7 @@
     },
     {
       "id": 218,
-      "title": "Derecho al Honor",
+      "title": "Valencia",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -388,15 +388,15 @@
     },
     {
       "id": 219,
-      "title": "España",
+      "title": "Derecho al Honor",
       "source": "news_tags",
-      "volume": "19 artículos",
+      "volume": "20 artículos",
       "timeframe": "24h noticias",
-      "news_count": 19
+      "news_count": 20
     },
     {
       "id": 220,
-      "title": "Valencia",
+      "title": "España",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
@@ -419,8 +419,16 @@
       "news_count": 18
     },
     {
-      "id": 223,
+      "id": 224,
       "title": "Justicia",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 225,
+      "title": "Olas",
       "source": "news_tags",
       "volume": "16 artículos",
       "timeframe": "24h noticias",
@@ -428,6 +436,14 @@
     },
     {
       "id": 226,
+      "title": "Empresas",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 228,
       "title": "Opinión",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -435,15 +451,7 @@
       "news_count": 15
     },
     {
-      "id": 227,
-      "title": "Empresas",
-      "source": "news_tags",
-      "volume": "15 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 15
-    },
-    {
-      "id": 228,
+      "id": 229,
       "title": "Groenlandia",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -451,24 +459,16 @@
       "news_count": 15
     },
     {
-      "id": 229,
-      "title": "Nicolás Maduro Guerra",
+      "id": 230,
+      "title": "Alquiler Seguro",
       "source": "news_tags",
       "volume": "15 artículos",
       "timeframe": "24h noticias",
       "news_count": 15
     },
     {
-      "id": 230,
-      "title": "Sociedad",
-      "source": "news_tags",
-      "volume": "14 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 14
-    },
-    {
       "id": 231,
-      "title": "Represion",
+      "title": "Sumar",
       "source": "news_tags",
       "volume": "14 artículos",
       "timeframe": "24h noticias",
@@ -476,7 +476,7 @@
     },
     {
       "id": 232,
-      "title": "Alquiler Seguro",
+      "title": "Israel",
       "source": "news_tags",
       "volume": "14 artículos",
       "timeframe": "24h noticias",
@@ -484,6 +484,38 @@
     },
     {
       "id": 233,
+      "title": "Sociedad",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 234,
+      "title": "Represion",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 235,
+      "title": "Tribunales",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 236,
+      "title": "Extremadura",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 237,
       "title": "Vox",
       "source": "news_tags",
       "volume": "13 artículos",
@@ -491,40 +523,8 @@
       "news_count": 13
     },
     {
-      "id": 234,
-      "title": "Israel",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 235,
-      "title": "Sevilla",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 236,
-      "title": "Chavismo",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
-      "id": 237,
-      "title": "Tribunales",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
       "id": 238,
-      "title": "Extremadura",
+      "title": "Precios",
       "source": "news_tags",
       "volume": "13 artículos",
       "timeframe": "24h noticias",
@@ -532,7 +532,7 @@
     },
     {
       "id": 239,
-      "title": "Salud Mental",
+      "title": "Sevilla",
       "source": "news_tags",
       "volume": "13 artículos",
       "timeframe": "24h noticias",
@@ -540,7 +540,7 @@
     },
     {
       "id": 240,
-      "title": "Tribunal Supremo",
+      "title": "Chavismo",
       "source": "news_tags",
       "volume": "13 artículos",
       "timeframe": "24h noticias",
@@ -548,14 +548,22 @@
     },
     {
       "id": 241,
-      "title": "Sumar",
+      "title": "Salud Mental",
       "source": "news_tags",
-      "volume": "12 artículos",
+      "volume": "13 artículos",
       "timeframe": "24h noticias",
-      "news_count": 12
+      "news_count": 13
     },
     {
       "id": 242,
+      "title": "Tribunal Supremo",
+      "source": "news_tags",
+      "volume": "13 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 13
+    },
+    {
+      "id": 243,
       "title": "China",
       "source": "news_tags",
       "volume": "12 artículos",
@@ -563,7 +571,23 @@
       "news_count": 12
     },
     {
-      "id": 244,
+      "id": 245,
+      "title": "Podemos",
+      "source": "news_tags",
+      "volume": "12 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 12
+    },
+    {
+      "id": 246,
+      "title": "Santiago Abascal",
+      "source": "news_tags",
+      "volume": "12 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 12
+    },
+    {
+      "id": 247,
       "title": "Federico Linares",
       "source": "news_tags",
       "volume": "12 artículos",
@@ -571,40 +595,16 @@
       "news_count": 12
     },
     {
-      "id": 245,
-      "title": "Oro",
-      "source": "news_tags",
-      "volume": "11 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 11
-    },
-    {
-      "id": 246,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "11 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 11
-    },
-    {
-      "id": 247,
-      "title": "Caracas",
-      "source": "news_tags",
-      "volume": "11 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 11
-    },
-    {
       "id": 248,
-      "title": "Podemos",
+      "title": "Alberto Núñez Feijoo",
       "source": "news_tags",
-      "volume": "11 artículos",
+      "volume": "12 artículos",
       "timeframe": "24h noticias",
-      "news_count": 11
+      "news_count": 12
     },
     {
       "id": 249,
-      "title": "Precios",
+      "title": "Oro",
       "source": "news_tags",
       "volume": "11 artículos",
       "timeframe": "24h noticias",
@@ -635,6 +635,14 @@
       "news_count": 1
     },
     {
+      "id": 123,
+      "title": "Olatz",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 1
+    },
+    {
       "id": 104,
       "title": "Liverpool",
       "source": "x_trends",
@@ -645,14 +653,6 @@
     {
       "id": 105,
       "title": "Ancelotti",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 123,
-      "title": "Olatz",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

@@ -65,14 +65,13 @@ class TagEnricher:
         existing_tags: List[str],
         title: str,
         subtitle: str,
-        body: str
     ) -> List[str]:
 
         if not isinstance(existing_tags, list):
             existing_tags = []
 
         # Texto completo (mantener mayúsculas/minúsculas originales para regex)
-        full_text = f"{title} {subtitle} {body}"
+        full_text = f"{title} {subtitle}"
 
         enriched_tags = set(existing_tags)
 

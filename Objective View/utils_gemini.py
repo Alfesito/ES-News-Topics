@@ -167,7 +167,7 @@ def exportar_analisis_individual(analisis, directorio="exports"):
 
 def cargar_noticias():
     try:
-        response = requests.get(NEWS_JSON_URL, timeout=10)
+        response = requests.get(NEWS_JSON_URL, timeout=26)
         response.raise_for_status()
         return json.loads(response.text)
     except requests.RequestException as e:

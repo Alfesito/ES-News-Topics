@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-13T05:49:34.670540",
+  "timestamp": "2026-01-13T06:35:57.553851",
   "summary": {
-    "google_total": 21,
+    "google_total": 27,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 75,
-    "unified_count": 3,
-    "with_news": 60,
-    "without_news": 15
+    "unique_total": 79,
+    "unified_count": 5,
+    "with_news": 62,
+    "without_news": 17
   },
   "trends": [
     {
@@ -22,7 +22,7 @@
       "id": 113,
       "title": "Madrid",
       "source": "x_trends",
-      "volume": "8.7MM tweets",
+      "volume": "8.6MM tweets",
       "timeframe": "24h trends",
       "news_count": 58
     },
@@ -30,7 +30,7 @@
       "id": 111,
       "title": "Irán",
       "source": "x_trends",
-      "volume": "47MM tweets",
+      "volume": "46MM tweets",
       "timeframe": "24h trends",
       "news_count": 44
     },
@@ -46,7 +46,7 @@
       "id": 115,
       "title": "Barça",
       "source": "x_trends",
-      "volume": "3.5MM tweets",
+      "volume": "3.3MM tweets",
       "timeframe": "24h trends",
       "news_count": 3
     },
@@ -54,7 +54,7 @@
       "id": 112,
       "title": "#goldenglobes",
       "source": "x_trends",
-      "volume": "13MM tweets",
+      "volume": "9MM tweets",
       "timeframe": "24h trends",
       "news_count": 0
     },
@@ -111,7 +111,7 @@
       "title": "Arbeloa",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 32,
       "merged_sources": [
         "news_tags",
@@ -143,43 +143,55 @@
       "news_count": 30
     },
     {
-      "id": 7,
-      "title": "Jordi Sevilla",
+      "id": 9,
+      "title": "Sevilla",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 10
-    },
-    {
-      "id": 12,
-      "title": "Pedro Sánchez Alquileres",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
-      "news_count": 2
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 13,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
     },
     {
       "id": 3,
+      "title": "Chatgpt",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 2
+    },
+    {
+      "id": 13,
+      "title": "Pedro Sánchez Alquileres",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
+      "news_count": 2
+    },
+    {
+      "id": 4,
       "title": "Chris Pratt",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 1
-    },
-    {
-      "id": 9,
-      "title": "Telecinco Directo",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 1
     },
     {
       "id": 10,
+      "title": "Telecinco Directo",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
+      "news_count": 1
+    },
+    {
+      "id": 11,
       "title": "Telecinco",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 1
     },
     {
@@ -187,27 +199,27 @@
       "title": "Sevilla - Celta de Vigo",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Drive",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 6,
+      "title": "Calculadora",
       "source": "google",
       "volume": "20 mil+ búsquedas",
       "timeframe": "hace 22 h (24h)",
       "news_count": 0
     },
     {
-      "id": 5,
-      "title": "Calculadora",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 6,
+      "id": 7,
       "title": "S. D. Huesca - Córdoba",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -219,35 +231,19 @@
       "title": "Liverpool - Barnsley",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Asteroide Potencialmente Peligroso",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 13,
-      "title": "Valencia - Zaragoza",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0
     },
     {
       "id": 14,
-      "title": "Juventus - Cremonese",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
       "title": "Psg",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -255,10 +251,18 @@
       "news_count": 0
     },
     {
+      "id": 15,
+      "title": "Valencia - Zaragoza",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 0
+    },
+    {
       "id": 20,
       "title": "Kings - Lakers",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
@@ -267,15 +271,15 @@
       "title": "Nfl",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 17
     },
     {
-      "id": 24,
+      "id": 28,
       "title": "Tiempo",
       "source": "google",
       "volume": "100+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
+      "timeframe": "hace 50 min (4h)",
       "news_count": 12,
       "merged_sources": [
         "news_tags",
@@ -283,27 +287,67 @@
       ]
     },
     {
-      "id": 22,
-      "title": "Mavericks - Nets",
+      "id": 23,
+      "title": "Julio Iglesias",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
+      "news_count": 3
     },
     {
-      "id": 23,
-      "title": "Luka Dončić",
+      "id": 24,
+      "title": "La.isla de las Tentaciones",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
-      "news_count": 0
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
+      "news_count": 3
+    },
+    {
+      "id": 22,
+      "title": "Endesa Energia Ciberataque",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
+      "news_count": 2
     },
     {
       "id": 25,
+      "title": "Mavericks - Nets",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "Tiempo en Sevilla",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 27,
       "title": "El Partidazo de Cope",
       "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 29,
+      "title": "Esradio",
+      "source": "google",
       "volume": "100+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 30,
+      "title": "Faro de Vigo",
+      "source": "google",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0
     },
     {
@@ -451,14 +495,6 @@
       "news_count": 13
     },
     {
-      "id": 232,
-      "title": "Sevilla",
-      "source": "news_tags",
-      "volume": "13 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 13
-    },
-    {
       "id": 233,
       "title": "Empresas",
       "source": "news_tags",
@@ -587,14 +623,6 @@
       "news_count": 11
     },
     {
-      "id": 103,
-      "title": "Marc Giró",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 7
-    },
-    {
       "id": 101,
       "title": "Florentino",
       "source": "x_trends",
@@ -611,8 +639,16 @@
       "news_count": 4
     },
     {
-      "id": 105,
+      "id": 104,
       "title": "Liverpool",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 105,
+      "title": "Ancelotti",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

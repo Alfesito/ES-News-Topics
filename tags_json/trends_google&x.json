@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-13T08:32:34.385273",
+  "timestamp": "2026-01-13T08:35:18.960954",
   "summary": {
     "google_total": 26,
-    "xtrends_total": 13,
+    "xtrends_total": 15,
     "tags_total": 50,
-    "unique_total": 80,
-    "unified_count": 3,
-    "with_news": 62,
-    "without_news": 18
+    "unique_total": 82,
+    "unified_count": 4,
+    "with_news": 63,
+    "without_news": 19
   },
   "trends": [
     {
@@ -54,7 +54,7 @@
       "id": 115,
       "title": "Xabi Alonso",
       "source": "x_trends",
-      "volume": "3.5MM tweets",
+      "volume": "3.9MM tweets",
       "timeframe": "24h trends",
       "news_count": 36
     },
@@ -81,6 +81,14 @@
       "volume": "54 artículos",
       "timeframe": "24h noticias",
       "news_count": 54
+    },
+    {
+      "id": 123,
+      "title": "Cono",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 51
     },
     {
       "id": 205,
@@ -395,6 +403,18 @@
       "news_count": 20
     },
     {
+      "id": 125,
+      "title": "Depresión",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 19,
+      "merged_sources": [
+        "news_tags",
+        "x_trends"
+      ]
+    },
+    {
       "id": 220,
       "title": "España",
       "source": "news_tags",
@@ -485,14 +505,6 @@
     {
       "id": 233,
       "title": "Sociedad",
-      "source": "news_tags",
-      "volume": "14 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 14
-    },
-    {
-      "id": 234,
-      "title": "Represion",
       "source": "news_tags",
       "volume": "14 artículos",
       "timeframe": "24h noticias",
@@ -627,16 +639,16 @@
       "news_count": 4
     },
     {
-      "id": 121,
-      "title": "Martes y 13",
+      "id": 105,
+      "title": "Zidane",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 1
+      "news_count": 2
     },
     {
-      "id": 123,
-      "title": "Olatz",
+      "id": 122,
+      "title": "Martes 13",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -651,8 +663,16 @@
       "news_count": 0
     },
     {
-      "id": 105,
-      "title": "Ancelotti",
+      "id": 121,
+      "title": "#buenosdías",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 124,
+      "title": "Mc 1",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

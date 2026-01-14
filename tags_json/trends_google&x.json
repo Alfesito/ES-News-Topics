@@ -1,49 +1,41 @@
 {
-  "timestamp": "2026-01-14T15:29:42.203419",
+  "timestamp": "2026-01-14T15:52:09.373482",
   "summary": {
-    "google_total": 25,
-    "xtrends_total": 10,
+    "google_total": 27,
+    "xtrends_total": 7,
     "tags_total": 50,
-    "unique_total": 82,
-    "unified_count": 1,
+    "unique_total": 81,
+    "unified_count": 0,
     "with_news": 60,
-    "without_news": 22
+    "without_news": 21
   },
   "trends": [
     {
       "id": 200,
       "title": "Trump",
       "source": "news_tags",
-      "volume": "118 artículos",
+      "volume": "115 artículos",
       "timeframe": "24h noticias",
-      "news_count": 118
+      "news_count": 115
     },
     {
       "id": 201,
       "title": "Gobierno",
       "source": "news_tags",
-      "volume": "93 artículos",
+      "volume": "83 artículos",
       "timeframe": "24h noticias",
-      "news_count": 93
+      "news_count": 83
     },
     {
       "id": 202,
       "title": "Madrid",
       "source": "news_tags",
-      "volume": "70 artículos",
+      "volume": "63 artículos",
       "timeframe": "24h noticias",
-      "news_count": 70
+      "news_count": 63
     },
     {
       "id": 203,
-      "title": "Irán",
-      "source": "news_tags",
-      "volume": "62 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 62
-    },
-    {
-      "id": 204,
       "title": "Psoe (partido Socialista Obrero Español)",
       "source": "news_tags",
       "volume": "62 artículos",
@@ -51,12 +43,20 @@
       "news_count": 62
     },
     {
-      "id": 205,
-      "title": "Nidos",
+      "id": 204,
+      "title": "Irán",
       "source": "news_tags",
       "volume": "56 artículos",
       "timeframe": "24h noticias",
       "news_count": 56
+    },
+    {
+      "id": 205,
+      "title": "Nidos",
+      "source": "news_tags",
+      "volume": "52 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 52
     },
     {
       "id": 206,
@@ -70,20 +70,12 @@
       "id": 207,
       "title": "Eeuu",
       "source": "news_tags",
-      "volume": "42 artículos",
+      "volume": "44 artículos",
       "timeframe": "24h noticias",
-      "news_count": 42
+      "news_count": 44
     },
     {
       "id": 208,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "40 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 40
-    },
-    {
-      "id": 209,
       "title": "Politicas",
       "source": "news_tags",
       "volume": "39 artículos",
@@ -91,35 +83,31 @@
       "news_count": 39
     },
     {
+      "id": 209,
+      "title": "Era",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
       "id": 101,
       "title": "Julio Iglesias",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 38
+      "news_count": 37
     },
     {
-      "id": 123,
-      "title": "Cultu",
+      "id": 122,
+      "title": "Groenlandia",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 38,
-      "merged_sources": [
-        "news_tags",
-        "x_trends"
-      ]
-    },
-    {
-      "id": 210,
-      "title": "Xi Jinping",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
       "news_count": 36
     },
     {
-      "id": 212,
+      "id": 211,
       "title": "Viviendas de Uso Turístico",
       "source": "news_tags",
       "volume": "35 artículos",
@@ -127,8 +115,8 @@
       "news_count": 35
     },
     {
-      "id": 213,
-      "title": "Venezuela",
+      "id": 212,
+      "title": "Xi Jinping",
       "source": "news_tags",
       "volume": "34 artículos",
       "timeframe": "24h noticias",
@@ -136,14 +124,6 @@
     },
     {
       "id": 214,
-      "title": "Internacional",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 215,
       "title": "Pedro Sánchez",
       "source": "news_tags",
       "volume": "33 artículos",
@@ -151,28 +131,20 @@
       "news_count": 33
     },
     {
-      "id": 216,
-      "title": "Groenlandia",
+      "id": 215,
+      "title": "Venezuela",
       "source": "news_tags",
-      "volume": "32 artículos",
+      "volume": "30 artículos",
       "timeframe": "24h noticias",
-      "news_count": 32
+      "news_count": 30
     },
     {
-      "id": 24,
-      "title": "Donald Trump Groenlandia",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 23
-    },
-    {
-      "id": 10,
-      "title": "Nominaciones Goya 2026",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 8
+      "id": 216,
+      "title": "En Directo",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
     },
     {
       "id": 22,
@@ -181,6 +153,14 @@
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 8
+    },
+    {
+      "id": 10,
+      "title": "Nominaciones Premios Goya",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 7
     },
     {
       "id": 1,
@@ -195,7 +175,7 @@
       "title": "Joaquin Reyes",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 2
     },
     {
@@ -211,7 +191,7 @@
       "title": "Copa del Rey Hoy",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0
     },
     {
@@ -243,7 +223,7 @@
       "title": "Princesa Irene de Grecia",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0
     },
     {
@@ -251,7 +231,7 @@
       "title": "La Reina del Flow 3",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 0
     },
     {
@@ -267,7 +247,7 @@
       "title": "Punta Cana",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 10 min (24h)",
+      "timeframe": "hace 40 min (24h)",
       "news_count": 0
     },
     {
@@ -291,7 +271,7 @@
       "title": "Adrian Newey",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0
     },
     {
@@ -299,7 +279,7 @@
       "title": "Albacete Real Madrid",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -311,7 +291,23 @@
       "news_count": 0
     },
     {
+      "id": 23,
+      "title": "Stuttgart - Frankfurt",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0
+    },
+    {
       "id": 28,
+      "title": "Republica Dominicana",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
+      "news_count": 7
+    },
+    {
+      "id": 30,
       "title": "Miguel Ángel Gallardo",
       "source": "google",
       "volume": "200+ búsquedas",
@@ -320,18 +316,18 @@
     },
     {
       "id": 25,
-      "title": "Stuttgart - Frankfurt",
+      "title": "Cristina Tarrega",
       "source": "google",
       "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
       "id": 26,
-      "title": "Cristina Tarrega",
+      "title": "Chiara Ferragni",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0
     },
     {
@@ -339,99 +335,91 @@
       "title": "Marruecos Vs Nigeria",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 29,
-      "title": "Restaurante Fanatico",
-      "source": "google",
-      "volume": "100+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
+      "id": 29,
+      "title": "Sorteo Euromillones Hoy",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 31,
+      "title": "Restaurante Fanatico",
+      "source": "google",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
       "id": 217,
-      "title": "Tiempo",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 218,
-      "title": "Agresiones Sexuales",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 219,
-      "title": "En Directo",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 220,
-      "title": "Derechos Humanos",
+      "title": "Dinamarca",
       "source": "news_tags",
       "volume": "26 artículos",
       "timeframe": "24h noticias",
       "news_count": 26
     },
     {
-      "id": 221,
-      "title": "Investigacion Medica",
+      "id": 218,
+      "title": "Internacional",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 26
+    },
+    {
+      "id": 219,
+      "title": "Protestas Sociales",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 220,
+      "title": "Tiempo",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 221,
+      "title": "Agresiones Sexuales",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
     },
     {
       "id": 222,
-      "title": "Dinamarca",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 223,
-      "title": "Protestas Sociales",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 224,
       "title": "Mujeres",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 225,
-      "title": "Cine Español",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 226,
-      "title": "Salud Cardiovascular",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
       "news_count": 21
     },
     {
-      "id": 227,
+      "id": 121,
+      "title": "Montero",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 20
+    },
+    {
+      "id": 223,
+      "title": "Cultura",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 224,
       "title": "Acoso Sexual",
       "source": "news_tags",
       "volume": "20 artículos",
@@ -439,39 +427,31 @@
       "news_count": 20
     },
     {
-      "id": 228,
-      "title": "Erc - Esquerra Republicana de Catalunya",
+      "id": 225,
+      "title": "Pp - Partido Popular",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
       "news_count": 20
     },
     {
-      "id": 230,
-      "title": "Moncloa",
+      "id": 226,
+      "title": "Salud Cardiovascular",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 227,
+      "title": "Cine Español",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
       "news_count": 19
     },
     {
-      "id": 231,
-      "title": "Tribunales",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 232,
-      "title": "Pp - Partido Popular",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 233,
+      "id": 228,
       "title": "Defensa - Fuerzas Armadas",
       "source": "news_tags",
       "volume": "19 artículos",
@@ -479,39 +459,31 @@
       "news_count": 19
     },
     {
-      "id": 234,
-      "title": "Hacienda",
+      "id": 229,
+      "title": "Moncloa",
       "source": "news_tags",
       "volume": "18 artículos",
       "timeframe": "24h noticias",
       "news_count": 18
     },
     {
-      "id": 235,
-      "title": "Valencia",
+      "id": 230,
+      "title": "Derechos Humanos",
       "source": "news_tags",
       "volume": "18 artículos",
       "timeframe": "24h noticias",
       "news_count": 18
     },
     {
-      "id": 236,
-      "title": "Audiencia Nacional",
+      "id": 231,
+      "title": "Investigacion Medica",
       "source": "news_tags",
       "volume": "18 artículos",
       "timeframe": "24h noticias",
       "news_count": 18
     },
     {
-      "id": 237,
-      "title": "Burgos (municipio)",
-      "source": "news_tags",
-      "volume": "18 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
-      "id": 238,
+      "id": 232,
       "title": "Financiación Autonómica",
       "source": "news_tags",
       "volume": "18 artículos",
@@ -519,23 +491,7 @@
       "news_count": 18
     },
     {
-      "id": 239,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "17 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 17
-    },
-    {
-      "id": 240,
-      "title": "America",
-      "source": "news_tags",
-      "volume": "17 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 17
-    },
-    {
-      "id": 241,
+      "id": 233,
       "title": "Sociedad",
       "source": "news_tags",
       "volume": "17 artículos",
@@ -543,40 +499,104 @@
       "news_count": 17
     },
     {
-      "id": 242,
-      "title": "Barcelona",
+      "id": 234,
+      "title": "Hacienda",
       "source": "news_tags",
       "volume": "17 artículos",
       "timeframe": "24h noticias",
       "news_count": 17
+    },
+    {
+      "id": 235,
+      "title": "Valencia",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 236,
+      "title": "Tribunales",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 237,
+      "title": "Burgos (municipio)",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 238,
+      "title": "Erc - Esquerra Republicana de Catalunya",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 239,
+      "title": "Otan",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 240,
+      "title": "Ucrania",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 241,
+      "title": "America",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 242,
+      "title": "Sumar",
+      "source": "news_tags",
+      "volume": "15 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 15
     },
     {
       "id": 243,
-      "title": "Premios Goya",
+      "title": "Barcelona",
       "source": "news_tags",
-      "volume": "17 artículos",
+      "volume": "15 artículos",
       "timeframe": "24h noticias",
-      "news_count": 17
+      "news_count": 15
     },
     {
       "id": 244,
-      "title": "Sumar",
+      "title": "Premios Goya",
       "source": "news_tags",
-      "volume": "16 artículos",
+      "volume": "15 artículos",
       "timeframe": "24h noticias",
-      "news_count": 16
+      "news_count": 15
     },
     {
       "id": 245,
-      "title": "Casa Blanca",
+      "title": "Audiencia Nacional",
       "source": "news_tags",
-      "volume": "16 artículos",
+      "volume": "15 artículos",
       "timeframe": "24h noticias",
-      "news_count": 16
+      "news_count": 15
     },
     {
       "id": 246,
-      "title": "Fiscalía",
+      "title": "Alberto Núñez Feijoo",
       "source": "news_tags",
       "volume": "15 artículos",
       "timeframe": "24h noticias",
@@ -586,33 +606,33 @@
       "id": 247,
       "title": "Pacientes",
       "source": "news_tags",
-      "volume": "15 artículos",
+      "volume": "14 artículos",
       "timeframe": "24h noticias",
-      "news_count": 15
+      "news_count": 14
     },
     {
       "id": 248,
-      "title": "Alquiler Social",
+      "title": "Casa Blanca",
       "source": "news_tags",
-      "volume": "15 artículos",
+      "volume": "14 artículos",
       "timeframe": "24h noticias",
-      "news_count": 15
+      "news_count": 14
     },
     {
       "id": 249,
-      "title": "Alberto Núñez Feijoo",
+      "title": "Alquiler Social",
       "source": "news_tags",
-      "volume": "15 artículos",
+      "volume": "14 artículos",
       "timeframe": "24h noticias",
-      "news_count": 15
+      "news_count": 14
     },
     {
-      "id": 103,
+      "id": 104,
       "title": "Adolfo Suárez",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 7
+      "news_count": 6
     },
     {
       "id": 105,
@@ -623,23 +643,7 @@
       "news_count": 2
     },
     {
-      "id": 124,
-      "title": "Miércoles 14",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 1
-    },
-    {
       "id": 102,
-      "title": "Errejón",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 104,
       "title": "#coac2026p3",
       "source": "x_trends",
       "volume": "N/A",
@@ -647,24 +651,8 @@
       "news_count": 0
     },
     {
-      "id": 121,
-      "title": "Uber o Cabify",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "Mingueza",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 125,
-      "title": "Miguel de la Fuente",
+      "id": 103,
+      "title": "Errejón",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

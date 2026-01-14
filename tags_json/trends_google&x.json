@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-14T07:47:28.106430",
+  "timestamp": "2026-01-14T08:00:59.095757",
   "summary": {
     "google_total": 25,
     "xtrends_total": 8,
     "tags_total": 50,
-    "unique_total": 79,
-    "unified_count": 3,
-    "with_news": 62,
+    "unique_total": 78,
+    "unified_count": 4,
+    "with_news": 61,
     "without_news": 17
   },
   "trends": [
@@ -207,12 +207,16 @@
       "news_count": 30
     },
     {
-      "id": 15,
-      "title": "Consejo Informativos Rtve",
+      "id": 11,
+      "title": "Real Sociedad",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 9
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 25,
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
       "id": 10,
@@ -243,15 +247,15 @@
       "title": "Jesus Vazquez",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 2
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Joaquin Reyes",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 2
     },
     {
@@ -275,7 +279,7 @@
       "title": "Princesa Irene de Grecia",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0
     },
     {
@@ -291,19 +295,19 @@
       "title": "Resultados Copa del Rey",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Bts",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "Iberia",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -311,7 +315,7 @@
       "news_count": 0
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "Telecinco Directo",
       "source": "google",
       "volume": "5 mil+ búsquedas",
@@ -323,19 +327,19 @@
       "title": "Lakers - Hawks",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
-      "id": 24,
+      "id": 25,
       "title": "Rally Dakar Carlos Sainz",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 4
     },
     {
-      "id": 22,
+      "id": 23,
       "title": "El Tiempo en Sevilla",
       "source": "google",
       "volume": "500+ búsquedas",
@@ -343,15 +347,23 @@
       "news_count": 2
     },
     {
-      "id": 26,
+      "id": 24,
       "title": "Huelga Medicos",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 2
     },
     {
       "id": 21,
+      "title": "La Reina del Flow 3 Netflix",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 22,
       "title": "Warriors - Trail Blazers",
       "source": "google",
       "volume": "500+ búsquedas",
@@ -359,19 +371,11 @@
       "news_count": 0
     },
     {
-      "id": 23,
-      "title": "La Reina del Flow 3 Netflix",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 25,
+      "id": 26,
       "title": "Prealerta Lluvias Canarias",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -379,7 +383,7 @@
       "title": "Elcorreo",
       "source": "google",
       "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -387,7 +391,7 @@
       "title": "Diario de Sevilla",
       "source": "google",
       "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -441,14 +445,6 @@
     {
       "id": 231,
       "title": "Europa",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 232,
-      "title": "Sociedad",
       "source": "news_tags",
       "volume": "24 artículos",
       "timeframe": "24h noticias",

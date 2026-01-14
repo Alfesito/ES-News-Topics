@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-13T23:41:23.254510",
+  "timestamp": "2026-01-14T01:52:07.729366",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 15,
+    "xtrends_total": 12,
     "tags_total": 50,
-    "unique_total": 84,
-    "unified_count": 4,
+    "unique_total": 86,
+    "unified_count": 3,
     "with_news": 59,
-    "without_news": 25
+    "without_news": 27
   },
   "trends": [
     {
@@ -46,7 +46,7 @@
       "id": 111,
       "title": "Xabi Alonso",
       "source": "x_trends",
-      "volume": "2.3MM tweets",
+      "volume": "1.5MM tweets",
       "timeframe": "24h trends",
       "news_count": 32
     },
@@ -75,15 +75,15 @@
       "news_count": 65
     },
     {
-      "id": 103,
+      "id": 105,
       "title": "Arbeloa",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 64,
       "merged_sources": [
-        "news_tags",
-        "x_trends"
+        "x_trends",
+        "news_tags"
       ]
     },
     {
@@ -151,20 +151,20 @@
       "news_count": 41
     },
     {
-      "id": 1,
-      "title": "Edad de Julio Iglesias",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
-      "news_count": 39
-    },
-    {
       "id": 217,
       "title": "Pedro Sánchez",
       "source": "news_tags",
       "volume": "39 artículos",
       "timeframe": "24h noticias",
       "news_count": 39
+    },
+    {
+      "id": 2,
+      "title": "Julio Iglesias",
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 19 h (24h)",
+      "news_count": 36
     },
     {
       "id": 219,
@@ -215,199 +215,227 @@
       "news_count": 30
     },
     {
-      "id": 20,
-      "title": "Real Sociedad",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 27,
-      "merged_sources": [
-        "news_tags",
-        "google"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Nominaciones Goya 2026",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
-      "news_count": 7
-    },
-    {
-      "id": 33,
-      "title": "Premios Goya Nominaciones",
+      "id": 24,
+      "title": "Consejo Informativos Rtve",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
+      "news_count": 9
+    },
+    {
+      "id": 9,
+      "title": "Nominaciones Goya 2026",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 7
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Copa del Rey",
       "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "volume": "200 mil+ búsquedas",
+      "timeframe": "hace 8 h (24h)",
       "news_count": 3
     },
     {
-      "id": 3,
-      "title": "Deportivo - Atlético Madrid",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 3
-    },
-    {
-      "id": 22,
-      "title": "Atletico de Madrid",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 3
-    },
-    {
-      "id": 8,
+      "id": 7,
       "title": "Jesus Vazquez",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 2
     },
     {
-      "id": 11,
+      "id": 13,
       "title": "Joaquin Reyes",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 1
+    },
+    {
+      "id": 27,
+      "title": "Alla Tu",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 3,
+      "title": "Real Sociedad - Osasuna",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 0
     },
     {
       "id": 4,
       "title": "Cultural Leonesa",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 5,
+      "title": "Ticketmaster",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0
     },
     {
       "id": 6,
-      "title": "Ticketmaster",
+      "title": "Princesa Irene de Grecia",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0
     },
     {
-      "id": 7,
-      "title": "Princesa Irene de Grecia",
+      "id": 8,
+      "title": "Newcastle - Manchester City",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 6 h (24h)",
       "news_count": 0
     },
     {
-      "id": 9,
-      "title": "Newcastle - Manchester City",
+      "id": 10,
+      "title": "Resultados Copa del Rey",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 11,
+      "title": "Qué Edad Tiene Julio Iglesias",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0
     },
     {
       "id": 12,
-      "title": "Telecinco Directo",
+      "title": "Weverse",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 13,
-      "title": "Iberia",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
       "id": 14,
-      "title": "Boris Izaguirre",
+      "title": "Iberia",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 15,
-      "title": "Scott Adams",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 7 h (24h)",
       "news_count": 0
     },
     {
-      "id": 21,
-      "title": "Athletic",
+      "id": 15,
+      "title": "Telecinco Directo",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 20,
+      "title": "Boris Izaguirre",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 27,
+      "id": 21,
       "title": "Ana Obregón",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 22,
+      "title": "Unai Marrero",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 23,
+      "title": "Caixabank",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 25,
+      "title": "Eugenia Silva",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "Tomelloso",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 28,
-      "title": "Real Madrid C. F. Femenino - Athletic Club",
+      "title": "Manchester City",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 29,
-      "title": "Semenyo",
+      "title": "Frank Cuesta",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 30,
-      "title": "Caixabank",
+      "title": "Antonio Arena",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 31,
-      "title": "Iván Calero",
+      "title": "Boris",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 32,
-      "title": "Eugenia Silva",
+      "title": "Deia",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
-      "id": 34,
-      "title": "Tomelloso",
+      "id": 33,
+      "title": "Bitcoin",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -441,6 +469,14 @@
       "volume": "27 artículos",
       "timeframe": "24h noticias",
       "news_count": 27
+    },
+    {
+      "id": 230,
+      "title": "Sociedad",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
     },
     {
       "id": 231,
@@ -595,23 +631,23 @@
       "news_count": 21
     },
     {
-      "id": 105,
-      "title": "Florentino",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8
-    },
-    {
-      "id": 123,
-      "title": "Hernández Hernández",
+      "id": 102,
+      "title": "Adolfo Suárez",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 2
     },
     {
-      "id": 115,
+      "id": 103,
+      "title": "Sandra",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 1
+    },
+    {
+      "id": 114,
       "title": "Conocido",
       "source": "x_trends",
       "volume": "119KM tweets",
@@ -619,16 +655,16 @@
       "news_count": 1
     },
     {
-      "id": 102,
-      "title": "Juanpi",
+      "id": 122,
+      "title": "Enrique",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 0
+      "news_count": 1
     },
     {
       "id": 104,
-      "title": "#laisladelastentaciones26",
+      "title": "Juanpi",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -638,7 +674,7 @@
       "id": 112,
       "title": "Mc 1",
       "source": "x_trends",
-      "volume": "315KM tweets",
+      "volume": "237KM tweets",
       "timeframe": "24h trends",
       "news_count": 0
     },
@@ -646,45 +682,21 @@
       "id": 113,
       "title": "Erika",
       "source": "x_trends",
-      "volume": "217KM tweets",
+      "volume": "145KM tweets",
       "timeframe": "24h trends",
       "news_count": 0
     },
     {
-      "id": 114,
-      "title": "Endrick",
+      "id": 115,
+      "title": "Carreras",
       "source": "x_trends",
-      "volume": "146KM tweets",
+      "volume": "77KM tweets",
       "timeframe": "24h trends",
       "news_count": 0
     },
     {
       "id": 121,
-      "title": "Marrero",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "#latexou",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 124,
-      "title": "Noubi",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 125,
-      "title": "Unai Gómez",
+      "title": "#ghduo14e",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

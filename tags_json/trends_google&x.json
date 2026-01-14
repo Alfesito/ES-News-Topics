@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-14T14:26:52.867598",
+  "timestamp": "2026-01-14T14:29:05.952014",
   "summary": {
     "google_total": 25,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 80,
-    "unified_count": 3,
-    "with_news": 59,
+    "unique_total": 79,
+    "unified_count": 4,
+    "with_news": 58,
     "without_news": 21
   },
   "trends": [
@@ -66,8 +66,8 @@
       "timeframe": "hace 20 min (24h)",
       "news_count": 44,
       "merged_sources": [
-        "x_trends",
-        "google"
+        "google",
+        "x_trends"
       ]
     },
     {
@@ -109,6 +109,18 @@
       "volume": "24 artículos",
       "timeframe": "24h noticias",
       "news_count": 41
+    },
+    {
+      "id": 123,
+      "title": "Cultu",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 40,
+      "merged_sources": [
+        "x_trends",
+        "news_tags"
+      ]
     },
     {
       "id": 210,
@@ -272,18 +284,18 @@
     },
     {
       "id": 4,
-      "title": "Cultural Leonesa",
+      "title": "Ticketmaster",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0
     },
     {
       "id": 5,
-      "title": "Ticketmaster",
+      "title": "Cultural Leonesa",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 0
     },
     {
@@ -360,10 +372,10 @@
     },
     {
       "id": 25,
-      "title": "Estadio Riyadh Air Metropolitano",
+      "title": "Stuttgart - Frankfurt",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0
     },
     {
@@ -445,14 +457,6 @@
       "volume": "21 artículos",
       "timeframe": "24h noticias",
       "news_count": 21
-    },
-    {
-      "id": 231,
-      "title": "Cultura",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
     },
     {
       "id": 232,
@@ -583,14 +587,6 @@
       "news_count": 17
     },
     {
-      "id": 122,
-      "title": "Gallardo",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8
-    },
-    {
       "id": 103,
       "title": "Adolfo Suárez",
       "source": "x_trends",
@@ -599,20 +595,20 @@
       "news_count": 7
     },
     {
-      "id": 123,
-      "title": "Asamblea de Extremadura",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 4
-    },
-    {
       "id": 105,
       "title": "Griezmann",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 2
+    },
+    {
+      "id": 124,
+      "title": "Miércoles 14",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 1
     },
     {
       "id": 102,
@@ -632,15 +628,15 @@
     },
     {
       "id": 121,
-      "title": "Pere Navarro",
+      "title": "Uber o Cabify",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 0
     },
     {
-      "id": 124,
-      "title": "Albacete",
+      "id": 122,
+      "title": "Mingueza",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -648,7 +644,7 @@
     },
     {
       "id": 125,
-      "title": "Protogemas",
+      "title": "Miguel de la Fuente",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

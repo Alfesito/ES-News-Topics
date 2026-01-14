@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-14T20:46:02.589292",
+  "timestamp": "2026-01-14T21:22:57.411737",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 79,
-    "unified_count": 0,
-    "with_news": 59,
-    "without_news": 20
+    "unique_total": 75,
+    "unified_count": 3,
+    "with_news": 56,
+    "without_news": 19
   },
   "trends": [
     {
@@ -91,7 +91,7 @@
       "news_count": 41
     },
     {
-      "id": 101,
+      "id": 102,
       "title": "Julio Iglesias",
       "source": "x_trends",
       "volume": "N/A",
@@ -99,19 +99,23 @@
       "news_count": 40
     },
     {
-      "id": 14,
-      "title": "La 1",
+      "id": 33,
+      "title": "En Directo",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 40 min (24h)",
-      "news_count": 37
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 38,
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
-      "id": 211,
-      "title": "En Directo",
-      "source": "news_tags",
-      "volume": "37 artículos",
-      "timeframe": "24h noticias",
+      "id": 5,
+      "title": "La1",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 37
     },
     {
@@ -175,35 +179,19 @@
       "title": "Albacete - Real Madrid",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 5
-    },
-    {
-      "id": 13,
-      "title": "Lopez Madrid Elisa Pinto",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
       "timeframe": "hace 2 h (24h)",
       "news_count": 5
     },
     {
-      "id": 4,
-      "title": "Jesus Vazquez",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 2
-    },
-    {
-      "id": 7,
+      "id": 8,
       "title": "Rtve",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 40 min (24h)",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 2
     },
     {
-      "id": 11,
+      "id": 13,
       "title": "Vaitiare",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -212,30 +200,38 @@
     },
     {
       "id": 2,
-      "title": "Chelsea - Arsenal",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 3,
       "title": "Marruecos Vs Nigeria",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
+      "volume": "50 mil+ búsquedas",
       "timeframe": "hace 6 h (24h)",
       "news_count": 0
     },
     {
-      "id": 5,
+      "id": 3,
+      "title": "Chelsea - Arsenal",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 4,
       "title": "Alavés - Rayo Vallecano",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
       "id": 6,
+      "title": "Jorge Cestero",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 7,
       "title": "Colonia - Bayern",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -243,83 +239,67 @@
       "news_count": 0
     },
     {
-      "id": 8,
-      "title": "Jorge Cestero",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 0
-    },
-    {
       "id": 9,
-      "title": "Nigeria – Maroc",
+      "title": "Betis",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 50 min (24h)",
       "news_count": 0
     },
     {
       "id": 10,
-      "title": "Senegal Vs Egipto",
+      "title": "Rtve Play",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 0
     },
     {
-      "id": 12,
-      "title": "Entradas Bruno Mars",
+      "id": 11,
+      "title": "Nigeria – Maroc",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 14,
+      "title": "Senegal Vs Egipto",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0
     },
     {
       "id": 15,
-      "title": "Betis",
+      "title": "Entradas Bruno Mars",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 10 min (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0
     },
     {
-      "id": 22,
-      "title": "Marruecos Fc",
+      "id": 21,
+      "title": "Copa Africa",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
-      "id": 31,
-      "title": "Napoli - Parma",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "Senegal Fc",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
+      "id": 30,
       "title": "Barcelona - Atlético Madrid",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
       "id": 34,
       "title": "Inter - Lecce",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
@@ -587,23 +567,7 @@
       "news_count": 1
     },
     {
-      "id": 125,
-      "title": "Mazón 45",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 1
-    },
-    {
-      "id": 102,
-      "title": "#laisladelastentaciones27",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 103,
+      "id": 101,
       "title": "Errejón",
       "source": "x_trends",
       "volume": "N/A",
@@ -611,8 +575,8 @@
       "news_count": 0
     },
     {
-      "id": 121,
-      "title": "#lacopartve",
+      "id": 103,
+      "title": "#laisladelastentaciones27",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -620,7 +584,7 @@
     },
     {
       "id": 122,
-      "title": "Juan Carlos Rivero",
+      "title": "Mastantuono",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -628,7 +592,7 @@
     },
     {
       "id": 123,
-      "title": "Carlos Belmonte",
+      "title": "Fran García",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -636,7 +600,15 @@
     },
     {
       "id": 124,
-      "title": "Lali",
+      "title": "Escriche",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 125,
+      "title": "Kratos",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

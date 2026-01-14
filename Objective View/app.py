@@ -2,11 +2,11 @@
 import streamlit as st
 import json
 from datetime import datetime
-from utils_gemini import (
+from utils_groq import (
     cargar_noticias,
     extraer_tags_unicos,
     filtrar_noticias,
-    analizar_con_gemini,
+    analizar_con_groq,
     generar_estadisticas,
     guardar_analisis,
     cargar_analisis_historico,
@@ -15,6 +15,7 @@ from utils_gemini import (
     exportar_analisis_individual
 )
 
+
 # Configuración de la página
 st.set_page_config(
     page_title="Análisis de Noticias - El Panorama",
@@ -22,6 +23,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 
 # Estilos CSS personalizados
 st.markdown("""
@@ -47,9 +49,11 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+
 # Título principal
 st.markdown('<p class="main-header">🔍 Análisis Objetivo de Noticias Multi-Medio</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Selecciona tags y define el tema para generar un análisis con IA</p>', unsafe_allow_html=True)
+
 
 # Sidebar con información
 with st.sidebar:
@@ -57,33 +61,40 @@ with st.sidebar:
     st.markdown("""
     **El Panorama** - Análisis de Noticias
     
-    Esta herramienta utiliza **Gemini 2.5** (Google AI) para:
+    Esta herramienta utiliza **Groq API** para:
     - Analizar objetivamente noticias de múltiples medios españoles
+    - Responder las **5W+1H** (Qué, Quién, Cuándo, Dónde, Por qué, Cómo)
     - Detectar sesgos y divergencias editoriales
     - Generar estadísticas de cobertura por medio
     
     ---
     
-    **Modelos disponibles:**
-    - **Flash (2.5)**: Más rápido (recomendado)
-    - **Pro (2.5)**: Mejor calidad
+    **Modelos disponibles (GRATIS):**
+    - **Llama 3.1 8B**: Ultra rápido (recomendado)
+    - **Llama 3.3 70B**: Más potente
     
-    **Método:** Análisis en 2 fases optimizado
+    **Ventajas de Groq:**
+    - ✅ 14,400 análisis/día gratis
+    - ✅ Velocidad ultra-rápida (500+ tokens/seg)
+    - ✅ Sin límites de input
+    - ✅ Arquitectura LPU optimizada
     
     ---
     
     **Datos**: El Panorama News DB
+    
+    **Registrate en:** [console.groq.com](https://console.groq.com)
     """)
     
     st.divider()
     
     # Selector de modelo
     usar_pro = st.checkbox(
-        "🚀 Usar Gemini 2.5 Pro",
-        help="Mejor calidad pero más lento. Desmarca para usar Flash (recomendado)"
+        "🚀 Usar Llama 3.3 70B (más potente)",
+        help="Mejor para análisis complejos. Desmarca para Llama 3.1 8B (más rápido)"
     )
     
-    modelo_activo = "Gemini 2.5 Pro" if usar_pro else "Gemini 2.5 Flash"
+    modelo_activo = "Llama 3.3 70B" if usar_pro else "Llama 3.1 8B (ultra-rápido)"
     st.info(f"Modelo activo: **{modelo_activo}**")
 
 # Inicializar estado de sesión
@@ -96,6 +107,7 @@ if 'analisis_resultado' not in st.session_state:
 if 'analisis_historico' not in st.session_state:
     st.session_state.analisis_historico = cargar_analisis_historico()
 
+
 # Cargar datos
 if st.session_state.noticias is None:
     with st.spinner("📡 Cargando noticias desde GitHub..."):
@@ -106,6 +118,7 @@ if st.session_state.noticias is None:
         except Exception as e:
             st.error(f"❌ Error al cargar noticias: {str(e)}")
             st.stop()
+
 
 # Formulario de configuración
 with st.container():
@@ -132,17 +145,17 @@ with st.container():
                     noticias_temp_todas.append(noticia)
             
             total_encontradas = len(noticias_temp_todas)
-            noticias_a_analizar = min(total_encontradas, 20)
+            noticias_a_analizar = min(total_encontradas, 30)
             
-            # Obtener medios de las 20 más recientes
-            noticias_temp = filtrar_noticias(st.session_state.noticias, tags_seleccionados, limite=20)
+            # Obtener medios de las 30 más recientes
+            noticias_temp = filtrar_noticias(st.session_state.noticias, tags_seleccionados, limite=30)
             medios_diferentes = len(set([n['newspaper'] for n in noticias_temp]))
             
             st.metric("📰 Noticias encontradas", total_encontradas)
             
-            if total_encontradas > 20:
-                st.metric("🔍 Se analizarán", "20 (más recientes)", delta=f"-{total_encontradas - 20}")
-                st.info(f"ℹ️ Se usarán las 20 noticias más recientes")
+            if total_encontradas > 30:
+                st.metric("🔍 Se analizarán", "30 (más recientes)", delta=f"-{total_encontradas - 30}")
+                st.info(f"ℹ️ Se usarán las 30 noticias más recientes")
             else:
                 st.metric("🔍 Se analizarán", noticias_a_analizar)
             
@@ -156,16 +169,20 @@ with st.container():
         max_chars=200
     )
 
+
 # Verificar si existe análisis previo
 if titulo_tema:
     analisis_existente = buscar_analisis_por_titulo(titulo_tema)
     if analisis_existente:
         st.info(f"ℹ️ Ya existe un análisis con este título (versión {analisis_existente.get('metadata', {}).get('version', 1)}). Si generas uno nuevo, se sobrescribirá.")
 
+
 # Botón de análisis
 st.divider()
 
+
 col_btn1, col_btn2, col_btn3 = st.columns([1, 2, 1])
+
 
 with col_btn2:
     analizar_btn = st.button(
@@ -175,9 +192,10 @@ with col_btn2:
         use_container_width=True
     )
 
+
 if analizar_btn:
-    # Filtrar noticias (automáticamente limita a 20 más recientes)
-    noticias_filtradas = filtrar_noticias(st.session_state.noticias, tags_seleccionados, limite=20)
+    # Filtrar noticias (automáticamente limita a 30 más recientes)
+    noticias_filtradas = filtrar_noticias(st.session_state.noticias, tags_seleccionados, limite=30)
     
     if len(noticias_filtradas) == 0:
         st.error("❌ No se encontraron noticias con los tags seleccionados")
@@ -191,8 +209,8 @@ if analizar_btn:
     
     medios_unicos = len(set([n['newspaper'] for n in noticias_filtradas]))
     
-    if total_sin_limite > 20:
-        st.info(f"📊 Analizando las **20 noticias más recientes** de {total_sin_limite} encontradas, de **{medios_unicos}** medios diferentes...")
+    if total_sin_limite > 30:
+        st.info(f"📊 Analizando las **30 noticias más recientes** de {total_sin_limite} encontradas, de **{medios_unicos}** medios diferentes...")
     else:
         st.info(f"📊 Analizando **{len(noticias_filtradas)}** noticias de **{medios_unicos}** medios diferentes...")
     
@@ -204,14 +222,20 @@ if analizar_btn:
             st.error(f"Error al generar estadísticas: {str(e)}")
             estadisticas = {}
     
-    # Análisis con Gemini (2 fases)
-    with st.spinner("🤖 Analizando con Gemini AI en 2 fases (puede tardar 60-90 segundos)..."):
+    # Análisis con OpenRouter
+    progress_placeholder = st.empty()
+    
+    def actualizar_progreso(mensaje):
+        progress_placeholder.info(f"🤖 {mensaje}")
+    
+    with st.spinner("🤖 Analizando con OpenRouter (30-60 segundos)..."):
         try:
-            analisis = analizar_con_gemini(
+            analisis = analizar_con_groq(
                 noticias_filtradas,
                 titulo_tema,
                 tags_seleccionados,
-                usar_pro=usar_pro
+                usar_pro=usar_pro,
+                callback_progreso=actualizar_progreso
             )
             
             # Agregar estadísticas al resultado
@@ -219,6 +243,9 @@ if analizar_btn:
             
             # Guardar en sesión
             st.session_state.analisis_resultado = analisis
+            
+            # Limpiar placeholder de progreso
+            progress_placeholder.empty()
             
             # Guardar en archivo con persistencia
             try:
@@ -236,8 +263,10 @@ if analizar_btn:
                 st.warning(f"⚠️ Análisis completado pero no se pudo guardar en archivo: {str(e)}")
             
         except Exception as e:
+            progress_placeholder.empty()
             st.error(f"❌ Error en el análisis: {str(e)}")
             st.stop()
+
 
 # Mostrar resultados si existen
 if st.session_state.analisis_resultado:
@@ -263,26 +292,57 @@ if st.session_state.analisis_resultado:
         st.subheader(f"📰 {analisis['tema']}")
         st.write(analisis['resumen_objetivo'])
         
-        st.markdown("#### ✅ Puntos en Común")
+        st.markdown("---")
+        st.markdown("### 🔍 Análisis 5W+1H")
+        
+        # Análisis 5W+1H
+        analisis_5w1h = analisis.get('analisis_5w1h', {})
+        
+        if analisis_5w1h:
+            # Qué
+            with st.expander("❓ **¿Qué ha ocurrido?**", expanded=True):
+                st.write(analisis_5w1h.get('que', 'No disponible'))
+            
+            # Quién
+            with st.expander("👥 **¿Quién está involucrado?**", expanded=True):
+                st.write(analisis_5w1h.get('quien', 'No disponible'))
+            
+            # Cuándo
+            col1, col2 = st.columns(2)
+            with col1:
+                with st.expander("📅 **¿Cuándo ocurrió?**", expanded=True):
+                    st.write(analisis_5w1h.get('cuando', 'No disponible'))
+            
+            # Dónde
+            with col2:
+                with st.expander("📍 **¿Dónde sucedió?**", expanded=True):
+                    st.write(analisis_5w1h.get('donde', 'No disponible'))
+            
+            # Por qué
+            with st.expander("💡 **¿Por qué ocurrió?**", expanded=True):
+                st.write(analisis_5w1h.get('por_que', 'No disponible'))
+            
+            # Cómo
+            with st.expander("⚙️ **¿Cómo se desarrolló?**", expanded=True):
+                st.write(analisis_5w1h.get('como', 'No disponible'))
+        else:
+            st.warning("No se pudo generar el análisis 5W+1H")
+        
+        st.markdown("---")
+        st.markdown("### ✅ Puntos en Común entre Medios")
         for punto in analisis.get('puntos_comunes', []):
             st.markdown(f"- {punto}")
         
-        st.markdown("#### 📚 Fuentes Citadas")
-        fuentes = analisis.get('fuentes_citadas', [])
-        if fuentes:
-            for fuente in fuentes:
-                st.markdown(f"- {fuente}")
-        else:
-            st.info("No se identificaron fuentes citadas explícitamente")
-        
-        st.markdown("#### 🎭 Análisis de Sentimiento")
+        st.markdown("---")
+        st.markdown("### 🎭 Análisis de Sentimiento")
         sent = analisis.get('analisis_sentimiento', {})
         col1, col2 = st.columns(2)
         col1.metric("Tono General", sent.get('tono_general', 'N/A').title())
         col2.metric("Nivel Sensacionalismo", f"{sent.get('nivel_sensacionalismo_promedio', 0):.2f}")
         if 'descripcion' in sent:
             st.info(sent['descripcion'])
-    
+
+
     with tab2:
         st.subheader("📊 Estadísticas de Cobertura por Medio")
         
@@ -311,7 +371,20 @@ if st.session_state.analisis_resultado:
     with tab3:
         st.subheader("🎯 Sesgos Detectados por Medio")
         
+        # Verificar medios analizados
+        lista_medios_analisis = analisis.get('lista_medios', [])
         sesgos = analisis.get('sesgo_detectado', {})
+        
+        if lista_medios_analisis:
+            st.info(f"📊 Medios en el análisis: **{len(lista_medios_analisis)}** - {', '.join(lista_medios_analisis)}")
+            
+            # Verificar medios faltantes
+            medios_con_sesgo = list(sesgos.keys())
+            medios_faltantes = [m for m in lista_medios_analisis if m not in medios_con_sesgo]
+            
+            if medios_faltantes:
+                st.warning(f"⚠️ Medios sin análisis de sesgo: {', '.join(medios_faltantes)}")
+        
         if sesgos:
             for medio, datos in sesgos.items():
                 with st.expander(f"📺 {medio}", expanded=True):
@@ -339,23 +412,54 @@ if st.session_state.analisis_resultado:
                 st.warning(f"**{om['medio']}**: {om['informacion_omitida']}")
         else:
             st.success("No se detectaron omisiones relevantes entre medios")
-    
+
     with tab4:
         st.subheader("🔄 Divergencias en la Cobertura")
+        
+        # Verificar cobertura completa
+        lista_medios_analisis = analisis.get('lista_medios', [])
+        medios_faltantes_div = analisis.get('medios_faltantes_divergencias', [])
+        
+        if medios_faltantes_div:
+            st.warning(f"⚠️ Los siguientes medios no aparecen en las divergencias: {', '.join(medios_faltantes_div)}")
         
         divergencias = analisis.get('divergencias', [])
         if divergencias:
             for div in divergencias:
                 st.markdown(f"### 📌 {div['aspecto']}")
                 
-                for persp in div.get('perspectivas', []):
+                perspectivas = div.get('perspectivas', [])
+                
+                # Mostrar cuántos medios están incluidos
+                medios_en_aspecto = [p.get('medio') for p in perspectivas]
+                st.caption(f"Medios analizados en este aspecto: {len(medios_en_aspecto)} de {len(lista_medios_analisis)}")
+                
+                for persp in perspectivas:
                     with st.container():
                         st.markdown(f"**{persp['medio']}**")
                         st.write(persp['enfoque'])
                         st.markdown("---")
         else:
             st.success("No se detectaron divergencias significativas entre medios")
-    
+        
+        # Nueva sección: Cobertura por medio
+        st.markdown("---")
+        st.subheader("📰 Cobertura Individual por Medio")
+        
+        cobertura_por_medio = analisis.get('cobertura_por_medio', {})
+        if cobertura_por_medio:
+            for medio, detalles in cobertura_por_medio.items():
+                with st.expander(f"📺 {medio}", expanded=False):
+                    st.markdown(f"**Enfoque Principal:** {detalles.get('enfoque_principal', 'N/A')}")
+                    st.markdown(f"**Tono:** {detalles.get('tono', 'N/A')}")
+                    
+                    elementos = detalles.get('elementos_destacados', [])
+                    if elementos:
+                        st.markdown("**Elementos Destacados:**")
+                        for elem in elementos:
+                            st.markdown(f"- {elem}")
+
+
     with tab5:
         st.subheader("💾 JSON Completo del Análisis")
         
@@ -376,11 +480,14 @@ if st.session_state.analisis_resultado:
         # Mostrar JSON
         st.json(analisis)
 
+
 # Sección de Histórico de Análisis
 st.divider()
 st.header("📚 Histórico de Análisis Guardados")
 
+
 analisis_historico = st.session_state.analisis_historico
+
 
 if not analisis_historico:
     st.info("No hay análisis guardados todavía. Genera tu primer análisis arriba.")
@@ -457,12 +564,13 @@ else:
                 else:
                     st.error("No se pudo eliminar el análisis")
 
+
 # Footer
 st.divider()
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 2rem;'>
     <p><strong>El Panorama</strong> - Análisis de Noticias con IA</p>
-    <p>Powered by Gemini 2.5 (Google AI) | Desarrollado por Alfesito</p>
-    <p style='font-size: 0.8rem; margin-top: 0.5rem;'>Método: Análisis en 2 fases optimizado para reducir tokens</p>
+    <p>Powered by OpenRouter (Llama 3.3 70B / DeepSeek R1) | Desarrollado por Alfesito</p>
+    <p style='font-size: 0.8rem; margin-top: 0.5rem;'>Análisis gratuito sin límites de cuota</p>
 </div>
 """, unsafe_allow_html=True)

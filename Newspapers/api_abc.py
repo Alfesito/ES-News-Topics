@@ -76,7 +76,7 @@ class ABCScraper(NewsScraperBase):
             taglinks = navtopics.find_all('a', class_='voc-topics__link')
             for a in taglinks:
                 tag_text = a.get('title') or a.get_text(strip=True)
-                tag_clean = self.text.cleantext(tag_text)
+                tag_clean = self.text.cleantext(tag_text).lower()
                 if tag_clean and tag_clean.lower() != 'más temas':
                     tags.append(tag_clean)
         

@@ -77,7 +77,7 @@ class ElPaisScraper(NewsScraperBase):
         tags = []
         archived_section = soup.find('section', {'data-dtm-region': 'articulo_archivado-en'})
         if archived_section:
-            tags = [self.text.cleantext(li) for li in archived_section.find_all('li')]
+            tags = [self.text.cleantext(li).lower() for li in archived_section.find_all('li')]
         
         # BODY: div[data-dtm-region="articulo/cuerpo"] p[:15]
         body_paragraphs = []

@@ -81,7 +81,7 @@ class LaVanguardiaScraper(NewsScraperBase):
             # Buscar todos los enlaces con clase 'tag-name'
             tag_links = tags_container.find_all('a', class_='tag-name')
             for a in tag_links:
-                tag_text = self.text.cleantext(a)
+                tag_text = self.text.cleantext(a).lower()
                 if tag_text and tag_text.lower() != 'etiquetas':
                     tags.append(tag_text)
         

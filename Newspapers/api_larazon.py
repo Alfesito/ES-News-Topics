@@ -76,7 +76,7 @@ class LaRazonScraper(NewsScraperBase):
         tag_list = soup.find('ul', class_='article-tags-list')
         tags = []
         if tag_list:
-            tags = [self.text.cleantext(li.find('a').text.strip()) 
+            tags = [self.text.cleantext(li.find('a').text.strip()).lower() 
                    for li in tag_list.find_all('li') if li.find('a')]
         
         # BODY: múltiples fallbacks para capturar párrafos del artículo

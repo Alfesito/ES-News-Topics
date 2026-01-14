@@ -84,7 +84,7 @@ class ElDiarioScraper(NewsScraperBase):
                 author = self.text.cleantext(author_links[0])
         
         # TAGS
-        tags = [self.text.cleantext(tag) for tag in soup.select('ul.tags-wrapper li a.tag-link')]
+        tags = [self.text.cleantext(tag).lower() for tag in soup.select('ul.tags-wrapper li a.tag-link')]
         
         # BODY
         body_paragraphs = soup.find_all('p', class_='article-text')[:12]

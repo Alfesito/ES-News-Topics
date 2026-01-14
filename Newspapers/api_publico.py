@@ -83,7 +83,7 @@ class PublicoScraper(NewsScraperBase):
         tags = []
         tag_cont = soup.select_one('ul.tags, ul.etiquetas, .tags, .etiquetas')
         if tag_cont:
-            tags = [self.text.cleantext(a) for a in tag_cont.find_all('a')]
+            tags = [self.text.cleantext(a).lower() for a in tag_cont.find_all('a')]
 
         # BODY: buscar contenedores comunes
         body_container = (soup.find('div', itemprop='articleBody') or

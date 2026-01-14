@@ -91,7 +91,7 @@ class TagEnricher:
             # ---- MATCH PRINCIPAL (SIEMPRE con límites de palabra) ----
             if self._is_word_in_text(main_tag, full_text):
                 if main_tag not in enriched_tags:
-                    enriched_tags.add(main_tag)
+                    enriched_tags.add(main_tag.lower())
                     tags_found += 1
 
                 # ---- TAGS RELACIONADOS ----
@@ -107,7 +107,7 @@ class TagEnricher:
 
                     if self._is_word_in_text(related_tag, full_text):
                         if related_tag not in enriched_tags:
-                            enriched_tags.add(related_tag)
+                            enriched_tags.add(related_tag.lower())
                             tags_found += 1
 
         if tags_found > 0:

@@ -141,7 +141,7 @@ class ElMundoScraper(NewsScraperBase):
         tags = []
         kicker = False
         if kicker:
-            tag_text = self.text.cleantext(kicker).rstrip('.')  # Eliminar punto final
+            tag_text = self.text.cleantext(kicker).rstrip('.').lower()  # Eliminar punto final
             if tag_text:
                 tags = [tag_text]
 

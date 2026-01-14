@@ -1,15 +1,23 @@
 {
-  "timestamp": "2026-01-14T21:45:00.531613",
+  "timestamp": "2026-01-14T22:23:43.470032",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 76,
-    "unified_count": 2,
-    "with_news": 56,
-    "without_news": 20
+    "unique_total": 75,
+    "unified_count": 1,
+    "with_news": 57,
+    "without_news": 18
   },
   "trends": [
+    {
+      "id": 8,
+      "title": "As",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 20 min (24h)",
+      "news_count": 457
+    },
     {
       "id": 200,
       "title": "Trump",
@@ -99,11 +107,11 @@
       "news_count": 40
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "La 1",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 37
     },
     {
@@ -123,16 +131,12 @@
       "news_count": 36
     },
     {
-      "id": 33,
+      "id": 213,
       "title": "En Directo",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 35,
-      "merged_sources": [
-        "google",
-        "news_tags"
-      ]
+      "source": "news_tags",
+      "volume": "34 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 34
     },
     {
       "id": 214,
@@ -163,24 +167,24 @@
       "title": "Albacete - Real Madrid",
       "source": "google",
       "volume": "500 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 6
-    },
-    {
-      "id": 14,
-      "title": "Elisa Pinto Lopez Madrid",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 5
     },
     {
       "id": 5,
       "title": "Rtve",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 2
+    },
+    {
+      "id": 34,
+      "title": "Sport",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
+      "news_count": 1
     },
     {
       "id": 2,
@@ -192,22 +196,22 @@
     },
     {
       "id": 3,
-      "title": "Chelsea - Arsenal",
+      "title": "Alavés - Rayo Vallecano",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
       "id": 4,
-      "title": "Alavés - Rayo Vallecano",
+      "title": "Chelsea - Arsenal",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Betis",
       "source": "google",
       "volume": "20 mil+ búsquedas",
@@ -215,24 +219,16 @@
       "news_count": 0
     },
     {
-      "id": 8,
-      "title": "Colonia - Bayern",
+      "id": 9,
+      "title": "Copa Africana de Naciones",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
+      "volume": "20 mil+ búsquedas",
       "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
-      "id": 9,
-      "title": "Jorge Cestero",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0
-    },
-    {
       "id": 10,
-      "title": "Rtve Play",
+      "title": "Antonio Banderas",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 1 h (24h)",
@@ -240,34 +236,42 @@
     },
     {
       "id": 11,
-      "title": "Nigeria – Maroc",
+      "title": "Colonia - Bayern",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 12,
+      "title": "Jorge Cestero",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 13,
+      "title": "Rtve Play",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
-      "id": 12,
-      "title": "Senegal Vs Egipto",
+      "id": 14,
+      "title": "Barcelona - Atlético Madrid",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 13,
-      "title": "Entradas Bruno Mars",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
       "id": 15,
-      "title": "Antonio Banderas",
+      "title": "Nigeria – Maroc",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 40 min (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0
     },
     {
@@ -275,23 +279,7 @@
       "title": "Marruecos Fc",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 32,
-      "title": "Barcelona - Atlético Madrid",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 34,
-      "title": "Inter - Lecce",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {

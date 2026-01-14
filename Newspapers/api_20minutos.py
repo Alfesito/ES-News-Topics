@@ -96,9 +96,11 @@ class VeinteMinutosScraper(NewsScraperBase):
         tag_container = soup.select_one('.tags, ul.tags, .etiquetas')
         if tag_container:
             tags = [self.text.cleantext(a).lower() for a in tag_container.find_all('a')]
+            tags = [t for t in tags if t.strip()]  # Filtrar vacíos
         else:
             meta_tags = soup.find_all('meta', attrs={'property': 'article:tag'})
-            tags = [t.get('content', '').strip() for t in meta_tags if t.get('content')]
+            tags = [self.text.cleantext(t).lower() for t in meta_tags if t.get('content')]
+            tags = [t for t in tags if t.strip()]  # Filtrar vacíos
 
         # BODY: 20minutos suele usar .article__body o .entry-content
         body_container = (soup.find('div', class_=re.compile(r'(article__body|entry-content|article-body|cuerpo|contenido)'))

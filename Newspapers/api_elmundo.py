@@ -143,7 +143,7 @@ class ElMundoScraper(NewsScraperBase):
         if kicker:
             tag_text = self.text.cleantext(kicker).rstrip('.').lower()  # Eliminar punto final
             if tag_text:
-                tags = [tag_text]
+                tags = [tag_text.lower()]
 
         # Title
         title_h1 = soup.find('h1', class_='ue-c-article__headline')

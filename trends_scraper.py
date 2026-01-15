@@ -331,7 +331,7 @@ def count_news_by_trend(trends, news_articles):
             tags = article.get('tags', [])
             
             # Combinar todo el texto
-            combined_text = f"{title} {subtitles} {' '.join(tags)}"
+            combined_text = f"{title} {subtitles} {' '.join(tags)} {article.get('body', '')}"
             normalized_text = normalize_for_comparison(combined_text)
             
             # Verificar que TODAS las palabras del trend estén presentes

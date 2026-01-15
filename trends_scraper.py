@@ -15,6 +15,8 @@ from difflib import SequenceMatcher
 from collections import Counter
 import unicodedata
 
+# LISTA DE TÉRMINOS EXCLUIDOS
+EXCLUDED_TERMS = ['As', 'La 1', 'Marca', 'Sport', 'Internacional']
 
 def similar(a, b):
     """Calcula similitud entre dos strings"""
@@ -77,6 +79,42 @@ def capitalize_title(title):
             capitalized.append(word.capitalize())
 
     return ' '.join(capitalized)
+
+
+def should_exclude_trend(title, excluded_terms=EXCLUDED_TERMS):
+    """
+    Verifica si un trend debe ser excluido basándose en una lista de términos.
+    Compara normalizando (sin tildes, minúsculas) y busca coincidencias exactas.
+    """
+    title_normalized = normalize_for_comparison(title)
+    
+    for term in excluded_terms:
+        term_normalized = normalize_for_comparison(term)
+        # Verificar si el término aparece como palabra completa o es el título completo
+        if re.search(r'\b' + re.escape(term_normalized) + r'\b', title_normalized):
+            return True
+    
+    return False
+
+
+def filter_excluded_trends(trends, excluded_terms=EXCLUDED_TERMS):
+    """
+    Filtra trends que contengan términos excluidos.
+    """
+    filtered = []
+    excluded_count = 0
+    
+    for trend in trends:
+        if should_exclude_trend(trend['title'], excluded_terms):
+            excluded_count += 1
+            print(f"  ❌ Excluido: '{trend['title']}'")
+        else:
+            filtered.append(trend)
+    
+    if excluded_count > 0:
+        print(f"🚫 {excluded_count} trends excluidos por filtro")
+    
+    return filtered
 
 
 def extract_keywords(title):
@@ -371,35 +409,11 @@ def merge_and_deduplicate_trends(all_trends):
     return unique_trends
 
 
-def get_sort_priority(trend):
+def sort_trends_by_news_count(trends):
     """
-    Asigna prioridad de ordenación basada en los criterios especificados.
-    Retorna tupla: (prioridad, -news_count, id)
+    Ordena trends por news_count de mayor a menor, y en caso de empate por ID.
     """
-    news_count = trend.get('news_count', 0)
-    source = trend.get('source', '')
-    volume = trend.get('volume', '').lower()
-
-    has_mm = 'mm' in volume or bool(re.search(r'\d+[.,]?\d*\s*m\b', volume))
-    has_k = 'mil+' in volume or 'k' in volume
-
-    if news_count >= 75:
-        return (1, -news_count, trend['id'])
-    elif source == 'x_trends' and has_mm:
-        return (2, -news_count, trend['id'])
-    elif 30 <= news_count < 75:
-        return (3, -news_count, trend['id'])
-    elif source == 'google' and has_k:
-        return (4, -news_count, trend['id'])
-    elif source == 'google' and not has_mm and not has_k:
-        return (5, -news_count, trend['id'])
-    else:
-        return (6, -news_count, trend['id'])
-
-
-def sort_trends_custom(trends):
-    """Ordena trends según los criterios personalizados."""
-    return sorted(trends, key=get_sort_priority)
+    return sorted(trends, key=lambda t: (-t.get('news_count', 0), t['id']))
 
 
 async def scrape_trends(hours):
@@ -610,6 +624,10 @@ async def main():
 
     all_trends = google_24h + google_4h + xtrends + tag_trends
 
+    # FILTRAR TÉRMINOS EXCLUIDOS
+    print("\n🚫 Aplicando filtro de exclusión...")
+    all_trends = filter_excluded_trends(all_trends)
+
     unique_trends = merge_and_deduplicate_trends(all_trends)
 
     if news_articles:
@@ -617,7 +635,8 @@ async def main():
 
     unified_trends = unify_related_trends(unique_trends)
 
-    sorted_trends = sort_trends_custom(unified_trends)
+    # ORDENAR POR news_count (de mayor a menor)
+    sorted_trends = sort_trends_by_news_count(unified_trends)
 
     result = {
         'timestamp': datetime.now().isoformat(),

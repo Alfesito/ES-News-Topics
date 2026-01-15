@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-15T22:47:20.298882",
+  "timestamp": "2026-01-15T23:22:47.477508",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 75,
+    "unique_total": 77,
     "unified_count": 4,
-    "with_news": 60,
-    "without_news": 15
+    "with_news": 61,
+    "without_news": 16
   },
   "trends": [
     {
@@ -91,12 +91,24 @@
       "news_count": 44
     },
     {
-      "id": 22,
+      "id": 20,
+      "title": "Barcelona Hoy",
+      "source": "google",
+      "volume": "200 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 41,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
+      "id": 31,
       "title": "Valencia",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 38
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 37
     },
     {
       "id": 211,
@@ -139,14 +151,6 @@
       "news_count": 29
     },
     {
-      "id": 215,
-      "title": "Barcelona",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
       "id": 216,
       "title": "Casa Blanca",
       "source": "news_tags",
@@ -161,6 +165,14 @@
       "volume": "26 artículos",
       "timeframe": "24h noticias",
       "news_count": 26
+    },
+    {
+      "id": 30,
+      "title": "Victor de Aldama",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 25
     },
     {
       "id": 218,
@@ -403,11 +415,11 @@
       "news_count": 12
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Irene de Grecia",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 11
     },
     {
@@ -415,31 +427,39 @@
       "title": "Racing de Santander - Barcelona",
       "source": "google",
       "volume": "500 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 8
     },
     {
-      "id": 32,
+      "id": 29,
       "title": "El Turco",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 8
     },
     {
-      "id": 7,
-      "title": "Choclan Abogado",
+      "id": 8,
+      "title": "Jose Antonio Choclan",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 50 min (24h)",
-      "news_count": 6
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
+      "news_count": 7
+    },
+    {
+      "id": 33,
+      "title": "Rtve",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 7
     },
     {
       "id": 4,
       "title": "Can Yaman",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 4,
       "merged_sources": [
         "google",
@@ -447,11 +467,11 @@
       ]
     },
     {
-      "id": 9,
+      "id": 7,
       "title": "Ciclogénesis",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 3
     },
     {
@@ -463,27 +483,19 @@
       "news_count": 3
     },
     {
-      "id": 3,
-      "title": "Burgos Valencia",
+      "id": 2,
+      "title": "Burgos - Valencia C. F.",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 2
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Como - Milan",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 2
-    },
-    {
-      "id": 15,
-      "title": "Manex Lozano",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 2
     },
     {
@@ -495,11 +507,11 @@
       "news_count": 1
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Antonia Dell Atte",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0,
       "merged_sources": [
         "google",
@@ -507,11 +519,11 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Paco Jemez",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0
     },
     {
@@ -519,7 +531,7 @@
       "title": "Harry Styles",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0
     },
     {
@@ -532,18 +544,18 @@
     },
     {
       "id": 12,
-      "title": "Anadolu Efes - Baskonia",
+      "title": "Bonoloto Hoy",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
       "id": 13,
-      "title": "Bonoloto 15 Enero 2026",
+      "title": "Anadolu Efes - Baskonia",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0
     },
     {
@@ -551,39 +563,47 @@
       "title": "Entradas Bruno Mars Madrid 2026",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0
     },
     {
-      "id": 29,
-      "title": "Sorteo Cuartos de Final Copa del Rey",
+      "id": 15,
+      "title": "Ofertas Empleo Sepe Teletrabajo",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0
     },
     {
-      "id": 31,
-      "title": "Alessandro Lequio",
+      "id": 22,
+      "title": "Burgos Cf",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "Sorteo Cuartos de Final Copa del Rey",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {
-      "id": 33,
-      "title": "Nerea Barros",
+      "id": 28,
+      "title": "Cristina Piaget",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0
     },
     {
       "id": 34,
-      "title": "Carolina Ferre",
+      "title": "Ushuaia",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0
     },
     {

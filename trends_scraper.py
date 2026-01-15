@@ -16,7 +16,7 @@ from collections import Counter
 import unicodedata
 
 # LISTA DE TÉRMINOS EXCLUIDOS
-EXCLUDED_TERMS = ['As', 'La 1', 'Marca', 'Sport', 'Internacional']
+EXCLUDED_TERMS = ['As', 'La 1', 'Marca', 'Sport', 'Internacional', 'B50m']
 
 def similar(a, b):
     """Calcula similitud entre dos strings"""

@@ -81,12 +81,19 @@ def scrape_all():
                         print(f"     ❌ Fallback falló")
                         continue
                 
-                # Enriquecer
+                # Enriquecer (con manejo especial para La Vanguardia)
                 enriched = []
                 for art in results:
                     try:
                         enriched.append(scraper.enrich_article(art))
-                    except:
+                    except TypeError as te:
+                        # La Vanguardia tiene un TagEnricher con firma diferente
+                        if 'TagEnricher.enrich_tags()' in str(te) and domain == 'La Vanguardia':
+                            print(f"     ⚠️  Enriquecimiento fallido (TagEnricher), usando artículo sin enriquecer")
+                            enriched.append(art)
+                        else:
+                            enriched.append(art)
+                    except Exception:
                         enriched.append(art)
                 
                 # Metadatos + hash dedup

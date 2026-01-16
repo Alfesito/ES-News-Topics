@@ -5,12 +5,10 @@ from Newspapers.api_publico import PublicoScraper
 from Newspapers.api_elespanol import ElEspanolScraper
 from Newspapers.api_lavozdegalicia import LaVozDeGaliciaScraper
 
-
 import json
 import hashlib
 from datetime import datetime, timedelta
 import time
-
 
 SCRAPERS = {
     'El Diario': ElDiarioScraper(),
@@ -21,74 +19,105 @@ SCRAPERS = {
     'La Voz De Galicia': LaVozDeGaliciaScraper()
 }
 
-
+# 🆕 Estructura mejorada: múltiples URLs por periódico
 URLS = {
-    'El Diario': 'https://www.eldiario.es',
-    'El País': 'https://elpais.com',
-    'La Razón': 'https://www.larazon.es',
-    'Público': 'https://www.publico.es',
-    'El Español': 'https://www.elespanol.com',
-    'La Voz De Galicia': 'https://www.lavozdegalicia.es'
+    'El Diario': [
+        'https://www.eldiario.es',
+        'https://www.eldiario.es/politica/',
+        'https://www.eldiario.es/internacional/'
+    ],
+    'El País': [
+        'https://elpais.com',
+        'https://elpais.com/internacional/',
+        'https://elpais.com/espana/'
+    ],
+    'La Razón': [
+        'https://www.larazon.es',
+        'https://www.larazon.es/politica/',
+        'https://www.larazon.es/internacional/'
+    ],
+    'Público': [
+        'https://www.publico.es',
+        'https://www.publico.es/politica',
+        'https://www.publico.es/internacional'
+    ],
+    'El Español': [
+        'https://www.elespanol.com',
+        'https://www.elespanol.com/espana/',
+        'https://www.elespanol.com/mundo/'
+    ],
+    'La Voz De Galicia': [
+        'https://www.lavozdegalicia.es',
+        'https://www.lavozdegalicia.es/internacional/',
+        'https://www.lavozdegalicia.es/espana/'
+    ]
 }
 
-
 def scrape_all():
-    """10 periódicos → dedup → histórico 7 días → JSON único"""
-    print("🚀 INICIO SCRAPING - 10 PERIÓDICOS")
+    """10 periódicos → múltiples secciones → dedup → histórico 7 días → JSON único"""
+    print("🚀 INICIO SCRAPING - 6 PERIÓDICOS (MÚLTIPLES SECCIONES)")
     all_articles = []
     
-    # 🔍 Scraping por periódico
+    # 🔍 Scraping por periódico y sección
     for domain, scraper in SCRAPERS.items():
-        url = URLS.get(domain, f'https://www.{domain}')
-        print(f"\n🔍 [{len(all_articles)} total] {domain}: {url}")
+        urls = URLS.get(domain, [f'https://www.{domain}'])
         
-        try:
-            time.sleep(2)  # Anti-ban
+        # Asegurar que urls sea siempre una lista
+        if isinstance(urls, str):
+            urls = [urls]
+        
+        print(f"\n📰 {domain}: {len(urls)} secciones")
+        
+        for url in urls:
+            print(f"  🔍 [{len(all_articles)} total] {url}")
             
-            results = scraper.scrape_list_page(url)
-            
-            # Fallback artículo individual
-            if not results:
-                try:
-                    details = scraper.scrape_article_details(url)
-                    date_str = getattr(scraper, 'date', type('Date', (), {'normalizedatetime': lambda: ''})()).normalizedatetime()
-                    article_id = getattr(scraper, 'idgen', type('IDGen', (), {'generate_id_from_url': lambda x: 'id'})()).generate_id_from_url(url)
-                    ordered = getattr(scraper, 'article', type('Article', (), {'create_ordered_article': lambda *a: {}})()).create_ordered_article(
-                        scraper.name, article_id, date_str,
-                        details.get('tags', []), details.get('title', ''),
-                        details.get('subtitle', ''), url,
-                        details.get('author', 'Redacción'),
-                        details.get('image', {'url': '', 'credits': ''}),
-                        details.get('body', '')
-                    )
-                    results = [ordered]
-                except:
-                    print(f"   ❌ Fallback falló")
-                    continue
-            
-            # Enriquecer (tu lógica original)
-            enriched = []
-            for art in results:
-                try:
-                    enriched.append(scraper.enrich_article(art))
-                except:
-                    enriched.append(art)
-            
-            # Metadatos + hash dedup
-            for art in enriched:
-                content_hash = hashlib.md5(
-                    f"{art.get('title', '')}{art.get('url', '')}".encode('utf-8')
-                ).hexdigest()
+            try:
+                time.sleep(2)  # Anti-ban
                 
-                art['hash'] = content_hash
-                art['newspaper'] = domain
-                art['scraped_at'] = datetime.now().isoformat()
-            
-            all_articles.extend(enriched)
-            print(f"   ✅ +{len(enriched)} → {len(all_articles)} total")
-            
-        except Exception as e:
-            print(f"   ❌ {str(e)[:80]}")
+                results = scraper.scrape_list_page(url)
+                
+                # Fallback artículo individual
+                if not results:
+                    try:
+                        details = scraper.scrape_article_details(url)
+                        date_str = getattr(scraper, 'date', type('Date', (), {'normalizedatetime': lambda: ''})()).normalizedatetime()
+                        article_id = getattr(scraper, 'idgen', type('IDGen', (), {'generate_id_from_url': lambda x: 'id'})()).generate_id_from_url(url)
+                        ordered = getattr(scraper, 'article', type('Article', (), {'create_ordered_article': lambda *a: {}})()).create_ordered_article(
+                            scraper.name, article_id, date_str,
+                            details.get('tags', []), details.get('title', ''),
+                            details.get('subtitle', ''), url,
+                            details.get('author', 'Redacción'),
+                            details.get('image', {'url': '', 'credits': ''}),
+                            details.get('body', '')
+                        )
+                        results = [ordered]
+                    except:
+                        print(f"     ❌ Fallback falló")
+                        continue
+                
+                # Enriquecer
+                enriched = []
+                for art in results:
+                    try:
+                        enriched.append(scraper.enrich_article(art))
+                    except:
+                        enriched.append(art)
+                
+                # Metadatos + hash dedup
+                for art in enriched:
+                    content_hash = hashlib.md5(
+                        f"{art.get('title', '')}{art.get('url', '')}".encode('utf-8')
+                    ).hexdigest()
+                    
+                    art['hash'] = content_hash
+                    art['newspaper'] = domain
+                    art['scraped_at'] = datetime.now().isoformat()
+                
+                all_articles.extend(enriched)
+                print(f"     ✅ +{len(enriched)} → {len(all_articles)} total")
+                
+            except Exception as e:
+                print(f"     ❌ {str(e)[:80]}")
     
     print(f"\n📊 BRUTO: {len(all_articles)} artículos")
     
@@ -120,7 +149,7 @@ def scrape_all():
             else:
                 deleted += 1
         except:
-            recent_articles.append(art)  # Fecha inválida → mantener
+            recent_articles.append(art)
     
     print(f"🗑️ Eliminados: {deleted} (>7 días)")
     
@@ -141,7 +170,7 @@ def scrape_all():
             if art_date >= cutoff_24h:
                 articles_24h.append(art)
         except:
-            pass  # Ignorar artículos sin fecha válida
+            pass
     
     # 💾 JSON ÚLTIMAS 24H
     with open('./news_json/noticias_24h.json', 'w', encoding='utf-8') as f:
@@ -167,7 +196,6 @@ def scrape_all():
         print(f"   🏆 Top 24h: {dict(sorted(domains_24h.items(), key=lambda x: x[1], reverse=True)[:5])}")
     
     return recent_articles
-
 
 if __name__ == '__main__':
     scrape_all()

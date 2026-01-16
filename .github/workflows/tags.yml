@@ -1,10 +1,6 @@
 name: Análisis de Tags de Noticias
 
 on:
-  schedule:
-    # Ejecutar cada 2 horas
-    - cron: '0 */2 * * *'
-
   # Permitir ejecución manual
   workflow_dispatch:
 

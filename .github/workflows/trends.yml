@@ -1,8 +1,6 @@
 name: 🌐 Trends ES Update
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # Cada 30min
   workflow_dispatch:       # Botón manual
 
 # ← AÑADIDO: Prevenir ejecuciones paralelas

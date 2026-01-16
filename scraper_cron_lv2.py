@@ -33,7 +33,7 @@ URLS = {
         'https://www.lavanguardia.com/politica'
     ],
     '20 Minutos': [
-        'https://www.20minutos.es',
+        #'https://www.20minutos.es',
         'https://www.20minutos.es/nacional/',
         'https://www.20minutos.es/internacional/'
     ]

@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-01-15T23:43:13.433919",
+  "timestamp": "2026-01-16T01:49:33.752688",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 6,
+    "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 75,
-    "unified_count": 1,
-    "with_news": 62,
-    "without_news": 13
+    "unique_total": 82,
+    "unified_count": 3,
+    "with_news": 65,
+    "without_news": 17
   },
   "trends": [
     {
@@ -43,14 +43,6 @@
       "news_count": 53
     },
     {
-      "id": 20,
-      "title": "Barcelona",
-      "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 52
-    },
-    {
       "id": 204,
       "title": "España",
       "source": "news_tags",
@@ -73,6 +65,14 @@
       "volume": "44 artículos",
       "timeframe": "24h noticias",
       "news_count": 44
+    },
+    {
+      "id": 25,
+      "title": "Victor Aldama",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 38
     },
     {
       "id": 207,
@@ -99,12 +99,28 @@
       "news_count": 36
     },
     {
+      "id": 125,
+      "title": "Valencia",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 29
+    },
+    {
       "id": 211,
       "title": "Irán",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
       "news_count": 27
+    },
+    {
+      "id": 213,
+      "title": "Barcelona",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
     },
     {
       "id": 214,
@@ -137,14 +153,6 @@
       "volume": "23 artículos",
       "timeframe": "24h noticias",
       "news_count": 23
-    },
-    {
-      "id": 31,
-      "title": "Victor de Aldama",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 19
     },
     {
       "id": 218,
@@ -219,6 +227,18 @@
       "news_count": 13
     },
     {
+      "id": 30,
+      "title": "Belen Rodriguez",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 12,
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
       "id": 227,
       "title": "Tiempo",
       "source": "news_tags",
@@ -245,14 +265,6 @@
     {
       "id": 230,
       "title": "Economía",
-      "source": "news_tags",
-      "volume": "12 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 12
-    },
-    {
-      "id": 231,
-      "title": "Delcy Rodríguez",
       "source": "news_tags",
       "volume": "12 artículos",
       "timeframe": "24h noticias",
@@ -287,7 +299,7 @@
       "title": "Irene de Grecia",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 11
     },
     {
@@ -363,8 +375,16 @@
       "news_count": 11
     },
     {
-      "id": 102,
+      "id": 101,
       "title": "Racing",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 10
+    },
+    {
+      "id": 124,
+      "title": "Mario",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -423,7 +443,7 @@
       "title": "Racing de Santander - Barcelona",
       "source": "google",
       "volume": "500 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 9
     },
     {
@@ -431,20 +451,20 @@
       "title": "Jose Antonio Choclan",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 7
     },
     {
-      "id": 30,
-      "title": "El Turco",
+      "id": 34,
+      "title": "Pedri",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 5
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 4
     },
     {
       "id": 121,
-      "title": "Paco Alba",
+      "title": "Carmen",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -455,12 +475,12 @@
       "title": "Can Yaman",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 3
     },
     {
-      "id": 33,
-      "title": "Rtve",
+      "id": 23,
+      "title": "Cómo Ha Quedado el Barcelona",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -471,7 +491,7 @@
       "title": "Burgos - Valencia C. F.",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 2
     },
     {
@@ -479,19 +499,11 @@
       "title": "Como - Milan",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 2
     },
     {
-      "id": 7,
-      "title": "Ciclogénesis",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 2
-    },
-    {
-      "id": 101,
+      "id": 102,
       "title": "Antonio Banderas",
       "source": "x_trends",
       "volume": "N/A",
@@ -503,95 +515,127 @@
       "title": "Antonia Dell Atte",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 1
     },
     {
-      "id": 9,
-      "title": "Primitiva 15 Enero 2026",
+      "id": 31,
+      "title": "Mercedes Valimaña la Macaria",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 32,
+      "title": "Kings League",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 7,
+      "title": "Ciclogénesis Explosiva",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
+      "id": 9,
+      "title": "Ofertas Empleo Sepe Teletrabajo",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
+      "news_count": 0
+    },
+    {
       "id": 10,
-      "title": "Paco Jemez",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 11,
-      "title": "Harry Styles",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 12,
-      "title": "Apple Iphone 18 Pro",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 13,
-      "title": "Bonoloto Hoy",
+      "title": "Jedet",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 2 h (24h)",
       "news_count": 0
     },
     {
-      "id": 14,
-      "title": "Anadolu Efes - Baskonia",
+      "id": 11,
+      "title": "Apple Iphone 18 Pro",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 12,
+      "title": "Cristina Piaget",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 13,
+      "title": "Harry Styles",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0
+    },
+    {
+      "id": 14,
+      "title": "Paco Jemez",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0
     },
     {
       "id": 15,
-      "title": "Entradas Bruno Mars Madrid 2026",
+      "title": "Anadolu Efes - Baskonia",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "timeframe": "hace 8 h (24h)",
       "news_count": 0
     },
     {
       "id": 22,
-      "title": "Valencia Cf",
+      "title": "Sorteo Copa del Rey Cuartos",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 24,
+      "title": "Ushuaia",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 26,
+      "title": "Quiniela",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
       "id": 28,
-      "title": "Cristina Piaget",
+      "title": "Perito Moreno",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 29,
-      "title": "Sorteo Cuartos de Final Copa del Rey",
+      "id": 33,
+      "title": "Nuria Roca",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 34,
-      "title": "Ushuaia",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
@@ -605,6 +649,22 @@
     {
       "id": 104,
       "title": "#vuelveanimalcrossing",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 122,
+      "title": "Sonia",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 123,
+      "title": "Jhon",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

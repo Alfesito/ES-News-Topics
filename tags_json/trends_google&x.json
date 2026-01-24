@@ -1,65 +1,49 @@
 {
-  "timestamp": "2026-01-24T21:33:37.224046",
+  "timestamp": "2026-01-24T22:34:07.124437",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 10,
+    "xtrends_total": 5,
     "tags_total": 50,
-    "unique_total": 82,
-    "unified_count": 3,
-    "with_news": 63,
-    "without_news": 19
+    "unique_total": 78,
+    "unified_count": 2,
+    "with_news": 61,
+    "without_news": 17
   },
   "trends": [
-    {
-      "id": 28,
-      "title": "Ice",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 192
-    },
     {
       "id": 200,
       "title": "Trump",
       "source": "news_tags",
-      "volume": "96 artículos",
+      "volume": "95 artículos",
       "timeframe": "24h noticias",
-      "news_count": 96
+      "news_count": 95
     },
     {
       "id": 201,
       "title": "Adamuz",
-      "source": "news_tags",
-      "volume": "72 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 72
-    },
-    {
-      "id": 202,
-      "title": "Accidentes de Tren",
       "source": "news_tags",
       "volume": "70 artículos",
       "timeframe": "24h noticias",
       "news_count": 70
     },
     {
-      "id": 203,
-      "title": "Trenes",
+      "id": 202,
+      "title": "Accidentes de Tren",
       "source": "news_tags",
       "volume": "69 artículos",
       "timeframe": "24h noticias",
       "news_count": 69
     },
     {
-      "id": 204,
-      "title": "Nidos",
+      "id": 203,
+      "title": "Trenes",
       "source": "news_tags",
-      "volume": "57 artículos",
+      "volume": "68 artículos",
       "timeframe": "24h noticias",
-      "news_count": 57
+      "news_count": 68
     },
     {
-      "id": 205,
+      "id": 204,
       "title": "España",
       "source": "news_tags",
       "volume": "57 artículos",
@@ -67,7 +51,7 @@
       "news_count": 57
     },
     {
-      "id": 206,
+      "id": 205,
       "title": "Era",
       "source": "news_tags",
       "volume": "54 artículos",
@@ -75,12 +59,12 @@
       "news_count": 54
     },
     {
-      "id": 215,
-      "title": "Migrantes",
+      "id": 206,
+      "title": "Nidos",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "54 artículos",
       "timeframe": "24h noticias",
-      "news_count": 50
+      "news_count": 54
     },
     {
       "id": 207,
@@ -91,12 +75,16 @@
       "news_count": 48
     },
     {
-      "id": 26,
-      "title": "Minnesota",
+      "id": 31,
+      "title": "Mineapolis",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
-      "news_count": 42
+      "news_count": 43,
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
       "id": 208,
@@ -115,15 +103,23 @@
       "news_count": 35
     },
     {
-      "id": 105,
-      "title": "Ingrid",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 31
+      "id": 210,
+      "title": "Ice",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
     },
     {
       "id": 211,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 213,
       "title": "Gobierno",
       "source": "news_tags",
       "volume": "29 artículos",
@@ -131,20 +127,20 @@
       "news_count": 29
     },
     {
-      "id": 213,
-      "title": "Madrid",
+      "id": 214,
+      "title": "Migrantes",
       "source": "news_tags",
-      "volume": "28 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 28
+      "news_count": 27
     },
     {
-      "id": 214,
+      "id": 215,
       "title": "En Directo",
       "source": "news_tags",
-      "volume": "28 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 28
+      "news_count": 27
     },
     {
       "id": 216,
@@ -153,14 +149,6 @@
       "volume": "27 artículos",
       "timeframe": "24h noticias",
       "news_count": 27
-    },
-    {
-      "id": 217,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
     },
     {
       "id": 218,
@@ -188,15 +176,15 @@
     },
     {
       "id": 221,
-      "title": "Eeuu Aranceles",
+      "title": "Iryo",
       "source": "news_tags",
-      "volume": "24 artículos",
+      "volume": "23 artículos",
       "timeframe": "24h noticias",
-      "news_count": 24
+      "news_count": 23
     },
     {
       "id": 222,
-      "title": "Iryo",
+      "title": "Agentes",
       "source": "news_tags",
       "volume": "23 artículos",
       "timeframe": "24h noticias",
@@ -206,36 +194,12 @@
       "id": 223,
       "title": "Nieve",
       "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 224,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 225,
-      "title": "Minneapolis",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 227,
-      "title": "Crisis Migratoria",
-      "source": "news_tags",
       "volume": "22 artículos",
       "timeframe": "24h noticias",
       "news_count": 22
     },
     {
-      "id": 228,
+      "id": 224,
       "title": "Cataluña",
       "source": "news_tags",
       "volume": "21 artículos",
@@ -243,7 +207,23 @@
       "news_count": 21
     },
     {
-      "id": 229,
+      "id": 225,
+      "title": "Crisis Migratoria",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 226,
+      "title": "Rusia",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 227,
       "title": "Galicia",
       "source": "news_tags",
       "volume": "20 artículos",
@@ -251,31 +231,39 @@
       "news_count": 20
     },
     {
-      "id": 230,
-      "title": "Agentes",
+      "id": 228,
+      "title": "Minnesota",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
       "news_count": 20
     },
     {
-      "id": 104,
-      "title": "Ayuso",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 19
+      "id": 229,
+      "title": "Eeuu Aranceles",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
     },
     {
-      "id": 232,
-      "title": "Presidente",
+      "id": 231,
+      "title": "Inmigracion Irregular",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
       "news_count": 19
     },
     {
-      "id": 233,
+      "id": 105,
+      "title": "Ayuso",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 18
+    },
+    {
+      "id": 232,
       "title": "Mundo",
       "source": "news_tags",
       "volume": "18 artículos",
@@ -283,8 +271,16 @@
       "news_count": 18
     },
     {
-      "id": 234,
+      "id": 233,
       "title": "Borrasca",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 234,
+      "title": "Presidente",
       "source": "news_tags",
       "volume": "18 artículos",
       "timeframe": "24h noticias",
@@ -316,7 +312,7 @@
     },
     {
       "id": 238,
-      "title": "Valencia",
+      "title": "Ucrania",
       "source": "news_tags",
       "volume": "17 artículos",
       "timeframe": "24h noticias",
@@ -324,14 +320,14 @@
     },
     {
       "id": 239,
-      "title": "Casa Blanca",
+      "title": "Valencia",
       "source": "news_tags",
       "volume": "17 artículos",
       "timeframe": "24h noticias",
       "news_count": 17
     },
     {
-      "id": 241,
+      "id": 240,
       "title": "Tragedia",
       "source": "news_tags",
       "volume": "16 artículos",
@@ -339,7 +335,7 @@
       "news_count": 16
     },
     {
-      "id": 242,
+      "id": 241,
       "title": "Barcelona",
       "source": "news_tags",
       "volume": "16 artículos",
@@ -347,31 +343,7 @@
       "news_count": 16
     },
     {
-      "id": 243,
-      "title": "Pedro Sánchez",
-      "source": "news_tags",
-      "volume": "16 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 16
-    },
-    {
-      "id": 244,
-      "title": "Vox",
-      "source": "news_tags",
-      "volume": "15 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 15
-    },
-    {
-      "id": 245,
-      "title": "Opa",
-      "source": "news_tags",
-      "volume": "15 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 15
-    },
-    {
-      "id": 246,
+      "id": 242,
       "title": "Canadá",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -379,23 +351,23 @@
       "news_count": 15
     },
     {
-      "id": 247,
-      "title": "Aragón",
+      "id": 243,
+      "title": "Casa Blanca",
       "source": "news_tags",
       "volume": "15 artículos",
       "timeframe": "24h noticias",
       "news_count": 15
     },
     {
-      "id": 248,
-      "title": "Groenlandia",
+      "id": 244,
+      "title": "Pedro Sánchez",
       "source": "news_tags",
       "volume": "15 artículos",
       "timeframe": "24h noticias",
       "news_count": 15
     },
     {
-      "id": 249,
+      "id": 245,
       "title": "Transporte Ferroviario",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -403,47 +375,91 @@
       "news_count": 15
     },
     {
+      "id": 246,
+      "title": "Vox",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 247,
+      "title": "Opa",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 248,
+      "title": "Ave",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
+      "id": 249,
+      "title": "Feijoo",
+      "source": "news_tags",
+      "volume": "14 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 14
+    },
+    {
       "id": 1,
       "title": "Breogán - Real Madrid",
       "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 8,
-      "merged_sources": [
-        "x_trends",
-        "google"
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Cádiz - Granada",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 8
-    },
-    {
-      "id": 30,
-      "title": "Premios Feroz 2026",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 3
+      "volume": "500 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 9
     },
     {
       "id": 6,
+      "title": "Cádiz - Granada",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 8
+    },
+    {
+      "id": 13,
+      "title": "Lotería Nacional Sorteos",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 50 min (24h)",
+      "news_count": 3
+    },
+    {
+      "id": 26,
+      "title": "Premios Feroz 2026",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 3
+    },
+    {
+      "id": 29,
+      "title": "Samantha Hudson",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 3
+    },
+    {
+      "id": 9,
       "title": "U. D. las Palmas - Córdoba",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 2
     },
     {
-      "id": 12,
-      "title": "Sorteo Lotería Nacional Hoy",
+      "id": 15,
+      "title": "La Casa de la Esperanza",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 2
     },
     {
@@ -451,59 +467,27 @@
       "title": "Juan Foyth",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 2
     },
     {
-      "id": 25,
-      "title": "Cordoba Cf",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 2
-    },
-    {
-      "id": 121,
-      "title": "Foyth",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 2
-    },
-    {
-      "id": 124,
-      "title": "Las Palmas",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 2
-    },
-    {
-      "id": 22,
-      "title": "Sevilla Fc",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 1
-    },
-    {
-      "id": 27,
+      "id": 28,
       "title": "Parejo",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 1
-    },
-    {
-      "id": 29,
-      "title": "Marsella - Lens",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 1
     },
     {
-      "id": 101,
+      "id": 33,
+      "title": "España Dinamarca Balonmano Europeo",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1
+    },
+    {
+      "id": 102,
       "title": "Sinner",
       "source": "x_trends",
       "volume": "N/A",
@@ -511,7 +495,7 @@
       "news_count": 1
     },
     {
-      "id": 103,
+      "id": 104,
       "title": "Xokas",
       "source": "x_trends",
       "volume": "N/A",
@@ -523,7 +507,7 @@
       "title": "Sevilla - Athletic",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0
     },
     {
@@ -531,7 +515,7 @@
       "title": "Valencia C. F. - Rcd Espanyol",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 8 h (24h)",
       "news_count": 0
     },
     {
@@ -539,132 +523,116 @@
       "title": "Rayo Vallecano - Osasuna",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0
     },
     {
-      "id": 7,
-      "title": "Bournemouth - Liverpool",
+      "id": 5,
+      "title": "Real Madrid C. F. Femenino - Barcelona",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 0
     },
     {
       "id": 8,
-      "title": "Supercopa de España Femenina",
+      "title": "Valladolid - Albacete",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 0
-    },
-    {
-      "id": 9,
-      "title": "Manchester City - Wolves",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0
     },
     {
       "id": 10,
-      "title": "Sporting Gijón - Mirandés",
+      "title": "Bournemouth - Liverpool",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0
     },
     {
       "id": 11,
-      "title": "Valladolid - Albacete",
+      "title": "Sporting Gijón - Mirandés",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0
     },
     {
-      "id": 13,
-      "title": "Ticketmaster",
+      "id": 12,
+      "title": "Manchester City - Wolves",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 8 h (24h)",
       "news_count": 0
     },
     {
       "id": 14,
-      "title": "Jannik Sinner",
+      "title": "Ticketmaster",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0
     },
     {
-      "id": 15,
-      "title": "Novak Djokovic",
+      "id": 23,
+      "title": "Suburra",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
       "news_count": 0
     },
     {
-      "id": 21,
-      "title": "Real Madrid C. F. Femenino - Barcelona",
+      "id": 25,
+      "title": "Marsella - Lens",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0
     },
     {
-      "id": 31,
+      "id": 27,
+      "title": "Granada - Bilbao Basket",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0
+    },
+    {
+      "id": 30,
       "title": "Madrid Villareal",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
       "id": 32,
-      "title": "Liverpool",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0
-    },
-    {
-      "id": 33,
       "title": "Tarjeta Roja",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0
     },
     {
       "id": 34,
-      "title": "Sporting Hoy",
+      "title": "Marta Fernandez Muro",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
       "news_count": 0
     },
     {
-      "id": 102,
+      "id": 101,
+      "title": "San Francisco de Sales",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0
+    },
+    {
+      "id": 103,
       "title": "#coac2026p13",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 122,
-      "title": "Yuyu",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0
-    },
-    {
-      "id": 125,
-      "title": "Patri Guijarro",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

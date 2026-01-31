@@ -48,30 +48,32 @@ class TagEnricher:
 
     def _is_word_in_text(self, word: str, text: str) -> bool:
         """
-        Busca una palabra completa (con límites de palabra \b).
-        Maneja correctamente acentos y caracteres españoles.
+        Busca una palabra completa (no como substring).
+        Funciona correctamente con caracteres acentuados y españoles.
         """
         # Escapar caracteres especiales de regex
         escaped_word = re.escape(word)
         
-        # Patrón con límites de palabra
-        pattern = rf"\b{escaped_word}\b"
+        # Patrón con límites: inicio/fin string, espacio, o puntuación
+        # Esto es más robusto que \b para caracteres acentuados
+        pattern = rf"(?:^|\s|[,;:.!?\-()]){escaped_word}(?:\s|[,;:.!?\-()]|$)"
         
         # Búsqueda case-insensitive con soporte Unicode
-        return re.search(pattern, text, re.IGNORECASE | re.UNICODE) is not None
+        return re.search(pattern, f" {text} ", re.IGNORECASE | re.UNICODE) is not None
 
     def enrich_tags(
         self,
         existing_tags: List[str],
         title: str,
         subtitle: str,
+        body: str = "",
     ) -> List[str]:
 
         if not isinstance(existing_tags, list):
             existing_tags = []
 
-        # Texto completo (mantener mayúsculas/minúsculas originales para regex)
-        full_text = f"{title} {subtitle}"
+        # Texto completo incluyendo body (mantener mayúsculas/minúsculas originales para regex)
+        full_text = f"{title} {subtitle} {body}"
 
         enriched_tags = set(existing_tags)
 

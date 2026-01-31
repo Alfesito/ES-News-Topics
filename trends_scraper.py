@@ -85,13 +85,16 @@ def should_exclude_trend(title, excluded_terms=EXCLUDED_TERMS):
     """
     Verifica si un trend debe ser excluido basándose en una lista de términos.
     Compara normalizando (sin tildes, minúsculas) y busca coincidencias exactas.
+    Usa límites de palabra que funcionan con caracteres acentuados.
     """
     title_normalized = normalize_for_comparison(title)
     
     for term in excluded_terms:
         term_normalized = normalize_for_comparison(term)
-        # Verificar si el término aparece como palabra completa o es el título completo
-        if re.search(r'\b' + re.escape(term_normalized) + r'\b', title_normalized):
+        # Patrón que busca palabra completa con límites: inicio/fin string, espacio, o puntuación
+        # Esto funciona correctamente con caracteres normalizados
+        pattern = r'(?:^|\s|[,;:.!?\-])' + re.escape(term_normalized) + r'(?:\s|[,;:.!?\-]|$)'
+        if re.search(pattern, ' ' + title_normalized + ' '):
             return True
     
     return False
@@ -372,8 +375,16 @@ def count_news_by_trend(trends, news_articles):
             combined_text = f"{title} {subtitles} {' '.join(tags)} {article.get('body', '')}"
             normalized_text = normalize_for_comparison(combined_text)
             
-            # Verificar que TODAS las palabras del trend estén presentes
-            if all(word in normalized_text for word in trend_words):
+            # Verificar que TODAS las palabras del trend estén presentes como palabras completas
+            all_words_found = True
+            for word in trend_words:
+                # Usar patrón de límites de palabra: espacio, puntuación o inicio/fin
+                pattern = r'(?:^|\s|[,;:.!?\-])' + re.escape(word) + r'(?:\s|[,;:.!?\-]|$)'
+                if not re.search(pattern, ' ' + normalized_text + ' '):
+                    all_words_found = False
+                    break
+            
+            if all_words_found:
                 count += 1
 
         trend['news_count'] = count

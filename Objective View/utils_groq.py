@@ -230,12 +230,32 @@ def exportar_analisis_individual(analisis, directorio="exports"):
     return filename
 
 def cargar_noticias():
+    """Carga noticias desde archivo local"""
     try:
-        response = requests.get(NEWS_JSON_URL, timeout=26)
-        response.raise_for_status()
-        return json.loads(response.text)
-    except requests.RequestException as e:
-        raise Exception(f"Error al cargar noticias: {str(e)}")
+        # Intentar cargar desde archivo local primero
+        import os
+        
+        # Buscar en directorio actual y padre
+        posibles_rutas = [
+            "news_json/noticias_24h.json",
+            "news_json/noticias_completas.json",
+            "../news_json/noticias_24h.json",
+            "../news_json/noticias_completas.json",
+            os.path.expanduser("~/DocumentosPC/VisualStudio_code/ES-News-Topics/news_json/noticias_24h.json"),
+            os.path.expanduser("~/DocumentosPC/VisualStudio_code/ES-News-Topics/news_json/noticias_completas.json"),
+        ]
+        
+        for ruta in posibles_rutas:
+            if os.path.exists(ruta):
+                with open(ruta, 'r', encoding='utf-8') as f:
+                    noticias = json.load(f)
+                    if noticias:
+                        return noticias
+        
+        raise FileNotFoundError("No se encontró archivo de noticias")
+        
+    except Exception as e:
+        raise Exception(f"❌ Error al cargar noticias: {str(e)}. Por favor ejecuta: python scraper_cron_lv1.py")
 
 def extraer_tags_unicos(noticias):
     todos_tags = set()
@@ -338,16 +358,137 @@ def analizar_con_groq(noticias_filtradas, titulo_tema, tags_seleccionados, usar_
         cobertura_items.append(f'    "{medio}": {{"enfoque_principal": "Enfoque de {medio}", "tono": "neutral", "elementos_destacados": ["Elemento 1"]}}{coma}')
     cobertura_template = "\n".join(cobertura_items)
 
-    prompt = f"""Analiza estas {len(noticias_filtradas)} noticias españolas sobre "{titulo_tema}".
+    prompt = f"""ANÁLISIS PROFUNDO DE SESGO Y OBJETIVIDAD - Noticias sobre "{titulo_tema}"
 
-MEDIOS PRESENTES (TODOS deben ser analizados): {', '.join(lista_medios)}
-Total de medios: {len(lista_medios)}
-Total de artículos: {len(noticias_filtradas)}
+MEDIOS A ANALIZAR: {', '.join(lista_medios)} ({len(lista_medios)} medios)
+TOTAL ARTÍCULOS: {len(noticias_filtradas)}
 
-DISTRIBUCIÓN POR MEDIO:
+DISTRIBUCIÓN:
 {chr(10).join([f"- {medio}: {len(noticias_por_medio[medio])} artículos" for medio in lista_medios])}
 
 {noticias_texto}
+
+ESTRUCTURA DE ANÁLISIS REQUERIDA (JSON VÁLIDO - SIN ```json):
+
+{{
+  "tema": "{titulo_tema}",
+  "fecha_analisis": "{datetime.now().isoformat()}",
+  "total_articulos": {len(noticias_filtradas)},
+  
+  "resumen_objetivo": "Resumen de máximo 4 párrafos con hechos verificables de TODAS las noticias. Incluir: cifras exactas, lugares específicos, fechas, actores principales, cronología de eventos. Debe ser neutral, sin adjetivos emotivos.",
+  
+  "analisis_5w1h": {{
+    "que": "Descripción factual del evento en máximo 3 oraciones",
+    "quien": "Todos los actores mencionados: organizaciones, personas, grupos",
+    "cuando": "Timeline exacta: fechas, horas si están disponibles",
+    "donde": "Ubicación geográfica específica del evento",
+    "por_que": "Causas identificadas en los artículos, con evidencia",
+    "como": "Secuencia de cómo ocurrieron los eventos"
+  }},
+  
+  "puntos_comunes": [
+    "Hecho 1 verificado en TODOS o MAYORÍA de medios",
+    "Hecho 2 verificado en TODOS o MAYORÍA de medios",
+    "Hecho 3 verificado en TODOS o MAYORÍA de medios"
+  ],
+  
+  "divergencias_principales": [
+    {{
+      "aspecto": "Nombre específico del aspecto divergente",
+      "diferencia": "Cómo difieren los medios en este aspecto",
+      "perspectivas_medios": {{
+        {chr(10).join([f'        "{medio}": "Perspectiva específica de {medio} sobre este aspecto"' for medio in lista_medios[:3]])}
+      }},
+      "impacto_percepcion": "Cómo esto afecta la comprensión del lector"
+    }}
+  ],
+  
+  "analisis_detallado_sesgo": {{
+    {chr(10).join([f'    "{medio}": {{' for medio in lista_medios[:1]])}
+      "score_sesgo_0_100": 45,
+      "clasificacion": "Mayormente objetivo",
+      
+      "lenguaje": {{
+        "nivel_emotividad_0_100": 35,
+        "palabras_cargadas": ["lista", "de", "palabras"],
+        "intensificadores": ["claramente", "obviously"],
+        "adjetivos_tendenciosos": ["heroico", "corrupto"],
+        "uso_voz_pasiva_para_esconder_responsabilidad": false
+      }},
+      
+      "atribucion_fuentes": {{
+        "citas_directas": 5,
+        "citas_indirectas": 8,
+        "afirmaciones_sin_fuente": 2,
+        "score_calidad_fuentes_0_100": 70,
+        "tipos_fuentes_usadas": ["oficial", "experto", "testigo"]
+      }},
+      
+      "enfasis_colocacion": {{
+        "informacion_principal_en_titulo": "¿Qué se enfatiza en el título?",
+        "informacion_que_va_al_final": "¿Qué se deja para después?",
+        "proporciona_contexto": true,
+        "score_enfasis_equilibrado_0_100": 65
+      }},
+      
+      "balance_perspectivas": {{
+        "solo_una_perspectiva": false,
+        "menciona_criticas": true,
+        "menciona_posiciones_opuestas": true,
+        "score_balance_0_100": 75,
+        "perspectivas_encontradas": ["perspectiva1", "perspectiva2"]
+      }},
+      
+      "indicadores_clave_de_sesgo": [
+        "Indicador específico 1 encontrado en este medio",
+        "Indicador específico 2 encontrado en este medio"
+      ],
+      
+      "puntos_fuertes": [
+        "Aspecto donde este medio es objetivos"
+      ],
+      
+      "areas_mejora": [
+        "Aspecto donde podría ser más objetivo"
+      ]
+    {chr(10).join([f'    }}, "{medio}": {{' for medio in lista_medios[1:2]])}
+      "score_sesgo_0_100": 55,
+      "clasificacion": "Parcialmente sesgado"
+    {'}' if len(lista_medios) <= 2 else '},'}
+  }},
+  
+  "matriz_comparativa": {{
+    "medio_mas_objetivo": "{lista_medios[0]}",
+    "score_mas_objetivo": 45,
+    "medio_mas_sesgado": "{lista_medios[-1]}",
+    "score_mas_sesgado": 65,
+    "diferencia_maxima_score": 20,
+    "consensus_nivel": "Bajo - Divergencias significativas en cobertura"
+  }},
+  
+  "palabras_mas_frecuentes_por_medio": {{
+    {chr(10).join([f'    "{medio}": {{"positivas": ["palabra1", "palabra2"], "negativas": ["palabra3", "palabra4"], "neutras": ["palabra5", "palabra6"]}}' + ("," if i < len(lista_medios)-1 else "") for i, medio in enumerate(lista_medios[:3])])}
+  }},
+  
+  "omisiones_importantes": [
+    {{"medio": "{lista_medios[0]}", "informacion_omitida": "Información que otros medios cubre pero este no"}},
+    {{"medio": "{lista_medios[1]}", "informacion_omitida": "Información que otros medios cubre pero este no"}}
+  ],
+  
+  "recomendacion_para_lector": "Consejo específico sobre cómo combinar estos artículos para obtener la visión más completa y objetiva del tema"
+}}
+
+INSTRUCCIONES CRÍTICAS:
+1. DEBES analizar TODOS los {len(noticias_filtradas)} artículos proporcionados
+2. DEBES incluir análisis DETALLADO para TODOS los {len(lista_medios)} medios en "analisis_detallado_sesgo"
+3. DEBES proporcionar scores numéricos (0-100) en TODAS las métricas
+4. Clasificaciones de score: 0-30=Muy objetivo | 30-50=Mayormente objetivo | 50-70=Parcialmente sesgado | 70-100=Muy sesgado
+5. TODOS los campos deben estar completamente llenos, sin placeholders
+6. Responde SOLO JSON válido - sin ```json ni ``` - JSON plano directamente
+7. Basa tu análisis en evidencia textual específica
+8. Sé preciso: menciona ejemplos concretos de lenguaje, palabras, énfasis
+9. Detecta al menos 3 divergencias ESPECÍFICAS entre medios
+10. Para cada score, justifica brevemente por qué ese número
 
 Genera un análisis en formato JSON válido (sin markdown, sin bloques de código):
 
@@ -398,8 +539,8 @@ Genera un análisis en formato JSON válido (sin markdown, sin bloques de códig
   }},
 
   "omisiones_relevantes": [
-    {{"medio": "Medio1", "informacion_omitida": "Información importante omitida en comparación con otros medios"}}
-    {{"medio": "Medio2", "informacion_omitida": "Información importante omitida en comparación con otros medios"}}
+    {{"medio": "Medio1", "informacion_omitida": "Información importante omitida en comparación con otros medios"}},
+    {{"medio": "Medio2", "informacion_omitida": "Información importante omitida en comparación con otros medios"}},
     {{"medio": "Medio3", "informacion_omitida": "Información importante omitida en comparación con otros medios"}}
   ]
 }}

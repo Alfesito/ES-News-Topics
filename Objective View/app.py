@@ -14,6 +14,12 @@ from utils_groq import (
     eliminar_analisis,
     exportar_analisis_individual
 )
+from visualization_utils import (
+    crear_matriz_comparativa,
+    crear_radar_objetividad,
+    generar_resumen_ejecutivo
+)
+
 
 
 # Configuración de la página
@@ -289,6 +295,11 @@ if st.session_state.analisis_resultado:
     ])
     
     with tab1:
+        # Resumen ejecutivo mejorado
+        resumen_ejecutivo = generar_resumen_ejecutivo(analisis)
+        st.markdown(resumen_ejecutivo)
+        
+        st.markdown("---")
         st.subheader(f"📰 {analisis['tema']}")
         st.write(analisis['resumen_objetivo'])
         
@@ -344,7 +355,7 @@ if st.session_state.analisis_resultado:
 
 
     with tab2:
-        st.subheader("📊 Estadísticas de Cobertura por Medio")
+        st.subheader("📊 Estadísticas y Visualizaciones Avanzadas")
         
         stats = analisis.get('estadisticas', {})
         if stats:
@@ -352,6 +363,23 @@ if st.session_state.analisis_resultado:
             
             st.markdown("---")
             
+            # Visualización: Matriz Comparativa
+            analisis_sesgo_detallado = analisis.get('analisis_detallado_sesgo', {})
+            if analisis_sesgo_detallado:
+                st.markdown("### 📈 Matriz Comparativa de Objetividad")
+                fig_matriz = crear_matriz_comparativa(analisis_sesgo_detallado)
+                st.pyplot(fig_matriz)
+                
+                st.markdown("---")
+                
+                # Visualización: Radar
+                st.markdown("### 🎯 Análisis Multidimensional (Radar)")
+                fig_radar = crear_radar_objetividad(analisis_sesgo_detallado)
+                st.pyplot(fig_radar)
+                
+                st.markdown("---")
+            
+            st.markdown("### 📺 Distribución por Medio")
             for medio, datos in stats.get('distribucion_por_medio', {}).items():
                 with st.expander(f"📺 {medio}", expanded=True):
                     col1, col2, col3 = st.columns(3)
@@ -369,82 +397,207 @@ if st.session_state.analisis_resultado:
             st.warning("No hay estadísticas disponibles")
     
     with tab3:
-        st.subheader("🎯 Sesgos Detectados por Medio")
+        st.subheader("🎯 Análisis Detallado de Sesgos y Objetividad")
         
-        # Verificar medios analizados
-        lista_medios_analisis = analisis.get('lista_medios', [])
-        sesgos = analisis.get('sesgo_detectado', {})
+        # Obtener análisis detallado
+        analisis_sesgo_detallado = analisis.get('analisis_detallado_sesgo', {})
+        matriz = analisis.get('matriz_comparativa', {})
         
-        if lista_medios_analisis:
-            st.info(f"📊 Medios en el análisis: **{len(lista_medios_analisis)}** - {', '.join(lista_medios_analisis)}")
+        if matriz:
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("🏆 Más Objetivo", matriz.get('medio_mas_objetivo', 'N/A'), 
+                         f"Score: {matriz.get('score_mas_objetivo', 0):.0f}")
+            with col2:
+                st.metric("⚠️ Más Sesgado", matriz.get('medio_mas_sesgado', 'N/A'), 
+                         f"Score: {matriz.get('score_mas_sesgado', 0):.0f}")
+            with col3:
+                st.metric("📊 Diferencia", "", f"{matriz.get('diferencia_maxima_score', 0):.0f} pts")
+            with col4:
+                st.metric("🤝 Consenso", matriz.get('consensus_nivel', 'N/A'))
             
-            # Verificar medios faltantes
-            medios_con_sesgo = list(sesgos.keys())
-            medios_faltantes = [m for m in lista_medios_analisis if m not in medios_con_sesgo]
-            
-            if medios_faltantes:
-                st.warning(f"⚠️ Medios sin análisis de sesgo: {', '.join(medios_faltantes)}")
+            st.markdown("---")
         
-        if sesgos:
-            for medio, datos in sesgos.items():
-                with st.expander(f"📺 {medio}", expanded=True):
-                    st.markdown(f"**Orientación Detectada:** {datos.get('orientacion_detectada', 'N/A')}")
+        # Mostrar scores para cada medio
+        if analisis_sesgo_detallado:
+            st.markdown("### Scores de Objetividad por Medio (0-100, donde 0 = Muy Objetivo)")
+            
+            # Preparar datos para gráfico
+            medios_nombres = []
+            scores_sesgo = []
+            clasificaciones = []
+            
+            for medio, datos in analisis_sesgo_detallado.items():
+                medios_nombres.append(medio)
+                score = datos.get('score_sesgo_0_100', 50)
+                scores_sesgo.append(score)
+                clasificaciones.append(datos.get('clasificacion', 'Desconocida'))
+            
+            # Gráfico de barras
+            if medios_nombres:
+                import matplotlib.pyplot as plt
+                fig, ax = plt.subplots(figsize=(10, 6))
+                colores = ['#2ecc71' if s < 30 else '#f39c12' if s < 50 else '#e74c3c' for s in scores_sesgo]
+                ax.barh(medios_nombres, scores_sesgo, color=colores)
+                ax.set_xlabel('Score de Sesgo (0=Objetivo, 100=Sesgado)', fontsize=12)
+                ax.set_title('Análisis de Objetividad por Medio', fontsize=14, fontweight='bold')
+                ax.set_xlim(0, 100)
+                for i, v in enumerate(scores_sesgo):
+                    ax.text(v + 2, i, f'{v:.0f}', va='center', fontweight='bold')
+                st.pyplot(fig)
+            
+            st.markdown("---")
+            
+            # Análisis detallado por medio
+            st.markdown("### 📺 Análisis Detallado por Medio")
+            
+            for medio, datos in analisis_sesgo_detallado.items():
+                with st.expander(f"🔍 {medio} - {datos.get('clasificacion', 'N/A')}", expanded=True):
                     
-                    nivel = datos.get('nivel_bias', 0)
-                    st.progress(nivel, text=f"Nivel de Sesgo: {nivel:.2f}")
+                    # Scores principales
+                    col1, col2, col3, col4 = st.columns(4)
+                    with col1:
+                        st.metric("Sesgo Total", f"{datos.get('score_sesgo_0_100', 0):.0f}/100")
+                    with col2:
+                        st.metric("Neutralidad", f"{datos.get('lenguaje', {}).get('nivel_emotividad_0_100', 50):.0f}/100", delta=None)
+                    with col3:
+                        st.metric("Fuentes", f"{datos.get('atribucion_fuentes', {}).get('score_calidad_fuentes_0_100', 50):.0f}/100")
+                    with col4:
+                        st.metric("Balance", f"{datos.get('balance_perspectivas', {}).get('score_balance_0_100', 50):.0f}/100")
                     
-                    indicadores = datos.get('indicadores', [])
+                    # Lenguaje
+                    lenguaje = datos.get('lenguaje', {})
+                    if lenguaje:
+                        st.markdown("**🔤 Análisis de Lenguaje**")
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            st.write(f"- Emotividad: {lenguaje.get('nivel_emotividad_0_100', 0):.0f}%")
+                            st.write(f"- Palabras cargadas: {len(lenguaje.get('palabras_cargadas', []))}")
+                        with col2:
+                            st.write(f"- Intensificadores: {len(lenguaje.get('intensificadores', []))}")
+                            st.write(f"- Adjetivos tendenciosos: {len(lenguaje.get('adjetivos_tendenciosos', []))}")
+                        
+                        if lenguaje.get('palabras_cargadas'):
+                            st.caption(f"Palabras cargadas: {', '.join(lenguaje['palabras_cargadas'][:5])}")
+                    
+                    # Atribución de fuentes
+                    fuentes = datos.get('atribucion_fuentes', {})
+                    if fuentes:
+                        st.markdown("**📚 Atribución de Fuentes**")
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.write(f"- Citas directas: {fuentes.get('citas_directas', 0)}")
+                        with col2:
+                            st.write(f"- Citas indirectas: {fuentes.get('citas_indirectas', 0)}")
+                        with col3:
+                            st.write(f"- Sin fuente: {fuentes.get('afirmaciones_sin_fuente', 0)}")
+                        
+                        tipos = fuentes.get('tipos_fuentes_usadas', [])
+                        if tipos:
+                            st.caption(f"Tipos de fuentes: {', '.join(tipos)}")
+                    
+                    # Énfasis
+                    enfasis = datos.get('enfasis_colocacion', {})
+                    if enfasis:
+                        st.markdown("**📌 Énfasis y Colocación**")
+                        st.write(f"- Info. principal en título: {enfasis.get('informacion_principal_en_titulo', 'N/A')}")
+                        st.write(f"- Proporciona contexto: {'✅ Sí' if enfasis.get('proporciona_contexto') else '❌ No'}")
+                    
+                    # Perspectivas
+                    perspectivas = datos.get('balance_perspectivas', {})
+                    if perspectivas:
+                        st.markdown("**🔄 Balance de Perspectivas**")
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.write(f"- Solo una perspectiva: {'❌ Sí (Malo)' if perspectivas.get('solo_una_perspectiva') else '✅ No (Bien)'}")
+                        with col2:
+                            st.write(f"- Menciona críticas: {'✅ Sí' if perspectivas.get('menciona_criticas') else '❌ No'}")
+                        with col3:
+                            st.write(f"- Posiciones opuestas: {'✅ Sí' if perspectivas.get('menciona_posiciones_opuestas') else '❌ No'}")
+                    
+                    # Indicadores de sesgo
+                    indicadores = datos.get('indicadores_clave_de_sesgo', [])
                     if indicadores:
-                        st.markdown("**Indicadores de Sesgo:**")
+                        st.markdown("**🚨 Indicadores de Sesgo Detectados**")
                         for ind in indicadores:
-                            st.markdown(f"- {ind}")
-                    else:
-                        st.info("No se detectaron indicadores significativos de sesgo")
-        else:
-            st.info("No se detectaron sesgos significativos")
+                            st.warning(f"→ {ind}")
+                    
+                    # Puntos fuertes y mejora
+                    fortalezas = datos.get('puntos_fuertes', [])
+                    mejoras = datos.get('areas_mejora', [])
+                    
+                    if fortalezas:
+                        st.success(f"✅ **Fortalezas**: {', '.join(fortalezas)}")
+                    if mejoras:
+                        st.info(f"💡 **Áreas de mejora**: {', '.join(mejoras)}")
+        
+        st.markdown("---")
+        
+        # Palabras más frecuentes
+        palabras_por_medio = analisis.get('palabras_mas_frecuentes_por_medio', {})
+        if palabras_por_medio:
+            st.markdown("### 📊 Palabras Frecuentes por Medio")
+            for medio, palabras in palabras_por_medio.items():
+                st.markdown(f"**{medio}:**")
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.caption(f"✅ Positivas: {', '.join(palabras.get('positivas', [])[:3])}")
+                with col2:
+                    st.caption(f"❌ Negativas: {', '.join(palabras.get('negativas', [])[:3])}")
+                with col3:
+                    st.caption(f"⚪ Neutras: {', '.join(palabras.get('neutras', [])[:3])}")
         
         # Omisiones relevantes
         st.markdown("---")
         st.markdown("#### 🚫 Omisiones Relevantes")
-        omisiones = analisis.get('omisiones_relevantes', [])
+        omisiones = analisis.get('omisiones_importantes', [])
         if omisiones:
             for om in omisiones:
                 st.warning(f"**{om['medio']}**: {om['informacion_omitida']}")
         else:
             st.success("No se detectaron omisiones relevantes entre medios")
 
+
     with tab4:
-        st.subheader("🔄 Divergencias en la Cobertura")
+        st.subheader("🔄 Divergencias Principales en la Cobertura")
         
-        # Verificar cobertura completa
-        lista_medios_analisis = analisis.get('lista_medios', [])
-        medios_faltantes_div = analisis.get('medios_faltantes_divergencias', [])
+        divergencias = analisis.get('divergencias_principales', [])
         
-        if medios_faltantes_div:
-            st.warning(f"⚠️ Los siguientes medios no aparecen en las divergencias: {', '.join(medios_faltantes_div)}")
-        
-        divergencias = analisis.get('divergencias', [])
         if divergencias:
-            for div in divergencias:
-                st.markdown(f"### 📌 {div['aspecto']}")
-                
-                perspectivas = div.get('perspectivas', [])
-                
-                # Mostrar cuántos medios están incluidos
-                medios_en_aspecto = [p.get('medio') for p in perspectivas]
-                st.caption(f"Medios analizados en este aspecto: {len(medios_en_aspecto)} de {len(lista_medios_analisis)}")
-                
-                for persp in perspectivas:
-                    with st.container():
-                        st.markdown(f"**{persp['medio']}**")
-                        st.write(persp['enfoque'])
-                        st.markdown("---")
+            st.info(f"Se detectaron **{len(divergencias)}** divergencias significativas entre medios")
+            
+            for idx, div in enumerate(divergencias, 1):
+                with st.expander(f"📌 Divergencia {idx}: {div.get('aspecto', 'Aspecto')}", expanded=(idx == 1)):
+                    # Descripción de la divergencia
+                    st.markdown(f"**Diferencia detectada:**")
+                    st.write(div.get('diferencia', 'No disponible'))
+                    
+                    # Impacto en la percepción
+                    st.markdown(f"**Impacto en la percepción del lector:**")
+                    st.info(div.get('impacto_percepcion', 'No disponible'))
+                    
+                    # Perspectivas de cada medio
+                    st.markdown(f"**Perspectivas por medio:**")
+                    perspectivas_medios = div.get('perspectivas_medios', {})
+                    
+                    if perspectivas_medios:
+                        for medio, perspectiva in perspectivas_medios.items():
+                            st.markdown(f"**{medio}:**")
+                            st.write(perspectiva)
+                            st.markdown("---")
         else:
             st.success("No se detectaron divergencias significativas entre medios")
         
+        # Recomendación para el lector
+        st.markdown("---")
+        st.markdown("### 💡 Recomendación para Obtener la Visión Más Completa")
+        recomendacion = analisis.get('recomendacion_para_lector', '')
+        if recomendacion:
+            st.info(recomendacion)
+        
         # Nueva sección: Cobertura por medio
         st.markdown("---")
-        st.subheader("📰 Cobertura Individual por Medio")
+        st.subheader("📰 Cobertura Detallada por Medio")
         
         cobertura_por_medio = analisis.get('cobertura_por_medio', {})
         if cobertura_por_medio:

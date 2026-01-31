@@ -364,6 +364,7 @@ def count_news_by_trend(trends, news_articles):
             continue
 
         count = 0
+        matched_articles = []
 
         for article in news_articles:
             # Obtener y normalizar todo el texto de la noticia
@@ -386,8 +387,19 @@ def count_news_by_trend(trends, news_articles):
             
             if all_words_found:
                 count += 1
-
+                # Añadir información básica para referencia: título y URL
+                matched_articles.append({
+                    'title': title,
+                    'url': article.get('url', ''),
+                    'newspaper': article.get('newspaper', ''),
+                    'date': article.get('date', article.get('scraped_at', ''))
+                })
         trend['news_count'] = count
+        # Incluir lista de artículos coincidentes (máx 50 para evitar JSON enorme)
+        if matched_articles:
+            trend['matched_articles'] = matched_articles[:50]
+        else:
+            trend['matched_articles'] = []
         if count > 0:
             print(f"  🔗 '{trend['title'][:40]}': {count} noticias")
 

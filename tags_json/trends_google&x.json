@@ -1,38 +1,22 @@
 {
-  "timestamp": "2026-02-07T18:54:11.563648",
+  "timestamp": "2026-02-07T19:40:05.152132",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 84,
-    "unified_count": 0,
-    "with_news": 65,
-    "without_news": 19
+    "unique_total": 81,
+    "unified_count": 1,
+    "with_news": 63,
+    "without_news": 18
   },
   "trends": [
     {
       "id": 200,
-      "title": "Ue",
-      "source": "news_tags",
-      "volume": "228 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 228
-    },
-    {
-      "id": 201,
       "title": "Espana",
       "source": "news_tags",
-      "volume": "78 artículos",
+      "volume": "79 artículos",
       "timeframe": "24h noticias",
-      "news_count": 78
-    },
-    {
-      "id": 202,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "75 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 75
+      "news_count": 79
     },
     {
       "id": 105,
@@ -42,6 +26,12 @@
       "timeframe": "24h trends",
       "news_count": 71,
       "matched_articles": [
+        {
+          "title": "Sin sorpresas en Aragon",
+          "url": "https://www.larazon.es/espana/sorpresas-aragon_20260207698773ac1817b41eb638a009.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-07T18:44:15.454Z"
+        },
         {
           "title": "El asombroso giro de 180 grados de este pueblo de Huesca que se nego a morir bajo las aguas",
           "url": "https://www.larazon.es/aragon/asombroso-giro-180-grados-este-pueblo-huesca-que-nego-morir-aguas_2026020769876fa12f00a04688fd89d9.html",
@@ -335,14 +325,24 @@
           "url": "https://www.eldiario.es/aragon/politica/feijoo-apela-no-fragmentar-voto-vox-cierre-campana-no-vale-votar-cabreado-si-traduce-bloqueo_1_12970681.html",
           "newspaper": "El Diario",
           "date": "2026-02-06T21:34:55.673Z"
-        },
-        {
-          "title": "Quienes son los Meconios, el polemico grupo que cierra la campana del PP en Aragon",
-          "url": "https://www.lavanguardia.com/politica/20260206/11460167/quienes-son-meconios-polemico-grupo-cierra-campana-pp-aragon.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-06T20:50:26.036Z"
         }
       ]
+    },
+    {
+      "id": 201,
+      "title": "Ico",
+      "source": "news_tags",
+      "volume": "70 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 70
+    },
+    {
+      "id": 202,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "69 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 69
     },
     {
       "id": 203,
@@ -354,14 +354,6 @@
     },
     {
       "id": 204,
-      "title": "Borrascas",
-      "source": "news_tags",
-      "volume": "60 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 60
-    },
-    {
-      "id": 205,
       "title": "Lluvias Torrenciales",
       "source": "news_tags",
       "volume": "60 artículos",
@@ -369,76 +361,162 @@
       "news_count": 60
     },
     {
-      "id": 206,
-      "title": "Ico",
+      "id": 205,
+      "title": "Gobierno Vasco",
       "source": "news_tags",
-      "volume": "59 artículos",
+      "volume": "56 artículos",
       "timeframe": "24h noticias",
-      "news_count": 59
+      "news_count": 56
+    },
+    {
+      "id": 206,
+      "title": "Borrascas",
+      "source": "news_tags",
+      "volume": "54 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 54
     },
     {
       "id": 207,
-      "title": "Gobierno Vasco",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "59 artículos",
+      "volume": "51 artículos",
       "timeframe": "24h noticias",
-      "news_count": 59
+      "news_count": 51
     },
     {
       "id": 208,
-      "title": "Andalucía",
+      "title": "Tiempo",
       "source": "news_tags",
-      "volume": "53 artículos",
+      "volume": "51 artículos",
       "timeframe": "24h noticias",
-      "news_count": 53
+      "news_count": 51
     },
     {
       "id": 209,
-      "title": "Era",
+      "title": "Andalucía",
       "source": "news_tags",
-      "volume": "52 artículos",
+      "volume": "51 artículos",
       "timeframe": "24h noticias",
-      "news_count": 52
+      "news_count": 51
     },
     {
       "id": 210,
       "title": "Temporales",
       "source": "news_tags",
-      "volume": "49 artículos",
+      "volume": "50 artículos",
       "timeframe": "24h noticias",
-      "news_count": 49
+      "news_count": 50
+    },
+    {
+      "id": 22,
+      "title": "Barcelona",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 45,
+      "matched_articles": [
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:51:24.178Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:50:51.111Z"
+        },
+        {
+          "title": "Un Barca infalible y feliz tambien supera al Mallorca",
+          "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20260207/11460533/barca-infalible-feliz-supera-mallorca.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-07T17:41:59.443Z"
+        },
+        {
+          "title": "El Barca de las dos versiones saca el rodillo ante el Mallorca y amplia su distancia en la lucha por el liderato de La Liga",
+          "url": "https://www.elespanol.com/deportes/futbol/20260207/barca-versiones-saca-rodillo-mallorca-amplia-distancia-lucha-liderato-liga/1003744120981_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T17:36:28.174Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T16:45:43.892Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T16:45:43.891Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T16:45:07.321Z"
+        },
+        {
+          "title": "Barca - Mallorca, en directo La Liga: resultado, goleadores y estadisticas en vivo",
+          "url": "https://www.elespanol.com/deportes/20260207/barca-mallorca-directo-liga-resultado-goleadores-estadisticas-vivo/1003744120817_22.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T15:35:49.032Z"
+        },
+        {
+          "title": "Confirmado: el FC Barcelona anuncia en un comunicado que se desvincula de la Superliga",
+          "url": "https://www.elespanol.com/deportes/futbol/20260207/fc-barcelona-anuncia-comunicado-desvincula-superliga/1003744120820_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T13:54:29.207Z"
+        },
+        {
+          "title": "Portazo oficial de Laporta a la Superliga de Florentino",
+          "url": "https://www.abc.es/deportes/futbol/portazo-oficial-laporta-superliga-florentino-20260207130551-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-07T13:02:54.055Z"
+        },
+        {
+          "title": "El Barca se desvincula oficialmente de la Superliga Europea que ideo con Florentino Perez",
+          "url": "https://www.lavanguardia.com/deportes/20260207/11460483/barca-barcelona-desvincula-superliga-europea-florentino-perez-real-madrid-laporta.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-07T11:38:22.723Z"
+        },
+        {
+          "title": "'Inside Barca', el nuevo espacio que muestra el Barca desde dentro",
+          "url": "https://www.lavanguardia.com/deportes/20260207/11460073/inside-barca-nuevo-espacio-muestra-barca.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-07T05:58:00.018Z"
+        }
+      ],
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
     },
     {
       "id": 211,
-      "title": "Tiempo",
-      "source": "news_tags",
-      "volume": "48 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 48
-    },
-    {
-      "id": 212,
-      "title": "Politica Exterior",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 213,
-      "title": "Estados Unidos",
+      "title": "Política Social",
       "source": "news_tags",
       "volume": "44 artículos",
       "timeframe": "24h noticias",
       "news_count": 44
     },
     {
-      "id": 214,
+      "id": 212,
+      "title": "Estados Unidos",
+      "source": "news_tags",
+      "volume": "42 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 42
+    },
+    {
+      "id": 213,
       "title": "Vox",
       "source": "news_tags",
-      "volume": "40 artículos",
+      "volume": "39 artículos",
       "timeframe": "24h noticias",
-      "news_count": 40
+      "news_count": 39
     },
     {
       "id": 215,
@@ -681,6 +759,234 @@
       ]
     },
     {
+      "id": 216,
+      "title": "Denuncias",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
+    },
+    {
+      "id": 101,
+      "title": "Guadalquivir",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 35,
+      "matched_articles": [
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:51:24.178Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:50:51.111Z"
+        },
+        {
+          "title": "\"Seguimiento exhaustivo\" de presas, embalses y rios andaluces, con el Guadalquivir en nivel rojo en varios puntos",
+          "url": "https://www.elmundo.es/andalucia/2026/02/07/698777d5fdddffab098b4578.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:50:51.111Z"
+        },
+        {
+          "title": "\"Ni se necesitan mas embalses, ni se tira agua\": por que las presas andaluzas se descargan a pesar del acecho de la sequia",
+          "url": "https://www.elespanol.com/sevilla/20260207/necesitan-embalses-tira-agua-presas-andaluzas-descargan-pesar-acecho-sequia-dl/1003744119497_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T18:47:07.002Z"
+        },
+        {
+          "title": "Ver mas informacion de Juanma Moreno pedira al Estado y a la UE ayudas ante el impacto economico \"millonario\" del tren de borrascas",
+          "url": "https://www.publico.es/politica/juanma-moreno-pedira-ue-ayudas-impacto-economico-millonario-tren-borrascas.html",
+          "newspaper": "Público",
+          "date": "2026-02-07T18:45:33.649Z"
+        },
+        {
+          "title": "El rio Guadalquivir \"alcanza la zona inundable\" a su paso por isla de La Cartuja y el barrio de Triana en Sevilla",
+          "url": "https://www.elespanol.com/sevilla/20260207/rio-guadalquivir-desborda-paso-zona-cartuja-sevilla-capital/1003744120933_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T17:36:19.718Z"
+        },
+        {
+          "title": "El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.larazon.es/el-tiempo/ultima-hora-borrasca-marta-directo-avisos-aemet-fuertes-lluvias-nieve-ultimos-coletazos-leonardo_202602076986d4f89243cc133c385bc0.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-07T17:33:12.547Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T16:45:43.892Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T16:45:43.891Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T16:45:07.321Z"
+        },
+        {
+          "title": "El Sevilla-Girona se jugara este domingo tras aplazarse por alerta naranja",
+          "url": "https://www.lavanguardia.com/deportes/20260207/11460525/sevilla-pide-liga-suspender-partido-girona-alerta-naranja.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-07T15:41:24.088Z"
+        },
+        {
+          "title": "Ver mas informacion de Juanma Moreno pedira al Estado y a la UE ayudas ante el impacto economico",
+          "url": "https://www.publico.es/politica/juanma-moreno-pedira-ue-ayudas-impacto-economico-millonario-tren-borrascas.html",
+          "newspaper": "Público",
+          "date": "2026-02-07T14:35:52.859Z"
+        },
+        {
+          "title": "Ver mas informacion de Mas de 150 carreteras cortadas por lluvias y nieve tras la llegada de la borrasca Marta",
+          "url": "https://www.publico.es/sociedad/guadalquivir-comienza-bajar-umbral-cordoba-espera-nueva-borrasca.html",
+          "newspaper": "Público",
+          "date": "2026-02-07T14:35:38.199Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | Los vecinos de Grazalema podran entrar al pueblo a recoger animales o medicinas en medio de la borrasca Marta",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T13:59:13.393Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | Los vecinos de Grazalema podran entrar al pueblo a recoger animales o medicinas en medio de la borrasca Marta",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T13:59:13.392Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | Los vecinos de Grazalema podran entrar al pueblo a recoger animales o medicinas en medio de la borrasca Marta",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T13:58:38.925Z"
+        },
+        {
+          "title": "Andalucia pide fondos extra al Gobierno y la Union Europea y supedita su presupuesto a los danos del temporal: \"Es la prioridad. Solo arreglar las carreteras costara mas de 500 millones\", dice Juanma Moreno",
+          "url": "https://www.elmundo.es/andalucia/2026/02/07/6987276d21efa008438b458c.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T13:58:38.924Z"
+        },
+        {
+          "title": "Moreno pide a Montero el Fondo de Contingencia: ya hay 11.000 evacuados por la lluvia y los danos superan los 3.500M",
+          "url": "https://www.elespanol.com/espana/andalucia/20260207/juanma-moreno-pide-montero-fondo-contigencia-paliar-perdidas-millonarias-borrasca/1003744120854_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T13:55:06.865Z"
+        },
+        {
+          "title": "Moreno pide a Montero el Fondo de Contingencia: ya hay 11.000 evacuados por la lluvia y los danos superan los 3.500M",
+          "url": "https://www.elespanol.com/espana/andalucia/20260207/juanma-moreno-pide-montero-fondo-contigencia-paliar-perdidas-millonarias-borrasca/1003744120854_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T13:54:20.138Z"
+        },
+        {
+          "title": "Juanma Moreno calcula perdidas millonarias por el temporal en Andalucia: \"Quedan cuatro dias de lluvia, puede empeorar\"",
+          "url": "https://www.20minutos.es/nacional/juanma-moreno-calcula-perdidas-millonarias-temporal-andalucia_6931266_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-07T13:06:47.485Z"
+        },
+        {
+          "title": "Borrasca Marta, ultima hora de inundaciones en directo | Cinco comunidades en alerta, zonas criticas en Andalucia, miles de evacuados y numerosos cortes de carreteras",
+          "url": "https://www.20minutos.es/nacional/borrasca-marta-ultima-hora-inundaciones-directo_6931205_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-07T13:06:47.082Z"
+        },
+        {
+          "title": "La borrasca Leonardo en Andalucia, en directo: la provincia de Malaga registra varios terremotos",
+          "url": "https://www.elespanol.com/espana/andalucia/20260206/borrasca-leonardo-andalucia-directo-personas-desalojadas-riesgo-colapso-pantanos/1003744119124_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T11:33:41.123Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 160 carreteras cerradas por inundaciones y nieve",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T10:40:10.639Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 160 carreteras cerradas por inundaciones y nieve",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T10:40:10.639Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 160 carreteras cerradas por inundaciones y nieve",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T10:39:32.447Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 150 carreteras cerradas por inundaciones y nieve",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T09:45:54.996Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 150 carreteras cerradas por inundaciones y nieve",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T09:45:54.996Z"
+        },
+        {
+          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 150 carreteras cerradas por inundaciones y nieve",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T09:45:21.456Z"
+        },
+        {
+          "title": "Borrasca Marta, ultima hora de inundaciones en directo | Cinco comunidades en alerta e incidencias con el agua potable en Andalucia",
+          "url": "https://www.20minutos.es/nacional/borrasca-marta-ultima-hora-inundaciones-directo_6931205_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-07T08:50:27.628Z"
+        },
+        {
+          "title": "Ver mas informacion de El agua que arrasa Andalucia",
+          "url": "https://www.publico.es/opinion/columnas/agua-arrasa-andalucia.html",
+          "newspaper": "Público",
+          "date": "2026-02-07T05:50:53.676Z"
+        },
+        {
+          "title": "El mapa de las zonas inundables y hasta donde puede llegar el Guadalquivir en Cordoba",
+          "url": "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/mapa-zonas-inundables-llegar-guadalquivir-cordoba_1_12970195.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-07T05:45:37.736Z"
+        },
+        {
+          "title": "El rastro desolador de una riada historica en Andalucia: \"No puedo perder la casa y el trabajo el mismo dia\"",
+          "url": "https://www.elmundo.es/andalucia/2026/02/06/698622f3fc6c834f1c8b45bf.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T02:24:57.836Z"
+        },
+        {
+          "title": "La Confederacion Hidrografica del Guadalquivir alerta de la llegada de 'Marta': \"Lo malo esta por venir\"",
+          "url": "https://www.lavanguardia.com/vida/20260206/11459907/confederacion-hidrografica-guadalquivir-alerta-llegada-marta-malo-esta-venir.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-06T22:40:41.747Z"
+        },
+        {
+          "title": "La borrasca Leonardo en Andalucia, en directo: 11.000 personas desalojadas ante la entrada de otra borrasca",
+          "url": "https://www.elespanol.com/espana/andalucia/20260206/borrasca-leonardo-andalucia-directo-personas-desalojadas-riesgo-colapso-pantanos/1003744119124_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-06T22:36:20.798Z"
+        },
+        {
+          "title": "La borrasca Leonardo deja una mujer muerta, unos 12.000 desalojados, trenes suspendidos y carreteras cortadas",
+          "url": "https://www.20minutos.es/nacional/borrasca-leonardo-deja-una-mujer-muerta-mas-9-000-desalojados-trenes-suspendidos-carreteras-cortadas_6931076_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-06T19:53:14.218Z"
+        }
+      ]
+    },
+    {
       "id": 104,
       "title": "Vito Quiles",
       "source": "x_trends",
@@ -896,227 +1202,11 @@
     },
     {
       "id": 217,
-      "title": "Denuncias",
+      "title": "Rodalies",
       "source": "news_tags",
-      "volume": "34 artículos",
+      "volume": "33 artículos",
       "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 101,
-      "title": "Guadalquivir",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 33,
-      "matched_articles": [
-        {
-          "title": "El rio Guadalquivir \"alcanza la zona inundable\" a su paso por isla de La Cartuja y el barrio de Triana en Sevilla",
-          "url": "https://www.elespanol.com/sevilla/20260207/rio-guadalquivir-desborda-paso-zona-cartuja-sevilla-capital/1003744120933_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-07T17:36:19.718Z"
-        },
-        {
-          "title": "El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
-          "url": "https://www.larazon.es/el-tiempo/ultima-hora-borrasca-marta-directo-avisos-aemet-fuertes-lluvias-nieve-ultimos-coletazos-leonardo_202602076986d4f89243cc133c385bc0.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-07T17:33:12.547Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T16:45:43.892Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T16:45:43.891Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T16:45:07.321Z"
-        },
-        {
-          "title": "El Sevilla-Girona se jugara este domingo tras aplazarse por alerta naranja",
-          "url": "https://www.lavanguardia.com/deportes/20260207/11460525/sevilla-pide-liga-suspender-partido-girona-alerta-naranja.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-07T15:41:24.088Z"
-        },
-        {
-          "title": "Ver mas informacion de Juanma Moreno pedira al Estado y a la UE ayudas ante el impacto economico",
-          "url": "https://www.publico.es/politica/juanma-moreno-pedira-ue-ayudas-impacto-economico-millonario-tren-borrascas.html",
-          "newspaper": "Público",
-          "date": "2026-02-07T14:35:52.859Z"
-        },
-        {
-          "title": "Ver mas informacion de Mas de 150 carreteras cortadas por lluvias y nieve tras la llegada de la borrasca Marta",
-          "url": "https://www.publico.es/sociedad/guadalquivir-comienza-bajar-umbral-cordoba-espera-nueva-borrasca.html",
-          "newspaper": "Público",
-          "date": "2026-02-07T14:35:38.199Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | Los vecinos de Grazalema podran entrar al pueblo a recoger animales o medicinas en medio de la borrasca Marta",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T13:59:13.393Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | Los vecinos de Grazalema podran entrar al pueblo a recoger animales o medicinas en medio de la borrasca Marta",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T13:59:13.392Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | Los vecinos de Grazalema podran entrar al pueblo a recoger animales o medicinas en medio de la borrasca Marta",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T13:58:38.925Z"
-        },
-        {
-          "title": "Andalucia pide fondos extra al Gobierno y la Union Europea y supedita su presupuesto a los danos del temporal: \"Es la prioridad. Solo arreglar las carreteras costara mas de 500 millones\", dice Juanma Moreno",
-          "url": "https://www.elmundo.es/andalucia/2026/02/07/6987276d21efa008438b458c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T13:58:38.924Z"
-        },
-        {
-          "title": "Moreno pide a Montero el Fondo de Contingencia: ya hay 11.000 evacuados por la lluvia y los danos superan los 3.500M",
-          "url": "https://www.elespanol.com/espana/andalucia/20260207/juanma-moreno-pide-montero-fondo-contigencia-paliar-perdidas-millonarias-borrasca/1003744120854_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-07T13:55:06.865Z"
-        },
-        {
-          "title": "Moreno pide a Montero el Fondo de Contingencia: ya hay 11.000 evacuados por la lluvia y los danos superan los 3.500M",
-          "url": "https://www.elespanol.com/espana/andalucia/20260207/juanma-moreno-pide-montero-fondo-contigencia-paliar-perdidas-millonarias-borrasca/1003744120854_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-07T13:54:20.138Z"
-        },
-        {
-          "title": "Juanma Moreno calcula perdidas millonarias por el temporal en Andalucia: \"Quedan cuatro dias de lluvia, puede empeorar\"",
-          "url": "https://www.20minutos.es/nacional/juanma-moreno-calcula-perdidas-millonarias-temporal-andalucia_6931266_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-07T13:06:47.485Z"
-        },
-        {
-          "title": "Borrasca Marta, ultima hora de inundaciones en directo | Cinco comunidades en alerta, zonas criticas en Andalucia, miles de evacuados y numerosos cortes de carreteras",
-          "url": "https://www.20minutos.es/nacional/borrasca-marta-ultima-hora-inundaciones-directo_6931205_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-07T13:06:47.082Z"
-        },
-        {
-          "title": "La borrasca Leonardo en Andalucia, en directo: la provincia de Malaga registra varios terremotos",
-          "url": "https://www.elespanol.com/espana/andalucia/20260206/borrasca-leonardo-andalucia-directo-personas-desalojadas-riesgo-colapso-pantanos/1003744119124_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-07T11:33:41.123Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 160 carreteras cerradas por inundaciones y nieve",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T10:40:10.639Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 160 carreteras cerradas por inundaciones y nieve",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T10:40:10.639Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 160 carreteras cerradas por inundaciones y nieve",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T10:39:32.447Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 150 carreteras cerradas por inundaciones y nieve",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T09:45:54.996Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 150 carreteras cerradas por inundaciones y nieve",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T09:45:54.996Z"
-        },
-        {
-          "title": "Temporal en Espana, ultima hora de las fuertes lluvias hoy en directo | La borrasca Marta impacta en la Peninsula con mas lluvias en el sur y deja mas de 150 carreteras cerradas por inundaciones y nieve",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T09:45:21.456Z"
-        },
-        {
-          "title": "Borrasca Marta, ultima hora de inundaciones en directo | Cinco comunidades en alerta e incidencias con el agua potable en Andalucia",
-          "url": "https://www.20minutos.es/nacional/borrasca-marta-ultima-hora-inundaciones-directo_6931205_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-07T08:50:27.628Z"
-        },
-        {
-          "title": "Ver mas informacion de El agua que arrasa Andalucia",
-          "url": "https://www.publico.es/opinion/columnas/agua-arrasa-andalucia.html",
-          "newspaper": "Público",
-          "date": "2026-02-07T05:50:53.676Z"
-        },
-        {
-          "title": "El mapa de las zonas inundables y hasta donde puede llegar el Guadalquivir en Cordoba",
-          "url": "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/mapa-zonas-inundables-llegar-guadalquivir-cordoba_1_12970195.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-07T05:45:37.736Z"
-        },
-        {
-          "title": "El rastro desolador de una riada historica en Andalucia: \"No puedo perder la casa y el trabajo el mismo dia\"",
-          "url": "https://www.elmundo.es/andalucia/2026/02/06/698622f3fc6c834f1c8b45bf.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T02:24:57.836Z"
-        },
-        {
-          "title": "La Confederacion Hidrografica del Guadalquivir alerta de la llegada de 'Marta': \"Lo malo esta por venir\"",
-          "url": "https://www.lavanguardia.com/vida/20260206/11459907/confederacion-hidrografica-guadalquivir-alerta-llegada-marta-malo-esta-venir.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-06T22:40:41.747Z"
-        },
-        {
-          "title": "La borrasca Leonardo en Andalucia, en directo: 11.000 personas desalojadas ante la entrada de otra borrasca",
-          "url": "https://www.elespanol.com/espana/andalucia/20260206/borrasca-leonardo-andalucia-directo-personas-desalojadas-riesgo-colapso-pantanos/1003744119124_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-06T22:36:20.798Z"
-        },
-        {
-          "title": "La borrasca Leonardo deja una mujer muerta, unos 12.000 desalojados, trenes suspendidos y carreteras cortadas",
-          "url": "https://www.20minutos.es/nacional/borrasca-leonardo-deja-una-mujer-muerta-mas-9-000-desalojados-trenes-suspendidos-carreteras-cortadas_6931076_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-06T19:53:14.218Z"
-        },
-        {
-          "title": "Borrasca Leonardo, ultima hora de las inundaciones en directo | Andalucia espera mas lluvias y podria ampliar el perimetro de evacuacion tras el desalojo de Grazalema",
-          "url": "https://www.20minutos.es/nacional/borrasca-leonardo-ultima-hora-las-inundaciones-temporal-directo-leonardo-desalojar-lluvia-sin-precedentes-aemet-alerta-roja_6930593_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-06T17:56:41.941Z"
-        },
-        {
-          "title": "La borrasca Leonardo deja una mujer muerta, mas de 9.000 desalojados, trenes suspendidos y carreteras cortadas",
-          "url": "https://www.20minutos.es/nacional/borrasca-leonardo-deja-una-mujer-muerta-mas-9-000-desalojados-trenes-suspendidos-carreteras-cortadas_6931076_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-06T17:56:36.091Z"
-        },
-        {
-          "title": "Borrasca Leonardo, ultima hora de las inundaciones en directo | Andalucia espera mas lluvias y podria ampliar el perimetro de evacuacion tras el desalojo de Grazalema",
-          "url": "https://www.20minutos.es/nacional/borrasca-leonardo-marta-ultima-hora-inundaciones-nieve-temporal-directo-alerta-aemet-lluvias-desalojados_6931005_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-06T17:56:35.397Z"
-        }
-      ]
-    },
-    {
-      "id": 218,
-      "title": "Obama",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
+      "news_count": 33
     },
     {
       "id": 219,
@@ -1130,13 +1220,13 @@
       "id": 220,
       "title": "Psoe Aragon",
       "source": "news_tags",
-      "volume": "31 artículos",
+      "volume": "32 artículos",
       "timeframe": "24h noticias",
-      "news_count": 31
+      "news_count": 32
     },
     {
       "id": 221,
-      "title": "Inundaciones",
+      "title": "Ere",
       "source": "news_tags",
       "volume": "31 artículos",
       "timeframe": "24h noticias",
@@ -1144,7 +1234,7 @@
     },
     {
       "id": 222,
-      "title": "Redes Sociales",
+      "title": "Venezuela",
       "source": "news_tags",
       "volume": "31 artículos",
       "timeframe": "24h noticias",
@@ -1152,31 +1242,31 @@
     },
     {
       "id": 223,
-      "title": "Ere",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 224,
-      "title": "Barcelona",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 225,
-      "title": "Rodalies",
+      "title": "Rusia",
       "source": "news_tags",
       "volume": "29 artículos",
       "timeframe": "24h noticias",
       "news_count": 29
     },
     {
-      "id": 226,
+      "id": 224,
+      "title": "Inundaciones",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 225,
       "title": "Aragon Existe",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 226,
+      "title": "Redes Sociales",
       "source": "news_tags",
       "volume": "28 artículos",
       "timeframe": "24h noticias",
@@ -1192,20 +1282,48 @@
     },
     {
       "id": 229,
-      "title": "Rusia",
+      "title": "Obama",
       "source": "news_tags",
-      "volume": "24 artículos",
+      "volume": "25 artículos",
       "timeframe": "24h noticias",
-      "news_count": 24
+      "news_count": 25
+    },
+    {
+      "id": 230,
+      "title": "Manifestación",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 231,
+      "title": "Guerra en Ucrania",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
     },
     {
       "id": 2,
       "title": "Alerta Borrasca Marta",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 10 min (24h)",
-      "news_count": 23,
+      "timeframe": "hace 50 min (24h)",
+      "news_count": 24,
       "matched_articles": [
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:51:24.178Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:50:51.111Z"
+        },
         {
           "title": "Borrasca Marta, ultima hora de inundaciones en directo | El temporal provoca otra muerte, incidentes en media Espana, miles de evacuados, corte de carreteras y rios al limite",
           "url": "https://www.20minutos.es/nacional/borrasca-marta-ultima-hora-inundaciones-directo_6931205_6.html",
@@ -1337,41 +1455,27 @@
           "url": "https://www.20minutos.es/nacional/borrasca-leonardo-deja-una-mujer-muerta-mas-9-000-desalojados-trenes-suspendidos-carreteras-cortadas_6931076_0.html",
           "newspaper": "20 Minutos",
           "date": "2026-02-06T19:53:14.218Z"
-        },
-        {
-          "title": "La borrasca Leonardo deja una mujer muerta, mas de 9.000 desalojados, trenes suspendidos y carreteras cortadas",
-          "url": "https://www.20minutos.es/nacional/borrasca-leonardo-deja-una-mujer-muerta-mas-9-000-desalojados-trenes-suspendidos-carreteras-cortadas_6931076_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-06T17:56:36.091Z"
         }
       ]
     },
     {
-      "id": 230,
+      "id": 232,
       "title": "Partido Popular (pp)",
       "source": "news_tags",
-      "volume": "23 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 231,
-      "title": "Febrero",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
+      "news_count": 24
     },
     {
       "id": 233,
-      "title": "Grazalema",
+      "title": "Delcy Rodríguez",
       "source": "news_tags",
-      "volume": "21 artículos",
+      "volume": "22 artículos",
       "timeframe": "24h noticias",
-      "news_count": 21
+      "news_count": 22
     },
     {
-      "id": 234,
+      "id": 235,
       "title": "Casa Blanca",
       "source": "news_tags",
       "volume": "21 artículos",
@@ -1379,16 +1483,8 @@
       "news_count": 21
     },
     {
-      "id": 235,
-      "title": "Elecciones 8-f",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
       "id": 236,
-      "title": "Manifestación",
+      "title": "Twitter",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -1396,7 +1492,7 @@
     },
     {
       "id": 237,
-      "title": "Pedro Sánchez",
+      "title": "Febrero",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -1404,75 +1500,35 @@
     },
     {
       "id": 238,
-      "title": "Twitter",
+      "title": "Elecciones 8-f",
       "source": "news_tags",
-      "volume": "19 artículos",
+      "volume": "20 artículos",
       "timeframe": "24h noticias",
-      "news_count": 19
+      "news_count": 20
     },
     {
       "id": 239,
       "title": "Precipitaciones",
       "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 240,
+      "title": "Pedro Sánchez",
+      "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
       "news_count": 19
     },
     {
-      "id": 240,
-      "title": "Eeuu",
-      "source": "news_tags",
-      "volume": "18 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
       "id": 241,
-      "title": "Jorge Azcón",
-      "source": "news_tags",
-      "volume": "18 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
-      "id": 242,
       "title": "Historia Antigua",
       "source": "news_tags",
-      "volume": "18 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
-      "id": 243,
-      "title": "Agua",
-      "source": "news_tags",
-      "volume": "17 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 17
-    },
-    {
-      "id": 244,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "17 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 17
-    },
-    {
-      "id": 245,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "17 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 17
-    },
-    {
-      "id": 246,
-      "title": "Chavismo",
-      "source": "news_tags",
-      "volume": "17 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 17
+      "news_count": 19
     },
     {
       "id": 123,
@@ -1480,8 +1536,20 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 16,
+      "news_count": 18,
       "matched_articles": [
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:51:24.178Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:50:51.111Z"
+        },
         {
           "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El Guadalquivir llega a zonas inundables de su cauce en la ciudad de Sevilla",
           "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
@@ -1581,16 +1649,56 @@
       ]
     },
     {
-      "id": 247,
-      "title": "Alcaldes",
+      "id": 242,
+      "title": "Agua",
       "source": "news_tags",
-      "volume": "16 artículos",
+      "volume": "18 artículos",
       "timeframe": "24h noticias",
-      "news_count": 16
+      "news_count": 18
+    },
+    {
+      "id": 243,
+      "title": "Baleares",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 244,
+      "title": "Grazalema",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 245,
+      "title": "Jorge Azcón",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 246,
+      "title": "Chavismo",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 247,
+      "title": "Pilar Alegría",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
     },
     {
       "id": 248,
-      "title": "Pilar Alegría",
+      "title": "Eeuu",
       "source": "news_tags",
       "volume": "16 artículos",
       "timeframe": "24h noticias",
@@ -1600,9 +1708,9 @@
       "id": 249,
       "title": "Irán",
       "source": "news_tags",
-      "volume": "15 artículos",
+      "volume": "16 artículos",
       "timeframe": "24h noticias",
-      "news_count": 15
+      "news_count": 16
     },
     {
       "id": 124,
@@ -1610,8 +1718,20 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 9,
+      "news_count": 11,
       "matched_articles": [
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:51:24.178Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Extremadura acuerda el desalojo de pedanias como Gevora, Novelda y Sagrajasables de su cauce en la ciudad",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-07T18:50:51.111Z"
+        },
         {
           "title": "Lamine Yamal despacha al Mallorca con la autoridad del lider",
           "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/07/698770b2e9cf4a4f398b4572.html",
@@ -1709,45 +1829,11 @@
       ]
     },
     {
-      "id": 28,
-      "title": "Jan Virgili",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 4,
-      "matched_articles": [
-        {
-          "title": "Un Barca infalible y feliz tambien supera al Mallorca",
-          "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20260207/11460533/barca-infalible-feliz-supera-mallorca.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-07T17:41:59.443Z"
-        },
-        {
-          "title": "Lamine Yamal despacha al Mallorca con la autoridad del lider",
-          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/07/698770b2e9cf4a4f398b4572.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T17:40:52.554Z"
-        },
-        {
-          "title": "El Barca de las dos versiones saca el rodillo ante el Mallorca y amplia su distancia en la lucha por el liderato de La Liga",
-          "url": "https://www.elespanol.com/deportes/futbol/20260207/barca-versiones-saca-rodillo-mallorca-amplia-distancia-lucha-liderato-liga/1003744120981_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-07T17:36:28.174Z"
-        },
-        {
-          "title": "En directo, Barcelona - Mallorca",
-          "url": "https://www.elmundo.es/deportes/futbol/laliga-ea-sports/barcelona-mallorca/2026/02/07/01_0101_20260207_178_181-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-07T15:40:16.600Z"
-        }
-      ]
-    },
-    {
       "id": 3,
       "title": "Rayo Vallecano - Real Oviedo",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 3,
       "matched_articles": [
         {
@@ -1774,8 +1860,8 @@
       "id": 26,
       "title": "Marc Bernal",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 3,
       "matched_articles": [
         {
@@ -1849,28 +1935,6 @@
       ]
     },
     {
-      "id": 21,
-      "title": "Resultado Barcelona Mallorca",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "Un Barca infalible y feliz tambien supera al Mallorca",
-          "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20260207/11460533/barca-infalible-feliz-supera-mallorca.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-07T17:41:59.443Z"
-        },
-        {
-          "title": "Barca - Mallorca, en directo La Liga: resultado, goleadores y estadisticas en vivo",
-          "url": "https://www.elespanol.com/deportes/20260207/barca-mallorca-directo-liga-resultado-goleadores-estadisticas-vivo/1003744120817_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-07T15:35:49.032Z"
-        }
-      ]
-    },
-    {
       "id": 125,
       "title": "Romero",
       "source": "x_trends",
@@ -1879,21 +1943,21 @@
       "news_count": 2,
       "matched_articles": [
         {
+          "title": "Fina Paulos y Oscar Rey, los mejores profesores de Espana que ya ensenan con IA: \"Llevamos tres anos cometiendo delitos\"",
+          "url": "https://www.elespanol.com/quincemil/cultura/educacion/20260207/fina-paulos-oscar-rey-mejores-profesores-espana-ensenan-ia-llevamos-anos-cometiendo-delitos-dl/1003744117197_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-07T18:47:08.223Z"
+        },
+        {
           "title": "El candidato petrista, Ivan Cepeda, se queda fuera de la consulta de la izquierda colombiana",
           "url": "https://www.abc.es/internacional/candidato-petrista-ivan-cepeda-queda-consulta-izquierda-20260205190831-nt.html",
           "newspaper": "ABC",
           "date": "2026-02-07T09:44:31.932Z"
-        },
-        {
-          "title": "ERC ve \"lejos\" los presupuestos catalanes a pesar del si de los comuns",
-          "url": "https://www.larazon.es/cataluna/erc-lejos-presupuestos-catalanes-pesar-comuns_202602066985dfea2f00a04688faefa5.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-06T17:48:20.828Z"
         }
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Silvia Bronchalo",
       "source": "google",
       "volume": "20 mil+ búsquedas",
@@ -1909,11 +1973,11 @@
       ]
     },
     {
-      "id": 24,
+      "id": 27,
       "title": "Las Palmas",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -1925,11 +1989,11 @@
       ]
     },
     {
-      "id": 32,
+      "id": 30,
       "title": "Tommy Marques",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -1945,16 +2009,16 @@
       "title": "Barcelona - R.c.d. Mallorca",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 4,
-      "title": "Celta de Vigo - Osasuna",
+      "title": "Real Sociedad - Elche C. F.",
       "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 20 min (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1963,7 +2027,7 @@
       "title": "U. D. las Palmas - Burgos",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1977,25 +2041,7 @@
       "matched_articles": []
     },
     {
-      "id": 8,
-      "title": "Arsenal - Sunderland Afc",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 10,
-      "title": "Wolves - Chelsea",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 11,
+      "id": 9,
       "title": "Newcastle - Brentford",
       "source": "google",
       "volume": "10 mil+ búsquedas",
@@ -2004,29 +2050,47 @@
       "matched_articles": []
     },
     {
-      "id": 12,
-      "title": "Efectos Secundarios Estatinas",
+      "id": 10,
+      "title": "Arsenal - Sunderland Afc",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 11,
+      "title": "Final Futbol Sala",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 12,
+      "title": "Wolves - Chelsea",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 13,
-      "title": "Fc Andorra - Real Sociedad B",
+      "title": "Efectos Secundarios Estatinas",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 14,
-      "title": "Superbowl",
+      "title": "Fc Andorra - Real Sociedad B",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2035,16 +2099,7 @@
       "title": "Manchester United",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 23,
-      "title": "Final Futbol Sala",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2052,44 +2107,44 @@
       "id": 25,
       "title": "Genoa - Napoli",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 27,
-      "title": "Rtve Play",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 29,
-      "title": "Movistar Plus",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 30,
+      "id": 28,
       "title": "Unicaja - Andorra",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 31,
+      "id": 29,
       "title": "Mönchengladbach - Leverkusen",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 31,
+      "title": "Rtve Play",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 32,
+      "title": "Breogán - Murcia",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2098,16 +2153,16 @@
       "title": "Teledeporte",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 34,
-      "title": "Pablo Carreño",
+      "title": "Nantes - Lyon",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0,
       "matched_articles": []
     }

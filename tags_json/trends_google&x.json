@@ -1,63 +1,81 @@
 {
-  "timestamp": "2026-02-09T19:35:25.086743",
+  "timestamp": "2026-02-09T21:07:04.477637",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 5,
+    "xtrends_total": 9,
     "tags_total": 50,
-    "unique_total": 77,
-    "unified_count": 2,
-    "with_news": 62,
-    "without_news": 15
+    "unique_total": 80,
+    "unified_count": 3,
+    "with_news": 61,
+    "without_news": 19
   },
   "trends": [
     {
       "id": 200,
       "title": "Aragón",
       "source": "news_tags",
-      "volume": "501 artículos",
+      "volume": "430 artículos",
       "timeframe": "24h noticias",
-      "news_count": 501
+      "news_count": 430
     },
     {
       "id": 201,
       "title": "Xunta de Galicia",
       "source": "news_tags",
-      "volume": "247 artículos",
+      "volume": "250 artículos",
       "timeframe": "24h noticias",
-      "news_count": 247
+      "news_count": 250
     },
     {
       "id": 202,
       "title": "Cia",
       "source": "news_tags",
-      "volume": "216 artículos",
+      "volume": "223 artículos",
       "timeframe": "24h noticias",
-      "news_count": 216
+      "news_count": 223
     },
     {
       "id": 203,
       "title": "Elecciones Gallegas",
       "source": "news_tags",
-      "volume": "208 artículos",
+      "volume": "178 artículos",
       "timeframe": "24h noticias",
-      "news_count": 208
+      "news_count": 178
     },
     {
       "id": 204,
       "title": "Psoe",
       "source": "news_tags",
-      "volume": "172 artículos",
+      "volume": "161 artículos",
       "timeframe": "24h noticias",
-      "news_count": 172
+      "news_count": 161
     },
     {
-      "id": 5,
+      "id": 11,
       "title": "Resultados Elecciones Aragon Psoe",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 161,
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 147,
       "matched_articles": [
+        {
+          "title": "Feijoo asume un cambio de discurso y llama a la normalizacion de los pactos con Vox",
+          "url": "https://www.abc.es/espana/feijoo-asume-cambio-discurso-llama-vox-entenderse-20260209201527-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:29:45.748Z"
+        },
+        {
+          "title": "Abascal tiende la mano al PP para un acuerdo en Aragon si hay un \"cambio de rumbo politico y dejan la estafa\"",
+          "url": "https://www.elespanol.com/castilla-y-leon/region/20260209/abascal-tiende-mano-pp-acuerdo-aragon-cambio-rumbo-politico-dejan-estafa/1003744123180_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T19:26:55.198Z"
+        },
+        {
+          "title": "El particular analisis de Rufian con el \"fascismo\" tras los resultados en Aragon: \"Menos pureza\"",
+          "url": "https://www.larazon.es/espana/particular-analisis-gabriel-rufian-resultados-aragon-menos-pureza_20260209698a093d1817b41eb63cdefb.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-09T19:23:46.972Z"
+        },
         {
           "title": "Musk, de nuevo contra Sanchez: comparte una critica en redes que relaciona la debacle del PSOE con la regularizacion de migrantes",
           "url": "https://www.20minutos.es/nacional/musk-vuelve-cargar-contra-sanchez-relaciona-debacle-psoe-aragon-con-regularizacion-inmigrantes_6931696_0.html",
@@ -339,24 +357,6 @@
           "url": "https://www.20minutos.es/nacional/feijoo-bate-sanchez-segundo-asalto-deja-aun-mas-tocado_6931541_0.html",
           "newspaper": "20 Minutos",
           "date": "2026-02-09T05:14:19.878Z"
-        },
-        {
-          "title": "La estrategia electoral de Sanchez hace aguas: Aragon sentencia el segundo batacazo del ciclo",
-          "url": "https://www.20minutos.es/nacional/estrategia-electoral-sanchez-hace-aguas-aragon-sentencia-segundo-batacazo-ciclo_6931516_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.641Z"
-        },
-        {
-          "title": "El PP afronta un triunfo agridulce en Aragon y busca como desgastar a Vox mientras se contenta con que el PSOE \"toque suelo\"",
-          "url": "https://www.20minutos.es/nacional/pp-afronta-un-triunfo-agridulce-aragon-busca-como-desgastar-vox-mientras-se-contenta-con-que-psoe-toque-suelo_6931540_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.283Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | Escanos de VOX, PP, PSOE y ultima hora de la victoria de Jorge Azcon",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461323/elecciones-aragon-2026-partido-popular-azcon-jornada-electoral-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T05:13:45.409Z"
         }
       ]
     },
@@ -364,25 +364,17 @@
       "id": 205,
       "title": "En Directo",
       "source": "news_tags",
-      "volume": "102 artículos",
+      "volume": "86 artículos",
       "timeframe": "24h noticias",
-      "news_count": 102
+      "news_count": 86
     },
     {
       "id": 206,
-      "title": "Politica Migratoria Ee. Uu.",
+      "title": "Política Castilla y León",
       "source": "news_tags",
-      "volume": "88 artículos",
+      "volume": "86 artículos",
       "timeframe": "24h noticias",
-      "news_count": 88
-    },
-    {
-      "id": 213,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "55 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 77
+      "news_count": 86
     },
     {
       "id": 207,
@@ -394,43 +386,421 @@
     },
     {
       "id": 208,
-      "title": "Pop",
+      "title": "Trump",
       "source": "news_tags",
-      "volume": "66 artículos",
+      "volume": "69 artículos",
       "timeframe": "24h noticias",
-      "news_count": 66
+      "news_count": 69
     },
     {
       "id": 209,
       "title": "Espana-newsletter",
       "source": "news_tags",
-      "volume": "66 artículos",
+      "volume": "65 artículos",
       "timeframe": "24h noticias",
-      "news_count": 66
+      "news_count": 65
     },
     {
       "id": 210,
-      "title": "Pilar Alegría",
+      "title": "Pp - Partido Popular",
       "source": "news_tags",
-      "volume": "59 artículos",
+      "volume": "65 artículos",
       "timeframe": "24h noticias",
-      "news_count": 59
+      "news_count": 65
     },
     {
-      "id": 211,
-      "title": "Jorge Azcón",
-      "source": "news_tags",
-      "volume": "56 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 56
+      "id": 10,
+      "title": "Super Bowl",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
+      "news_count": 64,
+      "matched_articles": [
+        {
+          "title": "Duolingo registra un alza del 35% en los alumnos de espanol tras la actuacion de Bad Bunny en la Super Bowl",
+          "url": "https://www.20minutos.es/internacional/duolingo-registra-un-alza-35-los-alumnos-espanol-tras-actuacion-bad-bunny-super-bowl_6931989_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T19:34:40.538Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/cultura/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T19:32:32.189Z"
+        },
+        {
+          "title": "Bad Bunny en la Super Bowl: una suma de cliches televisivos sobre America Latina",
+          "url": "https://www.abc.es/cultura/musica/rodrigo-blanco-calderon-bad-bunny-super-bowl-suma-cliches-televisivos-20260209143403-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:29:59.339Z"
+        },
+        {
+          "title": "La hazana de Rosa en Pasapalabra: ni los expertos de la Super Bowl saben la respuesta que le dio los 2,7 millones del rosco",
+          "url": "https://www.abc.es/play/television/hazana-rosa-pasapalabra-expertos-super-bowl-saben-20260209105156-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:29:56.288Z"
+        },
+        {
+          "title": "Ver mas informacion de El grito \"que rico es ser latino\" en la Super Bowl y otras cuatro noticias importantes de hoy",
+          "url": "https://www.publico.es/sociedad/ponte-dia-grito-rico-latino-super-bowl-cuatro-noticias-importantes-hoy.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T19:25:25.246Z"
+        },
+        {
+          "title": "La defensa de los Seahawks conquista la segunda Super Bowl de la historia para el equipo de Seattle",
+          "url": "https://elpais.com/deportes/2026-02-09/la-defensa-de-los-seahawks-conquista-la-segunda-super-bowl-de-la-historia-para-el-equipo-de-seattle.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T16:03:08.229Z"
+        },
+        {
+          "title": "Tommy Wolter y Elly Bean, la pareja de enfermeros que se ha casado en la Super Bowl ante 127 millones de espectadores",
+          "url": "https://www.elespanol.com/corazon/celebrities/20260209/tommy-wolter-elly-bean-pareja-enfermeros-casado-super-bowl-millones-espectadores/1003744122268_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T15:03:04.367Z"
+        },
+        {
+          "title": "Trump, sobre la actuacion: \"Nadie entiende una palabra de lo que dice este tipo, y el baile es repugnante\"",
+          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T14:59:06.163Z"
+        },
+        {
+          "title": "Lo que no viste de la Super Bowl mas vista de la historia",
+          "url": "https://www.abc.es/cultura/musica/viste-super-bowl-vista-historia-20260209112735-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:37.762Z"
+        },
+        {
+          "title": "El significado del traje de Zara que Bad Bunny ha llevado en la Super Bowl 2026",
+          "url": "https://www.abc.es/summum/estilo/moda/significado-traje-zara-bad-bunny-llevado-super-20260209100256-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:37.011Z"
+        },
+        {
+          "title": "Ver mas informacion de Bad Bunny triunfa en la Super Bowl: la reivindicacion de una America mas amplia",
+          "url": "https://www.publico.es/culturas/musica/bad-bunny-triunfa-super-bowl-reivindicacion-america.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T13:21:20.651Z"
+        },
+        {
+          "title": "De Karol G y Pedro Pascal en La Casita a DiCaprio y Justin Bieber en las gradas: todos los famosos en el partido",
+          "url": "https://elpais.com/gente/2026-02-09/de-karol-g-y-pedro-pascal-en-la-casita-a-dicaprio-y-justin-bieber-en-las-gradas-todos-los-famosos-de-la-super-bowl.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T13:19:06.382Z"
+        },
+        {
+          "title": "?Hubo una boda en el espectaculo? Si, y fue legal",
+          "url": "https://elpais.com/gente/2026-02-09/hubo-una-boda-en-el-intermedio-de-la-super-bowl-de-bad-bunny-si-y-fue-legal.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T13:19:06.190Z"
+        },
+        {
+          "title": "Ver mas informacion de Bad Bunny reivindica todos los paises de America durante su show en la Super Bowl",
+          "url": "https://www.publico.es/internacional/bad-bunny-reivindica-todos-paises-america-show-super-bowl.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T11:54:24.000Z"
+        },
+        {
+          "title": "Trump sobre la actuacion de Bad Bunny: \"Nadie entiende lo que dice\"",
+          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T11:51:30.915Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiarioar.com/espectaculos/bad-bunny-saca-colores-ee-uu-super-bowl-latinos-seguimos_129_12974441.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T11:50:41.991Z"
+        },
+        {
+          "title": "Trump estalla contra Bad Bunny por su actuacion en el Super Bowl: \"Nadie entiende lo que dice este tipo y el baile es repugnante\"",
+          "url": "https://www.eldiarioar.com/espectaculos/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-dice-tipo-baile-repugnante_1_12974525.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T11:50:40.927Z"
+        },
+        {
+          "title": "Un nino inmigrante, Lady Gaga y \"God Bless America\": Bad Bunny firma el espectaculo mas politico de la Super Bowl",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20260209/nino-inmigrante-lady-gaga-god-bless-america-bad-bunny-firma-espectaculo-politico-super-bowl/1003744121903_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T10:19:44.465Z"
+        },
+        {
+          "title": "Un nino inmigrante, Lady Gaga y \"God Bless America\": Bad Bunny firma el espectaculo mas politico de la Super Bowl",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20260209/nino-inmigrante-lady-gaga-god-bless-america-bad-bunny-firma-espectaculo-politico-super-bowl/1003744121903_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T10:18:28.731Z"
+        },
+        {
+          "title": "El show de Bad Bunny en la Super Bowl que no ha gustado a Trump: \"Lo unico mas poderoso que el odio es el amor\"",
+          "url": "https://www.publico.es/tremending/show-bad-bunny-super-bowl-gustado-trump-unico-poderoso-odio-amor.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T10:16:54.517Z"
+        },
+        {
+          "title": "Trump dice que el espectaculo de Bad Bunny en la Super Bowl fue \"uno de los peores de la historia\": \"El baile fue repugnante\"",
+          "url": "https://www.20minutos.es/internacional/trump-dice-que-espectaculo-bad-bunny-fue-uno-los-peores-historia_6931553_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T09:10:15.640Z"
+        },
+        {
+          "title": "La defensa de los Seahawks conquista el segundo Super Bowl de la historia para Seattle",
+          "url": "https://elpais.com/deportes/2026-02-09/la-defensa-de-los-seahawks-conquista-la-segunda-super-bowl-de-la-historia-para-el-equipo-de-seattle.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:17.071Z"
+        },
+        {
+          "title": "El amor que nos enseno Benito",
+          "url": "https://elpais.com/us/2026-02-09/el-amor-que-nos-enseno-benito.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:16.270Z"
+        },
+        {
+          "title": "Bad Bunny deslumbra en el Super Bowl con una odisea puertorriquena y la defensa de America mas alla de Estados Unidos",
+          "url": "https://elpais.com/us/entretenimiento/2026-02-09/bad-bunny-arrasa-en-la-super-bowl-con-una-defensa-de-america-mas-alla-de-estados-unidos.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:15.587Z"
+        },
+        {
+          "title": "El concierto alternativo a Bad Bunny reune a mas de 6 millones de espectadores",
+          "url": "https://www.20minutos.es/internacional/concierto-alternativo-bad-bunny-reune-mas-6-millones-espectadores_6931555_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:24:04.800Z"
+        },
+        {
+          "title": "Los Seattle Seahawks destrozan a los New England Patriots y logran su segunda Super Bowl",
+          "url": "https://www.elmundo.es/deportes/futbol-americano/2026/02/09/698959a4fc6c8309288b45a4.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T07:20:53.470Z"
+        },
+        {
+          "title": "Bad Bunny convierte el descanso de la Super Bowl en una fiesta del orgullo latino que Trump define como \"terrible\"",
+          "url": "https://www.elespanol.com/deportes/otros-deportes/20260209/bad-bunny-convierte-descanso-super-bowl-fiesta-orgullo-latino/1003744121843_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:27.572Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T07:09:53.829Z"
+        },
+        {
+          "title": "Trump dice que el espectaculo de Bad Bunny fue \"uno de los peores de la historia\"",
+          "url": "https://www.20minutos.es/internacional/trump-dice-que-espectaculo-bad-bunny-fue-uno-los-peores-historia_6931553_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:44.403Z"
+        },
+        {
+          "title": "Los Seahawks ahogan a los Patriots con su defensa y ganan su segunda Super Bowl",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461324/seahawks-ahogan-patriots-defensa-ganan-segunda-super-bowl.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T05:12:54.781Z"
+        },
+        {
+          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
+          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T05:05:30.686Z"
+        },
+        {
+          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
+          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T02:46:47.025Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
+        },
+        {
+          "title": "<<!Gracias, multimillonarios!>>: una 'manifa' en San Francisco defiende a los mas ricos",
+          "url": "https://www.abc.es/internacional/gracias-multimillonarios-manifa-san-francisco-defiende-ricos-20260208132642-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T19:36:45.577Z"
+        }
+      ],
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
-      "id": 212,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "55 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 55
+      "id": 104,
+      "title": "América",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 53,
+      "matched_articles": [
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/cultura/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T19:32:32.189Z"
+        },
+        {
+          "title": "Bad Bunny en la Super Bowl: una suma de cliches televisivos sobre America Latina",
+          "url": "https://www.abc.es/cultura/musica/rodrigo-blanco-calderon-bad-bunny-super-bowl-suma-cliches-televisivos-20260209143403-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:29:59.339Z"
+        },
+        {
+          "title": "Ghislaine Maxwell ofrece exculpar a Trump del caso a cambio de inmunidad",
+          "url": "https://elpais.com/us/2026-02-09/ghislaine-maxwell-ofrece-exculpar-a-trump-del-caso-epstein-a-cambio-de-inmunidad.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T19:22:45.945Z"
+        },
+        {
+          "title": "Kast exhibe su ideologia ultra y sus alianzas en el exterior antes de tomar las riendas de Chile",
+          "url": "https://www.eldiarioar.com/latinoamerica/kast-exhibe-ideologia-ultra-alianzas-exterior-riendas-chile_1_12976685.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T19:22:03.272Z"
+        },
+        {
+          "title": "Tommy Wolter y Elly Bean, la pareja de enfermeros que se ha casado en la Super Bowl ante 127 millones de espectadores",
+          "url": "https://www.elespanol.com/corazon/celebrities/20260209/tommy-wolter-elly-bean-pareja-enfermeros-casado-super-bowl-millones-espectadores/1003744122268_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T15:03:04.367Z"
+        },
+        {
+          "title": "Trump, sobre la actuacion: \"Nadie entiende una palabra de lo que dice este tipo, y el baile es repugnante\"",
+          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T14:59:06.163Z"
+        },
+        {
+          "title": "Lo que no viste de la Super Bowl mas vista de la historia",
+          "url": "https://www.abc.es/cultura/musica/viste-super-bowl-vista-historia-20260209112735-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:37.762Z"
+        },
+        {
+          "title": "Ver mas informacion de Bad Bunny triunfa en la Super Bowl: la reivindicacion de una America mas amplia",
+          "url": "https://www.publico.es/culturas/musica/bad-bunny-triunfa-super-bowl-reivindicacion-america.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T13:21:20.651Z"
+        },
+        {
+          "title": "?Hubo una boda en el espectaculo? Si, y fue legal",
+          "url": "https://elpais.com/gente/2026-02-09/hubo-una-boda-en-el-intermedio-de-la-super-bowl-de-bad-bunny-si-y-fue-legal.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T13:19:06.190Z"
+        },
+        {
+          "title": "Bad Bunny, sin consignas politicas, reivindica el alma latina de America: \"Lo unico mas poderoso que el odio es el amor\"",
+          "url": "https://www.elmundo.es/deportes/2026/02/09/6989445dfc6c8309288b459d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T11:59:02.962Z"
+        },
+        {
+          "title": "Ver mas informacion de Bad Bunny reivindica todos los paises de America durante su show en la Super Bowl",
+          "url": "https://www.publico.es/internacional/bad-bunny-reivindica-todos-paises-america-show-super-bowl.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T11:54:24.000Z"
+        },
+        {
+          "title": "Cuba comunica a las lineas aereas internacionales que a partir de este lunes se queda sin combustible para la aviacion",
+          "url": "https://elpais.com/america/2026-02-09/cuba-advierte-a-las-lineas-areas-internacionales-que-a-partir-del-lunes-se-queda-sin-combustible-para-la-aviacion.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T11:51:38.166Z"
+        },
+        {
+          "title": "Trump sobre la actuacion de Bad Bunny: \"Nadie entiende lo que dice\"",
+          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T11:51:30.915Z"
+        },
+        {
+          "title": "Trump estalla contra Bad Bunny por su actuacion en el Super Bowl: \"Nadie entiende lo que dice este tipo y el baile es repugnante\"",
+          "url": "https://www.eldiarioar.com/espectaculos/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-dice-tipo-baile-repugnante_1_12974525.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T11:50:40.927Z"
+        },
+        {
+          "title": "El show de Bad Bunny en la Super Bowl que no ha gustado a Trump: \"Lo unico mas poderoso que el odio es el amor\"",
+          "url": "https://www.publico.es/tremending/show-bad-bunny-super-bowl-gustado-trump-unico-poderoso-odio-amor.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T10:16:54.517Z"
+        },
+        {
+          "title": "Cuba advierte a las lineas aereas internacionales que a partir del lunes se queda sin combustible para la aviacion",
+          "url": "https://elpais.com/america/2026-02-09/cuba-advierte-a-las-lineas-areas-internacionales-que-a-partir-del-lunes-se-queda-sin-combustible-para-la-aviacion.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:27.273Z"
+        },
+        {
+          "title": "Jill Lepore: \"Trump prospera en el caos y la emergencia\"",
+          "url": "https://elpais.com/us/2026-02-09/jill-lepore-trump-prospera-en-el-caos-y-la-emergencia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:18.191Z"
+        },
+        {
+          "title": "El amor que nos enseno Benito",
+          "url": "https://elpais.com/us/2026-02-09/el-amor-que-nos-enseno-benito.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:16.270Z"
+        },
+        {
+          "title": "Bad Bunny deslumbra en el Super Bowl con una odisea puertorriquena y la defensa de America mas alla de Estados Unidos",
+          "url": "https://elpais.com/us/entretenimiento/2026-02-09/bad-bunny-arrasa-en-la-super-bowl-con-una-defensa-de-america-mas-alla-de-estados-unidos.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:15.587Z"
+        },
+        {
+          "title": "El concierto alternativo a Bad Bunny reune a mas de 6 millones de espectadores",
+          "url": "https://www.20minutos.es/internacional/concierto-alternativo-bad-bunny-reune-mas-6-millones-espectadores_6931555_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:24:04.800Z"
+        },
+        {
+          "title": "Cuba advierte a las lineas aereas internacionales que se queda sin combustible para la aviacion",
+          "url": "https://elpais.com/america/2026-02-09/cuba-advierte-a-las-lineas-areas-internacionales-que-a-partir-del-lunes-se-queda-sin-combustible-para-la-aviacion.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T07:12:18.897Z"
+        },
+        {
+          "title": "Juan Manuel Santos: \"El mundo va por un camino equivocado\"",
+          "url": "https://elpais.com/america-colombia/2026-02-09/juan-manuel-santos-el-mundo-va-por-un-camino-equivocado.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T07:12:16.830Z"
+        },
+        {
+          "title": "Cuba advierte a las lineas areas internacionales que a partir del lunes se queda sin combustible para la aviacion",
+          "url": "https://elpais.com/america/2026-02-09/cuba-advierte-a-las-lineas-areas-internacionales-que-a-partir-del-lunes-se-queda-sin-combustible-para-la-aviacion.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T05:06:32.083Z"
+        },
+        {
+          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
+          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T05:05:30.686Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
+        },
+        {
+          "title": "Kast exhibe su ideologia ultra y sus alianzas en el extranjero antes de tomar las riendas de Chile",
+          "url": "https://www.eldiario.es/internacional/kast-exhibe-ideologia-ultra-alianzas-extranjero-riendas-chile_1_12969904.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T23:37:27.388Z"
+        },
+        {
+          "title": "ELIS Murcia acoge la reunion anual del grupo Cognita con mas de 60 directivos de colegios de Europa, Asia y America",
+          "url": "https://www.elespanol.com/espana/murcia/20260208/elis-murcia-acoge-reunion-anual-grupo-cognita-directivos-colegios-europa-asia-america/1003744121653_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T20:40:23.304Z"
+        }
+      ],
+      "merged_sources": [
+        "x_trends",
+        "news_tags"
+      ]
     },
     {
       "id": 103,
@@ -438,8 +808,32 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 53,
+      "news_count": 52,
       "matched_articles": [
+        {
+          "title": "Antonio Jose Seguro, nuevo presidente de Portugal: el ave fenix socialista que ha hecho de la serenidad su cualidad maxima",
+          "url": "https://www.elmundo.es/internacional/2026/02/09/6988b99be85ecec04f8b4595.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T19:31:47.100Z"
+        },
+        {
+          "title": "Antonio Jose Seguro, el socialista moderado que frena a la derecha radical en Portugal",
+          "url": "https://www.abc.es/internacional/antonio-jose-seguro-regreso-inesperado-frena-derecha-20260209132633-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:30:22.282Z"
+        },
+        {
+          "title": "Ver mas informacion de El grito \"que rico es ser latino\" en la Super Bowl y otras cuatro noticias importantes de hoy",
+          "url": "https://www.publico.es/sociedad/ponte-dia-grito-rico-latino-super-bowl-cuatro-noticias-importantes-hoy.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T19:25:25.246Z"
+        },
+        {
+          "title": "Un cordon sanitario frente a la ultraderecha convierte a Seguro en el presidente mas votado de la historia de Portugal",
+          "url": "https://elpais.com/internacional/2026-02-09/un-cordon-sanitario-frente-a-la-ultraderecha-convierte-a-seguro-en-el-presidente-mas-votado-de-la-historia-de-portugal.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T19:22:57.254Z"
+        },
         {
           "title": "Como Portugal ha parado los pies a la extrema derecha",
           "url": "https://www.eldiario.es/internacional/portugal-parado-pies-extrema-derecha_129_12974335.html",
@@ -715,51 +1109,67 @@
           "url": "https://elpais.com/internacional/2026-02-08/los-sondeos-dan-una-contundente-victoria-al-socialista-antonio-jose-seguro-en-las-presidenciales-en-portugal-frente-al-populista-andre-ventura.html",
           "newspaper": "El País",
           "date": "2026-02-08T21:32:28.000Z"
-        },
-        {
-          "title": "El socialista Seguro arrasa al ultra Ventura en las presidenciales de Portugal, segun los sondeos",
-          "url": "https://www.eldiario.es/internacional/socialista-seguro-arrasa-ultra-ventura-presidenciales-portuguesas-sondeos_1_12972260.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T20:34:07.989Z"
-        },
-        {
-          "title": "El socialista Seguro arrasa al ultra Ventura en las presidenciales de Portugal, segun los sondeos",
-          "url": "https://www.eldiario.es/internacional/socialista-seguro-arrasa-ultra-ventura-presidenciales-portuguesas-sondeos_1_12972260.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T20:32:44.503Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.990Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.989Z"
         }
       ]
     },
     {
-      "id": 214,
-      "title": "Huelgas",
+      "id": 211,
+      "title": "Madrid",
       "source": "news_tags",
-      "volume": "52 artículos",
+      "volume": "51 artículos",
       "timeframe": "24h noticias",
-      "news_count": 52
+      "news_count": 51
     },
     {
-      "id": 215,
-      "title": "Chavismo",
+      "id": 212,
+      "title": "Huelgas",
+      "source": "news_tags",
+      "volume": "49 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 49
+    },
+    {
+      "id": 213,
+      "title": "Pilar Alegría",
+      "source": "news_tags",
+      "volume": "46 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 46
+    },
+    {
+      "id": 214,
+      "title": "Era",
+      "source": "news_tags",
+      "volume": "45 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 45
+    },
+    {
+      "id": 216,
+      "title": "Estados Unidos",
+      "source": "news_tags",
+      "volume": "45 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 45
+    },
+    {
+      "id": 217,
+      "title": "Feijoo",
       "source": "news_tags",
       "volume": "44 artículos",
       "timeframe": "24h noticias",
       "news_count": 44
     },
     {
-      "id": 216,
+      "id": 218,
+      "title": "Jorge Azcón",
+      "source": "news_tags",
+      "volume": "44 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 44
+    },
+    {
+      "id": 219,
       "title": "Europa Occidental",
       "source": "news_tags",
       "volume": "44 artículos",
@@ -767,55 +1177,15 @@
       "news_count": 44
     },
     {
-      "id": 246,
-      "title": "Politics",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 44
-    },
-    {
-      "id": 218,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
-      "id": 219,
-      "title": "Feijoo",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
       "id": 220,
-      "title": "Renfe",
+      "title": "Chavismo",
       "source": "news_tags",
-      "volume": "40 artículos",
+      "volume": "43 artículos",
       "timeframe": "24h noticias",
-      "news_count": 40
+      "news_count": 43
     },
     {
       "id": 221,
-      "title": "Trenes",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 222,
-      "title": "Venezuela",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 223,
       "title": "Elecciones Autonómicas",
       "source": "news_tags",
       "volume": "36 artículos",
@@ -823,45 +1193,61 @@
       "news_count": 36
     },
     {
+      "id": 222,
+      "title": "Renfe",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
+      "id": 223,
+      "title": "Venezuela",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
       "id": 224,
-      "title": "Podemos",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 225,
-      "title": "Pedro Sánchez",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 226,
-      "title": "Estados Unidos",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 227,
       "title": "Rusia",
       "source": "news_tags",
-      "volume": "30 artículos",
+      "volume": "34 artículos",
       "timeframe": "24h noticias",
-      "news_count": 30
+      "news_count": 34
     },
     {
       "id": 1,
       "title": "Bad Bunny",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
-      "news_count": 29,
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 33,
       "matched_articles": [
+        {
+          "title": "Duolingo registra un alza del 35% en los alumnos de espanol tras la actuacion de Bad Bunny en la Super Bowl",
+          "url": "https://www.20minutos.es/internacional/duolingo-registra-un-alza-35-los-alumnos-espanol-tras-actuacion-bad-bunny-super-bowl_6931989_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T19:34:40.538Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/cultura/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T19:32:32.189Z"
+        },
+        {
+          "title": "Bad Bunny en la Super Bowl: una suma de cliches televisivos sobre America Latina",
+          "url": "https://www.abc.es/cultura/musica/rodrigo-blanco-calderon-bad-bunny-super-bowl-suma-cliches-televisivos-20260209143403-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:29:59.339Z"
+        },
+        {
+          "title": "Ver mas informacion de El grito \"que rico es ser latino\" en la Super Bowl y otras cuatro noticias importantes de hoy",
+          "url": "https://www.publico.es/sociedad/ponte-dia-grito-rico-latino-super-bowl-cuatro-noticias-importantes-hoy.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T19:25:25.246Z"
+        },
         {
           "title": "Bad Bunny contra Trump: la batalla simbolica de la SuperBowl",
           "url": "https://www.lavanguardia.com/cultura/20260209/11461878/bad-bunny-trump-batalla-simbolica-superbowl.html",
@@ -1039,238 +1425,88 @@
       ]
     },
     {
-      "id": 229,
-      "title": "Voto",
+      "id": 225,
+      "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "32 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 32
     },
     {
-      "id": 230,
+      "id": 226,
+      "title": "Trenes",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 227,
+      "title": "Podemos",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 228,
       "title": "Guerra en Ucrania",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "31 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 31
     },
     {
-      "id": 2,
-      "title": "Real Madrid",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 26,
-      "matched_articles": [
-        {
-          "title": "Ultima hora politica, en directo | Los letrados del Congreso consideran que Abalos no tiene derecho a indemnizacion porque ya estaba suspendido cuando renuncio al acta",
-          "url": "https://www.elespanol.com/espana/politica/20260209/resultados-elecciones-aragon-ultima-hora-politica-directo-azcon-vox/1003744121865_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T16:07:36.408Z"
-        },
-        {
-          "title": "Sumar sobrevive con un escano en el entierro de Podemos, que desaparece de las Cortes",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988cd69fc6c83cd558b4573.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T15:08:02.505Z"
-        },
-        {
-          "title": "La obsesion espanola del pederasta Epstein: \"un haren como la Alhambra\", la biblioteca de El Escorial y el chef que vio a \"chicas de Espana de edad cuestionable\"",
-          "url": "https://www.elmundo.es/cronica/2026/02/09/6984c051e85eceef0e8b45b5.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T15:07:30.743Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, en directo | Sanchez advierte desde una de las zonas castigadas por la borrasca en Granada: \"Continuemos en guardia, vienen dias complejos\"",
-          "url": "https://www.20minutos.es/nacional/temporal-espana-por-borrasca-marta-directo-sanchez-visita-este-lunes-varias-zonas-afectadas-mientras-peninsula-se-prepara-para-llegada-una-nueva-borrasca_6931573_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T13:27:22.061Z"
-        },
-        {
-          "title": "Las 16 claves de las elecciones en Aragon: nada importa ya en el PSOE, salvo Pedro",
-          "url": "https://www.elespanol.com/opinion/columnas/20260209/claves-elecciones-aragon-importa-psoe-salvo-pedro/1003744121735_12.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T07:16:18.321Z"
-        },
-        {
-          "title": "Las 40 horas de Zapatero en Venezuela",
-          "url": "https://elpais.com/america/2026-02-09/las-40-horas-de-zapatero-en-venezuela.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T07:12:18.240Z"
-        },
-        {
-          "title": "Los reveses judiciales que amargan al Gobierno de Almeida: Bernabeu, Centro Acuatico y la \"sastreria Carabante\"",
-          "url": "https://www.eldiario.es/madrid/somos/reveses-judiciales-amargan-gobierno-almeida-bernabeu-centro-acuatico-sastreria-carabante_1_12967975.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:04:15.172Z"
-        },
-        {
-          "title": "Grandes empresas animan al Rey a visitar a Trump tras la llegada de su nuevo embajador pero el viaje depende del aval de Sanchez",
-          "url": "https://www.elmundo.es/economia/2026/02/09/6988d32ffc6c837b5f8b457c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
-        },
-        {
-          "title": "Las mansiones en Dubai de la banda de Oscar Sanchez, el jefe de la UDEF en Madrid: \"Va a quedar muy bonita\"",
-          "url": "https://www.elespanol.com/espana/20260209/mansiones-dubai-banda-oscar-sanchez-jefe-udef-madrid-va-quedar-bonita/1003744119538_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:47.715Z"
-        },
-        {
-          "title": "Pilar Alegria: una grieta politica convertida en naufragio",
-          "url": "https://www.elespanol.com/opinion/columnas/20260209/pilar-alegria-grieta-politica-convertida-naufragio/1003744121761_12.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:15.312Z"
-        },
-        {
-          "title": "Bruselas planta cara a Sanchez por saltarse las normas europeas",
-          "url": "https://www.larazon.es/espana/bruselas-planta-cara-sanchez-saltarse-normas-europeas_202602096989437b9243cc133c3c21a8.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:36:13.144Z"
-        },
-        {
-          "title": "Bruselas planta cara a Sanchez por saltarse las normas europeas",
-          "url": "https://www.larazon.es/espana/bruselas-planta-cara-sanchez-saltarse-normas-europeas_202602096989437b9243cc133c3c21a8.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:56.430Z"
-        },
-        {
-          "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.042Z"
-        },
-        {
-          "title": "Yolanda Diaz sobrevive con un escano en el entierro de Podemos, que desaparece de las Cortes",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988cd69fc6c83cd558b4573.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.039Z"
-        },
-        {
-          "title": "Mbappe se arremanga y el Real Madrid sigue en la carrera",
-          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260208/11461167/real-madrid-valencia-carreras-mbappe-victoria.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T22:42:15.508Z"
-        },
-        {
-          "title": "El rescatador Carreras y el eterno Mbappe sostienen al Madrid en la persecucion por LaLiga",
-          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/08/6988de2ee85ecedc7b8b457b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:16.511Z"
-        },
-        {
-          "title": "Carreras y Mbappe mantienen a un Madrid sin brillo a un punto del Barca",
-          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-20260208164529-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:39:55.887Z"
-        },
-        {
-          "title": "Carreras acude al rescate de un gris Real Madrid en Mestalla para aguantar el tiron de la pelea por el liderato en La Liga",
-          "url": "https://www.elespanol.com/deportes/futbol/20260208/carreras-acude-rescate-gris-real-madrid-mestalla-aguantar-tiron-pelea-liderato-liga/1003744121719_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T22:37:21.292Z"
-        },
-        {
-          "title": "LaLiga | Valencia - Real Madrid: sigue en directo el partido de hoy",
-          "url": "https://www.lavanguardia.com/deportes/futbol/20260208/11460987/valencia-real-madrid-jornada-23-la-liga-ea-sports-df-futbol-partido-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T21:42:03.412Z"
-        },
-        {
-          "title": "LaLiga EA Sports | Valencia - Real Madrid: sigue en directo el partido de hoy",
-          "url": "https://www.lavanguardia.com/deportes/futbol/20260208/11460987/valencia-real-madrid-jornada-23-la-liga-ea-sports-df-futbol-partido-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T20:45:20.989Z"
-        },
-        {
-          "title": "Valencia - Real Madrid, en directo",
-          "url": "https://www.elmundo.es/deportes/futbol/laliga-ea-sports/valencia-r-madrid/2026/02/08/01_0101_20260208_191_186-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T20:44:14.298Z"
-        },
-        {
-          "title": "Valencia - Real Madrid en directo: resultado, goles y ganador del partido de la jornada 23 de la Liga",
-          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-madrid-directo-resultado-goles-ganador-20260208140244-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T20:42:28.883Z"
-        },
-        {
-          "title": "Valencia - Real Madrid, en directo La Liga: resultado, goleadores y estadisticas en vivo",
-          "url": "https://www.elespanol.com/deportes/20260208/valencia-real-madrid-directo-liga-resultado-goleadores-estadisticas-vivo/1003744121067_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T20:39:37.033Z"
-        },
-        {
-          "title": "El Real Madrid olvida los males de la Euroliga y doblega al Granada para reafirmarse como lider de la Liga Endesa",
-          "url": "https://www.elespanol.com/deportes/baloncesto/20260208/real-madrid-olvida-males-euroliga-doblega-granada-reafirmarse-lider-liga-endesa/1003744121594_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T18:47:33.122Z"
-        },
-        {
-          "title": "Las lluvias del tren de borrascas saturan los embalses de Espana: casi un centenar estan por encima del 90% y 40 superan el 100%",
-          "url": "https://www.20minutos.es/nacional/las-lluvias-tren-borrascas-llenan-los-embalses-espana-casi-un-centenar-estan-por-encima-90-40-superan-100_6931427_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-08T16:50:26.629Z"
-        },
-        {
-          "title": "Real Madrid - Granada, en directo Liga Endesa: resultado, valoraciones y estadisticas en vivo",
-          "url": "https://www.elespanol.com/deportes/20260208/real-madrid-granada-directo-liga-endesa-resultado-valoraciones-estadisticas-vivo/1003744121072_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T16:42:57.736Z"
-        }
-      ]
+      "id": 231,
+      "title": "Jeffrey Epstein",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
     },
     {
       "id": 232,
-      "title": "Borrascas",
+      "title": "Congreso de los Diputados",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "29 artículos",
       "timeframe": "24h noticias",
-      "news_count": 26
+      "news_count": 29
     },
     {
       "id": 233,
-      "title": "Super Bowl",
+      "title": "Ine",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 234,
+      "title": "Eeuu",
       "source": "news_tags",
       "volume": "26 artículos",
       "timeframe": "24h noticias",
       "news_count": 26
     },
     {
-      "id": 234,
-      "title": "Nfl",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
       "id": 235,
-      "title": "Ine",
+      "title": "Febrero",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 236,
-      "title": "Datos",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 26
     },
     {
       "id": 237,
-      "title": "Temporales",
+      "title": "Politicos",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 26
     },
     {
       "id": 238,
-      "title": "Jeffrey Epstein",
+      "title": "Mundo",
       "source": "news_tags",
       "volume": "25 artículos",
       "timeframe": "24h noticias",
@@ -1278,7 +1514,7 @@
     },
     {
       "id": 239,
-      "title": "Eeuu",
+      "title": "Nfl",
       "source": "news_tags",
       "volume": "24 artículos",
       "timeframe": "24h noticias",
@@ -1286,7 +1522,7 @@
     },
     {
       "id": 240,
-      "title": "Mundo",
+      "title": "Ucrania",
       "source": "news_tags",
       "volume": "24 artículos",
       "timeframe": "24h noticias",
@@ -1294,14 +1530,6 @@
     },
     {
       "id": 241,
-      "title": "America",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 242,
       "title": "Sindicatos",
       "source": "news_tags",
       "volume": "23 artículos",
@@ -1310,15 +1538,15 @@
     },
     {
       "id": 243,
-      "title": "Santiago Abascal",
+      "title": "Historia",
       "source": "news_tags",
-      "volume": "23 artículos",
+      "volume": "22 artículos",
       "timeframe": "24h noticias",
-      "news_count": 23
+      "news_count": 22
     },
     {
       "id": 244,
-      "title": "Febrero",
+      "title": "Erc-esquerra Republicana de Catalunya",
       "source": "news_tags",
       "volume": "22 artículos",
       "timeframe": "24h noticias",
@@ -1326,137 +1554,43 @@
     },
     {
       "id": 245,
-      "title": "Twitter",
+      "title": "Alta Velocidad",
       "source": "news_tags",
-      "volume": "22 artículos",
+      "volume": "21 artículos",
       "timeframe": "24h noticias",
-      "news_count": 22
+      "news_count": 21
+    },
+    {
+      "id": 246,
+      "title": "Acuerdo",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 247,
+      "title": "Borrascas",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 248,
+      "title": "Santiago Abascal",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
     },
     {
       "id": 249,
-      "title": "Alta Velocidad",
+      "title": "Laboral",
       "source": "news_tags",
-      "volume": "22 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 102,
-      "title": "Benito",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 18,
-      "matched_articles": [
-        {
-          "title": "La noche de la Benito Bowl en el Super Tazon",
-          "url": "https://www.lavanguardia.com/cultura/20260209/11461912/noche-benito-bowl-super-tazon.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T16:11:57.994Z"
-        },
-        {
-          "title": "Tommy Wolter y Elly Bean, la pareja de enfermeros que se ha casado en la Super Bowl ante 127 millones de espectadores",
-          "url": "https://www.elespanol.com/corazon/celebrities/20260209/tommy-wolter-elly-bean-pareja-enfermeros-casado-super-bowl-millones-espectadores/1003744122268_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T15:03:04.367Z"
-        },
-        {
-          "title": "El significado del traje de Zara que Bad Bunny ha llevado en la Super Bowl 2026",
-          "url": "https://www.abc.es/summum/estilo/moda/significado-traje-zara-bad-bunny-llevado-super-20260209100256-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T13:23:37.011Z"
-        },
-        {
-          "title": "Ver mas informacion de Bad Bunny triunfa en la Super Bowl: la reivindicacion de una America mas amplia",
-          "url": "https://www.publico.es/culturas/musica/bad-bunny-triunfa-super-bowl-reivindicacion-america.html",
-          "newspaper": "Público",
-          "date": "2026-02-09T13:21:20.651Z"
-        },
-        {
-          "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
-          "url": "https://www.eldiarioar.com/espectaculos/bad-bunny-saca-colores-ee-uu-super-bowl-latinos-seguimos_129_12974441.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T11:50:41.991Z"
-        },
-        {
-          "title": "El amor que nos enseno Benito",
-          "url": "https://elpais.com/us/2026-02-09/el-amor-que-nos-enseno-benito.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T09:01:16.270Z"
-        },
-        {
-          "title": "Bad Bunny convierte el descanso de la Super Bowl en una fiesta del orgullo latino que Trump define como \"terrible\"",
-          "url": "https://www.elespanol.com/deportes/otros-deportes/20260209/bad-bunny-convierte-descanso-super-bowl-fiesta-orgullo-latino/1003744121843_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T07:16:27.572Z"
-        },
-        {
-          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
-          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T07:09:53.829Z"
-        },
-        {
-          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T02:44:47.771Z"
-        },
-        {
-          "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.042Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | El PP retrocede ante el empuje de Vox y el PSOE cae a su minimo historico",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:48.302Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | El PP retrocede ante el empuje de Vox y el PSOE cae a su minimo historico",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:16.508Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:38.257Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:38.257Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:38.256Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.990Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.989Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.989Z"
-        }
-      ]
+      "news_count": 19
     },
     {
       "id": 101,
@@ -1571,18 +1705,42 @@
       ]
     },
     {
-      "id": 4,
-      "title": "La Liga",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "id": 102,
+      "title": "Benito",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
       "news_count": 16,
       "matched_articles": [
         {
-          "title": "Tigre aplasto a River en el Monumental y reavivo las sombras sobre el futuro de Gallardo",
-          "url": "https://www.eldiarioar.com/deportes/tigre-aplasto-river-monumental-reavivo-sombras-futuro-gallardo_1_12975102.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T13:18:18.574Z"
+          "title": "Ver mas informacion de El grito \"que rico es ser latino\" en la Super Bowl y otras cuatro noticias importantes de hoy",
+          "url": "https://www.publico.es/sociedad/ponte-dia-grito-rico-latino-super-bowl-cuatro-noticias-importantes-hoy.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T19:25:25.246Z"
+        },
+        {
+          "title": "La noche de la Benito Bowl en el Super Tazon",
+          "url": "https://www.lavanguardia.com/cultura/20260209/11461912/noche-benito-bowl-super-tazon.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T16:11:57.994Z"
+        },
+        {
+          "title": "Tommy Wolter y Elly Bean, la pareja de enfermeros que se ha casado en la Super Bowl ante 127 millones de espectadores",
+          "url": "https://www.elespanol.com/corazon/celebrities/20260209/tommy-wolter-elly-bean-pareja-enfermeros-casado-super-bowl-millones-espectadores/1003744122268_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T15:03:04.367Z"
+        },
+        {
+          "title": "El significado del traje de Zara que Bad Bunny ha llevado en la Super Bowl 2026",
+          "url": "https://www.abc.es/summum/estilo/moda/significado-traje-zara-bad-bunny-llevado-super-20260209100256-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:37.011Z"
+        },
+        {
+          "title": "Ver mas informacion de Bad Bunny triunfa en la Super Bowl: la reivindicacion de una America mas amplia",
+          "url": "https://www.publico.es/culturas/musica/bad-bunny-triunfa-super-bowl-reivindicacion-america.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T13:21:20.651Z"
         },
         {
           "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
@@ -1591,122 +1749,28 @@
           "date": "2026-02-09T11:50:41.991Z"
         },
         {
+          "title": "El amor que nos enseno Benito",
+          "url": "https://elpais.com/us/2026-02-09/el-amor-que-nos-enseno-benito.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:16.270Z"
+        },
+        {
+          "title": "Bad Bunny convierte el descanso de la Super Bowl en una fiesta del orgullo latino que Trump define como \"terrible\"",
+          "url": "https://www.elespanol.com/deportes/otros-deportes/20260209/bad-bunny-convierte-descanso-super-bowl-fiesta-orgullo-latino/1003744121843_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:27.572Z"
+        },
+        {
           "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
           "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
           "newspaper": "El Diario",
           "date": "2026-02-09T07:09:53.829Z"
         },
         {
-          "title": "Los Seahawks ahogan a los Patriots con su defensa y ganan su segunda Super Bowl",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461324/seahawks-ahogan-patriots-defensa-ganan-segunda-super-bowl.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T05:12:54.781Z"
-        },
-        {
           "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
           "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
           "newspaper": "La Vanguardia",
           "date": "2026-02-09T02:44:47.771Z"
-        },
-        {
-          "title": "Mbappe se arremanga y el Real Madrid sigue en la carrera",
-          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260208/11461167/real-madrid-valencia-carreras-mbappe-victoria.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T22:42:15.508Z"
-        },
-        {
-          "title": "El rescatador Carreras y el eterno Mbappe sostienen al Madrid en la persecucion por LaLiga",
-          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/08/6988de2ee85ecedc7b8b457b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:16.511Z"
-        },
-        {
-          "title": "Carreras y Mbappe mantienen a un Madrid sin brillo a un punto del Barca",
-          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-20260208164529-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:39:55.887Z"
-        },
-        {
-          "title": "Carreras acude al rescate de un gris Real Madrid en Mestalla para aguantar el tiron de la pelea por el liderato en La Liga",
-          "url": "https://www.elespanol.com/deportes/futbol/20260208/carreras-acude-rescate-gris-real-madrid-mestalla-aguantar-tiron-pelea-liderato-liga/1003744121719_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T22:37:21.292Z"
-        },
-        {
-          "title": "Laporta: \"?Presidencialista? Yo lidero, me mojo y doy la cara, eso seguro\"",
-          "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20260208/11461135/laporta-presidencialista-lidero-me-mojo-doy-cara-seguro.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T20:45:22.183Z"
-        },
-        {
-          "title": "El Betis rompe la racha invicta del Metropolitano y mete en problemas a Simeone",
-          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/08/6988e5c621efa07e578b4584.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T20:44:14.298Z"
-        },
-        {
-          "title": "Valencia - Real Madrid en directo: resultado, goles y ganador del partido de la jornada 23 de la Liga",
-          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-madrid-directo-resultado-goles-ganador-20260208140244-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T20:42:28.883Z"
-        },
-        {
-          "title": "Valencia - Real Madrid, en directo La Liga: resultado, goleadores y estadisticas en vivo",
-          "url": "https://www.elespanol.com/deportes/20260208/valencia-real-madrid-directo-liga-resultado-goleadores-estadisticas-vivo/1003744121067_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T20:39:37.033Z"
-        },
-        {
-          "title": "El Real Madrid olvida los males de la Euroliga y doblega al Granada para reafirmarse como lider de la Liga Endesa",
-          "url": "https://www.elespanol.com/deportes/baloncesto/20260208/real-madrid-olvida-males-euroliga-doblega-granada-reafirmarse-lider-liga-endesa/1003744121594_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T18:47:33.122Z"
-        },
-        {
-          "title": "Atletico de Madrid - Betis en directo: resultado, goles y ganador del partido de la jornada 23 de la Liga",
-          "url": "https://www.abc.es/deportes/atletico-madrid/atletico-madrid-betis-directo-resultado-goles-ganador-20260208135124-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T17:40:27.666Z"
-        },
-        {
-          "title": "Real Madrid - Granada, en directo Liga Endesa: resultado, valoraciones y estadisticas en vivo",
-          "url": "https://www.elespanol.com/deportes/20260208/real-madrid-granada-directo-liga-endesa-resultado-valoraciones-estadisticas-vivo/1003744121072_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T16:42:57.736Z"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Frío",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 16,
-      "matched_articles": [
-        {
-          "title": "Mas de 50 migrantes muertos, entre ellos dos bebes, al volcar su embarcacion de goma frente a la costa de Libia",
-          "url": "https://elpais.com/internacional/2026-02-09/mas-de-50-migrantes-muertos-entre-ellos-dos-bebes-al-volcar-el-bote-de-goma-en-el-que-viajaban-frente-a-la-costa-de-libia.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T16:14:12.000Z"
-        },
-        {
-          "title": "La obsesion espanola del pederasta Epstein: \"un haren como la Alhambra\", la biblioteca de El Escorial y el chef que vio a \"chicas de Espana de edad cuestionable\"",
-          "url": "https://www.elmundo.es/cronica/2026/02/09/6984c051e85eceef0e8b45b5.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T15:07:30.743Z"
-        },
-        {
-          "title": "La Aemet avisa a Espana de la llegada de nevadas, vientos y fuertes lluvias: estas son las zonas mas afectadas",
-          "url": "https://www.abc.es/sociedad/aemet-avisa-espana-llegada-nevadas-vientos-fuertes-lluvias-zonas-afectadas-20260209123559-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T11:57:41.730Z"
-        },
-        {
-          "title": "?Quien incendio los cables? Un mes despues, Alemania no da con el culpable del gran apagon de Berlin",
-          "url": "https://elpais.com/internacional/2026-02-09/quien-incendio-los-cables-un-mes-despues-alemania-no-da-con-el-culpable-del-gran-apagon-de-berlin.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T05:06:40.263Z"
         },
         {
           "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
@@ -1727,158 +1791,110 @@
           "date": "2026-02-08T22:41:16.508Z"
         },
         {
-          "title": "Resultados elecciones Aragon 2026, en directo | Con el 95% escrutado, el PP gana en Aragon pero pierde dos escanos, el PSOE iguala su peor resultado historico y Vox duplica",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.257Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.257Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
           "newspaper": "El Mundo",
           "date": "2026-02-08T21:41:38.256Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | Con el 95% escrutado, el PP gana en Aragon pero pierde dos escanos, el PSOE iguala su peor resultado historico y Vox duplica",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:05.547Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | Con el 67% escrutado, PP pierde dos escanos, PSOE pierde 4 y Vox gana seis",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T20:44:49.277Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | Con el 67% escrutado, PP pierde dos escanos, PSOE pierde 4 y Vox gana seis",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T20:44:14.297Z"
-        },
-        {
-          "title": "Alejandro Nolasco, el candidato de Vox en Aragon que no aparece solo en los carteles",
-          "url": "https://www.abc.es/espana/aragon/alejandro-nolasco-unico-candidato-aparece-solo-carteles-20260208053638-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T20:42:24.419Z"
-        },
-        {
-          "title": "Elecciones Aragon 2026, resultados en directo | El PP ganaria las elecciones en Aragon sin mejorar, el PSOE se desplomaria y Vox puede doblar sus escanos",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T19:38:27.685Z"
-        },
-        {
-          "title": "Elecciones Aragon 2026, resultados en directo | El PP ganaria las elecciones en Aragon sin mejorar, el PSOE se desplomaria y Vox puede doblar sus escanos",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T19:37:51.481Z"
-        },
-        {
-          "title": "Elecciones Aragon 2026, en directo | La participacion sube a un un 56,29% a las 18:00 horas, 1,5 puntos mas que en las elecciones de 2023",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T17:42:41.819Z"
-        },
-        {
-          "title": "Elecciones Aragon 2026, en directo | La participacion sube a un un 56,29% a las 18:00 horas, 1,5 puntos mas que en las elecciones de 2023",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T17:42:07.266Z"
         }
       ]
     },
     {
-      "id": 32,
-      "title": "Río Atmosférico",
+      "id": 12,
+      "title": "Seahawks",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 15,
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
+      "news_count": 13,
       "matched_articles": [
         {
-          "title": "Los danos causados en Andalucia por el tren de borrascas superaran los 4.000 millones solo en la agricultura y en las carreteras",
-          "url": "https://www.elmundo.es/andalucia/2026/02/09/6988c5c6fdddffab098b459b.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T13:25:30.254Z"
-        },
-        {
-          "title": "La Aemet avisa a Espana de la llegada de nevadas, vientos y fuertes lluvias: estas son las zonas mas afectadas",
-          "url": "https://www.abc.es/sociedad/aemet-avisa-espana-llegada-nevadas-vientos-fuertes-lluvias-zonas-afectadas-20260209123559-nt.html",
+          "title": "La hazana de Rosa en Pasapalabra: ni los expertos de la Super Bowl saben la respuesta que le dio los 2,7 millones del rosco",
+          "url": "https://www.abc.es/play/television/hazana-rosa-pasapalabra-expertos-super-bowl-saben-20260209105156-nt.html",
           "newspaper": "ABC",
-          "date": "2026-02-09T11:57:41.730Z"
+          "date": "2026-02-09T19:29:56.288Z"
         },
         {
-          "title": "Bajan a 6.500 los desalojados en Andalucia por el temporal que da sus ultimos coletazos: una casa colapsa en Cadiz",
-          "url": "https://www.elespanol.com/espana/andalucia/20260209/bajan-desalojados-andalucia-temporal-da-ultimos-coletazos-casa-colapsa-cadiz/1003744121997_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T10:19:01.264Z"
+          "title": "La defensa de los Seahawks conquista la segunda Super Bowl de la historia para el equipo de Seattle",
+          "url": "https://elpais.com/deportes/2026-02-09/la-defensa-de-los-seahawks-conquista-la-segunda-super-bowl-de-la-historia-para-el-equipo-de-seattle.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T16:03:08.229Z"
         },
         {
-          "title": "El cambio de tendencia en el temporal abre la puerta a bajar la alerta en Andalucia, con 6.462 personas aun desalojadas",
-          "url": "https://www.eldiario.es/andalucia/cambio-tendencia-temporal-abre-puerta-bajar-alerta-andalucia-6-462-personas-desalojadas_1_12974064.html",
+          "title": "De Karol G y Pedro Pascal en La Casita a DiCaprio y Justin Bieber en las gradas: todos los famosos en el partido",
+          "url": "https://elpais.com/gente/2026-02-09/de-karol-g-y-pedro-pascal-en-la-casita-a-dicaprio-y-justin-bieber-en-las-gradas-todos-los-famosos-de-la-super-bowl.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T13:19:06.382Z"
+        },
+        {
+          "title": "?Hubo una boda en el espectaculo? Si, y fue legal",
+          "url": "https://elpais.com/gente/2026-02-09/hubo-una-boda-en-el-intermedio-de-la-super-bowl-de-bad-bunny-si-y-fue-legal.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T13:19:06.190Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiarioar.com/espectaculos/bad-bunny-saca-colores-ee-uu-super-bowl-latinos-seguimos_129_12974441.html",
           "newspaper": "El Diario",
-          "date": "2026-02-09T10:11:57.007Z"
+          "date": "2026-02-09T11:50:41.991Z"
         },
         {
-          "title": "Temporal en Espana por la borrasca Marta, en directo | Sanchez visita este lunes varias zonas afectadas mientras la Peninsula se prepara para la llegada de una nueva borrasca",
-          "url": "https://www.20minutos.es/nacional/temporal-espana-por-borrasca-marta-directo-sanchez-visita-este-lunes-varias-zonas-afectadas-mientras-peninsula-se-prepara-para-llegada-una-nueva-borrasca_6931573_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T09:09:45.100Z"
+          "title": "La defensa de los Seahawks conquista el segundo Super Bowl de la historia para Seattle",
+          "url": "https://elpais.com/deportes/2026-02-09/la-defensa-de-los-seahawks-conquista-la-segunda-super-bowl-de-la-historia-para-el-equipo-de-seattle.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:17.071Z"
         },
         {
-          "title": "Asi esta llegando a Espana el rio atmosferico que traera nuevas borrascas: la primera sera Nils e impactara desde este martes",
-          "url": "https://www.20minutos.es/nacional/asi-esta-llegando-espana-rio-atmosferico-que-traera-nuevas-borrascas-primera-sera-nils-impactara-desde-este-martes_6931449_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:17.033Z"
+          "title": "Bad Bunny deslumbra en el Super Bowl con una odisea puertorriquena y la defensa de America mas alla de Estados Unidos",
+          "url": "https://elpais.com/us/entretenimiento/2026-02-09/bad-bunny-arrasa-en-la-super-bowl-con-una-defensa-de-america-mas-alla-de-estados-unidos.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:15.587Z"
         },
         {
-          "title": "Los danos causados en Andalucia por el tren de borrascas superaran los 4.000 millones solo en la agricultura y en las carreteras",
-          "url": "https://www.elmundo.es/andalucia/2026/02/09/6988c5c6fdddffab098b459b.html",
+          "title": "Los Seattle Seahawks destrozan a los New England Patriots y logran su segunda Super Bowl",
+          "url": "https://www.elmundo.es/deportes/futbol-americano/2026/02/09/698959a4fc6c8309288b45a4.html",
           "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
+          "date": "2026-02-09T07:20:53.470Z"
         },
         {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:38.257Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:38.257Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:38.256Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.990Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.989Z"
-        },
-        {
-          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
-          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:59.989Z"
-        },
-        {
-          "title": "La \"tendencia descendente\" del Guadalquivir da una tregua a los municipios de la ribera",
-          "url": "https://www.eldiario.es/andalucia/andalucia-registra-10-000-incidencias-emergencias-paso-marta-parece-interminable_1_12972582.html",
+          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
           "newspaper": "El Diario",
-          "date": "2026-02-08T17:30:21.187Z"
+          "date": "2026-02-09T07:09:53.829Z"
         },
         {
-          "title": "El paisaje arrasado que deja el tren de borrascas en Andalucia: inundaciones, rescates agonicos, el Guadalquivir en nivel rojo y miles de desalojados, aunque 2.000 vecinos regresan a casa",
-          "url": "https://www.elmundo.es/andalucia/2026/02/08/6988613621efa0ea378b4579.html",
+          "title": "Los Seahawks ahogan a los Patriots con su defensa y ganan su segunda Super Bowl",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461324/seahawks-ahogan-patriots-defensa-ganan-segunda-super-bowl.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T05:12:54.781Z"
+        },
+        {
+          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
+          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T02:46:47.025Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
+        },
+        {
+          "title": "Super Bowl 2026, final NFL en directo | New England Patriots vs Seattle Seahawks",
+          "url": "https://www.elmundo.es/deportes/futbol-americano/new-england-patriots-seattle-seahawks/2026/02/09/08_0802_20260208_9947_9959-directo.html",
           "newspaper": "El Mundo",
-          "date": "2026-02-08T16:47:25.718Z"
+          "date": "2026-02-08T23:46:50.724Z"
         }
       ]
     },
@@ -1887,7 +1903,7 @@
       "title": "Ricky Martin",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 12,
       "matched_articles": [
         {
@@ -1965,93 +1981,81 @@
       ]
     },
     {
-      "id": 12,
-      "title": "Seahawks",
+      "id": 33,
+      "title": "Río Atmosférico",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
-      "news_count": 12,
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 10,
       "matched_articles": [
         {
-          "title": "La defensa de los Seahawks conquista la segunda Super Bowl de la historia para el equipo de Seattle",
-          "url": "https://elpais.com/deportes/2026-02-09/la-defensa-de-los-seahawks-conquista-la-segunda-super-bowl-de-la-historia-para-el-equipo-de-seattle.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T16:03:08.229Z"
-        },
-        {
-          "title": "De Karol G y Pedro Pascal en La Casita a DiCaprio y Justin Bieber en las gradas: todos los famosos en el partido",
-          "url": "https://elpais.com/gente/2026-02-09/de-karol-g-y-pedro-pascal-en-la-casita-a-dicaprio-y-justin-bieber-en-las-gradas-todos-los-famosos-de-la-super-bowl.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T13:19:06.382Z"
-        },
-        {
-          "title": "?Hubo una boda en el espectaculo? Si, y fue legal",
-          "url": "https://elpais.com/gente/2026-02-09/hubo-una-boda-en-el-intermedio-de-la-super-bowl-de-bad-bunny-si-y-fue-legal.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T13:19:06.190Z"
-        },
-        {
-          "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
-          "url": "https://www.eldiarioar.com/espectaculos/bad-bunny-saca-colores-ee-uu-super-bowl-latinos-seguimos_129_12974441.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T11:50:41.991Z"
-        },
-        {
-          "title": "La defensa de los Seahawks conquista el segundo Super Bowl de la historia para Seattle",
-          "url": "https://elpais.com/deportes/2026-02-09/la-defensa-de-los-seahawks-conquista-la-segunda-super-bowl-de-la-historia-para-el-equipo-de-seattle.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T09:01:17.071Z"
-        },
-        {
-          "title": "Bad Bunny deslumbra en el Super Bowl con una odisea puertorriquena y la defensa de America mas alla de Estados Unidos",
-          "url": "https://elpais.com/us/entretenimiento/2026-02-09/bad-bunny-arrasa-en-la-super-bowl-con-una-defensa-de-america-mas-alla-de-estados-unidos.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T09:01:15.587Z"
-        },
-        {
-          "title": "Los Seattle Seahawks destrozan a los New England Patriots y logran su segunda Super Bowl",
-          "url": "https://www.elmundo.es/deportes/futbol-americano/2026/02/09/698959a4fc6c8309288b45a4.html",
+          "title": "Los danos causados en Andalucia por el tren de borrascas superaran los 4.000 millones solo en la agricultura y en las carreteras",
+          "url": "https://www.elmundo.es/andalucia/2026/02/09/6988c5c6fdddffab098b459b.html?intcmp=masnoticiasportada",
           "newspaper": "El Mundo",
-          "date": "2026-02-09T07:20:53.470Z"
+          "date": "2026-02-09T13:25:30.254Z"
         },
         {
-          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
-          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
+          "title": "La Aemet avisa a Espana de la llegada de nevadas, vientos y fuertes lluvias: estas son las zonas mas afectadas",
+          "url": "https://www.abc.es/sociedad/aemet-avisa-espana-llegada-nevadas-vientos-fuertes-lluvias-zonas-afectadas-20260209123559-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T11:57:41.730Z"
+        },
+        {
+          "title": "Bajan a 6.500 los desalojados en Andalucia por el temporal que da sus ultimos coletazos: una casa colapsa en Cadiz",
+          "url": "https://www.elespanol.com/espana/andalucia/20260209/bajan-desalojados-andalucia-temporal-da-ultimos-coletazos-casa-colapsa-cadiz/1003744121997_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T10:19:01.264Z"
+        },
+        {
+          "title": "El cambio de tendencia en el temporal abre la puerta a bajar la alerta en Andalucia, con 6.462 personas aun desalojadas",
+          "url": "https://www.eldiario.es/andalucia/cambio-tendencia-temporal-abre-puerta-bajar-alerta-andalucia-6-462-personas-desalojadas_1_12974064.html",
           "newspaper": "El Diario",
-          "date": "2026-02-09T07:09:53.829Z"
+          "date": "2026-02-09T10:11:57.007Z"
         },
         {
-          "title": "Los Seahawks ahogan a los Patriots con su defensa y ganan su segunda Super Bowl",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461324/seahawks-ahogan-patriots-defensa-ganan-segunda-super-bowl.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T05:12:54.781Z"
-        },
-        {
-          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
-          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
+          "title": "Temporal en Espana por la borrasca Marta, en directo | Sanchez visita este lunes varias zonas afectadas mientras la Peninsula se prepara para la llegada de una nueva borrasca",
+          "url": "https://www.20minutos.es/nacional/temporal-espana-por-borrasca-marta-directo-sanchez-visita-este-lunes-varias-zonas-afectadas-mientras-peninsula-se-prepara-para-llegada-una-nueva-borrasca_6931573_6.html",
           "newspaper": "20 Minutos",
-          "date": "2026-02-09T02:46:47.025Z"
+          "date": "2026-02-09T09:09:45.100Z"
         },
         {
-          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T02:44:47.771Z"
+          "title": "Asi esta llegando a Espana el rio atmosferico que traera nuevas borrascas: la primera sera Nils e impactara desde este martes",
+          "url": "https://www.20minutos.es/nacional/asi-esta-llegando-espana-rio-atmosferico-que-traera-nuevas-borrascas-primera-sera-nils-impactara-desde-este-martes_6931449_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:17.033Z"
         },
         {
-          "title": "Super Bowl 2026, final NFL en directo | New England Patriots vs Seattle Seahawks",
-          "url": "https://www.elmundo.es/deportes/futbol-americano/new-england-patriots-seattle-seahawks/2026/02/09/08_0802_20260208_9947_9959-directo.html",
+          "title": "Los danos causados en Andalucia por el tren de borrascas superaran los 4.000 millones solo en la agricultura y en las carreteras",
+          "url": "https://www.elmundo.es/andalucia/2026/02/09/6988c5c6fdddffab098b459b.html",
           "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.724Z"
+          "date": "2026-02-09T02:43:33.728Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.257Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.257Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.256Z"
         }
       ]
     },
     {
-      "id": 9,
+      "id": 7,
       "title": "Jessica Alba",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 6,
       "matched_articles": [
         {
@@ -2093,13 +2097,19 @@
       ]
     },
     {
-      "id": 105,
-      "title": "Carvajal",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 3,
+      "id": 5,
+      "title": "Real Madrid Hoy",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 4,
       "matched_articles": [
+        {
+          "title": "Ultima hora politica, en directo | Los letrados del Congreso consideran que Abalos no tiene derecho a indemnizacion porque ya estaba suspendido cuando renuncio al acta",
+          "url": "https://www.elespanol.com/espana/politica/20260209/resultados-elecciones-aragon-ultima-hora-politica-directo-azcon-vox/1003744121865_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T16:07:36.408Z"
+        },
         {
           "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
           "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
@@ -2107,25 +2117,47 @@
           "date": "2026-02-08T23:47:28.042Z"
         },
         {
-          "title": "Mbappe se arremanga y el Real Madrid sigue en la carrera",
-          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260208/11461167/real-madrid-valencia-carreras-mbappe-victoria.html",
+          "title": "LaLiga | Valencia - Real Madrid: sigue en directo el partido de hoy",
+          "url": "https://www.lavanguardia.com/deportes/futbol/20260208/11460987/valencia-real-madrid-jornada-23-la-liga-ea-sports-df-futbol-partido-hoy-en-directo.html",
           "newspaper": "La Vanguardia",
-          "date": "2026-02-08T22:42:15.508Z"
+          "date": "2026-02-08T21:42:03.412Z"
         },
         {
-          "title": "Carreras y Mbappe mantienen a un Madrid sin brillo a un punto del Barca",
-          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-20260208164529-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:39:55.887Z"
+          "title": "LaLiga EA Sports | Valencia - Real Madrid: sigue en directo el partido de hoy",
+          "url": "https://www.lavanguardia.com/deportes/futbol/20260208/11460987/valencia-real-madrid-jornada-23-la-liga-ea-sports-df-futbol-partido-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T20:45:20.989Z"
         }
       ]
     },
     {
-      "id": 8,
+      "id": 9,
+      "title": "Laporta",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Laporta dimite para arrasar",
+          "url": "https://www.abc.es/deportes/futbol/salvador-sostres-laporta-dimite-arrasar-20260209123737-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:35.867Z"
+        },
+        {
+          "title": "Laporta: \"?Presidencialista? Yo lidero, me mojo y doy la cara, eso seguro\"",
+          "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20260208/11461135/laporta-presidencialista-lidero-me-mojo-doy-cara-seguro.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T20:45:22.183Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
       "title": "Rafael Amador",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -2137,11 +2169,11 @@
       ]
     },
     {
-      "id": 10,
+      "id": 8,
       "title": "Kim Kardashian",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -2153,11 +2185,11 @@
       ]
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Joan Laporta Dimite",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -2169,63 +2201,38 @@
       ]
     },
     {
-      "id": 33,
-      "title": "Myanmar",
+      "id": 2,
+      "title": "Vila-real - Espanyol",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Takaichi arrasa en las elecciones de Japon e inaugura un nuevo liderazgo historico",
-          "url": "https://www.abc.es/internacional/primera-ministra-takaichi-ganaria-elecciones-japon-amplia-20260208124216-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T16:45:51.098Z"
-        }
-      ]
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
     },
     {
-      "id": 6,
-      "title": "Quien Gano el Super Bowl 2026",
+      "id": 4,
+      "title": "Racing de Santander - Mirandés",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 7,
-      "title": "Villarreal - Rcd Espanyol",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 20 min (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 11,
-      "title": "Benfica - Futebol Clube de Alverca",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 13,
-      "title": "Malaga Cf",
+      "title": "Entradas Bad Bunny",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 14,
-      "title": "Racing de Santander - Mirandés",
+      "title": "Jutta Leerdam",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 40 min (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2234,40 +2241,76 @@
       "title": "Atalanta - Cremonese",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 23,
-      "title": "Melendi",
+      "title": "Aston Martin F1",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 24,
-      "title": "Jutta Leerdam",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 25,
-      "title": "Presentacion Aston Martin",
+      "id": 24,
+      "title": "Teresa Viejo",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 26,
-      "title": "Fenerbahçe - Gençlerbirliği",
+      "title": "Roma - Cagliari",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 27,
+      "title": "Porto - Sporting Lisboa",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 29,
+      "title": "Olivia Smart",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 20 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 30,
+      "title": "Melendi",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 31,
+      "title": "Alejandro Davidovich Fokina",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 32,
+      "title": "Jake Paul",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -2275,8 +2318,8 @@
       "matched_articles": []
     },
     {
-      "id": 27,
-      "title": "Live Nation",
+      "id": 34,
+      "title": "One Dilemma X Stradivarius Pantalones",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
@@ -2284,35 +2327,44 @@
       "matched_articles": []
     },
     {
-      "id": 30,
-      "title": "Roma - Cagliari",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 31,
-      "title": "Jake Paul",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 34,
-      "title": "One Dilemma X Stradivarius Pantalones",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 104,
+      "id": 105,
       "title": "#ghduo9f",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 121,
+      "title": "El Patriota",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 122,
+      "title": "#rcde",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 123,
+      "title": "Adrian Newey",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 124,
+      "title": "Fernando Alonso",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

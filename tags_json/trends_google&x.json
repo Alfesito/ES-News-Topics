@@ -1,671 +1,89 @@
 {
-  "timestamp": "2026-02-09T07:24:50.268996",
+  "timestamp": "2026-02-09T09:10:58.254109",
   "summary": {
-    "google_total": 27,
-    "xtrends_total": 10,
+    "google_total": 30,
+    "xtrends_total": 5,
     "tags_total": 50,
     "unique_total": 78,
-    "unified_count": 7,
-    "with_news": 62,
-    "without_news": 16
+    "unified_count": 4,
+    "with_news": 59,
+    "without_news": 19
   },
   "trends": [
     {
-      "id": 2,
+      "id": 200,
       "title": "Elecciones Aragon 2026",
-      "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 835,
-      "matched_articles": [
-        {
-          "title": "Feijoo bate a Sanchez en el segundo asalto y lo deja aun mas tocado",
-          "url": "https://www.20minutos.es/nacional/feijoo-bate-sanchez-segundo-asalto-deja-aun-mas-tocado_6931541_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.878Z"
-        },
-        {
-          "title": "La estrategia electoral de Sanchez hace aguas: Aragon sentencia el segundo batacazo del ciclo",
-          "url": "https://www.20minutos.es/nacional/estrategia-electoral-sanchez-hace-aguas-aragon-sentencia-segundo-batacazo-ciclo_6931516_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.641Z"
-        },
-        {
-          "title": "El PP afronta un triunfo agridulce en Aragon y busca como desgastar a Vox mientras se contenta con que el PSOE \"toque suelo\"",
-          "url": "https://www.20minutos.es/nacional/pp-afronta-un-triunfo-agridulce-aragon-busca-como-desgastar-vox-mientras-se-contenta-con-que-psoe-toque-suelo_6931540_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.283Z"
-        },
-        {
-          "title": "Jorge Azcon, el abogado que \"siempre se vio de alcalde\" que aspira a repetir presidencia tras su victoria en las elecciones aragonesas",
-          "url": "https://www.20minutos.es/nacional/jorge-azcon-abogado-que-siempre-se-vio-alcalde-que-aspira-revalidar-presidencia-gobierno-aragones_6924754_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:18.612Z"
-        },
-        {
-          "title": "Y Vox sigue subiendo",
-          "url": "https://www.20minutos.es/nacional/vox-sigue-subiendo_6931544_3.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:18.359Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | Escanos de VOX, PP, PSOE y ultima hora de la victoria de Jorge Azcon",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461323/elecciones-aragon-2026-partido-popular-azcon-jornada-electoral-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T05:13:45.409Z"
-        },
-        {
-          "title": "?Que ha pasado en Aragon? Los resultados electorales en 11 claves",
-          "url": "https://www.abc.es/espana/aragon/pasado-aragon-elecciones-claves-20260209044000-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T05:10:30.578Z"
-        },
-        {
-          "title": "Alvise fracasa en su primera aventura autonomica y SALF se queda a las puertas de entrar en las Cortes de Aragon",
-          "url": "https://www.eldiario.es/aragon/politica/alvise-fracasa-primera-aventura-autonomica-salf-queda-puertas-entrar-cortes-aragon_1_12973507.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:04:05.344Z"
-        },
-        {
-          "title": "Feijoo encalla por segunda vez frente a Vox y Sanchez cae a los infiernos del minimo historico en Aragon",
-          "url": "https://www.eldiario.es/politica/feijoo-encalla-segunda-vez-frente-vox-sanchez-cae-infiernos-minimo-historico-aragon_129_12973493.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:03:55.549Z"
-        },
-        {
-          "title": "Grandes empresas animan al Rey a visitar a Trump tras la llegada de su nuevo embajador pero el viaje depende del aval de Sanchez",
-          "url": "https://www.elmundo.es/economia/2026/02/09/6988d32ffc6c837b5f8b457c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
-        },
-        {
-          "title": "Una derecha perpleja y una izquierda en ruinas",
-          "url": "https://www.elmundo.es/opinion/columnistas/2026/02/08/6989114ce4d4d86a1c8b4584.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.727Z"
-        },
-        {
-          "title": "Aragon derrota a Sanchez",
-          "url": "https://www.abc.es/opinion/editorial-aragon-derrota-sanchez-20260209223950-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T02:41:58.802Z"
-        },
-        {
-          "title": "Aragon agrava el hundimiento politico de Sanchez pero Feijoo no logra probar su capacidad para gobernar en solitario",
-          "url": "https://www.elespanol.com/espana/politica/20260209/aragon-agrava-hundimiento-politico-sanchez-feijoo-no-logra-probar-capacidad-gobernar-solitario/1003744121730_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:50.624Z"
-        },
-        {
-          "title": "El fracaso de Pilar Alegria: la portavoz de Sanchez no puede frenar la sangria que empezo para el PSOE en Extremadura",
-          "url": "https://www.elespanol.com/espana/politica/20260209/psoe_-partido_socialista_obrero_espanol-pedro_sanchez-aragon-vox-pilar_alegria-jorge_azcon-elecciones_autonomicas-politica/1003744121731_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:48.913Z"
-        },
-        {
-          "title": "Ya no es solo el voto rural: Vox cimenta su crecimiento en las capitales de provincia y en los municipios con inmigracion",
-          "url": "https://www.elespanol.com/espana/politica/20260209/no-solo-voto-rural-vox-cimenta-crecimiento-capitales-provincia-municipios-inmigracion/1003744121831_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:46.753Z"
-        },
-        {
-          "title": "Pilar Alegria: una grieta politica convertida en naufragio",
-          "url": "https://www.elespanol.com/opinion/columnas/20260209/pilar-alegria-grieta-politica-convertida-naufragio/1003744121761_12.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:15.312Z"
-        },
-        {
-          "title": "Esta es la posible fecha del inicio de la nueva legislatura en Aragon",
-          "url": "https://www.larazon.es/espana/esta-posible-fecha-inicio-nueva-legislatura-aragon_202602086988f95d1817b41eb63af096.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:54.766Z"
-        },
-        {
-          "title": "Nobleza baturra",
-          "url": "https://www.larazon.es/espana/nobleza-baturra_202602096988fccc2f00a04688fff136.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:50.077Z"
-        },
-        {
-          "title": "Si Aragon sigue siendo nuestro Ohio...",
-          "url": "https://www.larazon.es/espana/aragon-sigue-siendo-nuestro-ohio_202602096988dd551817b41eb63abc14.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:49.523Z"
-        },
-        {
-          "title": "Moncloa estrella al PSOE y se consuela con salvar a Sanchez",
-          "url": "https://www.larazon.es/espana/moncloa-estrella-psoe-consuela-salvar-sanchez_20260209698941fc9243cc133c3c1fa6.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:48.854Z"
-        },
-        {
-          "title": "Azcon logra una victoria amarga que lo ata mas a la ultraderecha",
-          "url": "https://www.lavanguardia.com/politica/20260208/11461177/azcon-logra-victoria-amarga-ata-mas-ultraderecha.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:49:03.428Z"
-        },
-        {
-          "title": "La Chunta toma el relevo del PAR como referente del aragonesismo",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461180/chunta-toma-relevo-par-referente-aragonesismo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:49:02.734Z"
-        },
-        {
-          "title": "La Chunta toma el relevo del PAR como referente del aragonesismo",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461180/chunta-toma-relevo-par-referente-aragonesismo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:47:55.737Z"
-        },
-        {
-          "title": "Azcon logra una victoria amarga que lo ata mas a la ultraderecha",
-          "url": "https://www.lavanguardia.com/politica/20260208/11461177/azcon-logra-victoria-amarga-ata-mas-ultraderecha.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:47:52.268Z"
-        },
-        {
-          "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.042Z"
-        },
-        {
-          "title": "Vox lleva al bipartidismo a su segunda crisis",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cefefc6c8344628b458f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.040Z"
-        },
-        {
-          "title": "Aragon Existe: un escano y casi un tercio de apoyo menos",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cdcffc6c835f038b459b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.040Z"
-        },
-        {
-          "title": "Yolanda Diaz sobrevive con un escano en el entierro de Podemos, que desaparece de las Cortes",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988cd69fc6c83cd558b4573.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.039Z"
-        },
-        {
-          "title": "La Chunta gana el duelo y pide voz en el nuevo Sumar",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cda7fc6c83ca228b4578.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.038Z"
-        },
-        {
-          "title": "Vox dobla sus escanos y dispara su poder negociador ante el PP",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988cd2cfc6c83146d8b45b4.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.038Z"
-        },
-        {
-          "title": "El PSOE relativiza su historico batacazo en Aragon por el retroceso del PP ante Vox: \"Es aun mas rehen de la ultraderecha\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988ccabfc6c83b4758b456d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.038Z"
-        },
-        {
-          "title": "Una victoria amarga de Azcon",
-          "url": "https://www.elmundo.es/opinion/editorial/2026/02/09/698905b1fdddff212c8b4584.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.723Z"
-        },
-        {
-          "title": "Azcon gana pero sale perdiendo ante la impotencia del PP para frenar a Vox: \"Eso es un drama imparable\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988ccdbfc6c83ab408b4591.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.723Z"
-        },
-        {
-          "title": "Vox acaricia el 18% en Aragon y logra su mejor dato en una cita electoral: \"Si el PP sigue con sus politicas, que pacte con el PSOE\"",
-          "url": "https://www.elespanol.com/espana/politica/20260209/vox-acaricia-aragon-logra-mejor-dato-cita-electoral-pp-sigue-politicas-pacte-psoe/1003744121733_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T23:43:10.896Z"
-        },
-        {
-          "title": "Ver mas informacion de Elecciones en Aragon 2026, resultados y reacciones en directo | Asi te hemos contado la jornada",
-          "url": "https://www.publico.es/politica/elecciones-aragon-2026-resultados-reacciones-directo-abren-urnas-arrancan-votaciones.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T23:41:29.789Z"
-        },
-        {
-          "title": "Ver mas informacion de El PSOE cae con fuerza, el PP se estrella y Azcon queda en manos de un Vox que duplica sus escanos",
-          "url": "https://www.publico.es/politica/elecciones-aragon-psoe-cae-fuerza-pp-estrella-azcon-queda-manos-vox-duplica-fuerza.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T23:41:24.864Z"
-        },
-        {
-          "title": "Ver mas informacion de El PSOE cae con fuerza, el PP se estrella y Azcon queda en manos de un Vox que duplica sus escanos",
-          "url": "https://www.publico.es/politica/elecciones-aragon-psoe-cae-fuerza-pp-estrella-azcon-queda-manos-vox-duplica-fuerza.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T23:40:50.609Z"
-        },
-        {
-          "title": "La caida de Azcon agita al PP: <<Copiar a Vox no es la solucion>>",
-          "url": "https://www.larazon.es/espana/caida-azcon-agita-copiar-vox-solucion_20260208698912f51817b41eb63b1e0c.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:47.605Z"
-        },
-        {
-          "title": "Chunta se convierte en el partido regional hegemonico y condiciona el futuro de Sumar",
-          "url": "https://www.larazon.es/espana/chunta-convierte-partido-regional-hegemonico-condiciona-futuro-sumar_2026020969891c3c2f00a04688002a8a.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:47.224Z"
-        },
-        {
-          "title": "El debate nacional frena a Aragon Existe, que pierde uno de sus tres escanos",
-          "url": "https://www.larazon.es/espana/debate-nacional-frena-aragon-existe-que-pierde-uno-sus-tres-escanos_2026020969891cee9243cc133c3beca9.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:46.951Z"
-        },
-        {
-          "title": "El PAR, que goberno anos junto a PSOE y PP, desaparece por primera vez de las Cortes",
-          "url": "https://www.larazon.es/espana/par-que-goberno-anos-junto-psoe-desaparece-primera-vez-cortes_2026020969891db82f00a04688002d87.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:45.422Z"
-        },
-        {
-          "title": "Chunta se convierte en el partido regional hegemonico y condiciona el futuro de Sumar",
-          "url": "https://www.larazon.es/espana/chunta-convierte-partido-regional-hegemonico-condiciona-futuro-sumar_2026020969891c3c2f00a04688002a8a.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:21.012Z"
-        },
-        {
-          "title": "Dos puntos mas de asistencia a las urnas",
-          "url": "https://www.larazon.es/espana/dos-puntos-mas-asistencia-urnas_2026020969891ab82f00a04688002838.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:19.816Z"
-        },
-        {
-          "title": "Las claves de las elecciones, provincia a provincia",
-          "url": "https://www.larazon.es/espana/claves-elecciones-provincia-provincia_2026020969891b2c9243cc133c3be9e0.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:18.774Z"
-        },
-        {
-          "title": "El debate nacional frena a Aragon Existe, que pierde uno de sus tres escanos",
-          "url": "https://www.larazon.es/espana/debate-nacional-frena-aragon-existe-que-pierde-uno-sus-tres-escanos_2026020969891cee9243cc133c3beca9.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:17.532Z"
-        },
-        {
-          "title": "Tellado: \"Espana esta harta de la corrupcion de Sanchez\"",
-          "url": "https://www.larazon.es/espana/elecciones-aragon-2026-directo-votos-escrutinio-ultima-hora-resultados-zaragoza-huesca-teruel_202602086985f1f51817b41eb6362eb2.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:16.425Z"
-        },
-        {
-          "title": "Vox no baja el ritmo, duplica sus escanos y vuelve a tener en su mano la investidura",
-          "url": "https://www.larazon.es/espana/vox-baja-ritmo-duplica-sus-escanos-vuelve-tener-mano-investidura_20260209698919059243cc133c3be5e2.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:15.532Z"
-        },
-        {
-          "title": "La caida de Azcon agita al PP: <<Copiar a Vox no es la solucion>>",
-          "url": "https://www.larazon.es/espana/caida-azcon-agita-copiar-vox-solucion_20260208698912f51817b41eb63b1e0c.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:14.570Z"
-        },
-        {
-          "title": "La participacion en las elecciones de Aragon se situa en el 67,5%, un punto mas que en 2023",
-          "url": "https://elpais.com/espana/elecciones-aragon/2026-02-08/datos-de-participacion-en-las-elecciones-en-aragon.html",
-          "newspaper": "El País",
-          "date": "2026-02-08T22:49:45.000Z"
-        },
-        {
-          "title": "Asi ha votado Aragon a lo largo de la democracia: 26 anos el PSOE y 11 el PP, pero sin mayorias absolutas",
-          "url": "https://elpais.com/espana/elecciones-aragon/2026-02-08/aragon-la-comunidad-que-no-conoce-las-mayorias-absolutas.html",
-          "newspaper": "El País",
-          "date": "2026-02-08T23:39:00.092Z"
-        }
-      ],
-      "merged_sources": [
-        "google",
-        "news_tags"
-      ]
-    },
-    {
-      "id": 105,
-      "title": "Aragón",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 325,
-      "matched_articles": [
-        {
-          "title": "Feijoo bate a Sanchez en el segundo asalto y lo deja aun mas tocado",
-          "url": "https://www.20minutos.es/nacional/feijoo-bate-sanchez-segundo-asalto-deja-aun-mas-tocado_6931541_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.878Z"
-        },
-        {
-          "title": "La estrategia electoral de Sanchez hace aguas: Aragon sentencia el segundo batacazo del ciclo",
-          "url": "https://www.20minutos.es/nacional/estrategia-electoral-sanchez-hace-aguas-aragon-sentencia-segundo-batacazo-ciclo_6931516_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.641Z"
-        },
-        {
-          "title": "El PP afronta un triunfo agridulce en Aragon y busca como desgastar a Vox mientras se contenta con que el PSOE \"toque suelo\"",
-          "url": "https://www.20minutos.es/nacional/pp-afronta-un-triunfo-agridulce-aragon-busca-como-desgastar-vox-mientras-se-contenta-con-que-psoe-toque-suelo_6931540_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:19.283Z"
-        },
-        {
-          "title": "Jorge Azcon, el abogado que \"siempre se vio de alcalde\" que aspira a repetir presidencia tras su victoria en las elecciones aragonesas",
-          "url": "https://www.20minutos.es/nacional/jorge-azcon-abogado-que-siempre-se-vio-alcalde-que-aspira-revalidar-presidencia-gobierno-aragones_6924754_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:18.612Z"
-        },
-        {
-          "title": "Y Vox sigue subiendo",
-          "url": "https://www.20minutos.es/nacional/vox-sigue-subiendo_6931544_3.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:18.359Z"
-        },
-        {
-          "title": "Y Aragon si fue nuestro Ohio",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461164/aragon-nuestro-ohio.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T05:13:46.387Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026, en directo | Escanos de VOX, PP, PSOE y ultima hora de la victoria de Jorge Azcon",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461323/elecciones-aragon-2026-partido-popular-azcon-jornada-electoral-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T05:13:45.409Z"
-        },
-        {
-          "title": "?Que ha pasado en Aragon? Los resultados electorales en 11 claves",
-          "url": "https://www.abc.es/espana/aragon/pasado-aragon-elecciones-claves-20260209044000-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T05:10:30.578Z"
-        },
-        {
-          "title": "Los socialistas ven agravada su crisis territorial",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/02/09/socialistas-ven-agravada-crisis-territorial/00031770592957810320562.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-02-09T05:09:58.857Z"
-        },
-        {
-          "title": "El popular Jorge Azcon gana los comicios en Aragon, pero necesitara a Vox para gobernar",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/02/09/popular-jorge-azcon-gana-comicios-aragon-necesitara-vox-gobernar/0003_202602G9P2991.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-02-09T05:09:58.193Z"
-        },
-        {
-          "title": "Alvise fracasa en su primera aventura autonomica y SALF se queda a las puertas de entrar en las Cortes de Aragon",
-          "url": "https://www.eldiario.es/aragon/politica/alvise-fracasa-primera-aventura-autonomica-salf-queda-puertas-entrar-cortes-aragon_1_12973507.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:04:05.344Z"
-        },
-        {
-          "title": "Feijoo encalla por segunda vez frente a Vox y Sanchez cae a los infiernos del minimo historico en Aragon",
-          "url": "https://www.eldiario.es/politica/feijoo-encalla-segunda-vez-frente-vox-sanchez-cae-infiernos-minimo-historico-aragon_129_12973493.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:03:55.549Z"
-        },
-        {
-          "title": "Grandes empresas animan al Rey a visitar a Trump tras la llegada de su nuevo embajador pero el viaje depende del aval de Sanchez",
-          "url": "https://www.elmundo.es/economia/2026/02/09/6988d32ffc6c837b5f8b457c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
-        },
-        {
-          "title": "Una derecha perpleja y una izquierda en ruinas",
-          "url": "https://www.elmundo.es/opinion/columnistas/2026/02/08/6989114ce4d4d86a1c8b4584.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.727Z"
-        },
-        {
-          "title": "Joaquin Manso analiza el resultado electoral en Aragon: \"Genova ha leido mal el momento politico\"",
-          "url": "https://www.elmundo.es/opinion/2026/02/09/698923ece9cf4a6c108b457e-video.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.726Z"
-        },
-        {
-          "title": "Aragon derrota a Sanchez",
-          "url": "https://www.abc.es/opinion/editorial-aragon-derrota-sanchez-20260209223950-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T02:41:58.802Z"
-        },
-        {
-          "title": "Aragon agrava el hundimiento politico de Sanchez pero Feijoo no logra probar su capacidad para gobernar en solitario",
-          "url": "https://www.elespanol.com/espana/politica/20260209/aragon-agrava-hundimiento-politico-sanchez-feijoo-no-logra-probar-capacidad-gobernar-solitario/1003744121730_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:50.624Z"
-        },
-        {
-          "title": "El fracaso de Pilar Alegria: la portavoz de Sanchez no puede frenar la sangria que empezo para el PSOE en Extremadura",
-          "url": "https://www.elespanol.com/espana/politica/20260209/psoe_-partido_socialista_obrero_espanol-pedro_sanchez-aragon-vox-pilar_alegria-jorge_azcon-elecciones_autonomicas-politica/1003744121731_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:48.913Z"
-        },
-        {
-          "title": "Ya no es solo el voto rural: Vox cimenta su crecimiento en las capitales de provincia y en los municipios con inmigracion",
-          "url": "https://www.elespanol.com/espana/politica/20260209/no-solo-voto-rural-vox-cimenta-crecimiento-capitales-provincia-municipios-inmigracion/1003744121831_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:46.753Z"
-        },
-        {
-          "title": "Pilar Alegria: una grieta politica convertida en naufragio",
-          "url": "https://www.elespanol.com/opinion/columnas/20260209/pilar-alegria-grieta-politica-convertida-naufragio/1003744121761_12.html",
-          "newspaper": "El Español",
-          "date": "2026-02-09T02:39:15.312Z"
-        },
-        {
-          "title": "Esta es la posible fecha del inicio de la nueva legislatura en Aragon",
-          "url": "https://www.larazon.es/espana/esta-posible-fecha-inicio-nueva-legislatura-aragon_202602086988f95d1817b41eb63af096.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:54.766Z"
-        },
-        {
-          "title": "Nobleza baturra",
-          "url": "https://www.larazon.es/espana/nobleza-baturra_202602096988fccc2f00a04688fff136.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:50.077Z"
-        },
-        {
-          "title": "Si Aragon sigue siendo nuestro Ohio...",
-          "url": "https://www.larazon.es/espana/aragon-sigue-siendo-nuestro-ohio_202602096988dd551817b41eb63abc14.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:49.523Z"
-        },
-        {
-          "title": "Moncloa estrella al PSOE y se consuela con salvar a Sanchez",
-          "url": "https://www.larazon.es/espana/moncloa-estrella-psoe-consuela-salvar-sanchez_20260209698941fc9243cc133c3c1fa6.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-09T02:35:48.854Z"
-        },
-        {
-          "title": "El PP defiende que Azcon ha aumentado la diferencia con el PSOE y celebra \"una derrota mas de la caida libre de Sanchez\"",
-          "url": "https://www.20minutos.es/nacional/pp-defiende-que-azcon-ha-aumentado-diferencia-con-psoe-celebra-una-derrota-mas-caida-libre-sanchez_6931536_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-08T23:49:41.005Z"
-        },
-        {
-          "title": "Azcon logra una victoria amarga que lo ata mas a la ultraderecha",
-          "url": "https://www.lavanguardia.com/politica/20260208/11461177/azcon-logra-victoria-amarga-ata-mas-ultraderecha.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:49:03.428Z"
-        },
-        {
-          "title": "La Chunta toma el relevo del PAR como referente del aragonesismo",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461180/chunta-toma-relevo-par-referente-aragonesismo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:49:02.734Z"
-        },
-        {
-          "title": "La Chunta toma el relevo del PAR como referente del aragonesismo",
-          "url": "https://www.lavanguardia.com/politica/20260209/11461180/chunta-toma-relevo-par-referente-aragonesismo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:47:55.737Z"
-        },
-        {
-          "title": "Azcon logra una victoria amarga que lo ata mas a la ultraderecha",
-          "url": "https://www.lavanguardia.com/politica/20260208/11461177/azcon-logra-victoria-amarga-ata-mas-ultraderecha.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T23:47:52.268Z"
-        },
-        {
-          "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
-          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.042Z"
-        },
-        {
-          "title": "Vox lleva al bipartidismo a su segunda crisis",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cefefc6c8344628b458f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.040Z"
-        },
-        {
-          "title": "Aragon Existe: un escano y casi un tercio de apoyo menos",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cdcffc6c835f038b459b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.040Z"
-        },
-        {
-          "title": "Yolanda Diaz sobrevive con un escano en el entierro de Podemos, que desaparece de las Cortes",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988cd69fc6c83cd558b4573.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.039Z"
-        },
-        {
-          "title": "Los 10 enclaves de Aragon: Vox segundo en otra capital y barrios rojos hoy para el PP",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988ce70fc6c833e558b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.039Z"
-        },
-        {
-          "title": "La Chunta gana el duelo y pide voz en el nuevo Sumar",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cda7fc6c83ca228b4578.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.038Z"
-        },
-        {
-          "title": "Vox dobla sus escanos y dispara su poder negociador ante el PP",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988cd2cfc6c83146d8b45b4.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.038Z"
-        },
-        {
-          "title": "El PSOE relativiza su historico batacazo en Aragon por el retroceso del PP ante Vox: \"Es aun mas rehen de la ultraderecha\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988ccabfc6c83b4758b456d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:47:28.038Z"
-        },
-        {
-          "title": "Los 10 enclaves de Aragon: Vox segundo en otra capital y barrios rojos hoy para el PP",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/09/6988ce70fc6c833e558b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.723Z"
-        },
-        {
-          "title": "Una victoria amarga de Azcon",
-          "url": "https://www.elmundo.es/opinion/editorial/2026/02/09/698905b1fdddff212c8b4584.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.723Z"
-        },
-        {
-          "title": "Azcon gana pero sale perdiendo ante la impotencia del PP para frenar a Vox: \"Eso es un drama imparable\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988ccdbfc6c83ab408b4591.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.723Z"
-        },
-        {
-          "title": "Vox acaricia el 18% en Aragon y logra su mejor dato en una cita electoral: \"Si el PP sigue con sus politicas, que pacte con el PSOE\"",
-          "url": "https://www.elespanol.com/espana/politica/20260209/vox-acaricia-aragon-logra-mejor-dato-cita-electoral-pp-sigue-politicas-pacte-psoe/1003744121733_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T23:43:10.896Z"
-        },
-        {
-          "title": "Que el PSOE se abstenga para que el PP no dependa de Vox",
-          "url": "https://www.elespanol.com/opinion/20260209/psoe-abstenga-pp-no-dependa-vox/1003744121807_13.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T23:42:29.323Z"
-        },
-        {
-          "title": "Ver mas informacion de Elecciones en Aragon 2026, resultados y reacciones en directo | Asi te hemos contado la jornada",
-          "url": "https://www.publico.es/politica/elecciones-aragon-2026-resultados-reacciones-directo-abren-urnas-arrancan-votaciones.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T23:41:29.789Z"
-        },
-        {
-          "title": "Ver mas informacion de El PSOE cae con fuerza, el PP se estrella y Azcon queda en manos de un Vox que duplica sus escanos",
-          "url": "https://www.publico.es/politica/elecciones-aragon-psoe-cae-fuerza-pp-estrella-azcon-queda-manos-vox-duplica-fuerza.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T23:41:24.864Z"
-        },
-        {
-          "title": "Ver mas informacion de El PSOE cae con fuerza, el PP se estrella y Azcon queda en manos de un Vox que duplica sus escanos",
-          "url": "https://www.publico.es/politica/elecciones-aragon-psoe-cae-fuerza-pp-estrella-azcon-queda-manos-vox-duplica-fuerza.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T23:40:50.609Z"
-        },
-        {
-          "title": "La caida de Azcon agita al PP: <<Copiar a Vox no es la solucion>>",
-          "url": "https://www.larazon.es/espana/caida-azcon-agita-copiar-vox-solucion_20260208698912f51817b41eb63b1e0c.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:47.605Z"
-        },
-        {
-          "title": "Chunta se convierte en el partido regional hegemonico y condiciona el futuro de Sumar",
-          "url": "https://www.larazon.es/espana/chunta-convierte-partido-regional-hegemonico-condiciona-futuro-sumar_2026020969891c3c2f00a04688002a8a.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:47.224Z"
-        },
-        {
-          "title": "El debate nacional frena a Aragon Existe, que pierde uno de sus tres escanos",
-          "url": "https://www.larazon.es/espana/debate-nacional-frena-aragon-existe-que-pierde-uno-sus-tres-escanos_2026020969891cee9243cc133c3beca9.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:46.951Z"
-        },
-        {
-          "title": "El PAR, que goberno anos junto a PSOE y PP, desaparece por primera vez de las Cortes",
-          "url": "https://www.larazon.es/espana/par-que-goberno-anos-junto-psoe-desaparece-primera-vez-cortes_2026020969891db82f00a04688002d87.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:45.422Z"
-        },
-        {
-          "title": "Chunta se convierte en el partido regional hegemonico y condiciona el futuro de Sumar",
-          "url": "https://www.larazon.es/espana/chunta-convierte-partido-regional-hegemonico-condiciona-futuro-sumar_2026020969891c3c2f00a04688002a8a.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T23:39:21.012Z"
-        }
-      ]
+      "source": "news_tags",
+      "volume": "424 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 537
     },
     {
       "id": 201,
       "title": "Aragon Existe",
       "source": "news_tags",
-      "volume": "255 artículos",
+      "volume": "263 artículos",
       "timeframe": "24h noticias",
-      "news_count": 255
+      "news_count": 263
     },
     {
       "id": 202,
       "title": "Cia",
       "source": "news_tags",
-      "volume": "197 artículos",
+      "volume": "194 artículos",
       "timeframe": "24h noticias",
-      "news_count": 197
+      "news_count": 194
     },
     {
-      "id": 203,
-      "title": "Psoe",
-      "source": "news_tags",
-      "volume": "169 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 169
-    },
-    {
-      "id": 21,
-      "title": "Resultados Elecciones Aragon Psoe",
+      "id": 3,
+      "title": "Resultados Elecciones Aragon",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 152,
+      "volume": "200 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 179,
       "matched_articles": [
+        {
+          "title": "Calculadora de pactos de las elecciones de Aragon: las opciones del PP para formar Gobierno",
+          "url": "https://www.20minutos.es/aragon/calculadora-pactos-las-elecciones-aragon-las-opciones-pp-para-formar-gobierno_6928927_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:32.567Z"
+        },
+        {
+          "title": "Vox duplica sus resultados en los municipios con mas inmigrantes",
+          "url": "https://www.lavanguardia.com/politica/20260209/11461345/vox-duplica-resultados-municipios-mas-inmigrantes.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T07:23:04.847Z"
+        },
+        {
+          "title": "Resultados elecciones Aragon 2026 | Ganador y reacciones en directo: ultima hora sobre PP, Vox y PSOE",
+          "url": "https://www.lavanguardia.com/politica/20260209/11461323/elecciones-aragon-2026-resultados-ganador-ultima-hora-jorge-azcon-escanos-pp-psoe-vox-reacciones-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T07:23:04.189Z"
+        },
+        {
+          "title": "Resultados elecciones Aragon 2026 | Ganador y reacciones en directo: ultima hora sobre PP, Vox y PSOE",
+          "url": "https://www.lavanguardia.com/politica/20260209/11461323/elecciones-aragon-2026-resultados-ganador-ultima-hora-jorge-azcon-escanos-pp-psoe-vox-reacciones-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T07:21:56.403Z"
+        },
+        {
+          "title": "Ultima hora politica, en directo | Las direcciones de PP y PSOE se reunen para analizar los resultados de las elecciones de Aragon",
+          "url": "https://www.elespanol.com/espana/politica/20260209/elecciones-aragon-resultados-ultima-hora-politica-directo-azcon-vox/1003744121865_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:58.547Z"
+        },
+        {
+          "title": "Iman del voto joven y reflejo del BNG y Compromis: asi es CHA, el partido que ha dado la campanada en Aragon",
+          "url": "https://www.elespanol.com/aragon/actualidad/20260209/iman-voto-joven-reflejo-bng-compromis-cha-partido-dado-campanada-aragon/1003744121792_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:19.471Z"
+        },
+        {
+          "title": "Elecciones generales ya: Aragon corrobora que la bronca solo favorece a los extremos",
+          "url": "https://www.elespanol.com/opinion/editoriales/20260209/elecciones-generales-aragon-corrobora-bronca-solo-favorece-extremos/1003744121660_14.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:12.540Z"
+        },
         {
           "title": "Feijoo bate a Sanchez en el segundo asalto y lo deja aun mas tocado",
           "url": "https://www.20minutos.es/nacional/feijoo-bate-sanchez-segundo-asalto-deja-aun-mas-tocado_6931541_0.html",
@@ -685,6 +103,12 @@
           "date": "2026-02-09T05:14:19.283Z"
         },
         {
+          "title": "Jorge Azcon, el abogado que \"siempre se vio de alcalde\" que aspira a repetir presidencia tras su victoria en las elecciones aragonesas",
+          "url": "https://www.20minutos.es/nacional/jorge-azcon-abogado-que-siempre-se-vio-alcalde-que-aspira-revalidar-presidencia-gobierno-aragones_6924754_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:18.612Z"
+        },
+        {
           "title": "Resultados elecciones Aragon 2026, en directo | Escanos de VOX, PP, PSOE y ultima hora de la victoria de Jorge Azcon",
           "url": "https://www.lavanguardia.com/politica/20260209/11461323/elecciones-aragon-2026-partido-popular-azcon-jornada-electoral-hoy-en-directo.html",
           "newspaper": "La Vanguardia",
@@ -695,6 +119,12 @@
           "url": "https://www.abc.es/espana/aragon/pasado-aragon-elecciones-claves-20260209044000-nt.html",
           "newspaper": "ABC",
           "date": "2026-02-09T05:10:30.578Z"
+        },
+        {
+          "title": "Alvise fracasa en su primera aventura autonomica y SALF se queda a las puertas de entrar en las Cortes de Aragon",
+          "url": "https://www.eldiario.es/aragon/politica/alvise-fracasa-primera-aventura-autonomica-salf-queda-puertas-entrar-cortes-aragon_1_12973507.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T05:04:05.344Z"
         },
         {
           "title": "Feijoo encalla por segunda vez frente a Vox y Sanchez cae a los infiernos del minimo historico en Aragon",
@@ -719,6 +149,12 @@
           "url": "https://www.elespanol.com/opinion/columnas/20260209/pilar-alegria-grieta-politica-convertida-naufragio/1003744121761_12.html",
           "newspaper": "El Español",
           "date": "2026-02-09T02:39:15.312Z"
+        },
+        {
+          "title": "Esta es la posible fecha del inicio de la nueva legislatura en Aragon",
+          "url": "https://www.larazon.es/espana/esta-posible-fecha-inicio-nueva-legislatura-aragon_202602086988f95d1817b41eb63af096.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-09T02:35:54.766Z"
         },
         {
           "title": "Nobleza baturra",
@@ -815,6 +251,12 @@
           "url": "https://elpais.com/espana/elecciones-aragon/2026-02-08/aragon-la-comunidad-que-no-conoce-las-mayorias-absolutas.html",
           "newspaper": "El País",
           "date": "2026-02-08T23:39:00.092Z"
+        },
+        {
+          "title": "Un Vox euforico por su ascenso se prepara para endurecer sus exigencias al PP",
+          "url": "https://elpais.com/espana/elecciones-aragon/2026-02-08/un-vox-euforico-por-su-ascenso-se-prepara-para-elevar-sus-exigencias-al-pp.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T23:38:55.605Z"
         },
         {
           "title": "Alegria se queda en la oposicion e iguala el peor resultado en escanos del PSOE",
@@ -899,107 +341,61 @@
           "url": "https://www.abc.es/espana/aragon/azcon-suma-izquierda-necesitara-vox-gobernar-20260208231625-nt.html",
           "newspaper": "ABC",
           "date": "2026-02-08T22:40:50.991Z"
-        },
-        {
-          "title": "El adelanto de Azcon: para este viaje no hacian falta tantas alforjas",
-          "url": "https://www.abc.es/espana/aragon/adelanto-azcon-viaje-falta-tantas-alforjas-20260208225721-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:40:50.394Z"
-        },
-        {
-          "title": "Chunta Aragonesista capitaliza el voto a la izquierda del PSOE y duplica sus escanos",
-          "url": "https://www.abc.es/espana/aragon/solo-chunta-mantiene-tipo-descalabro-general-regionalistas-20260208224721-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:40:49.652Z"
-        },
-        {
-          "title": "Chunta Aragonesista capitaliza el voto a la izquierda del PSOE y duplica sus escanos",
-          "url": "https://www.abc.es/espana/aragon/solo-chunta-mantiene-tipo-descalabro-general-regionalistas-20260208224721-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:39:49.820Z"
-        },
-        {
-          "title": "Aragon confirma a Vox como imprescindible para que el PP gobierne",
-          "url": "https://www.abc.es/espana/aragon/aragon-confirma-vox-imprescindible-pp-gobierne-20260208225243-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T22:39:48.801Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026: Escanos, reacciones y ganador en directo",
-          "url": "https://www.elespanol.com/espana/20260208/resultados-elecciones-aragon-escanos-reacciones-ganador-directo-2026-aragonesas-autonomicas/1003744118350_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T22:37:57.641Z"
-        },
-        {
-          "title": "Resultados elecciones Aragon 2026: Escanos, reacciones y ganador en directo",
-          "url": "https://www.elespanol.com/espana/20260208/resultados-elecciones-aragon-escanos-reacciones-ganador-directo-2026-aragonesas-autonomicas/1003744118350_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T22:37:14.433Z"
-        },
-        {
-          "title": "Ver mas informacion de Elecciones en Aragon 2026, resultados y reacciones en directo | Alegria admite que el resultado no es bueno y Azcon dice que",
-          "url": "https://www.publico.es/politica/elecciones-aragon-2026-resultados-reacciones-directo-abren-urnas-arrancan-votaciones.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T22:36:22.967Z"
-        },
-        {
-          "title": "Ver mas informacion de El meconio aragones",
-          "url": "https://www.publico.es/opinion/columnas/meconio-aragones.html",
-          "newspaper": "Público",
-          "date": "2026-02-08T22:35:54.408Z"
-        },
-        {
-          "title": "MAPA | ?Que votaron tus vecinos? Los resultados de las elecciones en Aragon 2026, calle a calle",
-          "url": "https://www.eldiario.es/aragon/mapa-votaron-vecinos-8f-resultados-elecciones-aragon-calle-calle_1_12959137.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T22:31:34.962Z"
-        },
-        {
-          "title": "El PP no deja de hacer regalos a Vox",
-          "url": "https://www.eldiario.es/politica/pp-no-deja-regalos-vox_129_12973568.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T22:31:31.895Z"
-        },
-        {
-          "title": "El PP gana en Aragon pero dependera de un Vox disparado mientras el PSOE se hunde",
-          "url": "https://www.20minutos.es/nacional/pp-gana-aragon-pero-dependera-un-vox-disparado-mientras-psoe-se-hunde_6931515_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-08T21:43:36.082Z"
         }
       ]
+    },
+    {
+      "id": 203,
+      "title": "Psoe",
+      "source": "news_tags",
+      "volume": "177 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 177
     },
     {
       "id": 204,
       "title": "Vox",
       "source": "news_tags",
-      "volume": "150 artículos",
+      "volume": "154 artículos",
       "timeframe": "24h noticias",
-      "news_count": 150
+      "news_count": 154
     },
     {
       "id": 210,
       "title": "Política",
       "source": "news_tags",
-      "volume": "63 artículos",
+      "volume": "66 artículos",
       "timeframe": "24h noticias",
-      "news_count": 119
+      "news_count": 123
     },
     {
       "id": 205,
       "title": "En Directo",
       "source": "news_tags",
-      "volume": "116 artículos",
+      "volume": "119 artículos",
       "timeframe": "24h noticias",
-      "news_count": 116
+      "news_count": 119
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Chunta Aragonesista",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
-      "news_count": 111,
+      "timeframe": "hace 14 h (24h)",
+      "news_count": 110,
       "matched_articles": [
+        {
+          "title": "Iman del voto joven y reflejo del BNG y Compromis: asi es CHA, el partido que ha dado la campanada en Aragon",
+          "url": "https://www.elespanol.com/aragon/actualidad/20260209/iman-voto-joven-reflejo-bng-compromis-cha-partido-dado-campanada-aragon/1003744121792_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:19.471Z"
+        },
+        {
+          "title": "Elecciones generales ya: Aragon corrobora que la bronca solo favorece a los extremos",
+          "url": "https://www.elespanol.com/opinion/editoriales/20260209/elecciones-generales-aragon-corrobora-bronca-solo-favorece-extremos/1003744121660_14.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:12.540Z"
+        },
         {
           "title": "Aragon derrota a Sanchez",
           "url": "https://www.abc.es/opinion/editorial-aragon-derrota-sanchez-20260209223950-nt.html",
@@ -1287,84 +683,374 @@
           "url": "https://www.larazon.es/espana/resultado-elecciones-aragon-8-febrero-teruel_2026020869889e029243cc133c3b10f6.html",
           "newspaper": "La Razón",
           "date": "2026-02-08T21:34:14.789Z"
-        },
-        {
-          "title": "Vox duplica escanos, el PSOE cae y el PP resiste en Huesca",
-          "url": "https://www.larazon.es/espana/resultado-elecciones-aragon-2026-huesca_202602086988db529243cc133c3b788f.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T21:34:14.200Z"
-        },
-        {
-          "title": "La division vuelve a castigar a la izquierda estatal: IU mantiene su escano y Podemos desaparece en Aragon",
-          "url": "https://www.eldiario.es/politica/division-vuelve-castigar-izquierda-estatal-iu-mantiene-escano-desaparece-aragon_1_12973544.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T21:32:07.081Z"
         }
       ]
     },
     {
       "id": 207,
-      "title": "Pilar Alegría",
+      "title": "Jorge Azcón",
       "source": "news_tags",
-      "volume": "82 artículos",
+      "volume": "84 artículos",
       "timeframe": "24h noticias",
-      "news_count": 82
+      "news_count": 84
     },
     {
       "id": 208,
-      "title": "Jorge Azcón",
+      "title": "Pilar Alegría",
       "source": "news_tags",
-      "volume": "81 artículos",
+      "volume": "84 artículos",
       "timeframe": "24h noticias",
-      "news_count": 81
+      "news_count": 84
     },
     {
-      "id": 213,
+      "id": 215,
       "title": "Madrid",
       "source": "news_tags",
-      "volume": "50 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 76
-    },
-    {
-      "id": 209,
-      "title": "Espana-newsletter",
-      "source": "news_tags",
-      "volume": "70 artículos",
+      "volume": "45 artículos",
       "timeframe": "24h noticias",
       "news_count": 70
     },
     {
-      "id": 211,
-      "title": "Partido Popular (pp)",
+      "id": 209,
+      "title": "Pop",
       "source": "news_tags",
-      "volume": "62 artículos",
+      "volume": "69 artículos",
       "timeframe": "24h noticias",
-      "news_count": 62
+      "news_count": 69
+    },
+    {
+      "id": 211,
+      "title": "Espana-newsletter",
+      "source": "news_tags",
+      "volume": "66 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 66
     },
     {
       "id": 212,
       "title": "Gobierno Aragon",
       "source": "news_tags",
-      "volume": "53 artículos",
+      "volume": "56 artículos",
       "timeframe": "24h noticias",
-      "news_count": 53
+      "news_count": 56
+    },
+    {
+      "id": 105,
+      "title": "Portugal",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 54,
+      "matched_articles": [
+        {
+          "title": "La mafia del 'oro transparente': asi se vende en China la angula del Cantabrico que pescan los furtivos, un negocio de 3.000 M",
+          "url": "https://www.elespanol.com/reportajes/20260209/mafia-oro-transparente-vende-china-angula-cantabrico-pescan-furtivos-negocio/1003744110986_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:30.887Z"
+        },
+        {
+          "title": "Asi esta llegando a Espana el rio atmosferico que traera nuevas borrascas: la primera sera Nils e impactara desde este martes",
+          "url": "https://www.20minutos.es/nacional/asi-esta-llegando-espana-rio-atmosferico-que-traera-nuevas-borrascas-primera-sera-nils-impactara-desde-este-martes_6931449_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:17.033Z"
+        },
+        {
+          "title": "Menos mal que nos queda Portugal",
+          "url": "https://www.lavozdegalicia.es/noticia/opinion/2026/02/09/mal-queda-portugal/0003_202602G9P8992.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-02-09T05:10:02.664Z"
+        },
+        {
+          "title": "'Mas' Portugal",
+          "url": "https://www.lavanguardia.com/politica/20260209/11461191/mas-portugal.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:45:46.011Z"
+        },
+        {
+          "title": "Antonio Jose Seguro, nuevo presidente de Portugal: el ave fenix socialista que ha hecho de la serenidad su cualidad maxima",
+          "url": "https://www.elmundo.es/internacional/2026/02/09/6988b99be85ecec04f8b4595.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T02:43:55.136Z"
+        },
+        {
+          "title": "Portugal activa el 'cordon sanitario' en las elecciones presidenciales: amplia victoria del socialista Seguro frente al ultraderechista Ventura",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T23:47:09.595Z"
+        },
+        {
+          "title": "Portugal activa el 'cordon sanitario' en las elecciones presidenciales: amplia victoria del socialista Seguro frente al ultraderechista Ventura",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T23:46:50.725Z"
+        },
+        {
+          "title": "Ver mas informacion de Seguro aplasta a Ventura en Portugal pero la extrema derecha aumenta su techo electoral",
+          "url": "https://www.publico.es/internacional/seguro-aplasta-ventura-portugal-pero-extrema-derecha-aumenta-techo-electoral.html",
+          "newspaper": "Público",
+          "date": "2026-02-08T23:41:55.490Z"
+        },
+        {
+          "title": "Ver mas informacion de Seguro aplasta a Ventura en Portugal pero la extrema derecha aumenta su techo electoral",
+          "url": "https://www.publico.es/internacional/seguro-aplasta-ventura-portugal-pero-extrema-derecha-aumenta-techo-electoral.html",
+          "newspaper": "Público",
+          "date": "2026-02-08T23:40:55.157Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: amplia victoria del socialista Seguro frente al ultraderechista Ventura con el 99% de los votos escrutados",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:31.811Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: amplia victoria del socialista Seguro frente al ultraderechista Ventura con el 99% de los votos escrutados",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:16.511Z"
+        },
+        {
+          "title": "Portugal se une contra la extrema derecha y elige al socialista Antonio Jose Seguro nuevo presidente de la Republica",
+          "url": "https://www.lavozdegalicia.es/noticia/internacional/2026/02/08/socialista-seguro-gana-presidenciales-portugal-frente-ultraderechista-ventura/00031770584121293579843.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-02-08T22:39:24.313Z"
+        },
+        {
+          "title": "El socialista Seguro se impone con comodidad en Portugal y contiene el avance ultra",
+          "url": "https://www.lavanguardia.com/internacional/20260208/11461141/socialista-seguro-arrasa-portugal-contiene-avance-ultra-primeros-sondeos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T21:42:28.944Z"
+        },
+        {
+          "title": "El socialista Seguro se impone con comodidad en Portugal y contiene el avance ultra",
+          "url": "https://www.lavanguardia.com/internacional/20260208/11461141/socialista-seguro-arrasa-portugal-contiene-avance-ultra-primeros-sondeos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T21:41:57.959Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.257Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.257Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:38.256Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: amplia victoria del socialista Seguro frente al ultraderechista Ventura con el 98% de los votos escrutados",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:21.224Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: amplia victoria del socialista Seguro frente al ultraderechista Ventura con el 98% de los votos escrutados",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:05.549Z"
+        },
+        {
+          "title": "Portugal elige de manera contundente la moderacion del socialista Antonio Jose Seguro",
+          "url": "https://www.abc.es/internacional/socialista-seguro-proximo-presidente-portugal-segun-sondeos-20260208211331-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T21:40:09.257Z"
+        },
+        {
+          "title": "Portugal elige de manera contundente la moderacion del socialista Antonio Jose Seguro",
+          "url": "https://www.abc.es/internacional/socialista-seguro-proximo-presidente-portugal-segun-sondeos-20260208211331-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T21:39:41.748Z"
+        },
+        {
+          "title": "El exministro socialista Antonio Seguro gana las elecciones presidenciales en Portugal: se impone a Andre Ventura",
+          "url": "https://www.elespanol.com/mundo/europa/20260208/socialista-seguro-delante-ventura-votos-elecciones-presidenciales-portugal/1003744121711_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T21:38:28.074Z"
+        },
+        {
+          "title": "El exministro socialista Antonio Seguro gana las elecciones presidenciales en Portugal: se impone a Andre Ventura",
+          "url": "https://www.elespanol.com/mundo/europa/20260208/socialista-seguro-delante-ventura-votos-elecciones-presidenciales-portugal/1003744121711_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T21:37:12.379Z"
+        },
+        {
+          "title": "Antonio Jose Seguro, un moderado para presidir Portugal en tiempos de crispacion",
+          "url": "https://elpais.com/internacional/2026-02-08/antonio-jose-seguro-un-moderado-para-presidir-portugal-en-tiempos-de-crispacion.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T22:20:01.000Z"
+        },
+        {
+          "title": "El socialista Antonio Jose Seguro arrasa en las elecciones presidenciales de Portugal al populista Andre Ventura",
+          "url": "https://elpais.com/internacional/2026-02-08/los-sondeos-dan-una-contundente-victoria-al-socialista-antonio-jose-seguro-en-las-presidenciales-en-portugal-frente-al-populista-andre-ventura.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T22:29:41.000Z"
+        },
+        {
+          "title": "El socialista Antonio Jose Seguro arrasa al ultra Andre Ventura en las presidenciales de Portugal",
+          "url": "https://www.eldiario.es/internacional/socialista-seguro-arrasa-ultra-ventura-presidenciales-portuguesas-sondeos_1_12972260.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T21:32:43.649Z"
+        },
+        {
+          "title": "El socialista Antonio Jose Seguro arrasa al ultra Andre Ventura en las presidenciales de Portugal",
+          "url": "https://www.eldiario.es/internacional/socialista-seguro-arrasa-ultra-ventura-presidenciales-portuguesas-sondeos_1_12972260.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T21:31:23.080Z"
+        },
+        {
+          "title": "El socialista Seguro, ganador de las elecciones presidenciales de Portugal con un gran margen sobre el derechista Ventura",
+          "url": "https://www.20minutos.es/internacional/los-sondeos-apuntan-triunfo-socialista-seguro-las-presidenciales-portugal-con-un-gran-margen-sobre-derechista-ventura_6931510_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T20:47:27.202Z"
+        },
+        {
+          "title": "El socialista Seguro arrasa en Portugal y contiene el avance ultra, segun los primeros sondeos",
+          "url": "https://www.lavanguardia.com/internacional/20260208/11461141/socialista-seguro-arrasa-portugal-contiene-avance-ultra-primeros-sondeos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T20:45:50.640Z"
+        },
+        {
+          "title": "El socialista Seguro arrasa en Portugal y contiene el avance ultra, segun los primeros sondeos",
+          "url": "https://www.lavanguardia.com/internacional/20260208/11461141/socialista-seguro-arrasa-portugal-contiene-avance-ultra-primeros-sondeos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T20:45:14.261Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: amplia victoria del socialista Seguro frente al ultraderechista Ventura con el 76% de los votos escrutados",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T20:44:31.855Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: amplia victoria del socialista Seguro frente al ultraderechista Ventura con el 76% de los votos escrutados",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T20:44:14.299Z"
+        },
+        {
+          "title": "El socialista Seguro sera el proximo presidente de Portugal, segun los sondeos a pie de urna",
+          "url": "https://www.abc.es/internacional/socialista-seguro-proximo-presidente-portugal-segun-sondeos-20260208211331-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T20:42:25.737Z"
+        },
+        {
+          "title": "Ver mas informacion de El socialista Seguro logra una aplastante victoria en las presidenciales de Portugal sobre el ultra Ventura",
+          "url": "https://www.publico.es/internacional/socialista-seguro-logra-aplastante-victoria-presidenciales-portugal-sobre-ultra-ventura-sondeos.html",
+          "newspaper": "Público",
+          "date": "2026-02-08T20:38:43.626Z"
+        },
+        {
+          "title": "Ver mas informacion de El socialista Seguro logra una aplastante victoria en las presidenciales de Portugal sobre el ultra Ventura",
+          "url": "https://www.publico.es/internacional/socialista-seguro-logra-aplastante-victoria-presidenciales-portugal-sobre-ultra-ventura-sondeos.html",
+          "newspaper": "Público",
+          "date": "2026-02-08T20:37:46.367Z"
+        },
+        {
+          "title": "El socialista Seguro gana la presidencia de Portugal frente a Andre Ventura",
+          "url": "https://www.larazon.es/internacional/socialista-seguro-gana-presidencia-portugal-frente-andre-ventura_202602086988eec81817b41eb63add0d.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T20:37:05.240Z"
+        },
+        {
+          "title": "El socialista Seguro gana la presidencia de Portugal frente a Andre Ventura",
+          "url": "https://www.larazon.es/internacional/socialista-seguro-gana-presidencia-portugal-frente-andre-ventura_202602086988eec81817b41eb63add0d.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T20:36:07.382Z"
+        },
+        {
+          "title": "El socialista Antonio Jose Seguro derrota en las elecciones presidenciales de Portugal al populista Andre Ventura",
+          "url": "https://elpais.com/internacional/2026-02-08/los-sondeos-dan-una-contundente-victoria-al-socialista-antonio-jose-seguro-en-las-presidenciales-en-portugal-frente-al-populista-andre-ventura.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T21:32:28.000Z"
+        },
+        {
+          "title": "El socialista Seguro arrasa al ultra Ventura en las presidenciales de Portugal, segun los sondeos",
+          "url": "https://www.eldiario.es/internacional/socialista-seguro-arrasa-ultra-ventura-presidenciales-portuguesas-sondeos_1_12972260.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T20:34:07.989Z"
+        },
+        {
+          "title": "El socialista Seguro arrasa al ultra Ventura en las presidenciales de Portugal, segun los sondeos",
+          "url": "https://www.eldiario.es/internacional/socialista-seguro-arrasa-ultra-ventura-presidenciales-portuguesas-sondeos_1_12972260.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T20:32:44.503Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T18:51:59.990Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T18:51:59.989Z"
+        },
+        {
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | 96 centros educativos mantienen la suspension de la actividad lectiva presencial para este lunes en Andalucia",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T18:51:59.989Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: el temporal da una tregua y la participacion a las 16h es igual a la de la primera vuelta",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T17:42:24.138Z"
+        },
+        {
+          "title": "La participacion en las presidenciales de Portugal alcanza el 45,5%, similar a la primera vuelta",
+          "url": "https://elpais.com/internacional/2026-02-08/la-participacion-en-las-presidenciales-de-portugal.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T17:32:52.183Z"
+        },
+        {
+          "title": "La participacion sube en las presidenciales de Portugal pese a las borrascas catastroficas",
+          "url": "https://www.lavanguardia.com/internacional/20260208/11461045/participacion-dispara-presidenciales-portugal-pese-borrascas-catastroficas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T15:43:15.727Z"
+        },
+        {
+          "title": "Elecciones presidenciales en Portugal: el temporal da una tregua y mejora la participacion respecto a la primera vuelta",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988ac38e9cf4ad3258b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T15:42:04.179Z"
+        },
+        {
+          "title": "La participacion en las presidenciales de Portugal alcanza el 22,35%, un punto mas que en la primera vuelta",
+          "url": "https://elpais.com/internacional/2026-02-08/la-participacion-en-las-presidenciales-de-portugal.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T15:33:06.952Z"
+        },
+        {
+          "title": "El Papa recuerda a los afectados por las inundaciones en Grazalema y en toda Andalucia",
+          "url": "https://www.abc.es/sociedad/papa-recuerda-afectados-inundaciones-grazalema-andalucia-20260208140909-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T14:00:11.534Z"
+        },
+        {
+          "title": "Afectados por el caos ferroviario: <<Tengo un hijo muy grave ingresado en A Coruna, no nos pueden dejar sin alternativas>>",
+          "url": "https://www.lavozdegalicia.es/noticia/coruna/coruna/2026/02/08/afectados-caos-ferroviario-hijo-grave-ingresado-coruna-pueden-dejar-alternativas/00031770550318774972394.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-02-08T13:05:47.500Z"
+        }
+      ]
     },
     {
       "id": 214,
-      "title": "Portugal",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 215,
       "title": "Borrascas",
       "source": "news_tags",
-      "volume": "47 artículos",
+      "volume": "46 artículos",
       "timeframe": "24h noticias",
-      "news_count": 47
+      "news_count": 46
     },
     {
       "id": 216,
@@ -1376,38 +1062,30 @@
     },
     {
       "id": 217,
-      "title": "Trump",
+      "title": "Chavismo",
       "source": "news_tags",
-      "volume": "37 artículos",
+      "volume": "41 artículos",
       "timeframe": "24h noticias",
-      "news_count": 37
+      "news_count": 41
     },
     {
       "id": 218,
-      "title": "Temporales",
+      "title": "Trump",
       "source": "news_tags",
-      "volume": "37 artículos",
+      "volume": "39 artículos",
       "timeframe": "24h noticias",
-      "news_count": 37
+      "news_count": 39
     },
     {
       "id": 219,
-      "title": "Encuestas Electorales",
+      "title": "Voto",
       "source": "news_tags",
-      "volume": "37 artículos",
+      "volume": "38 artículos",
       "timeframe": "24h noticias",
-      "news_count": 37
+      "news_count": 38
     },
     {
       "id": 220,
-      "title": "Voto",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 221,
       "title": "Japón",
       "source": "news_tags",
       "volume": "36 artículos",
@@ -1415,45 +1093,57 @@
       "news_count": 36
     },
     {
-      "id": 222,
-      "title": "Chavismo",
+      "id": 221,
+      "title": "Encuestas Electorales",
       "source": "news_tags",
       "volume": "36 artículos",
       "timeframe": "24h noticias",
       "news_count": 36
     },
     {
-      "id": 224,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 225,
-      "title": "Datos",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 226,
-      "title": "Podemos",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 28,
+      "id": 33,
       "title": "Adif",
       "source": "google",
       "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 32,
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 35,
       "matched_articles": [
+        {
+          "title": "Huelga de trenes y maquinistas en directo | La huelga arranca con retrasos y Renfe asegura que no se cumplen los servicios minimos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:35.928Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | La huelga arranca con retrasos y Renfe asegura que no se cumplen los servicios minimos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:34.028Z"
+        },
+        {
+          "title": "?Cambiar el nombre a Adif y Renfe? No basta para resolver la crisis ferroviaria",
+          "url": "https://www.lavanguardia.com/local/barcelona/20260209/11460602/cambiar-nombre-adif-renfe-basta.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T07:21:58.780Z"
+        },
+        {
+          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: retrasos en todas las lineas de Rodalies",
+          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T07:20:53.468Z"
+        },
+        {
+          "title": "Huelga de maquinistas de Renfe, en directo: incidencias en trenes Cercanias, AVE, Media Distancia, Rodalies, servicios minimos y ultimas noticias hoy",
+          "url": "https://www.abc.es/economia/huelga-maquinistas-renfe-directo-incidencias-trenes-cercanias-20260209065345-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T07:19:18.980Z"
+        },
+        {
+          "title": "Andalucia, hacia la \"normalidad\" y ante otro frente \"sin la potencia prevista\": miles de desalojados vuelven a casa",
+          "url": "https://www.elespanol.com/espana/andalucia/20260209/andalucia-normalidad-frente-sin-potencia-prevista-miles-desalojados-vuelven-casa/1003744121622_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:59.056Z"
+        },
         {
           "title": "Renfe, Ouigo y Iryo cancelan 328 trenes de alta velocidad en la huelga que arranca este lunes con el 75% de Cercanias en hora punta",
           "url": "https://www.20minutos.es/nacional/renfe-ouigo-iryo-cancelan-328-trenes-alta-velocidad-huelga-que-arranca-este-lunes-con-75-cercanias-hora-punta_6931064_0.html",
@@ -1627,46 +1317,60 @@
           "url": "https://www.20minutos.es/nacional/freno-alta-velocidad-crea-indefension-los-usuarios-dudas-los-turistas-aboca-ruina-miles-negocios-hosteleria_6930785_0.html",
           "newspaper": "20 Minutos",
           "date": "2026-02-08T07:52:47.418Z"
-        },
-        {
-          "title": "Cuatro evidencias acorralan a Puente en la tragedia de Adamuz",
-          "url": "https://www.abc.es/espana/cinco-evidencias-acorralan-puente-tragedia-adamuz-20260208040704-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T05:17:05.158Z"
-        },
-        {
-          "title": "Cuatro evidencias acorralan a Puente en la tragedia de Adamuz",
-          "url": "https://www.abc.es/espana/cinco-evidencias-acorralan-puente-tragedia-adamuz-20260208040704-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T05:15:51.793Z"
-        },
-        {
-          "title": "Renfe reanuda la circulacion de trenes desde Vigo en medio de la confusion general",
-          "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/02/08/renfe-reanuda-circulacion-trenes-vigo-medio-confusion-general/00031770507450589882383.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-02-08T05:15:17.696Z"
         }
       ]
     },
     {
-      "id": 227,
-      "title": "Lluvias",
+      "id": 223,
+      "title": "Datos",
       "source": "news_tags",
-      "volume": "32 artículos",
+      "volume": "34 artículos",
       "timeframe": "24h noticias",
-      "news_count": 32
+      "news_count": 34
+    },
+    {
+      "id": 224,
+      "title": "Temporales",
+      "source": "news_tags",
+      "volume": "34 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 34
+    },
+    {
+      "id": 225,
+      "title": "Era",
+      "source": "news_tags",
+      "volume": "33 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 33
+    },
+    {
+      "id": 226,
+      "title": "Podemos",
+      "source": "news_tags",
+      "volume": "33 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 33
+    },
+    {
+      "id": 228,
+      "title": "Venezuela",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
     },
     {
       "id": 229,
-      "title": "Teruel Existe",
+      "title": "Lluvias",
       "source": "news_tags",
-      "volume": "30 artículos",
+      "volume": "29 artículos",
       "timeframe": "24h noticias",
-      "news_count": 30
+      "news_count": 29
     },
     {
       "id": 230,
-      "title": "Febrero",
+      "title": "Teruel Existe",
       "source": "news_tags",
       "volume": "29 artículos",
       "timeframe": "24h noticias",
@@ -1674,27 +1378,43 @@
     },
     {
       "id": 231,
-      "title": "Pedro Sánchez",
+      "title": "Twitter",
       "source": "news_tags",
-      "volume": "29 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 29
+      "news_count": 28
     },
     {
       "id": 232,
-      "title": "Irán",
+      "title": "Huelgas",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 28
     },
     {
       "id": 233,
-      "title": "Mundo",
+      "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 28
+    },
+    {
+      "id": 234,
+      "title": "Elecciones Autonómicas",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 235,
+      "title": "Febrero",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
     },
     {
       "id": 236,
@@ -1706,318 +1426,502 @@
     },
     {
       "id": 237,
-      "title": "Elecciones Autonómicas",
+      "title": "Irán",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "25 artículos",
       "timeframe": "24h noticias",
-      "news_count": 26
+      "news_count": 25
     },
     {
       "id": 238,
-      "title": "Twitter",
+      "title": "Mundo",
       "source": "news_tags",
       "volume": "25 artículos",
       "timeframe": "24h noticias",
       "news_count": 25
     },
     {
-      "id": 239,
+      "id": 13,
+      "title": "Huelga Renfe",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 24,
+      "matched_articles": [
+        {
+          "title": "Huelga de trenes y maquinistas en directo | La huelga arranca con retrasos y Renfe asegura que no se cumplen los servicios minimos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:35.928Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | La huelga arranca con retrasos y Renfe asegura que no se cumplen los servicios minimos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:34.028Z"
+        },
+        {
+          "title": "Huelga de Renfe, hoy en directo | Servicios minimos de los trenes AVE y Cercanias y ultima hora del Rodalies",
+          "url": "https://www.lavanguardia.com/vida/20260209/11461322/huelga-general-renfe-transporte-barcelona-trenes-streaming-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T07:21:58.095Z"
+        },
+        {
+          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: retrasos en todas las lineas de Rodalies",
+          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T07:20:53.468Z"
+        },
+        {
+          "title": "Huelga de maquinistas de Renfe, en directo: incidencias en trenes Cercanias, AVE, Media Distancia, Rodalies, servicios minimos y ultimas noticias hoy",
+          "url": "https://www.abc.es/economia/huelga-maquinistas-renfe-directo-incidencias-trenes-cercanias-20260209065345-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T07:19:18.980Z"
+        },
+        {
+          "title": "Escasez de trenes en las estaciones de Cataluna durante las primeras horas de la huelga",
+          "url": "https://www.larazon.es/cataluna/escasez-trenes-estaciones-cataluna-primeras-horas-huelga_2026020969897d0d2f00a0468800a8db.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-09T07:13:13.367Z"
+        },
+        {
+          "title": "Renfe, Ouigo y Iryo cancelan 328 trenes de alta velocidad en la huelga que arranca este lunes con el 75% de Cercanias en hora punta",
+          "url": "https://www.20minutos.es/nacional/renfe-ouigo-iryo-cancelan-328-trenes-alta-velocidad-huelga-que-arranca-este-lunes-con-75-cercanias-hora-punta_6931064_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:17.685Z"
+        },
+        {
+          "title": "Los maquinistas inician una huelga de tres dias que pone en jaque el servicio en toda Espana",
+          "url": "https://www.abc.es/economia/maquinistas-inician-huelga-tres-dias-pone-jaque-20260209043546-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T05:10:34.870Z"
+        },
+        {
+          "title": "Huelga de maquinistas: estos son los servicios minimos en Renfe, Ouigo e Iryo, que anulan mas de mil trenes",
+          "url": "https://www.eldiario.es/economia/son-servicios-minimos-renfe-ouigo-e-iryo-anulan-millar-trenes-huelga-ferrocarril_1_12973705.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T05:04:13.152Z"
+        },
+        {
+          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: mas de 1,5 millones de viajeros diarios afectados",
+          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T02:43:33.728Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | Arranca la huelga ferroviaria de tres dias que cancelara mas de 330 trenes de alta velocidad y afectara a los servicios de Cercanias",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T23:49:40.218Z"
+        },
+        {
+          "title": "Estos son los servicios minimos de Renfe para este lunes",
+          "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/02/08/servicios-minimos-renfe-dias-huelga/00031770571464759862623.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-02-08T21:39:12.255Z"
+        },
+        {
+          "title": "Reclamaciones por la huelga de trenes: cuanto te reembolsan si tu AVE o media distancia se retrasa o cancela",
+          "url": "https://www.20minutos.es/nacional/reclamaciones-por-huelga-trenes-cuanto-te-reembolsan-si-tu-ave-media-distancia-se-retrasa-cancela_6931480_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T18:53:52.049Z"
+        },
+        {
+          "title": "BUSCADOR | Consulta si tu tren de Renfe, Ouigo y Iryo ha sido cancelado por la huelga o mantiene su servicio",
+          "url": "https://www.20minutos.es/nacional/buscador-consulta-si-tu-tren-renfe-ouigo-iryo-ha-sido-cancelado-por-huelga-mantiene-su-servicio_6931457_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T18:53:51.695Z"
+        },
+        {
+          "title": "Huelga de maquinistas de Renfe: trenes afectados en Cercanias, AVE, Media Distancia, Iryo y Ouigo este lunes 9 de febrero",
+          "url": "https://www.abc.es/economia/huelga-maquinistas-renfe-trenes-afectados-cercanias-ave-20260208200000-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T18:50:02.135Z"
+        },
+        {
+          "title": "Puente firma en Arabia la continuidad de Renfe en el AVE a La Meca y Talgo entregara 20 trenes mas",
+          "url": "https://www.abc.es/economia/puente-firma-arabia-continuidad-renfe-ave-meca-20260208175104-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T18:50:01.425Z"
+        },
+        {
+          "title": "Puente firma en Arabia la continuidad de Renfe en el Ave a La Meca y Talgo entregara 20 trenes mas",
+          "url": "https://www.abc.es/economia/puente-firma-arabia-continuidad-renfe-ave-meca-20260208175104-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T17:40:26.315Z"
+        },
+        {
+          "title": "Los sindicatos ferroviarios mantienen la huelga de tres dias desde este lunes",
+          "url": "https://www.eldiario.es/economia/sindicatos-espanoles-mantienen-huelga-ferroviaria-tres-dias-lunes_1_12973363.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T17:30:31.454Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | Los sindicatos mantienen la huelga de tres dias que afectara desde este lunes a AVE, Cercanias y media distancia",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T16:50:24.802Z"
+        },
+        {
+          "title": "La huelga de tren afectara a 5 millones de pasajeros desde el lunes: PP, Vox, ERC y Junts exigen la dimision de Puente",
+          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20260208/huelga-tren-afectara-millones-pasajeros-lunes-pp-vox-erc-junts-exigen-dimision-puente/1003744119679_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T15:37:11.334Z"
+        },
+        {
+          "title": "Puente fracasa y deja el ferrocarril al borde del colapso por la huelga de seguridad de los maquinistas y el personal de circulacion y mantenimiento",
+          "url": "https://www.larazon.es/economia/puente-fracasa-deja-ferrocarril-borde-colapso-huelga-seguridad-maquinistas_202602086988a9572f00a04688ff5ec4.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T15:33:58.937Z"
+        },
+        {
+          "title": "Puente firma en Riad la continuidad de Renfe en el AVE a La Meca y la compra de 20 Talgo a horas de expirar el plazo para evitar la huelga de trenes",
+          "url": "https://www.20minutos.es/nacional/puente-firma-riad-continuidad-renfe-ave-meca-compra-20-talgo-horas-expirar-plazo-para-evitar-huelga-trenes_6931416_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T13:10:51.606Z"
+        },
+        {
+          "title": "Huelga de maquinistas: asi quedan los servicios minimos en Alta Velocidad, Media Distancia y Cercanias",
+          "url": "https://www.20minutos.es/nacional/huelga-maquinistas-servicios-minimos_6930562_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T09:45:24.307Z"
+        },
+        {
+          "title": "Ver mas informacion de Sanchez explicara este miercoles en el Congreso los accidentes ferroviarios, coincidiendo con la huelga",
+          "url": "https://www.publico.es/politica/congreso/sanchez-explicara-miercoles-congreso-accidentes-ferroviarios-coincidiendo-huelga.html",
+          "newspaper": "Público",
+          "date": "2026-02-08T09:39:52.807Z"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Juan Pablo Guanipa",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 24,
+      "matched_articles": [
+        {
+          "title": "El opositor Juan Pablo Guanipa, secuestrado en Venezuela horas despues de ser excarcelado",
+          "url": "https://www.lavanguardia.com/internacional/20260209/11461335/opositor-juan-pablo-guanipa-secuestrado-venezuela-horas-excarcelado.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T07:22:25.646Z"
+        },
+        {
+          "title": "\"Hombres armados\" secuestran a Juan Pablo Guanipa, estrecho colaborador de Maria Corina, horas despues de su liberacion",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:17:52.728Z"
+        },
+        {
+          "title": "\"Hombres armados\" secuestran a Juan Pablo Guanipa, estrecho colaborador de Maria Corina, horas despues de su liberacion",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:29.814Z"
+        },
+        {
+          "title": "Denuncian el \"secuestro\" del opositor venezolano Juan Pablo Guanipa horas despues de haber sido excarcelado",
+          "url": "https://www.larazon.es/internacional/denuncian-secuestro-opositor-venezolanos-juan-pablo-guanipa-horas-despues-haber-sido-excarcelado_20260209698983461817b41eb63bb728.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-09T07:14:01.922Z"
+        },
+        {
+          "title": "Denuncian el \"secuestro\" del opositor venezolano Juan Pablo Guanipa horas despues de haber sido excarcelado",
+          "url": "https://www.larazon.es/internacional/denuncian-secuestro-opositor-venezolanos-juan-pablo-guanipa-horas-despues-haber-sido-excarcelado_20260209698983461817b41eb63bb728.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-09T07:13:10.944Z"
+        },
+        {
+          "title": "Dirigentes opositores venezolanos se lanzan a las calles para apoyar a las madres de los presos",
+          "url": "https://www.elmundo.es/internacional/2026/02/09/69893eaee4d4d8a0238b4597.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T02:43:55.136Z"
+        },
+        {
+          "title": "Dirigentes opositores venezolanos se lanzan a las calles para apoyar a las madres de los presos",
+          "url": "https://www.elmundo.es/internacional/2026/02/09/69893eaee4d4d8a0238b4597.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T02:43:33.728Z"
+        },
+        {
+          "title": "Excarcelado el dirigente Juan Pablo Guanipa y parte del equipo de Maria Corina Machado",
+          "url": "https://elpais.com/america/2026-02-08/excarcelado-el-dirigente-juan-pablo-guanipa-cercano-colaborador-de-maria-corina-machado.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T23:38:23.772Z"
+        },
+        {
+          "title": "Liberada la presa politica hispanovenezolana Catalina Ramos",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:31.810Z"
+        },
+        {
+          "title": "Liberada la presa politica hispanovenezolana Catalina Ramos",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:16.512Z"
+        },
+        {
+          "title": "El chavismo excarcela a dirigentes opositores y activistas, entre ellos una espanola",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:21.223Z"
+        },
+        {
+          "title": "El chavismo excarcela a dirigentes opositores y activistas, entre ellos una espanola",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T21:41:05.549Z"
+        },
+        {
+          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T20:44:31.853Z"
+        },
+        {
+          "title": "Liberados 18 presos politicos venezolanos, entre ellos Juan Pablo Guanipa, estrecho colaborador de Maria Corina",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T20:41:05.104Z"
+        },
+        {
+          "title": "Liberados 18 presos politicos venezolanos, entre ellos Juan Pablo Guanipa, estrecho colaborador de Maria Corina",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T20:39:42.572Z"
+        },
+        {
+          "title": "Excarcelan en Venezuela a Juan Pablo Guanipa, cercano aliado de opositora Maria Corina Machado",
+          "url": "https://www.larazon.es/internacional/excarcelan-venezuela-cercano-aliado-opositora-maria-corina-machado_202602086988dc521817b41eb63aba54.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T19:33:22.637Z"
+        },
+        {
+          "title": "Excarcelan en Venezuela a Juan Pablo Guanipa, cercano aliado de opositora Maria Corina Machado",
+          "url": "https://www.larazon.es/internacional/excarcelan-venezuela-cercano-aliado-opositora-maria-corina-machado_202602086988dc521817b41eb63aba54.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T19:32:33.757Z"
+        },
+        {
+          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T18:51:44.236Z"
+        },
+        {
+          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
+          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T18:51:29.190Z"
+        },
+        {
+          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, dirigente cercano a Maria Corina Machado",
+          "url": "https://www.abc.es/internacional/liberado-opositor-venezolano-juan-pablo-guanipa-dirigente-20260208183545-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T18:50:00.260Z"
+        },
+        {
+          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado, tras ocho meses preso",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T18:48:50.471Z"
+        },
+        {
+          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado, tras ocho meses preso",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T18:47:30.649Z"
+        },
+        {
+          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T17:38:55.288Z"
+        },
+        {
+          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado",
+          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T17:37:28.505Z"
+        }
+      ]
+    },
+    {
+      "id": 242,
       "title": "Reino Unido",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 24
     },
     {
-      "id": 241,
-      "title": "Venezuela",
+      "id": 243,
+      "title": "Estados Unidos",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
+    },
+    {
+      "id": 244,
+      "title": "Trenes",
       "source": "news_tags",
       "volume": "23 artículos",
       "timeframe": "24h noticias",
       "news_count": 23
     },
     {
-      "id": 242,
-      "title": "Huelgas",
+      "id": 245,
+      "title": "Rusia",
       "source": "news_tags",
       "volume": "22 artículos",
       "timeframe": "24h noticias",
       "news_count": 22
     },
     {
-      "id": 243,
-      "title": "Estados Unidos",
+      "id": 246,
+      "title": "Renfe",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
       "news_count": 21
     },
     {
-      "id": 29,
-      "title": "Juan Pablo Guanipa",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
-      "news_count": 19,
-      "matched_articles": [
-        {
-          "title": "Dirigentes opositores venezolanos se lanzan a las calles para apoyar a las madres de los presos",
-          "url": "https://www.elmundo.es/internacional/2026/02/09/69893eaee4d4d8a0238b4597.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:55.136Z"
-        },
-        {
-          "title": "Dirigentes opositores venezolanos se lanzan a las calles para apoyar a las madres de los presos",
-          "url": "https://www.elmundo.es/internacional/2026/02/09/69893eaee4d4d8a0238b4597.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
-        },
-        {
-          "title": "Excarcelado el dirigente Juan Pablo Guanipa y parte del equipo de Maria Corina Machado",
-          "url": "https://elpais.com/america/2026-02-08/excarcelado-el-dirigente-juan-pablo-guanipa-cercano-colaborador-de-maria-corina-machado.html",
-          "newspaper": "El País",
-          "date": "2026-02-08T23:38:23.772Z"
-        },
-        {
-          "title": "Liberada la presa politica hispanovenezolana Catalina Ramos",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:31.810Z"
-        },
-        {
-          "title": "Liberada la presa politica hispanovenezolana Catalina Ramos",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:16.512Z"
-        },
-        {
-          "title": "El chavismo excarcela a dirigentes opositores y activistas, entre ellos una espanola",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:21.223Z"
-        },
-        {
-          "title": "El chavismo excarcela a dirigentes opositores y activistas, entre ellos una espanola",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:05.549Z"
-        },
-        {
-          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T20:44:31.853Z"
-        },
-        {
-          "title": "Liberados 18 presos politicos venezolanos, entre ellos Juan Pablo Guanipa, estrecho colaborador de Maria Corina",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T20:41:05.104Z"
-        },
-        {
-          "title": "Liberados 18 presos politicos venezolanos, entre ellos Juan Pablo Guanipa, estrecho colaborador de Maria Corina",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T20:39:42.572Z"
-        },
-        {
-          "title": "Excarcelan en Venezuela a Juan Pablo Guanipa, cercano aliado de opositora Maria Corina Machado",
-          "url": "https://www.larazon.es/internacional/excarcelan-venezuela-cercano-aliado-opositora-maria-corina-machado_202602086988dc521817b41eb63aba54.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T19:33:22.637Z"
-        },
-        {
-          "title": "Excarcelan en Venezuela a Juan Pablo Guanipa, cercano aliado de opositora Maria Corina Machado",
-          "url": "https://www.larazon.es/internacional/excarcelan-venezuela-cercano-aliado-opositora-maria-corina-machado_202602086988dc521817b41eb63aba54.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T19:32:33.757Z"
-        },
-        {
-          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:44.236Z"
-        },
-        {
-          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:29.190Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, dirigente cercano a Maria Corina Machado",
-          "url": "https://www.abc.es/internacional/liberado-opositor-venezolano-juan-pablo-guanipa-dirigente-20260208183545-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T18:50:00.260Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado, tras ocho meses preso",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T18:48:50.471Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado, tras ocho meses preso",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T18:47:30.649Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T17:38:55.288Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T17:37:28.505Z"
-        }
-      ]
-    },
-    {
-      "id": 121,
-      "title": "Guanipa",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 19,
-      "matched_articles": [
-        {
-          "title": "Dirigentes opositores venezolanos se lanzan a las calles para apoyar a las madres de los presos",
-          "url": "https://www.elmundo.es/internacional/2026/02/09/69893eaee4d4d8a0238b4597.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:55.136Z"
-        },
-        {
-          "title": "Dirigentes opositores venezolanos se lanzan a las calles para apoyar a las madres de los presos",
-          "url": "https://www.elmundo.es/internacional/2026/02/09/69893eaee4d4d8a0238b4597.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
-        },
-        {
-          "title": "Excarcelado el dirigente Juan Pablo Guanipa y parte del equipo de Maria Corina Machado",
-          "url": "https://elpais.com/america/2026-02-08/excarcelado-el-dirigente-juan-pablo-guanipa-cercano-colaborador-de-maria-corina-machado.html",
-          "newspaper": "El País",
-          "date": "2026-02-08T23:38:23.772Z"
-        },
-        {
-          "title": "Liberada la presa politica hispanovenezolana Catalina Ramos",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:31.810Z"
-        },
-        {
-          "title": "Liberada la presa politica hispanovenezolana Catalina Ramos",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T22:41:16.512Z"
-        },
-        {
-          "title": "El chavismo excarcela a dirigentes opositores y activistas, entre ellos una espanola",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:21.223Z"
-        },
-        {
-          "title": "El chavismo excarcela a dirigentes opositores y activistas, entre ellos una espanola",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:05.549Z"
-        },
-        {
-          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T20:44:31.853Z"
-        },
-        {
-          "title": "Liberados 18 presos politicos venezolanos, entre ellos Juan Pablo Guanipa, estrecho colaborador de Maria Corina",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T20:41:05.104Z"
-        },
-        {
-          "title": "Liberados 18 presos politicos venezolanos, entre ellos Juan Pablo Guanipa, estrecho colaborador de Maria Corina",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T20:39:42.572Z"
-        },
-        {
-          "title": "Excarcelan en Venezuela a Juan Pablo Guanipa, cercano aliado de opositora Maria Corina Machado",
-          "url": "https://www.larazon.es/internacional/excarcelan-venezuela-cercano-aliado-opositora-maria-corina-machado_202602086988dc521817b41eb63aba54.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T19:33:22.637Z"
-        },
-        {
-          "title": "Excarcelan en Venezuela a Juan Pablo Guanipa, cercano aliado de opositora Maria Corina Machado",
-          "url": "https://www.larazon.es/internacional/excarcelan-venezuela-cercano-aliado-opositora-maria-corina-machado_202602086988dc521817b41eb63aba54.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T19:32:33.757Z"
-        },
-        {
-          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:44.236Z"
-        },
-        {
-          "title": "Liberado Juan Pablo Guanipa, numero 2 de la Plataforma Unitaria de la oposicion venezolana",
-          "url": "https://www.elmundo.es/internacional/2026/02/08/6988cfbdfc6c8327728b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T18:51:29.190Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, dirigente cercano a Maria Corina Machado",
-          "url": "https://www.abc.es/internacional/liberado-opositor-venezolano-juan-pablo-guanipa-dirigente-20260208183545-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T18:50:00.260Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado, tras ocho meses preso",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T18:48:50.471Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado, tras ocho meses preso",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T18:47:30.649Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T17:38:55.288Z"
-        },
-        {
-          "title": "Liberado el opositor venezolano Juan Pablo Guanipa, estrecho colaborador de Maria Corina Machado",
-          "url": "https://www.elespanol.com/mundo/20260208/liberado-opositor-venezolano-juan-pablo-guanipa-estrecho-colaborador-maria-corina-machado/1003744121575_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T17:37:28.505Z"
-        }
-      ]
-    },
-    {
-      "id": 244,
+      "id": 247,
       "title": "Eeuu",
       "source": "news_tags",
-      "volume": "19 artículos",
+      "volume": "20 artículos",
       "timeframe": "24h noticias",
-      "news_count": 19
+      "news_count": 20
     },
     {
-      "id": 245,
-      "title": "Jeffrey Epstein",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
+      "id": 25,
+      "title": "Huelga Maquinistas",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 19,
+      "matched_articles": [
+        {
+          "title": "Huelga de trenes y maquinistas en directo | La huelga arranca con retrasos y Renfe asegura que no se cumplen los servicios minimos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:35.928Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | La huelga arranca con retrasos y Renfe asegura que no se cumplen los servicios minimos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:23:34.028Z"
+        },
+        {
+          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: retrasos en todas las lineas de Rodalies",
+          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T07:20:53.468Z"
+        },
+        {
+          "title": "Huelga de maquinistas de Renfe, en directo: incidencias en trenes Cercanias, AVE, Media Distancia, Rodalies, servicios minimos y ultimas noticias hoy",
+          "url": "https://www.abc.es/economia/huelga-maquinistas-renfe-directo-incidencias-trenes-cercanias-20260209065345-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T07:19:18.980Z"
+        },
+        {
+          "title": "Renfe, Ouigo y Iryo cancelan 328 trenes de alta velocidad en la huelga que arranca este lunes con el 75% de Cercanias en hora punta",
+          "url": "https://www.20minutos.es/nacional/renfe-ouigo-iryo-cancelan-328-trenes-alta-velocidad-huelga-que-arranca-este-lunes-con-75-cercanias-hora-punta_6931064_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:17.685Z"
+        },
+        {
+          "title": "Los maquinistas inician una huelga de tres dias que pone en jaque el servicio en toda Espana",
+          "url": "https://www.abc.es/economia/maquinistas-inician-huelga-tres-dias-pone-jaque-20260209043546-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T05:10:34.870Z"
+        },
+        {
+          "title": "Huelga de maquinistas: estos son los servicios minimos en Renfe, Ouigo e Iryo, que anulan mas de mil trenes",
+          "url": "https://www.eldiario.es/economia/son-servicios-minimos-renfe-ouigo-e-iryo-anulan-millar-trenes-huelga-ferrocarril_1_12973705.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T05:04:13.152Z"
+        },
+        {
+          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: mas de 1,5 millones de viajeros diarios afectados",
+          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T02:43:33.728Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | Arranca la huelga ferroviaria de tres dias que cancelara mas de 330 trenes de alta velocidad y afectara a los servicios de Cercanias",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T23:49:40.218Z"
+        },
+        {
+          "title": "BUSCADOR | Consulta si tu tren de Renfe, Ouigo y Iryo ha sido cancelado por la huelga o mantiene su servicio",
+          "url": "https://www.20minutos.es/nacional/buscador-consulta-si-tu-tren-renfe-ouigo-iryo-ha-sido-cancelado-por-huelga-mantiene-su-servicio_6931457_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T18:53:51.695Z"
+        },
+        {
+          "title": "Huelga de maquinistas de Renfe: trenes afectados en Cercanias, AVE, Media Distancia, Iryo y Ouigo este lunes 9 de febrero",
+          "url": "https://www.abc.es/economia/huelga-maquinistas-renfe-trenes-afectados-cercanias-ave-20260208200000-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T18:50:02.135Z"
+        },
+        {
+          "title": "Puente firma en Arabia la continuidad de Renfe en el AVE a La Meca y Talgo entregara 20 trenes mas",
+          "url": "https://www.abc.es/economia/puente-firma-arabia-continuidad-renfe-ave-meca-20260208175104-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T18:50:01.425Z"
+        },
+        {
+          "title": "Puente firma en Arabia la continuidad de Renfe en el Ave a La Meca y Talgo entregara 20 trenes mas",
+          "url": "https://www.abc.es/economia/puente-firma-arabia-continuidad-renfe-ave-meca-20260208175104-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T17:40:26.315Z"
+        },
+        {
+          "title": "Los sindicatos ferroviarios mantienen la huelga de tres dias desde este lunes",
+          "url": "https://www.eldiario.es/economia/sindicatos-espanoles-mantienen-huelga-ferroviaria-tres-dias-lunes_1_12973363.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T17:30:31.454Z"
+        },
+        {
+          "title": "Huelga de trenes y maquinistas en directo | Los sindicatos mantienen la huelga de tres dias que afectara desde este lunes a AVE, Cercanias y media distancia",
+          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T16:50:24.802Z"
+        },
+        {
+          "title": "La huelga de tren afectara a 5 millones de pasajeros desde el lunes: PP, Vox, ERC y Junts exigen la dimision de Puente",
+          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20260208/huelga-tren-afectara-millones-pasajeros-lunes-pp-vox-erc-junts-exigen-dimision-puente/1003744119679_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T15:37:11.334Z"
+        },
+        {
+          "title": "Puente fracasa y deja el ferrocarril al borde del colapso por la huelga de seguridad de los maquinistas y el personal de circulacion y mantenimiento",
+          "url": "https://www.larazon.es/economia/puente-fracasa-deja-ferrocarril-borde-colapso-huelga-seguridad-maquinistas_202602086988a9572f00a04688ff5ec4.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T15:33:58.937Z"
+        },
+        {
+          "title": "Huelga de maquinistas: asi quedan los servicios minimos en Alta Velocidad, Media Distancia y Cercanias",
+          "url": "https://www.20minutos.es/nacional/huelga-maquinistas-servicios-minimos_6930562_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-08T09:45:24.307Z"
+        },
+        {
+          "title": "Ver mas informacion de Sanchez explicara este miercoles en el Congreso los accidentes ferroviarios, coincidiendo con la huelga",
+          "url": "https://www.publico.es/politica/congreso/sanchez-explicara-miercoles-congreso-accidentes-ferroviarios-coincidiendo-huelga.html",
+          "newspaper": "Público",
+          "date": "2026-02-08T09:39:52.807Z"
+        }
+      ]
     },
     {
-      "id": 246,
+      "id": 248,
       "title": "Mapas en Eldiario.es",
       "source": "news_tags",
       "volume": "19 artículos",
@@ -2025,42 +1929,26 @@
       "news_count": 19
     },
     {
-      "id": 247,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "18 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
-      "id": 248,
-      "title": "Trenes",
-      "source": "news_tags",
-      "volume": "18 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 18
-    },
-    {
       "id": 249,
-      "title": "Mujeres",
+      "title": "Jeffrey Epstein",
       "source": "news_tags",
       "volume": "18 artículos",
       "timeframe": "24h noticias",
       "news_count": 18
     },
     {
-      "id": 31,
-      "title": "Tiempo Alicante",
+      "id": 34,
+      "title": "Metro Madrid",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
-      "news_count": 7,
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 17,
       "matched_articles": [
         {
-          "title": "Huelga de trenes y maquinistas en directo | Arranca la huelga ferroviaria de tres dias que cancelara mas de 330 trenes de alta velocidad y afectara a los servicios de Cercanias",
-          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
+          "title": "La subida del precio de la vivienda castiga a las zonas mas baratas: se encarecieron en 2025 casi el doble que las mas prohibitivas",
+          "url": "https://www.20minutos.es/nacional/subida-precio-vivienda-castiga-las-zonas-mas-baratas-se-encarecieron-2025-casi-doble-que-las-mas-prohibitivas_6930976_0.html",
           "newspaper": "20 Minutos",
-          "date": "2026-02-08T23:49:40.218Z"
+          "date": "2026-02-09T05:14:16.013Z"
         },
         {
           "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Sanchez visita este lunes las zonas afectadas por las borrascas en Granada y Jaen",
@@ -2097,187 +1985,385 @@
           "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
           "newspaper": "El Mundo",
           "date": "2026-02-08T18:51:59.989Z"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Huelga Cercanias Madrid",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 6,
-      "matched_articles": [
+        },
         {
-          "title": "Renfe, Ouigo y Iryo cancelan 328 trenes de alta velocidad en la huelga que arranca este lunes con el 75% de Cercanias en hora punta",
-          "url": "https://www.20minutos.es/nacional/renfe-ouigo-iryo-cancelan-328-trenes-alta-velocidad-huelga-que-arranca-este-lunes-con-75-cercanias-hora-punta_6931064_0.html",
+          "title": "El temporal no da tregua y trae mas lluvia, viento y nieve en las proximas horas: estas son las zonas que esperan lo peor",
+          "url": "https://www.20minutos.es/nacional/temporal-no-da-tregua-trae-mas-lluvia-viento-nieve-las-proximas-horas-estas-son-las-zonas-que-esperan-peor_6931468_0.html",
           "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:17.685Z"
+          "date": "2026-02-08T17:44:49.982Z"
         },
         {
-          "title": "Los maquinistas inician una huelga de tres dias que pone en jaque el servicio en toda Espana",
-          "url": "https://www.abc.es/economia/maquinistas-inician-huelga-tres-dias-pone-jaque-20260209043546-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T05:10:34.870Z"
-        },
-        {
-          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: mas de 1,5 millones de viajeros diarios afectados",
-          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El tronco principal del Guadalquivir sigue en nivel rojo, aunque tiende al descenso suave",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
           "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
+          "date": "2026-02-08T15:42:21.438Z"
         },
         {
-          "title": "Huelga de trenes y maquinistas en directo | Arranca la huelga ferroviaria de tres dias que cancelara mas de 330 trenes de alta velocidad y afectara a los servicios de Cercanias",
-          "url": "https://www.20minutos.es/nacional/huelga-trenes-maquinistas-directo-los-sindicatos-mantienen-huelga-tres-dias-que-afectara-desde-este-lunes-ave-cercanias-media-distancia_6931456_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-08T23:49:40.218Z"
-        },
-        {
-          "title": "Los sindicatos ferroviarios mantienen la huelga de tres dias desde este lunes",
-          "url": "https://www.eldiario.es/economia/sindicatos-espanoles-mantienen-huelga-ferroviaria-tres-dias-lunes_1_12973363.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T17:30:31.454Z"
-        },
-        {
-          "title": "La huelga de tren afectara a 5 millones de pasajeros desde el lunes: PP, Vox, ERC y Junts exigen la dimision de Puente",
-          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20260208/huelga-tren-afectara-millones-pasajeros-lunes-pp-vox-erc-junts-exigen-dimision-puente/1003744119679_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-08T15:37:11.334Z"
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Premios Gaudí",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
-      "news_count": 6,
-      "matched_articles": [
-        {
-          "title": "La gala de los Premios Gaudi 2026 | Sigue en directo todos los premiados y los discursos",
-          "url": "https://www.lavanguardia.com/cultura/20260208/11461111/premios-gaudi-2026-nominados-horarios-cine-academia-cine-catalan-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T22:42:14.109Z"
-        },
-        {
-          "title": "Premios Gaudi 2026, en directo | Sigue la gala con todos los premiados y los discursos",
-          "url": "https://www.lavanguardia.com/cultura/20260208/11461111/premios-gaudi-2026-nominados-horarios-cine-academia-cine-catalan-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T21:42:02.597Z"
-        },
-        {
-          "title": "Gala de los Premios Gaudi: \"El cine catalan esta en un gran momento\"",
-          "url": "https://www.elmundo.es/cataluna/2026/02/08/6988fad6e9cf4ac80f8b4576.html",
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El tronco principal del Guadalquivir sigue en nivel rojo, aunque tiende al descenso suave",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
           "newspaper": "El Mundo",
-          "date": "2026-02-08T21:41:05.552Z"
+          "date": "2026-02-08T15:42:21.437Z"
         },
         {
-          "title": "Premios Gaudi 2026, en directo | Sigue la gala del cine catalan en el Teatre el Liceu de Barcelona",
-          "url": "https://www.lavanguardia.com/cultura/20260208/11461111/premios-gaudi-2026-nominados-horarios-cine-academia-cine-catalan-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T20:45:19.570Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El tronco principal del Guadalquivir sigue en nivel rojo, aunque tiende al descenso suave",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T15:42:21.436Z"
         },
         {
-          "title": "Todos los premios Gaudi 2026",
-          "url": "https://www.lavanguardia.com/cultura/cine/20260208/11459993/premios-gaudi-cine-2026.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T18:52:29.083Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | El tronco principal del Guadalquivir sigue en nivel rojo, aunque tiende al descenso suave",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T15:41:46.472Z"
         },
         {
-          "title": "El significado de los colores que vestiran las presentadoras de los Premios Gaudi",
-          "url": "https://www.lavanguardia.com/magazine/moda/20260208/11459884/significado-colores-vestiran-presentadoras-premios-gaudi.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-08T07:07:49.847Z"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Bad Bunny Super Bowl",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 5,
-      "matched_articles": [
-        {
-          "title": "Trump dice que el espectaculo de Bad Bunny fue \"uno de los peores de la historia\"",
-          "url": "https://www.20minutos.es/internacional/trump-dice-que-espectaculo-bad-bunny-fue-uno-los-peores-historia_6931553_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:44.403Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Nivel rojo por desbordamiento de los rios Jarama, Alberche y Henares en Madrid",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T13:08:49.403Z"
         },
         {
-          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
-          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:05:30.686Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Nivel rojo por desbordamiento de los rios Jarama, Alberche y Henares en Madrid",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T13:08:49.402Z"
         },
         {
-          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
-          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T02:46:47.025Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Nivel rojo por desbordamiento de los rios Jarama, Alberche y Henares en Madrid",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T13:08:49.402Z"
         },
         {
-          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T02:44:47.771Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Nivel rojo por desbordamiento de los rios Jarama, Alberche y Henares en Madrid",
+          "url": "https://www.elmundo.es/espana/2026/02/08/69882f481ee97cbdb60c3517-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T13:08:11.460Z"
         },
         {
-          "title": "La Super Bowl, blindada contra las redadas migratorias y en pie de guerra contra Trump",
-          "url": "https://www.larazon.es/internacional/super-bowl-blindada-redadas-migratorias-pie-guerra-trump_2026020869884f042f00a04688fec6f4.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T09:39:01.045Z"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Bad Bunny",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 5,
-      "matched_articles": [
-        {
-          "title": "Trump dice que el espectaculo de Bad Bunny fue \"uno de los peores de la historia\"",
-          "url": "https://www.20minutos.es/internacional/trump-dice-que-espectaculo-bad-bunny-fue-uno-los-peores-historia_6931553_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:44.403Z"
-        },
-        {
-          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
-          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:05:30.686Z"
-        },
-        {
-          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
-          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T02:46:47.025Z"
-        },
-        {
-          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T02:44:47.771Z"
-        },
-        {
-          "title": "La Super Bowl, blindada contra las redadas migratorias y en pie de guerra contra Trump",
-          "url": "https://www.larazon.es/internacional/super-bowl-blindada-redadas-migratorias-pie-guerra-trump_2026020869884f042f00a04688fec6f4.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T09:39:01.045Z"
+          "title": "Temporal en Espana por la borrasca Marta, ultima hora de las fuertes lluvias hoy en directo | Muere una conductora tras chocar con una quitanieves en la sierra de Madrid",
+          "url": "https://www.elmundo.es/espana/2026/02/07/6986d7741ee97cbdb6004cfb-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T07:51:02.725Z"
         }
       ]
     },
     {
       "id": 8,
+      "title": "La Liga",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 13 h (24h)",
+      "news_count": 15,
+      "matched_articles": [
+        {
+          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T07:09:53.829Z"
+        },
+        {
+          "title": "Los Seahawks ahogan a los Patriots con su defensa y ganan su segunda Super Bowl",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461324/seahawks-ahogan-patriots-defensa-ganan-segunda-super-bowl.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T05:12:54.781Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
+        },
+        {
+          "title": "Mbappe se arremanga y el Real Madrid sigue en la carrera",
+          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260208/11461167/real-madrid-valencia-carreras-mbappe-victoria.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T22:42:15.508Z"
+        },
+        {
+          "title": "El rescatador Carreras y el eterno Mbappe sostienen al Madrid en la persecucion por LaLiga",
+          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/08/6988de2ee85ecedc7b8b457b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:16.511Z"
+        },
+        {
+          "title": "Carreras y Mbappe mantienen a un Madrid sin brillo a un punto del Barca",
+          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-20260208164529-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T22:39:55.887Z"
+        },
+        {
+          "title": "Carreras acude al rescate de un gris Real Madrid en Mestalla para aguantar el tiron de la pelea por el liderato en La Liga",
+          "url": "https://www.elespanol.com/deportes/futbol/20260208/carreras-acude-rescate-gris-real-madrid-mestalla-aguantar-tiron-pelea-liderato-liga/1003744121719_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T22:37:21.292Z"
+        },
+        {
+          "title": "Laporta: \"?Presidencialista? Yo lidero, me mojo y doy la cara, eso seguro\"",
+          "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20260208/11461135/laporta-presidencialista-lidero-me-mojo-doy-cara-seguro.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-08T20:45:22.183Z"
+        },
+        {
+          "title": "El Betis rompe la racha invicta del Metropolitano y mete en problemas a Simeone",
+          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/08/6988e5c621efa07e578b4584.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T20:44:14.298Z"
+        },
+        {
+          "title": "Valencia - Real Madrid en directo: resultado, goles y ganador del partido de la jornada 23 de la Liga",
+          "url": "https://www.abc.es/deportes/real-madrid/valencia-real-madrid-directo-resultado-goles-ganador-20260208140244-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T20:42:28.883Z"
+        },
+        {
+          "title": "Valencia - Real Madrid, en directo La Liga: resultado, goleadores y estadisticas en vivo",
+          "url": "https://www.elespanol.com/deportes/20260208/valencia-real-madrid-directo-liga-resultado-goleadores-estadisticas-vivo/1003744121067_22.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T20:39:37.033Z"
+        },
+        {
+          "title": "El Real Madrid olvida los males de la Euroliga y doblega al Granada para reafirmarse como lider de la Liga Endesa",
+          "url": "https://www.elespanol.com/deportes/baloncesto/20260208/real-madrid-olvida-males-euroliga-doblega-granada-reafirmarse-lider-liga-endesa/1003744121594_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T18:47:33.122Z"
+        },
+        {
+          "title": "Atletico de Madrid - Betis en directo: resultado, goles y ganador del partido de la jornada 23 de la Liga",
+          "url": "https://www.abc.es/deportes/atletico-madrid/atletico-madrid-betis-directo-resultado-goles-ganador-20260208135124-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T17:40:27.666Z"
+        },
+        {
+          "title": "Real Madrid - Granada, en directo Liga Endesa: resultado, valoraciones y estadisticas en vivo",
+          "url": "https://www.elespanol.com/deportes/20260208/real-madrid-granada-directo-liga-endesa-resultado-valoraciones-estadisticas-vivo/1003744121072_22.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T16:42:57.736Z"
+        },
+        {
+          "title": "La Super Bowl, blindada contra las redadas migratorias y en pie de guerra contra Trump",
+          "url": "https://www.larazon.es/internacional/super-bowl-blindada-redadas-migratorias-pie-guerra-trump_2026020869884f042f00a04688fec6f4.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T09:39:01.045Z"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Vito Quiles",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 15,
+      "matched_articles": [
+        {
+          "title": "Y Vox sigue subiendo",
+          "url": "https://www.20minutos.es/nacional/vox-sigue-subiendo_6931544_3.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:18.359Z"
+        },
+        {
+          "title": "Resultado de las elecciones Aragon 2026, ganador en directo | Jorge Azcon proclama que \"el sanchismo se acaba\" y manana iniciara los contactos para su investidura",
+          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T23:47:28.042Z"
+        },
+        {
+          "title": "Vox lleva al bipartidismo a su segunda crisis",
+          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988cefefc6c8344628b458f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T23:47:28.040Z"
+        },
+        {
+          "title": "Azcon gana pero sale perdiendo ante la impotencia del PP para frenar a Vox: \"Eso es un drama imparable\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-aragon/2026/02/08/6988ccdbfc6c83ab408b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T23:46:50.723Z"
+        },
+        {
+          "title": "La caida de Azcon agita al PP: <<Copiar a Vox no es la solucion>>",
+          "url": "https://www.larazon.es/espana/caida-azcon-agita-copiar-vox-solucion_20260208698912f51817b41eb63b1e0c.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T23:39:47.605Z"
+        },
+        {
+          "title": "La caida de Azcon agita al PP: <<Copiar a Vox no es la solucion>>",
+          "url": "https://www.larazon.es/espana/caida-azcon-agita-copiar-vox-solucion_20260208698912f51817b41eb63b1e0c.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T23:39:14.570Z"
+        },
+        {
+          "title": "El bloque de la derecha se ensancha",
+          "url": "https://elpais.com/espana/elecciones-aragon/2026-02-08/el-bloque-de-la-derecha-se-ensancha.html",
+          "newspaper": "El País",
+          "date": "2026-02-08T23:38:56.924Z"
+        },
+        {
+          "title": "Resultados elecciones Aragon 2026, en directo | El PP retrocede ante el empuje de Vox y el PSOE cae a su minimo historico",
+          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:48.302Z"
+        },
+        {
+          "title": "Resultados elecciones Aragon 2026, en directo | El PP retrocede ante el empuje de Vox y el PSOE cae a su minimo historico",
+          "url": "https://www.elmundo.es/espana/2026/02/08/6988283aa75cca89414a2f8f-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T22:41:16.508Z"
+        },
+        {
+          "title": "El aviso de Aragon: la partida del PP no es subir, es no bajar",
+          "url": "https://www.abc.es/espana/aragon/ana-sanchez-aviso-aragon-partida-pp-subir-bajar-20260208230349-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-08T22:40:52.213Z"
+        },
+        {
+          "title": "El PP no deja de hacer regalos a Vox",
+          "url": "https://www.eldiario.es/politica/pp-no-deja-regalos-vox_129_12973568.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T22:31:31.895Z"
+        },
+        {
+          "title": "Aragon mide el avance ultra y pone a prueba la apuesta del PP por adelantar elecciones",
+          "url": "https://www.eldiario.es/aragon/politica/aragon-mide-avance-ultra-pone-prueba-apuesta-pp-adelantar-elecciones_1_12971006.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T13:50:34.692Z"
+        },
+        {
+          "title": "Elecciones Aragon 2026: El Espanol se anticipa al escrutinio y publicara al cierre de las urnas una encuesta de SocioMetrica",
+          "url": "https://www.elespanol.com/espana/politica/20260208/elecciones-aragon-espanol-anticipa-escrutinio-publicara-cierre-urnas-encuesta-sociometrica/1003744121377_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T13:04:06.483Z"
+        },
+        {
+          "title": "Elecciones Aragon 2026: El Espanol se anticipa al escrutinio y publicara al cierre de las urnas una encuesta de SocioMetrica",
+          "url": "https://www.elespanol.com/espana/politica/20260208/elecciones-aragon-espanol-anticipa-escrutinio-publicara-cierre-urnas-encuesta-sociometrica/1003744121377_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-08T13:03:22.196Z"
+        },
+        {
+          "title": "Sanchez y Feijoo se miden ahora en Aragon con una inflamada inercia nacional de la que solo saca redito la ultraderecha de Vox",
+          "url": "https://www.eldiario.es/politica/sanchez-feijoo-miden-ahora-aragon-inflamada-inercia-nacional-saca-redito-ultraderecha-vox_129_12969126.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-08T10:31:30.016Z"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bad Bunny",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 8,
+      "matched_articles": [
+        {
+          "title": "El concierto alternativo a Bad Bunny reune a mas de 6 millones de espectadores",
+          "url": "https://www.20minutos.es/internacional/concierto-alternativo-bad-bunny-reune-mas-6-millones-espectadores_6931555_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:24:04.800Z"
+        },
+        {
+          "title": "Bad Bunny convierte el descanso de la Super Bowl en una fiesta del orgullo latino que Trump define como \"terrible\"",
+          "url": "https://www.elespanol.com/deportes/otros-deportes/20260209/bad-bunny-convierte-descanso-super-bowl-fiesta-orgullo-latino/1003744121843_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:27.572Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T07:09:53.829Z"
+        },
+        {
+          "title": "Trump dice que el espectaculo de Bad Bunny fue \"uno de los peores de la historia\"",
+          "url": "https://www.20minutos.es/internacional/trump-dice-que-espectaculo-bad-bunny-fue-uno-los-peores-historia_6931553_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T05:14:44.403Z"
+        },
+        {
+          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
+          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T05:05:30.686Z"
+        },
+        {
+          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
+          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T02:46:47.025Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
+        },
+        {
+          "title": "La Super Bowl, blindada contra las redadas migratorias y en pie de guerra contra Trump",
+          "url": "https://www.larazon.es/internacional/super-bowl-blindada-redadas-migratorias-pie-guerra-trump_2026020869884f042f00a04688fec6f4.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T09:39:01.045Z"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Seahawks",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
+      "news_count": 7,
+      "matched_articles": [
+        {
+          "title": "Los Seattle Seahawks destrozan a los New England Patriots y logran su segunda Super Bowl",
+          "url": "https://www.elmundo.es/deportes/futbol-americano/2026/02/09/698959a4fc6c8309288b45a4.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-09T07:20:53.470Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T07:09:53.829Z"
+        },
+        {
+          "title": "Los Seahawks ahogan a los Patriots con su defensa y ganan su segunda Super Bowl",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461324/seahawks-ahogan-patriots-defensa-ganan-segunda-super-bowl.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T05:12:54.781Z"
+        },
+        {
+          "title": "Activistas reparten toallas con el lema de 'ICE fuera' a los aficionados que asisten del Super Bowl",
+          "url": "https://www.20minutos.es/internacional/activistas-reparten-toallas-con-lemas-ice-fuera-las-afueras-super-bowl_6931548_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T02:46:47.025Z"
+        },
+        {
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
+        },
+        {
+          "title": "Super Bowl 2026, final NFL en directo | New England Patriots vs Seattle Seahawks",
+          "url": "https://www.elmundo.es/deportes/futbol-americano/new-england-patriots-seattle-seahawks/2026/02/09/08_0802_20260208_9947_9959-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-08T23:46:50.724Z"
+        },
+        {
+          "title": "Chris Hemsworth y Elsa Pataky comparten una mirada poco habitual a su vida familiar en Australia",
+          "url": "https://www.larazon.es/gente/famosos/chris-hemsworth-elsa-pataky-comparten-mirada-poco-habitual-vida-familiar-australia-b50m_2026020869888eea9243cc133c3af7b4.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-08T13:54:20.690Z"
+        }
+      ]
+    },
+    {
+      "id": 11,
       "title": "Lindsey Vonn",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 4,
       "matched_articles": [
         {
@@ -2307,63 +2393,7 @@
       ]
     },
     {
-      "id": 12,
-      "title": "Nfl Super Bowl",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 3,
-      "matched_articles": [
-        {
-          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
-          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-09T02:44:47.771Z"
-        },
-        {
-          "title": "Super Bowl 2026, final NFL en directo | New England Patriots vs Seattle Seahawks",
-          "url": "https://www.elmundo.es/deportes/futbol-americano/new-england-patriots-seattle-seahawks/2026/02/09/08_0802_20260208_9947_9959-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.724Z"
-        },
-        {
-          "title": "La Super Bowl, blindada contra las redadas migratorias y en pie de guerra contra Trump",
-          "url": "https://www.larazon.es/internacional/super-bowl-blindada-redadas-migratorias-pie-guerra-trump_2026020869884f042f00a04688fec6f4.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-08T09:39:01.045Z"
-        }
-      ]
-    },
-    {
-      "id": 103,
-      "title": "Raquel",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 3,
-      "matched_articles": [
-        {
-          "title": "Israel cambia una ley para que los judios puedan comprar suelo en Cisjordania: \"Enterraremos la idea de un Estado Palestino\"",
-          "url": "https://www.eldiario.es/internacional/israel-cambia-ley-judios-puedan-comprar-suelo-cisjordania-enterraremos-idea-palestino_1_12973406.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T17:31:44.820Z"
-        },
-        {
-          "title": "Israel cambia una ley para que los judios puedan comprar suelo en Cisjordania: \"Enterraremos la idea de un Estado Palestino\"",
-          "url": "https://www.eldiario.es/internacional/israel-cambia-ley-judios-puedan-comprar-suelo-cisjordania-enterraremos-idea-palestino_1_12973406.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-08T17:30:27.781Z"
-        },
-        {
-          "title": "Mujer y sin familia jurista, el perfil que se impone en las nuevas promociones de jueces: \"Cuando los abogados te ven, se sorprenden\"",
-          "url": "https://www.20minutos.es/nacional/mujer-sin-familia-jurista-perfil-que-se-impone-las-nuevas-promociones-jueces-cuando-los-abogados-te-ven-se-sorprenden_6930894_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-08T07:52:46.806Z"
-        }
-      ]
-    },
-    {
-      "id": 104,
+      "id": 102,
       "title": "Carvajal",
       "source": "x_trends",
       "volume": "N/A",
@@ -2391,39 +2421,33 @@
       ]
     },
     {
-      "id": 122,
-      "title": "Atocha",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 3,
+      "id": 14,
+      "title": "Ricky Martin",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
+      "news_count": 2,
       "matched_articles": [
         {
-          "title": "Renfe, Ouigo y Iryo cancelan 328 trenes de alta velocidad en la huelga que arranca este lunes con el 75% de Cercanias en hora punta",
-          "url": "https://www.20minutos.es/nacional/renfe-ouigo-iryo-cancelan-328-trenes-alta-velocidad-huelga-que-arranca-este-lunes-con-75-cercanias-hora-punta_6931064_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-09T05:14:17.685Z"
+          "title": "Bad Bunny convierte el descanso de la Super Bowl en una fiesta del orgullo latino que Trump define como \"terrible\"",
+          "url": "https://www.elespanol.com/deportes/otros-deportes/20260209/bad-bunny-convierte-descanso-super-bowl-fiesta-orgullo-latino/1003744121843_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:27.572Z"
         },
         {
-          "title": "Arranca la huelga contra el caos ferroviario de Oscar Puente: mas de 1,5 millones de viajeros diarios afectados",
-          "url": "https://www.elmundo.es/economia/empresas/2026/02/09/69872224fdddff597e8b46bf.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-09T02:43:33.728Z"
-        },
-        {
-          "title": "Los fantasmas de Adamuz: <<Cada dia despierto en ese tren>>",
-          "url": "https://www.abc.es/espana/fantasmas-adamuz-dia-despierto-tren-20260208040755-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-08T05:15:52.843Z"
+          "title": "Bad Bunny reivindica en su show de la Super Bowl la America que es mas que EE.UU.",
+          "url": "https://www.lavanguardia.com/deportes/20260209/11461320/bad-bunny-reivindica-show-super-bowl-america-mas-ee-uu.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T02:44:47.771Z"
         }
       ]
     },
     {
-      "id": 13,
-      "title": "Ricky Martin",
+      "id": 30,
+      "title": "Liam Conejo Ramos",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -2435,36 +2459,20 @@
       ]
     },
     {
-      "id": 15,
-      "title": "Quien Gano el Super Bowl 2026",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Super Bowl 2026, final NFL en directo | New England Patriots vs Seattle Seahawks",
-          "url": "https://www.elmundo.es/deportes/futbol-americano/new-england-patriots-seattle-seahawks/2026/02/09/08_0802_20260208_9947_9959-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-08T23:46:50.724Z"
-        }
-      ]
-    },
-    {
       "id": 1,
       "title": "Valencia C. F. - Real Madrid",
       "source": "google",
       "volume": "500 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Atlético Madrid - Real Betis",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 16 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2473,7 +2481,7 @@
       "title": "Athletic - Levante",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2482,7 +2490,7 @@
       "title": "Sevilla - Girona",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2491,7 +2499,7 @@
       "title": "Liverpool - Manchester City",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2500,7 +2508,7 @@
       "title": "Alavés - Getafe",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2509,40 +2517,67 @@
       "title": "Psg - Marsella",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 14,
-      "title": "Bayern - Hoffenheim",
+      "id": 20,
+      "title": "Bad Bunny Super Bowl Halftime Show",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 25,
+      "id": 21,
       "title": "Kim Kardashian",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 22,
+      "title": "Quien Gano el Super Bowl 2026",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 23,
+      "title": "Actuacion Super Bowl 2026",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 26,
-      "title": "Who Won The Super Bowl 2026",
+      "title": "Rafael Amador",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 27,
-      "title": "Una Nueva Vida Serie Turca",
+      "title": "Who Won The Super Bowl 2026",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 28,
+      "title": "Alix Earle",
       "source": "google",
       "volume": "200+ búsquedas",
       "timeframe": "hace 1 h (4h)",
@@ -2550,16 +2585,25 @@
       "matched_articles": []
     },
     {
-      "id": 101,
-      "title": "#ghduo8f",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
+      "id": 29,
+      "title": "España Milano Cortina 2026",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 102,
+      "id": 32,
+      "title": "Una Nueva Vida Serie Turca",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 101,
       "title": "#coac2026s1",
       "source": "x_trends",
       "volume": "N/A",
@@ -2568,8 +2612,8 @@
       "matched_articles": []
     },
     {
-      "id": 123,
-      "title": "Chamartín",
+      "id": 103,
+      "title": "#ghduo8f",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -2577,17 +2621,8 @@
       "matched_articles": []
     },
     {
-      "id": 124,
-      "title": "Aranjuez",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 125,
-      "title": "Seguís",
+      "id": 104,
+      "title": "#ghdúocuentas5",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

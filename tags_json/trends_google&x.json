@@ -1,41 +1,57 @@
 {
-  "timestamp": "2026-02-10T05:21:57.831570",
+  "timestamp": "2026-02-10T07:23:50.107769",
   "summary": {
-    "google_total": 22,
-    "xtrends_total": 6,
+    "google_total": 30,
+    "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 75,
-    "unified_count": 3,
-    "with_news": 59,
-    "without_news": 16
+    "unique_total": 85,
+    "unified_count": 5,
+    "with_news": 60,
+    "without_news": 25
   },
   "trends": [
     {
       "id": 200,
-      "title": "Xunta de Galicia",
+      "title": "Ue - Union Europea",
       "source": "news_tags",
-      "volume": "180 artículos",
+      "volume": "210 artículos",
       "timeframe": "24h noticias",
-      "news_count": 180
+      "news_count": 210
     },
     {
       "id": 201,
-      "title": "Aragón",
+      "title": "Xunta de Galicia",
       "source": "news_tags",
-      "volume": "171 artículos",
+      "volume": "188 artículos",
       "timeframe": "24h noticias",
-      "news_count": 171
+      "news_count": 188
     },
     {
       "id": 202,
-      "title": "Psoe Castilla y Leon",
+      "title": "Aragón",
+      "source": "news_tags",
+      "volume": "176 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 176
+    },
+    {
+      "id": 203,
+      "title": "Espana-newsletter-destacada",
       "source": "news_tags",
       "volume": "88 artículos",
       "timeframe": "24h noticias",
       "news_count": 88
     },
     {
-      "id": 203,
+      "id": 204,
+      "title": "Psoe Castilla y Leon",
+      "source": "news_tags",
+      "volume": "87 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 87
+    },
+    {
+      "id": 205,
       "title": "Gobierno Vasco",
       "source": "news_tags",
       "volume": "81 artículos",
@@ -43,15 +59,7 @@
       "news_count": 81
     },
     {
-      "id": 204,
-      "title": "Espana-newsletter-destacada",
-      "source": "news_tags",
-      "volume": "80 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 80
-    },
-    {
-      "id": 205,
+      "id": 206,
       "title": "Trump",
       "source": "news_tags",
       "volume": "75 artículos",
@@ -59,20 +67,20 @@
       "news_count": 75
     },
     {
-      "id": 206,
+      "id": 207,
       "title": "Elecciones Gallegas",
       "source": "news_tags",
-      "volume": "67 artículos",
+      "volume": "70 artículos",
       "timeframe": "24h noticias",
-      "news_count": 67
+      "news_count": 70
     },
     {
-      "id": 207,
+      "id": 208,
       "title": "Política Penitenciaria",
       "source": "news_tags",
-      "volume": "63 artículos",
+      "volume": "69 artículos",
       "timeframe": "24h noticias",
-      "news_count": 63
+      "news_count": 69
     },
     {
       "id": 102,
@@ -80,8 +88,32 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 58,
+      "news_count": 61,
       "matched_articles": [
+        {
+          "title": "Los resultados en Aragon confirman la 'derechizacion' del voto en Espana: \"Aunque con retraso, era inevitable que llegara la ola\"",
+          "url": "https://www.20minutos.es/nacional/los-resultados-aragon-confirman-derechizacion-voto-espana-aunque-con-retraso-era-inevitable-que-llegara-ola_6931673_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-10T05:20:53.271Z"
+        },
+        {
+          "title": "Ver mas informacion de Antonella Marty: \"La extrema derecha trata de imponer y normalizar el maltrato\"",
+          "url": "https://www.publico.es/sociedad/video-antonella-marty-extrema-derecha-trata-imponer-normalizar-maltrato.html",
+          "newspaper": "Público",
+          "date": "2026-02-10T05:12:16.135Z"
+        },
+        {
+          "title": "Ver mas informacion de Lo unico mas poderoso que Trump es... Bad Bunny: el orgullo latino desafia en la Super Bowl a la politica del miedo",
+          "url": "https://www.publico.es/culturas/musica/unico-poderoso-trump-bad-bunny-orgullo-latino-desafia-super-bowl-politica-miedo.html",
+          "newspaper": "Público",
+          "date": "2026-02-10T05:12:13.063Z"
+        },
+        {
+          "title": "La verdadera \"crisis migratoria\" es laboral",
+          "url": "https://www.eldiario.es/economia/crisis-migratoria-laboral_129_12974734.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-10T05:07:19.160Z"
+        },
         {
           "title": "De un puesto ambulante en Los Angeles a compartir escenario con Bad Bunny: la taqueria Villa's Tacos en el Super Bowl LX",
           "url": "https://elpais.com/us/entretenimiento/2026-02-10/de-un-puesto-ambulante-en-los-angeles-a-compartir-escenario-con-bad-bunny-la-taqueria-villas-tacos-en-el-super-bowl-lx.html",
@@ -237,27 +269,193 @@
           "url": "https://elpais.com/america-colombia/2026-02-09/juan-manuel-santos-el-mundo-va-por-un-camino-equivocado.html",
           "newspaper": "El País",
           "date": "2026-02-09T07:12:16.830Z"
+        }
+      ],
+      "merged_sources": [
+        "x_trends",
+        "news_tags"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Trump Bad Bunny",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 59,
+      "matched_articles": [
+        {
+          "title": "?Por que Trump esta muy lejos de ganar la guerra cultural en Estados Unidos?",
+          "url": "https://www.abc.es/internacional/pedro-rodriguez-trump-lejos-ganar-guerra-cultural-estados-unidos-20260209042225-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-10T05:16:59.030Z"
         },
         {
-          "title": "Cuba advierte a las lineas areas internacionales que a partir del lunes se queda sin combustible para la aviacion",
-          "url": "https://elpais.com/america/2026-02-09/cuba-advierte-a-las-lineas-areas-internacionales-que-a-partir-del-lunes-se-queda-sin-combustible-para-la-aviacion.html",
+          "title": "Ver mas informacion de Lo unico mas poderoso que Trump es... Bad Bunny: el orgullo latino desafia en la Super Bowl a la politica del miedo",
+          "url": "https://www.publico.es/culturas/musica/unico-poderoso-trump-bad-bunny-orgullo-latino-desafia-super-bowl-politica-miedo.html",
+          "newspaper": "Público",
+          "date": "2026-02-10T05:12:13.063Z"
+        },
+        {
+          "title": "La gran leccion de Bad Bunny en la Super Bowl: \"Si estoy aqui ahora es porque nunca deje de creer en mi\"",
+          "url": "https://www.elmundo.es/cultura/musica/2026/02/10/698a6da9e9cf4afe3e8b4575.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-10T02:51:53.965Z"
+        },
+        {
+          "title": "?Quien teme al \"Conejo Malo\"? Trump entra en panico con el uso del espanol cuando el 46% de los latinos le votaron en 2024",
+          "url": "https://www.elespanol.com/mundo/america/20260210/teme-conejo-malo-trump-entra-panico-uso-espanol-latinos-votaron/1003744123361_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-10T02:46:54.870Z"
+        },
+        {
+          "title": "Elon Musk pospone su sueno de colonizar Marte: \"Construir una ciudad en la Luna es la nueva prioridad de SpaceX\"",
+          "url": "https://elpais.com/ciencia/2026-02-09/elon-musk-pospone-su-sueno-de-colonizar-marte-construir-una-ciudad-en-la-luna-es-la-nueva-prioridad-de-spacex.html",
           "newspaper": "El País",
-          "date": "2026-02-09T05:06:32.083Z"
+          "date": "2026-02-09T20:56:52.450Z"
         },
         {
-          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
-          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
+          "title": "Duolingo registra un alza del 35% en los alumnos de espanol tras la actuacion de Bad Bunny en la Super Bowl",
+          "url": "https://www.20minutos.es/internacional/duolingo-registra-un-alza-35-los-alumnos-espanol-tras-actuacion-bad-bunny-super-bowl_6931989_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T19:34:40.538Z"
+        },
+        {
+          "title": "Bad Bunny en la Super Bowl: una suma de cliches televisivos sobre America Latina",
+          "url": "https://www.abc.es/cultura/musica/rodrigo-blanco-calderon-bad-bunny-super-bowl-suma-cliches-televisivos-20260209143403-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T19:29:59.339Z"
+        },
+        {
+          "title": "Bad Bunny contra Trump: la batalla simbolica de la SuperBowl",
+          "url": "https://www.lavanguardia.com/cultura/20260209/11461878/bad-bunny-trump-batalla-simbolica-superbowl.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T15:08:27.303Z"
+        },
+        {
+          "title": "Tommy Wolter y Elly Bean, la pareja de enfermeros que se ha casado en la Super Bowl ante 127 millones de espectadores",
+          "url": "https://www.elespanol.com/corazon/celebrities/20260209/tommy-wolter-elly-bean-pareja-enfermeros-casado-super-bowl-millones-espectadores/1003744122268_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T15:03:04.367Z"
+        },
+        {
+          "title": "Trump, sobre la actuacion: \"Nadie entiende una palabra de lo que dice este tipo, y el baile es repugnante\"",
+          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T14:59:06.163Z"
+        },
+        {
+          "title": "Lo que no viste de la Super Bowl mas vista de la historia",
+          "url": "https://www.abc.es/cultura/musica/viste-super-bowl-vista-historia-20260209112735-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:37.762Z"
+        },
+        {
+          "title": "Ver mas informacion de Bad Bunny triunfa en la Super Bowl: la reivindicacion de una America mas amplia",
+          "url": "https://www.publico.es/culturas/musica/bad-bunny-triunfa-super-bowl-reivindicacion-america.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T13:21:20.651Z"
+        },
+        {
+          "title": "Trump sobre la actuacion de Bad Bunny: \"Nadie entiende lo que dice\"",
+          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T11:51:30.915Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiarioar.com/espectaculos/bad-bunny-saca-colores-ee-uu-super-bowl-latinos-seguimos_129_12974441.html",
           "newspaper": "El Diario",
-          "date": "2026-02-09T05:05:30.686Z"
+          "date": "2026-02-09T11:50:41.991Z"
+        },
+        {
+          "title": "Trump estalla contra Bad Bunny por su actuacion en el Super Bowl: \"Nadie entiende lo que dice este tipo y el baile es repugnante\"",
+          "url": "https://www.eldiarioar.com/espectaculos/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-dice-tipo-baile-repugnante_1_12974525.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T11:50:40.927Z"
+        },
+        {
+          "title": "Un nino inmigrante, Lady Gaga y \"God Bless America\": Bad Bunny firma el espectaculo mas politico de la Super Bowl",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20260209/nino-inmigrante-lady-gaga-god-bless-america-bad-bunny-firma-espectaculo-politico-super-bowl/1003744121903_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T10:19:44.465Z"
+        },
+        {
+          "title": "Un nino inmigrante, Lady Gaga y \"God Bless America\": Bad Bunny firma el espectaculo mas politico de la Super Bowl",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20260209/nino-inmigrante-lady-gaga-god-bless-america-bad-bunny-firma-espectaculo-politico-super-bowl/1003744121903_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T10:18:28.731Z"
+        },
+        {
+          "title": "El show de Bad Bunny en la Super Bowl que no ha gustado a Trump: \"Lo unico mas poderoso que el odio es el amor\"",
+          "url": "https://www.publico.es/tremending/show-bad-bunny-super-bowl-gustado-trump-unico-poderoso-odio-amor.html",
+          "newspaper": "Público",
+          "date": "2026-02-09T10:16:54.517Z"
+        },
+        {
+          "title": "Trump dice que el espectaculo de Bad Bunny en la Super Bowl fue \"uno de los peores de la historia\": \"El baile fue repugnante\"",
+          "url": "https://www.20minutos.es/internacional/trump-dice-que-espectaculo-bad-bunny-fue-uno-los-peores-historia_6931553_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T09:10:15.640Z"
+        },
+        {
+          "title": "Trump ve \"repugnante\" el show de Bad Bunny, un \"tipo al que no se le entiende\" y un \"mal ejemplo para los ninos\"",
+          "url": "https://www.lavanguardia.com/internacional/20260209/11461388/trump-ve-repugnante-show-bad-bunny-tipo-le-entiende-mal-ejemplo-ninos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T09:08:49.277Z"
+        },
+        {
+          "title": "Trump ve \"repugnante\" el show de Bad Bunny, un \"tipo al que no se le entiende\" y un \"mal ejemplo para los ninos\"",
+          "url": "https://www.lavanguardia.com/internacional/20260209/11461388/trump-ve-repugnante-show-bad-bunny-tipo-le-entiende-mal-ejemplo-ninos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-09T09:08:20.670Z"
+        },
+        {
+          "title": "El amor que nos enseno Benito",
+          "url": "https://elpais.com/us/2026-02-09/el-amor-que-nos-enseno-benito.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:16.270Z"
+        },
+        {
+          "title": "Bad Bunny deslumbra en el Super Bowl con una odisea puertorriquena y la defensa de America mas alla de Estados Unidos",
+          "url": "https://elpais.com/us/entretenimiento/2026-02-09/bad-bunny-arrasa-en-la-super-bowl-con-una-defensa-de-america-mas-alla-de-estados-unidos.html",
+          "newspaper": "El País",
+          "date": "2026-02-09T09:01:15.587Z"
+        },
+        {
+          "title": "El concierto alternativo a Bad Bunny reune a mas de 6 millones de espectadores",
+          "url": "https://www.20minutos.es/internacional/concierto-alternativo-bad-bunny-reune-mas-6-millones-espectadores_6931555_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T07:24:04.800Z"
+        },
+        {
+          "title": "Bad Bunny convierte el descanso de la Super Bowl en una fiesta del orgullo latino que Trump define como \"terrible\"",
+          "url": "https://www.elespanol.com/deportes/otros-deportes/20260209/bad-bunny-convierte-descanso-super-bowl-fiesta-orgullo-latino/1003744121843_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T07:16:27.572Z"
+        },
+        {
+          "title": "Bad Bunny saca los colores a EEUU en la Super Bowl de los latinos: \"Seguimos aqui\"",
+          "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T07:09:53.829Z"
         }
       ],
       "merged_sources": [
         "news_tags",
-        "x_trends"
+        "google"
       ]
     },
     {
-      "id": 208,
+      "id": 209,
+      "title": "Feijoo",
+      "source": "news_tags",
+      "volume": "58 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 58
+    },
+    {
+      "id": 210,
       "title": "Pop",
       "source": "news_tags",
       "volume": "57 artículos",
@@ -265,63 +463,39 @@
       "news_count": 57
     },
     {
-      "id": 209,
+      "id": 211,
       "title": "Estados Unidos",
       "source": "news_tags",
-      "volume": "54 artículos",
+      "volume": "57 artículos",
       "timeframe": "24h noticias",
-      "news_count": 54
-    },
-    {
-      "id": 210,
-      "title": "Feijoo",
-      "source": "news_tags",
-      "volume": "50 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 50
-    },
-    {
-      "id": 211,
-      "title": "Huelgas",
-      "source": "news_tags",
-      "volume": "50 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 50
+      "news_count": 57
     },
     {
       "id": 212,
-      "title": "Madrid",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "48 artículos",
+      "volume": "50 artículos",
       "timeframe": "24h noticias",
-      "news_count": 48
+      "news_count": 50
     },
     {
-      "id": 229,
+      "id": 228,
       "title": "Policía Nacional",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 47
+      "news_count": 49
     },
     {
       "id": 213,
-      "title": "Era",
+      "title": "En Directo",
       "source": "news_tags",
-      "volume": "46 artículos",
+      "volume": "45 artículos",
       "timeframe": "24h noticias",
-      "news_count": 46
+      "news_count": 45
     },
     {
       "id": 214,
-      "title": "En Directo",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 215,
       "title": "Europa Occidental",
       "source": "news_tags",
       "volume": "45 artículos",
@@ -329,23 +503,39 @@
       "news_count": 45
     },
     {
+      "id": 215,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "44 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 44
+    },
+    {
       "id": 216,
-      "title": "Renfe",
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 217,
+      "title": "Social",
       "source": "news_tags",
       "volume": "37 artículos",
       "timeframe": "24h noticias",
       "news_count": 37
     },
     {
-      "id": 217,
-      "title": "Eeuu",
+      "id": 218,
+      "title": "Renfe",
       "source": "news_tags",
       "volume": "36 artículos",
       "timeframe": "24h noticias",
       "news_count": 36
     },
     {
-      "id": 218,
+      "id": 219,
       "title": "Jeffrey Epstein",
       "source": "news_tags",
       "volume": "35 artículos",
@@ -353,15 +543,7 @@
       "news_count": 35
     },
     {
-      "id": 219,
-      "title": "Bad Bunny",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 220,
+      "id": 221,
       "title": "Ine",
       "source": "news_tags",
       "volume": "32 artículos",
@@ -369,15 +551,15 @@
       "news_count": 32
     },
     {
-      "id": 222,
-      "title": "Rusia",
+      "id": 223,
+      "title": "Erc-esquerra Republicana de Catalunya",
       "source": "news_tags",
-      "volume": "29 artículos",
+      "volume": "30 artículos",
       "timeframe": "24h noticias",
-      "news_count": 29
+      "news_count": 30
     },
     {
-      "id": 223,
+      "id": 224,
       "title": "Trenes",
       "source": "news_tags",
       "volume": "29 artículos",
@@ -385,7 +567,7 @@
       "news_count": 29
     },
     {
-      "id": 224,
+      "id": 225,
       "title": "Super Bowl",
       "source": "news_tags",
       "volume": "29 artículos",
@@ -393,32 +575,24 @@
       "news_count": 29
     },
     {
-      "id": 225,
-      "title": "Guerra en Ucrania",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
       "id": 226,
-      "title": "Congreso Diputados",
+      "title": "Rusia",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 28
     },
     {
       "id": 227,
-      "title": "Venezuela",
+      "title": "Congreso Diputados",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 26
+      "news_count": 28
     },
     {
-      "id": 228,
-      "title": "Andalucía",
+      "id": 229,
+      "title": "Jorge Azcón",
       "source": "news_tags",
       "volume": "26 artículos",
       "timeframe": "24h noticias",
@@ -426,47 +600,31 @@
     },
     {
       "id": 230,
-      "title": "Jorge Azcón",
+      "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 26
     },
     {
       "id": 231,
-      "title": "Pedro Sánchez",
+      "title": "Andalucía",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 24
     },
     {
       "id": 232,
-      "title": "Erc-esquerra Republicana de Catalunya",
+      "title": "Chavismo",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "23 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 23
     },
     {
       "id": 233,
-      "title": "Sindicatos",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 234,
-      "title": "Seguridad Social",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 235,
-      "title": "Partido Socialista",
+      "title": "Santiago Abascal",
       "source": "news_tags",
       "volume": "23 artículos",
       "timeframe": "24h noticias",
@@ -615,7 +773,7 @@
       ]
     },
     {
-      "id": 236,
+      "id": 234,
       "title": "Febrero",
       "source": "news_tags",
       "volume": "22 artículos",
@@ -623,15 +781,23 @@
       "news_count": 22
     },
     {
-      "id": 237,
-      "title": "Santiago Abascal",
+      "id": 236,
+      "title": "Sindicatos",
       "source": "news_tags",
-      "volume": "22 artículos",
+      "volume": "21 artículos",
       "timeframe": "24h noticias",
-      "news_count": 22
+      "news_count": 21
     },
     {
-      "id": 239,
+      "id": 237,
+      "title": "Alta Velocidad",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 238,
       "title": "Elecciones Autonómicas",
       "source": "news_tags",
       "volume": "21 artículos",
@@ -639,61 +805,25 @@
       "news_count": 21
     },
     {
-      "id": 240,
-      "title": "Laboral",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 241,
-      "title": "Acuerdo",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 242,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 243,
-      "title": "Reino Unido",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 244,
-      "title": "Pilar Alegría",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 245,
-      "title": "Alta Velocidad",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
       "id": 103,
       "title": "Puerto Rico",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 19,
+      "news_count": 20,
       "matched_articles": [
+        {
+          "title": "Ver mas informacion de El cuento de la alta cultura",
+          "url": "https://www.publico.es/opinion/columnas/cuento-alta-cultura.html",
+          "newspaper": "Público",
+          "date": "2026-02-10T05:12:14.673Z"
+        },
+        {
+          "title": "Ver mas informacion de Lo unico mas poderoso que Trump es... Bad Bunny: el orgullo latino desafia en la Super Bowl a la politica del miedo",
+          "url": "https://www.publico.es/culturas/musica/unico-poderoso-trump-bad-bunny-orgullo-latino-desafia-super-bowl-politica-miedo.html",
+          "newspaper": "Público",
+          "date": "2026-02-10T05:12:13.063Z"
+        },
         {
           "title": "La gran leccion de Bad Bunny en la Super Bowl: \"Si estoy aqui ahora es porque nunca deje de creer en mi\"",
           "url": "https://www.elmundo.es/cultura/musica/2026/02/10/698a6da9e9cf4afe3e8b4575.html",
@@ -801,33 +931,27 @@
           "url": "https://www.eldiario.es/cultura/musica/bad-bunny-saca-colores-eeuu-super-bowl-latinos_129_12972806.html",
           "newspaper": "El Diario",
           "date": "2026-02-09T07:09:53.829Z"
-        },
-        {
-          "title": "Trump estalla contra Bad Bunny por su actuacion en la Super Bowl: \"Nadie entiende ni una palabra de lo que dice este tipo, y el baile es repugnante\"",
-          "url": "https://www.eldiario.es/internacional/trump-estalla-bad-bunny-actuacion-super-bowl-nadie-entiende-palabra-dice-tipo-baile-repugnante_1_12973860.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T05:05:30.686Z"
         }
       ]
     },
     {
-      "id": 246,
-      "title": "China",
+      "id": 239,
+      "title": "Laboral",
       "source": "news_tags",
-      "volume": "19 artículos",
+      "volume": "20 artículos",
       "timeframe": "24h noticias",
-      "news_count": 19
+      "news_count": 20
     },
     {
-      "id": 247,
-      "title": "Ouigo",
+      "id": 240,
+      "title": "Pilar Alegría",
       "source": "news_tags",
-      "volume": "19 artículos",
+      "volume": "20 artículos",
       "timeframe": "24h noticias",
-      "news_count": 19
+      "news_count": 20
     },
     {
-      "id": 248,
+      "id": 241,
       "title": "Podemos",
       "source": "news_tags",
       "volume": "19 artículos",
@@ -835,7 +959,23 @@
       "news_count": 19
     },
     {
-      "id": 249,
+      "id": 242,
+      "title": "Ucrania",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 243,
+      "title": "Reino Unido",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 244,
       "title": "Keir Starmer",
       "source": "news_tags",
       "volume": "19 artículos",
@@ -843,51 +983,91 @@
       "news_count": 19
     },
     {
-      "id": 9,
-      "title": "Bad Bunny Super Bowl Halftime Show",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "id": 245,
+      "title": "Tribunales",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 246,
+      "title": "Migraciones",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 247,
+      "title": "Gabriel Rufián",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 248,
+      "title": "Izquierda Unida",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 249,
+      "title": "Nfl",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 123,
+      "title": "Salf",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
       "news_count": 5,
       "matched_articles": [
         {
-          "title": "?Quien teme al \"Conejo Malo\"? Trump entra en panico con el uso del espanol cuando el 46% de los latinos le votaron en 2024",
-          "url": "https://www.elespanol.com/mundo/america/20260210/teme-conejo-malo-trump-entra-panico-uso-espanol-latinos-votaron/1003744123361_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-10T02:46:54.870Z"
+          "title": "Los resultados en Aragon confirman la 'derechizacion' del voto en Espana: \"Aunque con retraso, era inevitable que llegara la ola\"",
+          "url": "https://www.20minutos.es/nacional/los-resultados-aragon-confirman-derechizacion-voto-espana-aunque-con-retraso-era-inevitable-que-llegara-ola_6931673_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-10T05:20:53.271Z"
         },
         {
-          "title": "Trump, sobre la actuacion: \"Nadie entiende una palabra de lo que dice este tipo, y el baile es repugnante\"",
-          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
+          "title": "Vox acumula cuatro meses de subida en la estimacion de voto para las generales",
+          "url": "https://elpais.com/espana/2026-02-10/vox-acumula-cuatro-meses-de-subida-en-la-estimacion-de-voto-para-las-generales.html",
           "newspaper": "El País",
-          "date": "2026-02-09T14:59:06.163Z"
+          "date": "2026-02-10T05:10:15.272Z"
         },
         {
-          "title": "Trump sobre la actuacion de Bad Bunny: \"Nadie entiende lo que dice\"",
-          "url": "https://elpais.com/cultura/2026-02-09/donald-trump-sobre-la-actuacion-de-bad-bunny-en-la-super-bowl-es-terrible-una-de-los-peores-de-la-historia.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T11:51:30.915Z"
+          "title": "Mapa calle a calle de los resultados de las elecciones en Aragon en 2025",
+          "url": "https://www.abc.es/espana/aragon/mapa-calle-calle-resultados-elecciones-aragon-2025-20260209074712-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-09T13:23:28.933Z"
         },
         {
-          "title": "Un nino inmigrante, Lady Gaga y \"God Bless America\": Bad Bunny firma el espectaculo mas politico de la Super Bowl",
-          "url": "https://www.elespanol.com/mundo/america/eeuu/20260209/nino-inmigrante-lady-gaga-god-bless-america-bad-bunny-firma-espectaculo-politico-super-bowl/1003744121903_0.html",
+          "title": "Al menos 31.000 de los votos de Vox en Aragon proceden del PP: el 26% de los que ha obtenido y el 13% de los que tenia Azcon",
+          "url": "https://www.elespanol.com/espana/politica/20260209/votos-vox-aragon-proceden-pp-obtenido-azcon/1003744119115_0.html",
           "newspaper": "El Español",
-          "date": "2026-02-09T10:19:44.465Z"
+          "date": "2026-02-09T11:55:33.912Z"
         },
         {
-          "title": "Un nino inmigrante, Lady Gaga y \"God Bless America\": Bad Bunny firma el espectaculo mas politico de la Super Bowl",
-          "url": "https://www.elespanol.com/mundo/america/eeuu/20260209/nino-inmigrante-lady-gaga-god-bless-america-bad-bunny-firma-espectaculo-politico-super-bowl/1003744121903_0.html",
+          "title": "Al menos 31.000 de los votos de Vox en Aragon proceden del PP: el 26% de los que ha obtenido y el 13% de los que tenia Azcon",
+          "url": "https://www.elespanol.com/espana/politica/20260209/votos-vox-aragon-proceden-pp-obtenido-azcon/1003744119115_0.html",
           "newspaper": "El Español",
-          "date": "2026-02-09T10:18:28.731Z"
+          "date": "2026-02-09T11:54:50.533Z"
         }
       ]
     },
     {
-      "id": 24,
+      "id": 25,
       "title": "Leches Infantiles",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 4,
       "matched_articles": [
         {
@@ -951,33 +1131,61 @@
       ]
     },
     {
-      "id": 10,
-      "title": "Actuacion Bad Bunny Super Bowl 2026",
+      "id": 30,
+      "title": "Susana Sumelzo",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
-      "news_count": 2,
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 3,
       "matched_articles": [
         {
-          "title": "El significado del traje de Zara que Bad Bunny ha llevado en la Super Bowl 2026",
-          "url": "https://www.abc.es/summum/estilo/moda/significado-traje-zara-bad-bunny-llevado-super-20260209100256-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-09T13:23:37.011Z"
+          "title": "Asi te hemos contado la actualidad sobre las elecciones aragonesas y la politica nacional del 9 de febrero de 2026",
+          "url": "https://www.eldiario.es/politica/ultima-hora-elecciones-aragonesas-actualidad-politica-directo_6_12973972.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-09T22:41:25.232Z"
         },
         {
-          "title": "Bad Bunny saca los colores a EE.UU. en el Super Bowl de los latinos: \"Seguimos aqui\"",
-          "url": "https://www.eldiarioar.com/espectaculos/bad-bunny-saca-colores-ee-uu-super-bowl-latinos-seguimos_129_12974441.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-09T11:50:41.991Z"
+          "title": "Ultima hora politica, en directo | Alegria: \"El capricho de Azcon por mandato de Feijoo solo ha provocado que hoy el PP sea mas rehen de Vox\"",
+          "url": "https://www.elespanol.com/espana/politica/20260209/resultados-elecciones-aragon-ultima-hora-politica-directo-azcon-vox/1003744121865_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T19:27:55.498Z"
+        },
+        {
+          "title": "Sumelzo niega vinculos con la empresa de su familia, que ha logrado 30 M en contratos con Sanchez en el Gobierno",
+          "url": "https://www.elespanol.com/espana/politica/20260209/sumelzo-niega-vinculos-empresa-familia-logrado-contratos-sanchez-gobierno/1003744122908_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-09T19:27:41.426Z"
         }
       ]
     },
     {
-      "id": 5,
+      "id": 23,
+      "title": "Boe",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Aagesen acumula decretos sin aprobar ante la desesperacion del sector energetico",
+          "url": "https://www.abc.es/economia/aagesen-acumula-reales-decreto-aprobar-ante-desesperacion-20260206041844-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-10T05:16:33.625Z"
+        },
+        {
+          "title": "Ver mas informacion de ?Por que tardamos seis anos en conseguir la regularizacion de medio millon de personas?",
+          "url": "https://www.publico.es/opinion/columnas/tardamos-seis-anos-conseguir-regularizacion-medio-millon-personas.html",
+          "newspaper": "Público",
+          "date": "2026-02-10T05:12:22.673Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
       "title": "Rafael Amador",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -989,27 +1197,11 @@
       ]
     },
     {
-      "id": 6,
-      "title": "Kim Kardashian",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "De Karol G y Pedro Pascal en La Casita a DiCaprio y Justin Bieber en las gradas: todos los famosos en el partido",
-          "url": "https://elpais.com/gente/2026-02-09/de-karol-g-y-pedro-pascal-en-la-casita-a-dicaprio-y-justin-bieber-en-las-gradas-todos-los-famosos-de-la-super-bowl.html",
-          "newspaper": "El País",
-          "date": "2026-02-09T13:19:06.382Z"
-        }
-      ]
-    },
-    {
-      "id": 8,
+      "id": 7,
       "title": "Laporta",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
+      "timeframe": "hace 19 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -1021,11 +1213,11 @@
       ]
     },
     {
-      "id": 25,
+      "id": 21,
       "title": "Muere Rafael Amador Pata Negra",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -1037,11 +1229,27 @@
       ]
     },
     {
+      "id": 32,
+      "title": "Sorteo Primitiva Hoy",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Comprobar Primitiva: resultados de hoy, lunes 9 de febrero de 2026",
+          "url": "https://www.20minutos.es/nacional/comprobar-primitiva-resultados-hoy-lunes-9-febrero-2026_6931983_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-09T19:34:15.965Z"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "Vila-real - Espanyol",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1050,7 +1258,7 @@
       "title": "Racing de Santander - Mirandés",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1059,31 +1267,58 @@
       "title": "Maria Hervas",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Jutta Leerdam",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Entradas Bad Bunny Madrid",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 8,
+      "title": "Porto - Sporting Lisboa",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 9,
+      "title": "Ticketmaster",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 11,
-      "title": "Porto - Sporting Lisboa",
+      "title": "Roma - Cagliari",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 12,
+      "title": "Quiniela",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 9 h (24h)",
@@ -1092,28 +1327,19 @@
     },
     {
       "id": 13,
-      "title": "Ticketmaster",
+      "title": "Atalanta - Cremonese",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 14,
-      "title": "Atalanta - Cremonese",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 15,
       "title": "España Milano Cortina 2026",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1121,17 +1347,8 @@
       "id": 20,
       "title": "Lakers - Thunder",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 21,
-      "title": "Nuggets - Cavaliers",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1139,14 +1356,32 @@
       "id": 22,
       "title": "Warriors - Grizzlies",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 23,
-      "title": "Villarreal Gerard Moreno",
+      "id": 24,
+      "title": "Nuggets - Cavaliers",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 26,
+      "title": "Manchester United",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 27,
+      "title": "Nuevo Iphone 17e",
       "source": "google",
       "volume": "200+ búsquedas",
       "timeframe": "hace 1 h (4h)",
@@ -1154,11 +1389,38 @@
       "matched_articles": []
     },
     {
-      "id": 26,
-      "title": "Gira Conciertos la Reina del Flow",
+      "id": 28,
+      "title": "Salah",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 20 min (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 29,
+      "title": "Trail Blazers - 76ers",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 31,
+      "title": "Timberwolves - Hawks",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 34,
+      "title": "Villarreal Gerard Moreno",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1173,7 +1435,34 @@
     },
     {
       "id": 121,
-      "title": "Karola",
+      "title": "#felizmartes",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 122,
+      "title": "#ghdúocuentas5",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 124,
+      "title": "Jaime Mata",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 125,
+      "title": "Lakers",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

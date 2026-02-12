@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-02-12T19:20:51.969374",
+  "timestamp": "2026-02-12T20:50:52.969264",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 5,
+    "xtrends_total": 9,
     "tags_total": 50,
-    "unique_total": 78,
-    "unified_count": 4,
-    "with_news": 62,
-    "without_news": 16
+    "unique_total": 75,
+    "unified_count": 5,
+    "with_news": 56,
+    "without_news": 19
   },
   "trends": [
     {
       "id": 201,
       "title": "Mundo-newsletter-destacada",
       "source": "news_tags",
-      "volume": "101 artículos",
+      "volume": "98 artículos",
       "timeframe": "24h noticias",
-      "news_count": 124
+      "news_count": 121
     },
     {
       "id": 200,
       "title": "Trump",
       "source": "news_tags",
-      "volume": "113 artículos",
+      "volume": "108 artículos",
       "timeframe": "24h noticias",
-      "news_count": 113
+      "news_count": 108
     },
     {
       "id": 202,
@@ -38,9 +38,9 @@
       "id": 203,
       "title": "Psoe Madrid",
       "source": "news_tags",
-      "volume": "86 artículos",
+      "volume": "90 artículos",
       "timeframe": "24h noticias",
-      "news_count": 86
+      "news_count": 90
     },
     {
       "id": 204,
@@ -56,11 +56,11 @@
       "source": "news_tags",
       "volume": "34 artículos",
       "timeframe": "24h noticias",
-      "news_count": 66
+      "news_count": 65
     },
     {
       "id": 205,
-      "title": "Gobierno Vasco",
+      "title": "Ong",
       "source": "news_tags",
       "volume": "64 artículos",
       "timeframe": "24h noticias",
@@ -68,11 +68,11 @@
     },
     {
       "id": 206,
-      "title": "Ong",
+      "title": "Gobierno Vasco",
       "source": "news_tags",
-      "volume": "62 artículos",
+      "volume": "60 artículos",
       "timeframe": "24h noticias",
-      "news_count": 62
+      "news_count": 60
     },
     {
       "id": 207,
@@ -83,20 +83,12 @@
       "news_count": 59
     },
     {
-      "id": 229,
-      "title": "Migrantes",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 58
-    },
-    {
       "id": 208,
-      "title": "Eeuu",
+      "title": "Temporales",
       "source": "news_tags",
-      "volume": "57 artículos",
+      "volume": "56 artículos",
       "timeframe": "24h noticias",
-      "news_count": 57
+      "news_count": 56
     },
     {
       "id": 209,
@@ -108,7 +100,7 @@
     },
     {
       "id": 210,
-      "title": "Temporales",
+      "title": "Laboral",
       "source": "news_tags",
       "volume": "54 artículos",
       "timeframe": "24h noticias",
@@ -116,70 +108,83 @@
     },
     {
       "id": 211,
-      "title": "Laboral",
+      "title": "Vientos",
       "source": "news_tags",
-      "volume": "52 artículos",
+      "volume": "54 artículos",
       "timeframe": "24h noticias",
-      "news_count": 52
+      "news_count": 54
+    },
+    {
+      "id": 232,
+      "title": "Migrantes",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 54
     },
     {
       "id": 212,
-      "title": "Vientos",
+      "title": "Eeuu",
       "source": "news_tags",
-      "volume": "50 artículos",
+      "volume": "53 artículos",
       "timeframe": "24h noticias",
-      "news_count": 50
+      "news_count": 53
     },
     {
-      "id": 213,
-      "title": "Vox",
-      "source": "news_tags",
-      "volume": "44 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 44
+      "id": 4,
+      "title": "Tve Directo",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 44,
+      "matched_articles": [],
+      "merged_sources": [
+        "google",
+        "news_tags"
+      ]
     },
     {
       "id": 214,
-      "title": "En Directo",
+      "title": "Vox",
       "source": "news_tags",
-      "volume": "43 artículos",
+      "volume": "40 artículos",
       "timeframe": "24h noticias",
-      "news_count": 43
+      "news_count": 40
     },
     {
       "id": 215,
       "title": "Venezuela",
       "source": "news_tags",
-      "volume": "41 artículos",
+      "volume": "39 artículos",
       "timeframe": "24h noticias",
-      "news_count": 41
+      "news_count": 39
     },
     {
       "id": 216,
       "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "41 artículos",
+      "volume": "38 artículos",
       "timeframe": "24h noticias",
-      "news_count": 41
+      "news_count": 38
     },
     {
-      "id": 218,
-      "title": "Barcelona",
+      "id": 217,
+      "title": "Borrascas",
       "source": "news_tags",
       "volume": "36 artículos",
       "timeframe": "24h noticias",
       "news_count": 36
     },
     {
-      "id": 220,
-      "title": "Borrascas",
+      "id": 218,
+      "title": "Barcelona",
       "source": "news_tags",
-      "volume": "34 artículos",
+      "volume": "35 artículos",
       "timeframe": "24h noticias",
-      "news_count": 34
+      "news_count": 35
     },
     {
-      "id": 221,
+      "id": 220,
       "title": "Koldo García Izaguirre",
       "source": "news_tags",
       "volume": "34 artículos",
@@ -187,306 +192,104 @@
       "news_count": 34
     },
     {
-      "id": 222,
-      "title": "Erc Esquerra Republicana de Cataluña",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 223,
-      "title": "Justicia",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 224,
-      "title": "Defensa - Política de Defensa",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 24,
-      "title": "Ley Multirreincidencia",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 32,
-      "matched_articles": [
-        {
-          "title": "Las claves de la ley de multirreincidencia aprobada en el Congreso: que cambios incluye y que pasa ahora",
-          "url": "https://www.eldiario.es/politica/claves-ley-multirreincidencia-aprobada-congreso-cambios-incluye-pasa-ahora_1_12986188.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T17:06:21.733Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Puigdemont reivindica la eficacia de haber roto con el PSOE frente a una ERC \"aplanada\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/ultima-hora-politica-directo-psoe-rechaza-facilitar-gobierno-maria-guardiola-sin-vox-abstencion-absoluto/1003744126808_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T16:04:59.506Z"
-        },
-        {
-          "title": "Asi es la Ley de multirreincidencia: las claves de una nueva norma que endurece el Codigo Penal y el Congreso ha dado luz verde",
-          "url": "https://www.20minutos.es/nacional/asi-es-ley-multirreincidencia-claves-nueva-norma-endurece-codigo-penal-congreso-luz-verde_6933391_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T15:06:42.690Z"
-        },
-        {
-          "title": "PSOE y Junts se muestran \"muy satisfechos\" por aprobar la ley que castiga a la multirreincidencia",
-          "url": "https://www.elmundo.es/espana/2026/02/12/698dda99e9cf4a0f078b459c-video.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T15:04:42.911Z"
-        },
-        {
-          "title": "El Gobierno y ERC pactan que Cataluna supere los 1.000 jueces con un aumento de 90 plazas en 2027",
-          "url": "https://www.elmundo.es/cataluna/2026/02/12/698dd509e9cf4a324a8b45a4.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T15:04:42.909Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Espana se queja ante Italia por excluir a Sanchez de la minicumbre economica de lideres europeos",
-          "url": "https://www.elespanol.com/espana/politica/20260212/ultima-hora-politica-directo-psoe-rechaza-facilitar-gobierno-maria-guardiola-sin-vox-abstencion-absoluto/1003744126808_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T15:00:24.188Z"
-        },
-        {
-          "title": "Feijoo exige extremar la \"seguridad\" en las presas tras las inundaciones para evitar accidentes como el de Adamuz",
-          "url": "https://elpais.com/espana/2026-02-12/feijoo-exige-extremar-la-seguridad-en-las-presas-tras-las-inundaciones-para-evitar-accidentes-como-el-de-adamuz.html",
-          "newspaper": "El País",
-          "date": "2026-02-12T14:55:36.383Z"
-        },
-        {
-          "title": "Robar moviles saldra mas caro: ?que implica la nueva ley contra la multirreincidencia?",
-          "url": "https://www.lavanguardia.com/politica/20260212/11464661/robar-moviles-saldra-mas-caro-que-implica-nueva-ley-multirreincidencia.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T13:27:16.241Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | El PSOE defiende la ley contra la multirreincidencia: \"La seguridad no es exclusivamente de derechas\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/ultima-hora-politica-directo-psoe-rechaza-facilitar-gobierno-maria-guardiola-sin-vox-abstencion-absoluto/1003744126808_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T13:22:14.611Z"
-        },
-        {
-          "title": "El PSOE hace un gesto a Junts y aprueba la norma que endurece el castigo a la reincidencia de delitos leves",
-          "url": "https://elpais.com/espana/2026-02-12/el-congreso-aprueba-la-ley-que-castiga-la-multirreincidencia-de-delitos-leves.html",
-          "newspaper": "El País",
-          "date": "2026-02-12T12:53:59.000Z"
-        },
-        {
-          "title": "El Congreso aprueba la ley de multirreincidencia con mas apoyos de la oposicion que de los socios del Gobierno",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/02/12/congreso-aprueba-ley-multirreincidencia-apoyos-oposicion-socios-gobierno/00031770894003707638190.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-02-12T11:51:22.099Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Vox ve \"irresponsable\" que el PP \"pida\" al PSOE el \"favor\" de abstenerse en Extremadura: \"Ellos sabran lo que hacen\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/ultima-hora-politica-directo-psoe-rechaza-facilitar-gobierno-maria-guardiola-sin-vox-abstencion-absoluto/1003744126808_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T11:50:02.191Z"
-        },
-        {
-          "title": "El PSOE suma fuerzas con Junts, PP y Vox para endurecer el castigo a los hurtos reiterados y deja la ley pendiente solo del 'si' del Senado",
-          "url": "https://www.20minutos.es/nacional/psoe-suma-fuerzas-con-junts-pp-vox-para-endurecer-castigo-los-hurtos-reiterados-deja-ley-pendiente-solo-si-senado_6933249_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T11:06:40.163Z"
-        },
-        {
-          "title": "El Congreso aprueba la ley de Junts contra la multirreincidencia con apoyo de PP, PSOE y Vox",
-          "url": "https://www.lavanguardia.com/politica/20260212/11464437/congreso-aprueba-ley-junts-multirreincidencia-apoyo-pp-psoe-vox.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T11:05:19.151Z"
-        },
-        {
-          "title": "Sanchez desaira a sus socios y aprueba con todas las derechas la ley de Junts que endurece el castigo a la multirreincidencia",
-          "url": "https://www.elmundo.es/espana/2026/02/12/698da08cfdddff29138b458c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T11:04:53.199Z"
-        },
-        {
-          "title": "Sanchez desaira a sus socios y aprueba con todas las derechas la ley de Junts que endurece el castigo a la multirreincidencia",
-          "url": "https://www.elmundo.es/espana/2026/02/12/698da08cfdddff29138b458c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T11:04:16.295Z"
-        },
-        {
-          "title": "El Congreso aprueba la ley de Junts contra la multirreincidencia con el voto a favor de PP y PSOE",
-          "url": "https://www.abc.es/espana/congreso-aprueba-ley-junts-multirreincidencia-voto-favor-20260212112541-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-12T11:03:46.176Z"
-        },
-        {
-          "title": "El Gobierno pacta con ERC crear 90 unidades judiciales mas en Cataluna en 2027",
-          "url": "https://www.abc.es/espana/cataluna/gobierno-pacta-erc-crear-unidades-judiciales-cataluna-20260212101132-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-12T11:02:36.036Z"
-        },
-        {
-          "title": "El Congreso aprueba la ley de Junts contra la multirreincidencia con el voto a favor de PP y PSOE",
-          "url": "https://www.abc.es/espana/congreso-aprueba-ley-junts-multirreincidencia-voto-favor-20260212112541-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-12T11:02:29.262Z"
-        },
-        {
-          "title": "El PSOE saca con Junts, PP y Vox una reforma para endurecer con hasta 3 anos de carcel los delitos de multirreincidencia",
-          "url": "https://www.elespanol.com/espana/politica/20260212/psoe-saca-junts-pp-vox-reforma-endurecer-anos-carcel-delitos-multirreincidencia/1003744126948_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T11:00:28.293Z"
-        },
-        {
-          "title": "El PSOE saca con Junts, PP y Vox una reforma para endurecer con hasta 3 anos de carcel los delitos de multirreincidencia",
-          "url": "https://www.elespanol.com/espana/politica/20260212/psoe-saca-junts-pp-vox-reforma-endurecer-anos-carcel-delitos-multirreincidencia/1003744126948_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T10:59:44.866Z"
-        },
-        {
-          "title": "Ver mas informacion de El Congreso aprueba el endurecimiento de la multirreincidencia con los votos del PSOE y las derechas",
-          "url": "https://www.publico.es/politica/congreso/congreso-aprueba-endurecimiento-multirreincidencia-votos-psoe-derechas.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T10:58:38.813Z"
-        },
-        {
-          "title": "Ver mas informacion de El Congreso aprueba el endurecimiento de la multirreincidencia con los votos del PSOE y las derechas",
-          "url": "https://www.publico.es/politica/congreso/congreso-aprueba-endurecimiento-multirreincidencia-votos-psoe-derechas.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T10:58:11.729Z"
-        },
-        {
-          "title": "El PSOE se alinea con la oposicion y aprueba la ley de multirreincidencia que prometio a Puigdemont",
-          "url": "https://www.larazon.es/espana/psoe-alinea-oposicion-aprueba-ley-multirreincidencia-que-prometio-puigdemont_20260212698da6182f00a04688082473.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-12T10:56:23.799Z"
-        },
-        {
-          "title": "El Congreso aprueba la ley de multirreincidencia de Junts con los votos del PSOE y la derecha",
-          "url": "https://www.eldiario.es/politica/congreso-aprueba-ley-multirreincidencia-junts-votos-psoe-derecha_1_12984047.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T10:53:48.177Z"
-        },
-        {
-          "title": "El Gobierno y ERC acuerdan 90 plazas mas de jueces en Catalunya para el 2027",
-          "url": "https://www.lavanguardia.com/politica/20260212/11464369/gobierno-erc-acuerdan-90-plazas-mas-jueces-catalunya-2027.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T10:08:38.884Z"
-        },
-        {
-          "title": "Ver mas informacion de El Gobierno acuerda con ERC aumentar la plantilla de jueces en Catalunya en 180 plazas en dos anos",
-          "url": "https://www.publico.es/politica/gobierno/gobierno-acuerda-erc-aumentar-180-jueces-dos-anos-plantilla-judicial-catalunya.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T10:00:47.979Z"
-        },
-        {
-          "title": "Gobierno y ERC acuerdan aumentar la plantilla judicial en Cataluna con 180 jueces mas",
-          "url": "https://www.larazon.es/espana/gobierno-erc-acuerdan-aumentar-plantilla-judicial-cataluna-180-jueces-mas_20260212698d96792f00a046880803bf.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-12T09:58:45.689Z"
-        },
-        {
-          "title": "PP y PSOE aprueban hoy la ley de Junts para luchar contra la multirreincidencia",
-          "url": "https://www.lavanguardia.com/politica/20260212/11464028/pp-psoe-aprueban-hoy-ley-junts-luchar-multirreincidencia.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T08:08:32.155Z"
-        },
-        {
-          "title": "PP y PSOE aprueban hoy la ley de Junts para luchar contra la multirreincidencia",
-          "url": "https://www.lavanguardia.com/politica/20260212/11464028/pp-psoe-aprueban-hoy-ley-junts-luchar-multirreincidencia.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T08:07:31.654Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | El PSOE rechaza facilitar un Gobierno de Maria Guardiola sin Vox: \"?Abstencion? En absoluto\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/ultima-hora-politica-directo-psoe-rechaza-facilitar-gobierno-maria-guardiola-sin-vox-abstencion-absoluto/1003744126808_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T08:02:38.898Z"
-        },
-        {
-          "title": "Sanchez aparca las ayudas fiscales para caseros ante la negativa de todos sus socios de izquierdas a apoyarlas",
-          "url": "https://www.20minutos.es/nacional/sanchez-aparca-las-ayudas-fiscales-para-caseros-ante-negativa-todos-sus-socios-izquierdas-apoyarlas_6933012_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T05:13:04.243Z"
-        }
-      ]
-    },
-    {
-      "id": 225,
-      "title": "Sumar",
+      "id": 221,
+      "title": "Senadores",
       "source": "news_tags",
       "volume": "32 artículos",
       "timeframe": "24h noticias",
       "news_count": 32
     },
     {
-      "id": 227,
-      "title": "Policias",
+      "id": 223,
+      "title": "Derecha",
       "source": "news_tags",
       "volume": "31 artículos",
       "timeframe": "24h noticias",
       "news_count": 31
+    },
+    {
+      "id": 225,
+      "title": "Defensa",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 226,
+      "title": "Tribunal Supremo",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 227,
+      "title": "Erc Esquerra Republicana de Cataluña",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
     },
     {
       "id": 228,
-      "title": "Senadores",
+      "title": "Sumar",
       "source": "news_tags",
-      "volume": "31 artículos",
+      "volume": "29 artículos",
       "timeframe": "24h noticias",
-      "news_count": 31
+      "news_count": 29
+    },
+    {
+      "id": 229,
+      "title": "Trenes",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
     },
     {
       "id": 230,
-      "title": "Tribunal Supremo",
+      "title": "Justicia",
       "source": "news_tags",
-      "volume": "31 artículos",
+      "volume": "29 artículos",
       "timeframe": "24h noticias",
-      "news_count": 31
+      "news_count": 29
     },
     {
       "id": 231,
-      "title": "Audiencia Nacional",
+      "title": "Policias",
       "source": "news_tags",
-      "volume": "31 artículos",
+      "volume": "29 artículos",
       "timeframe": "24h noticias",
-      "news_count": 31
-    },
-    {
-      "id": 232,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
+      "news_count": 29
     },
     {
       "id": 233,
-      "title": "Trenes",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 234,
-      "title": "Feijoo",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 235,
-      "title": "América",
+      "title": "Audiencia Nacional",
       "source": "news_tags",
       "volume": "28 artículos",
       "timeframe": "24h noticias",
       "news_count": 28
     },
     {
+      "id": 234,
+      "title": "Unión Europea (ue)",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 235,
+      "title": "Canadá",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
       "id": 236,
-      "title": "Ine",
+      "title": "América",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
@@ -496,74 +299,218 @@
       "id": 237,
       "title": "Irán",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 26
     },
     {
       "id": 238,
-      "title": "Derecha",
+      "title": "Rusia",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 26
     },
     {
-      "id": 240,
-      "title": "Unión Europea (ue)",
+      "id": 239,
+      "title": "Feijoo",
       "source": "news_tags",
-      "volume": "27 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 27
+      "news_count": 26
+    },
+    {
+      "id": 33,
+      "title": "La Uno en Directo",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 24,
+      "matched_articles": [
+        {
+          "title": "Borrasca Nils, en directo | El temporal deja nueve ingresados en Cataluna y obliga a enviar dos Es-Alert a varias localidades de Castilla-La Mancha",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T19:19:43.797Z"
+        },
+        {
+          "title": "La borrasca Nils incomunica Formentera, cierra los puertos de Menorca e Ibiza y provoca cancelaciones de vuelos en Palma",
+          "url": "https://www.eldiario.es/illes-balears/sociedad/borrasca-nils-cierra-puertos-menorca-e-ibiza-deja-incomunicada-formentera_1_12985172.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-12T19:07:32.820Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El temporal deja nueve personas hospitalizadas en Cataluna y obliga a enviar un Es-Alert en Cuenca por la crecida del rio",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T17:18:45.431Z"
+        },
+        {
+          "title": "Primer paso para bajar a 22 y 25 los alumnos en Primaria y Secundaria: Tolon convence a las CCAA",
+          "url": "https://www.elespanol.com/espana/politica/20260212/primer-paso-bajar-alumnos-primaria-secundaria-tolon-convence-ccaa/1003744127989_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-12T17:12:39.929Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El temporal deja nueve heridos en Cataluna y obliga a enviar un Es-Alert en Cuenca por la crecida del rio",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T15:06:50.710Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El temporal deja nueve heridos en Cataluna y obliga a enviar un Es-Alert en Cuenca por la crecida del rio",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T15:06:40.702Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El temporal provocado por Nils deja 9 heridos en Cataluna y obliga a enviar un Es-Alert en Cuenca por la crecida del rio",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T13:27:53.766Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El temporal provocado por Nils deja 9 heridos en Cataluna y obliga a enviar un Es-Alert en Cuenca por la crecida del rio",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T13:27:46.703Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El fuerte viento de Nils dana la catenaria y causa retrasos en el AVE Madrid-Barcelona",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T11:56:05.317Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | El fuerte viento de Nils dana la catenaria y causa retrasos en el AVE Madrid-Barcelona",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T11:55:58.093Z"
+        },
+        {
+          "title": "Carnavales donde la calle es mas importante que el desfile",
+          "url": "https://www.20minutos.es/internacional/carnavales-donde-calle-es-mas-importante-que-desfile_6931742_1.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T09:05:34.941Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 5 heridos, suspenden varios tramos de Rodalies y cierran colegios",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T09:05:10.176Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 5 heridos, suspenden varios tramos de Rodalies y cierran colegios",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T09:05:08.544Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 25 heridos y causan multiples cortes de trenes por caidas de arboles y desprendimientos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T08:09:04.853Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 25 heridos y causan multiples cortes de trenes por caidas de arboles y desprendimientos en Cataluna",
+          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T08:09:03.218Z"
+        },
+        {
+          "title": "Janne Teller, escritora: \"Durante decadas, Dinamarca ha sido muy fiel a EEUU. Por eso choca tanto la amenaza de Trump\"",
+          "url": "https://www.elespanol.com/mujer/protagonistas/20260212/janne-teller-escritora-decadas-dinamarca-fiel-eeuu-choca-amenaza-trump/1003744125940_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-12T08:02:11.460Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | Cataluna alerta que el temporal de viento podria ser \"el mas importante en 20 anos\"",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T02:45:06.638Z"
+        },
+        {
+          "title": "Victoriano Porto, inspector de la Guia Michelin durante 35 anos:\"Para hacer un informe tienes que adjuntar una factura siempre. Si aceptas una invitacion, es motivo de despido\"",
+          "url": "https://www.elmundo.es/metropoli/gastronomia/2026/02/11/6989e3c821efa0a2088b4595.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-12T02:42:42.468Z"
+        },
+        {
+          "title": "Daniel Bashandeh: \"Iran parece no tener un objetivo estrategico mas alla de su propia supervivencia\"",
+          "url": "https://www.larazon.es/internacional/daniel-bashandeh-iran-parece-tener-objetivo-estrategico-mas-alla-propia-supervivencia_20260212698d342e1817b41eb642802c.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-12T02:36:36.448Z"
+        },
+        {
+          "title": "Reforma laboral: Bullrich confia en tener el numero para aprobar el proyecto pero tambalean algunos articulos",
+          "url": "https://www.eldiarioar.com/politica/reforma-laboral-bullrich-confia-numero-aprobar-proyecto-tambalean-articulos_1_12983814.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-11T23:38:10.593Z"
+        },
+        {
+          "title": "Una gran Real deja de piedra a San Mames y ya ve la la final a un paso",
+          "url": "https://www.elmundo.es/deportes/futbol/copa-del-rey/2026/02/11/698cdf2de4d4d8d8368b4576.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-11T22:44:21.180Z"
+        },
+        {
+          "title": "Borrasca Nils, en directo | Cataluna alerta que el temporal de viento de este jueves podria ser \"el mas importante en 20 anos\"",
+          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-11T20:57:09.772Z"
+        },
+        {
+          "title": "Trump recibe a Netanyahu en la Casa Blanca, pero sin lograr \"ningun acuerdo definitivo\" sobre Iran",
+          "url": "https://www.elmundo.es/internacional/2026/02/11/698cd6a6e4d4d8d8368b456f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-11T20:54:45.745Z"
+        },
+        {
+          "title": "Trump recibe a Netanyahu en la Casa Blanca, pero sin lograr \"ningun acuerdo definitivo\" sobre Iran",
+          "url": "https://www.elmundo.es/internacional/2026/02/11/698cd6a6e4d4d8d8368b456f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-11T20:54:26.164Z"
+        }
+      ]
     },
     {
       "id": 241,
-      "title": "Delcy Rodríguez",
+      "title": "Ábalos",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 26
+      "news_count": 24
     },
     {
       "id": 242,
-      "title": "Partido Popular (pp)",
+      "title": "Sociedad",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 26
+      "news_count": 24
     },
     {
       "id": 243,
-      "title": "Ábalos",
+      "title": "Delcy Rodríguez",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 24
     },
     {
-      "id": 244,
-      "title": "Canadá",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 245,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 12,
+      "id": 9,
       "title": "Reforma Laboral Javier Milei",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 24,
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 23,
       "matched_articles": [
+        {
+          "title": "Mas de 70 detenidos y 12 agentes heridos en Argentina durante la protesta contra la reforma laboral impulsada por Milei",
+          "url": "https://www.20minutos.es/internacional/mas-70-detenidos-12-agentes-heridos-argentina-durante-protesta-contra-reforma-laboral-impulsada-por-milei_6933487_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-12T19:20:13.167Z"
+        },
         {
           "title": "Peru apuesta por el 'Metodo Bukele': refuerza su ofensiva contra el crimen y aumentara la seguridad en las carceles",
           "url": "https://www.elespanol.com/mundo/america/20260212/peru-apuesta-metodo-bukele-refuerza-ofensiva-crimen-aumentara-seguridad-carceles/1003744127801_0.html",
@@ -695,405 +642,63 @@
           "url": "https://www.eldiarioar.com/politica/incidentes-heridos-frente-congreso-senado-debate-reforma-laboral_1_12983685.html",
           "newspaper": "El Diario",
           "date": "2026-02-11T20:44:52.866Z"
-        },
-        {
-          "title": "Bullrich busca incluir el traspaso de la Justicia Laboral a la Ciudad al final de la sesion",
-          "url": "https://www.eldiarioar.com/politica/bullrich-busca-incluir-traspaso-justicia-laboral-ciudad-final-sesion_1_12983477.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-11T19:17:45.610Z"
-        },
-        {
-          "title": "SiPreBA y Periodistas Argentinas organizaron una accion frente al Congreso contra la derogacion del Estatuto del Periodista",
-          "url": "https://www.eldiarioar.com/politica/sipreba-periodistas-argentinas-organizaron-accion-frente-congreso-derogacion-estatuto-periodista_1_12982915.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-11T18:00:52.270Z"
         }
       ]
     },
     {
-      "id": 246,
-      "title": "Eso",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 247,
-      "title": "Nfl",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 248,
-      "title": "Elecciones Europeas",
+      "id": 244,
+      "title": "Ine",
       "source": "news_tags",
       "volume": "23 artículos",
       "timeframe": "24h noticias",
       "news_count": 23
     },
     {
-      "id": 7,
-      "title": "Alerta de Vientos Fuertes",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 18,
-      "matched_articles": [
-        {
-          "title": "Viento en Catalunya y Barcelona hoy: Ultimas noticias sobre la alerta, las restricciones de movilidad y la situacion de los vuelos",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464277/viento-cataluna-barcelona-alerta-heridos-ultima-hora-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T17:17:23.433Z"
-        },
-        {
-          "title": "Ultima hora del viento en Catalunya y Barcelona: novedades sobre la alerta por el temporal y las restricciones de movilidad",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464277/viento-cataluna-barcelona-alerta-heridos-ultima-hora-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T16:09:31.539Z"
-        },
-        {
-          "title": "Viento en Catalunya y Barcelona, ultima hora sobre la alerta por el temporal y numero de heridos",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464277/viento-cataluna-barcelona-alerta-heridos-ultima-hora-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T15:05:08.184Z"
-        },
-        {
-          "title": "Ultima hora del viento en Catalunya y Barcelona, hoy en directo: Alerta roja por el temporal y los problemas en trenes y aviones",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464277/alerta-viento-riesgo-extremo-catalunya-ultima-hora-fuertes-vientos-barcelona-rachas-numero-heridos-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T13:26:17.746Z"
-        },
-        {
-          "title": "Ultima hora del viento en Catalunya: alerta roja por fuertes vientos hoy en Barcelona, rachas y numero de heridos, en directo",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T11:05:15.195Z"
-        },
-        {
-          "title": "Alerta roja por viento en Catalunya, en directo | Ultima hora de la situacion en Barcelona por vientos extremos y afectaciones",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T10:07:39.981Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 5 heridos, suspenden varios tramos de Rodalies y cierran colegios",
-          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T09:05:10.176Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 5 heridos, suspenden varios tramos de Rodalies y cierran colegios",
-          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T09:05:08.544Z"
-        },
-        {
-          "title": "Alerta por viento extremo en Catalunya, hoy en directo | Situacion en Barcelona por los fuertes vientos, heridos y afectaciones",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T09:03:58.705Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 25 heridos y causan multiples cortes de trenes por caidas de arboles y desprendimientos en Cataluna",
-          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T08:09:04.853Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Los fuertes vientos dejan al menos 25 heridos y causan multiples cortes de trenes por caidas de arboles y desprendimientos en Cataluna",
-          "url": "https://www.20minutos.es/nacional/borrasca-viento-lluvia-alertas-cancelaciones-trenes-clases-afectados-nils-ultima-hora-aemet-directo_6933151_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T08:09:03.218Z"
-        },
-        {
-          "title": "Ultima hora del viento en Catalunya, en directo | Alerta roja por fuertes vientos en Barcelona y novedades de heridos y vuelos cancelados",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T08:07:26.315Z"
-        },
-        {
-          "title": "Un meteorologo avisa sobre la ciclogenesis explosiva y la borrasca Oriana que llegan a Espana: \"Vientos huracanados\"",
-          "url": "https://www.elespanol.com/ciencia/meteorologia/20260212/meteorologo-avisa-ciclogenesis-explosiva-borrasca-oriana-llegan-espana-vientos-huracanados/1003744126628_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T08:02:08.246Z"
-        },
-        {
-          "title": "Ultima hora del temporal por la borrasca Nils, en directo",
-          "url": "https://www.eldiario.es/sociedad/ultima-hora-temporal-espana-directo_6_12983925.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T07:55:26.264Z"
-        },
-        {
-          "title": "El agua del rio Bullaque entra en los nucleos urbanos de El Tormo y El Robledo (Ciudad Real)",
-          "url": "https://www.larazon.es/sociedad/cataluna-alerta-maxima-este-jueves-viento-huracanado_20260211698ce7199243cc133c42c180.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-12T05:04:30.702Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Cataluna alerta que el temporal de viento podria ser \"el mas importante en 20 anos\"",
-          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T02:45:06.638Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Cataluna alerta que el temporal de viento de este jueves podria ser \"el mas importante en 20 anos\"",
-          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-11T20:57:09.772Z"
-        },
-        {
-          "title": "Alerta por rachas de viento de hasta 100 km/h en Barcelona, en directo: Proteccion Civil envia el Es-Alert a toda Catalunya",
-          "url": "https://metropoliabierta.elespanol.com/vivir-en-barcelona/20260211/alerta-rachas-viento-kmh-barcelona-directo-meteocat-activa-aviso-rojo-peligro-maximo/1003742731723_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-11T19:23:02.568Z"
-        }
-      ]
+      "id": 245,
+      "title": "Eso",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
     },
     {
-      "id": 4,
-      "title": "Real Sociedad",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 15,
-      "matched_articles": [
-        {
-          "title": "El PSOE suma fuerzas con Junts, PP y Vox para endurecer el castigo a los hurtos reiterados y deja la ley pendiente solo del 'si' del Senado",
-          "url": "https://www.20minutos.es/nacional/psoe-suma-fuerzas-con-junts-pp-vox-para-endurecer-castigo-los-hurtos-reiterados-deja-ley-pendiente-solo-si-senado_6933249_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T11:06:40.163Z"
-        },
-        {
-          "title": "Un veterano ultra registra Noviembre Nacional como partido politico",
-          "url": "https://www.eldiario.es/politica/veterano-ultra-registra-noviembre-nacional-partido-politico_1_12984472.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T10:53:47.180Z"
-        },
-        {
-          "title": "Un veterano ultra registra Noviembre Nacional como partido politico",
-          "url": "https://www.eldiario.es/politica/veterano-ultra-registra-noviembre-nacional-partido-politico_1_12984472.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T10:52:56.378Z"
-        },
-        {
-          "title": "Mas de 700.000 alumnos no alcanzaran el minimo de horas de clase en 2026",
-          "url": "https://www.eldiarioar.com/sociedad/700-000-alumnos-no-alcanzaran-minimo-horas-clase-2026_1_12983839.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T09:57:00.316Z"
-        },
-        {
-          "title": "Ultima hora del temporal por la borrasca Nils, en directo",
-          "url": "https://www.eldiario.es/sociedad/ultima-hora-temporal-espana-directo_6_12983925.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-12T07:55:26.264Z"
-        },
-        {
-          "title": "Proxima parada: Castilla y Leon",
-          "url": "https://www.20minutos.es/nacional/proxima-parada-castilla-leon_6932977_3.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T05:13:02.555Z"
-        },
-        {
-          "title": "Intelectuales, con perdon",
-          "url": "https://www.abc.es/opinion/rebeca-argudo-intelectuales-perdon-20260211182514-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-12T05:11:02.979Z"
-        },
-        {
-          "title": "Intelectuales, con perdon",
-          "url": "https://www.abc.es/opinion/rebeca-argudo-intelectuales-perdon-20260211182514-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-12T05:09:58.230Z"
-        },
-        {
-          "title": "El Imserso defendera ante la ONU un proceso rompedor para garantizar los derechos de los mayores",
-          "url": "https://www.publico.es/la-buena-vida/imserso-defendera-onu-proceso-rompedor-garantizar-derechos-mayores.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T05:05:47.912Z"
-        },
-        {
-          "title": "Una gran Real deja de piedra a San Mames y ya ve la la final a un paso",
-          "url": "https://www.elmundo.es/deportes/futbol/copa-del-rey/2026/02/11/698cdf2de4d4d8d8368b4576.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-11T22:44:21.180Z"
-        },
-        {
-          "title": "Un gol de Turrientes da ventaja a la Real sobre el Athletic en las semis de Copa",
-          "url": "https://www.abc.es/deportes/futbol/gol-turrientes-ventaja-real-semis-copa-20260211230249-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-11T22:42:44.365Z"
-        },
-        {
-          "title": "La Real Sociedad se aprovecha de las dudas del Athletic Club y da el primer paso para meterse en la final de la Copa del Rey",
-          "url": "https://www.elespanol.com/deportes/futbol/20260211/real-sociedad-aprovecha-dudas-athletic-club-da-primer-paso-meterse-final-copa-rey/1003744126746_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-11T22:40:04.077Z"
-        },
-        {
-          "title": "Athletic - Real Sociedad: ida de la semifinal, en directo",
-          "url": "https://www.elmundo.es/deportes/futbol/copa-del-rey/athletic-r-sociedad/2026/02/11/01_0105_20260211_174_188-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-11T20:54:26.166Z"
-        },
-        {
-          "title": "Athletic - Real Sociedad en directo: resultado, goles y ganador del partido de ida de las semifinales de la Copa del Rey",
-          "url": "https://www.abc.es/deportes/futbol/athletic-real-sociedad-directo-resultado-goles-ganador-20260211110805-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-11T20:52:46.893Z"
-        },
-        {
-          "title": "Athletic Club - Real Sociedad, en directo la Copa del Rey: resultado y goleadores, en vivo online",
-          "url": "https://www.elespanol.com/deportes/20260211/athletic-club-real-sociedad-directo-copa-rey-resultado-goleadores-vivo-online/1003744126381_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-11T20:50:04.880Z"
-        }
-      ]
+      "id": 246,
+      "title": "Nfl",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
     },
     {
-      "id": 2,
-      "title": "James Van Der Beek",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 10,
-      "matched_articles": [
-        {
-          "title": "La muerte de James Van Der Beek evidencia las consecuencias de privatizar la salud: \"Un actor famoso, en la quiebra por darse quimio\"",
-          "url": "https://www.publico.es/tremending/muerte-james-der-beek-evidencia-consecuencias-privatizar-salud-actor-famoso-quiebra-darse-quimio.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T16:02:34.048Z"
-        },
-        {
-          "title": "Los sintomas del cancer colorrectal que padecia James Van Beek que no se deben ignorar",
-          "url": "https://www.elmundo.es/ciencia-y-salud/salud/2026/02/12/698db994fc6c839c0f8b4575.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T13:25:26.677Z"
-        },
-        {
-          "title": "La complicada situacion economica de la viuda de James Van Der Beek y sus seis hijos tras la muerte del actor: lanzan un GoFundMe para recaudar dinero, \"se enfrentan a un futuro incierto\"",
-          "url": "https://www.elmundo.es/loc/celebrities/2026/02/12/698d90e121efa066328b456d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T11:04:16.299Z"
-        },
-        {
-          "title": "Murio a los 48 anos el actor James Van Der Beek, protagonista de 'Dawson's Creek'",
-          "url": "https://www.eldiarioar.com/espectaculos/murio-48-anos-actor-james-der-beek-protagonista-dawson-s-creek_1_12983757.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-11T22:35:04.359Z"
-        },
-        {
-          "title": "La aparicion de James Van Der Beek muy desmejorado en la reunion de 'Dawson Crece' que preocupo a los fans de la serie",
-          "url": "https://www.elmundo.es/loc/2026/02/11/698ce40221efa03f068b45ae.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-11T20:54:26.164Z"
-        },
-        {
-          "title": "Muere James Van der Beek, actor de 'Dawson crece', a los 48 anos",
-          "url": "https://www.elmundo.es/cultura/cine/2026/02/11/698cdd23e85ece56728b4583.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-11T20:54:26.164Z"
-        },
-        {
-          "title": "Muere James Van Der Beek, protagonista de la serie 'Dawson crece', a los 48 anos",
-          "url": "https://www.abc.es/play/series/noticias/muere-james-van-der-beek-actor-serie-20260211205355-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-11T20:52:47.851Z"
-        },
-        {
-          "title": "Muere a los 48 anos el actor James Van Der Beek, protagonista de la serie 'Dawson crece'",
-          "url": "https://www.elespanol.com/el-cultural/20260211/muere-anos-actor-james-van-der-beek-protagonista-serie-dawson-crece/1003744126670_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-11T20:50:07.714Z"
-        },
-        {
-          "title": "Ver mas informacion de Muere el protagonista de 'Dawson crece', James Van Der Beek, a los 48 anos",
-          "url": "https://www.publico.es/culturas/muere-actor-dawson-crece-james-der-beek-48-anos.html",
-          "newspaper": "Público",
-          "date": "2026-02-11T20:48:37.065Z"
-        },
-        {
-          "title": "Muere a los 48 anos el actor James Van Der Beek, protagonista de 'Dawson crece'",
-          "url": "https://www.eldiario.es/vertele/series/muere-48-anos-actor-james-der-beek-protagonista-dawson-crece_1_12983656.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-11T20:43:22.959Z"
-        }
-      ]
+      "id": 247,
+      "title": "Ucrania",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
     },
     {
-      "id": 28,
-      "title": "Borrasca Oriana",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 9,
-      "matched_articles": [
-        {
-          "title": "Oriana provocara una ciclogenesis mediterranea que dejara vientos huracanados",
-          "url": "https://www.20minutos.es/nacional/oriana-provocara-ciclogenesis-mediterranea-dejara-vientos-huracanados_6933481_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T17:18:48.738Z"
-        },
-        {
-          "title": "Ultima hora del viento en Catalunya: alerta roja por fuertes vientos hoy en Barcelona, rachas y numero de heridos, en directo",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T11:05:15.195Z"
-        },
-        {
-          "title": "Alerta roja por viento en Catalunya, en directo | Ultima hora de la situacion en Barcelona por vientos extremos y afectaciones",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T10:07:39.981Z"
-        },
-        {
-          "title": "Alerta por viento extremo en Catalunya, hoy en directo | Situacion en Barcelona por los fuertes vientos, heridos y afectaciones",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T09:03:58.705Z"
-        },
-        {
-          "title": "La borrasca Nills dejara paso a Oriana: rachas muy fuertes de viento, lluvias abundantes y nieve en cotas bajas",
-          "url": "https://www.elmundo.es/espana/2026/02/12/698d9407e4d4d84c418b456d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T09:03:41.941Z"
-        },
-        {
-          "title": "Ultima hora del viento en Catalunya, en directo | Alerta roja por fuertes vientos en Barcelona y novedades de heridos y vuelos cancelados",
-          "url": "https://www.lavanguardia.com/natural/20260212/11464270/borrasca-nils-temporal-catalunya-viento-lluvia-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T08:07:26.315Z"
-        },
-        {
-          "title": "Un meteorologo avisa sobre la ciclogenesis explosiva y la borrasca Oriana que llegan a Espana: \"Vientos huracanados\"",
-          "url": "https://www.elespanol.com/ciencia/meteorologia/20260212/meteorologo-avisa-ciclogenesis-explosiva-borrasca-oriana-llegan-espana-vientos-huracanados/1003744126628_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T08:02:08.246Z"
-        },
-        {
-          "title": "El paraguas da paso al chaqueton: una masa polar de aire artico hundira las temperaturas y dejara vientos huracanados",
-          "url": "https://www.20minutos.es/nacional/paraguas-da-paso-chaqueton-una-masa-polar-aire-artico-hundira-las-temperaturas-dejara-vientos-huracanados_6932853_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T05:13:02.183Z"
-        },
-        {
-          "title": "Borrasca Nils, en directo | Cataluna alerta que el temporal de viento podria ser \"el mas importante en 20 anos\"",
-          "url": "https://www.20minutos.es/nacional/borrasca-nils-directo-temporal-impacta-espana-viento-olas-lluvia_6932647_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T02:45:06.638Z"
-        }
-      ]
+      "id": 248,
+      "title": "Salud Mental",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
     },
     {
-      "id": 102,
+      "id": 103,
       "title": "Uefa",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 9,
+      "news_count": 8,
       "matched_articles": [
+        {
+          "title": "Espana se enfrentara a Croacia, Inglaterra y la Republica Checa en la fase de grupos de la Nations League",
+          "url": "https://www.elespanol.com/deportes/futbol/20260212/espana-enfrentara-croacia-inglaterra-republica-checa-fase-grupos-nations-league/1003744128165_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-12T19:13:35.440Z"
+        },
         {
           "title": "Sorteo de la UEFA Nations League 2026-27 | Horario, bombos, rivales de Espana, y donde ver online hoy",
           "url": "https://www.elespanol.com/deportes/20260212/sorteo-uefa-nations-league-horario-bombos-rivales-espana-ver-online-hoy/1003744127534_10.html",
@@ -1135,219 +740,138 @@
           "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/02/11/uefa-clubes-europeos-real-madrid-anuncian-acuerdo-acaba-superliga/00031770819820390631260.htm",
           "newspaper": "La Voz De Galicia",
           "date": "2026-02-11T19:25:15.400Z"
-        },
-        {
-          "title": "Fin a la Superliga: Florentino, Ceferin y Al-Khelaifi firman la paz",
-          "url": "https://www.abc.es/deportes/real-madrid/real-madrid-firma-paz-uefa-adios-superliga-20260211151112-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-11T18:08:09.080Z"
-        },
-        {
-          "title": "Florentino Perez pone fin a la Superliga y los tuiteros reaccionan: \"Cuando te das cuenta de que eres el unico que queda en el grupo de Whatsapp\"",
-          "url": "https://www.publico.es/tremending/florentino-perez-pone-superliga-tuiteros-reaccionan-te-das-cuenta-eres-unico-queda-grupo-whatsapp.html",
-          "newspaper": "Público",
-          "date": "2026-02-11T18:04:11.074Z"
         }
       ]
     },
     {
-      "id": 29,
-      "title": "Lamban",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
-      "news_count": 8,
-      "matched_articles": [
-        {
-          "title": "Oscar Lopez atribuye al fallecido Lamban la caida del PSOE en Aragon y Alegria replica: \"Senalar responsables es un error\"",
-          "url": "https://www.20minutos.es/nacional/oscar-lopez-atribuye-fallecido-lamban-caida-psoe-aragon-alegria-replica-senalar-responsables-es-un-error_6933530_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-12T17:18:44.686Z"
-        },
-        {
-          "title": "Para Oscar Lopez ya hay un culpable de la derrota de Alegria, Javier Lamban: <<En vez de hacer oposicion se dedico a otra cosa>>",
-          "url": "https://www.abc.es/espana/aragon/oscar-lopez-culpable-derrota-alegria-javier-lamban-20260212170250-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-12T17:14:52.192Z"
-        },
-        {
-          "title": "Cargos del PSOE-Aragon estallan contra Oscar Lopez por culpar a Lamban del batacazo de Pilar Alegria: \"Es impropio\"",
-          "url": "https://www.elespanol.com/aragon/actualidad/20260212/cargos-psoe-aragon-estallan-oscar-lopez-culpar-lamban-batacazo-pilar-alegria-impropio/1003744127898_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T17:11:55.381Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Puigdemont reivindica la eficacia de haber roto con el PSOE frente a una ERC \"aplanada\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/ultima-hora-politica-directo-psoe-rechaza-facilitar-gobierno-maria-guardiola-sin-vox-abstencion-absoluto/1003744126808_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T16:04:59.506Z"
-        },
-        {
-          "title": "Oscar Lopez acusa al PSOE de Lamban de no haber hecho \"oposicion\" al PP de Azcon desde la llegada de Pilar Alegria a Aragon",
-          "url": "https://www.elmundo.es/espana/2026/02/12/698de419e4d4d827588b4585.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T15:04:42.911Z"
-        },
-        {
-          "title": "Oscar Lopez acusa al PSOE de Lamban de no haber hecho \"oposicion\" al PP de Azcon desde la llegada de Pilar Alegria a Aragon",
-          "url": "https://www.elmundo.es/espana/2026/02/12/698de419e4d4d827588b4585.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T15:03:58.947Z"
-        },
-        {
-          "title": "Oscar Lopez culpa del mal resultado del PSOE en Aragon al fallecido Lamban: \"No hizo oposicion a Azcon\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/oscar-lopez-culpa-mal-resultado-psoe-aragon-fallecido-lamban-no-hizo-oposicion-azcon/1003744127012_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T10:02:47.329Z"
-        },
-        {
-          "title": "Oscar Lopez culpa del mal resultado del PSOE en Aragon al fallecido Lamban: \"No hizo oposicion a Azcon\"",
-          "url": "https://www.elespanol.com/espana/politica/20260212/oscar-lopez-culpa-mal-resultado-psoe-aragon-fallecido-lamban-no-hizo-oposicion-azcon/1003744127012_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T10:02:06.789Z"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "La Vanguardia",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 7,
-      "matched_articles": [
-        {
-          "title": "Espana recrimina a la Italia de Meloni por excluir a Sanchez de la minicumbre economica de los grandes lideres europeos",
-          "url": "https://www.elespanol.com/espana/politica/20260212/espana-recrimina-italia-meloni-excluir-sanchez-minicumbre-economica-grandes-lideres-europeos/1003744127839_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T16:04:44.254Z"
-        },
-        {
-          "title": "Espana recrimina a la Italia de Meloni por excluir a Sanchez de la minicumbre economica de los grandes lideres europeos",
-          "url": "https://www.elespanol.com/espana/politica/20260212/espana-recrimina-italia-meloni-excluir-sanchez-minicumbre-economica-grandes-lideres-europeos/1003744127839_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T16:04:00.576Z"
-        },
-        {
-          "title": "Cinco heridos, uno de ellos grave, por el temporal de viento en Cataluna",
-          "url": "https://www.larazon.es/cataluna/cinco-heridos-uno-ellos-graves-temporal-viento-cataluna_20260212698d85f42f00a0468807e71b.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-12T08:56:36.208Z"
-        },
-        {
-          "title": "?Que marana burocratica impide construir las viviendas que necesita Espana?",
-          "url": "https://www.lavanguardia.com/economia/20260212/11464020/cual-marana-burocratica-impide-construir-viviendas-necesita-espana.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-12T08:07:31.179Z"
-        },
-        {
-          "title": "Ver mas informacion de Park Chang-wook firma una violenta y tronchante satira anticapitalista en 'No hay otra opcion'",
-          "url": "https://www.publico.es/culturas/cine-tv/park-chang-wook-firma-violenta-tronchante-satira-anticapitalista-hay-opcion.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T05:05:47.310Z"
-        },
-        {
-          "title": "El director de 'La Vanguardia', Jordi Juan, conversa en Madrid con los suscriptores del diario",
-          "url": "https://www.lavanguardia.com/participacion/concursos/20260211/11459928/director-vanguardia-jordi-juan-conversa-madrid-suscriptores-diario.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-11T18:10:42.294Z"
-        },
-        {
-          "title": "Documentos sovieticos revelan avistamientos de OVNIs investigados en secreto",
-          "url": "https://www.larazon.es/internacional/documentos-sovieticos-revelan-avistamientos-ovnis-investigados-secreto_20260211698cb9f01817b41eb641c0bc.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-11T18:03:24.721Z"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Dawson Crece",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 5,
-      "matched_articles": [
-        {
-          "title": "La muerte de James Van Der Beek evidencia las consecuencias de privatizar la salud: \"Un actor famoso, en la quiebra por darse quimio\"",
-          "url": "https://www.publico.es/tremending/muerte-james-der-beek-evidencia-consecuencias-privatizar-salud-actor-famoso-quiebra-darse-quimio.html",
-          "newspaper": "Público",
-          "date": "2026-02-12T16:02:34.048Z"
-        },
-        {
-          "title": "La complicada situacion economica de la viuda de James Van Der Beek y sus seis hijos tras la muerte del actor: lanzan un GoFundMe para recaudar dinero, \"se enfrentan a un futuro incierto\"",
-          "url": "https://www.elmundo.es/loc/celebrities/2026/02/12/698d90e121efa066328b456d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-12T11:04:16.299Z"
-        },
-        {
-          "title": "La aparicion de James Van Der Beek muy desmejorado en la reunion de 'Dawson Crece' que preocupo a los fans de la serie",
-          "url": "https://www.elmundo.es/loc/2026/02/11/698ce40221efa03f068b45ae.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-11T20:54:26.164Z"
-        },
-        {
-          "title": "Ver mas informacion de Muere el protagonista de 'Dawson crece', James Van Der Beek, a los 48 anos",
-          "url": "https://www.publico.es/culturas/muere-actor-dawson-crece-james-der-beek-48-anos.html",
-          "newspaper": "Público",
-          "date": "2026-02-11T20:48:37.065Z"
-        },
-        {
-          "title": "Muere a los 48 anos el actor James Van Der Beek, protagonista de 'Dawson crece'",
-          "url": "https://www.eldiario.es/vertele/series/muere-48-anos-actor-james-der-beek-protagonista-dawson-crece_1_12983656.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-11T20:43:22.959Z"
-        }
-      ]
-    },
-    {
-      "id": 104,
-      "title": "Guedes",
+      "id": 105,
+      "title": "Superliga",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 4,
+      "news_count": 5,
       "matched_articles": [
         {
-          "title": "Una gran Real deja de piedra a San Mames y ya ve la la final a un paso",
-          "url": "https://www.elmundo.es/deportes/futbol/copa-del-rey/2026/02/11/698cdf2de4d4d8d8368b4576.html",
+          "title": "La intrahistoria del final de la Superliga: la reunion entre Florentino, Ceferin y Al-Khelaifi, la amenaza de los 4.000 millones, la soledad del Madrid...",
+          "url": "https://www.elmundo.es/deportes/futbol/2026/02/11/698cd8e4fdddff124a8b4575.html",
           "newspaper": "El Mundo",
-          "date": "2026-02-11T22:44:21.180Z"
+          "date": "2026-02-12T02:42:42.467Z"
         },
         {
-          "title": "Un gol de Turrientes da ventaja a la Real sobre el Athletic en las semis de Copa",
-          "url": "https://www.abc.es/deportes/futbol/gol-turrientes-ventaja-real-semis-copa-20260211230249-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-11T22:42:44.365Z"
-        },
-        {
-          "title": "La Real Sociedad se aprovecha de las dudas del Athletic Club y da el primer paso para meterse en la final de la Copa del Rey",
-          "url": "https://www.elespanol.com/deportes/futbol/20260211/real-sociedad-aprovecha-dudas-athletic-club-da-primer-paso-meterse-final-copa-rey/1003744126746_0.html",
+          "title": "El Real Madrid se reafirma en su papel de lider del futbol europeo tras un acuerdo con UEFA y EFC historico",
+          "url": "https://www.elespanol.com/deportes/futbol/20260212/real-madrid-reafirma-papel-lider-futbol-europeo-acuerdo-uefa-efc-historico/1003744126740_0.html",
           "newspaper": "El Español",
-          "date": "2026-02-11T22:40:04.077Z"
+          "date": "2026-02-12T02:38:37.348Z"
         },
         {
-          "title": "Athletic - Real Sociedad: ida de la semifinal, en directo",
-          "url": "https://www.elmundo.es/deportes/futbol/copa-del-rey/athletic-r-sociedad/2026/02/11/01_0105_20260211_174_188-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-11T20:54:26.166Z"
+          "title": "Al Khelaifi, sobre el acuerdo Madrid-UEFA-EFC: \"Si alguien dice que hoy Florentino Perez ha 'perdido', es un estupido\"",
+          "url": "https://www.elespanol.com/deportes/futbol/20260211/khelaifi-acuerdo-madrid-uefa-efc-alguien-dice-hoy-florentino-perez-perdido-estupido/1003744126717_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-11T22:40:09.172Z"
+        },
+        {
+          "title": "Florentino Perez se rinde y acuerda con la UEFA el final de su gran proyecto, la Superliga",
+          "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/02/11/uefa-clubes-europeos-real-madrid-anuncian-acuerdo-acaba-superliga/00031770819820390631260.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-02-11T20:52:12.554Z"
+        },
+        {
+          "title": "Florentino Perezse rinde y acuerda con la UEFA el final de su gran proyecto, la Superliga",
+          "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/02/11/uefa-clubes-europeos-real-madrid-anuncian-acuerdo-acaba-superliga/00031770819820390631260.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-02-11T19:25:15.400Z"
         }
       ]
     },
     {
-      "id": 10,
-      "title": "Ana Milan",
+      "id": 11,
+      "title": "Ana Millan",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 3,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "title": "La izquierda madrilena trata de exprimir el caso de Mostoles, pero no logra abrir una grieta en el PP",
+          "url": "https://www.abc.es/espana/madrid/izquierda-madrilena-trata-exprimir-mostoles-logra-abrir-20260212104957-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-12T11:02:34.770Z"
+        },
+        {
+          "title": "La izquierda acusa a Ayuso de proteger al alcalde de Mostoles y ella responde con ETA e insultos: \"Son unos tristes\"",
+          "url": "https://www.eldiario.es/madrid/izquierda-acusa-ayuso-proteger-alcalde-mostoles-responde-eta-e-insultos-son-tristes_1_12984339.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-12T09:55:22.629Z"
+        },
+        {
+          "title": "Martin Presa, el presidente que indigna al Rayo Vallecano: de coquetear con la ultraderecha a un cesped infame",
+          "url": "https://www.eldiario.es/madrid/somos/martin-presa-presidente-indigna-rayo-vallecano-coquetear-ultraderecha-cesped-infame_1_12975025.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-12T08:53:42.621Z"
+        }
+      ]
     },
     {
-      "id": 3,
-      "title": "Atletico Barcelona",
+      "id": 102,
+      "title": "Sarah",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 3,
+      "matched_articles": [
+        {
+          "title": "Ver mas informacion de Mitad fango, mitad rancio: Marina Lobo, tajante sobre los ataques contra Sarah Santaolalla",
+          "url": "https://www.publico.es/politica/video-mitad-fango-mitad-rancio-marina-lobo-tajante-sobre-ataques-sarah-santaolalla.html",
+          "newspaper": "Público",
+          "date": "2026-02-12T14:58:19.931Z"
+        },
+        {
+          "title": "Ver mas informacion de Mitad fango, mitad rancio: Marina Lobo, tajante sobre los ataques contra Sarah Santaolalla",
+          "url": "https://www.publico.es/politica/video-mitad-fango-mitad-rancio-marina-lobo-tajante-sobre-ataques-sarah-santaolalla.html",
+          "newspaper": "Público",
+          "date": "2026-02-12T14:57:52.866Z"
+        },
+        {
+          "title": "Pablo Motos y 'El Hormiguero' piden perdon por el ataque de Rosa Belmonte a Sarah Santaolalla: \"No es nuestro estilo\"",
+          "url": "https://www.eldiario.es/vertele/noticias/pablo-motos-hormiguero-piden-perdon-ataque-rosa-belmonte-sarah-santaolalla-no-estilo_1_12983729.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-12T06:12:56.115Z"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "title": "La Fifa",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 3,
+      "matched_articles": [
+        {
+          "title": "Croacia, Inglaterra y Republica Checa, rivales de la seleccion espanola",
+          "url": "https://www.abc.es/deportes/futbol/croacia-inglaterra-republica-checa-rivales-seleccion-espanola-20260212192543-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-12T19:16:20.105Z"
+        },
+        {
+          "title": "El Athletic Club, sancionado por la FIFA hasta enero de 2028 sin poder fichar ni inscribir a nuevos jugadores",
+          "url": "https://www.elespanol.com/deportes/futbol/20260212/athletic-club-sancionado-fifa-verano-sin-poder-fichar-inscribir-nuevos-jugadores/1003744128275_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-12T19:13:41.042Z"
+        },
+        {
+          "title": "Al Khelaifi, sobre el acuerdo Madrid-UEFA-EFC: \"Si alguien dice que hoy Florentino Perez ha 'perdido', es un estupido\"",
+          "url": "https://www.elespanol.com/deportes/futbol/20260211/khelaifi-acuerdo-madrid-uefa-efc-alguien-dice-hoy-florentino-perez-perdido-estupido/1003744126717_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-11T22:40:09.172Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Atlético Madrid - Man Utd",
       "source": "google",
-      "volume": "50 mil+ búsquedas",
+      "volume": "200 mil+ búsquedas",
       "timeframe": "hace 1 h (24h)",
       "news_count": 2,
       "matched_articles": [
@@ -1366,8 +890,8 @@
       ]
     },
     {
-      "id": 103,
-      "title": "Pablo Motos",
+      "id": 104,
+      "title": "Rosa Belmonte",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -1388,11 +912,11 @@
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "Rosa Belmonte Sarah Santaolalla",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -1404,36 +928,47 @@
       ]
     },
     {
-      "id": 30,
-      "title": "Nations League",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Sorteo de la UEFA Nations League 2026-27 | Horario, bombos, rivales de Espana, y donde ver online hoy",
-          "url": "https://www.elespanol.com/deportes/20260212/sorteo-uefa-nations-league-horario-bombos-rivales-espana-ver-online-hoy/1003744127534_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-12T14:59:32.290Z"
-        }
-      ]
-    },
-    {
       "id": 1,
       "title": "Juegos Olímpicos de Invierno 2026 Snowboard Halfpipe Femenino",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 21 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 3,
+      "title": "2026 Winter Olympics Women's Snowboarding Halfpipe",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 5,
-      "title": "2026 Winter Olympics Women's Snowboarding Halfpipe",
+      "title": "Brentford - Arsenal",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 6,
+      "title": "Rtve",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 7,
+      "title": "Rtve Play",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 50 min (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1442,31 +977,58 @@
       "title": "Final Coac 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 9,
-      "title": "Sunderland Afc - Liverpool",
+      "id": 10,
+      "title": "Final Copa del Rey 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
+      "timeframe": "hace 20 min (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 13,
-      "title": "Alianza Lima - 2 de Mayo",
+      "id": 12,
+      "title": "Barça - París",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 19 h (24h)",
+      "timeframe": "hace 2 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 20,
+      "id": 14,
       "title": "Elena Rivera",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 28,
+      "title": "Juan Musso",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 29,
+      "title": "Marc Pubill",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 30,
+      "title": "Ademola Lookman",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 20 min (4h)",
@@ -1474,74 +1036,29 @@
       "matched_articles": []
     },
     {
-      "id": 22,
-      "title": "Brentford - Arsenal",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 25,
-      "title": "Álex de Miñaur",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 26,
-      "title": "Barça - París",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 27,
-      "title": "Atlético Madrid - Man Utd",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 10 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
       "id": 31,
-      "title": "State Of Play",
+      "title": "Arancha del Sol",
       "source": "google",
-      "volume": "500+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 32,
-      "title": "India National Cricket Team Vs Namibia National Cricket Team Standings",
+      "title": "Pablo Carbonell",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 33,
-      "title": "Manuel Jabois",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 34,
-      "title": "Feliciano López",
+      "title": "Joan Garcia",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1555,8 +1072,26 @@
       "matched_articles": []
     },
     {
-      "id": 105,
-      "title": "Yuyu",
+      "id": 121,
+      "title": "Nahuel",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 122,
+      "title": "Ruggeri",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 124,
+      "title": "Nicolas Cage",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

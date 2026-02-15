@@ -1,95 +1,63 @@
 {
-  "timestamp": "2026-02-14T23:41:13.592137",
+  "timestamp": "2026-02-15T02:48:44.291162",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 10,
+    "xtrends_total": 7,
     "tags_total": 50,
-    "unique_total": 81,
-    "unified_count": 5,
-    "with_news": 60,
-    "without_news": 21
+    "unique_total": 79,
+    "unified_count": 3,
+    "with_news": 53,
+    "without_news": 26
   },
   "trends": [
     {
       "id": 201,
       "title": "España",
       "source": "news_tags",
-      "volume": "74 artículos",
+      "volume": "75 artículos",
       "timeframe": "24h noticias",
-      "news_count": 89
+      "news_count": 90
     },
     {
       "id": 200,
       "title": "Trump",
       "source": "news_tags",
-      "volume": "77 artículos",
+      "volume": "78 artículos",
       "timeframe": "24h noticias",
-      "news_count": 77
+      "news_count": 78
     },
     {
-      "id": 202,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 203,
-      "title": "Eeuu",
-      "source": "news_tags",
-      "volume": "45 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 45
-    },
-    {
-      "id": 204,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "44 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 44
-    },
-    {
-      "id": 205,
-      "title": "Vientos",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 206,
-      "title": "Ere",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
-      "id": 207,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
-      "id": 208,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 38
-    },
-    {
-      "id": 12,
-      "title": "Benidorm Fest 2026",
+      "id": 8,
+      "title": "Ganador Benidorm Fest 2026",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 37,
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 62,
       "matched_articles": [
+        {
+          "title": "Benidorm Fest 2026 | Sigue la gala de la gran final y votaciones, en directo",
+          "url": "https://www.lavanguardia.com/television/20260214/11466623/gala-benidorm-fest-2026-final-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-14T23:39:07.186Z"
+        },
+        {
+          "title": "Directo final Benidorm Fest 2026, votaciones y ganador | El golpe \"chochal\" de Rosalinda Galan que dejo a Ines Hernand patidifusa",
+          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T23:38:08.961Z"
+        },
+        {
+          "title": "Votaciones Benidorm Fest 2026: ganador, clasificacion final por puntos premios Spotify y Univision, en directo",
+          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260215191740-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-14T23:36:36.652Z"
+        },
+        {
+          "title": "Final Benidorm Fest 2026 | Todas las actuaciones, votaciones, puntuaciones y ganador, en directo",
+          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T23:34:12.292Z"
+        },
         {
           "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
           "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
@@ -158,44 +126,396 @@
         }
       ],
       "merged_sources": [
-        "news_tags",
-        "google"
+        "google",
+        "news_tags"
       ]
+    },
+    {
+      "id": 202,
+      "title": "Era",
+      "source": "news_tags",
+      "volume": "46 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 46
+    },
+    {
+      "id": 203,
+      "title": "Rusia",
+      "source": "news_tags",
+      "volume": "46 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 46
+    },
+    {
+      "id": 105,
+      "title": "Marco Rubio",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 45,
+      "matched_articles": [
+        {
+          "title": "Marco Rubio defiende una alianza con Europa bajo las condiciones de Trump",
+          "url": "https://www.larazon.es/internacional/europa/marco-rubio-defiende-alianza-europa-condiciones-trump_202602146990f1872f00a046880d5aec.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T22:32:33.050Z"
+        },
+        {
+          "title": "Ver mas informacion de Zelenski califica de",
+          "url": "https://www.publico.es/internacional/europa/zelenski-califica-locura-entregar-donbas-rusia-pide-trump-apruebe-garantias-seguridad.html",
+          "newspaper": "Público",
+          "date": "2026-02-14T17:34:41.490Z"
+        },
+        {
+          "title": "Zelenski en Munich: \"Dennos dos meses de alto el fuego e iremos a elecciones\"",
+          "url": "https://www.eldiario.es/internacional/zelenski-munich-dennos-meses-alto-fuego-e-iremos-elecciones_1_12991222.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-14T17:28:56.440Z"
+        },
+        {
+          "title": "El chavismo excarcela a 17 presos politicos apremiado por la presion de sus familiares y el retraso en la amnistia",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T16:44:29.771Z"
+        },
+        {
+          "title": "Zelenski advierte que <<dividir Ucrania para contentar a Putin no traera una paz real>>",
+          "url": "https://www.abc.es/internacional/zelenski-alerta-armas-evolucionan-rapido-decisiones-politicas-20260214132501-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-14T16:42:59.497Z"
+        },
+        {
+          "title": "EE UU impone las condiciones de Trump para mantener con vida la relacion con Europa",
+          "url": "https://elpais.com/internacional/2026-02-14/ee-uu-impone-las-condiciones-de-trump-para-mantener-con-vida-la-relacion-con-europa.html",
+          "newspaper": "El País",
+          "date": "2026-02-14T15:13:43.000Z"
+        },
+        {
+          "title": "Zelenski accede a la exigencia de Trump para presionar a Putin: \"Dennos dos meses de alto el fuego e iremos a elecciones\"",
+          "url": "https://www.20minutos.es/internacional/zelenski-dividir-ucrania-no-paz-promesa-alto-fuego-elecciones_6934220_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T14:00:56.438Z"
+        },
+        {
+          "title": "Guerra Ucrania-Rusia, ultima hora en directo | Zelenski lamenta que EEUU pida \"con demasiada frecuencia\" concesiones a Ucrania y no a Rusia",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/699025e91ee97cbdb6472a15-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T13:06:27.603Z"
+        },
+        {
+          "title": "Zelenski pide a EEUU garantias de seguridad y advierte en Munich que dividir Ucrania no traera la paz",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/69906cd521efa061678b4597.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T13:06:27.603Z"
+        },
+        {
+          "title": "Zelenski afirma que convocara elecciones si le dan \"dos meses de alto el fuego\"",
+          "url": "https://www.larazon.es/internacional/europa/zelenski-afirma-que-convocara-elecciones-dan-dos-meses-alto-fuego_2026021469906fce2f00a046880ca209.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T13:00:08.957Z"
+        },
+        {
+          "title": "Zelenski afirma que convocara elecciones si le dan \"dos meses de alto el fuego\"",
+          "url": "https://www.larazon.es/internacional/europa/zelenski-afirma-que-convocara-elecciones-dan-dos-meses-alto-fuego_2026021469906fce2f00a046880ca209.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T12:59:21.257Z"
+        },
+        {
+          "title": "EEUU desconoce si Rusia \"va en serio\" a la hora de poner fin a la guerra de Ucrania",
+          "url": "https://www.20minutos.es/internacional/eeuu-desconoce-si-rusia-va-serio-hora-poner-fin-guerra-ucrania_6934187_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T11:39:25.113Z"
+        },
+        {
+          "title": "Rubio insta a Europa a liderar junto a EE.UU. la recuperacion del <<dominio occidental>> sin debilidad ni verguenza por su herencia",
+          "url": "https://www.abc.es/internacional/rubio-tiende-mano-europa-nueva-realidad-amparo-20260214095557-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-14T11:34:58.825Z"
+        },
+        {
+          "title": "Von der Leyen aboga por la \"defensa mutua de la UE\": \"Debemos estar dispuestos a utilizar nuestra fuerza\"",
+          "url": "https://www.elespanol.com/mundo/europa/20260214/von-der-leyen-aboga-defensa-mutua-ue-debemos-dispuestos-utilizar-fuerza/1003744130317_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T11:33:45.794Z"
+        },
+        {
+          "title": "Von der Leyen aboga por la \"defensa mutua de la UE\": \"Debemos estar dispuestos a utilizar nuestra fuerza\"",
+          "url": "https://www.elespanol.com/mundo/europa/20260214/von-der-leyen-aboga-defensa-mutua-ue-debemos-dispuestos-utilizar-fuerza/1003744130317_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T11:32:11.259Z"
+        },
+        {
+          "title": "Ver mas informacion de Rubio llama a",
+          "url": "https://www.publico.es/internacional/eeuu/rubio-alerta-sobre-efectos-migracion-masiva-desindustrializacion-occidente.html",
+          "newspaper": "Público",
+          "date": "2026-02-14T11:31:40.605Z"
+        },
+        {
+          "title": "Ver mas informacion de Rubio llama a \"revitalizar\" la amistad entre EEUU y Europa en un nuevo e \"inevitable\" orden mundial",
+          "url": "https://www.publico.es/internacional/eeuu/rubio-alerta-sobre-efectos-migracion-masiva-desindustrializacion-occidente.html",
+          "newspaper": "Público",
+          "date": "2026-02-14T11:30:42.124Z"
+        },
+        {
+          "title": "Marco Rubio tiende la mano a Europa, pero deja claro que EEUU liderara el nuevo orden mundial bajo los terminos de Trump",
+          "url": "https://www.20minutos.es/internacional/eeuu-insta-europa-realidad-nacionalismo-trump-devolvera-identidad_6934171_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T10:44:48.161Z"
+        },
+        {
+          "title": "China advierte que esta preparada para actuar si EEUU \"cruza lineas rojas\" como Taiwan: \"Llevaria a un conflicto\"",
+          "url": "https://www.20minutos.es/internacional/china-preparada-eeuu-lineas-rojas-un-conflicto_6934182_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T10:44:47.820Z"
+        },
+        {
+          "title": "La Casa Blanca te propone estas provocativas felicitaciones de San Valentin: de Nicolas Maduro preso a una Groenlandia romantica",
+          "url": "https://www.20minutos.es/internacional/casa-blanca-te-propone-estas-provocativas-felicitaciones-san-valentin-nicolas-maduro-preso-una-groenlandia-romantica_6934170_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T10:44:47.045Z"
+        },
+        {
+          "title": "Von der Leyen proclama que a Europa \"ya no le queda otra eleccion\" mas que fomentar su independencia",
+          "url": "https://www.20minutos.es/internacional/von-der-leyen-proclama-que-europa-ya-no-le-queda-otra-eleccion-mas-que-fomentar-su-independencia_6934185_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T10:44:46.696Z"
+        },
+        {
+          "title": "Ver mas informacion de Rubio alerta sobre los efectos de la",
+          "url": "https://www.publico.es/internacional/eeuu/rubio-alerta-sobre-efectos-migracion-masiva-desindustrializacion-occidente.html",
+          "newspaper": "Público",
+          "date": "2026-02-14T10:37:08.335Z"
+        },
+        {
+          "title": "Marco Rubio afirma que EE UU no sabe \"si los rusos van en serio para acabar con la guerra\"",
+          "url": "https://www.larazon.es/internacional/marco-rubio-afirma-que-sabe-rusos-van-serio-acabar-guerra_2026021469904fc09243cc133c481a0f.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T10:35:36.632Z"
+        },
+        {
+          "title": "Marco Rubio: Estados Unidos quiere una \"restauracion del orden mundial\" segun Trump y prefiere hacerlo con Europa",
+          "url": "https://www.lavanguardia.com/internacional/20260214/11466420/marco-rubio-estados-unidos-quiere-restauracion-orden-mundial-trump-prefiere-hacerlo-europa.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-14T09:48:35.550Z"
+        },
+        {
+          "title": "Marco Rubio: Estados Unidos quiere una \"restauracion del orden mundial\" segun Trump y prefiere hacerlo con Europa",
+          "url": "https://www.lavanguardia.com/internacional/20260214/11466420/marco-rubio-estados-unidos-quiere-restauracion-orden-mundial-trump-prefiere-hacerlo-europa.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-14T09:48:04.342Z"
+        },
+        {
+          "title": "Marco Rubio tiende la mano a Europa, pero deja claro que EEUU redefinira el orden internacional",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/6990382efdddff4c288b45ae.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T09:47:25.130Z"
+        },
+        {
+          "title": "Guerra Ucrania-Rusia, ultima hora en directo | Marco Rubio asegura que EEUU \"no sabe\" si Rusia quiere poner fin a la guerra en Ucrania",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/699025e91ee97cbdb6472a15-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T09:47:25.129Z"
+        },
+        {
+          "title": "Marco Rubio tiende la mano a Europa, pero deja claro que EEUU redefinira el orden internacional",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/6990382efdddff4c288b45ae.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T09:47:05.365Z"
+        },
+        {
+          "title": "Rubio tiende la mano a Europa hacia una nueva realidad al amparo del nacionalismo abanderado por Donald Trump",
+          "url": "https://www.abc.es/internacional/rubio-tiende-mano-europa-nueva-realidad-amparo-20260214095557-nt.html",
+          "newspaper": "ABC",
+          "date": "2026-02-14T09:45:25.053Z"
+        },
+        {
+          "title": "Rubio tiende puentes con Europa pero advierte contra el \"declive de Occidente\": \"No queremos aliados debiles\"",
+          "url": "https://www.elespanol.com/mundo/america/20260214/rubio-tiende-puentes-europa-advierte-declive-occidente-no-queremos-aliados-debiles/1003744130237_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T09:43:54.249Z"
+        },
+        {
+          "title": "Sanchez acude por primera vez a la Conferencia de Munich",
+          "url": "https://www.larazon.es/espana/sanchez-acude-primera-vez-conferencia-munich_2026021469903e4d1817b41eb647612a.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T09:39:08.581Z"
+        },
+        {
+          "title": "Marco Rubio reprocha a Europa sus politicas migratorias y climaticas al tiempo que rechaza que EEUU busque \"el fin de la era transatlantica\"",
+          "url": "https://www.eldiario.es/internacional/marco-rubio-reprocha-europa-politicas-migratorias-climaticas-tiempo-rechaza-eeuu-busque-transatlantica_1_12990766.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-14T09:37:03.242Z"
+        },
+        {
+          "title": "Marco Rubio reprocha a Europa sus politicas migratorias y climaticas al tiempo que rechaza que EEUU busque \"el fin de la era transatlantica\"",
+          "url": "https://www.eldiario.es/internacional/marco-rubio-reprocha-europa-politicas-migratorias-climaticas-tiempo-rechaza-eeuu-busque-transatlantica_1_12990766.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-14T09:35:28.101Z"
+        },
+        {
+          "title": "El chavismo excarcela a 17 presos politicos apremiado por la presion de sus familiares y el retraso en la amnistia",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T08:46:54.069Z"
+        },
+        {
+          "title": "Guerra Ucrania-Rusia, ultima hora en directo | Marco Rubio defiende la alianza con Europa dentro de \"la restauracion del orden mundial\" que impulsa Trump",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/699025e91ee97cbdb6472a15-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T08:46:54.069Z"
+        },
+        {
+          "title": "El chavismo excarcela a 17 presos politicos apremiado por la presion de sus familiares y el retraso en la amnistia",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T08:46:35.067Z"
+        },
+        {
+          "title": "Guerra Ucrania-Rusia, ultima hora en directo | Marco Rubio interviene hoy en Munich ante unos lideres europeos preocupados por Rusia",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/699025e91ee97cbdb6472a15-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T07:46:13.905Z"
+        },
+        {
+          "title": "Munich marca el funeral de un orden mundial",
+          "url": "https://elpais.com/internacional/2026-02-14/munich-marca-el-funeral-de-un-orden-mundial.html",
+          "newspaper": "El País",
+          "date": "2026-02-14T05:30:01.000Z"
+        },
+        {
+          "title": "Europa activa la disuasion nuclear y el pacto con Estados Unidos",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f87a9e4d4d838478b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T02:26:24.918Z"
+        },
+        {
+          "title": "El 'romance' entre Trump y Delcy no impide su derrota en los sondeos frente a Maria Corina",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T02:26:24.918Z"
+        },
+        {
+          "title": "El 'romance' entre Trump y Delcy no impide su derrota en los sondeos frente a Maria Corina",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T02:26:04.403Z"
+        },
+        {
+          "title": "Europa activa la disuasion nuclear y el pacto con Estados Unidos",
+          "url": "https://www.elmundo.es/internacional/2026/02/14/698f87a9e4d4d838478b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T02:26:04.402Z"
+        },
+        {
+          "title": "Trump redobla la presion sobre Zelenski para que se someta a las urnas antes de junio y ceda el Donbas: \"Tiene que moverse\"",
+          "url": "https://www.elespanol.com/mundo/europa/20260214/trump-redobla-presion-zelenski-someta-urnas-junio-ceda-donbas-moverse/1003744130065_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T02:22:56.202Z"
+        },
+        {
+          "title": "Trump redobla la presion sobre Zelenski para que se someta a las urnas antes de junio y ceda el Donbas: \"Tiene que moverse\"",
+          "url": "https://www.elespanol.com/mundo/europa/20260214/trump-redobla-presion-zelenski-someta-urnas-junio-ceda-donbas-moverse/1003744130065_0.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T02:21:38.108Z"
+        },
+        {
+          "title": "Guia de supervivencia (no oficial) para la Conferencia de Seguridad de Munich",
+          "url": "https://www.elmundo.es/internacional/2026/02/13/698f36a2e85ecedf128b459f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-13T23:46:21.661Z"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "title": "Vientos",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
+      "id": 205,
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "42 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 42
+    },
+    {
+      "id": 206,
+      "title": "Ucrania",
+      "source": "news_tags",
+      "volume": "41 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 41
+    },
+    {
+      "id": 207,
+      "title": "Ere",
+      "source": "news_tags",
+      "volume": "40 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 40
+    },
+    {
+      "id": 208,
+      "title": "Europa",
+      "source": "news_tags",
+      "volume": "39 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 39
     },
     {
       "id": 209,
       "title": "Estados Unidos",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
+      "id": 210,
+      "title": "Madrid",
       "source": "news_tags",
       "volume": "34 artículos",
       "timeframe": "24h noticias",
       "news_count": 34
     },
     {
-      "id": 210,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 211,
+      "id": 212,
       "title": "Múnich",
       "source": "news_tags",
-      "volume": "29 artículos",
+      "volume": "30 artículos",
       "timeframe": "24h noticias",
-      "news_count": 29
+      "news_count": 30
     },
     {
-      "id": 212,
+      "id": 213,
       "title": "En Directo",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 214,
+      "title": "Psoe Andalucía",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
       "news_count": 27
     },
     {
-      "id": 213,
+      "id": 215,
+      "title": "Seguridad Nuclear",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
+      "id": 216,
       "title": "Politica",
       "source": "news_tags",
       "volume": "26 artículos",
@@ -203,23 +523,7 @@
       "news_count": 26
     },
     {
-      "id": 215,
-      "title": "Psoe Andalucía",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 216,
-      "title": "Seguridad Nuclear",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 217,
+      "id": 218,
       "title": "Pedro Sánchez",
       "source": "news_tags",
       "volume": "25 artículos",
@@ -227,7 +531,7 @@
       "news_count": 25
     },
     {
-      "id": 218,
+      "id": 219,
       "title": "Eso",
       "source": "news_tags",
       "volume": "24 artículos",
@@ -243,7 +547,7 @@
       "news_count": 23
     },
     {
-      "id": 102,
+      "id": 101,
       "title": "San Valentín",
       "source": "x_trends",
       "volume": "N/A",
@@ -418,6 +722,14 @@
     },
     {
       "id": 225,
+      "title": "Reyes de Espana",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 226,
       "title": "Unión Europea (ue)",
       "source": "news_tags",
       "volume": "21 artículos",
@@ -425,151 +737,8 @@
       "news_count": 21
     },
     {
-      "id": 20,
-      "title": "Real Madrid",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 20,
-      "matched_articles": [
-        {
-          "title": "Trent ordena y Vinicius marca dos penaltis para que el Madrid duerma lider de la Liga",
-          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/14/6990ef0221efa0500a8b4571.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.449Z"
-        },
-        {
-          "title": "Vinicius hace de Mbappe y mete presion al Barca con el liderato provisional",
-          "url": "https://www.abc.es/deportes/real-madrid/cronica-20260214183637-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T22:37:10.744Z"
-        },
-        {
-          "title": "El Madrid recupera la chispa en la noche de San Valentin: desactiva la racha de la Real y duerme lider de La Liga",
-          "url": "https://www.elespanol.com/deportes/futbol/20260214/madrid-recupera-chispa-noche-san-valentin-desactiva-racha-real-duerme-lider-liga/1003744130683_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T22:34:35.773Z"
-        },
-        {
-          "title": "El Real Madrid llega a la luz y disfruta contra la Real Sociedad (4-1)",
-          "url": "https://www.larazon.es/deportes/futbol/real-madrid-real-sociedad-directo-hoy-jornada-24-laliga-sports_20260214698b33279243cc133c3f9a35.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T22:31:36.067Z"
-        },
-        {
-          "title": "Benidorm Fest 2026, la gran final en directo | Resultados, ganador, votaciones, mejores actuaciones y reacciones",
-          "url": "https://www.elespanol.com/corazon/20260214/benidorm-fest-final-2026-resultados-ganador-votaciones-mejores-actuaciones-reacciones-directo-orden-actuacion-melody-rtve-finalistas/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T21:35:12.717Z"
-        },
-        {
-          "title": "En directo: Real Madrid - Real Sociedad",
-          "url": "https://www.elmundo.es/deportes/futbol/laliga-ea-sports/r-madrid-real-sociedad/2026/02/14/01_0101_20260214_186_188-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T20:41:52.440Z"
-        },
-        {
-          "title": "Real Madrid - Real Sociedad en directo: resultado, goles y ganador del partido de la jornada 24 de la Liga",
-          "url": "https://www.abc.es/deportes/real-madrid/real-madrid-real-sociedad-directo-resultado-goles-20260214111829-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T20:40:26.416Z"
-        },
-        {
-          "title": "Real Madrid - Real Sociedad, en directo La Liga: resultado, goleadores y estadisticas en vivo",
-          "url": "https://www.elespanol.com/deportes/20260214/real-madrid-sociedad-directo-liga-resultado-goleadores-estadisticas-vivo/1003744129928_22.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T20:37:32.754Z"
-        },
-        {
-          "title": "Real Madrid - Real Sociedad, en directo hoy: jornada 24 de LaLiga EA Sports",
-          "url": "https://www.larazon.es/deportes/futbol/real-madrid-real-sociedad-directo-hoy-jornada-24-laliga-sports_20260214698b33279243cc133c3f9a35.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T19:31:11.186Z"
-        },
-        {
-          "title": "El Barca presenta una queja formal ante la RFEF contra los arbitros y reclama \"igualdad de trato entre clubes\"",
-          "url": "https://www.elespanol.com/deportes/futbol/20260214/barca-presenta-queja-formal-rfef-arbitros-reclama-igualdad-trato-clubes/1003744130471_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T15:36:36.726Z"
-        },
-        {
-          "title": "La justicia valida una pension de 2.862 euros para un trabajador de la DGT despues de que la Seguridad Social se la denegase por ser funcionario",
-          "url": "https://www.larazon.es/madrid/justicia-valida-pension-2862-euros-trabajador-dgt-despues-que-seguridad-social-denegase-ser-funcionario-b50m_20260214699087882f00a046880cc4b3.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T14:34:07.575Z"
-        },
-        {
-          "title": "El sorteo de San Valentin de Loteria Nacional deja una lluvia de miles de euros en ocho provincias",
-          "url": "https://www.20minutos.es/nacional/loteria-nacional-deja-una-lluvia-miles-euros-un-total-ocho-provincias_6934227_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-14T14:00:30.384Z"
-        },
-        {
-          "title": "Reliquias de San Valentin por media Europa, tambien en Espana: ?cuales son autenticas?",
-          "url": "https://www.20minutos.es/internacional/reliquias-san-valentin-por-media-europa-tambien-espana-cuales-son-autenticas_6934194_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-14T11:39:24.605Z"
-        },
-        {
-          "title": "La izquierda andaluza se distancia del proyecto de Rufian como lider de un frente amplio nacional y pide hablar de ideas",
-          "url": "https://www.elespanol.com/espana/andalucia/20260214/izquierda-andaluza-distancia-proyecto-rufian-lider-frente-amplio-nacional-pide-hablar-ideas/1003744129514_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T09:43:06.112Z"
-        },
-        {
-          "title": "La borrasca Oriana activa avisos en toda Espana, con nivel 'rojo' en Castellon por fuertes vientos",
-          "url": "https://www.elmundo.es/espana/2026/02/14/6990186921efa01b2c8b458d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T06:59:46.174Z"
-        },
-        {
-          "title": "Ver mas informacion de El dia que Alonso Montero reclamo el 'Guernica gallego', simbolo de la represion franquista contra los maestros",
-          "url": "https://www.publico.es/culturas/arte/alonso-montero-reclamo-guernica-gallego-simbolo-represion-franquista-maestros.html",
-          "newspaper": "Público",
-          "date": "2026-02-14T05:54:03.584Z"
-        },
-        {
-          "title": "Juristas ven \"positivisima\" la ley de multirreincidencia pero avisan que puede saturar el sistema",
-          "url": "https://www.larazon.es/espana/juristas-ven-positivisima-ley-multirreincidencia-pero-avisan-que-puede-saturar-sistema_20260214698f61ac2f00a046880b6abb.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T04:47:18.032Z"
-        },
-        {
-          "title": "Trent, Carvajal y la gran grieta que lo condiciona todo en el Madrid",
-          "url": "https://www.elmundo.es/deportes/futbol/2026/02/13/698f67bafdddff787a8b4599.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T02:26:04.404Z"
-        },
-        {
-          "title": "La burbuja de la M-30",
-          "url": "https://www.abc.es/opinion/jose-f-pelaez-burbuja-m30-20260213170701-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T02:24:25.379Z"
-        },
-        {
-          "title": "El Real Madrid salva la papeleta tras un tercer cuarto desastroso al vencer al Partizan y romper la mala racha a domicilio",
-          "url": "https://www.elespanol.com/deportes/baloncesto/20260213/real-madrid-salva-papeleta-tercer-desastroso-vencer-partizan-romper-mala-racha-domicilio/1003744130064_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-13T23:41:48.331Z"
-        }
-      ]
-    },
-    {
-      "id": 33,
+      "id": 228,
       "title": "Alerta Roja",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 20,
-      "matched_articles": [],
-      "merged_sources": [
-        "news_tags",
-        "google"
-      ]
-    },
-    {
-      "id": 227,
-      "title": "Febrero",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -577,15 +746,15 @@
     },
     {
       "id": 229,
-      "title": "Reyes de Espana",
+      "title": "Putin",
       "source": "news_tags",
-      "volume": "20 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 20
+      "news_count": 19
     },
     {
       "id": 230,
-      "title": "Putin",
+      "title": "Febrero",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
@@ -656,132 +825,6 @@
       "news_count": 17
     },
     {
-      "id": 31,
-      "title": "Ine",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 16,
-      "matched_articles": [
-        {
-          "title": "La polemica Rachida Dati pretende suceder a Anne Hidalgo al frente de Paris",
-          "url": "https://www.larazon.es/internacional/europa/polemica-rachida-dati-pretende-suceder-anne-hidalgo-frente-paris_20260214698fcbfd9243cc133c478a15.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T02:19:15.238Z"
-        }
-      ],
-      "merged_sources": [
-        "news_tags",
-        "google"
-      ]
-    },
-    {
-      "id": 104,
-      "title": "Carnaval",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 16,
-      "matched_articles": [
-        {
-          "title": "El viento huracanado sacude Espana: maxima alerta en Soria por crecida del rio Duero y rachas de viento en el este",
-          "url": "https://www.elmundo.es/espana/2026/02/14/6990186921efa01b2c8b458d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T18:51:50.175Z"
-        },
-        {
-          "title": "El viento huracanado sacude Espana: maxima alerta en Soria por crecida del rio Duero y rachas de viento en el este",
-          "url": "https://www.elmundo.es/espana/2026/02/14/6990186921efa01b2c8b458d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T18:51:13.751Z"
-        },
-        {
-          "title": "Descubre Bielsa, el pueblo de 400 habitantes que celebra el Carnaval ancestral mas singular del Pirineo",
-          "url": "https://www.larazon.es/aragon/descubre-bielsa-pueblo-400-habitantes-que-celebra-carnaval-ancestral-mas-singular-pirineo_202602146990aa209243cc133c4897c9.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T17:32:30.583Z"
-        },
-        {
-          "title": "El chavismo excarcela a 17 presos politicos apremiado por la presion de sus familiares y el retraso en la amnistia",
-          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T16:44:29.771Z"
-        },
-        {
-          "title": "Muere un hombre de 65 anos corneado en el pecho durante el Carnaval de Ciudad Rodrigo",
-          "url": "https://www.elmundo.es/cultura/toros/2026/02/14/69902ce121efa00a248b45b7.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T13:59:33.577Z"
-        },
-        {
-          "title": "Ver mas informacion de La borrasca Oriana activa el aviso naranja en doce comunidades por viento y fuerte oleaje",
-          "url": "https://www.publico.es/sociedad/borrasca-oriana-activa-aviso-naranja-doce-comunidades-viento-fuerte-oleaje.html",
-          "newspaper": "Público",
-          "date": "2026-02-14T13:00:47.261Z"
-        },
-        {
-          "title": "Reliquias de San Valentin por media Europa, tambien en Espana: ?cuales son autenticas?",
-          "url": "https://www.20minutos.es/internacional/reliquias-san-valentin-por-media-europa-tambien-espana-cuales-son-autenticas_6934194_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-14T11:39:24.605Z"
-        },
-        {
-          "title": "Proteccion Civil alerta del fuerte viento en el Norte y Sur de Catalunya y pide evitar desplazamientos en los Pirineos",
-          "url": "https://www.eldiario.es/catalunya/proteccion-civil-alerta-fuerte-viento-norte-sur-catalunya-pide-evitar-desplazamientos-pirineos_1_12990913.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T11:26:19.146Z"
-        },
-        {
-          "title": "Toledo ya avisa: estas seran las calles que se cortaran durante la celebracion de los Carnavales",
-          "url": "https://www.larazon.es/castilla-la-mancha/toledo-avisa-estas-seran-calles-que-cortaran-celebracion-carnavales-b30m_20260214698f78639243cc133c472d1f.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T10:34:45.846Z"
-        },
-        {
-          "title": "El chavismo excarcela a 17 presos politicos apremiado por la presion de sus familiares y el retraso en la amnistia",
-          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T08:46:54.069Z"
-        },
-        {
-          "title": "El chavismo excarcela a 17 presos politicos apremiado por la presion de sus familiares y el retraso en la amnistia",
-          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T08:46:35.067Z"
-        },
-        {
-          "title": "La temporada arranca antes de lo esperado: las discotecas de S'Arenal calientan motores",
-          "url": "https://www.larazon.es/baleares/temporada-arranca-antes-esperado-discotecas-sarenal-calientan-motores-b30m_20260214698e4aab1817b41eb6447c9b.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T08:40:58.687Z"
-        },
-        {
-          "title": "Muere un hombre de 65 anos al sufrir una cornada en el pecho durante una capea en Ciudad Rodrigo, Salamanca",
-          "url": "https://www.abc.es/espana/castilla-leon/muere-hombre-anos-sufrir-cornada-pecho-capea-20260214080441-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T07:44:23.455Z"
-        },
-        {
-          "title": "El 'romance' entre Trump y Delcy no impide su derrota en los sondeos frente a Maria Corina",
-          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T02:26:24.918Z"
-        },
-        {
-          "title": "El 'romance' entre Trump y Delcy no impide su derrota en los sondeos frente a Maria Corina",
-          "url": "https://www.elmundo.es/internacional/2026/02/14/698f7dc9fc6c836e538b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T02:26:04.403Z"
-        },
-        {
-          "title": "La Generalitat envia un ES-Alert por vientos huracanados en toda la Comunidad Valenciana y pide evitar desplazamientos",
-          "url": "https://www.elmundo.es/comunidad-valenciana/2026/02/13/698f60befc6c83635e8b45c7.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-02-13T23:46:40.267Z"
-        }
-      ]
-    },
-    {
       "id": 239,
       "title": "Defensa",
       "source": "news_tags",
@@ -791,6 +834,14 @@
     },
     {
       "id": 240,
+      "title": "Sociedad",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 241,
       "title": "Salud Mental",
       "source": "news_tags",
       "volume": "16 artículos",
@@ -798,7 +849,7 @@
       "news_count": 16
     },
     {
-      "id": 242,
+      "id": 243,
       "title": "Ong",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -807,6 +858,14 @@
     },
     {
       "id": 244,
+      "title": "Ine",
+      "source": "news_tags",
+      "volume": "15 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 15
+    },
+    {
+      "id": 245,
       "title": "Mundo",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -814,7 +873,7 @@
       "news_count": 15
     },
     {
-      "id": 246,
+      "id": 247,
       "title": "Castellón",
       "source": "news_tags",
       "volume": "15 artículos",
@@ -822,131 +881,33 @@
       "news_count": 15
     },
     {
-      "id": 247,
-      "title": "Marco Rubio",
-      "source": "news_tags",
-      "volume": "15 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 15
-    },
-    {
-      "id": 105,
-      "title": "Óscar López",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 14,
-      "matched_articles": [
-        {
-          "title": "Ultima hora politica, en directo | El PP reprobara a Isabel Rodriguez en el Senado y presentara plan de Vivienda al Congreso",
-          "url": "https://www.elespanol.com/espana/politica/20260214/ultima-hora-politica-directo-ana-redondo-gasta-eur-macroencuesta-tezanos-justificar-plan-prohibir-prostitucion/1003744130207_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T17:36:00.889Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Sanchez: \"El rearme nuclear no es la senda a seguir\"",
-          "url": "https://www.elespanol.com/espana/politica/20260214/ultima-hora-politica-directo-ana-redondo-gasta-eur-macroencuesta-tezanos-justificar-plan-prohibir-prostitucion/1003744130207_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T15:37:06.603Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Elias Bendodo arremete contra Sanchez: \"Su Gobierno es mas independentista que municipalista\"",
-          "url": "https://www.elespanol.com/espana/politica/20260214/ultima-hora-politica-directo-ana-redondo-gasta-eur-macroencuesta-tezanos-justificar-plan-prohibir-prostitucion/1003744130207_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T13:55:24.462Z"
-        },
-        {
-          "title": "El PP se opone a llegar a pactos con un PSOE \"acorralado por la corrupcion\"",
-          "url": "https://www.larazon.es/espana/opone-llegar-pactos-psoe-acorralado-corrupcion_2026021469906ad89243cc133c483fd5.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T12:59:20.783Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Ana Redondo gasta 230.000 EUR en una macroencuesta de Tezanos para justificar su plan de prohibir la prostitucion",
-          "url": "https://www.elespanol.com/espana/politica/20260214/ultima-hora-politica-directo-ana-redondo-gasta-eur-macroencuesta-tezanos-justificar-plan-prohibir-prostitucion/1003744130207_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T09:43:04.866Z"
-        },
-        {
-          "title": "Ver mas informacion de Moncloa se suma a la \"postura politica\" de Oscar Lopez sobre Lamban y niega faltas de respeto",
-          "url": "https://www.publico.es/politica/partidos/moncloa-suma-postura-politica-oscar-lopez-sobre-lamban-niega-faltas-respeto.html",
-          "newspaper": "Público",
-          "date": "2026-02-14T05:53:59.468Z"
-        },
-        {
-          "title": "Los ataques de Oscar Lopez a Lamban y del aparato a Felipe Gonzalez intentan acallar las criticas a Sanchez",
-          "url": "https://www.abc.es/espana/ataque-oscar-lopez-lamban-aparato-felipe-gonzalez-20260214041813-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T04:53:53.938Z"
-        },
-        {
-          "title": "Los ataques de Oscar Lopez a Lamban y del aparato a Felipe Gonzalez intentan acallar las criticas a Sanchez",
-          "url": "https://www.abc.es/espana/ataque-oscar-lopez-lamban-aparato-felipe-gonzalez-20260214041813-nt.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T04:52:39.755Z"
-        },
-        {
-          "title": "Cabreo en Moncloa por el <<dardo>> de Lopez a Alegria",
-          "url": "https://www.larazon.es/espana/cabreo-moncloa-dardo-lopez-alegria_20260214698fca632f00a046880bdd5b.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T04:47:17.085Z"
-        },
-        {
-          "title": "Tres ministros ensenan la salida a Felipe y Page lidera la ofensiva contra Oscar Lopez: las guerras intestinas desgarran al PSOE",
-          "url": "https://www.elespanol.com/espana/politica/20260214/ministros-ensenan-salida-felipe-page-lidera-ofensiva-oscar-lopez-guerras-intestinas-desgarran-psoe/1003744130059_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T02:22:14.107Z"
-        },
-        {
-          "title": "Tres ministros ensenan la salida a Felipe y Page lidera la ofensiva contra Oscar Lopez: las guerras intestinas desgarran al PSOE",
-          "url": "https://www.elespanol.com/espana/politica/20260214/ministros-ensenan-salida-felipe-page-lidera-ofensiva-oscar-lopez-guerras-intestinas-desgarran-psoe/1003744130059_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T02:21:25.981Z"
-        },
-        {
-          "title": "El PSOE: cuando decir lo evidente es deslealtad",
-          "url": "https://www.elmundo.es/espana/2026/02/13/698f5ef0fc6c8373778b45ae.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-13T23:46:40.270Z"
-        },
-        {
-          "title": "El PSOE esta \"convencido\" de que Montero exprima sus cargos en Madrid pese al desastre del precedente con Alegria",
-          "url": "https://www.elmundo.es/espana/2026/02/13/698f69b421efa0c67f8b45c2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-13T23:46:40.270Z"
-        },
-        {
-          "title": "El 'nucleo duro' de Sanchez se agrieta tras la debacle electoral: Bolanos pone distancia con Oscar Lopez y Saiz se alinea con Alegria",
-          "url": "https://www.elmundo.es/espana/2026/02/13/698f6833fc6c83c91e8b45ad.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-13T23:46:40.270Z"
-        }
-      ]
-    },
-    {
-      "id": 248,
-      "title": "Sociedad",
-      "source": "news_tags",
-      "volume": "14 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 14
-    },
-    {
       "id": 249,
-      "title": "Lluvias Torrenciales",
+      "title": "Vox",
       "source": "news_tags",
       "volume": "14 artículos",
       "timeframe": "24h noticias",
       "news_count": 14
     },
     {
-      "id": 124,
-      "title": "Julia",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
+      "id": 33,
+      "title": "Bailamama",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 10,
       "matched_articles": [
+        {
+          "title": "Directo final Benidorm Fest 2026, votaciones y ganador | El golpe \"chochal\" de Rosalinda Galan que dejo a Ines Hernand patidifusa",
+          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T23:38:08.961Z"
+        },
+        {
+          "title": "Final Benidorm Fest 2026 | Todas las actuaciones, votaciones, puntuaciones y ganador, en directo",
+          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T23:34:12.292Z"
+        },
         {
           "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
           "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
@@ -954,22 +915,10 @@
           "date": "2026-02-14T22:38:35.452Z"
         },
         {
-          "title": "Benidorm Fest 2026: actuaciones, votaciones, ranking final y ganador de la final hoy",
-          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260214191740-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T22:37:06.760Z"
-        },
-        {
           "title": "Benidorm Fest 2026 Final | Todas las actuaciones, votaciones y ganador, en directo",
           "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
           "newspaper": "El Español",
           "date": "2026-02-14T22:34:41.430Z"
-        },
-        {
-          "title": "Varias manifestaciones contra el rearme protestan en Munich ante la gran cumbre internacional de la seguridad y defensa",
-          "url": "https://www.eldiario.es/internacional/manifestaciones-rearme-protestan-munich-gran-cumbre-internacional-seguridad-defensa_1_12991984.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T22:29:42.249Z"
         },
         {
           "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
@@ -1014,9 +963,15 @@
       "title": "Real Madrid - Real Sociedad",
       "source": "google",
       "volume": "500 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 8,
+      "timeframe": "hace 7 h (24h)",
+      "news_count": 9,
       "matched_articles": [
+        {
+          "title": "El Real Madrid encuentra un camino (pese a otros dos penaltis)",
+          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260214/11466696/real-madrid-real-sociedad-vinicius-penaltis.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-14T23:39:04.650Z"
+        },
         {
           "title": "Trent ordena y Vinicius marca dos penaltis para que el Madrid duerma lider de la Liga",
           "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/02/14/6990ef0221efa0500a8b4571.html",
@@ -1068,325 +1023,93 @@
       ]
     },
     {
-      "id": 30,
-      "title": "Izan Llunas",
+      "id": 26,
+      "title": "Deportes",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 8,
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 6,
       "matched_articles": [
         {
-          "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.452Z"
-        },
-        {
-          "title": "Benidorm Fest 2026: actuaciones, votaciones, ranking final y ganador de la final hoy",
-          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260214191740-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T22:37:06.760Z"
-        },
-        {
-          "title": "Benidorm Fest 2026 Final | Todas las actuaciones, votaciones y ganador, en directo",
-          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
+          "title": "Real Madrid - Real Sociedad, en directo La Liga: resultado, goleadores y estadisticas en vivo",
+          "url": "https://www.elespanol.com/deportes/20260214/real-madrid-sociedad-directo-liga-resultado-goleadores-estadisticas-vivo/1003744129928_22.html",
           "newspaper": "El Español",
-          "date": "2026-02-14T22:34:41.430Z"
+          "date": "2026-02-14T20:37:32.754Z"
         },
         {
-          "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/benidorm-fest-2026-12-canciones-optan-ganar-videos-actuaciones-incierta-final-rtve_1_12989753.html",
+          "title": "Ultima hora politica, en directo | El PP reprobara a Isabel Rodriguez en el Senado y presentara plan de Vivienda al Congreso",
+          "url": "https://www.elespanol.com/espana/politica/20260214/ultima-hora-politica-directo-ana-redondo-gasta-eur-macroencuesta-tezanos-justificar-plan-prohibir-prostitucion/1003744130207_10.html",
+          "newspaper": "El Español",
+          "date": "2026-02-14T17:36:00.889Z"
+        },
+        {
+          "title": "Jaume Domenech, exportero del Valencia, claro sobre el dinero en el futbol: \"Percibes cantidades que te parecen que eres Dios\"",
+          "url": "https://www.larazon.es/deportes/jaume-domenech-exportero-valencia-claro-dinero-futbol-percibes-cantidades-parecen-eres-dios-b50m_20260214699077402f00a046880cad56.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T13:51:55.809Z"
+        },
+        {
+          "title": "Jose Pena, el unico boxeador ciego en Espana: \"Con este deporte me siento libre y queremos dar opcion para competir\"",
+          "url": "https://www.eldiario.es/sevilla/jose-pena-unico-boxeador-ciego-espana-deporte-siento-libre-queremos-dar-opcion-competir_1_12923922.html",
           "newspaper": "El Diario",
-          "date": "2026-02-14T22:28:36.584Z"
+          "date": "2026-02-14T05:48:59.607Z"
         },
         {
-          "title": "Directo final Benidorm Fest 2026 | Melody revienta la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T21:39:29.038Z"
+          "title": "Euromillones: resultado del sorteo de hoy, viernes 13 de febrero de 2026",
+          "url": "https://www.larazon.es/loteria/euromillones-resultado-sorteo-hoy-viernes-13-febrero-2026-b50m_20260213698f82d69243cc133c4736e9.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T04:47:24.674Z"
         },
         {
-          "title": "Benidorm Fest 2026, la gran final en directo | Resultados, ganador, votaciones, mejores actuaciones y reacciones",
-          "url": "https://www.elespanol.com/corazon/20260214/benidorm-fest-final-2026-resultados-ganador-votaciones-mejores-actuaciones-reacciones-directo-orden-actuacion-melody-rtve-finalistas/1003744130593_10.html",
+          "title": "El Real Madrid salva la papeleta tras un tercer cuarto desastroso al vencer al Partizan y romper la mala racha a domicilio",
+          "url": "https://www.elespanol.com/deportes/baloncesto/20260213/real-madrid-salva-papeleta-tercer-desastroso-vencer-partizan-romper-mala-racha-domicilio/1003744130064_0.html",
           "newspaper": "El Español",
-          "date": "2026-02-14T21:35:12.717Z"
-        },
-        {
-          "title": "Final del Benidorm Fest, en directo | El ganador esta entre Rosalinda Galan y Tony Grox y LucyCalys",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T20:41:52.442Z"
-        },
-        {
-          "title": "Final y ganador del Benidorm Fest 2026 | La coplera Rosalinda Galan y Tony Grox y LucyCalys, los grandes favoritos para alzarse con la sirenita de oro",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T19:38:24.589Z"
+          "date": "2026-02-13T23:41:48.331Z"
         }
       ]
     },
     {
-      "id": 121,
-      "title": "Miranda",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8,
-      "matched_articles": [
-        {
-          "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.452Z"
-        },
-        {
-          "title": "Benidorm Fest 2026 Final | Todas las actuaciones, votaciones y ganador, en directo",
-          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T22:34:41.430Z"
-        },
-        {
-          "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/benidorm-fest-2026-12-canciones-optan-ganar-videos-actuaciones-incierta-final-rtve_1_12989753.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T22:28:36.584Z"
-        },
-        {
-          "title": "Directo final Benidorm Fest 2026 | Melody revienta la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T21:39:29.038Z"
-        },
-        {
-          "title": "Benidorm Fest 2026, la gran final en directo | Resultados, ganador, votaciones, mejores actuaciones y reacciones",
-          "url": "https://www.elespanol.com/corazon/20260214/benidorm-fest-final-2026-resultados-ganador-votaciones-mejores-actuaciones-reacciones-directo-orden-actuacion-melody-rtve-finalistas/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T21:35:12.717Z"
-        },
-        {
-          "title": "Final del Benidorm Fest, en directo | El ganador esta entre Rosalinda Galan y Tony Grox y LucyCalys",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T20:41:52.442Z"
-        },
-        {
-          "title": "Final Benidorm Fest 2026: actuaciones, votaciones, resultado y quien es el ganador hoy, en directo",
-          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260214191740-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T20:40:30.401Z"
-        },
-        {
-          "title": "Final y ganador del Benidorm Fest 2026 | La coplera Rosalinda Galan y Tony Grox y LucyCalys, los grandes favoritos para alzarse con la sirenita de oro",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T19:38:24.589Z"
-        }
-      ]
-    },
-    {
-      "id": 122,
-      "title": "Kenneth",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8,
-      "matched_articles": [
-        {
-          "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.452Z"
-        },
-        {
-          "title": "Benidorm Fest 2026 Final | Todas las actuaciones, votaciones y ganador, en directo",
-          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T22:34:41.430Z"
-        },
-        {
-          "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/benidorm-fest-2026-12-canciones-optan-ganar-videos-actuaciones-incierta-final-rtve_1_12989753.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T22:28:36.584Z"
-        },
-        {
-          "title": "Directo final Benidorm Fest 2026 | Melody revienta la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T21:39:29.038Z"
-        },
-        {
-          "title": "Benidorm Fest 2026, la gran final en directo | Resultados, ganador, votaciones, mejores actuaciones y reacciones",
-          "url": "https://www.elespanol.com/corazon/20260214/benidorm-fest-final-2026-resultados-ganador-votaciones-mejores-actuaciones-reacciones-directo-orden-actuacion-melody-rtve-finalistas/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T21:35:12.717Z"
-        },
-        {
-          "title": "Final del Benidorm Fest, en directo | El ganador esta entre Rosalinda Galan y Tony Grox y LucyCalys",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T20:41:52.442Z"
-        },
-        {
-          "title": "Final Benidorm Fest 2026: actuaciones, votaciones, resultado y quien es el ganador hoy, en directo",
-          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260214191740-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T20:40:30.401Z"
-        },
-        {
-          "title": "Final y ganador del Benidorm Fest 2026 | La coplera Rosalinda Galan y Tony Grox y LucyCalys, los grandes favoritos para alzarse con la sirenita de oro",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T19:38:24.589Z"
-        }
-      ]
-    },
-    {
-      "id": 123,
-      "title": "Rosalinda",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8,
-      "matched_articles": [
-        {
-          "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.452Z"
-        },
-        {
-          "title": "Benidorm Fest 2026: actuaciones, votaciones, ranking final y ganador de la final hoy",
-          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260214191740-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T22:37:06.760Z"
-        },
-        {
-          "title": "Benidorm Fest 2026 Final | Todas las actuaciones, votaciones y ganador, en directo",
-          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T22:34:41.430Z"
-        },
-        {
-          "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/benidorm-fest-2026-12-canciones-optan-ganar-videos-actuaciones-incierta-final-rtve_1_12989753.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T22:28:36.584Z"
-        },
-        {
-          "title": "Directo final Benidorm Fest 2026 | Melody revienta la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T21:39:29.038Z"
-        },
-        {
-          "title": "Benidorm Fest 2026, la gran final en directo | Resultados, ganador, votaciones, mejores actuaciones y reacciones",
-          "url": "https://www.elespanol.com/corazon/20260214/benidorm-fest-final-2026-resultados-ganador-votaciones-mejores-actuaciones-reacciones-directo-orden-actuacion-melody-rtve-finalistas/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T21:35:12.717Z"
-        },
-        {
-          "title": "Final del Benidorm Fest, en directo | El ganador esta entre Rosalinda Galan y Tony Grox y LucyCalys",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T20:41:52.442Z"
-        },
-        {
-          "title": "Final y ganador del Benidorm Fest 2026 | La coplera Rosalinda Galan y Tony Grox y LucyCalys, los grandes favoritos para alzarse con la sirenita de oro",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T19:38:24.589Z"
-        }
-      ]
-    },
-    {
-      "id": 125,
-      "title": "Izan",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8,
-      "matched_articles": [
-        {
-          "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.452Z"
-        },
-        {
-          "title": "Benidorm Fest 2026: actuaciones, votaciones, ranking final y ganador de la final hoy",
-          "url": "https://www.abc.es/play/television/eurovision/final-benidorm-fest-2026-directo-actuaciones-votaciones-ganador-resultados-20260214191740-di.html",
-          "newspaper": "ABC",
-          "date": "2026-02-14T22:37:06.760Z"
-        },
-        {
-          "title": "Benidorm Fest 2026 Final | Todas las actuaciones, votaciones y ganador, en directo",
-          "url": "https://www.elespanol.com/corazon/20260214/final-benidorm-fest-2026-resultados-ganador-primeras-votaciones-puntaciones-mejores-actuaciones-reacciones-directo-rtve-orden-gala/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T22:34:41.430Z"
-        },
-        {
-          "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/benidorm-fest-2026-12-canciones-optan-ganar-videos-actuaciones-incierta-final-rtve_1_12989753.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T22:28:36.584Z"
-        },
-        {
-          "title": "Directo final Benidorm Fest 2026 | Melody revienta la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T21:39:29.038Z"
-        },
-        {
-          "title": "Benidorm Fest 2026, la gran final en directo | Resultados, ganador, votaciones, mejores actuaciones y reacciones",
-          "url": "https://www.elespanol.com/corazon/20260214/benidorm-fest-final-2026-resultados-ganador-votaciones-mejores-actuaciones-reacciones-directo-orden-actuacion-melody-rtve-finalistas/1003744130593_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-14T21:35:12.717Z"
-        },
-        {
-          "title": "Final del Benidorm Fest, en directo | El ganador esta entre Rosalinda Galan y Tony Grox y LucyCalys",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T20:41:52.442Z"
-        },
-        {
-          "title": "Final y ganador del Benidorm Fest 2026 | La coplera Rosalinda Galan y Tony Grox y LucyCalys, los grandes favoritos para alzarse con la sirenita de oro",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T19:38:24.589Z"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Jesus Vazquez",
+      "id": 31,
+      "title": "Sorteo Primitiva Hoy",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "200+ búsquedas",
       "timeframe": "hace 2 h (4h)",
-      "news_count": 3,
+      "news_count": 5,
       "matched_articles": [
         {
-          "title": "Directo final Benidorm Fest 2026 | Mikel Herzog Jr. se rompe por completo en la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T22:38:35.452Z"
+          "title": "Comprobar La Primitiva: resultado del sorteo de hoy, sabado 14 de febrero de 2026",
+          "url": "https://www.larazon.es/loteria/comprobar-primitiva-resultado-sorteo-hoy-sabado-14-febrero-2026-b50m_202602146990d4529243cc133c48d398.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T20:34:32.401Z"
         },
         {
-          "title": "Las 12 canciones que optan a ganar el Benidorm Fest 2026: videos de las actuaciones de su incierta final en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/benidorm-fest-2026-12-canciones-optan-ganar-videos-actuaciones-incierta-final-rtve_1_12989753.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-14T22:28:36.584Z"
+          "title": "Bonoloto: Comprueba el resultado del sorteo de hoy, sabado 14 de febrero de 2026",
+          "url": "https://www.larazon.es/loteria/bonoloto-comprueba-resultado-sorteo-hoy-sabado-14-febrero-2026-b50m_202602146990d4549243cc133c48d39e.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T20:34:31.824Z"
         },
         {
-          "title": "Directo final Benidorm Fest 2026 | Melody revienta la gran final",
-          "url": "https://www.elmundo.es/television/2026/02/14/6990aadfa75cca894189a71a-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-14T21:39:29.038Z"
+          "title": "Sueldazo de la ONCE: comprobar resultado del sorteo de hoy, sabado 14 de febrero de 2026",
+          "url": "https://www.larazon.es/loteria/sueldazo-once-comprobar-resultado-sorteo-hoy-sabado-14-febrero-2026-b50m_202602146990d56d1817b41eb64838d6.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T20:34:31.162Z"
+        },
+        {
+          "title": "Comprobar Primitiva: resultados de hoy, sabado 14 de febrero de 2026",
+          "url": "https://www.20minutos.es/nacional/comprobar-primitiva-resultados-hoy-sabado-14-febrero-2026_6934281_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-02-14T19:40:38.470Z"
+        },
+        {
+          "title": "Euromillones: resultado del sorteo de hoy, viernes 13 de febrero de 2026",
+          "url": "https://www.larazon.es/loteria/euromillones-resultado-sorteo-hoy-viernes-13-febrero-2026-b50m_20260213698f82d69243cc133c4736e9.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-14T04:47:24.674Z"
         }
       ]
     },
     {
-      "id": 101,
+      "id": 102,
       "title": "Montoro",
       "source": "x_trends",
       "volume": "N/A",
@@ -1408,18 +1131,18 @@
       ]
     },
     {
-      "id": 25,
-      "title": "Sueldazo Fin de Semana",
+      "id": 15,
+      "title": "Burgos - Cádiz",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
-          "title": "Sueldazo de la ONCE: comprobar resultado del sorteo de hoy, sabado 14 de febrero de 2026",
-          "url": "https://www.larazon.es/loteria/sueldazo-once-comprobar-resultado-sorteo-hoy-sabado-14-febrero-2026-b50m_202602146990d56d1817b41eb64838d6.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-14T20:34:31.162Z"
+          "title": "La borrasca Oriana activa avisos en toda Espana, con nivel 'rojo' en Castellon por fuertes vientos",
+          "url": "https://www.elmundo.es/espana/2026/02/14/6990186921efa01b2c8b458d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-14T06:59:46.174Z"
         }
       ]
     },
@@ -1428,7 +1151,7 @@
       "title": "Sevilla - Alavés",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1437,7 +1160,7 @@
       "title": "Rcd Espanyol - Celta de Vigo",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
+      "timeframe": "hace 14 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1446,16 +1169,16 @@
       "title": "Getafe - Villarreal",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 5,
-      "title": "Inter Juve",
+      "title": "Juegos Olímpicos de Invierno 2026 Esquí Alpino",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1464,13 +1187,13 @@
       "title": "Granada - Valladolid",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 7,
-      "title": "Cultural Leonesa - Real Zaragoza",
+      "title": "Inter - Juventus",
       "source": "google",
       "volume": "20 mil+ búsquedas",
       "timeframe": "hace 7 h (24h)",
@@ -1478,47 +1201,47 @@
       "matched_articles": []
     },
     {
-      "id": 8,
-      "title": "Manchester City - Salford",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
       "id": 9,
-      "title": "Córdoba - Leganés",
+      "title": "Cultural Leonesa - Real Zaragoza",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 10,
-      "title": "Ganadores Coac 2026",
+      "title": "Manchester City - Salford",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 17 h (24h)",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 11,
-      "title": "Liverpool - Brighton",
+      "title": "Córdoba - Leganés",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 14 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 12,
+      "title": "Ganadores Coac 2026",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 13,
-      "title": "Incendio Saica Zaragoza",
+      "title": "Liverpool - Brighton",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1527,76 +1250,31 @@
       "title": "Werder Bremen - Bayern",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 10 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 15,
-      "title": "Aston Villa - Newcastle",
+      "id": 21,
+      "title": "2026 Winter Olympics Alpine Skiing",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 22,
-      "title": "Juegos Olímpicos de Invierno 2026 Esquí Alpino",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 23,
-      "title": "Barcelona - Eibar Femenino",
+      "title": "Multa Baliza",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 24,
-      "title": "Granada Cf",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 27,
-      "title": "Simona Brambilla",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 29,
-      "title": "Baliza",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 32,
-      "title": "Manolin Bueno",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 34,
-      "title": "Millonarios - Llaneros",
+      "title": "Chanel Terrero",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
@@ -1604,8 +1282,98 @@
       "matched_articles": []
     },
     {
+      "id": 25,
+      "title": "Alianza Atlético - Alianza Lima",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 27,
+      "title": "Ben Shelton",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 28,
+      "title": "Medellín - Deportivo Pereira",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 29,
+      "title": "Ing",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 30,
+      "title": "Ski Alpin Aux Jeux Olympiques D'hiver 2026",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 32,
+      "title": "Madrid City",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 34,
+      "title": "Mario Casas",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
       "id": 103,
-      "title": "#coac2026final",
+      "title": "Tagliatella",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 104,
+      "title": "#ghduo14f",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 121,
+      "title": "Connor",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 122,
+      "title": "Viva Andalucía",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

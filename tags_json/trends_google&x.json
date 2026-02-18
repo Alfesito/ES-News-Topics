@@ -1,23 +1,41 @@
 {
-  "timestamp": "2026-02-18T20:04:35.072331",
+  "timestamp": "2026-02-18T20:55:26.339261",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 78,
-    "unified_count": 4,
-    "with_news": 62,
-    "without_news": 16
+    "unique_total": 77,
+    "unified_count": 5,
+    "with_news": 58,
+    "without_news": 19
   },
   "trends": [
     {
-      "id": 10,
+      "id": 101,
       "title": "Marlaska",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
       "news_count": 115,
       "matched_articles": [
+        {
+          "title": "Sanchez avala la actuacion de Marlaska en el caso de agresion sexual del DAO de la Policia: \"Ha actuado con contundencia\"",
+          "url": "https://www.elmundo.es/espana/2026/02/18/6995b5fee4d4d89b788b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T20:00:33.871Z"
+        },
+        {
+          "title": "Ver mas informacion de La esperada charla de Gabriel Rufian y Emilio Delgado y otras cuatro noticias importantes de hoy",
+          "url": "https://www.publico.es/sociedad/ponte-dia-esperada-charla-gabriel-rufian-emilio-delgado-cuatro-noticias-importantes-hoy.html",
+          "newspaper": "Público",
+          "date": "2026-02-18T19:58:09.828Z"
+        },
+        {
+          "title": "Ultima hora sobre la actualidad politica",
+          "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_12999604.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-18T19:54:06.489Z"
+        },
         {
           "title": "El director de la Policia cita a todos los mandos tras la crisis por la querella contra el DAO por agresion sexual",
           "url": "https://www.20minutos.es/nacional/director-policia-cita-todos-los-mandos-tras-crisis-por-querella-contra-dao-por-agresion-sexual_6936004_0.html",
@@ -299,131 +317,77 @@
           "url": "https://www.elmundo.es/espana/2026/02/18/69959c31e4d4d860438b457e-video.html",
           "newspaper": "El Mundo",
           "date": "2026-02-18T11:51:26.438Z"
-        },
-        {
-          "title": "La decepcion de Marlaska",
-          "url": "https://www.elmundo.es/opinion/columnistas/2026/02/18/6995a451e9cf4a415f8b45a2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-18T11:50:48.901Z"
-        },
-        {
-          "title": "Ultima hora politica, en directo | Rufian pide \"carcel\" para el DAO de la Policia tras la agresion sexual: \"Estamos rodeados de gananes\"",
-          "url": "https://www.elespanol.com/espana/politica/20260218/ultima-hora-politica-directo-montero-bolanos-puente-protagonizan-sesion-control-congreso-ausencia-sanchez-ministros/1003744134868_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-18T11:48:44.629Z"
-        },
-        {
-          "title": "Cayetana augura la \"disolucion\" del PSOE por una reforma de Rajoy y Bolanos guarda \"silencio\" con cita... a Rajoy",
-          "url": "https://www.larazon.es/espana/cayetana-augura-disolucion-psoe-reforma-rajoy-bolanos-guarda-silencio-cita-rajoy_2026021869959df42f00a0468814c4f6.html",
-          "newspaper": "La Razón",
-          "date": "2026-02-18T11:45:03.007Z"
         }
       ]
     },
     {
-      "id": 202,
-      "title": "Mundo-newsletter-destacada",
-      "source": "news_tags",
-      "volume": "83 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 106
-    },
-    {
-      "id": 205,
-      "title": "Agresion Sexual",
-      "source": "news_tags",
-      "volume": "71 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 99
-    },
-    {
-      "id": 200,
-      "title": "Policias",
-      "source": "news_tags",
-      "volume": "98 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 98
-    },
-    {
-      "id": 201,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "93 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 93
-    },
-    {
-      "id": 203,
-      "title": "Gobierno de España",
-      "source": "news_tags",
-      "volume": "79 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 79
-    },
-    {
-      "id": 204,
-      "title": "Politica Exterior",
-      "source": "news_tags",
-      "volume": "77 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 77
-    },
-    {
-      "id": 211,
-      "title": "Mujeres",
-      "source": "news_tags",
-      "volume": "47 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 69
-    },
-    {
-      "id": 206,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "64 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 64
-    },
-    {
-      "id": 207,
-      "title": "Nidos",
-      "source": "news_tags",
-      "volume": "53 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 53
-    },
-    {
-      "id": 208,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 209,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 210,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 33,
+      "id": 31,
       "title": "Rufian",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 46,
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 112,
       "matched_articles": [
+        {
+          "title": "Rufian tiene miedo: la izquierda habla como Vox",
+          "url": "https://www.elmundo.es/espana/2026/02/18/6996100cfdddffd6358b4596.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T20:01:13.674Z"
+        },
+        {
+          "title": "Rufian lanza su plan de frente comun de las izquierdas: repartirse las provincias por partidos para ganar a Vox",
+          "url": "https://www.elmundo.es/espana/2026/02/18/699610d7e85ece0f5a8b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T20:01:13.674Z"
+        },
+        {
+          "title": "Rufian tiene miedo: la izquierda habla como Vox",
+          "url": "https://www.elmundo.es/espana/2026/02/18/6996100cfdddffd6358b4596.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T20:00:33.870Z"
+        },
+        {
+          "title": "Rufian lanza su plan de frente comun de las izquierdas: repartirse las provincias por partidos para ganar a Vox",
+          "url": "https://www.elmundo.es/espana/2026/02/18/699610d7e85ece0f5a8b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T20:00:33.870Z"
+        },
+        {
+          "title": "Ver mas informacion de Delgado:",
+          "url": "https://www.publico.es/politica/partidos/sigue-directo-charla-gabriel-rufian-emilio-delgado-disputar-presente-ganar-futuro.html",
+          "newspaper": "Público",
+          "date": "2026-02-18T19:58:38.145Z"
+        },
+        {
+          "title": "Ver mas informacion de La esperada charla de Gabriel Rufian y Emilio Delgado y otras cuatro noticias importantes de hoy",
+          "url": "https://www.publico.es/sociedad/ponte-dia-esperada-charla-gabriel-rufian-emilio-delgado-cuatro-noticias-importantes-hoy.html",
+          "newspaper": "Público",
+          "date": "2026-02-18T19:58:09.828Z"
+        },
+        {
+          "title": "Ver mas informacion de Sigue minuto a minuto la charla entre Rufian y Delgado | Delgado: \"Tenemos que recuperar la hegemonia y entrar en todos los frentes\"",
+          "url": "https://www.publico.es/politica/partidos/sigue-directo-charla-gabriel-rufian-emilio-delgado-disputar-presente-ganar-futuro.html",
+          "newspaper": "Público",
+          "date": "2026-02-18T19:58:06.480Z"
+        },
+        {
+          "title": "Ultima hora sobre la actualidad politica",
+          "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_12999604.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-18T19:54:06.489Z"
+        },
+        {
+          "title": "Rufian y Emilio Delgado reclaman un \"bloque historico\" para enfrentar a la derecha: \"Hay que ganar provincia a provincia a Vox\"",
+          "url": "https://www.eldiario.es/politica/rufian-emilio-delgado-reclaman-bloque-historico-enfrentar-derecha-hay-ganar-provincia-provincia-vox_1_13002203.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-18T19:53:52.827Z"
+        },
+        {
+          "title": "Rufian y Emilio Delgado reclaman un \"bloque historico\" para enfrentar a la derecha: \"Hay que ganar provincia a provincia a Vox\"",
+          "url": "https://www.eldiario.es/politica/rufian-emilio-delgado-reclaman-bloque-historico-enfrentar-derecha-hay-ganar-provincia-provincia-vox_1_13002203.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-18T19:53:04.171Z"
+        },
         {
           "title": "Quien es Emilio Delgado, el diputado de Mas Madrid que junto a Rufian quiere unir a la izquierda de Espana",
           "url": "https://www.20minutos.es/nacional/quien-emilio-delgado-diputado-mas-madrid-junto-rufian-unir-izquierda-espana_6935982_0.html",
@@ -663,47 +627,103 @@
           "url": "https://www.publico.es/opinion/columnas/refuerzo-izquierda-alternativa.html",
           "newspaper": "Público",
           "date": "2026-02-18T05:01:31.529Z"
-        },
-        {
-          "title": "El gran obstaculo para la 'via Rufian': el diputado viral no convence a ningun partido",
-          "url": "https://elpais.com/espana/2026-02-18/el-gran-obstaculo-para-la-via-rufian-el-diputado-viral-no-convence-a-ningun-partido.html",
-          "newspaper": "El País",
-          "date": "2026-02-18T04:59:38.504Z"
-        },
-        {
-          "title": "La izquierda de Diaz y Montero desaparece ya en 5 autonomias y Vox gana todo para crecer en 11",
-          "url": "https://www.elmundo.es/espana/2026/02/17/6994d30221efa004058b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-17T23:43:44.773Z"
-        },
-        {
-          "title": "Ver mas informacion de Yolanda Diaz espera al ultimo minuto para despejar su futuro en la izquierda alternativa",
-          "url": "https://www.publico.es/politica/yolanda-diaz-espera-ultimo-minuto-despejar-futuro-izquierda-alternativa.html",
-          "newspaper": "Público",
-          "date": "2026-02-17T21:45:34.844Z"
-        },
-        {
-          "title": "Ver mas informacion de Yolanda Diaz espera al ultimo minuto para despejar su futuro en la izquierda alternativa",
-          "url": "https://www.publico.es/politica/yolanda-diaz-espera-ultimo-minuto-despejar-futuro-izquierda-alternativa.html",
-          "newspaper": "Público",
-          "date": "2026-02-17T21:45:10.403Z"
-        },
-        {
-          "title": "Los partidos de Sumar hacen guinos al plan de Gabriel Rufian: IU tambien acudira al acto con Emilio Delgado",
-          "url": "https://www.eldiario.es/politica/partidos-sumar-guinos-plan-gabriel-rufian-iu-acudira-acto-emilio-delgado_1_12998980.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-17T21:41:20.599Z"
-        },
-        {
-          "title": "Los partidos de Sumar hacen guinos al plan de Gabriel Rufian: IU tambien acudira al acto con Emilio Delgado",
-          "url": "https://www.eldiario.es/politica/partidos-sumar-guinos-plan-gabriel-rufian-iu-acudira-acto-emilio-delgado_1_12998980.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-17T21:40:29.552Z"
         }
+      ],
+      "merged_sources": [
+        "google",
+        "x_trends"
       ]
     },
     {
-      "id": 212,
+      "id": 204,
+      "title": "Mundo-newsletter-destacada",
+      "source": "news_tags",
+      "volume": "81 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 104
+    },
+    {
+      "id": 205,
+      "title": "Agresion Sexual",
+      "source": "news_tags",
+      "volume": "66 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 93
+    },
+    {
+      "id": 200,
+      "title": "Policias",
+      "source": "news_tags",
+      "volume": "92 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 92
+    },
+    {
+      "id": 201,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "89 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 89
+    },
+    {
+      "id": 202,
+      "title": "Politica Exterior",
+      "source": "news_tags",
+      "volume": "81 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 81
+    },
+    {
+      "id": 203,
+      "title": "Gobierno de España",
+      "source": "news_tags",
+      "volume": "81 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 81
+    },
+    {
+      "id": 211,
+      "title": "Mujeres",
+      "source": "news_tags",
+      "volume": "44 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 65
+    },
+    {
+      "id": 206,
+      "title": "Era",
+      "source": "news_tags",
+      "volume": "63 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 63
+    },
+    {
+      "id": 207,
+      "title": "Rusia",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
+    },
+    {
+      "id": 208,
+      "title": "Ucrania",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
+    },
+    {
+      "id": 209,
+      "title": "Nidos",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 210,
       "title": "Denuncias",
       "source": "news_tags",
       "volume": "46 artículos",
@@ -711,28 +731,36 @@
       "news_count": 46
     },
     {
-      "id": 213,
-      "title": "Congreso Diputados",
+      "id": 212,
+      "title": "Vox",
       "source": "news_tags",
-      "volume": "45 artículos",
+      "volume": "43 artículos",
       "timeframe": "24h noticias",
-      "news_count": 45
+      "news_count": 43
+    },
+    {
+      "id": 213,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
     },
     {
       "id": 214,
-      "title": "Vox",
+      "title": "Congreso Diputados",
       "source": "news_tags",
-      "volume": "42 artículos",
+      "volume": "43 artículos",
       "timeframe": "24h noticias",
-      "news_count": 42
+      "news_count": 43
     },
     {
       "id": 215,
       "title": "Policía Nacional",
       "source": "news_tags",
-      "volume": "42 artículos",
+      "volume": "41 artículos",
       "timeframe": "24h noticias",
-      "news_count": 42
+      "news_count": 41
     },
     {
       "id": 216,
@@ -754,17 +782,17 @@
       "id": 218,
       "title": "Fernando Grande-marlaska",
       "source": "news_tags",
-      "volume": "38 artículos",
+      "volume": "37 artículos",
       "timeframe": "24h noticias",
-      "news_count": 38
+      "news_count": 37
     },
     {
       "id": 219,
       "title": "Interior",
       "source": "news_tags",
-      "volume": "36 artículos",
+      "volume": "35 artículos",
       "timeframe": "24h noticias",
-      "news_count": 36
+      "news_count": 35
     },
     {
       "id": 220,
@@ -792,14 +820,6 @@
     },
     {
       "id": 223,
-      "title": "Valencia",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 224,
       "title": "Pedro Sánchez",
       "source": "news_tags",
       "volume": "32 artículos",
@@ -807,47 +827,47 @@
       "news_count": 32
     },
     {
-      "id": 225,
-      "title": "Francia Insumisa",
+      "id": 224,
+      "title": "Derecha",
       "source": "news_tags",
-      "volume": "32 artículos",
+      "volume": "31 artículos",
       "timeframe": "24h noticias",
-      "news_count": 32
+      "news_count": 31
+    },
+    {
+      "id": 225,
+      "title": "Izquierda Unida",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
     },
     {
       "id": 226,
-      "title": "Derecha",
+      "title": "Francia Insumisa",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 227,
+      "title": "Sumar",
       "source": "news_tags",
       "volume": "30 artículos",
       "timeframe": "24h noticias",
       "news_count": 30
     },
     {
-      "id": 227,
-      "title": "Izquierda Unida",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
       "id": 228,
-      "title": "Sumar",
+      "title": "Valencia",
       "source": "news_tags",
-      "volume": "28 artículos",
+      "volume": "30 artículos",
       "timeframe": "24h noticias",
-      "news_count": 28
+      "news_count": 30
     },
     {
       "id": 229,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 230,
       "title": "Dimision",
       "source": "news_tags",
       "volume": "28 artículos",
@@ -855,12 +875,20 @@
       "news_count": 28
     },
     {
-      "id": 231,
+      "id": 230,
       "title": "Justicia",
       "source": "news_tags",
-      "volume": "28 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 28
+      "news_count": 27
+    },
+    {
+      "id": 232,
+      "title": "Europa",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
     },
     {
       "id": 233,
@@ -871,52 +899,12 @@
       "news_count": 26
     },
     {
-      "id": 234,
-      "title": "Cuatro",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 235,
-      "title": "Diputados",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 236,
-      "title": "Febrero",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 239,
-      "title": "Eeuu",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 241,
-      "title": "Castellón (provincia)",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 2,
-      "title": "Prestianni",
+      "id": 10,
+      "title": "Vinicius",
       "source": "google",
-      "volume": "100 mil+ búsquedas",
+      "volume": "20 mil+ búsquedas",
       "timeframe": "hace 23 h (24h)",
-      "news_count": 21,
+      "news_count": 25,
       "matched_articles": [
         {
           "title": "Prestianni, de las amenazas de muerte en Argentina a un escandalo mundial",
@@ -953,6 +941,12 @@
           "url": "https://www.elmundo.es/deportes/futbol/2026/02/18/699510aae9cf4a9d2d8b4583.html",
           "newspaper": "El Mundo",
           "date": "2026-02-18T10:58:34.884Z"
+        },
+        {
+          "title": "Todas las versiones del tremendo lio alrededor de Vinicius: \"?En cuantos campos le ha pasado esto?\"",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/6994de65e85eceb52f8b4594.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T10:02:59.454Z"
         },
         {
           "title": "Mbappe pide a la UEFA que prohiba a Prestianni volver a jugar la Champions por los insultos racistas hacia Vinicius",
@@ -1015,6 +1009,12 @@
           "date": "2026-02-17T21:51:44.813Z"
         },
         {
+          "title": "Benfica - Real Madrid, hoy | Vinicius abre la lata con un golazo en Lisboa, en directo",
+          "url": "https://www.lavanguardia.com/deportes/futbol/20260217/11468527/benfica-real-madrid-en-directo-champions-league-partido-futbol-df.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-17T21:51:44.386Z"
+        },
+        {
           "title": "Vinicius denuncia insultos racistas de Prestianni y el Benfica - Real Madrid se detiene 10 minutos: \"Me ha llamado 'mono'\"",
           "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/6994de65e85eceb52f8b4594.html",
           "newspaper": "El Mundo",
@@ -1039,85 +1039,61 @@
           "date": "2026-02-17T20:53:26.701Z"
         },
         {
+          "title": "Benfica - Real Madrid en directo: resultado, ganador y goles del partido de la Champions League hoy",
+          "url": "https://www.abc.es/deportes/real-madrid/benfica-real-madrid-directo-resultado-ganador-goles-20260217122453-di.html",
+          "newspaper": "ABC",
+          "date": "2026-02-17T20:51:53.916Z"
+        },
+        {
           "title": "Benfica - Real Madrid, en vivo | Resultado Champions League hoy, en directo",
           "url": "https://www.elespanol.com/deportes/futbol/20260217/benfica-real-madrid-hoy-vivo-partido-ida-eliminatoria-champions-league-resultado-ver-directo-goles-donde-ver-ver/1003744134339_10.html",
           "newspaper": "El Español",
           "date": "2026-02-17T20:49:11.042Z"
+        },
+        {
+          "title": "Benfica - Real Madrid, en directo hoy: ida de los playoff de la Champions League",
+          "url": "https://www.larazon.es/deportes/futbol/benfica-real-madrid-directo-hoy-ida-playoff-champions-league_2026021769930aa31817b41eb64b0b5f.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-17T20:45:51.592Z"
         }
       ]
     },
     {
-      "id": 242,
-      "title": "Benfica",
+      "id": 234,
+      "title": "Diputados",
       "source": "news_tags",
-      "volume": "21 artículos",
+      "volume": "25 artículos",
       "timeframe": "24h noticias",
-      "news_count": 21
+      "news_count": 25
     },
     {
-      "id": 243,
-      "title": "Tribunales",
+      "id": 235,
+      "title": "Cuatro",
       "source": "news_tags",
-      "volume": "21 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 21
+      "news_count": 24
     },
     {
-      "id": 244,
-      "title": "Burka",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 245,
-      "title": "Migrantes",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 246,
-      "title": "Redes Sociales",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 247,
-      "title": "Universidades Publicas",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 248,
-      "title": "Ine Instituto Nacional de Estadistica",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 249,
-      "title": "Leon",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 4,
-      "title": "Champions League",
+      "id": 11,
+      "title": "Champions",
       "source": "google",
-      "volume": "50 mil+ búsquedas",
+      "volume": "20 mil+ búsquedas",
       "timeframe": "hace 23 h (24h)",
-      "news_count": 18,
+      "news_count": 23,
       "matched_articles": [
+        {
+          "title": "Brujas - Atletico en directo por el pase a octavos de la Champions",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/brujas-atletico/2026/02/18/01_0103_20260218_413_175-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T20:00:33.872Z"
+        },
+        {
+          "title": "Brujas - Atletico, en directo hoy: partido de ida de los play - off de la Champions League",
+          "url": "https://www.larazon.es/deportes/futbol/brujas-atletico-directo-hoy-partido-ida-play-off-champions-league_2026021869930e199243cc133c4babec.html",
+          "newspaper": "La Razón",
+          "date": "2026-02-18T19:56:45.662Z"
+        },
         {
           "title": "Prestianni, de las amenazas de muerte en Argentina a un escandalo mundial",
           "url": "https://www.elmundo.es/deportes/futbol/2026/02/18/6995def8e85ecef7238b4577.html",
@@ -1143,6 +1119,18 @@
           "date": "2026-02-18T13:20:05.939Z"
         },
         {
+          "title": "La UEFA estudia el insulto racista a Vinicius, que podria costarle a Prestianni diez partidos",
+          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260218/11469362/uefa-estudia-insulto-racista-vinicius-costarle-prestianni-diez-partidos.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-18T10:59:44.389Z"
+        },
+        {
+          "title": "El racismo contra Vinicius, de las gradas al cesped: la innecesaria carga de prueba para la UEFA y el precedente de Diakhaby",
+          "url": "https://www.elmundo.es/deportes/futbol/2026/02/18/699510aae9cf4a9d2d8b4583.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T10:58:34.884Z"
+        },
+        {
           "title": "Mbappe pide a la UEFA que prohiba a Prestianni volver a jugar la Champions por los insultos racistas hacia Vinicius",
           "url": "https://www.elespanol.com/deportes/futbol/20260218/mbappe-pide-uefa-prohiba-prestianni-volver-jugar-champions-insultos-racistas-vinicius/1003744134904_0.html",
           "newspaper": "El Español",
@@ -1155,10 +1143,22 @@
           "date": "2026-02-18T07:59:34.584Z"
         },
         {
+          "title": "La incognita Alex Baena, de llegar como estrella a actor secundario: \"No le fichamos para seis meses sino para seis anos\"",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/699499fefc6c83a60a8b45a3.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-18T02:39:33.456Z"
+        },
+        {
           "title": "Vinicius denuncia que Prestianni le llamo \"mono\" y Mbappe pide severidad a la UEFA: \"Hace mucho contra el racismo y ahora hay un caso grave\"",
           "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/6994de65e85eceb52f8b4594.html",
           "newspaper": "El Mundo",
           "date": "2026-02-17T23:43:11.499Z"
+        },
+        {
+          "title": "Vinicius, verdugo y victima de un Madrid en modo Champions",
+          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260217/11468991/real-madrid-benfica-moruinho-vinicius-gol-show.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-17T22:47:51.496Z"
         },
         {
           "title": "Vinicius denuncia insultos racistas de Prestianni y el Benfica - Real Madrid se detiene 10 minutos: \"Me ha llamado mono\"",
@@ -1219,66 +1219,102 @@
           "url": "https://www.larazon.es/deportes/futbol/benfica-real-madrid-directo-hoy-ida-playoff-champions-league_2026021769930aa31817b41eb64b0b5f.html",
           "newspaper": "La Razón",
           "date": "2026-02-17T20:45:51.592Z"
-        },
-        {
-          "title": "Benfica - Real Madrid, en directo | Alineaciones confirmadas en ambos equipos, hoy",
-          "url": "https://www.lavanguardia.com/deportes/futbol/20260217/11468527/benfica-real-madrid-en-directo-champions-league-partido-futbol-df.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-17T19:14:25.923Z"
         }
       ]
     },
     {
-      "id": 105,
-      "title": "Mono",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 6,
-      "matched_articles": [
-        {
-          "title": "Los insultos racistas a Vinicius enturbian el Benfica - Real Madrid y la UEFA abre una investigacion",
-          "url": "https://www.eldiarioar.com/deportes/racismo-enturbia-partido-da-luz-real-madrid-pide-castigo-uefa-prestianni-champions-pm_1_13001864.html",
-          "newspaper": "El Diario",
-          "date": "2026-02-18T17:10:22.385Z"
-        },
-        {
-          "title": "La UEFA estudia el insulto racista a Vinicius, que podria costarle a Prestianni diez partidos",
-          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260218/11469362/uefa-estudia-insulto-racista-vinicius-costarle-prestianni-diez-partidos.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-18T10:59:44.389Z"
-        },
-        {
-          "title": "El racismo contra Vinicius, de las gradas al cesped: la innecesaria carga de prueba para la UEFA y el precedente de Diakhaby",
-          "url": "https://www.elmundo.es/deportes/futbol/2026/02/18/699510aae9cf4a9d2d8b4583.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-18T10:58:34.884Z"
-        },
-        {
-          "title": "El mejor Vinicius vuelve ante el Benfica en otro episodio racista en un campo de futbol: \"Le ha llamado mono cinco veces\"",
-          "url": "https://www.elespanol.com/deportes/futbol/20260218/mejor-vinicius-vuelve-mitad-bochorno-racista-campo-futbol-llamado-mono-veces/1003744134779_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-18T07:59:34.584Z"
-        },
-        {
-          "title": "Vinicius denuncia que Prestianni le llamo \"mono\" y Mbappe pide severidad a la UEFA: \"Hace mucho contra el racismo y ahora hay un caso grave\"",
-          "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/6994de65e85eceb52f8b4594.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-17T23:43:11.499Z"
-        },
-        {
-          "title": "Vinicius: \"!Me ha llamado mono!\"",
-          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260217/11468984/vinicius-me-llamado-mono.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-02-17T21:51:44.813Z"
-        }
-      ]
+      "id": 239,
+      "title": "Tribunales",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
     },
     {
-      "id": 28,
+      "id": 240,
+      "title": "Redes Sociales",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 241,
+      "title": "Febrero",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 242,
+      "title": "Benfica",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 243,
+      "title": "Mostoles",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 244,
+      "title": "Castellón (provincia)",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 245,
+      "title": "Ine Instituto Nacional de Estadistica",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 246,
+      "title": "Burka",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 247,
+      "title": "Tiempo",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 248,
+      "title": "Laboral",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 249,
+      "title": "Migrantes",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 27,
       "title": "Milan - Como",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 5,
       "matched_articles": [
@@ -1311,6 +1347,46 @@
           "url": "https://www.elespanol.com/espana/politica/20260218/moncloa-anuncia-nueva-ley-anticorrupcion-endurece-penas-pleno-escandalo-whatsapps-koldogate/1003744134208_0.html",
           "newspaper": "El Español",
           "date": "2026-02-18T02:36:35.178Z"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Otamendi",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 5,
+      "matched_articles": [
+        {
+          "title": "Vinicius denuncia que Prestianni le llamo \"mono\" y Mbappe pide severidad a la UEFA: \"Hace mucho contra el racismo y ahora hay un caso grave\"",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/6994de65e85eceb52f8b4594.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-17T23:43:11.499Z"
+        },
+        {
+          "title": "Vinicius, verdugo y victima de un Madrid en modo Champions",
+          "url": "https://www.lavanguardia.com/deportes/real-madrid/20260217/11468991/real-madrid-benfica-moruinho-vinicius-gol-show.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-02-17T22:47:51.496Z"
+        },
+        {
+          "title": "Vinicius denuncia insultos racistas de Prestianni y el Benfica - Real Madrid se detiene 10 minutos: \"Me ha llamado mono\"",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/2026/02/17/6994de65e85eceb52f8b4594.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-17T22:46:38.300Z"
+        },
+        {
+          "title": "Benfica - Real Madrid hoy, Champions League en directo",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/benfica-r-madrid/2026/02/17/01_0103_20260217_251_186-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-17T21:50:35.089Z"
+        },
+        {
+          "title": "Benfica - Real Madrid, la Champions League en directo",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/benfica-r-madrid/2026/02/17/01_0103_20260217_251_186-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-02-17T20:53:26.701Z"
         }
       ]
     },
@@ -1387,11 +1463,11 @@
       ]
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Club Brujas - Atlético Madrid",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 50 min (24h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -1403,58 +1479,10 @@
       ]
     },
     {
-      "id": 8,
-      "title": "Caida Internet Movistar",
+      "id": 33,
+      "title": "Sinner",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Movistar esta caida en Espana: un fallo a nivel global deja sin Internet a miles de usuarios",
-          "url": "https://www.elespanol.com/omicrono/software/20260218/movistar-caida-espana-fallo-nivel-global-deja-sin-internet-miles-usuarios/1003744135072_0.html",
-          "newspaper": "El Español",
-          "date": "2026-02-18T10:00:15.007Z"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Carlos Alcaraz",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 50 min (24h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Alcaraz vuelve tras Australia con una victoria de seriedad y calma",
-          "url": "https://www.elmundo.es/deportes/tenis/2026/02/17/6994b84fe9cf4a1d038b45a9.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-17T20:53:26.703Z"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Liga de Campeones de la Uefa",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Benfica - Real Madrid, en vivo | Resultado Champions League hoy, en directo",
-          "url": "https://www.elespanol.com/deportes/futbol/20260217/benfica-real-madrid-hoy-vivo-partido-ida-eliminatoria-champions-league-resultado-ver-directo-goles-donde-ver-ver/1003744134339_10.html",
-          "newspaper": "El Español",
-          "date": "2026-02-17T20:49:11.042Z"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Jannik Sinner",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 1,
       "matched_articles": [
@@ -1467,34 +1495,18 @@
       ]
     },
     {
-      "id": 34,
-      "title": "Doha Open",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Alcaraz vuelve tras Australia con una victoria de seriedad y calma",
-          "url": "https://www.elmundo.es/deportes/tenis/2026/02/17/6994b84fe9cf4a1d038b45a9.html",
-          "newspaper": "El Mundo",
-          "date": "2026-02-17T20:53:26.703Z"
-        }
-      ]
-    },
-    {
       "id": 124,
-      "title": "Julieta",
+      "title": "Barça",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 1,
       "matched_articles": [
         {
-          "title": "Felix Ulloa, vicepresidente de El Salvador: \"El regimen de excepcion se levantara cuando lo pidan los salvadorenos\"",
-          "url": "https://www.20minutos.es/internacional/felix-ulloa-vicepresidente-salvador-regimen-excepcion-se-levantara-cuando-pidan-los-salvadorenos_6935465_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-02-17T21:53:40.233Z"
+          "title": "La crisis de 'los Pocholos' deja en el aire la continuidad de dos altos cargos de Ayuso y del recien creado Ballet Espanol",
+          "url": "https://www.eldiario.es/madrid/crisis-pocholos-deja-aire-continuidad-altos-cargos-ayuso-futuro-ballet-espanol-recien-creado_1_13000309.html",
+          "newspaper": "El Diario",
+          "date": "2026-02-18T19:00:01.259Z"
         }
       ]
     },
@@ -1503,7 +1515,7 @@
       "title": "Juegos Olímpicos de Invierno 2026 Snowboard Slopestyle Masculino",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 21 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -1512,30 +1524,57 @@
       "title": "Levante - Villarreal",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 4,
+      "title": "2026 Winter Olympics Men's Snowboarding Slopestyle",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 21 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 5,
+      "title": "Qarabağ - Newcastle",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 6,
-      "title": "2026 Winter Olympics Men's Snowboarding Slopestyle",
+      "title": "Paula Usero",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 7,
-      "title": "Paula Usero",
+      "title": "Alcaraz Hoy",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 11,
+      "id": 8,
+      "title": "Caida Internet Movistar Hoy",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 9,
       "title": "Juan Salazar Chunguitos",
       "source": "google",
       "volume": "20 mil+ búsquedas",
@@ -1544,53 +1583,44 @@
       "matched_articles": []
     },
     {
-      "id": 15,
-      "title": "Qarabağ - Newcastle",
+      "id": 14,
+      "title": "Wolves - Arsenal",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 24,
-      "title": "Newcastle",
+      "id": 15,
+      "title": "Juan Sesma",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 25,
+      "title": "Al-nassr - Fk Arkadag",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 26,
-      "title": "Al-nassr - Fk Arkadag",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 27,
-      "title": "Wolves - Arsenal",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 29,
       "title": "Bodø/glimt - Inter",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 30,
-      "title": "Champions Femenina",
+      "id": 28,
+      "title": "Gran Canaria - Bilbao Basket",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
@@ -1598,8 +1628,17 @@
       "matched_articles": []
     },
     {
-      "id": 31,
-      "title": "Twitch",
+      "id": 29,
+      "title": "Olympiacos - Leverkusen",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 32,
+      "title": "Champions Femenina",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
@@ -1607,17 +1646,17 @@
       "matched_articles": []
     },
     {
-      "id": 121,
-      "title": "Anthony Gordon",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
+      "id": 34,
+      "title": "Twitch",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 122,
-      "title": "Qarabag",
+      "title": "Chiara",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -1626,7 +1665,7 @@
     },
     {
       "id": 123,
-      "title": "#malaslenguas",
+      "title": "#pasapalabra1464",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -1635,7 +1674,7 @@
     },
     {
       "id": 125,
-      "title": "Ciro",
+      "title": "Feller",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

@@ -1,99 +1,163 @@
-#!/usr/bin/env python3
-"""
-Analizador de Relaciones entre Tags de Noticias
-Construye un grafo de co-ocurrencias basado en tags que aparecen juntos
-"""
-
-
-import json
-import requests
-from collections import defaultdict, Counter
-import unicodedata
-
-
-
-def normalize_tag(tag):
-    """
-    Normaliza un tag eliminando tildes y convirtiendo a minúsculas.
-    """
-    text = unicodedata.normalize('NFD', tag)
-    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
-    return text.lower().strip()
-
-
-
-def capitalize_tag(tag):
-    """
-    Capitaliza correctamente un tag.
-    """
-    lowercase_words = {'de', 'del', 'la', 'el', 'los', 'las', 'y', 'en', 'un', 'una', 
-                       'con', 'por', 'para', 'al', 'a', 'o', 'u', 'e', "-", "vs", "vs."}
-
-
-    words = tag.split()
-    capitalized = []
-
-
-    for i, word in enumerate(words):
-        if i == 0:
-            capitalized.append(word.capitalize())
-        elif word.isdigit():
-            capitalized.append(word)
-        elif word.lower() in lowercase_words:
-            capitalized.append(word.lower())
-        else:
-            capitalized.append(word.capitalize())
-
-
-    return ' '.join(capitalized)
-
-
-
-def fetch_news(url):
-    """
-    Descarga el JSON de noticias desde la URL.
-    """
-    try:
-        print(f"📰 Descargando noticias desde: {url}")
-        response = requests.get(url, timeout=15)
-        response.raise_for_status()
-        news_data = response.json()
-        print(f"✅ {len(news_data)} noticias cargadas")
-        return news_data
-    except Exception as e:
-        print(f"❌ Error descargando noticias: {str(e)}")
-        return []
-
-
-
-def build_tag_graph(news_articles):
-    """
-    Construye un grafo de relaciones entre tags.
-
-
-    Retorna:
-    - tag_relations: dict con tags como keys y set de tags relacionados como values
-    - tag_stats: dict con estadísticas por tag (frecuencia, co-ocurrencias)
-    """
-    print("\n🔗 Construyendo grafo de relaciones entre tags...")
-
-
-    # Diccionario: tag_normalized -> tag_original (con mayúsculas)
-    tag_canonical = {}
-
-
-    # Diccionario: tag -> set de tags relacionados
-    tag_relations = defaultdict(set)
-
-
-    # Contador de frecuencia de cada tag
-    tag_frequency = Counter()
-
-
-    # Contador de co-ocurrencias (pares de tags)
-    cooccurrence_count = defaultdict(int)
-
-
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
     processed_articles = 0
 
 
@@ -184,48 +248,48 @@ def build_tag_graph(news_articles):
 
 def find_tag_clusters(tag_relations, tag_canonical, min_cluster_size=3):
     """
-    Encuentra clusters de tags altamente relacionados usando componentes conectados.
+    Encuentra componentes conectados de tags relacionados mediante DFS iterativa.
+
+    Usa una pila explícita para evitar RecursionError en grafos grandes.
     """
     print("\n🎯 Identificando clusters de tags relacionados...")
-
 
     visited = set()
     clusters = []
 
+    # Encontrar todos los componentes conectados sin recursión.
+    for start_tag in tag_relations:
+        if start_tag in visited:
+            continue
 
-    def dfs(tag, cluster):
-        """Búsqueda en profundidad para encontrar componente conectado."""
-        visited.add(tag)
-        cluster.add(tag)
+        cluster = set()
+        stack = [start_tag]
+        visited.add(start_tag)
 
+        while stack:
+            tag = stack.pop()
+            cluster.add(tag)
 
-        for related_tag in tag_relations.get(tag, set()):
-            if related_tag not in visited:
-                dfs(related_tag, cluster)
+            for related_tag in tag_relations.get(tag, set()):
+                if related_tag not in visited:
+                    # Marcar al añadirlo a la pila para no insertarlo varias veces.
+                    visited.add(related_tag)
+                    stack.append(related_tag)
 
+        if len(cluster) >= min_cluster_size:
+            clusters.append(cluster)
 
-    # Encontrar todos los componentes conectados
-    for tag in tag_relations.keys():
-        if tag not in visited:
-            cluster = set()
-            dfs(tag, cluster)
-            if len(cluster) >= min_cluster_size:
-                clusters.append(cluster)
-
-
-    # Convertir a formato legible con tags capitalizados
+    # Convertir a formato legible con tags capitalizados.
     clusters_formatted = []
     for cluster in sorted(clusters, key=len, reverse=True):
-        cluster_tags = sorted([tag_canonical[tag] for tag in cluster])
+        cluster_tags = sorted(tag_canonical[tag] for tag in cluster)
         clusters_formatted.append({
             'size': len(cluster_tags),
             'tags': cluster_tags
         })
 
-
     print(f"✅ {len(clusters_formatted)} clusters identificados")
     return clusters_formatted
-
 
 
 def analyze_tag_network(news_url):
@@ -254,100 +318,3 @@ def analyze_tag_network(news_url):
         'metadata': {
             'total_tags': len(tag_relations),
             'total_articles': len(news_articles),
-            'total_relations': sum(len(relations) for relations in tag_relations.values()) // 2,
-            'total_clusters': len(clusters)
-        },
-        'tag_stats': tag_stats,
-        'clusters': clusters,
-        'direct_relations': {
-            tag_canonical[tag]: sorted([tag_canonical[r] for r in relations])
-            for tag, relations in sorted(tag_relations.items(), key=lambda x: len(x[1]), reverse=True)
-        }
-    }
-
-
-    # Guardar resultados
-    with open('./tags_json/tag_relations.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
-
-
-    print("\n✅ Resultados guardados en: tag_relations.json")
-    print(f"📊 Estructura del JSON:")
-    print(f"   - metadata: información general")
-    print(f"   - tag_stats: estadísticas de {len(tag_stats)} tags")
-    print(f"   - clusters: {len(clusters)} grupos identificados")
-    print(f"   - direct_relations: relaciones directas entre tags")
-
-
-    return result
-
-
-
-def query_tag_relations(tag_name, relation_file='tag_relations.json'):
-    """
-    Consulta las relaciones de un tag específico.
-    """
-    try:
-        with open(relation_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-
-        # Buscar el tag (normalizado)
-        tag_normalized = normalize_tag(tag_name)
-
-
-        # Buscar coincidencia
-        matched_tag = None
-        for tag in data['tag_stats'].keys():
-            if normalize_tag(tag) == tag_normalized:
-                matched_tag = tag
-                break
-
-
-        if not matched_tag:
-            print(f"❌ Tag '{tag_name}' no encontrado")
-            return
-
-
-        stats = data['tag_stats'][matched_tag]
-
-
-        print(f"\n📌 Tag: {matched_tag}")
-        print(f"🔢 Frecuencia: {stats['frequency']} apariciones")
-        print(f"🔗 Relaciones directas: {stats['related_count']}")
-        print(f"\n🔝 Top 10 tags más relacionados:")
-        for i, related_tag in enumerate(stats['related_tags'][:10], 1):
-            print(f"   {i}. {related_tag}")
-        
-        # Buscar cluster al que pertenece
-        for cluster in data['clusters']:
-            if matched_tag in cluster['tags']:
-                print(f"\n🎯 Pertenece a un cluster de {cluster['size']} tags:")
-                print(f"   {', '.join(cluster['tags'][:15])}")
-                if len(cluster['tags']) > 15:
-                    print(f"   ... y {len(cluster['tags']) - 15} más")
-                break
-
-
-    except FileNotFoundError:
-        print(f"❌ Archivo '{relation_file}' no encontrado. Ejecuta primero el análisis.")
-    except Exception as e:
-        print(f"❌ Error: {str(e)}")
-
-
-
-if __name__ == "__main__":
-    import sys
-
-    # URL del JSON de noticias
-    NEWS_URL = "https://raw.githubusercontent.com/Alfesito/ES-News-Topics/refs/heads/main/news_json/noticias_24h.json"
-
-    # Si se pasa un argumento, consultar ese tag
-    if len(sys.argv) > 1:
-        tag_name = ' '.join(sys.argv[1:])
-        query_tag_relations(tag_name, './tags_json/tag_relations.json')
-    else:
-        # Modo análisis completo
-        print("🚀 ANALIZADOR DE RELACIONES ENTRE TAGS")
-        analyze_tag_network(NEWS_URL)
-        print("\n💡 Usa: python script.py \"nombre_tag\" para consultar relaciones de un tag específico")

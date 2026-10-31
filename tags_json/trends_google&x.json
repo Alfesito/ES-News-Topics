@@ -1,87 +1,457 @@
 {
-  "timestamp": "2026-10-30T20:10:11.536476",
+  "timestamp": "2026-10-31T00:06:09.964939",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 5,
+    "xtrends_total": 9,
     "tags_total": 50,
-    "unique_total": 72,
-    "unified_count": 6,
-    "with_news": 58,
-    "without_news": 14
+    "unique_total": 81,
+    "unified_count": 5,
+    "with_news": 59,
+    "without_news": 22
   },
   "trends": [
     {
       "id": 200,
-      "title": "Ue",
+      "title": "Dos",
       "source": "news_tags",
-      "volume": "483 artículos",
+      "volume": "227 artículos",
       "timeframe": "24h noticias",
-      "news_count": 483
+      "news_count": 227
     },
     {
       "id": 201,
-      "title": "Dos",
-      "source": "news_tags",
-      "volume": "236 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 236
-    },
-    {
-      "id": 202,
-      "title": "Toledo",
-      "source": "news_tags",
-      "volume": "194 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 194
-    },
-    {
-      "id": 203,
-      "title": "Noia",
-      "source": "news_tags",
-      "volume": "192 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 192
-    },
-    {
-      "id": 204,
-      "title": "Accidentes de Tren",
+      "title": "Nuevos",
       "source": "news_tags",
       "volume": "186 artículos",
       "timeframe": "24h noticias",
       "news_count": 186
     },
     {
+      "id": 202,
+      "title": "Toledo",
+      "source": "news_tags",
+      "volume": "183 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 183
+    },
+    {
+      "id": 204,
+      "title": "Accidente de Tren",
+      "source": "news_tags",
+      "volume": "144 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 173
+    },
+    {
+      "id": 203,
+      "title": "Puente",
+      "source": "news_tags",
+      "volume": "172 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 172
+    },
+    {
       "id": 205,
       "title": "Urda",
       "source": "news_tags",
-      "volume": "153 artículos",
+      "volume": "127 artículos",
       "timeframe": "24h noticias",
-      "news_count": 153
+      "news_count": 127
     },
     {
       "id": 206,
-      "title": "Trenes",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "101 artículos",
+      "volume": "89 artículos",
       "timeframe": "24h noticias",
-      "news_count": 101
+      "news_count": 89
     },
     {
-      "id": 211,
-      "title": "Alta Velocidad",
+      "id": 210,
+      "title": "Tres",
       "source": "news_tags",
       "volume": "62 artículos",
       "timeframe": "24h noticias",
-      "news_count": 94
+      "news_count": 84
     },
     {
-      "id": 9,
+      "id": 25,
+      "title": "Renfe Ave",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 81,
+      "matched_articles": [
+        {
+          "title": "Oscar Puente puso su cargo a disposicion de Sanchez pero este rechazo que dimitiera porque le parecia \"injusto\"",
+          "url": "https://www.20minutos.es/nacional/puente-puso-su-cargo-disposicion-sanchez-pero-este-rechazo-que-dimitiera-porque-le-parecia-injusto_7055566_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T20:09:12.206Z"
+        },
+        {
+          "title": "La irresponsabilidad como sistema",
+          "url": "https://www.elmundo.es/opinion/2026/10/30/6ae3279ce9cf4ae12e8b4587.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.437Z"
+        },
+        {
+          "title": "Las cientificas Marta Shahbazi Alonso y Tamara Gonzalez Costa, entre las desaparecidas en el accidente de trenes de Urda",
+          "url": "https://www.elmundo.es/ciencia/2026/10/30/6ae4cea5e9cf4a2d718b4574.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.437Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.436Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.435Z"
+        },
+        {
+          "title": "Del \"yo no solde el rail\" de Adamuz a \"no era mi deber estar al mando el martes\": asi se lava las manos Oscar Puente",
+          "url": "https://www.elespanol.com/espana/politica/20261030/no-solde-rail-adamuz-deber-mando-martes-lava-manos-oscar-puente/1003744441662_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:08.560Z"
+        },
+        {
+          "title": "Cesar Franco, ingeniero con 25 anos de experiencia: \"El LZB es un sistema que deberia haberse sustituido ya por el ERMTS\"",
+          "url": "https://www.elespanol.com/espana/20261030/cesar-franco-ingeniero-anos-experiencia-lzb-sistema-deberia-haberse-sustituido-ermts/1003744439112_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:05.444Z"
+        },
+        {
+          "title": "Del \"yo no solde el rail\" de Adamuz a \"no era mi deber estar al mando el martes\": asi se lava las manos Oscar Puente",
+          "url": "https://www.elespanol.com/espana/politica/20261030/no-solde-rail-adamuz-deber-mando-martes-lava-manos-oscar-puente/1003744441662_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:03:24.798Z"
+        },
+        {
+          "title": "Las claves del accidente ferroviario de Urda y las incognitas por resolver | Informe Publico",
+          "url": "https://www.publico.es/politica/video-claves-accidente-ferroviario-urda-incognitas-resolver-informe-publico.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:29.571Z"
+        },
+        {
+          "title": "Las claves del accidente ferroviario de Urda y las incognitas por resolver | Informe Publico",
+          "url": "https://www.publico.es/politica/video-claves-accidente-ferroviario-urda-incognitas-resolver-informe-publico.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:11.511Z"
+        },
+        {
+          "title": "Espana dispara sus accidentes ferroviarios un 142% durante la era Sanchez mientras la inversion en mantenimiento se desploma un 22%",
+          "url": "https://www.larazon.es/economia/espana-dispara-sus-accidentes-ferroviarios-142-era-sanchez-mientras-inversion-mantenimiento-desploma-22_202610306ae4baff6973466c29e371f8.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:17.151Z"
+        },
+        {
+          "title": "El cierre de la alta velocidad Madrid-Barcelona que baraja Puente: casi 30 millones de pasajeros afectados y 100.000 millones de gasto turistico en juego en dos anos",
+          "url": "https://www.larazon.es/economia/cierre-alta-velocidad-madridbarcelona-que-baraja-puente-casi-30-millones-pasajeros-afectadaos-100000-millones-gasto-turistico-juego-dos-anos_202610306ae4a8cba5f83c2fb8e9a8e3.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:10.978Z"
+        },
+        {
+          "title": "Los ingenieros del Estado piden esclarecer las causas de Urda y tomar medidas para evitar otro siniestro",
+          "url": "https://www.larazon.es/sociedad/accidente-trenes-toledo-directo-ultima-hora-numero-muertos-investigacion-urda_202610306ae4258c02501232156d8ccb.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:09.726Z"
+        },
+        {
+          "title": "Como funciona la 'caja negra' de los trenes y que informacion podria aportar a la investigacion del accidente de Toledo",
+          "url": "https://www.20minutos.es/nacional/caja-negra-trenes-iryo-ave-toledo-datos-aporta-informacion-investigacion_6922816_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:37.240Z"
+        },
+        {
+          "title": "Que es un canton ferroviario, el tramo de via en el que no deberia haber mas de un tren",
+          "url": "https://www.20minutos.es/nacional/canton-ferroviario-tramo-via-no-deberia-haber-mas-tren_7055463_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:34.905Z"
+        },
+        {
+          "title": "Diccionario para entender las causas del accidente de tren en Urda: del 'LZB' al 'amparo de BSL, todos los terminos clave",
+          "url": "https://www.20minutos.es/nacional/diccionario-ferroviario-todos-los-terminos-necesarios-para-entender-accidente-trenes-toledo_7054921_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:32.904Z"
+        },
+        {
+          "title": "La moviola ferroviaria podria ayudar a esclarecer el accidente de tren en Toledo: asi funciona esta herramienta de reconstruccion",
+          "url": "https://www.20minutos.es/nacional/moviola-ferroviaria-podria-ayudar-esclarecer-accidente-tren-toledo-asi-funciona-herramienta-reconstruccion_7055492_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:31.524Z"
+        },
+        {
+          "title": "Colau pide la dimision de Puente \"lo antes posible\" por el accidente de tren en Urda",
+          "url": "https://www.20minutos.es/nacional/colau-pide-dimision-puente-antes-posible-por-accidente-tren-urda_7055513_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:30.466Z"
+        },
+        {
+          "title": "Amigos, familiares y companeros del PP despiden en Huelva a la ex ministra Fatima Banez",
+          "url": "https://www.elmundo.es/espana/2026/10/30/6ae43ea8fc6c839b3b8b456d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:29:09.026Z"
+        },
+        {
+          "title": "Amigos, familiares y companeros del PP despiden en Huelva a la ex ministra Fatima Banez",
+          "url": "https://www.elmundo.es/espana/2026/10/30/6ae43ea8fc6c839b3b8b456d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.992Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Emiliano Garcia-Page: \"No descartamos que pueda haber mas fallecidos\"",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.992Z"
+        },
+        {
+          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo, la imagen de la tragedia con decenas de vidas rotas: Antonio, Adriana, Ana, Raul, Julieta...",
+          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.992Z"
+        },
+        {
+          "title": "El trabajador de Adif senalado por Puente al ordenar al AVE reanudar la marcha se niega a declarar ante la Guardia Civil",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae46aeb21efa0d3758b458b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.992Z"
+        },
+        {
+          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo, la imagen de la tragedia con decenas de vidas rotas: Antonio, Adriana, Ana, Raul, Julieta...",
+          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.991Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Emiliano Garcia-Page: \"No descartamos que pueda haber mas fallecidos\"",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.991Z"
+        },
+        {
+          "title": "Sanchez comparece por tercer dia escudandose en Page, cita al Rey y reconoce una \"confianza quebrada\" en la Alta Velocidad",
+          "url": "https://www.elespanol.com/espana/politica/20261030/sanchez-comparece-tercer-dia-escudandose-page-cita-rey-reconoce-confianza-quebrada-alta-velocidad/1003744440823_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:26:24.850Z"
+        },
+        {
+          "title": "Feijoo: \"La responsabilidad politica es clara; 69 personas han muerto. Si no dimiten ellos, les dimitiremos en las urnas\"",
+          "url": "https://www.elespanol.com/espana/politica/20261030/feijoo-responsabilidad-politica-clara-personas-muerto-no-dimiten-dimitiremos-urnas/1003744440820_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:26:21.280Z"
+        },
+        {
+          "title": "Colau exige a Moncloa la dimision de Puente \"lo antes posible\" por su \"responsabilidad politica\" en el accidente de Urda",
+          "url": "https://www.elespanol.com/espana/politica/20261030/colau-exige-moncloa-dimision-posible-puente-responsabilidad-politica-accidente-urda/1003744441424_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:26:19.470Z"
+        },
+        {
+          "title": "Sanchez comparece por tercer dia escudandose en Page, cita al Rey y reconoce una \"confianza quebrada\" en la Alta Velocidad",
+          "url": "https://www.elespanol.com/espana/politica/20261030/sanchez-comparece-tercer-dia-escudandose-page-cita-rey-reconoce-confianza-quebrada-alta-velocidad/1003744440823_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:25:39.458Z"
+        },
+        {
+          "title": "Feijoo: \"La responsabilidad politica es clara; 69 personas han muerto. Si no dimiten ellos, les dimitiremos en las urnas\"",
+          "url": "https://www.elespanol.com/espana/politica/20261030/feijoo-responsabilidad-politica-clara-personas-muerto-no-dimiten-dimitiremos-urnas/1003744440820_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:25:38.082Z"
+        },
+        {
+          "title": "Ada Colau pide la dimision de Oscar Puente \"lo antes posible\"",
+          "url": "https://www.publico.es/politica/partidos/ada-colau-pide-dimision-oscar-puente-posible.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:42.259Z"
+        },
+        {
+          "title": "Ada Colau pide la dimision de Oscar Puente \"lo antes posible\"",
+          "url": "https://www.publico.es/politica/partidos/ada-colau-pide-dimision-oscar-puente-posible.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:20.834Z"
+        },
+        {
+          "title": "El caos tras la tragedia de Urda: los usuarios del AVE denuncian descontrol horario y trenes sustituidos por autobuses sin aviso en las conexiones entre Madrid y Ciudad Real",
+          "url": "https://www.larazon.es/economia/caos-tragedia-urda-usuarios-ave-denuncian-descontrol-horario-trenes-sustituidos-autobuses-aviso-conexiones-madrid-ciudad-real_202610306ae47c42b55c427e2eb8f4ba.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:48.032Z"
+        },
+        {
+          "title": "Cronologia completa del accidente de trenes en Urda: errores, deficiencias, dolor y desesperacion",
+          "url": "https://www.larazon.es/sociedad/cronologia-completa-accidente-trenes-urda-errores-deficiencias-dolor-desesperacion_202610306ae49c8b6973466c29e35039.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:46.758Z"
+        },
+        {
+          "title": "El maquinista en practicas fallecido es sobrino de dos religiosos burgaleses: el obispo de Puyo (Ecuador) y el parroco de la Sagrada Familia de Burgos",
+          "url": "https://www.larazon.es/castilla-y-leon/maquinista-practicas-fallecido-sobrino-dos-religiosos-burgaleses-obispo-puyo-ecuador-parroco-sagrada-familia-burgos_202610306ae474daa5f83c2fb8e96725.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:44.805Z"
+        },
+        {
+          "title": "El dolor de las familias: asi es la angustiosa espera de noticias",
+          "url": "https://www.larazon.es/sociedad/dolor-familias-asi-angustiosa-espera-noticias_202610306ae49e70004b78127aba2bc1.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:44.004Z"
+        },
+        {
+          "title": "Feijoo, tras la tragedia en Urda: \"Si no dimiten ellos, les dimitiremos en las urnas\"",
+          "url": "https://www.larazon.es/sociedad/accidente-trenes-toledo-directo-ultima-hora-numero-muertos-investigacion-urda_202610306ae4258c02501232156d8ccb.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:42.552Z"
+        },
+        {
+          "title": "Puente carga a los controladores con el accidente pese a admitir 170 fallos en el LZB el ultimo ano: \"Tenian a la vista todo lo que estaba sucediendo\"",
+          "url": "https://www.larazon.es/economia/puente-carga-controladores-accidente-pese-admitir-170-fallos-lzb-ultimo-ano-tenian-vista-todo-que-estaba-sucediendo_202610306ae4973702501232156e0a36.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:41.422Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, en directo | Los institutos forenses han recibido ya los 69 cuerpos y han practicado 48 autopsias",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-ultimas-noticias-muertos-heridos-causas-investigacion-yebenes_7054316_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:25.746Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, en directo | Los institutos forenses han recibido ya los 69 cuerpos y han practicado 48 autopsias",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:19.093Z"
+        },
+        {
+          "title": "Fatima Banez se convierte en referente de la gestion publica y los valores empresariales tras su dramatica muerte en Urda",
+          "url": "https://www.elespanol.com/espana/politica/20261030/fatima-banez-convierte-referente-gestion-publica-valores-empresariales-dramatica-muerte-urda/1003744439779_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:22:16.561Z"
+        },
+        {
+          "title": "Bruselas advirtio tras Adamuz que la \"tecnologia obsoleta\" del AVE solo puede mantenerse con nuevas \"medidas de seguridad\"",
+          "url": "https://www.elespanol.com/espana/politica/20261030/bruselas-advirtio-adamuz-tecnologia-obsoleta-ave-solo-puede-mantenerse-nuevas-medidas-seguridad/1003744440304_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:22:15.930Z"
+        },
+        {
+          "title": "Caida historica de pasajeros, aislamiento y 0 km nuevos de Cercanias: el legado ferroviario de Sanchez en Andalucia",
+          "url": "https://www.elespanol.com/espana/andalucia/20261030/caida-historica-pasajeros-aislamiento-km-nuevos-cercanias-legado-ferroviario-sanchez-andalucia/1003744440010_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:22:13.805Z"
+        },
+        {
+          "title": "Josemi, el cura del pueblo de los milagros que consolo a las victimas de Urda: \"Esta siendo el momento mas duro de mi vida\"",
+          "url": "https://www.elespanol.com/reportajes/20261030/josemi-cura-pueblo-milagros-consolo-victimas-urda-momento-duro-vida/1003744439940_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:21:38.564Z"
+        },
+        {
+          "title": "Fatima Banez se convierte en referente de la gestion publica y los valores empresariales tras su dramatica muerte en Urda",
+          "url": "https://www.elespanol.com/espana/politica/20261030/fatima-banez-convierte-referente-gestion-publica-valores-empresariales-dramatica-muerte-urda/1003744439779_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:21:36.953Z"
+        },
+        {
+          "title": "Historia de cuatro trenes parados: uno no pudo arrancar, dos lo hicieron 'a la vista' y otro se estrello a 200 km/h",
+          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20261030/historia-trenes-parados-no-pudo-arrancar-hicieron-vista-estrello-kmh/1003744440342_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:21:36.056Z"
+        },
+        {
+          "title": "Locos por el relato: lo importante no era la seguridad, sino la apariencia de velocidad",
+          "url": "https://www.elespanol.com/opinion/editoriales/20261030/locos-relato-importante-no-seguridad-apariencia-velocidad/1003744440474_14.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:21:30.883Z"
+        },
+        {
+          "title": "Los controladores de Adif culpan a Puente: \"Nos presionan para que no haya retrasos, los trenes no pueden estar parados\"",
+          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20261030/controladores-adif-culpan-puente-presionan-no-retrasos-trenes-pueden-parados/1003744440265_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T07:21:29.967Z"
+        },
+        {
+          "title": "Pedro Rico, superviviente del accidente de trenes: \"Haberlo vivido como medico te da otra dimension\"",
+          "url": "https://www.larazon.es/sociedad/pedro-rico-ceo-vithas-superviviente-accidente-trenes-haberlo-vivido-como-medico-otra-dimension_202610306ae4029b6973466c29e2ae13.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T07:18:03.663Z"
+        },
+        {
+          "title": "Gabriel Garcia, 46 anos a los mandos de un tren: \"Desde la cabina, es dificil saber si el puesto de mando se esta equivocando\"",
+          "url": "https://www.eldiario.es/andalucia/gabriel-garcia-46-anos-mandos-tren-cabina-dificil-si-puesto-mando-equivocando_1_13624156.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-30T07:15:19.446Z"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "title": "Alta Velocidad",
+      "source": "news_tags",
+      "volume": "53 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 79
+    },
+    {
+      "id": 207,
+      "title": "Espana-newsletter-destacada",
+      "source": "news_tags",
+      "volume": "78 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 78
+    },
+    {
+      "id": 208,
+      "title": "Gobiernos",
+      "source": "news_tags",
+      "volume": "72 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 72
+    },
+    {
+      "id": 11,
       "title": "Colisión",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 90,
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 71,
       "matched_articles": [
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.436Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.435Z"
+        },
+        {
+          "title": "Las claves del accidente ferroviario de Urda y las incognitas por resolver | Informe Publico",
+          "url": "https://www.publico.es/politica/video-claves-accidente-ferroviario-urda-incognitas-resolver-informe-publico.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:29.571Z"
+        },
+        {
+          "title": "Las claves del accidente ferroviario de Urda y las incognitas por resolver | Informe Publico",
+          "url": "https://www.publico.es/politica/video-claves-accidente-ferroviario-urda-incognitas-resolver-informe-publico.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:11.511Z"
+        },
+        {
+          "title": "Los ingenieros del Estado piden esclarecer las causas de Urda y tomar medidas para evitar otro siniestro",
+          "url": "https://www.larazon.es/sociedad/accidente-trenes-toledo-directo-ultima-hora-numero-muertos-investigacion-urda_202610306ae4258c02501232156d8ccb.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:09.726Z"
+        },
+        {
+          "title": "Los agujeros en la version de Puente para salvarse",
+          "url": "https://www.larazon.es/espana/agujeros-version-puente-salvarse_202610306ae4b21c02501232156e2aa6.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:06.154Z"
+        },
         {
           "title": "Como funciona la 'caja negra' de los trenes y que informacion podria aportar a la investigacion del accidente de Toledo",
           "url": "https://www.20minutos.es/nacional/caja-negra-trenes-iryo-ave-toledo-datos-aporta-informacion-investigacion_6922816_0.html",
@@ -345,6 +715,270 @@
           "url": "https://www.elmundo.es/economia/2026/10/29/6ae34bfde9cf4a71178b45ac.html",
           "newspaper": "El Mundo",
           "date": "2026-10-30T01:15:31.968Z"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "title": "Aves",
+      "source": "news_tags",
+      "volume": "67 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 67
+    },
+    {
+      "id": 211,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "60 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 60
+    },
+    {
+      "id": 212,
+      "title": "Uu",
+      "source": "news_tags",
+      "volume": "58 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 58
+    },
+    {
+      "id": 213,
+      "title": "Políticas",
+      "source": "news_tags",
+      "volume": "58 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 58
+    },
+    {
+      "id": 232,
+      "title": "Director",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 55
+    },
+    {
+      "id": 214,
+      "title": "Sánchez",
+      "source": "news_tags",
+      "volume": "53 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 53
+    },
+    {
+      "id": 216,
+      "title": "Elecciones",
+      "source": "news_tags",
+      "volume": "49 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 49
+    },
+    {
+      "id": 217,
+      "title": "Les",
+      "source": "news_tags",
+      "volume": "44 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 44
+    },
+    {
+      "id": 247,
+      "title": "Erte",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 44
+    },
+    {
+      "id": 218,
+      "title": "Sobre",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
+      "id": 12,
+      "title": "Unión Europea",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 42,
+      "matched_articles": [
+        {
+          "title": "Rusia reconoce que en algun momento \"sera necesaria la presencia de Europa\" en la negociacion con Ucrania",
+          "url": "https://www.20minutos.es/internacional/rusia-reconoce-que-algun-momento-sera-necesaria-presencia-europa-negociacion-con-ucrania_7055576_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T20:09:35.914Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, en directo | La cifra de fallecidos se mantiene en 69: hay tres nuevos pasajeros hallados con vida, dos en hospitales y uno que no viajo",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T20:09:05.284Z"
+        },
+        {
+          "title": "Canada no sera por ahora un \"estado asociado\" de la UE tras la presion de Alemania y el pacto se queda en \"una asociacion mas estrecha\"",
+          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae4cac1fdddff87478b45a1.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:26.930Z"
+        },
+        {
+          "title": "La irresponsabilidad como sistema",
+          "url": "https://www.elmundo.es/opinion/2026/10/30/6ae3279ce9cf4ae12e8b4587.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.437Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.436Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.435Z"
+        },
+        {
+          "title": "El G20 de Exteriores arranca sin la tradicional foto de familia tras el rechazo de los europeos a aparecer con el ruso Lavrov",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20261030/g20-exteriores-arranca-sin-tradicional-foto-familia-rechazo-europeos-aparecer-ruso-lavrov/1003744441852_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:47.728Z"
+        },
+        {
+          "title": "Von der Leyen y Carney trabajaran para convertir a Canada en \"miembro asociado\" de la UE pese al 'no' de Alemania",
+          "url": "https://www.elespanol.com/mundo/europa/20261030/von-der-leyen-carney-trabajaran-convertir-canada-miembro-asociado-ue-pese-no-alemania/1003744441791_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:46.468Z"
+        },
+        {
+          "title": "Canada y la UE acuerdan una alianza estrategica y aplazan definir su nueva relacion a 2027",
+          "url": "https://www.larazon.es/internacional/canada-acuerdan-alianza-estrategica-aplazan-definir-nueva-relacion-2027_202610306ae4d9c7a5f83c2fb8e9da56.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:01:31.131Z"
+        },
+        {
+          "title": "Canada y la UE acuerdan una alianza estrategica y aplazan definir su nueva relacion a 2027",
+          "url": "https://www.larazon.es/internacional/canada-acuerdan-alianza-estrategica-aplazan-definir-nueva-relacion-2027_202610306ae4d9c7a5f83c2fb8e9da56.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:31.778Z"
+        },
+        {
+          "title": "La UE y Canada abandonan la idea de \"miembro asociado\" y optan por una \"Alianza para el Futuro\" sin concretar",
+          "url": "https://www.eldiario.es/internacional/ue-canada-abandonan-idea-miembro-asociado-optan-alianza-futuro-concretar_1_13628147.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-30T19:59:04.951Z"
+        },
+        {
+          "title": "La UE y Canada abandonan la idea de \"miembro asociado\" y optan por una \"Alianza para el Futuro\" sin concretar",
+          "url": "https://www.eldiario.es/internacional/ue-canada-abandonan-idea-miembro-asociado-optan-alianza-futuro-concretar_1_13628147.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-30T19:57:48.818Z"
+        },
+        {
+          "title": "El sorprendente pais donde el 58 % de la poblacion quiere unirse a la UE (y no esta en Europa)",
+          "url": "https://www.20minutos.es/internacional/sorprendente-pais-donde-58-poblacion-quiere-unirse-ue-no-esta-europa_7055474_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:54.290Z"
+        },
+        {
+          "title": "Page mantiene en 69 los fallecidos y en 70 las denuncias por desaparicion, aunque no descarta mas victimas",
+          "url": "https://www.20minutos.es/nacional/page-mantiene-69-los-fallecidos-70-las-denuncias-por-desaparicion-aunque-no-descarta-mas-victimas_7055396_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T14:30:34.227Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Emiliano Garcia-Page: \"No descartamos que pueda haber mas fallecidos\"",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.992Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Emiliano Garcia-Page: \"No descartamos que pueda haber mas fallecidos\"",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.991Z"
+        },
+        {
+          "title": "La economia de la eurozona se ralentiza: cae dos decimas y crece un 0,4% en el tercer trimestre",
+          "url": "https://www.larazon.es/economia/economia-eurozona-ralentiza-cae-dos-decimas-crece-04-tercer-trimestre_202610306ae491b302501232156e02b1.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:56.793Z"
+        },
+        {
+          "title": "Espana, una 'rara avis' en la UE: solo Austria y Alemania utilizan en su red ferrea el sistema LZB que colapso antes del choque en Urda",
+          "url": "https://www.20minutos.es/internacional/espana-una-rara-avis-ue-solo-austria-alemania-utilizan-su-red-ferrea-sistema-lzb-que-colapso-antes-choque-urda_7054851_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:53.651Z"
+        },
+        {
+          "title": "Los 115 fallecidos en Adamuz y Urda pulverizan la tasa de la UE de muertes en accidentes ferroviarios de los ultimos anos",
+          "url": "https://www.20minutos.es/nacional/los-115-fallecidos-adamuz-urda-pulverizan-tasa-ue-muertes-accidentes-ferroviarios-los-ultimos-anos_7055083_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:24.099Z"
+        },
+        {
+          "title": "Los 115 fallecidos en Adamuz y Urda pulverizan la tasa de la UE de muertes en accidentes ferroviarios de los ultimos anos",
+          "url": "https://www.20minutos.es/nacional/los-115-fallecidos-adamuz-urda-pulverizan-tasa-ue-muertes-accidentes-ferroviarios-los-ultimos-anos_7055083_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:17.046Z"
+        },
+        {
+          "title": "Espana, una 'rara avis' en la UE: solo Austria y Alemania utilizan en su red ferrea el sistema LZB que colapso antes del choque en Urda",
+          "url": "https://www.20minutos.es/internacional/espana-una-rara-avis-ue-solo-austria-alemania-utilizan-su-red-ferrea-sistema-lzb-que-colapso-antes-choque-urda_7054851_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:15.677Z"
+        },
+        {
+          "title": "Lagarde dejara la presidencia del BCE en febrero de 2027",
+          "url": "https://www.publico.es/economia/lagarde-dejara-presidencia-bce-febrero-2027.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T07:20:14.802Z"
+        },
+        {
+          "title": "Espana, la pieza que falta en un boicot a Eurovision que no suma apoyos pero se mantiene estable",
+          "url": "https://www.publico.es/mira/espana-pieza-falta-boicot-eurovision-suma-apoyos-pero-mantiene-estable.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T07:20:09.840Z"
+        },
+        {
+          "title": "Elif Eralp, ganadora de las elecciones en Berlin, confiesa por error que Die Linke estaria \"bajo control de la banda terrorista Hamas, infiltrado en su partido\": ahora teme por su vida",
+          "url": "https://www.larazon.es/internacional/elif-eralp-ganadora-elecciones-berlin-confiesa-error-que-die-linke-estaria-control-banda-terrorista-hamas-infiltrado-partido-ahora-teme-vida_202610306ae39ddab55c427e2eb82b57.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T07:19:19.304Z"
+        },
+        {
+          "title": "Elif Eralp, ganadora de las elecciones en Berlin, confiesa por error que Die Linke estaria \"bajo control de la banda terrorista Hamas, infiltrado en su partido\": ahora teme por su vida",
+          "url": "https://www.larazon.es/internacional/elif-eralp-ganadora-elecciones-berlin-confiesa-error-que-die-linke-estaria-control-banda-terrorista-hamas-infiltrado-partido-ahora-teme-vida_202610306ae39ddab55c427e2eb82b57.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T07:18:15.790Z"
+        },
+        {
+          "title": "La Comision Europea exigio a Espana en 2023 renovar la linea de AVE Madrid-Sevilla tras calificarla como \"obsoleta\"",
+          "url": "https://www.larazon.es/economia/comision-europea-exigio-espana-2023-renovar-linea-ave-madridsevilla-calificarla-como-obsoleta_202610306ae3befe02501232156d3c6c.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T07:18:01.677Z"
+        },
+        {
+          "title": "Al menos cuatro muertos al estrellarse en Bosnia un helicoptero de la mision de paz de la Union Europea",
+          "url": "https://www.20minutos.es/internacional/menos-cuatro-muertos-estrellarse-bosnia-un-helicoptero-mision-paz-union-europea_7055220_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T01:18:19.367Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El informe situa entre 160 y 200 kilometros por hora la velocidad del AVE que dejo 69 muertos en Urda",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:15:31.969Z"
+        },
+        {
+          "title": "Adif consintio prorrogar el viejo sistema LZB por un ahorro de 37 millones de euros",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae3b9b721efa0a84e8b45da.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:15:31.968Z"
         },
         {
           "title": "Accidente de tren en Toledo, ultima hora en directo | El informe situa entre 160 y 200 kilometros por hora la velocidad del AVE que dejo 69 muertos en Urda",
@@ -353,10 +987,10 @@
           "date": "2026-10-30T01:15:31.967Z"
         },
         {
-          "title": "Los investigadores creen que \"la cadena de averias, instrucciones y acciones habrian conducido a la colision\" en Urda",
-          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20261029/investigadores-ferroviarios-calculan-impacto-ave-iryo-produjo-velocidad-kmh/1003744440564_0.html",
+          "title": "La candidata de La Izquierda en Berlin confiesa tener \"miedo\" de varios activistas propalestinos vinculados a su partido",
+          "url": "https://www.elespanol.com/mundo/europa/20261029/candidata-izquierda-berlin-confiesa-tener-miedo-varios-activistas-propalestinos-vinculados-partido/1003744440441_0.html",
           "newspaper": "El Español",
-          "date": "2026-10-30T01:12:48.329Z"
+          "date": "2026-10-30T01:14:09.453Z"
         },
         {
           "title": "El accidente de Toledo lleva a la prensa europea a cuestionar el modelo de alta velocidad espanol",
@@ -365,252 +999,206 @@
           "date": "2026-10-30T01:12:21.254Z"
         },
         {
-          "title": "El PP da por acabado a Oscar Puente, el ministro que mas irrita a la derecha",
-          "url": "https://www.publico.es/politica/pp-da-acabado-oscar-puente-ministro-irrita-derecha.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T01:11:58.112Z"
+          "title": "Von der Leyen admite que Canada no puede entrar en la UE pero reclama \"una relacion al mas alto nivel posible\"",
+          "url": "https://www.20minutos.es/internacional/von-der-leyen-admite-que-canada-no-puede-entrar-ue-pero-reclama-una-relacion-mas-alto-nivel-posible_7055096_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-29T20:34:29.534Z"
         },
         {
-          "title": "Atocha permanece en <<shock>>",
-          "url": "https://www.larazon.es/madrid/atocha-permanece-shock_202610296ae3a27a02501232156d223d.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-30T01:10:22.081Z"
+          "title": "?Por que la linea Madrid-Sevilla utiliza el LZB en lugar del sistema europeo ERTMS, presente en otros corredores espanoles?",
+          "url": "https://www.20minutos.es/nacional/por-que-linea-madrid-sevilla-utiliza-lzb-lugar-sistema-europeo-ertms-presente-otros-corredores-espanoles_7055050_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-29T20:34:04.853Z"
         },
         {
-          "title": "Recuperadas las cajas negras del accidente ferroviario",
-          "url": "https://www.larazon.es/sociedad/recuperadas-cajas-negras-accidente-ferroviario_202610296ae3ae2fb55c427e2eb83a3c.html",
+          "title": "El numero de muertos por el choque de trenes en Urda sube a 69 pendientes de identificar \"restos humanos\" en los vagones",
+          "url": "https://www.20minutos.es/nacional/numero-muertos-por-choque-trenes-urda-sube-69-los-servicios-rescate-identifican-restos-humanos-los-vagones_7054868_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-29T20:33:51.311Z"
+        },
+        {
+          "title": "Cuatro muertos y 12 heridos al precipitarse un helicoptero de la fuerza de la UE en Bosnia",
+          "url": "https://www.elmundo.es/internacional/2026/10/29/6ae390b221efa08c678b458e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:47.020Z"
+        },
+        {
+          "title": "El Supremo levanta los apercibimientos a los ministros Bolanos y Albares tras haber entregado el listado de la 'ley de nietos'",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/29/6ae37c90e9cf4a127a8b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:27.598Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El accidente en Urda deja 69 muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:27.595Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El accidente en Urda deja 69 muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:27.593Z"
+        },
+        {
+          "title": "La UE y Canada estrechan su alianza frente a Donald Trump",
+          "url": "https://www.larazon.es/internacional/von-der-leyen-insiste-que-canada-sea-miembro-asociado-pese-objeciones_202610296ae37ad2004b78127ab8e3bf.html",
           "newspaper": "La Razón",
-          "date": "2026-10-30T01:10:19.615Z"
+          "date": "2026-10-29T20:26:45.022Z"
+        },
+        {
+          "title": "Repsol alerta de una posible escasez de diesel en Europa en invierno, pero asegura que Espana no tienen \"ningun problema\"",
+          "url": "https://www.larazon.es/economia/repsol-alerta-posible-escasez-diesel-europa-invierno-pero-asegura-que-espana-tienen-ningun-problema_202610296ae3510a004b78127ab8aac3.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-29T20:25:39.108Z"
+        },
+        {
+          "title": "Amnistia Internacional pide a Eurovision 2027 que suspenda a Israel: \"No debe proporcionarse un escenario en el que blanquear el genocidio\"",
+          "url": "https://www.eldiario.es/vertele/noticias/amnistia-internacional-pide-eurovision-2027-suspenda-israel-no-debe-proporcionarse-escenario-blanquear-genocidio_1_13625086.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-29T20:22:52.487Z"
         }
       ]
     },
     {
-      "id": 214,
-      "title": "Ferroviaria",
-      "source": "news_tags",
-      "volume": "56 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 81
-    },
-    {
-      "id": 207,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "80 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 80
-    },
-    {
-      "id": 208,
-      "title": "Vez",
-      "source": "news_tags",
-      "volume": "72 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 72
-    },
-    {
-      "id": 209,
-      "title": "Gobiernos",
-      "source": "news_tags",
-      "volume": "66 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 66
-    },
-    {
-      "id": 210,
-      "title": "Espana-newsletter-destacada",
-      "source": "news_tags",
-      "volume": "66 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 66
-    },
-    {
-      "id": 229,
-      "title": "Ministro",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 66
-    },
-    {
-      "id": 212,
-      "title": "Políticas",
-      "source": "news_tags",
-      "volume": "59 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 59
-    },
-    {
-      "id": 213,
-      "title": "Uu",
-      "source": "news_tags",
-      "volume": "56 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 56
-    },
-    {
-      "id": 234,
-      "title": "Director",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 55
-    },
-    {
-      "id": 215,
-      "title": "Sánchez",
-      "source": "news_tags",
-      "volume": "54 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 54
-    },
-    {
-      "id": 216,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "52 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 52
-    },
-    {
-      "id": 217,
-      "title": "Elecciones",
-      "source": "news_tags",
-      "volume": "51 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 51
-    },
-    {
-      "id": 218,
-      "title": "Tragedia de Angrois",
-      "source": "news_tags",
-      "volume": "50 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 50
-    },
-    {
       "id": 219,
-      "title": "Les",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 220,
-      "title": "Más",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 221,
-      "title": "Iryo",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 222,
-      "title": "Civil",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 223,
       "title": "Seguridad",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 224,
-      "title": "Presidente",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 225,
-      "title": "Renfe",
       "source": "news_tags",
       "volume": "42 artículos",
       "timeframe": "24h noticias",
       "news_count": 42
     },
     {
-      "id": 226,
-      "title": "Adif",
+      "id": 220,
+      "title": "Ferroviarios",
       "source": "news_tags",
       "volume": "40 artículos",
       "timeframe": "24h noticias",
       "news_count": 40
     },
     {
-      "id": 227,
-      "title": "Sobre",
-      "source": "news_tags",
-      "volume": "39 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 39
-    },
-    {
-      "id": 228,
-      "title": "Piden",
+      "id": 221,
+      "title": "Ministro",
       "source": "news_tags",
       "volume": "38 artículos",
       "timeframe": "24h noticias",
       "news_count": 38
     },
     {
-      "id": 230,
-      "title": "Sistema",
+      "id": 222,
+      "title": "Presidente",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 223,
+      "title": "Tragedia de Angrois",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 224,
+      "title": "Más",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
+    },
+    {
+      "id": 225,
+      "title": "Iryo",
       "source": "news_tags",
       "volume": "35 artículos",
       "timeframe": "24h noticias",
       "news_count": 35
     },
     {
-      "id": 231,
-      "title": "Centros de Datos",
+      "id": 226,
+      "title": "Horas",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
+      "id": 227,
+      "title": "Sistema",
       "source": "news_tags",
       "volume": "33 artículos",
       "timeframe": "24h noticias",
       "news_count": 33
     },
     {
-      "id": 233,
-      "title": "Báñez",
+      "id": 228,
+      "title": "Ver",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 32
+    },
+    {
+      "id": 229,
+      "title": "Civil",
       "source": "news_tags",
       "volume": "31 artículos",
       "timeframe": "24h noticias",
       "news_count": 31
     },
     {
-      "id": 235,
-      "title": "Maquinistas",
+      "id": 230,
+      "title": "Renfe",
       "source": "news_tags",
       "volume": "31 artículos",
       "timeframe": "24h noticias",
       "news_count": 31
+    },
+    {
+      "id": 231,
+      "title": "Piden",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 233,
+      "title": "Adif",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
+    },
+    {
+      "id": 234,
+      "title": "Báñez",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
     },
     {
       "id": 236,
-      "title": "Horas",
+      "title": "Psoe",
       "source": "news_tags",
-      "volume": "30 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 30
+      "news_count": 28
+    },
+    {
+      "id": 237,
+      "title": "Personas",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
     },
     {
       "id": 238,
-      "title": "Arte",
+      "title": "Transportes",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
@@ -618,7 +1206,7 @@
     },
     {
       "id": 239,
-      "title": "Rica",
+      "title": "Centros de Datos",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
@@ -626,67 +1214,179 @@
     },
     {
       "id": 240,
-      "title": "Feijóo",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 241,
-      "title": "Accidente Ferroviario",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 242,
-      "title": "Personas",
+      "title": "Rica",
       "source": "news_tags",
       "volume": "26 artículos",
       "timeframe": "24h noticias",
       "news_count": 26
     },
     {
-      "id": 243,
-      "title": "Psoe",
+      "id": 241,
+      "title": "Trump",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 26
     },
     {
       "id": 244,
+      "title": "Feijóo",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 245,
       "title": "Electoral",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "23 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 23
     },
     {
-      "id": 246,
-      "title": "Transportes",
+      "id": 249,
+      "title": "Maquinistas",
       "source": "news_tags",
-      "volume": "25 artículos",
+      "volume": "22 artículos",
       "timeframe": "24h noticias",
-      "news_count": 25
+      "news_count": 22
     },
     {
-      "id": 247,
-      "title": "Controladores",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 248,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
+      "id": 101,
+      "title": "Angrois",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 21,
+      "matched_articles": [
+        {
+          "title": "Accidente de tren en Toledo, en directo | La cifra de fallecidos se mantiene en 69: hay tres nuevos pasajeros hallados con vida, dos en hospitales y uno que no viajo",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T20:09:05.284Z"
+        },
+        {
+          "title": "Victimas de Angrois y Adamuz, entre la indignacion y el miedo al tren: <<Advertimos de que iba a volver a ocurrir>>",
+          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/29/victimas-angrois-adamuz-advertimos-iba-volver-ocurrir/00031793286104138298255.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-10-30T20:05:32.806Z"
+        },
+        {
+          "title": "Feijoo pide saber \"la verdad\" sobre el accidente de Urda pero veto las investigaciones de Angrois",
+          "url": "https://www.publico.es/politica/video-feijoo-pide-saber-verdad-sobre-accidente-urda-pero-veto-investigaciones-angrois.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:30.564Z"
+        },
+        {
+          "title": "Ultima hora del accidente de trenes en Toledo, en directo | Oscar Puente, sobre el cierre de la linea Madrid-Barcelona por obras: \"No hay ninguna decision tomada\"",
+          "url": "https://www.publico.es/sociedad/ultima-hora-accidente-trenes-toledo-directo-2.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:08.849Z"
+        },
+        {
+          "title": "Ultima hora del accidente de trenes en Toledo, en directo | Oscar Puente, sobre el cierre de la linea Madrid-Barcelona por obras: \"No hay ninguna decision tomada\"",
+          "url": "https://www.publico.es/sociedad/ultima-hora-accidente-trenes-toledo-directo-2_1049.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T20:02:01.411Z"
+        },
+        {
+          "title": "La ultima trampa de Puente: alardea de que el PSOE no pidio la dimision de Ana Pastor por Angrois pero oculta que fue para tapar a Jose Blanco",
+          "url": "https://www.elespanol.com/espana/politica/20261030/ultima-trampa-puente-alardea-psoe-no-pidio-dimision-ana-pastor-angrois-oculta-tapar-jose-blanco/1003744441295_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:26:20.565Z"
+        },
+        {
+          "title": "La ultima trampa de Puente: alardea de que el PSOE no pidio la dimision de Ana Pastor por Angrois pero oculta que fue para tapar a Jose Blanco",
+          "url": "https://www.elespanol.com/espana/politica/20261030/ultima-trampa-puente-alardea-psoe-no-pidio-dimision-ana-pastor-angrois-oculta-tapar-jose-blanco/1003744441295_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T14:25:35.647Z"
+        },
+        {
+          "title": "Oscar Puente descarta su dimision e insiste en que el \"fallo\" en el centro de control desencadeno el accidente",
+          "url": "https://www.publico.es/politica/gobierno/oscar-puente-descarta-dimision-e-insiste-fallo-centro-control-desencadeno-accidente.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:43.308Z"
+        },
+        {
+          "title": "Feijoo dice que a Sanchez le \"interesa\" que Oscar Puente no dimita para que \"no llegue el incendio a su responsabilidad\"",
+          "url": "https://www.publico.es/politica/feijoo-dice-sanchez-le-interesa-oscar-puente-dimita-llegue-incendio-responsabilidad.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:42.491Z"
+        },
+        {
+          "title": "Ultima hora del accidente de trenes en Toledo, en directo | El Gobierno valora cortar el servicio durante las obras de remodelacion de lineas como la de Madrid-Barcelona",
+          "url": "https://www.publico.es/sociedad/ultima-hora-accidente-trenes-toledo-directo-2.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:22.122Z"
+        },
+        {
+          "title": "Feijoo dice que a Sanchez le \"interesa\" que Oscar Puente no dimita para que \"no llegue el incendio a su responsabilidad\"",
+          "url": "https://www.publico.es/politica/feijoo-dice-sanchez-le-interesa-oscar-puente-dimita-llegue-incendio-responsabilidad.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:21.430Z"
+        },
+        {
+          "title": "Oscar Puente descarta su dimision e insiste en que el \"fallo\" en el centro de control desencadeno el accidente",
+          "url": "https://www.publico.es/politica/gobierno/oscar-puente-descarta-dimision-e-insiste-fallo-centro-control-desencadeno-accidente.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:20.386Z"
+        },
+        {
+          "title": "Feijoo acusa a Puente de \"echar la culpa\" a un operador de Atocha y las redes rescatan lo que dijo sobre el maquinista de Angrois",
+          "url": "https://www.publico.es/tremending/feijoo-acusa-puente-echar-culpa-operador-atocha-redes-rescatan-dijo-sobre-maquinista-angrois.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:18.266Z"
+        },
+        {
+          "title": "Ultima hora del accidente de trenes en Toledo, en directo | El Gobierno valora cortar el servicio durante las obras de remodelacion de lineas como la de Madrid-Barcelona",
+          "url": "https://www.publico.es/sociedad/ultima-hora-accidente-trenes-toledo-directo-2_1049.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T14:24:16.180Z"
+        },
+        {
+          "title": "Espana, una 'rara avis' en la UE: solo Austria y Alemania utilizan en su red ferrea el sistema LZB que colapso antes del choque en Urda",
+          "url": "https://www.20minutos.es/internacional/espana-una-rara-avis-ue-solo-austria-alemania-utilizan-su-red-ferrea-sistema-lzb-que-colapso-antes-choque-urda_7054851_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:53.651Z"
+        },
+        {
+          "title": "Espana, una 'rara avis' en la UE: solo Austria y Alemania utilizan en su red ferrea el sistema LZB que colapso antes del choque en Urda",
+          "url": "https://www.20minutos.es/internacional/espana-una-rara-avis-ue-solo-austria-alemania-utilizan-su-red-ferrea-sistema-lzb-que-colapso-antes-choque-urda_7054851_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T07:27:15.677Z"
+        },
+        {
+          "title": "Mas alla del error humano: la tragedia de Urda expone deficiencias en la seguridad ferroviaria ya denunciadas antes",
+          "url": "https://www.publico.es/ciencias/error-humano-tragedia-urda-expone-deficiencias-seguridad-ferroviaria-sobre-habia-advertido.html",
+          "newspaper": "Público",
+          "date": "2026-10-30T07:20:04.011Z"
+        },
+        {
+          "title": "El sistema de senalizacion en el tramo Madrid-Sevilla, explicado en graficos",
+          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:16:06.716Z"
+        },
+        {
+          "title": "El sistema de senalizacion en el tramo Madrid-Sevilla, explicado en graficos",
+          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:32:05.254Z"
+        },
+        {
+          "title": "El sistema de senalizacion en el tramo Madrid-Sevilla, explicado en graficos",
+          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:27.593Z"
+        },
+        {
+          "title": "Feijoo pide saber \"la verdad\" sobre el accidente de Toledo tras vetar cuatro veces la investigacion por la tragedia del Alvia como presidente de Galicia",
+          "url": "https://www.publico.es/politica/feijoo-pide-saber-verdad-sobre-accidente-toledo-vetar-cuatro-veces-investigacion-tragedia-alvia-presidente-galicia.html",
+          "newspaper": "Público",
+          "date": "2026-10-29T20:27:28.364Z"
+        }
+      ]
     },
     {
       "id": 105,
@@ -694,7 +1394,7 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 22,
+      "news_count": 16,
       "matched_articles": [
         {
           "title": "La ultima trampa de Puente: alardea de que el PSOE no pidio la dimision de Ana Pastor por Angrois pero oculta que fue para tapar a Jose Blanco",
@@ -791,401 +1491,47 @@
           "url": "https://www.publico.es/politica/feijoo-pide-saber-verdad-sobre-accidente-toledo-vetar-cuatro-veces-investigacion-tragedia-alvia-presidente-galicia.html",
           "newspaper": "Público",
           "date": "2026-10-29T20:27:28.364Z"
-        },
-        {
-          "title": "Renfe registra hasta un 29% de cancelaciones por la huelga convocada por los maquinistas, sobre todo en Cercanias y Rodalies",
-          "url": "https://www.20minutos.es/nacional/renfe-registra-hasta-un-29-cancelaciones-por-huelga-convocada-por-los-maquinistas-sobre-todo-cercanias-rodalies_7055026_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-29T14:38:26.398Z"
-        },
-        {
-          "title": "Reconstruccion minuto a minuto del accidente de Toledo: esta es la secuencia que relatan los audios del Centro de Mando",
-          "url": "https://www.20minutos.es/nacional/reconstruccion-minuto-minuto-accidente-tren-toledo-secuencia-que-le-costo-vida-decenas-personas_7054712_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-29T14:38:22.225Z"
-        },
-        {
-          "title": "Las victimas de Adamuz, ante otra tragedia en los trenes: \"Esto es un infierno; aqui falla algo y es gordo\"",
-          "url": "https://www.elmundo.es/andalucia/2026/10/29/6ae1f0cbfdddffab408b4580.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:36:30.641Z"
-        },
-        {
-          "title": "Las victimas de Adamuz, ante otra tragedia en los trenes: \"Esto es un infierno; aqui falla algo y es gordo\"",
-          "url": "https://www.elmundo.es/andalucia/2026/10/29/6ae1f0cbfdddffab408b4580.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.765Z"
-        },
-        {
-          "title": "Ultima hora del accidente de tren en Toledo, hoy en directo | Aumenta a 69 el numero de muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.764Z"
-        },
-        {
-          "title": "Ultima hora del accidente de tren en Toledo, hoy en directo | Aumenta a 69 el numero de muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.763Z"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "Médico",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 21,
-      "matched_articles": [
-        {
-          "title": "Asi son 'Los Diez Hermanos', la mafia turca a la que pertenecia el hombre 'rematado' a balazos en un hospital de Tarragona",
-          "url": "https://www.20minutos.es/internacional/todo-que-sabe-los-diez-hermanos-mafia-turca-pertenecia-hombre-asesinado-tarragona_7055432_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T14:30:55.433Z"
-        },
-        {
-          "title": "Medicos y enfermeros encadenan jornadas en la atencion a los paciente del accidente: \"Nadie te prepara para esto. Funcionas con la adrenalina a tope\"",
-          "url": "https://www.elmundo.es/salud/2026/10/30/6ae37748e85ecef2658b4582.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T14:28:32.992Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Emiliano Garcia-Page: \"No descartamos que pueda haber mas fallecidos\"",
-          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T14:28:32.992Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Emiliano Garcia-Page: \"No descartamos que pueda haber mas fallecidos\"",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T14:28:32.991Z"
-        },
-        {
-          "title": "El actor sevillano Cesar Vicente confirma la muerte de su padre en el accidente de Urda: \"No hay alma que quite esta pena\"",
-          "url": "https://www.elespanol.com/espana/andalucia/20261030/actor-sevillano-cesar-vicente-confirma-muerte-padre-accidente-urda-no-alma-quite-pena/1003744440674_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T14:26:26.980Z"
-        },
-        {
-          "title": "Cronologia completa del accidente de trenes en Urda: errores, deficiencias, dolor y desesperacion",
-          "url": "https://www.larazon.es/sociedad/cronologia-completa-accidente-trenes-urda-errores-deficiencias-dolor-desesperacion_202610306ae49c8b6973466c29e35039.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-30T14:22:46.758Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, en directo | Los institutos forenses han recibido ya los 69 cuerpos y han practicado 48 autopsias",
-          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-ultimas-noticias-muertos-heridos-causas-investigacion-yebenes_7054316_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T07:27:25.746Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, en directo | Los institutos forenses han recibido ya los 69 cuerpos y han practicado 48 autopsias",
-          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T07:27:19.093Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Los institutos forenses de C-LM ya han recibido los 69 cuerpos y han practicado 48 autopsias",
-          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T07:24:31.961Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Los institutos forenses de C-LM ya han recibido los 69 cuerpos y han practicado 48 autopsias",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T07:24:31.958Z"
-        },
-        {
-          "title": "Pedro Rico, superviviente del accidente de trenes: \"Haberlo vivido como medico te da otra dimension\"",
-          "url": "https://www.larazon.es/sociedad/pedro-rico-ceo-vithas-superviviente-accidente-trenes-haberlo-vivido-como-medico-otra-dimension_202610306ae4029b6973466c29e2ae13.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-30T07:18:03.663Z"
-        },
-        {
-          "title": "La otra emergencia: urgencias saturadas y forenses al limite",
-          "url": "https://www.larazon.es/sociedad/otra-emergencia-urgencias-saturadas-forenses-limite_202610306ae440806973466c29e2e073.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-30T07:18:03.010Z"
-        },
-        {
-          "title": "Menores abandonados a la intemperie en Ceuta despues de que la Policia rompiera sus tiendas: \"Os olvidasteis de nosotros\"",
-          "url": "https://www.eldiario.es/desalambre/menores-abandonados-intemperie-ceuta-despues-policia-rompiera-tiendas-olvidasteis_1_13622509.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-30T07:15:22.857Z"
-        },
-        {
-          "title": "Lawrence y Fernando, el matrimonio de Oklahoma roto por el accidente: \"No sabe en que momento desaparecio\"",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae3a3c721efa07e0f8b45ab.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:16:06.718Z"
-        },
-        {
-          "title": "Lawrence y Fernando, el matrimonio de Oklahoma roto por el accidente: \"No sabe en que momento desaparecio\"",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae3a3c721efa07e0f8b45ab.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:15:31.969Z"
-        },
-        {
-          "title": "Hamawy, de medico en Gaza a congresista de EEUU: \"El genocidio ocurre solo porque lo pagamos nosotros\"",
-          "url": "https://www.eldiario.es/internacional/hamawy-medico-gaza-congresista-eeuu-genocidio-ocurre-pagamos_128_13598118.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-30T01:09:00.169Z"
-        },
-        {
-          "title": "Los Reyes visitan en el hospital a los heridos del accidente en Urda y reclaman \"medidas para que no vuelva a suceder\"",
-          "url": "https://www.elespanol.com/reportajes/20261029/reyes-felipe-letizia-afectados-visitan-heridos-accidente-urda-hospital-toledo/1003744439908_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-29T20:28:33.371Z"
-        },
-        {
-          "title": "Condenan al expresidente de las Corts Valencianes Julio de Espana por una agresion sexual a una paciente cuando ejercia como medico",
-          "url": "https://www.publico.es/politica/tribunales/condenan-expresidente-corts-valencianes-julio-espana-agresion-sexual-paciente-ejercia-medico.html",
-          "newspaper": "Público",
-          "date": "2026-10-29T20:27:30.391Z"
-        },
-        {
-          "title": "Al menos 13 muertos en un ataque ruso contra una estacion de tren en Dnipro mientras Ucrania lanza un ataque masivo con mas de 600 drones contra Moscu",
-          "url": "https://www.elmundo.es/internacional/2026/10/29/6ae2f330fc6c8395148b458e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:36:14.779Z"
-        },
-        {
-          "title": "Al menos 13 muertos y diez heridos en un ataque ruso contra una estacion de tren en Ucrania",
-          "url": "https://www.publico.es/internacional/europa/13-muertos-diez-heridos-ataque-ruso-estacion-tren-ucrania.html",
-          "newspaper": "Público",
-          "date": "2026-10-29T14:32:25.069Z"
-        },
-        {
-          "title": "Un ataque ruso contra una estacion de tren en Dnipro deja al menos 13 muertos y una decena de heridos",
-          "url": "https://www.larazon.es/internacional/ataque-ruso-estacion-tren-dnipro-deja-menos-13-muertos-decena-heridos_202610296ae33bd6a5f83c2fb8e80482.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-29T14:31:01.183Z"
         }
       ]
     },
     {
       "id": 104,
-      "title": "Angrois",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 19,
-      "matched_articles": [
-        {
-          "title": "La ultima trampa de Puente: alardea de que el PSOE no pidio la dimision de Ana Pastor por Angrois pero oculta que fue para tapar a Jose Blanco",
-          "url": "https://www.elespanol.com/espana/politica/20261030/ultima-trampa-puente-alardea-psoe-no-pidio-dimision-ana-pastor-angrois-oculta-tapar-jose-blanco/1003744441295_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T14:26:20.565Z"
-        },
-        {
-          "title": "La ultima trampa de Puente: alardea de que el PSOE no pidio la dimision de Ana Pastor por Angrois pero oculta que fue para tapar a Jose Blanco",
-          "url": "https://www.elespanol.com/espana/politica/20261030/ultima-trampa-puente-alardea-psoe-no-pidio-dimision-ana-pastor-angrois-oculta-tapar-jose-blanco/1003744441295_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T14:25:35.647Z"
-        },
-        {
-          "title": "Oscar Puente descarta su dimision e insiste en que el \"fallo\" en el centro de control desencadeno el accidente",
-          "url": "https://www.publico.es/politica/gobierno/oscar-puente-descarta-dimision-e-insiste-fallo-centro-control-desencadeno-accidente.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:43.308Z"
-        },
-        {
-          "title": "Feijoo dice que a Sanchez le \"interesa\" que Oscar Puente no dimita para que \"no llegue el incendio a su responsabilidad\"",
-          "url": "https://www.publico.es/politica/feijoo-dice-sanchez-le-interesa-oscar-puente-dimita-llegue-incendio-responsabilidad.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:42.491Z"
-        },
-        {
-          "title": "Ultima hora del accidente de trenes en Toledo, en directo | El Gobierno valora cortar el servicio durante las obras de remodelacion de lineas como la de Madrid-Barcelona",
-          "url": "https://www.publico.es/sociedad/ultima-hora-accidente-trenes-toledo-directo-2.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:22.122Z"
-        },
-        {
-          "title": "Feijoo dice que a Sanchez le \"interesa\" que Oscar Puente no dimita para que \"no llegue el incendio a su responsabilidad\"",
-          "url": "https://www.publico.es/politica/feijoo-dice-sanchez-le-interesa-oscar-puente-dimita-llegue-incendio-responsabilidad.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:21.430Z"
-        },
-        {
-          "title": "Oscar Puente descarta su dimision e insiste en que el \"fallo\" en el centro de control desencadeno el accidente",
-          "url": "https://www.publico.es/politica/gobierno/oscar-puente-descarta-dimision-e-insiste-fallo-centro-control-desencadeno-accidente.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:20.386Z"
-        },
-        {
-          "title": "Feijoo acusa a Puente de \"echar la culpa\" a un operador de Atocha y las redes rescatan lo que dijo sobre el maquinista de Angrois",
-          "url": "https://www.publico.es/tremending/feijoo-acusa-puente-echar-culpa-operador-atocha-redes-rescatan-dijo-sobre-maquinista-angrois.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:18.266Z"
-        },
-        {
-          "title": "Ultima hora del accidente de trenes en Toledo, en directo | El Gobierno valora cortar el servicio durante las obras de remodelacion de lineas como la de Madrid-Barcelona",
-          "url": "https://www.publico.es/sociedad/ultima-hora-accidente-trenes-toledo-directo-2_1049.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T14:24:16.180Z"
-        },
-        {
-          "title": "Espana, una 'rara avis' en la UE: solo Austria y Alemania utilizan en su red ferrea el sistema LZB que colapso antes del choque en Urda",
-          "url": "https://www.20minutos.es/internacional/espana-una-rara-avis-ue-solo-austria-alemania-utilizan-su-red-ferrea-sistema-lzb-que-colapso-antes-choque-urda_7054851_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T07:27:53.651Z"
-        },
-        {
-          "title": "Espana, una 'rara avis' en la UE: solo Austria y Alemania utilizan en su red ferrea el sistema LZB que colapso antes del choque en Urda",
-          "url": "https://www.20minutos.es/internacional/espana-una-rara-avis-ue-solo-austria-alemania-utilizan-su-red-ferrea-sistema-lzb-que-colapso-antes-choque-urda_7054851_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T07:27:15.677Z"
-        },
-        {
-          "title": "Mas alla del error humano: la tragedia de Urda expone deficiencias en la seguridad ferroviaria ya denunciadas antes",
-          "url": "https://www.publico.es/ciencias/error-humano-tragedia-urda-expone-deficiencias-seguridad-ferroviaria-sobre-habia-advertido.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T07:20:04.011Z"
-        },
-        {
-          "title": "El sistema de senalizacion en el tramo Madrid-Sevilla, explicado en graficos",
-          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:16:06.716Z"
-        },
-        {
-          "title": "El sistema de senalizacion en el tramo Madrid-Sevilla, explicado en graficos",
-          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T20:32:05.254Z"
-        },
-        {
-          "title": "El sistema de senalizacion en el tramo Madrid-Sevilla, explicado en graficos",
-          "url": "https://www.elmundo.es/espana/2026/10/28/6ae236b621efa012638b4600.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T20:31:27.593Z"
-        },
-        {
-          "title": "Feijoo pide saber \"la verdad\" sobre el accidente de Toledo tras vetar cuatro veces la investigacion por la tragedia del Alvia como presidente de Galicia",
-          "url": "https://www.publico.es/politica/feijoo-pide-saber-verdad-sobre-accidente-toledo-vetar-cuatro-veces-investigacion-tragedia-alvia-presidente-galicia.html",
-          "newspaper": "Público",
-          "date": "2026-10-29T20:27:28.364Z"
-        },
-        {
-          "title": "Reconstruccion minuto a minuto del accidente de Toledo: esta es la secuencia que relatan los audios del Centro de Mando",
-          "url": "https://www.20minutos.es/nacional/reconstruccion-minuto-minuto-accidente-tren-toledo-secuencia-que-le-costo-vida-decenas-personas_7054712_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-29T14:38:22.225Z"
-        },
-        {
-          "title": "La confianza en el tren esta rota",
-          "url": "https://www.elmundo.es/opinion/columnistas/2026/10/29/6ae20cf2e85ece9f478b4579.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.766Z"
-        },
-        {
-          "title": "Los tres dias de luto y las dudas sobre la seguridad de la red ferroviaria en Espana: asi recoge la prensa internacional el accidente de tren en Toledo",
-          "url": "https://www.larazon.es/internacional/tres-dias-luto-dudas-seguridad-red-ferroviaria-espana-asi-recoge-prensa-internacional-accidente-tren-toledo_202610296ae30544b55c427e2eb74c37.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-29T14:31:07.178Z"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Antonio Vázquez",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 13,
-      "matched_articles": [
-        {
-          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo, la imagen de la tragedia con decenas de vidas rotas: Antonio, Adriana, Ana, Raul, Julieta...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T14:28:32.992Z"
-        },
-        {
-          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo, la imagen de la tragedia con decenas de vidas rotas: Antonio, Adriana, Ana, Raul, Julieta...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T14:28:32.991Z"
-        },
-        {
-          "title": "El dolor de las familias: asi es la angustiosa espera de noticias",
-          "url": "https://www.larazon.es/sociedad/dolor-familias-asi-angustiosa-espera-noticias_202610306ae49e70004b78127aba2bc1.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-30T14:22:44.004Z"
-        },
-        {
-          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo: la imagen de la tragedia de Alexandra, Antonio, Adriana...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:16:06.717Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | El informe situa entre 160 y 200 kilometros por hora la velocidad del AVE que dejo 69 muertos en Urda",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:15:31.969Z"
-        },
-        {
-          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo: la imagen de la tragedia de Alexandra, Antonio, Adriana...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:15:31.968Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | El informe situa entre 160 y 200 kilometros por hora la velocidad del AVE que dejo 69 muertos en Urda",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T01:15:31.967Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | El accidente en Urda deja 69 muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T20:31:27.595Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | El accidente en Urda deja 69 muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T20:31:27.593Z"
-        },
-        {
-          "title": "La familia de Antonio Vazquez emite un comunicado: \"Continuamos sin tener noticias de su paradero o estado\"",
-          "url": "https://www.elmundo.es/cultura/toros/2026/10/28/6ae20069fc6c833e718b45c8.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.766Z"
-        },
-        {
-          "title": "Ultima hora del accidente de tren en Toledo, hoy en directo | Aumenta a 69 el numero de muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.764Z"
-        },
-        {
-          "title": "Ultima hora del accidente de tren en Toledo, hoy en directo | Aumenta a 69 el numero de muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.763Z"
-        },
-        {
-          "title": "Crece la incertidumbre entre las familias de los desaparecidos en Urda: \"No nos dan informacion, es una verguenza\"",
-          "url": "https://www.elespanol.com/espana/andalucia/20261029/crece-incertidumbre-familias-desaparecidos-urda-no-dan-informacion-verguenza/1003744439251_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-29T14:33:41.307Z"
-        }
-      ]
-    },
-    {
-      "id": 103,
       "title": "Ana Pastor",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 10,
+      "news_count": 15,
       "matched_articles": [
+        {
+          "title": "Mariano Rajoy, Soraya Saenz de Santamaria, Antonio Garamendi, Javier Arenas, Ana Pastor o Elias Bendodo despiden a la ex ministra Fatima Banez",
+          "url": "https://www.elmundo.es/album/espana/2026/10/30/6ae4b226fdddff18128b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:45.357Z"
+        },
+        {
+          "title": "Rajoy, Saenz de Santamaria, Garamendi, Arenas o Ana Pastor despiden a la ex ministra",
+          "url": "https://www.elmundo.es/album/espana/2026/10/30/6ae4b226fdddff18128b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.436Z"
+        },
+        {
+          "title": "Desde Garamendi a Rajoy: San Juan del Puerto despide a la exministra Fatima Banez, su vecina mas ilustre",
+          "url": "https://www.elespanol.com/espana/andalucia/20261030/garamendi-rajoy-san-juan-puerto-despide-exministra-fatima-banez-vecina-ilustre/1003744441774_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:07.476Z"
+        },
+        {
+          "title": "Desde Garamendi a Rajoy: San Juan del Puerto despide a la exministra Fatima Banez, su vecina mas ilustre",
+          "url": "https://www.elespanol.com/espana/andalucia/20261030/garamendi-rajoy-san-juan-puerto-despide-exministra-fatima-banez-vecina-ilustre/1003744441774_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:03:26.144Z"
+        },
+        {
+          "title": "\"Se que mi mujer no esta desaparecida, solo falta que se le ponga el certificado de fallecimiento\"",
+          "url": "https://www.larazon.es/sociedad/que-mujer-esta-desaparecida-solo-falta-que-ponga-certificado-fallecimiento_202610306ae4de5a6973466c29e395c6.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T20:00:13.760Z"
+        },
         {
           "title": "Familia, amigos y companeros del PP despiden en Huelva a la exministra Fatima Banez, fallecida en el accidente de Urda",
           "url": "https://www.20minutos.es/nacional/familia-amigos-companeros-pp-despiden-huelva-exministra-fatima-banez-fallecida-accidente-urda_7055496_0.html",
@@ -1249,13 +1595,89 @@
       ]
     },
     {
-      "id": 5,
-      "title": "Binance",
+      "id": 4,
+      "title": "Antonio Vázquez",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 5,
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
+      "news_count": 9,
       "matched_articles": [
+        {
+          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo, la imagen de la tragedia con decenas de vidas rotas: Antonio, Adriana, Ana, Raul, Julieta...",
+          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.992Z"
+        },
+        {
+          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo, la imagen de la tragedia con decenas de vidas rotas: Antonio, Adriana, Ana, Raul, Julieta...",
+          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:28:32.991Z"
+        },
+        {
+          "title": "El dolor de las familias: asi es la angustiosa espera de noticias",
+          "url": "https://www.larazon.es/sociedad/dolor-familias-asi-angustiosa-espera-noticias_202610306ae49e70004b78127aba2bc1.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T14:22:44.004Z"
+        },
+        {
+          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo: la imagen de la tragedia de Alexandra, Antonio, Adriana...",
+          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:16:06.717Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El informe situa entre 160 y 200 kilometros por hora la velocidad del AVE que dejo 69 muertos en Urda",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:15:31.969Z"
+        },
+        {
+          "title": "El vagon 8 del AVE incrustado en un vagon del Iryo: la imagen de la tragedia de Alexandra, Antonio, Adriana...",
+          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:15:31.968Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El informe situa entre 160 y 200 kilometros por hora la velocidad del AVE que dejo 69 muertos en Urda",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T01:15:31.967Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El accidente en Urda deja 69 muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:27.595Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora en directo | El accidente en Urda deja 69 muertos y Page confia en que \"no haya mas fallecidos debajo\" del vagon que queda por mover",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-29T20:31:27.593Z"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Binance",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 7,
+      "matched_articles": [
+        {
+          "title": "Binance sufre el mayor robo cripto de la historia: 6.300 millones con la sombra de Corea del Norte",
+          "url": "https://www.lavanguardia.com/economia/20261030/11671817/binance-cifra-6-300-millones-dolares-robo-multimillonario-plataforma.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-10-30T20:07:33.655Z"
+        },
+        {
+          "title": "Acusan a Corea del Norte de estar detras del hackeo de criptomonedas a Binance por 6.300 millones de dolares",
+          "url": "https://www.elespanol.com/omicrono/20261030/acusan-corea-norte-detras-hackeo-criptomonedas-binance-millones-dolares/1003744441914_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:03:33.477Z"
+        },
         {
           "title": "Binance sufre un ciberrobo historico: un grupo de 'hackers' sustrae mas de 6.000 millones de dolares en criptomonedas",
           "url": "https://www.elespanol.com/omicrono/tecnologia/20261030/golpe-criptomonedas-binance-sufre-mayor-hackeo-historia-robo-millones-dolares/1003744440636_0.html",
@@ -1289,53 +1711,25 @@
       ]
     },
     {
-      "id": 14,
-      "title": "Frío",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 5,
-      "matched_articles": [
-        {
-          "title": "Una DANA podria cambiar el tiempo en Espana desde el martes: estas son las zonas que vigilan los meteorologos",
-          "url": "https://www.20minutos.es/nacional/dana-cambiar-tiempo-espana-desde-martes-zonas-vigilan-meteorologos_7055528_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T14:30:29.095Z"
-        },
-        {
-          "title": "Sullivan contra Sullivan: el juego sucio democrata que enerva a Trump y puede costar la impugnacion de los resultados en Alaska",
-          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae37702fdddfffb428b4574.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T14:28:51.367Z"
-        },
-        {
-          "title": "Menores abandonados a la intemperie en Ceuta despues de que la Policia rompiera sus tiendas: \"Os olvidasteis de nosotros\"",
-          "url": "https://www.eldiario.es/desalambre/menores-abandonados-intemperie-ceuta-despues-policia-rompiera-tiendas-olvidasteis_1_13622509.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-30T07:15:22.857Z"
-        },
-        {
-          "title": "Repsol alerta de una posible escasez de diesel en Europa en invierno, pero asegura que Espana no tienen \"ningun problema\"",
-          "url": "https://www.larazon.es/economia/repsol-alerta-posible-escasez-diesel-europa-invierno-pero-asegura-que-espana-tienen-ningun-problema_202610296ae3510a004b78127ab8aac3.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-29T20:25:39.108Z"
-        },
-        {
-          "title": "Los nuevos casos de ictus aumentaron un 73% desde 1990 en todo el mundo pese a descender su incidencia y mortalidad",
-          "url": "https://www.20minutos.es/internacional/los-nuevos-casos-ictus-aumentaron-un-73-desde-1990-todo-mundo-pese-descender-su-incidencia-mortalidad_7055045_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-29T14:38:55.928Z"
-        }
-      ]
-    },
-    {
-      "id": 15,
+      "id": 2,
       "title": "Polonia",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 5,
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
+      "news_count": 6,
       "matched_articles": [
+        {
+          "title": "El G20 de Exteriores arranca sin la tradicional foto de familia tras el rechazo de los europeos a aparecer con el ruso Lavrov",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20261030/g20-exteriores-arranca-sin-tradicional-foto-familia-rechazo-europeos-aparecer-ruso-lavrov/1003744441852_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:47.728Z"
+        },
+        {
+          "title": "El presidente de Polonia aborta su visita oficial a Senegal en pleno pulso con Donald Tusk por controlar el Constitucional",
+          "url": "https://www.elespanol.com/mundo/europa/20261030/presidente-polonia-aborta-visita-oficial-senegal-pleno-pulso-donald-tusk-controlar-constitucional/1003744442009_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:45.324Z"
+        },
         {
           "title": "Estados Unidos, entre las amenazas antisemitas y la batalla por la palabra genocidio",
           "url": "https://www.elmundo.es/internacional/2026/10/30/6ae372bce9cf4a51408b45af.html",
@@ -1359,61 +1753,63 @@
           "url": "https://www.publico.es/mira/espana-pieza-falta-boicot-eurovision-suma-apoyos-pero-mantiene-estable.html",
           "newspaper": "Público",
           "date": "2026-10-30T07:20:09.840Z"
-        },
-        {
-          "title": "Bruselas abre una nueva ronda de prestamos para compras conjuntas de armamento y anima a incluir a Ucrania",
-          "url": "https://www.20minutos.es/internacional/bruselas-abre-una-nueva-ronda-prestamos-para-compras-conjuntas-armamento-anima-incluir-ucrania_7055013_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-29T14:38:56.570Z"
         }
       ]
     },
     {
-      "id": 13,
-      "title": "Raúl Triguero Periodista",
+      "id": 3,
+      "title": "Marta Shahbazi Alonso",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
+      "volume": "20 mil+ búsquedas",
       "timeframe": "hace 6 h (24h)",
-      "news_count": 2,
+      "news_count": 4,
       "matched_articles": [
         {
-          "title": "Los desaparecidos del accidente de trenes en Urda: un presentador de television, una empleada de Metrovacesa, un director de colegio, el maquinista...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae31579e9cf4a33758b45a1.html",
+          "title": "Las cientificas Marta Shahbazi Alonso y Tamara Gonzalez Costa, entre las desaparecidas en el accidente de trenes de Urda",
+          "url": "https://www.elmundo.es/ciencia/2026/10/30/6ae4cea5e9cf4a2d718b4574.html",
           "newspaper": "El Mundo",
-          "date": "2026-10-29T14:36:30.645Z"
+          "date": "2026-10-30T20:06:09.437Z"
         },
         {
-          "title": "Los desaparecidos del accidente de trenes en Urda: un presentador de television, una empleada de Metrovacesa, un director de colegio, el maquinista...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae31579e9cf4a33758b45a1.html",
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
           "newspaper": "El Mundo",
-          "date": "2026-10-29T14:35:57.764Z"
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Explosión Granada el Fargue",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 1,
-      "matched_articles": [
+          "date": "2026-10-30T20:06:09.436Z"
+        },
         {
-          "title": "Al menos tres heridos en la explosion ocurrida en la fabrica de municiones de Granada",
-          "url": "https://www.elespanol.com/espana/andalucia/20261030/fuerte-explosion-fabrica-polvora-explosivos-granada-desata-alarma/1003744440730_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T14:26:25.719Z"
+          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
+          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T20:06:09.435Z"
+        },
+        {
+          "title": "Dos cientificas leonesas que viajaban en el mismo vagon, desaparecidas en el accidente ferroviario de Urda",
+          "url": "https://ileon.eldiario.es/actualidad/buscan-desaparecida-accidente-ferroviario-urda-joven-cientifica-leonesa-marta-shahbazi_1_13628132.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-30T19:57:42.991Z"
         }
       ]
     },
     {
-      "id": 102,
+      "id": 103,
       "title": "Repsol",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 1,
+      "news_count": 3,
       "matched_articles": [
+        {
+          "title": "El Puerto de Cartagena participa en Doha en el principal foro de Naciones Unidas dedicado a la inversion",
+          "url": "https://www.elespanol.com/espana/murcia/20261030/puerto-cartagena-participa-doha-principal-foro-naciones-unidas-dedicado-inversion/1003744441867_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:04:06.193Z"
+        },
+        {
+          "title": "El Ibex 35 firma su segundo mes consecutivo en negativo y despide octubre por debajo de los 18.700 tras caer un 4%",
+          "url": "https://www.elespanol.com/invertia/mercados/20261030/ibex-firma-segundo-mes-consecutivo-negativo-despide-octubre-debajo-caer/1003744441611_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-30T20:03:33.841Z"
+        },
         {
           "title": "Repsol alerta de una posible escasez de diesel en Europa en invierno, pero asegura que Espana no tienen \"ningun problema\"",
           "url": "https://www.larazon.es/economia/repsol-alerta-posible-escasez-diesel-europa-invierno-pero-asegura-que-espana-tienen-ningun-problema_202610296ae3510a004b78127ab8aac3.html",
@@ -1423,89 +1819,155 @@
       ]
     },
     {
-      "id": 1,
-      "title": "Le Havre - Psg",
+      "id": 6,
+      "title": "Raúl Triguero Periodista",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Muere Raul Triguero, reportero de 'De Viernes' y ex de 'Salvame', en el accidente de tren en Urda",
+          "url": "https://www.eldiario.es/vertele/noticias/muere-raul-triguero-reportero-viernes-ex-salvame-accidente-tren-urda_1_13627029.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-30T19:57:43.874Z"
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Vila-real - Espanyol",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 4,
-      "title": "Marta Shahbazi Alonso",
+      "id": 29,
+      "title": "Cuponazo",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Comprobar cuponazo ONCE: resultados de hoy, viernes 30 de octubre de 2026",
+          "url": "https://www.20minutos.es/nacional/comprobar-cuponazo-once-resultados-hoy-viernes-30-octubre-2026_7055692_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-30T20:09:06.737Z"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Alcalde de Tudela de Duero",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Muere el ex alcalde de Tudela de Duero (Valladolid) Oscar Soto",
+          "url": "https://www.elmundo.es/espana/2026/10/30/6ae48b52e85ece112b8b4582.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-30T14:29:09.026Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Villarreal - Rcd Espanyol",
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 6,
-      "title": "Barça - Valencia",
+      "id": 5,
+      "title": "Joan Manuel Serrat",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 7,
-      "title": "Toni Acosta",
+      "title": "Ana Duato",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 8,
-      "title": "Quentin Tarantino",
+      "title": "Toni Acosta",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 9,
+      "title": "Posiciones de Le Havre Athletic Club Contra Psg",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 10,
-      "title": "Actor Cancer de Pancreas",
+      "title": "Quentin Tarantino",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 12,
-      "title": "Pedro Porro",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
+      "volume": "10 mil+ búsquedas",
       "timeframe": "hace 9 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 26,
-      "title": "Ana Simon",
+      "id": 13,
+      "title": "Barça - Valencia",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 27,
-      "title": "Real Madrid Castilla Club de Fútbol",
+      "id": 14,
+      "title": "El Perro Andaluz By Manu Sánchez",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 15,
+      "title": "Pedro Porro",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 13 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 20,
+      "title": "Posiciones de Villarreal Club de Fútbol Contra Rcd Espanyol de Barcelona",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 24,
+      "title": "Polonia Golpe de Estado",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 26,
+      "title": "Satoransky",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
@@ -1513,38 +1975,92 @@
       "matched_articles": []
     },
     {
-      "id": 31,
-      "title": "Donald Tusk",
+      "id": 27,
+      "title": "Silvia Bronchalo",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 32,
-      "title": "Marta N. Shahbazi",
+      "id": 28,
+      "title": "Ana Belén",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 30,
+      "title": "Cayetano Rivera Ordóñez",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 31,
+      "title": "Villanueva del Pardillo",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 33,
-      "title": "Valentino Rossi",
+      "title": "Daniel Sancho",
       "source": "google",
       "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 34,
-      "title": "Endrick",
+      "title": "Temblor en Colombia Hoy",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 121,
+      "title": "Pau Navarro",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 122,
+      "title": "Libres 2",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 123,
+      "title": "Marcelino",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 124,
+      "title": "Leclerc",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
       "news_count": 0,
       "matched_articles": []
     }

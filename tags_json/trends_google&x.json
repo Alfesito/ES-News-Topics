@@ -1,709 +1,89 @@
 {
-  "timestamp": "2026-10-31T21:57:05.635093",
+  "timestamp": "2026-11-01T01:31:50.142596",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 78,
-    "unified_count": 3,
-    "with_news": 58,
-    "without_news": 20
+    "unique_total": 86,
+    "unified_count": 2,
+    "with_news": 64,
+    "without_news": 22
   },
   "trends": [
     {
       "id": 200,
       "title": "Ue - Union Europea",
       "source": "news_tags",
-      "volume": "251 artículos",
+      "volume": "222 artículos",
       "timeframe": "24h noticias",
-      "news_count": 251
-    },
-    {
-      "id": 105,
-      "title": "Urda",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 158,
-      "matched_articles": [
-        {
-          "title": "El arzobispo de Toledo pide que tragedias como la de Urda \"no vuelvan a repetirse\"",
-          "url": "https://www.20minutos.es/nacional/arzobispo-toledo-pide-que-tragedias-como-urda-no-vuelvan-repetirse_7055794_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:41.859Z"
-        },
-        {
-          "title": "El PP exige a Sanchez \"consecuencias\" por la tragedia de Urda y promete trabajar para \"nunca nadie sienta miedo a subir a un tren\"",
-          "url": "https://www.20minutos.es/nacional/pp-exige-sanchez-consecuencias-tragedia-urda-promete-trabajar-nunca-nadie-sienta-miedo-subir-tren_7055792_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:41.241Z"
-        },
-        {
-          "title": "La Guardia Civil baraja una serie de fallos de seguridad antes del error humano en el accidente de tren de Urda",
-          "url": "https://www.20minutos.es/nacional/guardia-civil-baraja-serie-fallos-seguridad-sobre-error-humano-accidente-tren-urda_7055801_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:38.462Z"
-        },
-        {
-          "title": "Socios de Sanchez y UGT exigen que Puente responda por la tragedia: Frente Amplio, PNV y BNG piden \"responsabilidades\"",
-          "url": "https://www.20minutos.es/nacional/socios-sanchez-ugt-exigen-que-puente-responda-por-tragedia-frente-amplio-pnv-bng-piden-responsabilidades_7055807_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:36.934Z"
-        },
-        {
-          "title": "Arsa, una de las perras que busco victimas en Adamuz, trabaja ahora en Urda",
-          "url": "https://www.20minutos.es/nacional/arsa-una-las-perras-que-busco-victimas-adamuz-trabaja-ahora-urda_7055814_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:36.142Z"
-        },
-        {
-          "title": "Vox acusa al Gobierno de hacer \"chistecitos\" en television mientras se produce la \"tercermundizacion\" de la red ferroviaria",
-          "url": "https://www.20minutos.es/nacional/vox-acusa-gobierno-hacer-chistecitos-television-mientras-se-produce-tercermundizacion-red-ferroviaria_7055827_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:33.727Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, en directo | Ultima hora de los 69 fallecidos, la retirada de vagones en Urda y la investigacion de las cajas negras",
-          "url": "https://www.lavanguardia.com/vida/20261031/11672470/choque-de-trenes-accidente-toledo-iryo-toledo-ave-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T18:00:31.124Z"
-        },
-        {
-          "title": "Sentido funeral en Urda por los fallecidos en el siniestro ferroviario",
-          "url": "https://www.lavanguardia.com/local/madrid/20261031/11672865/arzobispo-toledo-pide-vuelvan-repetirse-tragedias-ferroviarias-urda.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T18:00:30.684Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.506Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.506Z"
-        },
-        {
-          "title": "Arsa, una de las perras que busco victimas en Adamuz, trabaja ahora en Urda",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d04321efa09d4f8b458f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.506Z"
-        },
-        {
-          "title": "Urda (Toledo) acoge una emotiva misa por las victimas del accidente ferroviario",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5fa2bfc6c83f5568b459d-video.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.505Z"
-        },
-        {
-          "title": "Los vecinos de Urda se vuelcan con las 69 victimas del accidente ferroviario en una misa funeral sin representacion del Gobierno",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d6c6e4d4d8a3438b459e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.505Z"
-        },
-        {
-          "title": "\"Le agarramos la mano y ya no la soltamos\": el emotivo rescate de la Guardia Civil a Almudena en el accidente de Urda",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae60007e4d4d89d158b45b2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.504Z"
-        },
-        {
-          "title": "Alto del Arenal, el 'cerebro' de Metro que monitoriza 300 trenes y hasta medio millon de viajeros en hora punta: \"Cerramos los ojos y vemos la red entera\"",
-          "url": "https://www.elmundo.es/madrid/2026/10/31/6ae4e4aa21efa01e098b4574.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.015Z"
-        },
-        {
-          "title": "\"Le agarramos la mano y ya no la soltamos\": el emotivo rescate de la Guardia Civil a Almudena en el accidente de Urda",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae60007e4d4d89d158b45b2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.015Z"
-        },
-        {
-          "title": "El Frente Amplio insiste en \"las responsabilidades politicas\" de Oscar Puente por el accidente de Urda pero tambien senala al PP",
-          "url": "https://www.elmundo.es/cataluna/2026/10/31/6ae5e26321efa081798b459f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.015Z"
-        },
-        {
-          "title": "Los vecinos de Urda se vuelcan con las 69 victimas del accidente en una misa funeral sin representacion del Gobierno",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d6c6e4d4d8a3438b459e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.014Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.014Z"
-        },
-        {
-          "title": "De trenes incomunicados a ordenadores que se \"cuelgan\" en plena crisis: los tecnicos de Adif denuncian \"chapuzas\" diarias en la infraestructura ferroviaria",
-          "url": "https://www.elmundo.es/economia/empresas/2026/10/31/6ae49719fdddff49018b4592.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.014Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.013Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | La Guardia Civil identifica al propietario de un dron que grababa en la zona del accidente",
-          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.012Z"
-        },
-        {
-          "title": "La investigacion de Urda enfria la tesis de Puente y pone el foco en los fallos de cinco barreras de seguridad",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/31/investigacion-urda-enfria-tesis-puente-pone-foco-fallos-cinco-barreras-seguridad/00031793451731348277523.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-10-31T17:58:43.536Z"
-        },
-        {
-          "title": "La investigacion revela que un tercer tren siguio circulando por la via contraria despues del siniestro hasta parar cerca del accidente de Urda",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/30/investigacion-revela-tercer-tren-siguio-circulando-via-contraria-despues-siniestro-parar-cerca-accidente-urda/00031793386619446444340.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-10-31T17:58:42.748Z"
-        },
-        {
-          "title": "Una arquitecta de 42 anos de Cerdedo Cotobade, entre las 69 victimas mortales del tren de Urda: <<Chamamos e chamamos e a nosa filla non collia>>",
-          "url": "https://www.lavozdegalicia.es/noticia/pontevedra/2026/10/31/arquitecta-42-anos-cerdedo-cotobade-69-victimas-mortales-tren-urda/00031793459050644928573.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-10-31T17:58:41.820Z"
-        },
-        {
-          "title": "David, Juan Jose, Fatima, Cesar ... Andalucia llora ya a catorce victimas identificadas del accidente de Urda",
-          "url": "https://www.elespanol.com/espana/andalucia/20261031/david-juan-jose-fatima-cesar-andalucia-llora-catorce-victimas-identificadas-accidente-urda/1003744442407_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:57:09.825Z"
-        },
-        {
-          "title": "Auge y caida del AVE: como la fuga de tecnicos, el enchufismo y las tragedias hundieron el tren que Espana salia a aplaudir",
-          "url": "https://www.elespanol.com/reportajes/20261031/auge-caida-ave-fuga-tecnicos-enchufismo-tragedias-hundieron-tren-espana-salia-aplaudir/1003744440567_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:56:39.754Z"
-        },
-        {
-          "title": "No voy a hablar de Puente",
-          "url": "https://www.elespanol.com/opinion/columnas/20261031/no-voy-hablar-puente/1003744440970_12.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:56:33.338Z"
-        },
-        {
-          "title": "Adios a Marisa Manchado: el tragico final de un talento musical desbordante",
-          "url": "https://www.elespanol.com/el-cultural/escenarios/musica/20261031/adios-marisa-manchado-tragico-final-talento-musical-desbordante/1003744442237_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:56:27.163Z"
-        },
-        {
-          "title": "Urda eleva \"el grito de una tierra herida\" en un multitudinario funeral por las victimas del accidente de tren",
-          "url": "https://www.elespanol.com/eldigitalcastillalamancha/region/toledo/20261031/urda-eleva-grito-tierra-herida-multitudinario-funeral-victimas-accidente-tren/1003744442245_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:56:25.364Z"
-        },
-        {
-          "title": "El PP exige a Sanchez que \"no se le ocurra\" recomendar musica y las redes responden: \"Mas que estar de luto, diria que estais de campana\"",
-          "url": "https://www.publico.es/tremending/pp-exige-sanchez-le-ocurra-recomendar-musica-redes-responden-estar-luto-diria-estais-campana.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:57.485Z"
-        },
-        {
-          "title": "La reflexion viral del marido de una de las victimas del accidente: \"La verdad incomoda que nadie quiere escuchar\"",
-          "url": "https://www.publico.es/tremending/reflexion-viral-marido-victimas-accidente-ferroviario-toledo-verdad-incomoda-nadie-quiere-escuchar.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:47.712Z"
-        },
-        {
-          "title": "Ultima hora del accidente de trenes en Toledo, en directo | Frente Amplio pide la dimision de Puente como un \"primer paso imprescindible\"",
-          "url": "https://www.publico.es/sociedad/directo-sigue-ultima-hora-accidente-trenes-toledo.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:45.747Z"
-        },
-        {
-          "title": "Salvador, el Guardia Civil que sostuvo la mano de Almudena, unica superviviente del vagon 8",
-          "url": "https://www.larazon.es/sociedad/guardia-civil-que-sostuvo-mano-almudena-unica-superviviente-vagon-8_202610316ae5ee0ba5f83c2fb8eabdf6.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T17:53:01.219Z"
-        },
-        {
-          "title": "El Frente Amplio sigue contra Oscar Puente: Emilio Delgado pide su dimision como un \"primer paso imprescindible\"",
-          "url": "https://www.larazon.es/cataluna/frente-amplio-sigue-oscar-puente-emilio-delgado-pide-dimision-como-primer-paso-imprescindible_202610316ae60c0a02501232156f5599.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T17:52:59.947Z"
-        },
-        {
-          "title": "Los maquinistas exigen medidas que impidan reanudar la marcha en el modo que provoco el accidente de Urda",
-          "url": "https://www.larazon.es/economia/maquinistas-exigen-medidas-que-impidan-reanudar-marcha-modo-que-provoco-accidente-urda-caen-sistemas-seguridad-lzb-ertms_202610316ae5a789004b78127abb1047.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T17:52:58.137Z"
-        },
-        {
-          "title": "Audiencias TV Las audiencias de la semana en TV: de los primeros signos de mejora de 'Rueda la letra' a la paradoja de 'Horizonte' y RTVE",
-          "url": "https://www.eldiario.es/vertele/audiencias-tv/audiencias-semana-tv-primeros-signos-mejora-rueda-la-letra-paradoja-horizonte-rtve_1_13619093.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:31.554Z"
-        },
-        {
-          "title": "Un guardia civil cuenta el rescate de Almudena, la sevillana que viajaba en el Iryo de Urda: \"Fue la unica que salio con vida\"",
-          "url": "https://www.eldiario.es/andalucia/guardia-civil-cuenta-rescate-almudena-sevillana-viajaba-iryo-urda-unica-salio-vida_1_13629494.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:09.444Z"
-        },
-        {
-          "title": "Accidente de tren en Urda, ultima hora en directo: El numero de hospitalizados por el accidente de Urda desciende a 34, 15 permanecen en la UCI",
-          "url": "https://www.eldiario.es/castilla-la-mancha/accidente-tren-urda-ultima-hora-directo_133_13628783.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:08.405Z"
-        },
-        {
-          "title": "La plantilla advierte del aumento de presion, carga de trabajo y personal sin experiencia en el control ferroviario",
-          "url": "https://www.eldiario.es/economia/plantilla-advierte-aumento-presion-carga-trabajo-personal-experiencia-control-ferroviario_1_13625397.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:05.189Z"
-        },
-        {
-          "title": "Una excandidata, un exteniente de Alcalde o un director con Ximo Puig: Puente llena la direccion de Adif de cargos proximos al PSOE",
-          "url": "https://www.20minutos.es/nacional/una-excandidata-un-exteniente-alcalde-un-director-con-ximo-puig-puente-llena-direccion-adif-cargos-proximos-psoe_7055619_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:13.624Z"
-        },
-        {
-          "title": "La dimision, la responsabilidad del operario, los fallos del sistema... los vaivenes en el discurso de Puente tras la tragedia de Urda",
-          "url": "https://www.20minutos.es/nacional/dimision-responsabilidad-operario-los-fallos-sistema-los-vaivenes-discurso-puente-tras-tragedia-urda_7055720_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:12.917Z"
-        },
-        {
-          "title": "La familia de Jose Angel, desaparecido en Urda, le busca con desesperacion despues de recibir un mensaje de su reloj inteligente",
-          "url": "https://www.20minutos.es/nacional/familia-jose-angel-desaparecido-urda-le-busca-con-desesperacion-despues-recibir-un-mensaje-su-reloj-inteligente_7055461_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:12.396Z"
-        },
-        {
-          "title": "Esta imagen de los equipos de emergencia desplegados en el lugar del accidente de Urda es IA",
-          "url": "https://www.20minutos.es/nacional/esta-imagen-los-equipos-emergencia-desplegados-lugar-accidente-urda-es-ia_7055560_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:10.672Z"
-        },
-        {
-          "title": "El sindicato de maquinistas Semaf exige impedir reanudar la circulacion con marcha normal cuando caiga el sistema LZB",
-          "url": "https://www.20minutos.es/nacional/sindicato-maquinistas-semaf-exige-impedir-reanudar-circulacion-con-marcha-normal-cuando-caiga-sistema-lzb_7055740_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:09.297Z"
-        },
-        {
-          "title": "El servicio Madrid-Ciudad Real-Puertollano se presta por carretera y se recupera la circulacion Madrid-Levante",
-          "url": "https://www.20minutos.es/nacional/servicio-madrid-ciudad-real-puertollano-se-presta-por-carretera-se-recupera-circulacion-madrid-levante_7055742_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:08.938Z"
-        },
-        {
-          "title": "Falta de personal, fallos del sistema y presion para que salgan los trenes: asi trabajan los operarios en el centro de control de Adif",
-          "url": "https://www.20minutos.es/nacional/falta-personal-fallos-sistema-presion-para-que-salgan-los-trenes-asi-trabajan-los-operarios-centro-control-adif_7055422_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:08.233Z"
-        },
-        {
-          "title": "Pedro Sanchez participa en la reunion de coordinacion y seguimiento de la emergencia por el accidente de Urda",
-          "url": "https://www.20minutos.es/nacional/pedro-sanchez-participa-reunion-coordinacion-seguimiento-emergencia-por-accidente-urda_7055781_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:06.568Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, en directo | Los trabajos en la zona de la tragedia avanzan: retiran vagones, no hay mas restos biologicos y la cifra de fallecidos se mantiene en 69",
-          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:04.658Z"
-        },
-        {
-          "title": "El PP exige a Sanchez \"consecuencias\" por la tragedia de Urda: \"No se puede despachar con una cabeza de turco\"",
-          "url": "https://www.lavanguardia.com/politica/20261031/11672828/pp-exige-sanchez-consecuencias-tragedia-urda-despachar-cabeza-turco.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T12:53:34.888Z"
-        }
-      ]
+      "news_count": 222
     },
     {
       "id": 201,
       "title": "Dos",
       "source": "news_tags",
-      "volume": "141 artículos",
+      "volume": "119 artículos",
       "timeframe": "24h noticias",
-      "news_count": 141
-    },
-    {
-      "id": 203,
-      "title": "Accidente de Tren Adamuz",
-      "source": "news_tags",
-      "volume": "93 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 113
+      "news_count": 119
     },
     {
       "id": 202,
-      "title": "Toledo",
+      "title": "Accidente de Tren",
       "source": "news_tags",
-      "volume": "105 artículos",
+      "volume": "88 artículos",
       "timeframe": "24h noticias",
-      "news_count": 105
+      "news_count": 107
     },
     {
-      "id": 26,
-      "title": "Barcelona",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 75,
-      "matched_articles": [
-        {
-          "title": "La Loteria Nacional deja una lluvia de premios en cinco provincias",
-          "url": "https://www.20minutos.es/nacional/loteria-nacional-deja-una-lluvia-premios-cinco-provincias_7055797_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:40.604Z"
-        },
-        {
-          "title": "Decretan prision provisional y sin fianza para el supuesto fundador y cabecilla de Blocus Espana",
-          "url": "https://www.20minutos.es/nacional/decretan-prision-provisional-sin-fianza-para-supuesto-fundador-cabecilla-blocus-espana_7055804_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:38.927Z"
-        },
-        {
-          "title": "Ganar votos, pero no conseguir diputados: por que el mismo resultado electoral puede dar un escano en una provincia y en otra no",
-          "url": "https://www.20minutos.es/nacional/ganar-votos-pero-no-conseguir-diputados-mismo-resultado-electoral-puede-dar-escano-provincia-otra-no_7055666_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:37.412Z"
-        },
-        {
-          "title": "Socios de Sanchez y UGT exigen que Puente responda por la tragedia: Frente Amplio, PNV y BNG piden \"responsabilidades\"",
-          "url": "https://www.20minutos.es/nacional/socios-sanchez-ugt-exigen-que-puente-responda-por-tragedia-frente-amplio-pnv-bng-piden-responsabilidades_7055807_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:36.934Z"
-        },
-        {
-          "title": "Antonio Magraner, presidente de los Jovenes Empresarios, ante la amenaza de Blocus: \"La empresa paga la dejacion del Gobierno\"",
-          "url": "https://www.20minutos.es/nacional/antonio-magraner-presidente-jovenes-empresarios-final-empresa-paga-dejacion-funciones-gobierno_7055825_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:34.909Z"
-        },
-        {
-          "title": "Blocus, hoy en directo | Ultima hora de las protestas y alerta en Madrid, Barcelona y capitales de Espana el sabado 31 de octubre",
-          "url": "https://www.20minutos.es/nacional/blocus-hoy-directo-ultima-hora-las-protestas-alerta-madrid-barcelona-capitales-espana-sabado-31-octubre_7055832_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:31.297Z"
-        },
-        {
-          "title": "Los Mossos detienen a una cuarta persona por organizar los saqueos de Blocus en Barcelona",
-          "url": "https://www.lavanguardia.com/local/catalunya/20261031/11672920/mossos-detienen-cuarto-implicado-saqueos-blocus-barcelona.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T18:00:23.046Z"
-        },
-        {
-          "title": "Ultima hora sobre la alerta en Barcelona ante las convocatorias de Blocus, las detenciones de los Mossos y el riesgo de disturbios, en directo",
-          "url": "https://www.lavanguardia.com/vida/20261031/11672874/protestas-convocatoria-manifestacion-blocus-barcelona-disturbios-ultima-hora-hoy-en-directo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T18:00:21.207Z"
-        },
-        {
-          "title": "Cerca de medio centenar de identificaciones en los accesos al centro de Barcelona",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261031/11672877/comienza-despliegue-mossos-barcelona-prevision-altercados.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T18:00:19.664Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.506Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.506Z"
-        },
-        {
-          "title": "Golpe policial a Blocus ante un sabado de maxima alerta: blindaje de comercios en las grandes ciudades por temor a disturbios",
-          "url": "https://www.elmundo.es/cataluna/2026/10/31/6ae4feeafdddffa83e8b45ab.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:59.502Z"
-        },
-        {
-          "title": "Despliegue inedito de los Mossos en el centro de Barcelona: centenares de identificaciones, registros y un punto de detencion especial",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d7d5e85eced00f8b4573.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.015Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.014Z"
-        },
-        {
-          "title": "De trenes incomunicados a ordenadores que se \"cuelgan\" en plena crisis: los tecnicos de Adif denuncian \"chapuzas\" diarias en la infraestructura ferroviaria",
-          "url": "https://www.elmundo.es/economia/empresas/2026/10/31/6ae49719fdddff49018b4592.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.014Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el director de colegio Carlos, el arquitecto Juan Nacho; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.013Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | La Guardia Civil identifica al propietario de un dron que grababa en la zona del accidente",
-          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.012Z"
-        },
-        {
-          "title": "Blocus, hoy en directo | Ultima hora de las protestas, manifestaciones y disturbios en Madrid, Barcelona y Valencia",
-          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:57:09.440Z"
-        },
-        {
-          "title": "La llamada de Blocus al vandalismo y la marcha de Aske por los detenidos por terrorismo confluyen en Bilbao",
-          "url": "https://cronicavasca.elespanol.com/sociedad/20261031/blocus-vandalismo-aske-detenidos-terrorismo-confluyen-bilbao/1003742807935_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:56:29.832Z"
-        },
-        {
-          "title": "Decretan prision provisional sin fianza para el \"fundador e impulsor\" de Blocus horas antes de su convocatoria de saqueos",
-          "url": "https://www.elespanol.com/valencia/20261031/impulsor-blocus-espana-detenido-pasan-sabado-disposicion-judicial/1003744442287_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T17:56:29.075Z"
-        },
-        {
-          "title": "Detenido otro joven de 21 anos vinculado a Blocus y a los disturbios de Barcelona",
-          "url": "https://www.publico.es/sociedad/detenido-joven-21-anos-vinculado-blocus-disturbios-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:50.866Z"
-        },
-        {
-          "title": "Prision provisional sin fianza para el supuesto \"fundador e impulsor\" de Blocus Espana",
-          "url": "https://www.publico.es/sociedad/prision-provisional-fianza-supuesto-fundador-e-impulsor-blocus-espana.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:50.178Z"
-        },
-        {
-          "title": "Las principales ciudades espanolas se blindan ante posibles disturbios por la convocatoria de Blocus",
-          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:49.608Z"
-        },
-        {
-          "title": "Ultima hora del accidente de trenes en Toledo, en directo | Frente Amplio pide la dimision de Puente como un \"primer paso imprescindible\"",
-          "url": "https://www.publico.es/sociedad/directo-sigue-ultima-hora-accidente-trenes-toledo.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T17:54:45.747Z"
-        },
-        {
-          "title": "Golpe policial a Blocus en Barcelona: los Mossos detienen a uno de los responsables de los disturbios",
-          "url": "https://www.larazon.es/cataluna/golpe-policial-blocus-barcelona-mossos-detienen-uno-responsables-disturbios_202610316ae62074a5f83c2fb8eaee23.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T17:53:04.706Z"
-        },
-        {
-          "title": "El Frente Amplio sigue contra Oscar Puente: Emilio Delgado pide su dimision como un \"primer paso imprescindible\"",
-          "url": "https://www.larazon.es/cataluna/frente-amplio-sigue-oscar-puente-emilio-delgado-pide-dimision-como-primer-paso-imprescindible_202610316ae60c0a02501232156f5599.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T17:52:59.947Z"
-        },
-        {
-          "title": "La vacuna de Moderna, una historia sobre filtraciones y apuestas en bolsa: \"La ciencia no es un iPhone\"",
-          "url": "https://www.eldiario.es/sociedad/vacunas-moderna-historia-filtraciones-apuestas-bolsa-ciencia-no-iphone_1_13625071.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:28.454Z"
-        },
-        {
-          "title": "Accidente de tren en Urda, ultima hora en directo: El numero de hospitalizados por el accidente de Urda desciende a 34, 15 permanecen en la UCI",
-          "url": "https://www.eldiario.es/castilla-la-mancha/accidente-tren-urda-ultima-hora-directo_133_13628783.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:08.405Z"
-        },
-        {
-          "title": "Asi prepara Blocus las protestas en Espana para Halloween: guantes para no dejar huella, bengalas... y \"todo lo negro posible\"",
-          "url": "https://www.20minutos.es/nacional/asi-prepara-blocus-las-protestas-espana-para-halloween-guantes-para-no-dejar-huella-bengalas-todo-negro-posible_7053937_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:11.752Z"
-        },
-        {
-          "title": "Comercios de Espana blindan escaparates y se refuerza la seguridad ante llamamientos de 'Blocus' a sabotajes en Halloween",
-          "url": "https://www.20minutos.es/nacional/comercios-espana-blindan-escaparates-se-refuerza-seguridad-ante-llamamientos-blocus-sabotajes-halloween_7055736_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:09.880Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, en directo | Los trabajos en la zona de la tragedia avanzan: retiran vagones, no hay mas restos biologicos y la cifra de fallecidos se mantiene en 69",
-          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:04.658Z"
-        },
-        {
-          "title": "Illa advierte de que los Mossos estan \"preparados\" para actuar esta noche ante posibles saqueos",
-          "url": "https://www.lavanguardia.com/politica/20261031/11672742/illa-advierte-mossos-saqueos-barcelona.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T12:53:35.797Z"
-        },
-        {
-          "title": "Barcelona no se detiene",
-          "url": "https://www.lavanguardia.com/vida/20261031/11670231/barcelona-futuro-innovacion-transformacion-movilidad-arquitectura-gastronomia-logistica-emprendimiento-brl.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T12:52:42.510Z"
-        },
-        {
-          "title": "!Mas madera que (quizas) es la guerra!",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261031/11672771/mas-madera-quizas-guerra.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T12:52:34.694Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el ingeniero David; el tripulante Nelson; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/29/6ae38ac6fc6c83c75c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T12:52:10.940Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el ingeniero David; el tripulante Nelson; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T12:51:37.690Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la compositora Marisa; el ingeniero David; el tripulante Nelson; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T12:51:37.689Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | Comienza la retirada de enseres personales de las victimas del accidente de tren de Urda",
-          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T12:51:37.688Z"
-        },
-        {
-          "title": "Comercios tapiados en Madrid: informes de inteligencia sobre Blocus alertan de \"grave riesgo\" en Barcelona, Valencia y Bilbao",
-          "url": "https://www.elespanol.com/reportajes/20261031/comercios-tapiados-madrid-informes-inteligencia-blocus-alertan-grave-riesgo-barcelona-valencia-bilbao/1003744441950_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T12:48:59.080Z"
-        },
-        {
-          "title": "El accidente ferroviario obliga a los partidos a reorientar sus estrategias de campana",
-          "url": "https://www.publico.es/politica/accidente-ferroviario-obliga-partidos-reorientar-estrategias-campana.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T12:47:57.640Z"
-        },
-        {
-          "title": "Barcelona y Madrid se blindan ante posibles disturbios por la convocatoria de Blocus",
-          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T12:47:32.694Z"
-        },
-        {
-          "title": "Silvia Orriols: \"La mayoria de menores marroquies tienen DNI espanol, pero lo que importa saber es, si son delincuentes, cuantos tienen progenitores extranjeros\"",
-          "url": "https://www.larazon.es/sociedad/silvia-orriols-mayoria-menores-marroquies-tienen-dni-espanol-pero-que-importa-saber-son-delincuentes-cuantos-tienen-progenitores-extranjeros_202610316ae4fa96a5f83c2fb8e9f848.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T12:46:14.363Z"
-        },
-        {
-          "title": "La tragedia de Urda obliga a los partidos a reorientar sus estrategias de campana",
-          "url": "https://www.larazon.es/espana/tragedia-urda-obliga-partidos-reorientar-sus-estrategias-campana_202610316ae5abe9b55c427e2eba0b1c.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T12:46:13.759Z"
-        },
-        {
-          "title": "Los policias creen que las detenciones de Blocus rebajaran los altercados de Halloween",
-          "url": "https://www.larazon.es/espana/policias-creen-que-detenciones-blocus-rebajen-altercados-halloween_202610316ae52f8d004b78127abab21d.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T12:46:12.243Z"
-        },
-        {
-          "title": "Accidente de tren en Urda, ultima hora en directo: el numero de hospitalizados desciende a 34, 15 permanecen en la UCI",
-          "url": "https://www.eldiario.es/castilla-la-mancha/accidente-tren-urda-ultima-hora-directo_133_13628783.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T12:43:20.130Z"
-        },
-        {
-          "title": "Barcelona se prepara para evitar otra noche de vandalismo y pillaje",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261031/11672482/barcelona-prepara-evitar-noche-vandalismo-pillaje.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-31T06:03:46.626Z"
-        },
-        {
-          "title": "La increible vida de Enric Gallego, de cobrar 175 euros a Pichichi de Segunda con 40 anos: \"Me tire 21 dias currando de noche\"",
-          "url": "https://www.elmundo.es/deportes/futbol/segunda-division/2026/10/30/6ae3b8c7e9cf4a8b288b456d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T06:02:35.117Z"
-        },
-        {
-          "title": "Golpe policial a Blocus ante un sabado de maxima alerta: blindaje de comercios en las grandes ciudades por temor a disturbios",
-          "url": "https://www.elmundo.es/cataluna/2026/10/31/6ae4feeafdddffa83e8b45ab.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T06:02:35.115Z"
-        },
-        {
-          "title": "Una semana infiltrado con los Blocus, los violentos que lideraba el hispanopakistani Alfayez desde un pueblo de Valencia",
-          "url": "https://www.elmundo.es/cronica/2026/10/30/6ae506b7e9cf4a72368b4585.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T06:02:35.115Z"
-        },
-        {
-          "title": "Las ultimas victimas del accidente identificadas: la arquitecta Patricia; el tripulante Nelson; Andrea, escaparatista de Mango...",
-          "url": "https://www.elmundo.es/espana/2026/10/31/6ae4fedffc6c836b7a8b4593.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T06:02:35.115Z"
-        }
-      ]
+      "id": 203,
+      "title": "Toledo",
+      "source": "news_tags",
+      "volume": "83 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 83
     },
     {
       "id": 204,
       "title": "Trenes",
       "source": "news_tags",
-      "volume": "73 artículos",
+      "volume": "66 artículos",
       "timeframe": "24h noticias",
-      "news_count": 73
+      "news_count": 66
+    },
+    {
+      "id": 205,
+      "title": "Urda",
+      "source": "news_tags",
+      "volume": "65 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 65
+    },
+    {
+      "id": 217,
+      "title": "Director",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 56
     },
     {
       "id": 206,
-      "title": "Zelenski",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "64 artículos",
+      "volume": "48 artículos",
       "timeframe": "24h noticias",
-      "news_count": 64
+      "news_count": 48
     },
     {
       "id": 207,
-      "title": "Era",
+      "title": "Zelenski",
       "source": "news_tags",
-      "volume": "59 artículos",
+      "volume": "48 artículos",
       "timeframe": "24h noticias",
-      "news_count": 59
-    },
-    {
-      "id": 220,
-      "title": "Director",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 53
+      "news_count": 48
     },
     {
       "id": 208,
-      "title": "España",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 209,
       "title": "Horas",
       "source": "news_tags",
       "volume": "45 artículos",
@@ -716,8 +96,56 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 43,
+      "news_count": 44,
       "matched_articles": [
+        {
+          "title": "Tercer sabado de disturbios en Francia: al menos 296 detenidos en varias ciudades",
+          "url": "https://www.20minutos.es/internacional/tercer-sabado-disturbios-francia-menos-296-detenidos-varias-ciudades_7055868_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T21:56:17.116Z"
+        },
+        {
+          "title": "Mas de 1.000 identificados y 63 decomisos en un despliegue policial sin precedentes en Barcelona y Madrid ante Blocus",
+          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d7d5e85eced00f8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "Francia vive un nuevo sabado de protestas: enmascarados por Halloween desafian a la Policia en mitad de los disturbios",
+          "url": "https://www.elespanol.com/mundo/europa/20261031/francia-vive-nuevo-sabado-protestas-enmascarados-halloween-desafian-policia-mitad-disturbios/1003744442430_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:50:37.862Z"
+        },
+        {
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas, disturbios y manifestaciones en Madrid, Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:51.120Z"
+        },
+        {
+          "title": "Francia vive un nuevo sabado de protestas: enmascarados por Halloween desafian a la Policia en mitad de los disturbios",
+          "url": "https://www.elespanol.com/mundo/europa/20261031/francia-vive-nuevo-sabado-protestas-enmascarados-halloween-desafian-policia-mitad-disturbios/1003744442430_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:15.620Z"
+        },
+        {
+          "title": "Los Mossos controlan los accesos al centro de Barcelona y han realizado unas mil identificaciones ante las convocatorias de Blocus",
+          "url": "https://www.publico.es/sociedad/mossos-comienzan-desplegarse-barcelona-convocatorias-blocus-ciudad.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:34.988Z"
+        },
+        {
+          "title": "Francia controla la violencia de un movimiento con cifras a la baja",
+          "url": "https://www.larazon.es/internacional/francia-controla-violencia-movimiento-cifras-baja_202610316ae6504602501232156f83e3.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T21:46:48.426Z"
+        },
+        {
+          "title": "Ultima hora sobre las convocatorias de Blocus, en directo: suben a 1.000 los identificados en Barcelona por los Mossos",
+          "url": "https://www.eldiario.es/politica/ultima-hora-disturbios-blocus-directo_133_13628997.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:43:07.600Z"
+        },
         {
           "title": "Cual es el origen del Dia de Todos los Santos y por que se confunde con el Dia de los Difuntos",
           "url": "https://www.20minutos.es/nacional/origen-dia-todos-los-santos-diferencia-dia-difuntos_5186556_0.html",
@@ -933,66 +361,8 @@
           "url": "https://www.elmundo.es/pais-vasco/2026/10/31/6ae4f562fc6c83270c8b459e.html",
           "newspaper": "El Mundo",
           "date": "2026-10-31T00:03:02.573Z"
-        },
-        {
-          "title": "Paris declara el toque de queda en dos zonas de la ciudad ante el \"importante riesgo\" de las nuevas manifestaciones en Halloween",
-          "url": "https://www.20minutos.es/internacional/paris-declara-toque-queda-dos-zonas-ciudad-ante-importante-riesgo-las-nuevas-manifestaciones-halloween_7055610_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T20:09:33.974Z"
-        },
-        {
-          "title": "Golpe a Blocus en Espana: al menos diez detenidos por su vinculacion al movimiento violento",
-          "url": "https://www.20minutos.es/nacional/varios-detenidos-espana-por-su-vinculacion-movimiento-violento-blocus-entre-ellos-su-lider-fundador_7055527_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T20:09:13.325Z"
-        },
-        {
-          "title": "El Gobierno frances alerta del riesgo de graves disturbios este sabado",
-          "url": "https://www.lavanguardia.com/internacional/20261030/11672348/gobierno-frances-alerta-riesgo-graves-disturbios-sabado.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-30T20:07:51.560Z"
-        },
-        {
-          "title": "El Gobierno frances alerta del riesgo de graves disturbios este sabado",
-          "url": "https://www.lavanguardia.com/internacional/20261030/11672348/gobierno-frances-alerta-riesgo-graves-disturbios-sabado.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-30T20:07:31.636Z"
-        },
-        {
-          "title": "Los Mossos blindaran el centro de Barcelona para evitar saqueos de Blocus la noche de Halloween",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261030/11672166/mossos-blindaran-centro-barcelona-evitar-saqueos-blocus-noche-halloween.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-30T20:07:28.602Z"
-        },
-        {
-          "title": "El centro de Valencia se blinda: la alcaldesa recomienda no acudir \"porque no sabemos a lo que nos exponemos\"",
-          "url": "https://www.elmundo.es/comunidad-valenciana/2026/10/30/6ae4ab35e85ece2e178b45b5.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:45.356Z"
-        },
-        {
-          "title": "Comercios madrilenos parapetan sus escaparates en el puente de Halloween por temor a saqueos como los de Barcelona",
-          "url": "https://www.publico.es/politica/comercios-madrilenos-parapetan-escaparates-puente-halloween-temor-saqueos-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:28.521Z"
         }
       ]
-    },
-    {
-      "id": 210,
-      "title": "Son",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
-      "id": 211,
-      "title": "Les",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
     },
     {
       "id": 102,
@@ -1000,8 +370,92 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 37,
+      "news_count": 42,
       "matched_articles": [
+        {
+          "title": "Un detenido y cerca de 1.000 identificados en el centro de Barcelona por la convocatoria de Blocus",
+          "url": "https://www.lavanguardia.com/local/barcelona/20261031/11672877/comienza-despliegue-mossos-barcelona-prevision-altercados.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-10-31T21:53:43.746Z"
+        },
+        {
+          "title": "Un millar de simpatizantes de Jardun reclama en un Bilbao atemorizado la amnistia para los etarras y reivindica la \"lucha\"",
+          "url": "https://www.elmundo.es/pais-vasco/2026/10/31/6ae6398ae85ece8f098b459d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.938Z"
+        },
+        {
+          "title": "Mas de 1.000 identificados y 63 decomisos en un despliegue policial sin precedentes en Barcelona y Madrid ante Blocus",
+          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d7d5e85eced00f8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas, disturbios y manifestaciones en Madrid, Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:51.120Z"
+        },
+        {
+          "title": "Los organizadores de la acampada en Sol anuncian que levantan la protesta: un grupo se niega a abandonarla",
+          "url": "https://www.elespanol.com/madrid/20261031/organizadores-acampada-sol-anuncian-levantan-protesta-grupo-niega-abandonar/1003744442448_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:11.368Z"
+        },
+        {
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:58.265Z"
+        },
+        {
+          "title": "La manifestacion por los dos anos de la DANA reclama que se asuman responsabilidades y el fin del aforamiento de Mazon",
+          "url": "https://www.publico.es/sociedad/manifestacion-dos-anos-dana-reclama-asuman-responsabilidades-aforamiento-mazon.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:38.928Z"
+        },
+        {
+          "title": "La mayoria de las comisiones organizadoras de la acampada de Sol anuncian que dejan la protesta para preparar la huelga general",
+          "url": "https://www.publico.es/sociedad/mayoria-comisiones-organizadoras-acampada-sol-anuncian-dejan-protesta-preparar-huelga-general.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:37.244Z"
+        },
+        {
+          "title": "Detenidos un joven de 21 anos y un menor vinculados a Blocus",
+          "url": "https://www.publico.es/sociedad/detenido-joven-21-anos-vinculado-blocus-disturbios-barcelona.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:36.402Z"
+        },
+        {
+          "title": "Los Mossos controlan los accesos al centro de Barcelona y han realizado unas mil identificaciones ante las convocatorias de Blocus",
+          "url": "https://www.publico.es/sociedad/mossos-comienzan-desplegarse-barcelona-convocatorias-blocus-ciudad.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:34.988Z"
+        },
+        {
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:27.979Z"
+        },
+        {
+          "title": "Organizadores de la acampada en Sol anuncian que dejan la protesta \"para preparar la huelga general\"",
+          "url": "https://www.larazon.es/madrid/organizadores-acampada-sol-anuncian-que-dejan-protesta-preparar-huelga-general_202610316ae64501004b78127abb9751.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T21:45:51.561Z"
+        },
+        {
+          "title": "El blindaje y cientos de identificaciones evitan nuevos saqueos en las convocatorias de Blocus",
+          "url": "https://www.eldiario.es/politica/blindaje-cientos-identificaciones-evitan-nuevos-saqueos-convocatorias-blocus_1_13629827.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:43:56.385Z"
+        },
+        {
+          "title": "Ultima hora sobre las convocatorias de Blocus, en directo: suben a 1.000 los identificados en Barcelona por los Mossos",
+          "url": "https://www.eldiario.es/politica/ultima-hora-disturbios-blocus-directo_133_13628997.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:43:07.600Z"
+        },
         {
           "title": "Decretan prision provisional y sin fianza para el supuesto fundador y cabecilla de Blocus Espana",
           "url": "https://www.20minutos.es/nacional/decretan-prision-provisional-sin-fianza-para-supuesto-fundador-cabecilla-blocus-espana_7055804_0.html",
@@ -1169,135 +623,111 @@
           "url": "https://www.elmundo.es/pais-vasco/2026/10/31/6ae4f562fc6c83270c8b459e.html",
           "newspaper": "El Mundo",
           "date": "2026-10-31T00:03:02.573Z"
-        },
-        {
-          "title": "Golpe a Blocus en Espana: al menos diez detenidos por su vinculacion al movimiento violento",
-          "url": "https://www.20minutos.es/nacional/varios-detenidos-espana-por-su-vinculacion-movimiento-violento-blocus-entre-ellos-su-lider-fundador_7055527_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T20:09:13.325Z"
-        },
-        {
-          "title": "Los Mossos blindaran el centro de Barcelona para evitar saqueos de Blocus la noche de Halloween",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261030/11672166/mossos-blindaran-centro-barcelona-evitar-saqueos-blocus-noche-halloween.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-30T20:07:28.602Z"
-        },
-        {
-          "title": "Detenido en Valencia un joven de 20 anos como presunto fundador de Blocus Espana",
-          "url": "https://www.lavanguardia.com/local/valencia/20261030/11672046/detenido-miembros-blocus-valencia-animar-arrojar-cocteles-molotov.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-30T20:07:28.315Z"
-        },
-        {
-          "title": "Golpe al movimiento Blocus en Espana: detenido su supuesto fundador por alentar saqueos",
-          "url": "https://www.elmundo.es/espana/2026/10/30/6ae4c555e4d4d828278b45a5-video.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:45.358Z"
-        },
-        {
-          "title": "Golpe al movimiento Blocus en Espana: detenido su supuesto fundador por alentar saqueos",
-          "url": "https://www.elmundo.es/espana/2026/10/30/6ae4c555e4d4d828278b45a5-video.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:45.358Z"
-        },
-        {
-          "title": "El centro de Valencia se blinda: la alcaldesa recomienda no acudir \"porque no sabemos a lo que nos exponemos\"",
-          "url": "https://www.elmundo.es/comunidad-valenciana/2026/10/30/6ae4ab35e85ece2e178b45b5.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:45.356Z"
-        },
-        {
-          "title": "Comercios madrilenos parapetan sus escaparates en el puente de Halloween por temor a saqueos como los de Barcelona",
-          "url": "https://www.publico.es/politica/comercios-madrilenos-parapetan-escaparates-puente-halloween-temor-saqueos-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:28.521Z"
-        },
-        {
-          "title": "Al menos diez detenidos en Valencia, Catalunya, Malaga, Tenerife y Bilbao relacionados con las convocatorias de Blocus",
-          "url": "https://www.publico.es/sociedad/ascienden-cinco-detenidos-instigar-disturbios-saqueos-valencia.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:15.450Z"
-        },
-        {
-          "title": "Las explicaciones de Puente tras las dudas de Sanchez sobre la alta velocidad y otras cuatro noticias de hoy",
-          "url": "https://www.publico.es/sociedad/explicaciones-puente-dudas-sanchez-sobre-alta-velocidad-cuatro-noticias-hoy.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:10.780Z"
         }
       ]
     },
     {
-      "id": 212,
-      "title": "Ave",
+      "id": 209,
+      "title": "Son",
       "source": "news_tags",
-      "volume": "36 artículos",
+      "volume": "42 artículos",
       "timeframe": "24h noticias",
-      "news_count": 36
+      "news_count": 42
+    },
+    {
+      "id": 210,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "40 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 40
+    },
+    {
+      "id": 211,
+      "title": "España",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 212,
+      "title": "Más",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
     },
     {
       "id": 213,
-      "title": "Trump",
+      "title": "Les",
       "source": "news_tags",
-      "volume": "36 artículos",
+      "volume": "37 artículos",
       "timeframe": "24h noticias",
-      "news_count": 36
+      "news_count": 37
     },
     {
-      "id": 214,
-      "title": "Denuncias",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 215,
-      "title": "Gobiernos",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 216,
-      "title": "Seguridad",
-      "source": "news_tags",
-      "volume": "35 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 35
-    },
-    {
-      "id": 217,
-      "title": "Más",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 218,
-      "title": "Civil",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 219,
-      "title": "Sobre",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 5,
+      "id": 4,
       "title": "Blocus Barcelona",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
-      "news_count": 31,
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 34,
       "matched_articles": [
+        {
+          "title": "Un detenido y cerca de 1.000 identificados en el centro de Barcelona por la convocatoria de Blocus",
+          "url": "https://www.lavanguardia.com/local/barcelona/20261031/11672877/comienza-despliegue-mossos-barcelona-prevision-altercados.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-10-31T21:53:43.746Z"
+        },
+        {
+          "title": "Mas de 1.000 identificados y 63 decomisos en un despliegue policial sin precedentes en Barcelona y Madrid ante Blocus",
+          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d7d5e85eced00f8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas, disturbios y manifestaciones en Madrid, Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:51.120Z"
+        },
+        {
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:58.265Z"
+        },
+        {
+          "title": "Detenidos un joven de 21 anos y un menor vinculados a Blocus",
+          "url": "https://www.publico.es/sociedad/detenido-joven-21-anos-vinculado-blocus-disturbios-barcelona.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:36.402Z"
+        },
+        {
+          "title": "Los Mossos controlan los accesos al centro de Barcelona y han realizado unas mil identificaciones ante las convocatorias de Blocus",
+          "url": "https://www.publico.es/sociedad/mossos-comienzan-desplegarse-barcelona-convocatorias-blocus-ciudad.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:34.988Z"
+        },
+        {
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:27.979Z"
+        },
+        {
+          "title": "El blindaje y cientos de identificaciones evitan nuevos saqueos en las convocatorias de Blocus",
+          "url": "https://www.eldiario.es/politica/blindaje-cientos-identificaciones-evitan-nuevos-saqueos-convocatorias-blocus_1_13629827.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:43:56.385Z"
+        },
+        {
+          "title": "Ultima hora sobre las convocatorias de Blocus, en directo: suben a 1.000 los identificados en Barcelona por los Mossos",
+          "url": "https://www.eldiario.es/politica/ultima-hora-disturbios-blocus-directo_133_13628997.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:43:07.600Z"
+        },
         {
           "title": "Decretan prision provisional y sin fianza para el supuesto fundador y cabecilla de Blocus Espana",
           "url": "https://www.20minutos.es/nacional/decretan-prision-provisional-sin-fianza-para-supuesto-fundador-cabecilla-blocus-espana_7055804_0.html",
@@ -1447,72 +877,76 @@
           "url": "https://www.eldiario.es/sociedad/despliegues-policiales-detenidos-comercios-blindados-amenaza-blocus_1_13628006.html",
           "newspaper": "El Diario",
           "date": "2026-10-31T05:53:54.416Z"
-        },
-        {
-          "title": "Golpe a Blocus en Espana: al menos diez detenidos por su vinculacion al movimiento violento",
-          "url": "https://www.20minutos.es/nacional/varios-detenidos-espana-por-su-vinculacion-movimiento-violento-blocus-entre-ellos-su-lider-fundador_7055527_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T20:09:13.325Z"
-        },
-        {
-          "title": "Los Mossos blindaran el centro de Barcelona para evitar saqueos de Blocus la noche de Halloween",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261030/11672166/mossos-blindaran-centro-barcelona-evitar-saqueos-blocus-noche-halloween.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-10-30T20:07:28.602Z"
-        },
-        {
-          "title": "El centro de Valencia se blinda: la alcaldesa recomienda no acudir \"porque no sabemos a lo que nos exponemos\"",
-          "url": "https://www.elmundo.es/comunidad-valenciana/2026/10/30/6ae4ab35e85ece2e178b45b5.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:45.356Z"
-        },
-        {
-          "title": "Comercios madrilenos parapetan sus escaparates en el puente de Halloween por temor a saqueos como los de Barcelona",
-          "url": "https://www.publico.es/politica/comercios-madrilenos-parapetan-escaparates-puente-halloween-temor-saqueos-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:28.521Z"
-        },
-        {
-          "title": "Al menos diez detenidos en Valencia, Catalunya, Malaga, Tenerife y Bilbao relacionados con las convocatorias de Blocus",
-          "url": "https://www.publico.es/sociedad/ascienden-cinco-detenidos-instigar-disturbios-saqueos-valencia.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:15.450Z"
-        },
-        {
-          "title": "Las explicaciones de Puente tras las dudas de Sanchez sobre la alta velocidad y otras cuatro noticias de hoy",
-          "url": "https://www.publico.es/sociedad/explicaciones-puente-dudas-sanchez-sobre-alta-velocidad-cuatro-noticias-hoy.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:10.780Z"
         }
       ]
     },
     {
-      "id": 221,
-      "title": "Madrid",
+      "id": 214,
+      "title": "Protestas",
       "source": "news_tags",
-      "volume": "30 artículos",
+      "volume": "34 artículos",
       "timeframe": "24h noticias",
-      "news_count": 30
+      "news_count": 34
+    },
+    {
+      "id": 215,
+      "title": "Han",
+      "source": "news_tags",
+      "volume": "33 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 33
+    },
+    {
+      "id": 216,
+      "title": "Civil",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 32
+    },
+    {
+      "id": 218,
+      "title": "Estación",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 32
+    },
+    {
+      "id": 219,
+      "title": "Seguridad",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 221,
+      "title": "Denuncias",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
     },
     {
       "id": 222,
-      "title": "Illa",
+      "title": "Barcelona",
       "source": "news_tags",
-      "volume": "28 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 28
+      "news_count": 27
     },
     {
       "id": 223,
-      "title": "Ferroviarios",
+      "title": "Disturbios",
       "source": "news_tags",
-      "volume": "28 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 28
+      "news_count": 27
     },
     {
       "id": 224,
-      "title": "Han",
+      "title": "Ferroviarios",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
@@ -1520,63 +954,215 @@
     },
     {
       "id": 225,
-      "title": "Adif",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 226,
-      "title": "Protestas",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 227,
-      "title": "Alta Velocidad",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 228,
-      "title": "Presidente",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 230,
-      "title": "Disturbios",
+      "title": "Sobre",
       "source": "news_tags",
       "volume": "25 artículos",
       "timeframe": "24h noticias",
       "news_count": 25
     },
     {
-      "id": 231,
-      "title": "Ministro",
+      "id": 226,
+      "title": "Francia",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 227,
+      "title": "Gobiernos",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 228,
+      "title": "Ave",
       "source": "news_tags",
       "volume": "24 artículos",
       "timeframe": "24h noticias",
       "news_count": 24
     },
     {
-      "id": 234,
-      "title": "Constitucional",
+      "id": 229,
+      "title": "Presidente",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
+    },
+    {
+      "id": 231,
+      "title": "Illa",
       "source": "news_tags",
       "volume": "23 artículos",
       "timeframe": "24h noticias",
       "news_count": 23
     },
     {
+      "id": 232,
+      "title": "Adif",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 233,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 235,
+      "title": "Alta Velocidad",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 26,
+      "title": "Serie a",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 21,
+      "matched_articles": [
+        {
+          "title": "Comprobar Sueldazo ONCE: resultados de hoy, sabado 31 de octubre de 2026",
+          "url": "https://www.20minutos.es/nacional/comprobar-sueldazo-once-resultados-hoy-sabado-31-octubre-2026_7055876_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T21:55:45.590Z"
+        },
+        {
+          "title": "\"Dar miedo al Gobierno\": disfraces, enfrentamientos y al menos 296 detenidos en una nueva jornada de protestas en Francia",
+          "url": "https://www.elmundo.es/internacional/2026/10/31/6ae604d3e85ece2a368b458f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:32.654Z"
+        },
+        {
+          "title": "\"Dar miedo al Gobierno\": disfraces, enfrentamientos y al menos 296 detenidos en una nueva jornada de protestas en Francia",
+          "url": "https://www.elmundo.es/internacional/2026/10/31/6ae604d3e85ece2a368b458f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "?Es seguro viajar en tren en Espana? Cinco claves sobre lo que falla y que debe cambiar para recuperar la confianza",
+          "url": "https://www.publico.es/politica/seguro-viajar-tren-espana-cinco-claves-sobre-falla-debe-cambiar-recuperar-confianza.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:56.764Z"
+        },
+        {
+          "title": "?Es seguro viajar en tren en Espana? Cinco claves sobre lo que falla y que debe cambiar para recuperar la confianza",
+          "url": "https://www.publico.es/politica/seguro-viajar-tren-espana-cinco-claves-sobre-falla-debe-cambiar-recuperar-confianza.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:26.852Z"
+        },
+        {
+          "title": "La \"cadena de averias\" como causa del accidente de Urda desaparece de la version internacional del informe de Transportes",
+          "url": "https://www.larazon.es/economia/referencias-cadena-averias-como-causa-accidente-urda-desaparecen-version-internacional-informe-transportes_202610316ae6320502501232156f7439.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T21:45:43.748Z"
+        },
+        {
+          "title": "La Loteria Nacional deja una lluvia de premios en cinco provincias",
+          "url": "https://www.20minutos.es/nacional/loteria-nacional-deja-una-lluvia-premios-cinco-provincias_7055797_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:40.604Z"
+        },
+        {
+          "title": "Loteria Nacional de hoy sabado 31 de octubre de 2026 | Resultados y premios",
+          "url": "https://www.20minutos.es/nacional/loteria-nacional-hoy-sabado-31-octubre-2026-directo-resultados-premios_7055769_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:39.797Z"
+        },
+        {
+          "title": "La Guardia Civil baraja una serie de fallos de seguridad antes del error humano en el accidente de tren de Urda",
+          "url": "https://www.20minutos.es/nacional/guardia-civil-baraja-serie-fallos-seguridad-sobre-error-humano-accidente-tren-urda_7055801_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:38.462Z"
+        },
+        {
+          "title": "\"Dar miedo al Gobierno\": disfraces, toques de queda y enfrentamientos en una nueva jornada de protestas en Francia",
+          "url": "https://www.elmundo.es/internacional/2026/10/31/6ae604d3e85ece2a368b458f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T17:59:40.168Z"
+        },
+        {
+          "title": "Dentro de la base militar que defiende Espana en el ciberespacio: \"La IA se parece al poder nuclear, pero se puede usar de mil formas diferentes\"",
+          "url": "https://www.elmundo.es/papel/historias/2026/10/30/6ae398cafdddff7a548b4587.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T17:59:22.017Z"
+        },
+        {
+          "title": "Que peliculas (y series) ver Halloween 2026 en Netflix, HBO, Disney+, Filmin o Movistar Plus+",
+          "url": "https://www.publico.es/mira/peliculas-series-ver-halloween-2026-netflix-hbo-disney-filmin-movistar-plus.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:55:00.126Z"
+        },
+        {
+          "title": "La aplaudida respuesta de Noruega a Trump tras decir que era un \"pais de mierda\": muestran fotos de sus mejores aseos publicos",
+          "url": "https://www.20minutos.es/internacional/aplaudida-respuesta-noruega-trump-decir-pais-mierda-fotos-mejores-aseos-publicos_7055757_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:36.795Z"
+        },
+        {
+          "title": "Asi funciona el sistema de alta velocidad de Japon sin accidentes: un tren bala que no descarrila y un retraso medio de 96 segundos",
+          "url": "https://www.20minutos.es/internacional/asi-funciona-sistema-alta-velocidad-japon-sin-accidentes-un-tren-bala-que-no-descarrila-un-retraso-medio-96-segundos_7054967_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:35.551Z"
+        },
+        {
+          "title": "Loteria Nacional de hoy sabado 31 de octubre de 2026, en directo | Resultados y premios",
+          "url": "https://www.20minutos.es/nacional/loteria-nacional-hoy-sabado-31-octubre-2026-directo-resultados-premios_7055769_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:06.015Z"
+        },
+        {
+          "title": "El ex militar de izquierdas que carga contra Yolanda Diaz: \"No se ha querido reunir con los denunciantes de corrupcion\"",
+          "url": "https://www.elmundo.es/loc/famosos/2026/10/30/6ae346ece9cf4ab6358b4587.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T12:51:37.694Z"
+        },
+        {
+          "title": "\"Ven aqui y disparame\": la noche en la que las consignas, el caos y las persecuciones racistas tomaron el centro de Palma",
+          "url": "https://www.eldiario.es/illes-balears/sociedad/ven-disparame-noche-consignas-caos-persecuciones-racistas-tomaron-centro-palma_1_13628848.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T12:43:25.877Z"
+        },
+        {
+          "title": "Que peliculas (y series) ver este Halloween en las plataformas 'streaming'",
+          "url": "https://www.publico.es/mira/peliculas-series-ver-halloween-2026-netflix-hbo-disney-filmin-movistar-plus.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T05:58:50.243Z"
+        },
+        {
+          "title": "Ceuta y Melilla: la defensa acorazada pasa por el taller",
+          "url": "https://www.larazon.es/espana/ceuta-melilla-defensa-acorazada-pasa-taller_202610316ae50acc6973466c29e3be85.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T05:56:41.088Z"
+        },
+        {
+          "title": "Dar \"caza\" a los 'rojos': el macabro juego a tiros de la extrema derecha en la Guerra Civil",
+          "url": "https://www.eldiario.es/sevilla/dar-caza-rojos-macabro-juego-tiros-extrema-derecha-guerra-civil_1_13520103.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T05:54:07.509Z"
+        },
+        {
+          "title": "Renuncio un subsecretario de Ciencia y Tecnologia y denuncio maltratos y falta de respaldo en el Gobierno",
+          "url": "https://www.eldiarioar.com/politica/renuncio-subsecretario-ciencia-tecnologia-denuncio-maltratos-falta-respaldo-gobierno_1_13628573.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-30T23:55:24.883Z"
+        }
+      ]
+    },
+    {
       "id": 236,
-      "title": "Francia",
+      "title": "Renfe",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
@@ -1584,7 +1170,7 @@
     },
     {
       "id": 237,
-      "title": "Centros",
+      "title": "Estadounidense",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
@@ -1592,7 +1178,7 @@
     },
     {
       "id": 238,
-      "title": "Millones",
+      "title": "Tribunal Constitucional",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
@@ -1600,83 +1186,311 @@
     },
     {
       "id": 239,
-      "title": "Estación",
+      "title": "Hoy",
       "source": "news_tags",
-      "volume": "21 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 21
+      "news_count": 19
     },
     {
       "id": 240,
       "title": "Psoe",
       "source": "news_tags",
-      "volume": "20 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 20
+      "news_count": 19
     },
     {
       "id": 241,
-      "title": "Renfe",
+      "title": "Centros",
       "source": "news_tags",
-      "volume": "20 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 20
+      "news_count": 19
     },
     {
-      "id": 242,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
+      "id": 21,
+      "title": "Huelga",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 18,
+      "matched_articles": [
+        {
+          "title": "Accidente de tren en Toledo, en directo | Identificadas 56 de las 69 victimas mortales de Urda mientras avanzan los trabajos en la zona y se retiran cinco vagones",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T21:55:43.641Z"
+        },
+        {
+          "title": "Francia vive un nuevo sabado de protestas: enmascarados por Halloween desafian a la Policia en mitad de los disturbios",
+          "url": "https://www.elespanol.com/mundo/europa/20261031/francia-vive-nuevo-sabado-protestas-enmascarados-halloween-desafian-policia-mitad-disturbios/1003744442430_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:50:37.862Z"
+        },
+        {
+          "title": "Francia vive un nuevo sabado de protestas: enmascarados por Halloween desafian a la Policia en mitad de los disturbios",
+          "url": "https://www.elespanol.com/mundo/europa/20261031/francia-vive-nuevo-sabado-protestas-enmascarados-halloween-desafian-policia-mitad-disturbios/1003744442430_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:15.620Z"
+        },
+        {
+          "title": "Los organizadores de la acampada en Sol anuncian que levantan la protesta: un grupo se niega a abandonarla",
+          "url": "https://www.elespanol.com/madrid/20261031/organizadores-acampada-sol-anuncian-levantan-protesta-grupo-niega-abandonar/1003744442448_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:11.368Z"
+        },
+        {
+          "title": "La mayoria de las comisiones organizadoras de la acampada de Sol anuncian que dejan la protesta para preparar la huelga general",
+          "url": "https://www.publico.es/sociedad/mayoria-comisiones-organizadoras-acampada-sol-anuncian-dejan-protesta-preparar-huelga-general.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:37.244Z"
+        },
+        {
+          "title": "Organizadores de la acampada en Sol anuncian que dejan la protesta \"para preparar la huelga general\"",
+          "url": "https://www.larazon.es/madrid/organizadores-acampada-sol-anuncian-que-dejan-protesta-preparar-huelga-general_202610316ae64501004b78127abb9751.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T21:45:51.561Z"
+        },
+        {
+          "title": "El Gobierno frances restringe las protestas en Paris y Melenchon llama a movilizarse sin violencia",
+          "url": "https://www.publico.es/internacional/europa/gobierno-frances-restringe-protestas-paris-melenchon-llama-movilizarse-violencia.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:55:51.776Z"
+        },
+        {
+          "title": "Los representantes estudiantiles presionan al Gobierno con nuevos bloqueos en Francia",
+          "url": "https://www.publico.es/internacional/europa/representantes-estudiantiles-presionan-gobierno-nuevos-bloqueos-francia.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:55:50.715Z"
+        },
+        {
+          "title": "Los representantes estudiantiles presionan al Gobierno con nuevos bloqueos en Francia",
+          "url": "https://www.publico.es/internacional/europa/representantes-estudiantiles-presionan-gobierno-nuevos-bloqueos-francia.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:54:52.617Z"
+        },
+        {
+          "title": "El caso de Kostas Karamanlis: el ministro de Transportes griego que dimitio apenas un dia despues de la tragedia ferroviaria de Tempe",
+          "url": "https://www.20minutos.es/internacional/caso-kostas-karamanlis-ministro-transportes-griego-que-dimitio-apenas-un-dia-despues-tragedia-ferroviaria-tempe_7055531_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:38.288Z"
+        },
+        {
+          "title": "Asi prepara Blocus las protestas en Espana para Halloween: guantes para no dejar huella, bengalas... y \"todo lo negro posible\"",
+          "url": "https://www.20minutos.es/nacional/asi-prepara-blocus-las-protestas-espana-para-halloween-guantes-para-no-dejar-huella-bengalas-todo-negro-posible_7053937_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:11.752Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, en directo | Los trabajos en la zona de la tragedia avanzan: retiran vagones, no hay mas restos biologicos y la cifra de fallecidos se mantiene en 69",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:04.658Z"
+        },
+        {
+          "title": "Una semana infiltrado con los Blocus, los violentos que lideraba el hispanopakistani Alfayez desde un pueblo de Valencia",
+          "url": "https://www.elmundo.es/cronica/2026/10/30/6ae506b7e9cf4a72368b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T06:02:35.115Z"
+        },
+        {
+          "title": "Operadores y maquinistas no se fian de Adif y piden bajar la velocidad de circulacion",
+          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4f2fbfdddff677b8b457b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T06:02:35.114Z"
+        },
+        {
+          "title": "El silencio de la via y el ruido de los despachos",
+          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/31/silencio-via-ruido-despachos/0003_202610G31P4991.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-10-31T06:02:16.892Z"
+        },
+        {
+          "title": "El silencio de la via y el ruido de los despachos",
+          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/31/silencio-via-ruido-despachos/0003_202610G31P4991.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-10-31T06:01:56.266Z"
+        },
+        {
+          "title": "Los 'nuevos chalecos amarillos' llaman a la huelga contra el 'monarca Macron' en el 'tercer acto' de las protestas en Francia",
+          "url": "https://www.elespanol.com/mundo/europa/20261031/nuevos-chalecos-amarillos-llaman-huelga-monarca-macron-tercer-acto-protestas-francia/1003744439278_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T06:01:11.953Z"
+        },
+        {
+          "title": "Miedo e incertidumbre entre los viajeros del AVE: \"Nos da igual que vaya lento, pero que llegue\"",
+          "url": "https://www.eldiario.es/sociedad/miedo-e-incertidumbre-viajeros-ave-da-igual-lento-llegue_1_13626243.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T05:53:51.512Z"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Blocus en Madrid",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 18,
+      "matched_articles": [
+        {
+          "title": "Mas de 1.000 identificados y 63 decomisos en un despliegue policial sin precedentes en Barcelona y Madrid ante Blocus",
+          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d7d5e85eced00f8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas, disturbios y manifestaciones en Madrid, Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:51.120Z"
+        },
+        {
+          "title": "Los organizadores de la acampada en Sol anuncian que levantan la protesta: un grupo se niega a abandonarla",
+          "url": "https://www.elespanol.com/madrid/20261031/organizadores-acampada-sol-anuncian-levantan-protesta-grupo-niega-abandonar/1003744442448_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:11.368Z"
+        },
+        {
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:58.265Z"
+        },
+        {
+          "title": "La mayoria de las comisiones organizadoras de la acampada de Sol anuncian que dejan la protesta para preparar la huelga general",
+          "url": "https://www.publico.es/sociedad/mayoria-comisiones-organizadoras-acampada-sol-anuncian-dejan-protesta-preparar-huelga-general.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:37.244Z"
+        },
+        {
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:27.979Z"
+        },
+        {
+          "title": "Organizadores de la acampada en Sol anuncian que dejan la protesta \"para preparar la huelga general\"",
+          "url": "https://www.larazon.es/madrid/organizadores-acampada-sol-anuncian-que-dejan-protesta-preparar-huelga-general_202610316ae64501004b78127abb9751.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T21:45:51.561Z"
+        },
+        {
+          "title": "Antonio Magraner, presidente de los Jovenes Empresarios, ante la amenaza de Blocus: \"La empresa paga la dejacion del Gobierno\"",
+          "url": "https://www.20minutos.es/nacional/antonio-magraner-presidente-jovenes-empresarios-final-empresa-paga-dejacion-funciones-gobierno_7055825_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:34.909Z"
+        },
+        {
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas y alerta en Madrid, Barcelona y capitales de Espana el sabado 31 de octubre",
+          "url": "https://www.20minutos.es/nacional/blocus-hoy-directo-ultima-hora-las-protestas-alerta-madrid-barcelona-capitales-espana-sabado-31-octubre_7055832_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:31.297Z"
+        },
+        {
+          "title": "Golpe policial a Blocus ante un sabado de maxima alerta: blindaje de comercios en las grandes ciudades por temor a disturbios",
+          "url": "https://www.elmundo.es/cataluna/2026/10/31/6ae4feeafdddffa83e8b45ab.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T17:59:59.502Z"
+        },
+        {
+          "title": "Despliegue inedito de los Mossos en el centro de Barcelona: centenares de identificaciones, registros y un punto de detencion especial",
+          "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d7d5e85eced00f8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T17:59:22.015Z"
+        },
+        {
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas, manifestaciones y disturbios en Madrid, Barcelona y Valencia",
+          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T17:57:09.440Z"
+        },
+        {
+          "title": "Las principales ciudades espanolas se blindan ante posibles disturbios por la convocatoria de Blocus",
+          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:54:49.608Z"
+        },
+        {
+          "title": "Asi prepara Blocus las protestas en Espana para Halloween: guantes para no dejar huella, bengalas... y \"todo lo negro posible\"",
+          "url": "https://www.20minutos.es/nacional/asi-prepara-blocus-las-protestas-espana-para-halloween-guantes-para-no-dejar-huella-bengalas-todo-negro-posible_7053937_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:11.752Z"
+        },
+        {
+          "title": "Comercios tapiados en Madrid: informes de inteligencia sobre Blocus alertan de \"grave riesgo\" en Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/reportajes/20261031/comercios-tapiados-madrid-informes-inteligencia-blocus-alertan-grave-riesgo-barcelona-valencia-bilbao/1003744441950_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T12:48:59.080Z"
+        },
+        {
+          "title": "Barcelona y Madrid se blindan ante posibles disturbios por la convocatoria de Blocus",
+          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T12:47:32.694Z"
+        },
+        {
+          "title": "Golpe policial a Blocus ante un sabado de maxima alerta: blindaje de comercios en las grandes ciudades por temor a disturbios",
+          "url": "https://www.elmundo.es/cataluna/2026/10/31/6ae4feeafdddffa83e8b45ab.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T06:02:35.115Z"
+        },
+        {
+          "title": "Despliegues policiales, detenidos y comercios blindados ante la amenaza de Blocus",
+          "url": "https://www.eldiario.es/sociedad/despliegues-policiales-detenidos-comercios-blindados-amenaza-blocus_1_13628006.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T05:53:54.416Z"
+        }
+      ]
     },
     {
       "id": 243,
-      "title": "Sistema",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 244,
-      "title": "Estadounidense",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 246,
-      "title": "Rusia",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 247,
-      "title": "Jóvenes",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 248,
-      "title": "Transportes",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 249,
-      "title": "Políticas",
+      "title": "000",
       "source": "news_tags",
       "volume": "18 artículos",
       "timeframe": "24h noticias",
       "news_count": 18
+    },
+    {
+      "id": 244,
+      "title": "Mossos D'esquadra",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 245,
+      "title": "Ministro",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 246,
+      "title": "Transportes",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 247,
+      "title": "Crisis Alimentaria",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 248,
+      "title": "Polonia Crisis Suspensión Tribunal Constitucional Presidente Tusk Nawrocki Policía",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
     },
     {
       "id": 103,
@@ -1684,7 +1498,7 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 17,
+      "news_count": 16,
       "matched_articles": [
         {
           "title": "La crisis institucional en Polonia por el Constitucional se encona y divide a la coalicion de Tusk",
@@ -1781,106 +1595,102 @@
           "url": "https://www.larazon.es/internacional/policia-polonia-rodea-constitucional-estallido-crisis-cupula-corte_202610306ae4fb4602501232156e71cc.html",
           "newspaper": "La Razón",
           "date": "2026-10-30T23:56:37.224Z"
-        },
-        {
-          "title": "El presidente de Polonia aborta su visita oficial a Senegal en pleno pulso con Donald Tusk por controlar el Constitucional",
-          "url": "https://www.elespanol.com/mundo/europa/20261030/presidente-polonia-aborta-visita-oficial-senegal-pleno-pulso-donald-tusk-controlar-constitucional/1003744442009_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T20:04:45.324Z"
         }
       ]
     },
     {
-      "id": 4,
-      "title": "Operario Adif",
+      "id": 249,
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 8,
+      "title": "Blocus 31 Octubre",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 14,
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 13,
       "matched_articles": [
         {
-          "title": "El PP exige a Sanchez \"consecuencias\" por la tragedia de Urda y promete trabajar para \"nunca nadie sienta miedo a subir a un tren\"",
-          "url": "https://www.20minutos.es/nacional/pp-exige-sanchez-consecuencias-tragedia-urda-promete-trabajar-nunca-nadie-sienta-miedo-subir-tren_7055792_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:41.241Z"
-        },
-        {
-          "title": "La plantilla advierte del aumento de presion, carga de trabajo y personal sin experiencia en el control ferroviario",
-          "url": "https://www.eldiario.es/economia/plantilla-advierte-aumento-presion-carga-trabajo-personal-experiencia-control-ferroviario_1_13625397.html",
-          "newspaper": "El Diario",
-          "date": "2026-10-31T17:50:05.189Z"
-        },
-        {
-          "title": "Falta de personal, fallos del sistema y presion para que salgan los trenes: asi trabajan los operarios en el centro de control de Adif",
-          "url": "https://www.20minutos.es/nacional/falta-personal-fallos-sistema-presion-para-que-salgan-los-trenes-asi-trabajan-los-operarios-centro-control-adif_7055422_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:08.233Z"
-        },
-        {
-          "title": "Lo que dicen los psicologos de Oscar Puente: del \"yo no solde el rail\" de Adamuz a \"no era mi deber estar al mando el martes\"",
-          "url": "https://www.elespanol.com/espana/politica/20261030/no-solde-rail-adamuz-deber-mando-martes-lava-manos-oscar-puente/1003744441662_0.html",
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas, disturbios y manifestaciones en Madrid, Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/espana/20261031/blocus-hoy-directo-ultima-hora-protestas-manifestaciones-disturbios-madrid-barcelona-valencia-espana/1003744378281_10.html",
           "newspaper": "El Español",
-          "date": "2026-10-31T12:49:47.735Z"
+          "date": "2026-10-31T21:49:51.120Z"
         },
         {
-          "title": "El operario del ADIF senalado por Puente se niega a declarar",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/10/31/operario-adif-senalado-puente-niega-declarar/0003_202610G31P10992.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-10-31T06:02:15.501Z"
-        },
-        {
-          "title": "?Por que el tren Iryo no arranco en Urda? Su sistema de seguridad tarda mas en desbloquearse",
-          "url": "https://www.eldiario.es/castilla-la-mancha/tren-iryo-no-arranco-urda-sistema-seguridad-tarda-desbloquearse_1_13627938.html",
+          "title": "Ultima hora sobre las convocatorias de Blocus, en directo: suben a 1.000 los identificados en Barcelona por los Mossos",
+          "url": "https://www.eldiario.es/politica/ultima-hora-disturbios-blocus-directo_133_13628997.html",
           "newspaper": "El Diario",
-          "date": "2026-10-31T05:53:46.283Z"
+          "date": "2026-10-31T21:43:07.600Z"
         },
         {
-          "title": "El escudo humano de Pedro Sanchez",
-          "url": "https://www.elmundo.es/opinion/editorial/2026/10/30/6ae4df3efdddffec428b45db.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T00:02:25.897Z"
+          "title": "Decretan prision provisional y sin fianza para el supuesto fundador y cabecilla de Blocus Espana",
+          "url": "https://www.20minutos.es/nacional/decretan-prision-provisional-sin-fianza-para-supuesto-fundador-cabecilla-blocus-espana_7055804_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:38.927Z"
         },
         {
-          "title": "Asi se controla el trafico ferroviario desde Atocha: las condiciones de trabajo que enfrentan a Puente y los sindicatos",
-          "url": "https://www.publico.es/sociedad/asi-controla-trafico-ferroviario-atocha-condiciones-trabajo-enfrentan-puente-sindicatos.html",
+          "title": "Blocus, hoy en directo | Ultima hora de las protestas y alerta en Madrid, Barcelona y capitales de Espana el sabado 31 de octubre",
+          "url": "https://www.20minutos.es/nacional/blocus-hoy-directo-ultima-hora-las-protestas-alerta-madrid-barcelona-capitales-espana-sabado-31-octubre_7055832_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T18:02:31.297Z"
+        },
+        {
+          "title": "Las principales ciudades espanolas se blindan ante posibles disturbios por la convocatoria de Blocus",
+          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
           "newspaper": "Público",
-          "date": "2026-10-30T23:57:57.570Z"
+          "date": "2026-10-31T17:54:49.608Z"
         },
         {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
-          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:09.436Z"
+          "title": "Asi prepara Blocus las protestas en Espana para Halloween: guantes para no dejar huella, bengalas... y \"todo lo negro posible\"",
+          "url": "https://www.20minutos.es/nacional/asi-prepara-blocus-las-protestas-espana-para-halloween-guantes-para-no-dejar-huella-bengalas-todo-negro-posible_7053937_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:11.752Z"
         },
         {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:09.435Z"
-        },
-        {
-          "title": "Del \"yo no solde el rail\" de Adamuz a \"no era mi deber estar al mando el martes\": asi se lava las manos Oscar Puente",
-          "url": "https://www.elespanol.com/espana/politica/20261030/no-solde-rail-adamuz-deber-mando-martes-lava-manos-oscar-puente/1003744441662_0.html",
+          "title": "Comercios tapiados en Madrid: informes de inteligencia sobre Blocus alertan de \"grave riesgo\" en Barcelona, Valencia y Bilbao",
+          "url": "https://www.elespanol.com/reportajes/20261031/comercios-tapiados-madrid-informes-inteligencia-blocus-alertan-grave-riesgo-barcelona-valencia-bilbao/1003744441950_0.html",
           "newspaper": "El Español",
-          "date": "2026-10-30T20:04:08.560Z"
+          "date": "2026-10-31T12:48:59.080Z"
         },
         {
-          "title": "Del \"yo no solde el rail\" de Adamuz a \"no era mi deber estar al mando el martes\": asi se lava las manos Oscar Puente",
-          "url": "https://www.elespanol.com/espana/politica/20261030/no-solde-rail-adamuz-deber-mando-martes-lava-manos-oscar-puente/1003744441662_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T20:03:24.798Z"
+          "title": "Barcelona y Madrid se blindan ante posibles disturbios por la convocatoria de Blocus",
+          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T12:47:32.694Z"
         },
         {
-          "title": "Feijoo promete <<gestion>> y exige a Sanchez y Puente que se aparten: <<Si no dimiten ellos, les dimitiremos en las urnas>>",
-          "url": "https://www.larazon.es/espana/feijoo-pide-cabeza-sanchez-puente-dimiten-ellos-les-dimitiremos-urnas_202610306ae4ab1a6973466c29e36115.html",
+          "title": "Los policias creen que las detenciones de Blocus rebajaran los altercados de Halloween",
+          "url": "https://www.larazon.es/espana/policias-creen-que-detenciones-blocus-rebajen-altercados-halloween_202610316ae52f8d004b78127abab21d.html",
           "newspaper": "La Razón",
-          "date": "2026-10-30T20:00:47.835Z"
+          "date": "2026-10-31T12:46:12.243Z"
         },
         {
-          "title": "Feijoo promete <<gestion>> y exige a Sanchez y Puente que se aparten: <<Si no dimiten ellos, les dimitiremos en las urnas>>",
-          "url": "https://www.larazon.es/espana/feijoo-pide-cabeza-sanchez-puente-dimiten-ellos-les-dimitiremos-urnas_202610306ae4ab1a6973466c29e36115.html",
+          "title": "Entrevista a Simona Levi, fundadora de Xnet\"Las convocatorias de Blocus tienen dinamicas y mensajes similares a las que hubo con Ceuta\"",
+          "url": "https://www.publico.es/sociedad/convocatorias-blocus-dinamicas-mensajes-similares-hubo-ceuta.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T05:58:46.299Z"
+        },
+        {
+          "title": "Los policias creen que las detenciones de Blocus rebajen los altercados de Halloween",
+          "url": "https://www.larazon.es/espana/policias-creen-que-detenciones-blocus-rebajen-altercados-halloween_202610316ae52f8d004b78127abab21d.html",
           "newspaper": "La Razón",
-          "date": "2026-10-30T20:00:08.713Z"
+          "date": "2026-10-31T05:56:38.482Z"
+        },
+        {
+          "title": "Despliegues policiales, detenidos y comercios blindados ante la amenaza de Blocus",
+          "url": "https://www.eldiario.es/sociedad/despliegues-policiales-detenidos-comercios-blindados-amenaza-blocus_1_13628006.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T05:53:54.416Z"
+        },
+        {
+          "title": "Tension en Bilbao ante una protesta de Jardun, los herederos de ETA",
+          "url": "https://www.elmundo.es/pais-vasco/2026/10/31/6ae4f562fc6c83270c8b459e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T00:03:02.573Z"
         }
       ]
     },
@@ -1889,9 +1699,39 @@
       "title": "Médico",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
-      "news_count": 12,
+      "timeframe": "hace 9 h (24h)",
+      "news_count": 13,
       "matched_articles": [
+        {
+          "title": "Accidente de tren en Toledo, en directo | Identificadas 56 de las 69 victimas mortales de Urda mientras avanzan los trabajos en la zona y se retiran cinco vagones",
+          "url": "https://www.20minutos.es/nacional/accidente-tren-toledo-directo-los-institutos-forenses-han-recibido-ya-los-69-cuerpos-han-practicado-48-autopsias_7055282_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T21:55:43.641Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | Las gruas ya han retirado cinco vagones de la zona del accidente",
+          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.934Z"
+        },
+        {
+          "title": "Identificados 56 de los 69 fallecidos en el accidente de Urda: solo restan 13 cadaveres de ciudadanos extranjeros",
+          "url": "https://www.elespanol.com/eldigitalcastillalamancha/sociedad/sucesos/20261031/identificados-fallecidos-accidente-urda-solo-restan-cadaveres-ciudadanos-extranjeros/1003744442489_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:03.453Z"
+        },
+        {
+          "title": "\"Si El-Sayed puede ganar en Michigan, cualquiera puede ganar en cualquier lugar\": el candidato progresista a senador mas odiado por Trump",
+          "url": "https://www.eldiario.es/internacional/si-sayed-ganar-michigan-ganar-lugar-candidato-progresista-senador-odiado-trump_1_13623298.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:44:36.125Z"
+        },
+        {
+          "title": "Accidente de tren en Urda, ultima hora en directo: los forenses identifican a 56 de las personas fallecidas",
+          "url": "https://www.eldiario.es/castilla-la-mancha/accidente-tren-urda-ultima-hora-directo_133_13628783.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T21:43:03.919Z"
+        },
         {
           "title": "Dentro de la base militar que defiende Espana en el ciberespacio: \"La IA se parece al poder nuclear, pero se puede usar de mil formas diferentes\"",
           "url": "https://www.elmundo.es/papel/historias/2026/10/30/6ae398cafdddff7a548b4587.html",
@@ -1939,187 +1779,123 @@
           "url": "https://www.elmundo.es/salud/2026/10/30/6ae37fc4e4d4d8e5588b45a4.html",
           "newspaper": "El Mundo",
           "date": "2026-10-31T00:02:25.898Z"
-        },
-        {
-          "title": "Christa Pike habla por primera vez tras sobrevivir a dos inyecciones letales: \"Hay dolor en mi mente y en mi alma\"",
-          "url": "https://www.20minutos.es/internacional/christa-pike-habla-por-primera-vez-tras-sobrevivir-dos-inyecciones-letales-hay-dolor-mi-mente-mi-alma_7055602_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-30T20:09:35.186Z"
-        },
-        {
-          "title": "Claudia, una estudiante de farmacia que ayudo en el accidente ferroviario: \"Cuando voy a Africa estoy mas preparada que con lo vivido aqui\"",
-          "url": "https://www.elmundo.es/salud/2026/10/30/6ae388cfe85eced8448b4570.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:09.437Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
-          "url": "https://www.elmundo.es/economia/2026/10/30/6ae4348acd327869278e22cf-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:09.436Z"
-        },
-        {
-          "title": "Accidente de tren en Toledo, ultima hora en directo | Aun hay 67 personas desaparecidas tras ser localizadas cinco con vida",
-          "url": "https://www.elmundo.es/economia/2026/10/29/6ae2e2a9ddc80eae27434b11-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:09.435Z"
         }
       ]
     },
     {
-      "id": 31,
-      "title": "Sol",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "id": 104,
+      "title": "Senegal",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
       "news_count": 12,
       "matched_articles": [
         {
-          "title": "Antonio Magraner, presidente de los Jovenes Empresarios, ante la amenaza de Blocus: \"La empresa paga la dejacion del Gobierno\"",
-          "url": "https://www.20minutos.es/nacional/antonio-magraner-presidente-jovenes-empresarios-final-empresa-paga-dejacion-funciones-gobierno_7055825_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:34.909Z"
-        },
-        {
-          "title": "Dentro de la base militar que defiende Espana en el ciberespacio: \"La IA se parece al poder nuclear, pero se puede usar de mil formas diferentes\"",
-          "url": "https://www.elmundo.es/papel/historias/2026/10/30/6ae398cafdddff7a548b4587.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.017Z"
-        },
-        {
-          "title": "Alto del Arenal, el 'cerebro' de Metro que monitoriza 300 trenes y hasta medio millon de viajeros en hora punta: \"Cerramos los ojos y vemos la red entera\"",
-          "url": "https://www.elmundo.es/madrid/2026/10/31/6ae4e4aa21efa01e098b4574.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.015Z"
-        },
-        {
-          "title": "El extrano reino bulgaro de un 'chaman' murciano del Sol: 35 cactus psicodelicos y un grupo de 'iluminados' en los Balcanes",
-          "url": "https://www.elespanol.com/reportajes/20261031/extrano-reino-bulgaro-chaman-murciano-sol-cactus-psicodelicos-grupo-iluminados-balcanes/1003744430800_0.html",
+          "title": "'Dao', del francosenegales Alain Gomis, gana la Espiga de Oro de la Seminci",
+          "url": "https://www.elespanol.com/el-cultural/cine/20261031/dao-francosenegales-alain-gomis-gana-espiga-oro-seminci/1003744442300_0.html",
           "newspaper": "El Español",
-          "date": "2026-10-31T17:56:41.451Z"
+          "date": "2026-10-31T21:49:19.893Z"
         },
         {
-          "title": "Paris desafia bajo las mascaras de Halloween el veto legal a taparse la cara en protestas",
-          "url": "https://www.eldiario.es/internacional/paris-desafia-mascaras-halloween-veto-legal-taparse-cara-protestas_1_13629558.html",
+          "title": "La crisis institucional en Polonia por el Constitucional se encona y divide a la coalicion de Tusk",
+          "url": "https://www.elmundo.es/internacional/2026/10/31/6ae616f0fdddff8c6b8b4572.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T17:59:40.168Z"
+        },
+        {
+          "title": "Caos institucional en Polonia por conflicto de legitimidad en el Tribunal Constitucional",
+          "url": "https://www.publico.es/internacional/europa/caos-institucional-polonia-conflicto-legitimidad-tribunal-constitucional.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:55:51.307Z"
+        },
+        {
+          "title": "Caos institucional en Polonia por conflicto de legitimidad en el Tribunal Constitucional",
+          "url": "https://www.publico.es/internacional/europa/caos-institucional-polonia-conflicto-legitimidad-tribunal-constitucional.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T17:54:53.515Z"
+        },
+        {
+          "title": "El presidente polaco toma partido por la oposicion a Tusk en la pugna por el control del Tribunal Constitucional que deja ya cuatro detenidos",
+          "url": "https://www.elmundo.es/internacional/2026/10/31/6ae5d86ee4d4d8db798b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T12:51:54.039Z"
+        },
+        {
+          "title": "El presidente de Polonia entra en la sede del Constitucional, bloquea su renovacion y acusa a Tusk de \"golpe de Estado\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261030/presidente-polonia-aborta-visita-oficial-senegal-pleno-pulso-donald-tusk-controlar-constitucional/1003744442009_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T12:50:29.002Z"
+        },
+        {
+          "title": "La crisis institucional en Polonia por la suspension del presidente del Constitucional abre una fractura politica y desata protestas",
+          "url": "https://www.eldiario.es/internacional/crisis-institucional-polonia-suspension-presidente-constitucional-abre-fractura-politica-desata-protestas_1_13628838.html",
           "newspaper": "El Diario",
-          "date": "2026-10-31T17:51:47.213Z"
+          "date": "2026-10-31T12:44:56.947Z"
         },
         {
-          "title": "Comercios tapiados en Madrid: informes de inteligencia sobre Blocus alertan de \"grave riesgo\" en Barcelona, Valencia y Bilbao",
-          "url": "https://www.elespanol.com/reportajes/20261031/comercios-tapiados-madrid-informes-inteligencia-blocus-alertan-grave-riesgo-barcelona-valencia-bilbao/1003744441950_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T12:48:59.080Z"
+          "title": "La crisis institucional en Polonia por la suspension del presidente del Constitucional abre una fractura politica y desata protestas",
+          "url": "https://www.eldiario.es/internacional/crisis-institucional-polonia-suspension-presidente-constitucional-abre-fractura-politica-desata-protestas_1_13628838.html",
+          "newspaper": "El Diario",
+          "date": "2026-10-31T12:43:35.744Z"
         },
         {
-          "title": "Adriana Abascal: \"Emilio Azcarraga me dijo que lo que le atraia de mi no era mi fisico, sino mi inteligencia\"",
-          "url": "https://www.elmundo.es/loc/famosos/2026/10/30/6ae48825e4d4d815078b457f.html",
+          "title": "Escala la crisis en Polonia: la Policia se despliega en torno a la Corte Constitucional",
+          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae4f89c21efa0d3758b45a7.html",
           "newspaper": "El Mundo",
-          "date": "2026-10-31T06:02:35.116Z"
+          "date": "2026-10-31T00:02:43.144Z"
         },
         {
-          "title": "Ibiza pone limites a la iluminacion nocturna y fija multas de hasta casi 90.000 euros",
-          "url": "https://www.larazon.es/baleares/ibiza-pone-limites-iluminacion-nocturna-fija-multas-casi-90000-euros-b30m_202610306ae5103da5f83c2fb8ea0b21.html",
+          "title": "La policia polaca entra en el Constitucional tras el cese de su presidente: la oposicion denuncia un \"golpe de Estado\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261030/presidente-polonia-aborta-visita-oficial-senegal-pleno-pulso-donald-tusk-controlar-constitucional/1003744442009_0.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T00:00:59.856Z"
+        },
+        {
+          "title": "La Policia de Polonia rodea el Constitucional en el estallido de una crisis sobre la cupula de la corte",
+          "url": "https://www.larazon.es/internacional/policia-polonia-rodea-constitucional-estallido-crisis-cupula-corte_202610306ae4fb4602501232156e71cc.html",
           "newspaper": "La Razón",
-          "date": "2026-10-31T05:56:52.365Z"
+          "date": "2026-10-30T23:57:28.340Z"
         },
         {
-          "title": "La Espana que va de Fatima Banez a Oscar Puente",
-          "url": "https://www.elmundo.es/espana/2026/10/30/6ae4e379e85ece96228b458f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T00:03:02.575Z"
-        },
-        {
-          "title": "Nubes, asaltos con robots y hambre en los refugios: las claves de la Operacion Vivaldi contadas por sus protagonistas",
-          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae076f9fdddff99348b459a.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-10-30T20:06:26.930Z"
-        },
-        {
-          "title": "Como seguir viviendo despues de las 08:53 cuando ni siquiera un cura encuentra palabras de consuelo",
-          "url": "https://www.elespanol.com/opinion/tribunas/20261030/seguir-viviendo-despues-siquiera-cura-encuentra-palabras-consuelo/1003744441517_12.html",
-          "newspaper": "El Español",
-          "date": "2026-10-30T20:03:40.196Z"
-        },
-        {
-          "title": "Las explicaciones de Puente tras las dudas de Sanchez sobre la alta velocidad y otras cuatro noticias de hoy",
-          "url": "https://www.publico.es/sociedad/explicaciones-puente-dudas-sanchez-sobre-alta-velocidad-cuatro-noticias-hoy.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:10.780Z"
+          "title": "La Policia de Polonia rodea el Constitucional en el estallido de una crisis sobre la cupula de la corte",
+          "url": "https://www.larazon.es/internacional/policia-polonia-rodea-constitucional-estallido-crisis-cupula-corte_202610306ae4fb4602501232156e71cc.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-30T23:56:37.224Z"
         }
       ]
     },
     {
-      "id": 33,
-      "title": "Día de Todos los Santos",
+      "id": 29,
+      "title": "Manifestación Bilbao",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 3 h (4h)",
-      "news_count": 9,
+      "news_count": 10,
       "matched_articles": [
         {
-          "title": "Cual es el origen del Dia de Todos los Santos y por que se confunde con el Dia de los Difuntos",
-          "url": "https://www.20minutos.es/nacional/origen-dia-todos-los-santos-diferencia-dia-difuntos_5186556_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:32.981Z"
+          "title": "Un millar de simpatizantes de Jardun reclama en un Bilbao atemorizado la amnistia para los etarras y reivindica la \"lucha\"",
+          "url": "https://www.elmundo.es/pais-vasco/2026/10/31/6ae6398ae85ece8f098b459d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.938Z"
         },
         {
-          "title": "Blocus, hoy en directo | Ultima hora de las protestas y alerta en Madrid, Barcelona y capitales de Espana el sabado 31 de octubre",
-          "url": "https://www.20minutos.es/nacional/blocus-hoy-directo-ultima-hora-las-protestas-alerta-madrid-barcelona-capitales-espana-sabado-31-octubre_7055832_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T18:02:31.297Z"
-        },
-        {
-          "title": "El Gobierno frances restringe las protestas en Paris y Melenchon llama a movilizarse sin violencia",
-          "url": "https://www.publico.es/internacional/europa/gobierno-frances-restringe-protestas-paris-melenchon-llama-movilizarse-violencia.html",
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
           "newspaper": "Público",
-          "date": "2026-10-31T17:55:51.776Z"
+          "date": "2026-10-31T21:47:58.265Z"
         },
         {
-          "title": "De la 'Purga francesa' a 'la Noche del Diablo': las cinco celebraciones de Halloween que han pasado a la historia por su violencia",
-          "url": "https://www.20minutos.es/internacional/purga-francesa-noche-diablo-las-cinco-celebraciones-halloween-que-han-pasado-historia-por-su-violencia_7055590_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:37.653Z"
+          "title": "Blocus, rabia y miedo: como descifrar los disturbios violentos que la derecha quiere convertir en votos el 29N",
+          "url": "https://www.publico.es/politica/blocus-rabia-miedo-descifrar-disturbios-violentos-derecha-quiere-convertir-votos-29n.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:47:27.979Z"
         },
         {
-          "title": "Comercios de Espana blindan escaparates y se refuerza la seguridad ante llamamientos de 'Blocus' a sabotajes en Halloween",
-          "url": "https://www.20minutos.es/nacional/comercios-espana-blindan-escaparates-se-refuerza-seguridad-ante-llamamientos-blocus-sabotajes-halloween_7055736_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-10-31T12:54:09.880Z"
-        },
-        {
-          "title": "Los meteorologos coinciden: llegan dos danas a Espana en el fin de semana del 31 de octubre con fuertes lluvias en esta zona",
-          "url": "https://www.elespanol.com/ciencia/20261030/meteorologos-coinciden-llegan-danas-espana-fin-semana-octubre-fuertes-lluvias-zona/1003744440483_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T12:49:07.619Z"
-        },
-        {
-          "title": "La llamada de Colau a Moncloa pidiendo su cabeza estrecha el cerco sobre Puente: Sanchez lo mantiene como pararrayos",
-          "url": "https://www.elespanol.com/espana/politica/20261031/llamada-colau-moncloa-pidiendo-cabeza-estrecha-cerco-puente-sanchez-mantiene-pararrayos/1003744423441_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T06:00:26.792Z"
-        },
-        {
-          "title": "Calabazas en fanales, altares y rosarios dulces: los rituales que desafian a Halloween en la isla de la turistificacion",
-          "url": "https://www.eldiario.es/illes-balears/sociedad/calabazas-fanales-altares-rosarios-dulces-rituales-desafian-halloween-isla-turistificacion_1_13628382.html",
+          "title": "Cientos de personas marchan en Bilbao para exigir la libertad de los dos acusados de terrorismo",
+          "url": "https://www.eldiario.es/euskadi/cientos-personas-marchan-bilbao-exigir-libertad-acusados-terrorismo_1_13629654.html",
           "newspaper": "El Diario",
-          "date": "2026-10-31T05:54:09.541Z"
+          "date": "2026-10-31T21:43:18.668Z"
         },
-        {
-          "title": "Comercios madrilenos parapetan sus escaparates en el puente de Halloween por temor a saqueos como los de Barcelona",
-          "url": "https://www.publico.es/politica/comercios-madrilenos-parapetan-escaparates-puente-halloween-temor-saqueos-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:28.521Z"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Impuesto",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
-      "news_count": 5,
-      "matched_articles": [
         {
           "title": "Las principales ciudades espanolas se blindan ante posibles disturbios por la convocatoria de Blocus",
           "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
@@ -2127,37 +1903,113 @@
           "date": "2026-10-31T17:54:49.608Z"
         },
         {
-          "title": "Los 'nuevos chalecos amarillos' llaman a la huelga contra el 'monarca Macron' en el 'tercer acto' de las protestas en Francia",
-          "url": "https://www.elespanol.com/mundo/europa/20261031/nuevos-chalecos-amarillos-llaman-huelga-monarca-macron-tercer-acto-protestas-francia/1003744439278_0.html",
-          "newspaper": "El Español",
-          "date": "2026-10-31T06:01:11.953Z"
+          "title": "Barcelona y Madrid se blindan ante posibles disturbios por la convocatoria de Blocus",
+          "url": "https://www.publico.es/sociedad/barcelona-madrid-blindan-posibles-disturbios-convocatoria-blocus.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T12:47:32.694Z"
         },
         {
-          "title": "Banca y energeticas ganan 46.000 millones en nueve meses y reavivan las criticas a la injusticia fiscal",
-          "url": "https://www.publico.es/economia/banca-energeticas-ganan-46-000-millones-nueve-meses-reavivan-criticas-injusticia-fiscal.html",
-          "newspaper": "Público",
-          "date": "2026-10-31T05:58:45.535Z"
+          "title": "Los policias creen que las detenciones de Blocus rebajaran los altercados de Halloween",
+          "url": "https://www.larazon.es/espana/policias-creen-que-detenciones-blocus-rebajen-altercados-halloween_202610316ae52f8d004b78127abab21d.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T12:46:12.243Z"
         },
         {
-          "title": "Las claves del accidente ferroviario de Urda y las incognitas por resolver | Informe Publico",
-          "url": "https://www.publico.es/politica/video-claves-accidente-ferroviario-urda-incognitas-resolver-informe-publico.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:29.571Z"
+          "title": "Una semana infiltrado con los Blocus, los violentos que lideraba el hispanopakistani Alfayez desde un pueblo de Valencia",
+          "url": "https://www.elmundo.es/cronica/2026/10/30/6ae506b7e9cf4a72368b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T06:02:35.115Z"
         },
         {
-          "title": "Las claves del accidente ferroviario de Urda y las incognitas por resolver | Informe Publico",
-          "url": "https://www.publico.es/politica/video-claves-accidente-ferroviario-urda-incognitas-resolver-informe-publico.html",
-          "newspaper": "Público",
-          "date": "2026-10-30T20:02:11.511Z"
+          "title": "Los policias creen que las detenciones de Blocus rebajen los altercados de Halloween",
+          "url": "https://www.larazon.es/espana/policias-creen-que-detenciones-blocus-rebajen-altercados-halloween_202610316ae52f8d004b78127abab21d.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T05:56:38.482Z"
+        },
+        {
+          "title": "Tension en Bilbao ante una protesta de Jardun, los herederos de ETA",
+          "url": "https://www.elmundo.es/pais-vasco/2026/10/31/6ae4f562fc6c83270c8b459e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T00:03:02.573Z"
         }
       ]
     },
     {
-      "id": 14,
+      "id": 105,
+      "title": "Polémica",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 10,
+      "matched_articles": [
+        {
+          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | Las gruas ya han retirado cinco vagones de la zona del accidente",
+          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.934Z"
+        },
+        {
+          "title": "Machado regresa a una Venezuela donde Trump y Delcy Rodriguez ya se repartieron el poder",
+          "url": "https://www.publico.es/internacional/america-latina/machado-regresa-venezuela-trump-delcy-rodriguez-repartieron-poder.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T21:48:30.436Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | La Guardia Civil identifica al propietario de un dron que grababa en la zona del accidente",
+          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T17:59:22.012Z"
+        },
+        {
+          "title": "La dimision, la responsabilidad del operario, los fallos del sistema... los vaivenes en el discurso de Puente tras la tragedia de Urda",
+          "url": "https://www.20minutos.es/nacional/dimision-responsabilidad-operario-los-fallos-sistema-los-vaivenes-discurso-puente-tras-tragedia-urda_7055720_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-10-31T12:54:12.917Z"
+        },
+        {
+          "title": "Estados Unidos, entre las amenazas antisemitas y la batalla por la palabra genocidio",
+          "url": "https://www.elmundo.es/internacional/2026/10/30/6ae372bce9cf4a51408b45af.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T12:51:54.038Z"
+        },
+        {
+          "title": "Accidente de tren en Toledo, ultima hora hoy en directo | Comienza la retirada de enseres personales de las victimas del accidente de tren de Urda",
+          "url": "https://www.elmundo.es/economia/2026/10/31/6ae58d22ddc80eae27772bae-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T12:51:37.688Z"
+        },
+        {
+          "title": "Un paso de peatones termina frente a un muro y desata la polemica en Francia: la oposicion pregunta cuanto ha costado y el Ayuntamiento se defiende",
+          "url": "https://www.larazon.es/actualidad/paso-peatones-termina-frente-muro-desata-polemica-francia-oposicion-pregunta-cuanto-costado-ayuntamiento-defiende-b50m_202610316ae5e2e802501232156f2e63.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T12:46:18.526Z"
+        },
+        {
+          "title": "2.000 usuarios pujando, medio millon de euros y el 99% de los lotes vendidos: la subasta de los Franco, \"la mas exitosa en Espana en los ultimos anos\"",
+          "url": "https://www.elmundo.es/loc/famosos/2026/10/31/6ae48a75e9cf4aa34e8b4581.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T06:02:35.117Z"
+        },
+        {
+          "title": "Dos Dan Sullivan en la papeleta en Alaska y una campana bajo sospecha",
+          "url": "https://www.larazon.es/internacional/dos-dan-sullivan-papeleta-alaska-campana-sospecha_202610316ae579626973466c29e4106d.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T05:58:05.251Z"
+        },
+        {
+          "title": "Un nuevo 29N",
+          "url": "https://www.larazon.es/espana/nuevo-29n_202610316ae4ada46973466c29e363e6.html",
+          "newspaper": "La Razón",
+          "date": "2026-10-31T05:56:41.412Z"
+        }
+      ]
+    },
+    {
+      "id": 12,
       "title": "Lotería",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 5,
       "matched_articles": [
         {
@@ -2193,33 +2045,61 @@
       ]
     },
     {
-      "id": 28,
-      "title": "Barca",
+      "id": 1,
+      "title": "Barcelona - Alavés",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 2,
+      "volume": "500 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 3,
       "matched_articles": [
         {
-          "title": "El Atletico le da un mordisco al liderato de la Liga",
-          "url": "https://www.elmundo.es/deportes/futbol/primera-division/2026/10/31/6ae5d450e9cf4a1b2a8b4594.html",
-          "newspaper": "El Mundo",
-          "date": "2026-10-31T17:59:22.016Z"
+          "title": "Barcelona - Alaves | LaLiga: resultado y resumen del partido de futbol de hoy en directo",
+          "url": "https://www.lavanguardia.com/deportes/futbol/20261031/11672914/barcelona-alaves-laliga-ea-sports-partido-futbol-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-10-31T21:53:55.808Z"
         },
         {
-          "title": "Gael Rodriguez, de alcalde mas joven al senador mas joven",
-          "url": "https://www.larazon.es/espana/gael-rodriguez-alcalde-mas-joven-senador-mas-joven_202610316adc52951e53586bfbbac124.html",
-          "newspaper": "La Razón",
-          "date": "2026-10-31T05:56:39.802Z"
+          "title": "Barcelona - Alaves, en directo",
+          "url": "https://www.elmundo.es/deportes/futbol/laliga-ea-sports/barcelona-alaves/2026/10/31/01_0101_20261031_178_173-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "FC Barcelona - Alaves, futbol hoy en directo: resultado, goleadores y estadisticas en vivo del partido de La Liga",
+          "url": "https://www.elespanol.com/deportes/20261031/fc-barcelona-alaves-futbol-hoy-directo-resultado-goleadores-estadisticas-vivo-partido-liga/1003744442281_22.html",
+          "newspaper": "El Español",
+          "date": "2026-10-31T21:49:12.777Z"
         }
       ]
     },
     {
-      "id": 7,
+      "id": 122,
+      "title": "Gordon",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Barcelona - Alaves, en directo",
+          "url": "https://www.elmundo.es/deportes/futbol/laliga-ea-sports/barcelona-alaves/2026/10/31/01_0101_20261031_178_173-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        },
+        {
+          "title": "De 'La noche de Halloween' a 'Pesadilla antes de Navidad': el cine que nos enseno a disfrutar del miedo",
+          "url": "https://www.publico.es/culturas/cine-tv/noche-halloween-pesadilla-navidad-cine-enseno-disfrutar-miedo.html",
+          "newspaper": "Público",
+          "date": "2026-10-31T05:58:49.796Z"
+        }
+      ]
+    },
+    {
+      "id": 9,
       "title": "Calefacción",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -2231,29 +2111,61 @@
       ]
     },
     {
-      "id": 1,
-      "title": "Barcelona - Alavés",
+      "id": 27,
+      "title": "Éder Militão",
       "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Roban mas de 350.000 euros en joyas y relojes al defensa del Real Madrid Militao en su casa de La Moraleja mientras jugaba el Clasico en Barcelona",
+          "url": "https://www.elmundo.es/madrid/2026/10/31/6ae63047e4d4d8a3568b4590.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.939Z"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Lamine Yamal",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Barcelona - Alaves, en directo",
+          "url": "https://www.elmundo.es/deportes/futbol/laliga-ea-sports/barcelona-alaves/2026/10/31/01_0101_20261031_178_173-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-10-31T21:52:09.937Z"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Posiciones de Betis Contra Málaga Cf",
+      "title": "Posiciones de Levante Ud Contra Atlético de Madrid",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 3,
-      "title": "Posiciones de Levante Ud Contra Atlético de Madrid",
+      "title": "Posiciones de Betis Contra Málaga Cf",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 5,
+      "title": "Rayo Vallecano - Celta de Vigo",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 11 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -2262,58 +2174,67 @@
       "title": "Sarah Santaolalla",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 8,
-      "title": "Inter Milan",
+      "id": 7,
+      "title": "Antonio Tejado",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 9,
-      "title": "Brian Fariñas",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 11,
-      "title": "Alba Carrillo",
+      "title": "Bayern - Dortmund",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
+      "timeframe": "hace 8 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 12,
-      "title": "Eibar - Almería",
+      "id": 13,
+      "title": "Acampadas por el Derecho a la Vivienda en España de 2026",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 14,
+      "title": "Milan - Inter",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 15,
-      "title": "José Sacristán",
+      "title": "Brian Fariñas",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 6 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 25,
-      "title": "Posiciones de Bayern Contra Borussia Dortmund",
+      "id": 20,
+      "title": "Hornets - 76ers",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 22,
+      "title": "Real Zaragoza - Villarreal B",
       "source": "google",
       "volume": "5 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
@@ -2321,62 +2242,71 @@
       "matched_articles": []
     },
     {
-      "id": 27,
-      "title": "Aston Villa - Fulham",
+      "id": 23,
+      "title": "Classificació de Futbol Club Barcelona - Alavés",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 24,
+      "title": "Llaneros - Junior",
+      "source": "google",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 29,
-      "title": "Colin Farrell",
+      "id": 25,
+      "title": "Spurs - Timberwolves",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 30,
-      "title": "Antonio Tejado",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 34,
-      "title": "Aston Villa",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 104,
-      "title": "Poland",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
+      "id": 28,
+      "title": "Rockets - Thunder",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 31,
+      "title": "Canelo Álvarez",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 33,
+      "title": "Posiciones de Ac Milan Contra Inter Milan",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 34,
+      "title": "Bucks - Cavaliers",
+      "source": "google",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 121,
-      "title": "#lasextaxplica",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 122,
-      "title": "Fermin",
+      "title": "#ufchbomax",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -2385,7 +2315,7 @@
     },
     {
       "id": 123,
-      "title": "Frenkie",
+      "title": "Betis",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -2394,7 +2324,7 @@
     },
     {
       "id": 124,
-      "title": "Rapha",
+      "title": "Lewis Hamilton",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -2403,7 +2333,7 @@
     },
     {
       "id": 125,
-      "title": "Larrubia",
+      "title": "Steve Mcmanaman",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

@@ -1,650 +1,78 @@
 {
-  "timestamp": "2026-11-07T03:10:51.535267",
+  "timestamp": "2026-11-07T10:36:09.102144",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 6,
+    "xtrends_total": 7,
     "tags_total": 50,
-    "unique_total": 81,
-    "unified_count": 4,
-    "with_news": 59,
-    "without_news": 22
+    "unique_total": 82,
+    "unified_count": 3,
+    "with_news": 65,
+    "without_news": 17
   },
   "trends": [
     {
       "id": 200,
-      "title": "Ue - Union Europea",
+      "title": "Ia",
       "source": "news_tags",
-      "volume": "584 artículos",
+      "volume": "463 artículos",
       "timeframe": "24h noticias",
-      "news_count": 584
+      "news_count": 463
     },
     {
       "id": 201,
-      "title": "Ia",
+      "title": "Queda",
       "source": "news_tags",
-      "volume": "480 artículos",
+      "volume": "242 artículos",
       "timeframe": "24h noticias",
-      "news_count": 480
+      "news_count": 242
     },
     {
       "id": 202,
       "title": "Por",
       "source": "news_tags",
-      "volume": "217 artículos",
+      "volume": "203 artículos",
       "timeframe": "24h noticias",
-      "news_count": 217
+      "news_count": 203
     },
     {
       "id": 203,
       "title": "Dos",
       "source": "news_tags",
-      "volume": "178 artículos",
+      "volume": "174 artículos",
       "timeframe": "24h noticias",
-      "news_count": 178
-    },
-    {
-      "id": 22,
-      "title": "Vivienda",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 40 min (4h)",
-      "news_count": 105,
-      "matched_articles": [
-        {
-          "title": "Rufian asegura que Sanchez \"esta siendo perseguido\" por la Justicia, pero le afea \"excusas\" ante los casos de corrupcion",
-          "url": "https://www.20minutos.es/nacional/rufian-asegura-que-sanchez-esta-siendo-perseguido-por-justicia-pero-le-afea-excusas-ante-los-casos-corrupcion_7058390_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T23:27:11.369Z"
-        },
-        {
-          "title": "Frente Amplio lanza una app que simula la recaudacion en las 50 grandes fortunas de su impuesto a ultrarricos",
-          "url": "https://www.20minutos.es/nacional/frente-amplio-lanza-una-app-que-simula-recaudacion-las-50-grandes-fortunas-su-impuesto-ultrarricos_7058371_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T23:27:10.809Z"
-        },
-        {
-          "title": "Prision provisional para la madre y otros dos detenidos en la trama por una presunta venta de menores en Badajoz",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aee0caee4d4d8d0238b459a.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:25:11.338Z"
-        },
-        {
-          "title": "Cuatro detenidos y dos heridos, uno por arma de fuego, en un tiroteo en Los Realejos (Tenerife)",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aed9b73fdddff01318b459e.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:25:11.337Z"
-        },
-        {
-          "title": "Se elevan a 14 los detenidos de Nucleo Nacional en una operacion con 10 registros en siete provincias",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aeda849fdddffd7708b458c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:25:11.337Z"
-        },
-        {
-          "title": "Abascal carga contra Sanchez por \"callarse como un muerto\" ante la invasion de Ceuta y lo acusa de estar \"comprado por Marruecos\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aee24dde4d4d896388b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:24:32.865Z"
-        },
-        {
-          "title": "Unai Sordo: \"Si la huelga general condiciona la campana electoral, pues ni tan mal\"",
-          "url": "https://www.publico.es/economia/unai-sordo-huelga-general-condiciona-campana-electoral-pues-mal.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T23:19:54.080Z"
-        },
-        {
-          "title": "La madre de la actriz Ana Arias desaparece en Madrid mientras pasaba unos dias con su hija",
-          "url": "https://www.larazon.es/gente/madre-actriz-ana-arias-desaparece-madrid-mientras-pasaba-dias-hija-b50m_202611066aee5379ea8d8979977c515d.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:18:33.684Z"
-        },
-        {
-          "title": "Abalos denuncia un <<espectaculo circense>> tras el registro de su casa y niega haber cobrado mordidas",
-          "url": "https://www.larazon.es/espana/abalos-denuncia-espectaculo-circense-registro-casa-niega-haber-cobrado-mordidas_202611066aee2274d3bddc0868a81f9f.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:18:25.118Z"
-        },
-        {
-          "title": "Los chalecos amarillos convocan otra jornada de protestas en Francia este sabado 7 de noviembre",
-          "url": "https://www.20minutos.es/internacional/los-chalecos-amarillos-convocan-otra-jornada-protestas-francia-este-sabado-7-noviembre_7058312_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:17:26.447Z"
-        },
-        {
-          "title": "Montero cree que Frente \"no ha arrancado ningun derecho\" al PSOE en el Gobierno: \"La regularizacion la consiguio Podemos\"",
-          "url": "https://www.20minutos.es/nacional/montero-cree-que-frente-no-ha-arrancado-ningun-derecho-psoe-gobierno-regularizacion-consiguio-podemos_7058131_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:17:01.036Z"
-        },
-        {
-          "title": "Frente Amplio plantea una ley para expropiar viviendas a grandes fondos de inversion: \"Es perfectamente viable\"",
-          "url": "https://www.20minutos.es/nacional/frente-amplio-plantea-una-ley-para-expropiar-viviendas-grandes-fondos-inversion-es-perfectamente-viable_7058188_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:58.733Z"
-        },
-        {
-          "title": "CASA 47 incorpora 442 nuevas viviendas de alquiler asequible: estas son las comunidades donde se encuentran",
-          "url": "https://www.20minutos.es/nacional/casa-47-incorpora-442-nuevas-viviendas-alquiler-asequible-estas-son-las-comunidades-donde-se-encuentran_7058292_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:52.427Z"
-        },
-        {
-          "title": "Debates de las elecciones generales del 29N: cuantos hay, cuando son y todo lo que se sabe",
-          "url": "https://www.20minutos.es/nacional/debates-elecciones-generales-29n-cuantos-hay-cuando-son-todo-que-se-sabe_7053057_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:50.787Z"
-        },
-        {
-          "title": "Uno de cada cinco anuncios de alquiler en Idealista han desaparecido tras los decretos de vivienda del Gobierno",
-          "url": "https://www.20minutos.es/nacional/uno-cada-cinco-anuncios-alquiler-idealista-han-desaparecido-tras-los-decretos-vivienda-gobierno_7058353_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:46.261Z"
-        },
-        {
-          "title": "Prision provisional para la madre y otros dos detenidos en la trama por una presunta venta de menores en Badajoz",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aee0caee4d4d8d0238b459a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:14:17.236Z"
-        },
-        {
-          "title": "El candidato de Podemos en Murcia interrumpe la Feria de Vivienda al grito de \"!fuera buitres!\"",
-          "url": "https://www.elmundo.es/murcia/2026/11/06/6aedd991e9cf4ad56e8b458b.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:14:17.233Z"
-        },
-        {
-          "title": "?Ha estallado la 'burbuja' de la IA? Los 'tecnoligarcas' y los 7 gigantes de la bolsa ven esfumarse billones de dolares en horas",
-          "url": "https://www.elmundo.es/economia/dinero-inversion/2026/11/06/6aed88f4fdddffcd0c8b45a2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.717Z"
-        },
-        {
-          "title": "Ada Colau lanza su ley \"estrella\" para expropiar viviendas a los grandes fondos de inversion",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb20e9cf4ad16a8b45b0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.715Z"
-        },
-        {
-          "title": "La campana del PP para \"el cambio necesario\": arranque en Badalona, mitines en plazas de toros y agenda paralela de los barones",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.714Z"
-        },
-        {
-          "title": "Asi es el misterio demoscopico de Plasencia, la ciudad que siempre 'acierta' el ganador de las elecciones generales",
-          "url": "https://www.elmundo.es/cronica/2026/11/03/6ae4d9ffe9cf4af6438b4577.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.714Z"
-        },
-        {
-          "title": "El padre de Meghan Markle, detenido por el FBI en Florida por presunta posesion de pornografia infantil",
-          "url": "https://www.elespanol.com/corazon/casas-reales/20261106/padre-meghan-markle-detenido-fbi-florida-presunta-posesion-pornografia-infantil/1003744449338_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T18:10:23.394Z"
-        },
-        {
-          "title": "Detienen en Florida al padre de Meghan Markle acusado de poseer imagenes de abuso sexual infantil",
-          "url": "https://www.publico.es/internacional/eeuu/detienen-florida-padre-meghan-markle.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:40.601Z"
-        },
-        {
-          "title": "El Frente Amplio propone una ley de expropiacion a los fondos buitre para recuperar 100.000 viviendas",
-          "url": "https://www.publico.es/politica/frente-amplio-propone-ley-expropiacion-fondos-buitre-recuperar-100-000-viviendas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:13.917Z"
-        },
-        {
-          "title": "El Frente Amplio lanza una aplicacion en la red para senalar lo que recaudaria un impuesto a las 50 mayores fortunas",
-          "url": "https://www.publico.es/politica/frente-amplio-lanza-aplicacion-red-senalar-recaudaria-impuesto-50-mayores-fortunas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:11.259Z"
-        },
-        {
-          "title": "Mas de 20.000 organizaciones respaldan la huelga general del 11 de noviembre por la vivienda",
-          "url": "https://www.publico.es/economia/vivienda/20-000-organizaciones-respaldan-huelga-general-11-noviembre-vivienda.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:51.553Z"
-        },
-        {
-          "title": "Mas de 800 trabajadoras del mundo de la cultura se suman a la huelga general con un manifiesto por la vivienda",
-          "url": "https://www.publico.es/culturas/800-trabajadoras-mundo-cultura-suman-huelga-general-manifiesto-vivienda.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:50.793Z"
-        },
-        {
-          "title": "El Frente Amplio lanza una aplicacion en la red para senalar lo que recaudaria un impuesto a las 50 mayores fortunas",
-          "url": "https://www.publico.es/politica/frente-amplio-lanza-aplicacion-red-senalar-recaudaria-impuesto-50-mayores-fortunas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:46.985Z"
-        },
-        {
-          "title": "El Frente Amplio propone una ley de expropiacion a los fondos buitre para recuperar 100.000 viviendas",
-          "url": "https://www.publico.es/politica/frente-amplio-propone-ley-expropiacion-fondos-buitre-recuperar-100-000-viviendas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:46.637Z"
-        },
-        {
-          "title": "El PP no se cree la tregua del PSOE con la campana: <<Esta filtrando audios>>",
-          "url": "https://www.larazon.es/espana/cree-tregua-psoe-campana-esta-filtrando-audios_202610306ae424716973466c29e2c85a.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T18:07:22.329Z"
-        },
-        {
-          "title": "El primer debate electoral de laSexta fija nueva fecha y anuncia a sus protagonistas",
-          "url": "https://www.larazon.es/television/programas/primer-debate-electoral-lasexta-fecha-protagonistas_202611066aedf99103bbf30bb04280e0.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T18:06:53.576Z"
-        },
-        {
-          "title": "El Frente Amplio plantea una ley para expropiar viviendas a los fondos buitre",
-          "url": "https://www.eldiario.es/politica/frente-amplio-plantea-ley-expropiar-viviendas-fondos-buitre_1_13643839.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:54.820Z"
-        },
-        {
-          "title": "La Audiencia Nacional analiza si la pareja de Abalos pago un 'loft' en Vallecas con fondos obtenidos de mordidas",
-          "url": "https://www.eldiario.es/politica/audiencia-nacional-analiza-si-pareja-abalos-pago-loft-vallecas-fondos-obtenidos-mordidas_1_13644021.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:52.808Z"
-        },
-        {
-          "title": "La Asamblea expedienta a una diputada de Mas Madrid por preguntar a Ayuso si preferia la \"via francesa\" en lugar de la acampada \"pacifica\" de Sol",
-          "url": "https://www.eldiario.es/politica/asamblea-expedienta-diputada-madrid-preguntar-ayuso-si-preferia-via-francesa-lugar-acampada-pacifica-sol_1_13644764.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:51.604Z"
-        },
-        {
-          "title": "Una nueva plataforma llama a la izquierda a movilizarse ante las elecciones: \"Quedarte en casa es quedarte sin casa\"",
-          "url": "https://www.eldiario.es/politica/nueva-plataforma-llama-izquierda-movilizarse-elecciones-quedarte-casa-quedarte-casa_1_13645066.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:49.045Z"
-        },
-        {
-          "title": "Los ultimos desalojados de la acampada de Sol se volcaran en ayudar a las personas sin hogar",
-          "url": "https://www.eldiario.es/madrid/somos/ultimos-desalojados-acampada-sol-volcaran-ayudar-personas-hogar_1_13644356.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:14.582Z"
-        },
-        {
-          "title": "El Frente Amplio plantea una ley para expropiar viviendas a los fondos buitre",
-          "url": "https://www.eldiario.es/politica/frente-amplio-plantea-ley-expropiar-viviendas-fondos-buitre_1_13643839.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:06.083Z"
-        },
-        {
-          "title": "Yolanda Diaz llama a secundar la huelga general del 11N y convertirla en una \"marea de esperanza\" para las elecciones",
-          "url": "https://www.eldiario.es/economia/yolanda-diaz-llama-secundar-huelga-general-11n-convertirla-marea-esperanza-elecciones_1_13643921.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:03:56.167Z"
-        },
-        {
-          "title": "Rodrigo Sorogoyen, Alana S. Portero, David Ucles y mas de 800 firmas apoyan la huelga del 11N: \"La cultura tambien para\"",
-          "url": "https://www.eldiario.es/cultura/rodrigo-sorogoyen-alana-s-portero-david-ucles-750-firmas-apoyan-huelga-11n-cultura_1_13643645.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:03:55.443Z"
-        },
-        {
-          "title": "Asi es el kit de emergencia de 72 horas que vuelve a recomendar Bruselas: que debe llevar y como prepararlo",
-          "url": "https://www.20minutos.es/internacional/asi-es-kit-emergencia-72-horas-que-vuelve-recomendar-bruselas-que-debe-llevar-como-prepararlo_7057557_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:56.306Z"
-        },
-        {
-          "title": "Un dibujo, un recuerdo o una caja fuerte bajo el agua: cinco historias de ninos que ayudaron a capturar asesinos y delincuentes",
-          "url": "https://www.20minutos.es/internacional/un-dibujo-un-recuerdo-una-caja-fuerte-bajo-agua-cinco-historias-ninos-que-ayudaron-capturar-asesinos-delincuentes_7057913_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:54.118Z"
-        },
-        {
-          "title": "La periodista cubana Yoani Sanchez fue liberada tras varias horas detenida en La Habana",
-          "url": "https://www.20minutos.es/internacional/periodista-cubana-yoani-sanchez-fue-liberada-tras-varias-horas-detenida-habana_7057960_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:52.786Z"
-        },
-        {
-          "title": "Quien es Cristian Corvillo, el exchofer de Sanchez en las primarias de 2017 y detenido por la UCO en el caso Koldo",
-          "url": "https://www.20minutos.es/nacional/quien-es-cristian-corvillo-exchofer-sanchez-las-primarias-2017-detenido-por-uco-caso-koldo_7057751_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:15.849Z"
-        },
-        {
-          "title": "La tolerancia y la parresia. El riesgo de decir la verdad",
-          "url": "https://www.20minutos.es/nacional/tolerancia-parresia-riesgo-decir-verdad_7057855_3.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:14.988Z"
-        },
-        {
-          "title": "Un dibujo, un recuerdo o una caja fuerte bajo el agua: cinco historias de ninos que ayudaron a capturar asesinos y delincuentes",
-          "url": "https://www.20minutos.es/internacional/un-dibujo-un-recuerdo-una-caja-fuerte-bajo-agua-cinco-historias-ninos-que-ayudaron-capturar-asesinos-delincuentes_7057913_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:11.121Z"
-        },
-        {
-          "title": "Quien es Cristian Corvillo, el exchofer de Sanchez en las primarias de 2017 y detenido por la UCO en el caso Koldo",
-          "url": "https://www.20minutos.es/nacional/quien-es-cristian-corvillo-exchofer-sanchez-las-primarias-2017-detenido-por-uco-caso-koldo_7057751_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:05.751Z"
-        },
-        {
-          "title": "Cuatro detenidos y dos heridos, uno por arma de fuego, en un tiroteo en Los Realejos (Tenerife)",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aed9b73fdddff01318b459e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:52.360Z"
-        },
-        {
-          "title": "Operacion contra Nucleo Nacional: varios detenidos y registro de la sede",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aeda849fdddffd7708b458c.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:52.360Z"
-        },
-        {
-          "title": "Irene Montero desvela su precio a una investidura de Sanchez: \"Con eso querriamos formar parte del Gobierno\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedafaefc6c83656c8b457b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:13.184Z"
-        },
-        {
-          "title": "Las comunidades autonomas tendran que informar inmediatamente de cada pago o subvencion hecho dentro del Plan Estatal de Vivienda",
-          "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/11/06/comunidades-autonomas-tendran-informar-inmediatamente-pago-subvencion-dentro-plan-estatal-vivienda/00031793958604097913809.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-06T11:22:34.326Z"
-        }
-      ],
-      "merged_sources": [
-        "google",
-        "news_tags"
-      ]
+      "news_count": 174
     },
     {
       "id": 204,
       "title": "Era",
       "source": "news_tags",
-      "volume": "88 artículos",
+      "volume": "104 artículos",
       "timeframe": "24h noticias",
-      "news_count": 88
+      "news_count": 104
     },
     {
       "id": 205,
       "title": "Les",
       "source": "news_tags",
-      "volume": "77 artículos",
+      "volume": "78 artículos",
       "timeframe": "24h noticias",
-      "news_count": 77
-    },
-    {
-      "id": 105,
-      "title": "Uco",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 66,
-      "matched_articles": [
-        {
-          "title": "Abalos subraya la coincidencia entre el registro en su casa y las declaraciones de Koldo: \"No voy a fingir que llama la atencion\"",
-          "url": "https://www.20minutos.es/nacional/abalos-subraya-coincidencia-registro-casa-declaraciones-koldo_7058422_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T23:27:05.942Z"
-        },
-        {
-          "title": "El juez cita a Cintia Rocho para que declare como testigo sobre el intento de \"eliminar\" a Beatriz Biedma",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aedd054fc6c83f6498b45a7.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:25:11.340Z"
-        },
-        {
-          "title": "Abalos denuncia un <<espectaculo circense>> tras el registro de su casa y niega haber cobrado mordidas",
-          "url": "https://www.larazon.es/espana/abalos-denuncia-espectaculo-circense-registro-casa-niega-haber-cobrado-mordidas_202611066aee2274d3bddc0868a81f9f.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:18:25.118Z"
-        },
-        {
-          "title": "Un contrato de Adif bajo la lupa de la Fiscalia Europea se adjudico 24 horas despues del confinamiento",
-          "url": "https://www.larazon.es/espana/contrato-adif-lupa-fiscalia-europea-adjudico-24-horas-despues-confinamiento_202611066aee2c62d3bddc0868a82d27.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:18:24.855Z"
-        },
-        {
-          "title": "Quien es Andrea de la Torre, la novia de Abalos que ha sido detenida por la UCO en Valencia en el caso Koldo",
-          "url": "https://www.20minutos.es/nacional/quien-es-andrea-torre-novia-abalos-detenida-uco-valencia-nueva-operacion-caso-koldo_7058136_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:17:01.792Z"
-        },
-        {
-          "title": "El contacto al que recurrieron las \"cloacas\" para \"eliminar\" a Biedma tendra que declarar como testigo",
-          "url": "https://www.larazon.es/espana/contacto-que-recurrieron-cloacas-eliminar-biedma-tendra-que-declarar-como-testigo_202611066aedcf0f03bbf30bb0424935.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T18:06:42.889Z"
-        },
-        {
-          "title": "El juez Pedraz llama a declarar a la testigo del supuesto plan para atentar contra Biedma y la cita a cinco dias de las elecciones",
-          "url": "https://www.eldiario.es/politica/juez-pedraz-llama-declarar-testigo-supuesto-plan-atentar-biedma-cita-cinco-dias-elecciones_1_13644224.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:54.125Z"
-        },
-        {
-          "title": "La Audiencia Nacional analiza si la pareja de Abalos pago un 'loft' en Vallecas con fondos obtenidos de mordidas",
-          "url": "https://www.eldiario.es/politica/audiencia-nacional-analiza-si-pareja-abalos-pago-loft-vallecas-fondos-obtenidos-mordidas_1_13644021.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:52.808Z"
-        },
-        {
-          "title": "El juez Pedraz llama a declarar a la testigo del supuesto plan para atentar contra Biedma y la cita a cinco dias de las elecciones",
-          "url": "https://www.eldiario.es/politica/juez-pedraz-llama-declarar-testigo-supuesto-plan-atentar-biedma-cita-cinco-dias-elecciones_1_13644224.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:03:49.286Z"
-        },
-        {
-          "title": "Quien es Cristian Corvillo, el exchofer de Sanchez en las primarias de 2017 y detenido por la UCO en el caso Koldo",
-          "url": "https://www.20minutos.es/nacional/quien-es-cristian-corvillo-exchofer-sanchez-las-primarias-2017-detenido-por-uco-caso-koldo_7057751_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:15.849Z"
-        },
-        {
-          "title": "Quien es Cristian Corvillo, el exchofer de Sanchez en las primarias de 2017 y detenido por la UCO en el caso Koldo",
-          "url": "https://www.20minutos.es/nacional/quien-es-cristian-corvillo-exchofer-sanchez-las-primarias-2017-detenido-por-uco-caso-koldo_7057751_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:05.751Z"
-        },
-        {
-          "title": "El rastro de las mordidas lleva de nuevo a la UCO a casa de Abalos a una semana de la campana",
-          "url": "https://www.lavanguardia.com/politica/20261106/11677340/rastro-mordidas-lleva-nuevo-uco-casa-abalos-semana-campana.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-06T11:25:25.508Z"
-        },
-        {
-          "title": "La Fiscalia Europea lanza una operacion con la UCO por los contratos de Adif tras el accidente de Urda",
-          "url": "https://www.lavanguardia.com/vida/20261106/11677722/fiscalia-europea-lanza-operacion-uco-contratos-adif-accidente-urda.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-06T11:24:14.600Z"
-        },
-        {
-          "title": "La Fiscalia Europea pone en marcha una operacion con la UCO por la tragedia de Urda y reclama documentacion a Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aed98e121efa0477c8b457d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:52.359Z"
-        },
-        {
-          "title": "Arcadi Espana insinua una posible subida de impuestos para financiar el transporte: \"No podemos lanzar mensajes de recortes\"",
-          "url": "https://www.elmundo.es/comunidad-valenciana/2026/11/06/6aed9afefdddff59198b458d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:13.182Z"
-        },
-        {
-          "title": "La Fiscalia Europea pone en marcha una operacion con la UCO por la tragedia de Urda y reclama documentacion a Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aed98e121efa0477c8b457d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:13.181Z"
-        },
-        {
-          "title": "La Fiscalia Europea y la UCO desatan una operacion por fraude con fondos comunitarios en el tramo de la tragedia de Urda",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/06/fiscalia-europea-uco-desatan-operacion-fraude-fondos-comunitarios-tramo-tragedia-urda/00031793957172664436380.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-06T11:22:25.079Z"
-        },
-        {
-          "title": "Andrea amenazo a Abalos con denunciarle: \"Antes de que me den un piso no me puedo ir. Cuidadito con echarme\"",
-          "url": "https://www.elespanol.com/espana/20261106/andrea-amenazo-abalos-denunciarle-den-piso-no-puedo-ir-cuidadito-echarme/1003744448140_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:20:41.316Z"
-        },
-        {
-          "title": "El juez investiga a Andrea, pareja de Abalos, por blanqueo de comisiones de contratos de Adif con la compra de su piso",
-          "url": "https://www.elespanol.com/espana/tribunales/20261106/juez-investiga-andrea-pareja-abalos-blanqueo-comisiones-contratos-adif-compra-piso/1003744448176_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:20:40.106Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en la seguridad del AVE tras el accidente de Urda",
-          "url": "https://www.elespanol.com/espana/20261106/fiscalia-europea-abre-investigacion-posible-fraude-fondos-ue-seguridad-ave-madrid-sevilla/1003744448473_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:20:38.321Z"
-        },
-        {
-          "title": "Pedro J.: \"Si Sanchez dice hoy en Valencia que no todos somos iguales pensaremos en Abalos o en sus 25 dias en 'El Ventorro' de la Mareta durante lo de Ceuta\"",
-          "url": "https://www.elespanol.com/espana/politica/20261106/pedro-sanchez-dice-hoy-valencia-no-iguales-pensaremos-abalos-dias-ventorro-mareta-ceuta/1003744448372_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:20:37.497Z"
-        },
-        {
-          "title": "La corrupcion siempre viajaba con Sanchez aunque diga que no se enteraba",
-          "url": "https://www.elespanol.com/opinion/editoriales/20261106/corrupcion-siempre-viajaba-sanchez-diga-no-enteraba/1003744448174_14.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:52.273Z"
-        },
-        {
-          "title": "La vida oculta de Corvillo, el chofer de Sanchez que amano las primarias del PSOE de su pueblo: \"Este es mi momento\"",
-          "url": "https://www.elespanol.com/reportajes/20261106/vida-oculta-corvillo-chofer-sanchez-amano-primarias-psoe-pueblo-momento/1003744448045_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:49.121Z"
-        },
-        {
-          "title": "Pedro J.: \"Si Sanchez dice hoy en Valencia que no todos somos iguales pensaremos en Abalos o en sus 25 dias en 'El Ventorro' de la Mareta durante lo de Ceuta\"",
-          "url": "https://www.elespanol.com/espana/politica/20261106/pedro-sanchez-dice-hoy-valencia-no-iguales-pensaremos-abalos-dias-ventorro-mareta-ceuta/1003744448372_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:47.885Z"
-        },
-        {
-          "title": "Andrea amenazo a Abalos con denunciarle: \"Antes de que me den un piso no me puedo ir. Cuidadito con echarme\"",
-          "url": "https://www.elespanol.com/espana/20261106/andrea-amenazo-abalos-denunciarle-den-piso-no-puedo-ir-cuidadito-echarme/1003744448140_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:46.271Z"
-        },
-        {
-          "title": "El juez investiga a Andrea, pareja de Abalos, por blanqueo de comisiones de contratos de Adif con la compra de su piso",
-          "url": "https://www.elespanol.com/espana/tribunales/20261106/juez-investiga-andrea-pareja-abalos-blanqueo-comisiones-contratos-adif-compra-piso/1003744448176_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:45.872Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en la seguridad del AVE tras el accidente de Urda",
-          "url": "https://www.elespanol.com/espana/20261106/fiscalia-europea-abre-investigacion-posible-fraude-fondos-ue-seguridad-ave-madrid-sevilla/1003744448473_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:45.376Z"
-        },
-        {
-          "title": "Feijoo envida a Sanchez con la corrupcion que esta por salir",
-          "url": "https://www.larazon.es/espana/feijoo-envida-sanchez-corrupcion-que-esta-salir_202611066aed404cd3bddc0868a70400.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T11:16:31.415Z"
-        },
-        {
-          "title": "Andrea de la Torre tiene material protegido que Abalos ocultaba a la UCO",
-          "url": "https://www.larazon.es/espana/novia-abalos-tiene-material-protegido-que-abalos-ocultaba-uco_202611066aecea08ea8d8979977aa9eb.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T11:16:27.652Z"
-        },
-        {
-          "title": "La UCO indaga los contratos de Adif y pone el foco en el blanqueo de las comisiones",
-          "url": "https://www.larazon.es/espana/uco-indaga-contratos-adif-pone-foco-blanqueo-comisiones_202611066aed34aed3bddc0868a6f827.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T11:16:26.748Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga por fraude las obras del AVE tras el accidente de Urda y manda a la UCO a Adif",
-          "url": "https://www.larazon.es/espana/fiscalia-europea-investiga-fraude-obras-ave-accidente-urda-manda-uco-adif_202611066aed9cb8d3bddc0868a76b67.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T11:16:26.248Z"
-        },
-        {
-          "title": "Ultima hora sobre la actualidad politica, en directo",
-          "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13642842.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T11:14:33.459Z"
-        },
-        {
-          "title": "Cristian Corvillo, el desconocido que se subio al escenario con Sanchez y acabo como mano derecha de Abalos en Andalucia",
-          "url": "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/cristian-corvillo-desconocido-subio-escenario-sanchez-acabo-mano-derecha-abalos_1_13642162.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T11:13:31.632Z"
-        },
-        {
-          "title": "Todos los rastros junto a Sanchez de Corvillo, otra 'victima' de las primarias malditas de 2017: \"Gracias a Cristian por su trabajo\"",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd9ffe85ece23348b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.007Z"
-        },
-        {
-          "title": "El 'chofer' de Sanchez detenido por la UCO canalizaba las mordidas en contratos de Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd37921efa0f6278b4575.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.007Z"
-        },
-        {
-          "title": "Del pelotazo de las mascarillas a las mordidas por obras: 11 adjudicaciones bajo sospecha valoradas en 900 millones",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aecd9d1fc6c8362578b4572.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.007Z"
-        },
-        {
-          "title": "Pedro Sanchez vuelve a los mitines en Valencia para exprimir la \"indignidad\" de Mazon en la dana mientras le explota mas corrupcion con Abalos",
-          "url": "https://www.elmundo.es/comunidad-valenciana/2026/11/06/6aece16efdddff59198b457b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.004Z"
-        },
-        {
-          "title": "Todos los rastros junto a Sanchez de Corvillo, otra 'victima' de las primarias malditas de 2017: \"Gracias a Cristian por su trabajo\"",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd9ffe85ece23348b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:22.955Z"
-        },
-        {
-          "title": "Del pelotazo de las mascarillas a las mordidas por obras: 11 adjudicaciones bajo sospecha valoradas en 900 millones",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aecd9d1fc6c8362578b4572.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:22.955Z"
-        },
-        {
-          "title": "El 'chofer' de Sanchez detenido por la UCO canalizaba las mordidas en contratos de Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd37921efa0f6278b4575.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:22.954Z"
-        },
-        {
-          "title": "\"Esas personas no tienen nada que ver conmigo\": Sanchez niega ahora a Corvillo, que celebro en Ferraz su victoria en 2019",
-          "url": "https://www.elespanol.com/espana/politica/20261105/ninguna-personas-ver-conmigo-sanchez-niega-relacion-corvillo-hizo-koldo-leire/1003744447948_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T02:40:08.153Z"
-        },
-        {
-          "title": "\"Esas personas no tienen nada que ver conmigo\": Sanchez niega ahora a Corvillo, que celebro en Ferraz su victoria en 2019",
-          "url": "https://www.elespanol.com/espana/politica/20261105/ninguna-personas-ver-conmigo-sanchez-niega-relacion-corvillo-hizo-koldo-leire/1003744447948_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T02:39:16.698Z"
-        }
-      ],
-      "merged_sources": [
-        "news_tags",
-        "x_trends"
-      ]
+      "news_count": 78
     },
     {
       "id": 213,
       "title": "Side",
       "source": "news_tags",
-      "volume": "41 artículos",
+      "volume": "37 artículos",
       "timeframe": "24h noticias",
-      "news_count": 60
+      "news_count": 56
+    },
+    {
+      "id": 206,
+      "title": "Gobierno de Aragon",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
     },
     {
       "id": 101,
@@ -652,8 +80,20 @@
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 56,
+      "news_count": 50,
       "matched_articles": [
+        {
+          "title": "Elias Bendodo, vicesecretario del PP: <<No estoy exagerando: hay que sanar al Estado>>",
+          "url": "https://www.larazon.es/andalucia/elias-bendodo-vicesecretario-estoy-exagerando-hay-que-sanar-estado_202611076aee8b0b03bbf30bb04307a2.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T02:58:52.324Z"
+        },
+        {
+          "title": "El movil de Koldo puso a la UCO en la pista del blanqueo de la trama",
+          "url": "https://www.larazon.es/espana/movil-koldo-puso-uco-pista-blanqueo-trama_202611076aee862dea8d8979977c7057.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T02:58:49.030Z"
+        },
         {
           "title": "La Fiscalia pide procesar a Koldo Garcia, Aldama, Pardo de Vera y Jessica, ex de Abalos",
           "url": "https://www.20minutos.es/nacional/fiscalia-pide-procesar-koldo-garcia-aldama-pardo-vera-jessica-ex-abalos_7058365_0.html",
@@ -941,76 +381,356 @@
           "url": "https://www.eldiario.es/un-tema-al-dia/podcast-rastro-dinero-le-pago-abogados-koldo_132_13641925.html",
           "newspaper": "El Diario",
           "date": "2026-11-06T11:13:30.637Z"
-        },
-        {
-          "title": "Todos los rastros junto a Sanchez de Corvillo, otra 'victima' de las primarias malditas de 2017: \"Gracias a Cristian por su trabajo\"",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd9ffe85ece23348b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.007Z"
-        },
-        {
-          "title": "El 'chofer' de Sanchez detenido por la UCO canalizaba las mordidas en contratos de Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd37921efa0f6278b4575.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.007Z"
         }
       ]
     },
     {
-      "id": 206,
-      "title": "Son",
-      "source": "news_tags",
-      "volume": "55 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 55
-    },
-    {
       "id": 207,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "55 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 55
-    },
-    {
-      "id": 208,
-      "title": "Uu",
-      "source": "news_tags",
-      "volume": "51 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 51
-    },
-    {
-      "id": 209,
-      "title": "Gobierno de Aragon",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 210,
-      "title": "Nacional",
+      "title": "Sonsoles Onega",
       "source": "news_tags",
       "volume": "48 artículos",
       "timeframe": "24h noticias",
       "news_count": 48
+    },
+    {
+      "id": 227,
+      "title": "Nuevas",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 48
+    },
+    {
+      "id": 10,
+      "title": "Empresa",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 47,
+      "matched_articles": [
+        {
+          "title": "Torturas inventadas, tensiones reales: el montaje con el que Rusia quiere boicotear la defensa de Ucrania",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aee072ce4d4d87e3b8b45c6.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:28.140Z"
+        },
+        {
+          "title": "Torturas inventadas, tensiones reales: el montaje con el que Rusia quiere boicotear la defensa de Ucrania",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aee072ce4d4d87e3b8b45c6.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.980Z"
+        },
+        {
+          "title": "El 'chao, pescao' de Isabel Diaz Ayuso a Alberto Gonzalez Amador: \"La relacion se convirtio en una montana rusa de la que no lograron salir\"",
+          "url": "https://www.elmundo.es/loc/famosos/2026/11/06/6aedd536fc6c83a4248b457c.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.979Z"
+        },
+        {
+          "title": "Adif blindo el bonus a su cupula horas antes de dimitir su presidente",
+          "url": "https://www.elmundo.es/economia/2026/11/06/6aee494321efa0477c8b45b8.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.978Z"
+        },
+        {
+          "title": "Elias Bendodo, vicesecretario del PP: <<No estoy exagerando: hay que sanar al Estado>>",
+          "url": "https://www.larazon.es/andalucia/elias-bendodo-vicesecretario-estoy-exagerando-hay-que-sanar-estado_202611076aee8b0b03bbf30bb04307a2.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T02:58:52.324Z"
+        },
+        {
+          "title": "Los sindicatos ferroviarios alertan de carencias en la formacion de Adif: el sistema LZB no entra en las oposiciones, hay pocas practicas y falta de reciclaje continuo",
+          "url": "https://www.larazon.es/economia/sindicatos-ferroviarios-alertan-carencias-formacion-adif-sistema-lzb-entra-oposiciones-hay-pocas-practicas-falta-reciclaje-continuo_202611076aee8b8ed3bddc0868a87a77.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T02:58:50.864Z"
+        },
+        {
+          "title": "La UDEF, tras la cuenta de las hijas de Zapatero",
+          "url": "https://www.larazon.es/espana/udef-cuenta-hijas-zapatero_202611076aee781e4196933d7ed3ffbe.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T02:58:49.664Z"
+        },
+        {
+          "title": "La Fiscalia pide procesar a Koldo Garcia, Aldama, Pardo de Vera y Jessica, ex de Abalos",
+          "url": "https://www.20minutos.es/nacional/fiscalia-pide-procesar-koldo-garcia-aldama-pardo-vera-jessica-ex-abalos_7058365_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T23:27:13.236Z"
+        },
+        {
+          "title": "El sorteo de Loteria de Navidad 2026 repartira 2.870 millones de euros en premios, 98 millones mas que el ano anterior",
+          "url": "https://www.20minutos.es/nacional/sorteo-loteria-navidad-2026-repartira-2-870-millones-euros-premios-98-millones-mas-que-ano-anterior_7058389_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T23:27:11.865Z"
+        },
+        {
+          "title": "Rufian asegura que Sanchez \"esta siendo perseguido\" por la Justicia, pero le afea \"excusas\" ante los casos de corrupcion",
+          "url": "https://www.20minutos.es/nacional/rufian-asegura-que-sanchez-esta-siendo-perseguido-por-justicia-pero-le-afea-excusas-ante-los-casos-corrupcion_7058390_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T23:27:11.369Z"
+        },
+        {
+          "title": "La oposicion a los centros de datos arrasa en las urnas de EEUU",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aeb5686e4d4d84d628b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T23:24:51.258Z"
+        },
+        {
+          "title": "Ignacio Gonzalez, visto para sentencia: las claves del primer juicio por corrupcion del delfin de Esperanza Aguirre",
+          "url": "https://www.eldiario.es/politica/ignacio-gonzalez-visto-sentencia-claves-primer-juicio-corrupcion-delfin-esperanza-aguirre_1_13644929.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T23:16:33.529Z"
+        },
+        {
+          "title": "El Supremo prohibe querellarse a los perjudicados por las mentiras de Aldama en el juicio del caso mascarillas",
+          "url": "https://www.eldiario.es/politica/supremo-prohibe-querellarse-perjudicados-mentiras-aldama-juicio-caso-mascarillas_129_13638567.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T23:15:41.195Z"
+        },
+        {
+          "title": "Los padres de una nina de 13 anos demandan a Google por presuntamente ayudarla a planear su suicidio con la IA",
+          "url": "https://www.20minutos.es/internacional/los-padres-una-nina-13-anos-demandan-google-por-presuntamente-ayudarla-planear-su-suicidio-con-ia_7058202_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T18:17:32.456Z"
+        },
+        {
+          "title": "Las amenazas de bomba obligan a evacuar las oficinas de varios medios de comunicacion en Irlanda y Reino Unido",
+          "url": "https://www.20minutos.es/internacional/las-amenazas-bomba-obligan-evacuar-las-oficinas-varios-medios-comunicacion-irlanda_7058259_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T18:17:29.923Z"
+        },
+        {
+          "title": "Quien es Andrea de la Torre, la novia de Abalos que ha sido detenida por la UCO en Valencia en el caso Koldo",
+          "url": "https://www.20minutos.es/nacional/quien-es-andrea-torre-novia-abalos-detenida-uco-valencia-nueva-operacion-caso-koldo_7058136_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T18:17:01.792Z"
+        },
+        {
+          "title": "CASA 47 incorpora 442 nuevas viviendas de alquiler asequible: estas son las comunidades donde se encuentran",
+          "url": "https://www.20minutos.es/nacional/casa-47-incorpora-442-nuevas-viviendas-alquiler-asequible-estas-son-las-comunidades-donde-se-encuentran_7058292_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T18:16:52.427Z"
+        },
+        {
+          "title": "Asi es Moon, el megaproyecto que busca construir una luna gigante y 12.000 viviendas de lujo en Espana",
+          "url": "https://www.20minutos.es/nacional/asi-es-moon-megaproyecto-que-busca-construir-una-luna-gigante-12-000-viviendas-lujo-espana_7058294_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T18:16:49.086Z"
+        },
+        {
+          "title": "La campana del PP para \"el cambio necesario\": arranque en Badalona, mitines en plazas de toros y agenda paralela de los barones",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T18:13:37.714Z"
+        },
+        {
+          "title": "Asi es el misterio demoscopico de Plasencia, la ciudad que siempre 'acierta' el ganador de las elecciones generales",
+          "url": "https://www.elmundo.es/cronica/2026/11/03/6ae4d9ffe9cf4af6438b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T18:13:37.714Z"
+        },
+        {
+          "title": "La Audiencia estudiara el 13 de noviembre la extradicion a EEUU de Fergie Chambers, que denuncia irregularidades en el proceso",
+          "url": "https://www.publico.es/internacional/audiencia-estudiara-13-noviembre-extradicion-eeuu-fergie-chambers-denuncia-irregularidades-proceso.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:09:42.019Z"
+        },
+        {
+          "title": "La Fiscalia pide procesar a Koldo Garcia, Aldama, Pardo de Vera y Jessica Rodriguez",
+          "url": "https://www.publico.es/politica/tribunales/fiscalia-pide-procesar-koldo-garcia-aldama-pardo-vera-jessica-ex-abalos.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:09:10.524Z"
+        },
+        {
+          "title": "La Fiscalia pide procesar a Koldo Garcia, Aldama, Pardo de Vera y Jessica Rodriguez",
+          "url": "https://www.publico.es/politica/tribunales/fiscalia-pide-procesar-koldo-garcia-aldama-pardo-vera-jessica-ex-abalos.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:44.689Z"
+        },
+        {
+          "title": "Carlos Cuerpo, nuevo ministro de Transportes, confunde las lineas de alta velocidad al hablar de Adamuz y Urda y el PP responde: <<Pues este era el listo>>",
+          "url": "https://www.larazon.es/espana/carlos-cuerpo-nuevo-ministro-transportes-confunde-lineas-alta-velocidad-hablar-adamuz-urda-responde-pues-este-era-listo_202611066aedd3194196933d7ed35294.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T18:06:47.220Z"
+        },
+        {
+          "title": "Anticorrupcion pide el banquillo para Pardo de Vera, la examante de Abalos, Koldo y Aldama en la Audiencia Nacional",
+          "url": "https://www.larazon.es/espana/anticorrupcion-pide-banquillo-pardo-vera-examante-abalos-koldo-aldama-audiencia-nacional_202611066aedea459a31a65adcd282b4.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T18:06:45.175Z"
+        },
+        {
+          "title": "Convocan dos nuevas jornadas de huelga en Adif los dias 17 y 19 de noviembre por la falta de personal",
+          "url": "https://www.larazon.es/economia/convocan-dos-nuevas-jornadas-huelga-adif-dias-17-19-noviembre-falta-personal_202611066aedd5efea8d8979977bc205.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T18:06:39.853Z"
+        },
+        {
+          "title": "El <<Chernobyl argentino>>: pozo petrolero abandonado provoca una fuga de hidrocarburos que afecta al bosque chaqueno",
+          "url": "https://www.eldiarioar.com/blog/relatos-ambientales/chernobyl-argentino-abandonado-fuga-hidrocarburos-bosque-chaqueno_132_13644937.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T18:05:41.426Z"
+        },
+        {
+          "title": "Okdiario amenaza con demandar a elDiario.es por la informacion sobre sus pagos a la abogada de Koldo Garcia",
+          "url": "https://www.eldiario.es/politica/okdiario-amenaza-demandar-eldiario-informacion-pagos-abogada-koldo-garcia_1_13644826.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T18:04:50.030Z"
+        },
+        {
+          "title": "Anticorrupcion pide que Pardo de Vera, Koldo y Aldama sean llevados a juicio",
+          "url": "https://www.eldiario.es/politica/anticorrupcion-pide-pardo-vera-koldo-aldama-sean-llevados-juicio_1_13645330.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T18:04:47.907Z"
+        },
+        {
+          "title": "Hernandez de Cos se enfrentara al neerlandes Knot por la presidencia del BCE",
+          "url": "https://www.eldiario.es/economia/gobierno-presenta-oficialmente-candidatura-pablo-hernandez-cos-presidencia-bce_1_13644008.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T18:04:02.867Z"
+        },
+        {
+          "title": "Rodrigo Sorogoyen, Alana S. Portero, David Ucles y mas de 800 firmas apoyan la huelga del 11N: \"La cultura tambien para\"",
+          "url": "https://www.eldiario.es/cultura/rodrigo-sorogoyen-alana-s-portero-david-ucles-750-firmas-apoyan-huelga-11n-cultura_1_13643645.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T18:03:55.443Z"
+        },
+        {
+          "title": "Asi es el rayo de energia electromagnetica que causa un \"impulso irresistible de huir\" y que EEUU quiere usar contra inmigrantes",
+          "url": "https://www.20minutos.es/internacional/asi-es-rayo-energia-electromagnetica-que-causa-un-impulso-irresistible-huir-que-eeuu-quiere-usar-contra-inmigrantes_7053514_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T11:26:56.882Z"
+        },
+        {
+          "title": "Quien es Cristian Corvillo, el exchofer de Sanchez en las primarias de 2017 y detenido por la UCO en el caso Koldo",
+          "url": "https://www.20minutos.es/nacional/quien-es-cristian-corvillo-exchofer-sanchez-las-primarias-2017-detenido-por-uco-caso-koldo_7057751_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T11:26:15.849Z"
+        },
+        {
+          "title": "Quien es Cristian Corvillo, el exchofer de Sanchez en las primarias de 2017 y detenido por la UCO en el caso Koldo",
+          "url": "https://www.20minutos.es/nacional/quien-es-cristian-corvillo-exchofer-sanchez-las-primarias-2017-detenido-por-uco-caso-koldo_7057751_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T11:26:05.751Z"
+        },
+        {
+          "title": "Santiago Pena se defendera ante el Senado de Paraguay en el proceso de destitucion tras ser rechazada su renuncia como presidente",
+          "url": "https://www.elmundo.es/internacional/2026/11/06/6aed6e5be4d4d80c1b8b45af.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T11:23:32.810Z"
+        },
+        {
+          "title": "Koldo y Abalos entran en campana acusando al PP de intentar sobornarles mientras piden amparo al Constitucional",
+          "url": "https://www.elespanol.com/espana/20261106/koldo-abalos-entran-campana-acusando-pp-intentar-sobornarles-piden-amparo-constitucional/1003744447903_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:20:42.975Z"
+        },
+        {
+          "title": "Bruselas prepara una multa millonaria contra TikTok por el \"efecto madriguera\" de su algoritmo adictivo",
+          "url": "https://www.elespanol.com/invertia/observatorios/digital/20261106/bruselas-prepara-multa-millonaria-tiktok-efecto-madriguera-algoritmo-adictivo/1003744448482_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:19:56.891Z"
+        },
+        {
+          "title": "La corrupcion siempre viajaba con Sanchez aunque diga que no se enteraba",
+          "url": "https://www.elespanol.com/opinion/editoriales/20261106/corrupcion-siempre-viajaba-sanchez-diga-no-enteraba/1003744448174_14.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:19:52.273Z"
+        },
+        {
+          "title": "Koldo y Abalos entran en campana acusando al PP de intentar sobornarles mientras piden amparo al Constitucional",
+          "url": "https://www.elespanol.com/espana/20261106/koldo-abalos-entran-campana-acusando-pp-intentar-sobornarles-piden-amparo-constitucional/1003744447903_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:19:50.762Z"
+        },
+        {
+          "title": "La vida oculta de Corvillo, el chofer de Sanchez que amano las primarias del PSOE de su pueblo: \"Este es mi momento\"",
+          "url": "https://www.elespanol.com/reportajes/20261106/vida-oculta-corvillo-chofer-sanchez-amano-primarias-psoe-pueblo-momento/1003744448045_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:19:49.121Z"
+        },
+        {
+          "title": "El agua no espera a las elecciones",
+          "url": "https://www.publico.es/opinion/columnas/agua-espera-elecciones.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T11:18:21.674Z"
+        },
+        {
+          "title": "Tu, que no votas",
+          "url": "https://www.publico.es/opinion/columnas/votas.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T11:18:21.122Z"
+        },
+        {
+          "title": "Un trabajador dedicado al montaje de estructuras metalicas consigue que la Justicia declare improcedente su despido tras reclamar las horas extraordinarias y los festivos",
+          "url": "https://www.larazon.es/economia/trabajador-dedicado-montaje-estructuras-metalicas-consigue-justicia-declare-improcedente-despido-reclamar-horas-extraordinarias-festivos-b50m_202611066aedb30c03bbf30bb0421c16.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:16:40.927Z"
+        },
+        {
+          "title": "Una camarera, despedida de forma procedente tras llamar \"puto negro\" a un companero senegales pese a que el trabajador afirmara estar \"acostumbrado\" a que le traten asi",
+          "url": "https://www.larazon.es/economia/camarera-despedida-forma-procedente-llamar-puto-negro-companero-senegales-pese-que-trabajador-afirmara-estar-acostumbrado-que-traten-asi-b50m_202611066aedb67803bbf30bb042221c.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:16:38.707Z"
+        },
+        {
+          "title": "El Tribunal Supremo dicta sentencia: el Estado debe indemnizar a los autonomos por perdidas causadas por algunas leyes espanolas",
+          "url": "https://www.larazon.es/economia/tribunal-supremo-dicta-sentencia-estado-debe-indemnizar-autonomos-perdidas-causadas-algunas-leyes-espanolas_202611066aed73f59a31a65adcd1db42.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:16:37.502Z"
+        },
+        {
+          "title": "La UCO indaga los contratos de Adif y pone el foco en el blanqueo de las comisiones",
+          "url": "https://www.larazon.es/espana/uco-indaga-contratos-adif-pone-foco-blanqueo-comisiones_202611066aed34aed3bddc0868a6f827.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:16:26.748Z"
+        },
+        {
+          "title": "Cristian Corvillo, el desconocido que se subio al escenario con Sanchez y acabo como mano derecha de Abalos en Andalucia",
+          "url": "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/cristian-corvillo-desconocido-subio-escenario-sanchez-acabo-mano-derecha-abalos_1_13642162.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T11:13:31.632Z"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 209,
+      "title": "Nacional",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 210,
+      "title": "Uu",
+      "source": "news_tags",
+      "volume": "45 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 45
     },
     {
       "id": 211,
       "title": "Elecciones",
       "source": "news_tags",
-      "volume": "48 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 48
-    },
-    {
-      "id": 235,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "23 artículos",
+      "volume": "45 artículos",
       "timeframe": "24h noticias",
       "news_count": 45
+    },
+    {
+      "id": 238,
+      "title": "Europa",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 44
     },
     {
       "id": 212,
@@ -1024,21 +744,29 @@
       "id": 214,
       "title": "Han",
       "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 215,
-      "title": "Sánchez",
-      "source": "news_tags",
       "volume": "35 artículos",
       "timeframe": "24h noticias",
       "news_count": 35
     },
     {
-      "id": 216,
+      "id": 215,
       "title": "España",
+      "source": "news_tags",
+      "volume": "34 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 34
+    },
+    {
+      "id": 216,
+      "title": "Viviendas",
+      "source": "news_tags",
+      "volume": "33 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 33
+    },
+    {
+      "id": 217,
+      "title": "Accidentes de Tren",
       "source": "news_tags",
       "volume": "33 artículos",
       "timeframe": "24h noticias",
@@ -1046,7 +774,7 @@
     },
     {
       "id": 218,
-      "title": "Accidentes de Tren",
+      "title": "Partido Popular (pp)",
       "source": "news_tags",
       "volume": "33 artículos",
       "timeframe": "24h noticias",
@@ -1064,29 +792,29 @@
       "id": 220,
       "title": "Amenazas",
       "source": "news_tags",
-      "volume": "32 artículos",
+      "volume": "31 artículos",
       "timeframe": "24h noticias",
-      "news_count": 32
+      "news_count": 31
     },
     {
       "id": 221,
-      "title": "Koldogate",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 222,
-      "title": "Partido Popular (pp)",
+      "title": "Juez Calama",
       "source": "news_tags",
       "volume": "31 artículos",
       "timeframe": "24h noticias",
       "news_count": 31
     },
     {
+      "id": 222,
+      "title": "Sánchez",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
       "id": 223,
-      "title": "Luis",
+      "title": "Koldogate",
       "source": "news_tags",
       "volume": "30 artículos",
       "timeframe": "24h noticias",
@@ -1094,14 +822,6 @@
     },
     {
       "id": 224,
-      "title": "Sobre",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 225,
       "title": "Estadounidenses",
       "source": "news_tags",
       "volume": "29 artículos",
@@ -1109,13 +829,27 @@
       "news_count": 29
     },
     {
+      "id": 225,
+      "title": "Sobre",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
       "id": 102,
       "title": "Paraguay",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 27,
+      "news_count": 25,
       "matched_articles": [
+        {
+          "title": "Pedro Alliana, el nuevo presidente que asume el mando de Paraguay en medio de la crisis de Ueno bank",
+          "url": "https://www.elespanol.com/mundo/america/20261107/pedro-alliana-nuevo-presidente-asume-mando-paraguay-medio-crisis-ueno-bank/1003744449866_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T03:04:18.173Z"
+        },
         {
           "title": "El Senado de Paraguay destituye a Santiago Pena como presidente tras el escandalo por el cierre de Ueno Bank",
           "url": "https://www.20minutos.es/internacional/senado-paraguay-destituye-santiago-pena-como-presidente-escandalo-cierre-ueno-bank_7058429_0.html",
@@ -1259,50 +993,24 @@
           "url": "https://www.eldiarioar.com/latinoamerica/futuro-politico-santiago-pena-queda-manos-congreso-paraguay-renuncia-presidencia_1_13643554.html",
           "newspaper": "El Diario",
           "date": "2026-11-06T11:15:28.363Z"
-        },
-        {
-          "title": "Santiago Pena, el derrumbe del politico mimado de la derecha latinoamericana",
-          "url": "https://www.elmundo.es/internacional/2026/11/06/6aecdb6e21efa0862d8b45b7.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:43.341Z"
-        },
-        {
-          "title": "Santiago Pena, el derrumbe del politico mimado de la derecha latinoamericana",
-          "url": "https://www.elmundo.es/internacional/2026/11/06/6aecdb6e21efa0862d8b45b7.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:22.956Z"
-        },
-        {
-          "title": "El fiasco de Albares deja a Sanchez solo en la Cumbre",
-          "url": "https://www.elespanol.com/opinion/columnas/20261106/fiasco-albares-deja-sanchez-solo-cumbre/1003744448177_12.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T02:39:27.817Z"
         }
       ]
     },
     {
       "id": 226,
-      "title": "Psoe",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 227,
-      "title": "Electoral",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 228,
-      "title": "Pedro Sánchez",
+      "title": "Agua",
       "source": "news_tags",
       "volume": "25 artículos",
       "timeframe": "24h noticias",
       "news_count": 25
+    },
+    {
+      "id": 228,
+      "title": "000",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
     },
     {
       "id": 229,
@@ -1313,23 +1021,163 @@
       "news_count": 24
     },
     {
+      "id": 230,
+      "title": "Puente",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
+    },
+    {
+      "id": 105,
+      "title": "Abascal",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 23,
+      "matched_articles": [
+        {
+          "title": "Sanchez alaba a Puente en su primer mitin tras la tragedia de Urda y lo opone con el PP: \"Ejemplo de dignidad que ellos no practican\"",
+          "url": "https://www.20minutos.es/nacional/sanchez-alaba-puente-su-primer-mitin-tras-tragedia-urda-un-ejemplo-dignidad-que-oposicion-no-practica_7058402_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T03:09:20.578Z"
+        },
+        {
+          "title": "Abascal afirma que Sanchez da mucho \"miedo\" y avisa de que a el no lo \"van a amordazar\" ni durante un luto oficial",
+          "url": "https://www.20minutos.es/nacional/abascal-afirma-que-sanchez-da-mucho-miedo-avisa-que-no-van-amordazar-ni-durante-un-luto-oficial_7058412_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T03:09:19.794Z"
+        },
+        {
+          "title": "El PNV confirma que salvara el 'decreto Maricarmen' pese a que la oferta de alquiler se hunde un 27% en el Pais Vasco: \"Protege a los que tienen dos viviendas o menos\"",
+          "url": "https://www.elmundo.es/economia/2026/11/07/6aedc605e9cf4aff5d8b4576.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.979Z"
+        },
+        {
+          "title": "Abascal carga contra Sanchez por \"callarse como un muerto\" ante la invasion de Ceuta y lo acusa de estar \"comprado por Marruecos\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aee24dde4d4d896388b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T23:24:32.865Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, en directo | Sanchez: \"La huelga no va contra nadie, sino a favor de Mari Carmen, que murio defendiendo nuestros derechos\"",
+          "url": "https://www.elespanol.com/espana/20261106/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo-sondeos-2026-espana/1003744448277_10.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T23:22:07.837Z"
+        },
+        {
+          "title": "Sanchez contrasta la \"dignidad y ejemplaridad\" de Puente con la forma de actuar del PP",
+          "url": "https://www.publico.es/politica/sanchez-contrasta-dignidad-ejemplaridad-puente-forma-actuar-pp.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T23:20:22.563Z"
+        },
+        {
+          "title": "Sanchez contrasta la \"dignidad y ejemplaridad\" de Puente con la forma de actuar del PP",
+          "url": "https://www.publico.es/politica/sanchez-contrasta-dignidad-ejemplaridad-puente-forma-actuar-pp.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T23:20:02.819Z"
+        },
+        {
+          "title": "Unai Sordo: \"Si la huelga general condiciona la campana electoral, pues ni tan mal\"",
+          "url": "https://www.publico.es/economia/unai-sordo-huelga-general-condiciona-campana-electoral-pues-mal.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T23:19:54.080Z"
+        },
+        {
+          "title": "Asi es el misterio demoscopico de Plasencia, la ciudad que siempre 'acierta' el ganador de las elecciones generales",
+          "url": "https://www.elmundo.es/cronica/2026/11/03/6ae4d9ffe9cf4af6438b4577.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T18:13:37.714Z"
+        },
+        {
+          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
+          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:09:14.333Z"
+        },
+        {
+          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
+          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:09:09.406Z"
+        },
+        {
+          "title": "Mas de 20.000 organizaciones respaldan la huelga general del 11 de noviembre por la vivienda",
+          "url": "https://www.publico.es/economia/vivienda/20-000-organizaciones-respaldan-huelga-general-11-noviembre-vivienda.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:51.553Z"
+        },
+        {
+          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
+          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:45.906Z"
+        },
+        {
+          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
+          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:39.856Z"
+        },
+        {
+          "title": "El PP no se cree la tregua del PSOE con la campana: <<Esta filtrando audios>>",
+          "url": "https://www.larazon.es/espana/cree-tregua-psoe-campana-esta-filtrando-audios_202610306ae424716973466c29e2c85a.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T18:07:22.329Z"
+        },
+        {
+          "title": "Arcadi Espana insinua una posible subida de impuestos para financiar el transporte: \"No podemos lanzar mensajes de recortes\"",
+          "url": "https://www.elmundo.es/comunidad-valenciana/2026/11/06/6aed9afefdddff59198b458d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T11:23:13.182Z"
+        },
+        {
+          "title": "Sanchez, el presidente que mas leyes innecesarias ha aprobado: \"57 deberian derogarse\", segun un informe avalado por el CEU",
+          "url": "https://www.elespanol.com/espana/20261106/sanchez-presidente-leyes-innecesarias-aprobado-deberian-derogarse-informe-avalado-ceu/1003744447759_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:20:45.081Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, en directo | Ultima hora del adelanto electoral: encuestas, Pedro Sanchez, actos de PP, PSOE y Vox y voto por correo",
+          "url": "https://www.elespanol.com/espana/20261106/elecciones-generales-directo-ultima-hora-adelanto-electoral-encuestas-pedro-sanchez-actos-pp-psoe-vox-voto-correo-sondeos-2026-espana/1003744448277_10.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:20:35.141Z"
+        },
+        {
+          "title": "Sanchez, el presidente que mas leyes innecesarias ha aprobado: \"57 deberian derogarse\", segun un informe avalado por el CEU",
+          "url": "https://www.elespanol.com/espana/20261106/sanchez-presidente-leyes-innecesarias-aprobado-deberian-derogarse-informe-avalado-ceu/1003744447759_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:20:01.359Z"
+        },
+        {
+          "title": "La corrupcion siempre viajaba con Sanchez aunque diga que no se enteraba",
+          "url": "https://www.elespanol.com/opinion/editoriales/20261106/corrupcion-siempre-viajaba-sanchez-diga-no-enteraba/1003744448174_14.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:19:52.273Z"
+        },
+        {
+          "title": "Repartir",
+          "url": "https://www.publico.es/opinion/columnas/repartir.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T11:18:20.620Z"
+        },
+        {
+          "title": "Milei salva del anonimato una cumbre minima en forma y fondo",
+          "url": "https://www.larazon.es/espana/milei-salva-anonimato-cumbre-minima-forma-fondo_202611066aecca48ea8d8979977a84a4.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:16:35.129Z"
+        },
+        {
+          "title": "Feijoo envida a Sanchez con la corrupcion que esta por salir",
+          "url": "https://www.larazon.es/espana/feijoo-envida-sanchez-corrupcion-que-esta-salir_202611066aed404cd3bddc0868a70400.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:16:31.415Z"
+        }
+      ]
+    },
+    {
       "id": 231,
-      "title": "Agua",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 232,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 233,
       "title": "Urda",
       "source": "news_tags",
       "volume": "23 artículos",
@@ -1337,56 +1185,64 @@
       "news_count": 23
     },
     {
-      "id": 234,
-      "title": "Adif",
+      "id": 232,
+      "title": "Feijóo",
       "source": "news_tags",
       "volume": "23 artículos",
       "timeframe": "24h noticias",
       "news_count": 23
+    },
+    {
+      "id": 234,
+      "title": "Electoral",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 235,
+      "title": "Adif",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
     },
     {
       "id": 236,
-      "title": "América",
+      "title": "Horas",
       "source": "news_tags",
-      "volume": "23 artículos",
+      "volume": "22 artículos",
       "timeframe": "24h noticias",
-      "news_count": 23
+      "news_count": 22
     },
     {
       "id": 237,
-      "title": "000",
+      "title": "Madrid",
       "source": "news_tags",
       "volume": "22 artículos",
       "timeframe": "24h noticias",
       "news_count": 22
     },
     {
-      "id": 238,
-      "title": "Feijóo",
+      "id": 239,
+      "title": "América",
       "source": "news_tags",
       "volume": "22 artículos",
       "timeframe": "24h noticias",
       "news_count": 22
-    },
-    {
-      "id": 240,
-      "title": "Tres",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
     },
     {
       "id": 241,
-      "title": "Piden",
+      "title": "Luis de la Fuente",
       "source": "news_tags",
-      "volume": "21 artículos",
+      "volume": "22 artículos",
       "timeframe": "24h noticias",
-      "news_count": 21
+      "news_count": 22
     },
     {
       "id": 242,
-      "title": "Frente",
+      "title": "Psoe",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
@@ -1394,7 +1250,7 @@
     },
     {
       "id": 243,
-      "title": "Europeos",
+      "title": "Piden",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
@@ -1402,15 +1258,15 @@
     },
     {
       "id": 244,
-      "title": "Bomba",
+      "title": "Zapatero",
       "source": "news_tags",
-      "volume": "20 artículos",
+      "volume": "21 artículos",
       "timeframe": "24h noticias",
-      "news_count": 20
+      "news_count": 21
     },
     {
       "id": 245,
-      "title": "Supremo",
+      "title": "Uco",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -1418,7 +1274,7 @@
     },
     {
       "id": 246,
-      "title": "Noviembre",
+      "title": "Frente",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -1426,7 +1282,7 @@
     },
     {
       "id": 247,
-      "title": "Seguridad",
+      "title": "Grandes Fortunas",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
@@ -1441,183 +1297,127 @@
       "news_count": 19
     },
     {
-      "id": 31,
-      "title": "Actor",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 12,
-      "matched_articles": [
-        {
-          "title": "Ucrania, Serbia, Montenegro o Turquia... Los paises que podrian unirse a la UE en un futuro 'proximo' y no tan proximo",
-          "url": "https://www.20minutos.es/internacional/ucrania-serbia-montenegro-turquia-los-paises-que-podrian-unirse-ue-un-futuro-proximo-no-tan-proximo_7057804_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:17:28.462Z"
-        },
-        {
-          "title": "Mas de 800 trabajadoras del mundo de la cultura se suman a la huelga general con un manifiesto por la vivienda",
-          "url": "https://www.publico.es/culturas/800-trabajadoras-mundo-cultura-suman-huelga-general-manifiesto-vivienda.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:50.793Z"
-        },
-        {
-          "title": "Flavio Bolsonaro reaparece en la conferencia ultraconservadora de Florida tras huir de Brasil",
-          "url": "https://www.eldiario.es/internacional/flavio-bolsonaro-reaparece-conferencia-ultrancoservadora-florida-huir-brasil_1_13642973.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:05:46.504Z"
-        },
-        {
-          "title": "Flavio Bolsonaro reaparece en la conferencia ultraconservadora de Florida tras huir de Brasil",
-          "url": "https://www.eldiario.es/internacional/flavio-bolsonaro-reaparece-conferencia-ultrancoservadora-florida-huir-brasil_1_13642973.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:04:09.860Z"
-        },
-        {
-          "title": "Rodrigo Sorogoyen, Alana S. Portero, David Ucles y mas de 800 firmas apoyan la huelga del 11N: \"La cultura tambien para\"",
-          "url": "https://www.eldiario.es/cultura/rodrigo-sorogoyen-alana-s-portero-david-ucles-750-firmas-apoyan-huelga-11n-cultura_1_13643645.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T18:03:55.443Z"
-        },
-        {
-          "title": "Flavio Bolsonaro reaparece tras su derrota electoral en Brasil en una conferencia en la mansion de Trump en Florida",
-          "url": "https://www.20minutos.es/internacional/flavio-bolsonaro-reaparece-florida-una-conferencia-conservadora-tras-su-derrota-electoral-brasil_7057963_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T11:26:48.561Z"
-        },
-        {
-          "title": "Bolsonaro reaparece en un acto conservador en la mansion de Trump y dice que se llevara \"a la tumba\" los secretos de su fuga",
-          "url": "https://www.elespanol.com/mundo/america/20261106/bolsonaro-reaparece-acto-conservador-mansion-trump-dice-llevara-tumba-secretos-fuga/1003744448333_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:21:36.211Z"
-        },
-        {
-          "title": "Flavio Bolsonaro reaparece en un evento en la mansion de Trump en Mar-a-Lago tras perder las elecciones en Brasil",
-          "url": "https://www.publico.es/internacional/flavio-bolsonaro-reaparece-evento-florida-perder-elecciones-brasil.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T11:19:13.188Z"
-        },
-        {
-          "title": "Flavio Bolsonaro reaparece en la conferencia ultrancoservadora de Florida tras huir de Brasil",
-          "url": "https://www.eldiario.es/internacional/flavio-bolsonaro-reaparece-conferencia-ultrancoservadora-florida-huir-brasil_1_13642973.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T11:15:21.415Z"
-        },
-        {
-          "title": "Flavio Bolsonaro reaparece en la conferencia ultrancoservadora de Florida tras huir de Brasil",
-          "url": "https://www.eldiario.es/internacional/flavio-bolsonaro-reaparece-conferencia-ultrancoservadora-florida-huir-brasil_1_13642973.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-06T11:13:39.954Z"
-        },
-        {
-          "title": "El 'chofer' de Sanchez detenido por la UCO canalizaba las mordidas en contratos de Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd37921efa0f6278b4575.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:43:04.007Z"
-        },
-        {
-          "title": "El 'chofer' de Sanchez detenido por la UCO canalizaba las mordidas en contratos de Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/05/6aecd37921efa0f6278b4575.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:22.954Z"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Lzb",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 9,
-      "matched_articles": [
-        {
-          "title": "La Fiscalia Europea rastrea 261 millones en contratos de Adif financiados por la UE en la linea de los accidentes",
-          "url": "https://www.elmundo.es/espana/2026/11/07/6aee1528e85ece151a8b4585.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:25:11.337Z"
-        },
-        {
-          "title": "Convocadas dos nuevas jornadas de huelga en Adif los dias 17 y 19 de noviembre",
-          "url": "https://www.20minutos.es/nacional/convocadas-dos-nuevas-jornadas-huelga-adif-los-dias-17-19-noviembre_7058323_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:48.459Z"
-        },
-        {
-          "title": "Convocan dos nuevas jornadas de huelga en Adif los dias 17 y 19 de noviembre por la falta de personal",
-          "url": "https://www.larazon.es/economia/convocan-dos-nuevas-jornadas-huelga-adif-dias-17-19-noviembre-falta-personal_202611066aedd5efea8d8979977bc205.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T18:06:39.853Z"
-        },
-        {
-          "title": "La Fiscalia Europea pone en marcha una operacion con la UCO por la tragedia de Urda y reclama documentacion a Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aed98e121efa0477c8b457d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:52.359Z"
-        },
-        {
-          "title": "La Fiscalia Europea pone en marcha una operacion con la UCO por la tragedia de Urda y reclama documentacion a Adif",
-          "url": "https://www.elmundo.es/espana/2026/11/06/6aed98e121efa0477c8b457d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:13.181Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en la seguridad del AVE tras el accidente de Urda",
-          "url": "https://www.elespanol.com/espana/20261106/fiscalia-europea-abre-investigacion-posible-fraude-fondos-ue-seguridad-ave-madrid-sevilla/1003744448473_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:20:38.321Z"
-        },
-        {
-          "title": "El instructor de los maquinistas fallecidos del AVE defiende \"la profesionalidad inquebrantable del colectivo\" y exige \"respeto\"",
-          "url": "https://www.elespanol.com/espana/20261106/instructor-maquinistas-fallecidos-ave-defiende-profesionalidad-inquebrantable-colectivo-exige-respeto/1003744447309_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:20:34.457Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en la seguridad del AVE tras el accidente de Urda",
-          "url": "https://www.elespanol.com/espana/20261106/fiscalia-europea-abre-investigacion-posible-fraude-fondos-ue-seguridad-ave-madrid-sevilla/1003744448473_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T11:19:45.376Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga por fraude las obras del AVE tras el accidente de Urda y manda a la UCO a Adif",
-          "url": "https://www.larazon.es/espana/fiscalia-europea-investiga-fraude-obras-ave-accidente-urda-manda-uco-adif_202611066aed9cb8d3bddc0868a76b67.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T11:16:26.248Z"
-        }
-      ]
-    },
-    {
-      "id": 103,
-      "title": "La Séptima",
+      "id": 121,
+      "title": "Abogacía del Estado",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 7,
       "matched_articles": [
         {
-          "title": "Debates de las elecciones generales del 29N: cuantos hay, cuando son y todo lo que se sabe",
-          "url": "https://www.20minutos.es/nacional/debates-elecciones-generales-29n-cuantos-hay-cuando-son-todo-que-se-sabe_7053057_0.html",
+          "title": "El PP prohibira que la Abogacia del Estado defienda \"los intereses particulares\" de altos cargos tras el escandalo de Garcia Ortiz",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aee347ce85ece452b8b458d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.978Z"
+        },
+        {
+          "title": "La Fiscalia pide procesar a Koldo Garcia, Aldama, Pardo de Vera y Jessica, ex de Abalos",
+          "url": "https://www.20minutos.es/nacional/fiscalia-pide-procesar-koldo-garcia-aldama-pardo-vera-jessica-ex-abalos_7058365_0.html",
           "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:50.787Z"
+          "date": "2026-11-06T23:27:13.236Z"
         },
         {
-          "title": "Becerra, el Tezanos de Paco Salazar contratado por el PSOE, reaparece en La Septima como guru de la supuesta remontada",
-          "url": "https://www.elespanol.com/espana/20261106/becerra-tezanos-paco-salazar-contratado-psoe-reaparece-septima-guru-supuesta-remontada/1003744448902_0.html",
+          "title": "Anticorrupcion pide un nuevo juicio del 'caso Koldo' en la Audiencia Nacional contra 13 personas, incluidos Isabel Pardo de Vera, la ex pareja de Abalos, Koldo y Aldama",
+          "url": "https://www.elmundo.es/espana/2026/11/06/6aee0f3fe4d4d89f718b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T23:25:11.337Z"
+        },
+        {
+          "title": "Anticorrupcion acusara a Koldo, Aldama y Pardo de Vera en el segundo banquillo de la corrupcion en Transportes",
+          "url": "https://www.elespanol.com/espana/tribunales/20261106/anticorrupcion-acusara-koldo-aldama-pardo-vera-segundo-banquillo-corrupcion-transportes/1003744449681_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-06T18:11:02.820Z"
+          "date": "2026-11-06T23:22:09.612Z"
         },
         {
-          "title": "Becerra, el Tezanos de Paco Salazar contratado por el PSOE, reaparece en La Septima como guru de la supuesta remontada",
-          "url": "https://www.elespanol.com/espana/20261106/becerra-tezanos-paco-salazar-contratado-psoe-reaparece-septima-guru-supuesta-remontada/1003744448902_0.html",
+          "title": "Anticorrupcion acusara a Koldo, Aldama y Pardo de Vera en el segundo banquillo de la corrupcion en Transportes",
+          "url": "https://www.elespanol.com/espana/tribunales/20261106/anticorrupcion-acusara-koldo-aldama-pardo-vera-segundo-banquillo-corrupcion-transportes/1003744449681_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-06T18:10:19.284Z"
+          "date": "2026-11-06T23:21:18.645Z"
         },
         {
-          "title": "Carlos Cuerpo, nuevo ministro de Transportes, confunde las lineas de alta velocidad al hablar de Adamuz y Urda y el PP responde: <<Pues este era el listo>>",
-          "url": "https://www.larazon.es/espana/carlos-cuerpo-nuevo-ministro-transportes-confunde-lineas-alta-velocidad-hablar-adamuz-urda-responde-pues-este-era-listo_202611066aedd3194196933d7ed35294.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T18:06:47.220Z"
+          "title": "La Anticorrupcion pide un nuevo juicio del 'caso Koldo' en la Audiencia Nacional contra 13 personas, incluidos Isabel Pardo de Vera, la ex pareja de Abalos, Koldo y Aldama",
+          "url": "https://www.elmundo.es/espana/2026/11/06/6aee0f3fe4d4d89f718b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T18:14:17.236Z"
         },
+        {
+          "title": "La Anticorrupcion pide un nuevo juicio del 'caso Koldo' en la Audiencia Nacional contra 13 personas, incluidos Isabel Pardo de Vera, la ex pareja de Abalos, Koldo y Aldama",
+          "url": "https://www.elmundo.es/espana/2026/11/06/6aee0f3fe4d4d89f718b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T18:13:37.716Z"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Broncano",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 4,
+      "matched_articles": [
+        {
+          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
+          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:09:14.333Z"
+        },
+        {
+          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
+          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:09:09.406Z"
+        },
+        {
+          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
+          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:45.906Z"
+        },
+        {
+          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
+          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:39.856Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Retirada Aceite de Oliva del Mercado",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 19 h (24h)",
+      "news_count": 3,
+      "matched_articles": [
+        {
+          "title": "El Gobierno guarda bajo llave 188.000 toneladas de aceite por el excedente: alivio entre los olivareros y temor a que suba el precio de la botella",
+          "url": "https://www.elmundo.es/economia/2026/11/07/6aedff3ce4d4d8c9738b4582.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.980Z"
+        },
+        {
+          "title": "El Gobierno obliga a retirar el 12% del aceite de oliva para frenar la caida de los precios y la industria lo recurrira",
+          "url": "https://www.elmundo.es/economia/2026/11/06/6aed8762e9cf4a994c8b45a5.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T18:13:37.715Z"
+        },
+        {
+          "title": "El Gobierno ordena la retirada del 12% de la produccion de aceite de oliva",
+          "url": "https://www.elmundo.es/economia/2026/11/06/6aed8762e9cf4a994c8b45a5.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-06T11:23:13.183Z"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Programación Séptima",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 3,
+      "matched_articles": [
         {
           "title": "La Septima marca territorio entre los piropos de Santaolalla a Puente y el \"hay partido\" de Javier Ruiz con el PSOE",
           "url": "https://www.elespanol.com/reportajes/20261106/septima-marca-territorio-piropos-santaolalla-puente-amor-escondido-alba-carrillo-rufian/1003744448276_0.html",
@@ -1639,45 +1439,11 @@
       ]
     },
     {
-      "id": 34,
-      "title": "La Deuda",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 4,
-      "matched_articles": [
-        {
-          "title": "La oposicion a los centros de datos arrasa en las urnas de EEUU",
-          "url": "https://www.elmundo.es/internacional/2026/11/07/6aeb5686e4d4d84d628b4591.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T23:24:51.258Z"
-        },
-        {
-          "title": "?Quien es Abdul El-Sayed? Del departamento de salud de Detroit a convertirse en el primer musulman elegido senador en Estados Unidos",
-          "url": "https://www.larazon.es/internacional/quien-abdul-elsayed-departamento-salud-detroit-convertirse-primer-musulman-elegido-senador-estados-unidos-b50m_202611066aee24bf4196933d7ed3b5b7.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:19:26.531Z"
-        },
-        {
-          "title": "Repartir",
-          "url": "https://www.publico.es/opinion/columnas/repartir.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T11:18:20.620Z"
-        },
-        {
-          "title": "Ossoff, Talarico, Hamilton, El-Sayed... Los nombres que pasan a la historia tras las midterms",
-          "url": "https://www.elmundo.es/internacional/2026/11/04/6aeb77e3fc6c837d298b4579.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T02:42:43.340Z"
-        }
-      ]
-    },
-    {
       "id": 1,
       "title": "Sevilla - Alavés",
       "source": "google",
       "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 2,
       "matched_articles": [
         {
@@ -1695,57 +1461,41 @@
       ]
     },
     {
-      "id": 5,
-      "title": "Retirada Aceite de Oliva del Mercado",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "El Gobierno obliga a retirar el 12% del aceite de oliva para frenar la caida de los precios y la industria lo recurrira",
-          "url": "https://www.elmundo.es/economia/2026/11/06/6aed8762e9cf4a994c8b45a5.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.715Z"
-        },
-        {
-          "title": "El Gobierno ordena la retirada del 12% de la produccion de aceite de oliva",
-          "url": "https://www.elmundo.es/economia/2026/11/06/6aed8762e9cf4a994c8b45a5.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:13.183Z"
-        }
-      ]
-    },
-    {
       "id": 12,
-      "title": "Barco",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "El entorno de Trump \"haciendo llamadas\" para abandonar el barco antes de que se hunda: Estas son las reacciones internas a las derrotas electorales republicanas",
-          "url": "https://www.larazon.es/internacional/entorno-trump-haciendo-llamadas-abandonar-barco-antes-que-hunda-estas-son-reacciones-internas-derrotas-electorales-republicanas-b50m_202611066aee091b4196933d7ed39440.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T18:08:04.092Z"
-        },
-        {
-          "title": "La debacle electoral llena de grietas el 'trumpismo'",
-          "url": "https://www.elmundo.es/internacional/2026/11/06/6aeccf28fc6c832d628b45a6.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T11:23:32.810Z"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Muere Sebastian Lelio",
+      "title": "Anuncio Loteria Navidad 2026",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 1,
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 2,
       "matched_articles": [
+        {
+          "title": "El anuncio de la Loteria de Navidad 2026 emociona con la historia de Edu y un corazon que une dos vidas",
+          "url": "https://www.lavanguardia.com/gente/20261106/11677844/anuncio-loteria-navidad-2026-emociona-historia-edu-corazon-une-dos-vidas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-06T11:24:27.237Z"
+        },
+        {
+          "title": "El anuncio de la Loteria de Navidad 2026 desvela su historia mas emotiva: \"Me ha dado otra vida\"",
+          "url": "https://www.elespanol.com/corazon/bluper/20261106/anuncio-loteria-navidad-desvela-historia-emotiva-dado-vida/1003744448690_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:20:00.005Z"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sebastián Lelio",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Murio el cineasta chileno Sebastian Lelio, ganador de un Oscar por 'Una mujer fantastica'",
+          "url": "https://www.eldiarioar.com/espectaculos/muere-cineasta-chileno-sebastian-lelio-ganador-oscar-mujer-fantastica_1_13645561.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T23:17:30.153Z"
+        },
         {
           "title": "Muere el cineasta chileno Sebastian Lelio, ganador de un Oscar por 'Una mujer fantastica'",
           "url": "https://www.eldiario.es/cultura/cine/muere-cineasta-chileno-sebastian-lelio-ganador-oscar-mujer-fantastica_1_13645413.html",
@@ -1755,33 +1505,147 @@
       ]
     },
     {
-      "id": 11,
-      "title": "Tomate",
+      "id": 13,
+      "title": "Agujero de la Capa de Ozono",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
-          "title": "Kiko Veneno: \"Cojo el AVE treinta veces al ano. ?Lo voy a seguir cogiendo? Por supuesto\"",
-          "url": "https://www.elespanol.com/opinion/20261105/kiko-veneno-cojo-ave-treinta-veces-ano-voy-seguir-cogiendo-supuesto/1003744446367_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T02:39:39.894Z"
+          "title": "La NASA advierte de que el agujero de la capa de ozono alcanza su maximo en una decada: mide mas del doble que la superficie de EEUU",
+          "url": "https://www.20minutos.es/internacional/nasa-advierte-agujero-capa-ozono-alcanza-maximo-decada-mide-doble-superficie-eeuu_7058385_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T23:27:39.443Z"
         }
       ]
+    },
+    {
+      "id": 22,
+      "title": "Rodri Hernández",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Jacobo Ramon, Barrios, Valles, Barrenetxea y Marc Roca, novedades en la lista de Espana para los partidos de la Nations",
+          "url": "https://www.elespanol.com/deportes/futbol/20261106/jacobo-ramon-barrios-valles-barrenetxea-marc-roca-novedades-lista-espana-partidos-nations/1003744448405_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-06T11:20:02.810Z"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Proyectil",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Francia: intentan secuestsrarle: dispara contra los encapuchados a los que hizo huir y termina en prision",
+          "url": "https://www.larazon.es/internacional/francia-intentan-secuestsrarle-dispara-encapuchados-que-hizo-huir-termina-prision_202611066aedb02403bbf30bb04217c8.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T11:17:30.218Z"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Las Palmas de Gran Canaria",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Mas de 1.021 migrantes llegan en patera a Canarias, uno de ellos fallecido",
+          "url": "https://www.publico.es/sociedad/1-021-migrantes-llegan-patera-canarias-fallecido.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T18:08:53.488Z"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Sorteo Cuponazo Viernes",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Comprobar cuponazo ONCE: resultados de hoy, viernes 6 de noviembre de 2026",
+          "url": "https://www.20minutos.es/nacional/comprobar-cuponazo-once-resultados-hoy-viernes-6-noviembre-2026_7058394_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-06T23:27:07.763Z"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Restaurante",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Sanchez reinicia la campana con la \"ejemplaridad\" de Puente como antitesis de la politica de PP y Vox",
+          "url": "https://www.eldiario.es/politica/sanchez-reinicia-campana-ejemplaridad-puente-antitesis-politica-pp-vox_1_13644941.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-06T23:16:35.397Z"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Colegio San Jaime",
+      "source": "google",
+      "volume": "100+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "El lado oscuro del colegio denunciado en Majadahonda: \"La coordinadora me dijo que hiciese la vida imposible a los alumnos que no compraban el material escolar en el colegio\", denuncia una ex profesora",
+          "url": "https://www.elmundo.es/madrid/2026/11/06/6aee1695e85ece62578b45c4.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T03:06:03.981Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Parto",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
     },
     {
       "id": 4,
       "title": "Posiciones de Sevilla Fc Contra Alavés",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 12 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 5,
+      "title": "Federico Valverde",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 6,
-      "title": "Federico Valverde",
+      "title": "Tomate",
       "source": "google",
       "volume": "10 mil+ búsquedas",
       "timeframe": "hace 11 h (24h)",
@@ -1790,160 +1654,88 @@
     },
     {
       "id": 7,
-      "title": "Kim Marie Johnson",
+      "title": "Mercadona",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
+      "volume": "20 mil+ búsquedas",
       "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 8,
-      "title": "Iphone",
+      "title": "Kim Marie Johnson",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 9,
-      "title": "Carlos Alcaraz",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 10,
-      "title": "Mar Gómez",
+      "title": "Jota Peleteiro",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "timeframe": "hace 13 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 13,
-      "title": "Balnearios Imserso 2027",
+      "id": 11,
+      "title": "Rosario Mohedano",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 14,
-      "title": "Jota Peleteiro",
+      "title": "Vito Quiles",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 15,
-      "title": "Hornets - Celtics",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 21,
-      "title": "Cavaliers - 76ers",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 23,
-      "title": "Playstation",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 24,
-      "title": "Grizzlies - Thunder",
+      "title": "Energía Renovable",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 25,
-      "title": "Fortaleza - Medellín",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 26,
-      "title": "Aston Martin F1",
+      "title": "La Oreja de Van Gogh",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 27,
-      "title": "Jj Gabriel",
-      "source": "google",
-      "volume": "500+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 28,
-      "title": "Vitória - Fluminense",
+      "title": "Peter Lim",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 29,
-      "title": "Uefa Tv",
-      "source": "google",
-      "volume": "200+ búsquedas",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 30,
-      "title": "Roy Makaay",
+      "title": "Zona de Bajas Emisiones",
       "source": "google",
-      "volume": "200+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 32,
-      "title": "Ibon Navarro",
-      "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 33,
-      "title": "Kick",
+      "title": "Gp Qatar Motogp Horarios",
       "source": "google",
       "volume": "500+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -1951,8 +1743,17 @@
       "matched_articles": []
     },
     {
+      "id": 34,
+      "title": "Torrejón de Ardoz",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
       "id": 104,
-      "title": "Zelda",
+      "title": "#rtxon",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -1960,8 +1761,8 @@
       "matched_articles": []
     },
     {
-      "id": 121,
-      "title": "#releasetheodds",
+      "id": 122,
+      "title": "James Bond",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

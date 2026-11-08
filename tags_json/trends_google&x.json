@@ -1,533 +1,601 @@
 {
-  "timestamp": "2026-11-07T21:10:52.022303",
+  "timestamp": "2026-11-08T00:58:44.957985",
   "summary": {
     "google_total": 30,
-    "xtrends_total": 10,
+    "xtrends_total": 6,
     "tags_total": 50,
-    "unique_total": 81,
-    "unified_count": 5,
-    "with_news": 60,
-    "without_news": 21
+    "unique_total": 82,
+    "unified_count": 4,
+    "with_news": 59,
+    "without_news": 23
   },
   "trends": [
     {
       "id": 200,
       "title": "Ue",
       "source": "news_tags",
-      "volume": "702 artículos",
+      "volume": "565 artículos",
       "timeframe": "24h noticias",
-      "news_count": 702
+      "news_count": 565
     },
     {
       "id": 201,
       "title": "Ia",
       "source": "news_tags",
-      "volume": "533 artículos",
+      "volume": "462 artículos",
       "timeframe": "24h noticias",
-      "news_count": 533
+      "news_count": 462
     },
     {
       "id": 202,
       "title": "Portada",
       "source": "news_tags",
-      "volume": "200 artículos",
+      "volume": "160 artículos",
       "timeframe": "24h noticias",
-      "news_count": 200
+      "news_count": 160
     },
     {
       "id": 203,
       "title": "Dos",
       "source": "news_tags",
-      "volume": "159 artículos",
+      "volume": "128 artículos",
       "timeframe": "24h noticias",
-      "news_count": 159
+      "news_count": 128
     },
     {
       "id": 204,
-      "title": "Nido",
+      "title": "Les",
       "source": "news_tags",
-      "volume": "126 artículos",
+      "volume": "87 artículos",
       "timeframe": "24h noticias",
-      "news_count": 146
+      "news_count": 87
+    },
+    {
+      "id": 24,
+      "title": "Policía",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 74,
+      "matched_articles": [
+        {
+          "title": "Un joven de 24 anos dispara al azar contra la gente en el centro de Cracovia y provoca seis muertos y 15 heridos",
+          "url": "https://www.20minutos.es/internacional/muertos-varios-heridos-ataque-arma-fuego-centro-cracovia_7058540_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T21:09:39.675Z"
+        },
+        {
+          "title": "Un coche se empotra contra una tienda de moda en el momento en el que emitian un video en un directo de TikTok",
+          "url": "https://www.20minutos.es/internacional/coche-empotra-contra-tienda-moda-momento-emitian-video-directo-tiktok_7058594_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T21:09:38.044Z"
+        },
+        {
+          "title": "Nuevas movilizaciones en Francia con menor apoyo social y desmarque de los chalecos amarillos: \"Queremos recuperar nuestro poder para vivir con dignidad y libertad\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef2ff821efa02e0e8b45a1.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:47.211Z"
+        },
+        {
+          "title": "Momento en que un policia ha abatido al atacante de Cracovia",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef90f3e9cf4a39108b4573-video.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:47.210Z"
+        },
+        {
+          "title": "Al menos 6 muertos y 15 heridos en un tiroteo en Cracovia: el atacante estaba \"fascinado con la ultraderecha\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261107/muertos-heridos-tiroteo-cracovia-policia-investiga-circunstancias-atentado/1003744450075_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T21:04:55.406Z"
+        },
+        {
+          "title": "Al menos 6 muertos y 15 heridos en un tiroteo en Cracovia: el atacante estaba \"fascinado con la ultraderecha\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261107/muertos-heridos-tiroteo-cracovia-policia-investiga-circunstancias-atentado/1003744450075_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T21:03:42.517Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en Cracovia",
+          "url": "https://www.publico.es/internacional/europa/cinco-muertos-docena-heridos-tiroteo-cracovia.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T21:02:50.790Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en Cracovia",
+          "url": "https://www.publico.es/internacional/europa/cinco-muertos-docena-heridos-tiroteo-cracovia.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T21:01:57.357Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en el corazon de Cracovia",
+          "url": "https://www.larazon.es/internacional/menos-cinco-muertos-diez-heridos-tiroteo-principales-plazas-cracovia_202611076aef46344196933d7ed47f00.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:01:27.395Z"
+        },
+        {
+          "title": "Paraguay estrena presidente tras la caida y detencion de Santiago Pena en apenas 24 horas",
+          "url": "https://www.larazon.es/internacional/paraguay-estrena-presidente-caida-detencion-santiago-pena-apenas-24-horas_202611076aef5ef8ea8d8979977cffec.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:01:26.974Z"
+        },
+        {
+          "title": "Las protestas en Francia pierden fuelle con 250.000 participantes, segun los organizadores",
+          "url": "https://www.larazon.es/internacional/protestas-francia-pierden-fuelle-250000-participantes-segun-organizadores_202611076aef6ab24196933d7ed49fa7.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:01:26.745Z"
+        },
+        {
+          "title": "El autor del tiroteo de Cracovia, un polaco de 24 anos que podria <<sentir fascinacion por la extrema derecha\"",
+          "url": "https://www.larazon.es/internacional/autor-tiroteo-plaza-cracovia-ciudadano-polaco-24-anos_202611076aef7d0603bbf30bb043aa69.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:01:25.049Z"
+        },
+        {
+          "title": "Unos ladrones se llevan un hormiguero con hasta 5.000 ejemplares de una especie amenazada en una reserva natural de Inglaterra",
+          "url": "https://www.larazon.es/actualidad/ladrones-llevan-hormiguero-5000-ejemplares-especie-amenazada-reserva-natural-inglaterra-b50m_202611076aef851f4196933d7ed4aed6.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:36.420Z"
+        },
+        {
+          "title": "Las protestas en Francia pierden fuelle con 250.000 participantes, segun los organizadores",
+          "url": "https://www.larazon.es/internacional/protestas-francia-pierden-fuelle-250000-participantes-segun-organizadores_202611076aef6ab24196933d7ed49fa7.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:34.962Z"
+        },
+        {
+          "title": "Paraguay estrena presidente tras la caida y detencion de Santiago Pena en apenas 24 horas",
+          "url": "https://www.larazon.es/internacional/paraguay-estrena-presidente-caida-detencion-santiago-pena-apenas-24-horas_202611076aef5ef8ea8d8979977cffec.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:31.754Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en el corazon de Cracovia",
+          "url": "https://www.larazon.es/internacional/menos-cinco-muertos-diez-heridos-tiroteo-principales-plazas-cracovia_202611076aef46344196933d7ed47f00.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:30.302Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en la ciudad polaca de Cracovia",
+          "url": "https://www.eldiario.es/internacional/cinco-muertos-docena-heridos-tiroteo-ciudad-polaca-cracovia_1_13646897.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T20:59:17.493Z"
+        },
+        {
+          "title": "50 detenidos en Barcelona, 43 de ellos empresarios, por lucrarse con la entrada de migrantes",
+          "url": "https://www.eldiario.es/catalunya/50-detenidos-barcelona-43-empresarios-lucrarse-entrada-migrantes_1_13646835.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T20:57:56.407Z"
+        },
+        {
+          "title": "El expresidente de Paraguay, Santiago Pena, en arresto domiciliario tras su detencion por la Policia",
+          "url": "https://www.20minutos.es/internacional/expresidente-paraguay-santiago-pena-arresto-domiciliario-tras-su-detencion-por-policia_7058445_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T17:05:07.108Z"
+        },
+        {
+          "title": "Macron tiene un bunker secreto en Paris por si toman el Eliseo, segun un libro: lo habilito en 2018 por los 'chalecos amarillos'",
+          "url": "https://www.20minutos.es/internacional/macron-tiene-bunker-secreto-paris-por-si-toman-eliseo-libro-chalecos-amarillos_7058454_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T17:05:05.427Z"
+        },
+        {
+          "title": "Al menos cinco muertos y varios heridos en un ataque con arma de fuego en el centro de Cracovia",
+          "url": "https://www.20minutos.es/internacional/muertos-varios-heridos-ataque-arma-fuego-centro-cracovia_7058540_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T17:05:00.993Z"
+        },
+        {
+          "title": "Los Mossos detienen a 50 personas en Barcelona, 43 de ellos empresarios, por lucrarse con la entrada de migrantes",
+          "url": "https://www.elmundo.es/cataluna/2026/11/07/6aef1c32fdddffad598b4582.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T17:02:45.770Z"
+        },
+        {
+          "title": "Javier Fernandez, nuevo jefe de la Policia Municipal de Madrid tras la jubilacion de Oskar de Santos, que ha recurrido para seguir en el cargo",
+          "url": "https://www.elmundo.es/madrid/2026/11/06/6aecb50f21efa016488b45be.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T17:02:45.770Z"
+        },
+        {
+          "title": "Los chalecos amarillos desafian al Gobierno frances con actos de desobediencia civil: \"Queremos recuperar nuestro poder para vivir con dignidad y libertad\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef2ff821efa02e0e8b45a1.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T17:02:28.068Z"
+        },
+        {
+          "title": "Al menos cinco muertos y una decena de heridos tras un tiroteo en Cracovia",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef4327fdddff200a8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T17:02:28.067Z"
+        },
+        {
+          "title": "Los chalecos amarillos desafian al Gobierno frances con actos de desobediencia civil: \"Queremos recuperar nuestro poder para vivir con dignidad y libertad\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef2ff821efa02e0e8b45a1.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T17:02:08.586Z"
+        },
+        {
+          "title": "Al menos cinco muertos y una decena de heridos tras un tiroteo en Cracovia",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef4327fdddff200a8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T17:02:08.585Z"
+        },
+        {
+          "title": "Al menos 5 muertos y una docena de heridos en un tiroteo en Cracovia: la policia investiga \"las circunstancias del atentado\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261107/muertos-heridos-tiroteo-cracovia-policia-investiga-circunstancias-atentado/1003744450075_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T17:00:42.919Z"
+        },
+        {
+          "title": "Al menos 5 muertos y una docena de heridos en un tiroteo en Cracovia: la policia investiga \"las circunstancias del atentado\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261107/muertos-heridos-tiroteo-cracovia-policia-investiga-circunstancias-atentado/1003744450075_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T16:59:18.970Z"
+        },
+        {
+          "title": "Las obras para reforzar las fronteras de El Tarajal y Benzu en Ceuta comenzaran el 17 de noviembre",
+          "url": "https://www.elespanol.com/reportajes/20261107/obras-reforzar-fronteras-tarajal-benzu-ceuta-comenzaran-noviembre/1003744449956_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T16:59:16.641Z"
+        },
+        {
+          "title": "Al menos cinco muertos y una docena de heridos en un tiroteo en Cracovia",
+          "url": "https://www.publico.es/internacional/europa/cinco-muertos-docena-heridos-tiroteo-cracovia.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T16:58:43.457Z"
+        },
+        {
+          "title": "Al menos cinco muertos y una docena de heridos en un tiroteo en Cracovia",
+          "url": "https://www.publico.es/internacional/europa/cinco-muertos-docena-heridos-tiroteo-cracovia.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T16:57:51.997Z"
+        },
+        {
+          "title": "Le Pen y Melenchon se enzarzan en redes sociales: de \"ella adora a la policia\" a \"el quiere desmantelar Francia\"",
+          "url": "https://www.larazon.es/internacional/pen-melenchon-enzarzan-redes-sociales-ella-adora-policia-quiere-desmantelar-francia_202611076aef0e4903bbf30bb0434be1.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T16:57:23.460Z"
+        },
+        {
+          "title": "Al menos cinco muertos y diez heridos en un tiroteo en una de las principales plazas de Cracovia",
+          "url": "https://www.larazon.es/internacional/menos-cinco-muertos-diez-heridos-tiroteo-principales-plazas-cracovia_202611076aef46344196933d7ed47f00.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T16:57:22.361Z"
+        },
+        {
+          "title": "Una discusion entre buceadores termina en una pelea a 15 metros de profundidad en Maldivas",
+          "url": "https://www.larazon.es/actualidad/discusion-buceadores-termina-pelea-15-metros-profundidad-maldivas-b50m_202611076aef50f04196933d7ed48d1a.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T16:56:35.639Z"
+        },
+        {
+          "title": "Le Pen y Melenchon se enzarzan en redes sociales: de \"ella adora a la policia\" a \"el quiere desmantelar Francia\"",
+          "url": "https://www.larazon.es/internacional/pen-melenchon-enzarzan-redes-sociales-ella-adora-policia-quiere-desmantelar-francia_202611076aef0e4903bbf30bb0434be1.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T16:56:32.594Z"
+        },
+        {
+          "title": "Al menos cinco muertos y diez heridos en un tiroteo en una de las principales plazas de Cracovia",
+          "url": "https://www.larazon.es/internacional/menos-cinco-muertos-diez-heridos-tiroteo-principales-plazas-cracovia_202611076aef46344196933d7ed47f00.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T16:56:31.968Z"
+        },
+        {
+          "title": "Al menos cinco muertos y 15 heridos en un tiroteo en la ciudad polaca de Cracovia",
+          "url": "https://www.eldiario.es/internacional/cinco-muertos-docena-heridos-tiroteo-ciudad-polaca-cracovia_1_13646897.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T16:55:20.817Z"
+        },
+        {
+          "title": "El rechazo a los centros de datos colapsa Zaragoza: \"No generan empleo, no pagan impuestos y se quedan los recursos\"",
+          "url": "https://www.eldiario.es/aragon/economia/rechazo-centros-datos-colapsa-zaragoza-no-generan-empleo-no-pagan-impuestos-quedan-recursos_1_13646599.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T16:53:58.585Z"
+        },
+        {
+          "title": "Un ex presidente preso y el regreso del antiguo regimen durante una noche de locura en Paraguay",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aeec455fdddffde1c8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T10:33:22.376Z"
+        },
+        {
+          "title": "Ceuta, un \"macroCETI\" a los 100 dias de la invasion: \"El Gobierno no ha sido capaz de finalizar ni un expediente de repatriacion\"",
+          "url": "https://www.elespanol.com/espana/20261107/ceuta-macroceti-dias-invasion-gobierno-no-capaz-finalizar-expediente-repatriacion/1003744445233_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:30:43.007Z"
+        },
+        {
+          "title": "La Policia descabeza a los ultras de Nucleo Nacional: los Rico, Peralta y Pugilato, detenidos en el mayor golpe al grupo neonazi",
+          "url": "https://www.elespanol.com/espana/20261107/policia-descabeza-ultras-nucleo-nacional-rico-peralta-pugilato-detenidos-mayor-golpe-grupo-neonazi/1003744449624_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:30:39.905Z"
+        },
+        {
+          "title": "Radiografia del imperio de Dr. Love: al menos siete prostibulos y 21 sociedades",
+          "url": "https://cronicaglobal.elespanol.com/business/20261106/radiografia-imperio-dr-love-prostibulos-sociedades/1003742809487_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:30:05.438Z"
+        },
+        {
+          "title": "Ana Arias, actriz de 'Cuentame como paso', denuncia la desaparicion de su madre \"en extranas circunstancias\"",
+          "url": "https://www.elespanol.com/corazon/famosos/20261107/ana-arias-actriz-cuentame-paso-denuncia-desaparicion-madre-extranas-circunstancias/1003744449905_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:30:04.243Z"
+        },
+        {
+          "title": "Fue una invasion y sigue siendo una invasion: o cae Sanchez o caera Ceuta",
+          "url": "https://www.elespanol.com/opinion/editoriales/20261107/invasion-sigue-cae-sanchez-caera-ceuta/1003744449770_14.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:29:51.045Z"
+        },
+        {
+          "title": "\"Dicen que son gays\": el 70% de los marroquies que piden asilo tras la invasion aseguran que sufren discriminacion sexual",
+          "url": "https://www.elespanol.com/reportajes/20261107/dicen-gays-marroquies-piden-asilo-invasion-aseguran-sufren-discriminacion-sexual/1003744449334_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:29:50.164Z"
+        },
+        {
+          "title": "Ceuta, un \"macroCETI\" a los 100 dias de la invasion: \"El Gobierno no ha sido capaz de finalizar ni un expediente de repatriacion\"",
+          "url": "https://www.elespanol.com/espana/20261107/ceuta-macroceti-dias-invasion-gobierno-no-capaz-finalizar-expediente-repatriacion/1003744445233_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T10:29:49.433Z"
+        },
+        {
+          "title": "La Policia detiene al expresidente de Paraguay, Santiago Pena, tras ser destituido por presunta corrupcion",
+          "url": "https://www.publico.es/internacional/america-latina/policia-detiene-expresidente-paraguay-santiago-pena-destituido-presunta-corrupcion.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T10:29:18.579Z"
+        },
+        {
+          "title": "La Policia detiene al expresidente de Paraguay, Santiago Pena, tras ser destituido por presunta corrupcion",
+          "url": "https://www.publico.es/internacional/america-latina/policia-detiene-expresidente-paraguay-santiago-pena-destituido-presunta-corrupcion.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T10:28:19.549Z"
+        },
+        {
+          "title": "Europa en ebullicion: claves de las protestas",
+          "url": "https://www.larazon.es/internacional/europa-ebullicion-claves-protestas_202611076aeeb2b503bbf30bb0431b06.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T10:27:43.556Z"
+        }
+      ]
     },
     {
       "id": 205,
-      "title": "Les",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "102 artículos",
+      "volume": "63 artículos",
       "timeframe": "24h noticias",
-      "news_count": 102
+      "news_count": 63
     },
     {
       "id": 206,
-      "title": "Era",
+      "title": "Trump",
       "source": "news_tags",
-      "volume": "82 artículos",
+      "volume": "63 artículos",
       "timeframe": "24h noticias",
-      "news_count": 82
+      "news_count": 63
     },
     {
       "id": 207,
       "title": "Sánchez",
       "source": "news_tags",
-      "volume": "58 artículos",
+      "volume": "61 artículos",
       "timeframe": "24h noticias",
-      "news_count": 58
+      "news_count": 61
     },
     {
       "id": 208,
-      "title": "Trump",
+      "title": "Presidente",
       "source": "news_tags",
-      "volume": "56 artículos",
+      "volume": "57 artículos",
       "timeframe": "24h noticias",
-      "news_count": 56
+      "news_count": 57
     },
     {
       "id": 209,
-      "title": "Politica Exterior",
+      "title": "Sonsoles Onega",
       "source": "news_tags",
-      "volume": "54 artículos",
+      "volume": "47 artículos",
       "timeframe": "24h noticias",
-      "news_count": 54
+      "news_count": 47
     },
     {
       "id": 210,
       "title": "Gobierno de Aragon",
       "source": "news_tags",
-      "volume": "54 artículos",
+      "volume": "47 artículos",
       "timeframe": "24h noticias",
-      "news_count": 54
+      "news_count": 47
     },
     {
-      "id": 211,
-      "title": "Lección",
+      "id": 224,
+      "title": "Asegura",
       "source": "news_tags",
-      "volume": "53 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 53
-    },
-    {
-      "id": 212,
-      "title": "Nacional",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 213,
-      "title": "Frente Amplio",
-      "source": "news_tags",
-      "volume": "45 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 45
-    },
-    {
-      "id": 214,
-      "title": "Side",
-      "source": "news_tags",
-      "volume": "44 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
       "news_count": 44
     },
     {
-      "id": 215,
+      "id": 211,
       "title": "Psoe Málaga",
       "source": "news_tags",
-      "volume": "41 artículos",
+      "volume": "39 artículos",
       "timeframe": "24h noticias",
-      "news_count": 41
+      "news_count": 39
     },
     {
-      "id": 216,
-      "title": "España",
-      "source": "news_tags",
-      "volume": "40 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 40
-    },
-    {
-      "id": 217,
-      "title": "000",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 38
-    },
-    {
-      "id": 218,
-      "title": "Ola",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 38
-    },
-    {
-      "id": 219,
+      "id": 212,
       "title": "Agua",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 213,
+      "title": "Politica Exterior",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 214,
+      "title": "Lección",
       "source": "news_tags",
       "volume": "36 artículos",
       "timeframe": "24h noticias",
       "news_count": 36
     },
     {
-      "id": 220,
-      "title": "Echa",
+      "id": 238,
+      "title": "Migrantes",
       "source": "news_tags",
-      "volume": "35 artículos",
+      "volume": "19 artículos",
       "timeframe": "24h noticias",
-      "news_count": 35
+      "news_count": 36
     },
     {
-      "id": 221,
-      "title": "Viviendas",
+      "id": 215,
+      "title": "España",
       "source": "news_tags",
-      "volume": "35 artículos",
+      "volume": "31 artículos",
       "timeframe": "24h noticias",
-      "news_count": 35
+      "news_count": 31
     },
     {
-      "id": 222,
-      "title": "Feijóo",
+      "id": 216,
+      "title": "Nacional",
       "source": "news_tags",
-      "volume": "33 artículos",
+      "volume": "30 artículos",
       "timeframe": "24h noticias",
-      "news_count": 33
+      "news_count": 30
     },
     {
-      "id": 223,
-      "title": "Estadounidenses",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 224,
-      "title": "Sobre",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 225,
-      "title": "Personas Sin Hogar",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 226,
-      "title": "Pop",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 227,
-      "title": "Koldo",
+      "id": 217,
+      "title": "Ola",
       "source": "news_tags",
       "volume": "28 artículos",
       "timeframe": "24h noticias",
       "news_count": 28
     },
     {
-      "id": 228,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 229,
-      "title": "Amenazas",
+      "id": 218,
+      "title": "Han",
       "source": "news_tags",
       "volume": "27 artículos",
       "timeframe": "24h noticias",
       "news_count": 27
     },
     {
-      "id": 230,
-      "title": "Eeuu",
+      "id": 219,
+      "title": "000",
       "source": "news_tags",
-      "volume": "26 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 26
+      "news_count": 27
     },
     {
-      "id": 231,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 232,
-      "title": "Seguridad",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 233,
-      "title": "Illa",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 234,
-      "title": "Cinco",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 235,
-      "title": "Ceuta",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 236,
-      "title": "Urda",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 237,
-      "title": "Accidentes de Tren",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 238,
-      "title": "Vox",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 239,
-      "title": "Electoral",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 240,
-      "title": "Noviembre",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 241,
-      "title": "Uu",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 242,
-      "title": "Casas",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 243,
-      "title": "Piden",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 244,
-      "title": "Semanas",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 246,
-      "title": "Euros",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 247,
-      "title": "Blanca",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 248,
-      "title": "Migrantes",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 249,
+      "id": 220,
       "title": "Pedro Sánchez",
       "source": "news_tags",
-      "volume": "20 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 20
+      "news_count": 27
     },
     {
-      "id": 101,
-      "title": "La Revuelta",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 18,
-      "matched_articles": [
-        {
-          "title": "Colau asegura en el estreno del Frente Amplio en Barcelona que \"freira a impuestos\" a los ricos",
-          "url": "https://www.publico.es/politica/colau-avisa-pp-freira-impuestos-ricos-estreno-front-ampli-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-11-07T16:58:18.383Z"
-        },
-        {
-          "title": "Colau asegura en el estreno del Frente Amplio en Barcelona que \"freira a impuestos\" a los ricos",
-          "url": "https://www.publico.es/politica/colau-avisa-pp-freira-impuestos-ricos-estreno-front-ampli-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-11-07T16:57:52.660Z"
-        },
-        {
-          "title": "Pedro Sanchez sera entrevistado por Javier Ruiz en La Septima coincidiendo con la visita de Abascal a 'La Revuelta' de RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/pedro-sanchez-sera-entrevistado-javier-ruiz-septima-coincidiendo-visita-abascal-revuelta-rtve_1_13646145.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T16:53:57.047Z"
-        },
-        {
-          "title": "Colau, sobre la cancelacion de la asistencia del publico de La Revuelta para la entrevista con Abascal: \"?Que metafora, no?\"",
-          "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13646030_1126351.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T16:53:55.604Z"
-        },
-        {
-          "title": "'La Revuelta' cancela la asistencia de su publico a la entrevista de Abascal con Broncano en RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/la-revuelta-rtve-cancela-asistencia-publico-entrevista-abascal-broncano_1_13646367.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T16:53:54.423Z"
-        },
-        {
-          "title": "Las audiencias de la semana en TV: del primer dato de La Septima a las cuotas de Ana Rosa con los lideres de derechas",
-          "url": "https://www.eldiario.es/vertele/audiencias-tv/audiencias-semana-tv-primer-dato-la-septima-cuotas-ana-rosa-lideres-derechas_1_13638290.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T10:23:52.161Z"
-        },
-        {
-          "title": "Pinchazo del ultra Vito Quiles en Ceuta: mas policia que asistentes y un paripe de 'huida' en lancha privada con una litrona en la mano",
-          "url": "https://www.eldiario.es/desalambre/pinchazo-ultra-vito-quiles-ceuta-policia-asistentes-paripe-huida-lancha-privada-litrona-mano_1_13645948.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T10:23:25.330Z"
-        },
-        {
-          "title": "Trump, Pena, Orban, Vucic: cuando la ira se vuelve contra sus administradores",
-          "url": "https://www.publico.es/internacional/trump-pena-orban-vucic-ira-vuelve-administradores.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T23:20:48.869Z"
-        },
-        {
-          "title": "<<Les tenemos ganas>>: el PP se encomienda a una <<campana invasiva y valiente>>",
-          "url": "https://www.larazon.es/espana/les-tenemos-ganas-encomienda-campana-invasiva-valiente_202611066aee31dc03bbf30bb042c0bf.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:18:48.568Z"
-        },
-        {
-          "title": "<<Les tenemos ganas>>: el PP se encomienda a una <<campana invasiva y valiente>>",
-          "url": "https://www.larazon.es/espana/les-tenemos-ganas-encomienda-campana-invasiva-valiente_202611066aee31dc03bbf30bb042c0bf.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-06T23:18:27.530Z"
-        },
-        {
-          "title": "El PP desplegara a todo el partido en una campana territorial y digital para extender el mensaje de 'El cambio necesario'",
-          "url": "https://www.20minutos.es/nacional/pp-desplegara-todo-partido-una-campana-territorial-digital-para-extender-mensaje-cambio-necesario_7058193_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:16:57.031Z"
-        },
-        {
-          "title": "'La Revuelta' prescinde de Nogueras, aunque ha invitado a otros candidatos del 29-N",
-          "url": "https://www.lavanguardia.com/politica/20261106/11678136/revuelta-prescinde-nogueras-invitado-otros-candidatos-29-n.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-06T18:16:09.056Z"
-        },
-        {
-          "title": "'La Revuelta' prescinde de Nogueras, aunque ha invitado a otros candidatos del 29-N",
-          "url": "https://www.lavanguardia.com/politica/20261106/11678136/revuelta-prescinde-nogueras-invitado-otros-candidatos-29-n.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-06T18:14:45.600Z"
-        },
-        {
-          "title": "La campana del PP para \"el cambio necesario\": arranque en Badalona, mitines en plazas de toros y agenda paralela de los barones",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedcb46e9cf4a8a1e8b4596.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.714Z"
-        },
-        {
-          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
-          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:14.333Z"
-        },
-        {
-          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
-          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:09.406Z"
-        },
-        {
-          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
-          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:45.906Z"
-        },
-        {
-          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
-          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:39.856Z"
-        }
-      ]
-    },
-    {
-      "id": 4,
+      "id": 2,
       "title": "Cracovia",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 12,
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
+      "news_count": 26,
       "matched_articles": [
+        {
+          "title": "Un joven de 24 anos dispara al azar contra la gente en el centro de Cracovia y provoca seis muertos y 15 heridos",
+          "url": "https://www.20minutos.es/internacional/muertos-varios-heridos-ataque-arma-fuego-centro-cracovia_7058540_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T21:09:39.675Z"
+        },
+        {
+          "title": "Un ataque a tiros deja al menos seis muertos y dieciseis heridos en el centro de Cracovia",
+          "url": "https://www.lavanguardia.com/internacional/20261107/11678781/tiroteo-cracovia-deja-cinco-personas-muertas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-07T21:08:00.022Z"
+        },
+        {
+          "title": "Un ataque a tiros deja al menos seis muertos y dieciseis heridos en Cracovia",
+          "url": "https://www.lavanguardia.com/internacional/20261107/11678781/tiroteo-cracovia-deja-cinco-personas-muertas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-07T21:07:27.231Z"
+        },
+        {
+          "title": "Varios muertos y heridos tras un tiroteo en Cracovia",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef68e2e4d4d8777a8b458a-video.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:47.211Z"
+        },
+        {
+          "title": "Un hombre inspirado en \"ideologias de extrema derecha\" dispara indiscriminadamente en el centro de Cracovia y deja seis muertos",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef4327fdddff200a8b4573.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:47.210Z"
+        },
+        {
+          "title": "Momento en que un policia ha abatido al atacante de Cracovia",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef90f3e9cf4a39108b4573-video.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:47.210Z"
+        },
+        {
+          "title": "Al menos 6 muertos y 15 heridos en un tiroteo en Cracovia: el atacante estaba \"fascinado con la ultraderecha\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261107/muertos-heridos-tiroteo-cracovia-policia-investiga-circunstancias-atentado/1003744450075_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T21:04:55.406Z"
+        },
+        {
+          "title": "Al menos 6 muertos y 15 heridos en un tiroteo en Cracovia: el atacante estaba \"fascinado con la ultraderecha\"",
+          "url": "https://www.elespanol.com/mundo/europa/20261107/muertos-heridos-tiroteo-cracovia-policia-investiga-circunstancias-atentado/1003744450075_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T21:03:42.517Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en Cracovia",
+          "url": "https://www.publico.es/internacional/europa/cinco-muertos-docena-heridos-tiroteo-cracovia.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T21:02:50.790Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en Cracovia",
+          "url": "https://www.publico.es/internacional/europa/cinco-muertos-docena-heridos-tiroteo-cracovia.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T21:01:57.357Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en el corazon de Cracovia",
+          "url": "https://www.larazon.es/internacional/menos-cinco-muertos-diez-heridos-tiroteo-principales-plazas-cracovia_202611076aef46344196933d7ed47f00.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:01:27.395Z"
+        },
+        {
+          "title": "El autor del tiroteo de Cracovia, un polaco de 24 anos que podria <<sentir fascinacion por la extrema derecha\"",
+          "url": "https://www.larazon.es/internacional/autor-tiroteo-plaza-cracovia-ciudadano-polaco-24-anos_202611076aef7d0603bbf30bb043aa69.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:01:25.049Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en el corazon de Cracovia",
+          "url": "https://www.larazon.es/internacional/menos-cinco-muertos-diez-heridos-tiroteo-principales-plazas-cracovia_202611076aef46344196933d7ed47f00.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:30.302Z"
+        },
+        {
+          "title": "Al menos seis muertos y 15 heridos en un tiroteo en la ciudad polaca de Cracovia",
+          "url": "https://www.eldiario.es/internacional/cinco-muertos-docena-heridos-tiroteo-ciudad-polaca-cracovia_1_13646897.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T20:59:17.493Z"
+        },
         {
           "title": "Al menos cinco muertos y varios heridos en un ataque con arma de fuego en el centro de Cracovia",
           "url": "https://www.20minutos.es/internacional/muertos-varios-heridos-ataque-arma-fuego-centro-cracovia_7058540_0.html",
@@ -603,13 +671,313 @@
       ]
     },
     {
-      "id": 102,
+      "id": 221,
+      "title": "Estadounidenses",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 222,
+      "title": "Sobre",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 223,
+      "title": "Frente Amplio",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 225,
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 226,
+      "title": "Urda",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 227,
+      "title": "Cinco",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 228,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 229,
+      "title": "Feijóo",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 230,
+      "title": "Piden",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 231,
+      "title": "Pop",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 232,
+      "title": "Blanca",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 233,
+      "title": "Martes",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 235,
+      "title": "Uu",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 236,
+      "title": "Nido",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 237,
+      "title": "Noviembre",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 239,
+      "title": "Crisis Politica",
+      "source": "news_tags",
+      "volume": "19 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 19
+    },
+    {
+      "id": 240,
+      "title": "Vox",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 241,
+      "title": "Semanas",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 242,
+      "title": "Echa",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 243,
+      "title": "Illa",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 244,
+      "title": "Poder",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 245,
+      "title": "Ciudad",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 247,
+      "title": "Inmigración Ilegal",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 248,
+      "title": "Ceuta",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 249,
+      "title": "Casas",
+      "source": "news_tags",
+      "volume": "16 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 16
+    },
+    {
+      "id": 104,
+      "title": "La Revuelta",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 13,
+      "matched_articles": [
+        {
+          "title": "Melenchon lanza su programa con 1069 propuestas para la 'nueva Francia': \"Es hora de cambiarlo todo\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/07/6aef6d60fdddff200a8b4582.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:47.211Z"
+        },
+        {
+          "title": "La Revuelta cancela al publico de la entrevista de Abascal y desata la polemica: el silencio de RTVE y unas arduas negociaciones con Vox",
+          "url": "https://www.elmundo.es/television/2026/11/07/6aef6f3efdddff59428b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:27.053Z"
+        },
+        {
+          "title": "Bolanos acusa a Abascal de querer controlar el publico de su visita a La Revuelta: \"Lo quiere llenar de ultras\"",
+          "url": "https://www.larazon.es/espana/29n-bolanos-acusa-abascal-querer-controlar-publico-visita-revuelta-quiere-llenar-ultras_202611076aef57d003bbf30bb0439542.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:33.942Z"
+        },
+        {
+          "title": "Colau asegura en el estreno del Frente Amplio en Barcelona que \"freira a impuestos\" a los ricos",
+          "url": "https://www.publico.es/politica/colau-avisa-pp-freira-impuestos-ricos-estreno-front-ampli-barcelona.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T16:58:18.383Z"
+        },
+        {
+          "title": "Colau asegura en el estreno del Frente Amplio en Barcelona que \"freira a impuestos\" a los ricos",
+          "url": "https://www.publico.es/politica/colau-avisa-pp-freira-impuestos-ricos-estreno-front-ampli-barcelona.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T16:57:52.660Z"
+        },
+        {
+          "title": "Pedro Sanchez sera entrevistado por Javier Ruiz en La Septima coincidiendo con la visita de Abascal a 'La Revuelta' de RTVE",
+          "url": "https://www.eldiario.es/vertele/noticias/pedro-sanchez-sera-entrevistado-javier-ruiz-septima-coincidiendo-visita-abascal-revuelta-rtve_1_13646145.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T16:53:57.047Z"
+        },
+        {
+          "title": "Colau, sobre la cancelacion de la asistencia del publico de La Revuelta para la entrevista con Abascal: \"?Que metafora, no?\"",
+          "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13646030_1126351.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T16:53:55.604Z"
+        },
+        {
+          "title": "'La Revuelta' cancela la asistencia de su publico a la entrevista de Abascal con Broncano en RTVE",
+          "url": "https://www.eldiario.es/vertele/noticias/la-revuelta-rtve-cancela-asistencia-publico-entrevista-abascal-broncano_1_13646367.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T16:53:54.423Z"
+        },
+        {
+          "title": "Las audiencias de la semana en TV: del primer dato de La Septima a las cuotas de Ana Rosa con los lideres de derechas",
+          "url": "https://www.eldiario.es/vertele/audiencias-tv/audiencias-semana-tv-primer-dato-la-septima-cuotas-ana-rosa-lideres-derechas_1_13638290.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T10:23:52.161Z"
+        },
+        {
+          "title": "Pinchazo del ultra Vito Quiles en Ceuta: mas policia que asistentes y un paripe de 'huida' en lancha privada con una litrona en la mano",
+          "url": "https://www.eldiario.es/desalambre/pinchazo-ultra-vito-quiles-ceuta-policia-asistentes-paripe-huida-lancha-privada-litrona-mano_1_13645948.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-07T10:23:25.330Z"
+        },
+        {
+          "title": "Trump, Pena, Orban, Vucic: cuando la ira se vuelve contra sus administradores",
+          "url": "https://www.publico.es/internacional/trump-pena-orban-vucic-ira-vuelve-administradores.html",
+          "newspaper": "Público",
+          "date": "2026-11-06T23:20:48.869Z"
+        },
+        {
+          "title": "<<Les tenemos ganas>>: el PP se encomienda a una <<campana invasiva y valiente>>",
+          "url": "https://www.larazon.es/espana/les-tenemos-ganas-encomienda-campana-invasiva-valiente_202611066aee31dc03bbf30bb042c0bf.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T23:18:48.568Z"
+        },
+        {
+          "title": "<<Les tenemos ganas>>: el PP se encomienda a una <<campana invasiva y valiente>>",
+          "url": "https://www.larazon.es/espana/les-tenemos-ganas-encomienda-campana-invasiva-valiente_202611066aee31dc03bbf30bb042c0bf.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-06T23:18:27.530Z"
+        }
+      ]
+    },
+    {
+      "id": 105,
       "title": "Broncano",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 7,
+      "news_count": 5,
       "matched_articles": [
+        {
+          "title": "La Revuelta cancela al publico de la entrevista de Abascal y desata la polemica: el silencio de RTVE y unas arduas negociaciones con Vox",
+          "url": "https://www.elmundo.es/television/2026/11/07/6aef6f3efdddff59428b4585.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-07T21:06:27.053Z"
+        },
+        {
+          "title": "Bolanos acusa a Abascal de querer controlar el publico de su visita a La Revuelta: \"Lo quiere llenar de ultras\"",
+          "url": "https://www.larazon.es/espana/29n-bolanos-acusa-abascal-querer-controlar-publico-visita-revuelta-quiere-llenar-ultras_202611076aef57d003bbf30bb0439542.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:33.942Z"
+        },
         {
           "title": "Pedro Sanchez sera entrevistado por Javier Ruiz en La Septima coincidiendo con la visita de Abascal a 'La Revuelta' de RTVE",
           "url": "https://www.eldiario.es/vertele/noticias/pedro-sanchez-sera-entrevistado-javier-ruiz-septima-coincidiendo-visita-abascal-revuelta-rtve_1_13646145.html",
@@ -627,168 +995,50 @@
           "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/07/abascal-broncano-feijoo-motos/0003_202611G7P18994.htm",
           "newspaper": "La Voz De Galicia",
           "date": "2026-11-07T10:32:27.647Z"
-        },
-        {
-          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
-          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:14.333Z"
-        },
-        {
-          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
-          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:09:09.406Z"
-        },
-        {
-          "title": "El PP abre la puerta a una entrevista de Feijoo en 'La Revuelta' tras la confirmacion de Abascal y arrancara la campana en Badalona con Albiol",
-          "url": "https://www.publico.es/politica/pp-cierra-puerta-entrevista-feijoo-revuelta-confirmacion-abascal-arrancara-campana-badalona-albiol.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:45.906Z"
-        },
-        {
-          "title": "'La Revuelta' cancela la asistencia del publico previsto para el programa de Abascal porque se grabara \"en condiciones distintas\"",
-          "url": "https://www.publico.es/politica/partidos/revuelta-cancela-asistencia-publico-previsto-programa-abascal-grabara-condiciones-distintas.html",
-          "newspaper": "Público",
-          "date": "2026-11-06T18:08:39.856Z"
         }
       ]
     },
     {
-      "id": 104,
-      "title": "Javier Ruiz",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 6,
-      "matched_articles": [
-        {
-          "title": "Javier Fernandez, nuevo jefe de la Policia Municipal de Madrid tras la jubilacion de Oskar de Santos, que ha recurrido para seguir en el cargo",
-          "url": "https://www.elmundo.es/madrid/2026/11/06/6aecb50f21efa016488b45be.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-07T17:02:45.770Z"
-        },
-        {
-          "title": "Pedro Sanchez sera entrevistado por Javier Ruiz en La Septima coincidiendo con la visita de Abascal a 'La Revuelta' de RTVE",
-          "url": "https://www.eldiario.es/vertele/noticias/pedro-sanchez-sera-entrevistado-javier-ruiz-septima-coincidiendo-visita-abascal-revuelta-rtve_1_13646145.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T16:53:57.047Z"
-        },
-        {
-          "title": "El 'Malas Lenguas' infinito de 'La Septima': doce horas diarias de tertulias \"low cost\" al servicio de la agitacion politica",
-          "url": "https://www.elespanol.com/invertia/medios/20261107/malas-lenguas-infinito-septima-doce-horas-diarias-tertulias-low-cost-servicio-agitacion-politica/1003744448539_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-07T10:30:02.759Z"
-        },
-        {
-          "title": "Las audiencias de la semana en TV: del primer dato de La Septima a las cuotas de Ana Rosa con los lideres de derechas",
-          "url": "https://www.eldiario.es/vertele/audiencias-tv/audiencias-semana-tv-primer-dato-la-septima-cuotas-ana-rosa-lideres-derechas_1_13638290.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-07T10:23:52.161Z"
-        },
-        {
-          "title": "Becerra, el Tezanos de Paco Salazar contratado por el PSOE, reaparece en La Septima como guru de la supuesta remontada",
-          "url": "https://www.elespanol.com/espana/20261106/becerra-tezanos-paco-salazar-contratado-psoe-reaparece-septima-guru-supuesta-remontada/1003744448902_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T18:11:02.820Z"
-        },
-        {
-          "title": "Becerra, el Tezanos de Paco Salazar contratado por el PSOE, reaparece en La Septima como guru de la supuesta remontada",
-          "url": "https://www.elespanol.com/espana/20261106/becerra-tezanos-paco-salazar-contratado-psoe-reaparece-septima-guru-supuesta-remontada/1003744448902_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T18:10:19.284Z"
-        }
-      ]
-    },
-    {
-      "id": 105,
-      "title": "Bruna",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 3,
-      "matched_articles": [
-        {
-          "title": "La borrasca Bruna llega en las proximas horas a Espana con lluvias y fuertes vientos: estas son las zonas que esperan mas agua",
-          "url": "https://www.20minutos.es/nacional/borrasca-bruna-llega-sabado-espana-trae-lluvias-fuertes-vientos_7058427_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-07T17:04:41.359Z"
-        },
-        {
-          "title": "Llega la borrasca Bruna: este sabado se esperan fuertes vendavales y tormentas en Canarias y lluvias en el noroeste del pais",
-          "url": "https://www.elmundo.es/espana/2026/11/07/6aeedb32e85ece55528b4595.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-07T10:33:44.086Z"
-        },
-        {
-          "title": "La borrasca Bruna traera este fin de semana un \"cambio importante de tiempo\" con fuertes lluvias, viento y riesgo de inundacion",
-          "url": "https://www.20minutos.es/nacional/borrasca-bruna-traera-este-fin-semana-un-cambio-importante-tiempo-con-fuertes-lluvias-viento-riesgo-inundacion_7058135_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-06T18:17:00.394Z"
-        }
-      ]
-    },
-    {
-      "id": 123,
-      "title": "Alonso",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "Asi es el misterio demoscopico de Plasencia, la ciudad que siempre 'acierta' el ganador de las elecciones generales",
-          "url": "https://www.elmundo.es/cronica/2026/11/03/6ae4d9ffe9cf4af6438b4577.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-06T18:13:37.714Z"
-        },
-        {
-          "title": "El Ibex 35 firma su mejor semana desde abril al subir un 3,8% y Wall Street repunta tras el jueves 'negro' por la IA",
-          "url": "https://www.elespanol.com/invertia/mercados/20261106/bolsas-asia-sufren-peor-desplome-lastradas-sector-ia/1003744448339_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-06T18:10:25.975Z"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Parto",
+      "id": 33,
+      "title": "Primitiva 7 de Noviembre",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 1,
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 4,
       "matched_articles": [
         {
-          "title": "Envidio la presion estetica de Rufian",
-          "url": "https://www.publico.es/opinion/envidio-presion-estetica-rufian.html",
-          "newspaper": "Público",
-          "date": "2026-11-07T10:28:26.119Z"
+          "title": "Comprobar Primitiva: resultados de hoy, sabado 7 de noviembre de 2026",
+          "url": "https://www.20minutos.es/nacional/comprobar-primitiva-resultados-hoy-sabado-7-noviembre-2026_7058582_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T21:09:10.597Z"
+        },
+        {
+          "title": "Bonoloto: Comprueba el resultado del sorteo de hoy sabado 7 de noviembre de 2026",
+          "url": "https://www.larazon.es/loteria/bonoloto-comprueba-resultado-sorteo-hoy-sabado-7-noviembre-2026-b50m_202611076aef8479ea8d8979977d1533.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:37.927Z"
+        },
+        {
+          "title": "Comprobar La Primitiva: resultado del sorteo de hoy, sabado 7 de noviembre de 2026",
+          "url": "https://www.larazon.es/loteria/comprobar-primitiva-resultado-sorteo-hoy-sabado-7-noviembre-2026-b50m_202611076aef847b4196933d7ed4ae50.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:37.623Z"
+        },
+        {
+          "title": "Sorteo Extraordinario de la Loteria Nacional de hoy sabado 7 de noviembre de 2026 | Resultados y premios",
+          "url": "https://www.20minutos.es/nacional/sorteo-extraordinario-loteria-nacional-hoy-sabado-7-noviembre-2026-directo-resultados-premios_7058475_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-07T17:04:37.085Z"
         }
       ]
     },
     {
-      "id": 12,
-      "title": "Amaia Montero",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "Envidio la presion estetica de Rufian",
-          "url": "https://www.publico.es/opinion/envidio-presion-estetica-rufian.html",
-          "newspaper": "Público",
-          "date": "2026-11-07T10:28:26.119Z"
-        }
-      ]
-    },
-    {
-      "id": 24,
+      "id": 14,
       "title": "Luis Cobos Enfermedad",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 1,
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 2,
       "matched_articles": [
         {
           "title": "Luis Cobos revela su lucha contra una enfermedad: \"Estoy peleando por la vida\"",
@@ -799,7 +1049,77 @@
       ]
     },
     {
-      "id": 103,
+      "id": 102,
+      "title": "Mestalla",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Valencia - Real Madrid, futbol hoy en directo: resultado, goleadores y estadisticas en vivo del partido de La Liga",
+          "url": "https://www.elespanol.com/deportes/20261107/valencia-real-madrid-futbol-hoy-directo-resultado-goleadores-estadisticas-vivo-partido-liga/1003744450015_22.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T21:03:28.462Z"
+        },
+        {
+          "title": "Valencia - Real Madrid, en directo hoy: jornada 12 de LaLiga EA Sports",
+          "url": "https://www.larazon.es/deportes/futbol/valencia-real-madrid-directo-hoy-jornada-12-laliga-sports_202611076aed7c37d3bddc0868a741c5.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-07T21:00:32.551Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Parto",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Envidio la presion estetica de Rufian",
+          "url": "https://www.publico.es/opinion/envidio-presion-estetica-rufian.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T10:28:26.119Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Amaia Montero",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Envidio la presion estetica de Rufian",
+          "url": "https://www.publico.es/opinion/envidio-presion-estetica-rufian.html",
+          "newspaper": "Público",
+          "date": "2026-11-07T10:28:26.119Z"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Estadio de Mestalla Valencia Cf",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Valencia - Real Madrid, futbol hoy en directo: resultado, goleadores y estadisticas en vivo del partido de La Liga",
+          "url": "https://www.elespanol.com/deportes/20261107/valencia-real-madrid-futbol-hoy-directo-resultado-goleadores-estadisticas-vivo-partido-liga/1003744450015_22.html",
+          "newspaper": "El Español",
+          "date": "2026-11-07T21:03:28.462Z"
+        }
+      ]
+    },
+    {
+      "id": 101,
       "title": "Amaia",
       "source": "x_trends",
       "volume": "N/A",
@@ -815,33 +1135,11 @@
       ]
     },
     {
-      "id": 124,
-      "title": "Maresca",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 1,
-      "matched_articles": []
-    },
-    {
       "id": 1,
       "title": "Valencia C. F. - Real Madrid",
       "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0,
-      "matched_articles": [],
-      "merged_sources": [
-        "x_trends",
-        "google"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Posiciones de Nottingham Forest Contra Manchester City",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "volume": "500 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -850,43 +1148,43 @@
       "title": "Osasuna - Athletic",
       "source": "google",
       "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 8 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 4,
+      "title": "Norma Duval",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 6,
-      "title": "Norma Duval",
+      "title": "Málaga - Racing de Santander",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 7,
-      "title": "Psg - Troyes",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 8,
-      "title": "Posiciones de Osasuna Contra Athletic Club",
+      "title": "Picador de Toros Curro Sánchez",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 9,
-      "title": "Curro Sanchez Picador",
+      "title": "Rcd Espanyol - Deportivo",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
@@ -895,121 +1193,148 @@
       "title": "Herencia",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 9 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 11,
+      "title": "Inter Miami - Charlotte Fc",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 4 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 12,
       "title": "Posiciones de Málaga Cf Contra Racing de Santander",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 13,
-      "title": "Leganés - Albacete",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 14,
-      "title": "Cádiz - Real Oviedo",
+      "title": "Nottingham Forest - Manchester City",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 8 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 15,
-      "title": "Córdoba - Ad Ceuta",
+      "title": "Posiciones de Osasuna Contra Athletic Club",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 4 h (24h)",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 20,
+      "title": "Posiciones de Psg Contra Estac Troyes",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 21,
+      "title": "Posiciones de Inter Miami Contra Charlotte Fc",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 25,
+      "title": "Pacers - Nuggets",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 26,
-      "title": "Roma - Sassuolo",
+      "title": "América - Deportivo Cali",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 27,
-      "title": "Posiciones de Athletic Club Femenino Contra Real Madrid Club de Fútbol Femenino",
+      "title": "Liga Argentina",
       "source": "google",
       "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 28,
-      "title": "Boca Juniors - Defensa y Justicia",
+      "title": "Posiciones de Boca Juniors Contra Defensa y Justicia",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 29,
-      "title": "Posiciones de Club Deportivo Leganés Contra Albacete Balompié",
+      "title": "Real Zaragoza Huesca",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 30,
-      "title": "Inter Miami - Charlotte Fc",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 50 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 31,
-      "title": "Zaragoza Huesca",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 32,
-      "title": "Arda Güler",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 30 min (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 33,
-      "title": "Posiciones de Cádiz Club de Fútbol Contra Real Oviedo",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
+      "id": 30,
+      "title": "Tamara Falcó",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 32,
+      "title": "Terremoto Sismo Temblor Hoy Epicentro",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 34,
+      "title": "José Yélamo",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 103,
+      "title": "#ireneygabrielenmadrid",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
       "id": 121,
-      "title": "Maffeo",
+      "title": "Braulio",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

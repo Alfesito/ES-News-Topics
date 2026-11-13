@@ -1,134 +1,564 @@
 {
-  "timestamp": "2026-11-13T09:51:25.564850",
+  "timestamp": "2026-11-13T18:03:14.310341",
   "summary": {
     "google_total": 30,
     "xtrends_total": 10,
     "tags_total": 50,
-    "unique_total": 83,
+    "unique_total": 84,
     "unified_count": 4,
-    "with_news": 59,
-    "without_news": 24
+    "with_news": 64,
+    "without_news": 20
   },
   "trends": [
     {
       "id": 200,
       "title": "Ia",
       "source": "news_tags",
-      "volume": "665 artículos",
+      "volume": "755 artículos",
       "timeframe": "24h noticias",
-      "news_count": 665
+      "news_count": 755
     },
     {
       "id": 201,
-      "title": "Erc - Esquerra Republicana de Catalunya",
+      "title": "Erc-esquerra Republicana de Catalunya",
       "source": "news_tags",
-      "volume": "371 artículos",
+      "volume": "350 artículos",
       "timeframe": "24h noticias",
-      "news_count": 371
-    },
-    {
-      "id": 202,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "273 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 273
-    },
-    {
-      "id": 203,
-      "title": "Portugal",
-      "source": "news_tags",
-      "volume": "231 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 231
+      "news_count": 350
     },
     {
       "id": 204,
-      "title": "Dos",
+      "title": "Nuevas",
       "source": "news_tags",
-      "volume": "201 artículos",
+      "volume": "205 artículos",
       "timeframe": "24h noticias",
-      "news_count": 201
+      "news_count": 233
+    },
+    {
+      "id": 202,
+      "title": "Portavoz",
+      "source": "news_tags",
+      "volume": "225 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 225
+    },
+    {
+      "id": 203,
+      "title": "Les",
+      "source": "news_tags",
+      "volume": "223 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 223
     },
     {
       "id": 205,
-      "title": "Noia",
+      "title": "Dos",
       "source": "news_tags",
-      "volume": "167 artículos",
+      "volume": "195 artículos",
       "timeframe": "24h noticias",
-      "news_count": 167
+      "news_count": 195
     },
     {
       "id": 206,
-      "title": "Sánchez",
+      "title": "Era",
       "source": "news_tags",
-      "volume": "99 artículos",
+      "volume": "147 artículos",
       "timeframe": "24h noticias",
-      "news_count": 99
+      "news_count": 147
     },
     {
       "id": 207,
-      "title": "Psoe",
+      "title": "Sánchez",
       "source": "news_tags",
-      "volume": "89 artículos",
+      "volume": "126 artículos",
       "timeframe": "24h noticias",
-      "news_count": 89
+      "news_count": 126
     },
     {
-      "id": 9,
-      "title": "Uco",
+      "id": 208,
+      "title": "Psoe",
+      "source": "news_tags",
+      "volume": "94 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 94
+    },
+    {
+      "id": 209,
+      "title": "Gobierno de España",
+      "source": "news_tags",
+      "volume": "90 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 90
+    },
+    {
+      "id": 210,
+      "title": "Vox",
+      "source": "news_tags",
+      "volume": "85 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 85
+    },
+    {
+      "id": 211,
+      "title": "Política",
+      "source": "news_tags",
+      "volume": "74 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 74
+    },
+    {
+      "id": 223,
+      "title": "Mas Madrid",
+      "source": "news_tags",
+      "volume": "44 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 74
+    },
+    {
+      "id": 212,
+      "title": "Elecciones Anticipadas",
+      "source": "news_tags",
+      "volume": "73 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 73
+    },
+    {
+      "id": 213,
+      "title": "Feijóo",
+      "source": "news_tags",
+      "volume": "70 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 70
+    },
+    {
+      "id": 214,
+      "title": "Partido Popular (pp)",
+      "source": "news_tags",
+      "volume": "53 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 53
+    },
+    {
+      "id": 215,
+      "title": "Sobre",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
+    },
+    {
+      "id": 216,
+      "title": "Presidente",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
+    },
+    {
+      "id": 217,
+      "title": "Pedro Sánchez",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
+    },
+    {
+      "id": 218,
+      "title": "Huang",
+      "source": "news_tags",
+      "volume": "48 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 48
+    },
+    {
+      "id": 219,
+      "title": "Espana-newsletter-destacada",
+      "source": "news_tags",
+      "volume": "48 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 48
+    },
+    {
+      "id": 220,
+      "title": "Huelga",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 221,
+      "title": "Frente Amplio",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 222,
+      "title": "Viviendas",
+      "source": "news_tags",
+      "volume": "46 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 46
+    },
+    {
+      "id": 224,
+      "title": "Electoral",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
+      "id": 225,
+      "title": "Entrevistas",
+      "source": "news_tags",
+      "volume": "42 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 42
+    },
+    {
+      "id": 226,
+      "title": "Abascal",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
+      "id": 227,
+      "title": "Campana Electoral",
+      "source": "news_tags",
+      "volume": "33 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 33
+    },
+    {
+      "id": 228,
+      "title": "Wild",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 229,
+      "title": "Ceuta",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 230,
+      "title": "Horas",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 231,
+      "title": "Nacionalismo",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 232,
+      "title": "Echa",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 233,
+      "title": "Jordi",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 235,
+      "title": "Investigación",
+      "source": "news_tags",
+      "volume": "30 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 30
+    },
+    {
+      "id": 2,
+      "title": "Caida Microsoft",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 86,
+      "volume": "200 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 29,
       "matched_articles": [
         {
-          "title": "El juez da 10 dias al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres bancarios",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af62498e85ece93128b45a9.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.327Z"
+          "title": "Caida mundial de Microsoft, hoy en directo: Outlook, Teams y Copilot | Ultima hora de la recuperacion",
+          "url": "https://www.lavanguardia.com/vida/20261113/11683265/caida-mundial-outlook-teams-copilot-microsoft-ultima-hora-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-13T09:48:49.558Z"
         },
         {
-          "title": "Oscar Lopez impulso desde Moncloa la reunion de Sanchez con su chofer que dejo asombrada a la trama: \"Yo que se. Todo es raro\"",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.327Z"
+          "title": "Microsoft asegura que la causa de la caida de sus servicios no ha sido un ciberataque",
+          "url": "https://www.lavanguardia.com/vida/20261113/11683263/microsoft-asegura-causa-caida-servicios-sido-ciberataque.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-13T09:48:48.978Z"
         },
         {
-          "title": "\"Nuestro amigo Cristian\": el ex chofer de Sanchez fue la solucion para comprarle un piso a la novia de Abalos",
-          "url": "https://www.elmundo.es/espana/2026/11/13/6af62229e4d4d85c5f8b45b1.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.327Z"
+          "title": "Microsoft sigue sin resolver la caida mundial de Outlook, Teams y Copilot",
+          "url": "https://www.lavanguardia.com/vida/20261113/11683225/microsoft-dificultades-reparar-caida-mundial-outlook.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-13T09:48:48.525Z"
         },
         {
-          "title": "El juez da 10 dias al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres bancarios",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af62498e85ece93128b45a9.html",
+          "title": "Microsoft sufre una caida mundial: Outlook, Teams y Copilot llevan mas de 14 horas sin funcionar. ?Que puedo hacer?",
+          "url": "https://www.elmundo.es/economia/empresas/2026/11/13/6af6b987fdddfff22c8b4587.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-13T02:04:31.935Z"
+          "date": "2026-11-13T09:47:46.440Z"
         },
         {
-          "title": "\"Nuestro amigo Cristian\": el ex chofer de Sanchez fue la solucion para comprarle un piso a la novia de Abalos",
-          "url": "https://www.elmundo.es/espana/2026/11/13/6af62229e4d4d85c5f8b45b1.html",
+          "title": "Microsoft no consigue solventar la caida global de sus servicios, entre ellos Outlook y Teams: las medidas para solucionarlo no estan funcionando \"como se esperaba\"",
+          "url": "https://www.elmundo.es/economia/empresas/2026/11/13/6af6aa0221efa0e1328b4575.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-13T02:04:31.935Z"
+          "date": "2026-11-13T09:47:46.440Z"
         },
         {
-          "title": "Oscar Lopez impulso desde Moncloa la reunion de Sanchez con su chofer que dejo asombrada a la trama: \"Yo que se. Todo es raro\"",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:04:31.935Z"
-        },
-        {
-          "title": "Elecciones generales 29-N, en directo | El PP publica un video en sus redes como pistoletazo de salida de la campana electoral: \"El cambio necesario\"",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
+          "title": "Microsoft experimenta una caida mundial de mas de 14 horas que deja Outlook y otros servicios inoperativos",
+          "url": "https://www.elespanol.com/omicrono/software/20261113/outlook-teams-no-funcionan-microsoft-experimenta-caida-mundial-servicios-consigue-solucionar/1003744456695_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-13T02:02:21.509Z"
+          "date": "2026-11-13T09:45:37.650Z"
         },
         {
-          "title": "!Y todavia no han llegado al Gobierno!",
-          "url": "https://www.publico.es/opinion/todavia-han-llegado-gobierno.html",
+          "title": "Microsoft descarta que la caida global de sus servicios este causada por un ataque cibernetico",
+          "url": "https://www.publico.es/internacional/ejecutivo-microsoft-descarta-ataque-cibernetico-detras-caida-global-servicios.html",
           "newspaper": "Público",
-          "date": "2026-11-13T01:59:50.166Z"
+          "date": "2026-11-13T09:44:58.670Z"
+        },
+        {
+          "title": "Microsoft descarta que la caida global de sus servicios este causada por un ataque cibernetico",
+          "url": "https://www.publico.es/internacional/ejecutivo-microsoft-descarta-ataque-cibernetico-detras-caida-global-servicios.html",
+          "newspaper": "Público",
+          "date": "2026-11-13T09:44:16.229Z"
+        },
+        {
+          "title": "El 'tecnodolar', Elon Musk y la 'opcion Sanson' en la guerra de Iran",
+          "url": "https://www.publico.es/opinion/columnas/tecnodolar-elon-musk-opcion-sanson-guerra-iran.html",
+          "newspaper": "Público",
+          "date": "2026-11-13T09:44:14.806Z"
+        },
+        {
+          "title": "Directo de la caida de los servicios de Microsoft: ultima hora del estado de Outlook, Teams y Office",
+          "url": "https://www.larazon.es/tecnologia/directo-caida-servicios-microsotf-ultima-hora-estado-outlook-teams-office_202611136af6b4a3ea8d89799783f452.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-13T09:42:50.065Z"
+        },
+        {
+          "title": "Outlook y Teams siguen sin funcionar: Microsoft no consigue recuperar sus servicios tras una caida global",
+          "url": "https://www.eldiario.es/tecnologia/microsoft-sufre-caida-global-servicios-outlook-teams_1_13660555.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-13T09:40:25.307Z"
+        },
+        {
+          "title": "Nvidia sufre en Bolsa tras anunciar el adios de su CEO",
+          "url": "https://elpais.com/economia/2026-11-12/nvidia-se-hunde-en-bolsa-tras-anunciar-el-adios-de-su-ceo.html",
+          "newspaper": "El País",
+          "date": "2026-11-13T01:57:11.720Z"
+        },
+        {
+          "title": "Dimite Jensen Huang, el CEO de Nvidia, tras la polemica por sus infidelidades con una presunta espia china y una subordinada",
+          "url": "https://www.20minutos.es/internacional/dimite-ceo-nvidia-tras-polemica-por-sus-infidelidades-con-una-presunta-espia-china-una-subordinada_7060325_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-12T21:06:40.919Z"
+        },
+        {
+          "title": "Los servicios de Microsoft caen en todo el mundo",
+          "url": "https://www.lavanguardia.com/vida/20261112/11682855/microsoft-sufre-caida-deja-fuera-servicio-parte-funcionalidades.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-12T21:04:29.946Z"
+        },
+        {
+          "title": "Dimite el director ejecutivo de Nvidia Jensen Huang",
+          "url": "https://www.publico.es/ciencias/tecnologia/dimite-ceo-nvidia-jensen-huang.html",
+          "newspaper": "Público",
+          "date": "2026-11-12T20:58:50.153Z"
+        },
+        {
+          "title": "Bombazo en NVIDIA: Jensen Huang dimite como CEO con efecto inmediato tras 33 anos al frente de la compania",
+          "url": "https://www.larazon.es/tecnologia-consumo/bombazo-nvidia-jensen-huang-dimite-como-ceo-efecto-inmediato-33-anos-frente-compania_202611126af5c6fe03bbf30bb049c057.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-12T20:57:12.936Z"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 238,
+      "title": "Guerras",
+      "source": "news_tags",
+      "volume": "28 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 28
+    },
+    {
+      "id": 239,
+      "title": "Eeuu",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
+      "id": 240,
+      "title": "Jueza",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
+      "id": 241,
+      "title": "Europea",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
+      "id": 242,
+      "title": "Ataques Militares",
+      "source": "news_tags",
+      "volume": "27 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 27
+    },
+    {
+      "id": 243,
+      "title": "Cuestas",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 244,
+      "title": "Millones",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 245,
+      "title": "Servicios",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 246,
+      "title": "Jueves",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 247,
+      "title": "Caso Koldo",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 249,
+      "title": "Cis-centro de Investigaciones Sociologicas",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 104,
+      "title": "Corvillo",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 23,
+      "matched_articles": [
+        {
+          "title": "Los mensajes desvelados por la UCO situan a Oscar Lopez como impulsor de la reunion de Sanchez con el chofer de la trama: \"Todo es raro\"",
+          "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T09:48:23.935Z"
+        },
+        {
+          "title": "Los mensajes desvelados por la UCO situan a Oscar Lopez como impulsor de la reunion de Sanchez con el chofer de la trama: \"Todo es raro\"",
+          "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T09:47:46.439Z"
+        },
+        {
+          "title": "\"Boligrafos\" y \"fotocopias\": el argot en clave de Corvillo para referirse al dinero en efectivo de Aldama que entregaba a Abalos",
+          "url": "https://www.elespanol.com/espana/tribunales/20261113/boligrafos-fotocopias-argot-clave-corvillo-referirse-dinero-efectivo-aldama-entregaba-abalos/1003744456461_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:46:03.881Z"
+        },
+        {
+          "title": "La cita \"privada\" de Sanchez con Corvillo en 2023 prueba que mantuvo lazos con la 'banda del Peugeot' hasta las detenciones",
+          "url": "https://www.elespanol.com/espana/20261113/cita-privada-sanchez-corvillo-prueba-mantuvo-lazos-banda-peugeot-detenciones/1003744456540_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:46:02.885Z"
+        },
+        {
+          "title": "La cita \"privada\" de Sanchez con Corvillo en 2023 prueba que mantuvo lazos con la 'banda del Peugeot' hasta las detenciones",
+          "url": "https://www.elespanol.com/espana/20261113/cita-privada-sanchez-corvillo-prueba-mantuvo-lazos-banda-peugeot-detenciones/1003744456540_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:45:29.406Z"
+        },
+        {
+          "title": "El exchofer de Sanchez medio en la adjudicacion de obras del AVE",
+          "url": "https://www.larazon.es/espana/exchofer-sanchez-medio-adjudicacion-obras-ave_202611136af6d348d3bddc0868b02401.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-13T09:42:42.367Z"
+        },
+        {
+          "title": "Oscar Lopez impulso desde Moncloa la reunion de Sanchez con su chofer que dejo asombrada a la trama: \"Yo que se. Todo es raro\"",
+          "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T02:05:11.327Z"
+        },
+        {
+          "title": "\"Nuestro amigo Cristian\": el ex chofer de Sanchez fue la solucion para comprarle un piso a la novia de Abalos",
+          "url": "https://www.elmundo.es/espana/2026/11/13/6af62229e4d4d85c5f8b45b1.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T02:05:11.327Z"
+        },
+        {
+          "title": "\"Nuestro amigo Cristian\": el ex chofer de Sanchez fue la solucion para comprarle un piso a la novia de Abalos",
+          "url": "https://www.elmundo.es/espana/2026/11/13/6af62229e4d4d85c5f8b45b1.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T02:04:31.935Z"
+        },
+        {
+          "title": "Oscar Lopez impulso desde Moncloa la reunion de Sanchez con su chofer que dejo asombrada a la trama: \"Yo que se. Todo es raro\"",
+          "url": "https://www.elmundo.es/espana/2026/11/12/6af61ead21efa0bb048b458b.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T02:04:31.935Z"
         },
         {
           "title": "El exchofer de Sanchez imputado en el caso Koldo revelo en 2023 una reunion \"a solas\" con el presidente para hablar de Abalos",
@@ -137,28 +567,28 @@
           "date": "2026-11-12T21:06:10.764Z"
         },
         {
+          "title": "Begona Gomez interviene por primera vez en un mitin del PSOE: \"Me habeis dado la mano y el aliento para continuar\"",
+          "url": "https://www.20minutos.es/nacional/begona-gomez-participa-por-primera-vez-un-mitin-psoe-me-habeis-dado-mano-aliento-para-continuar_7060497_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-12T21:06:04.501Z"
+        },
+        {
+          "title": "Sanchez augura una \"remontada epica\" el 29N y Feijoo promete \"una auditoria del saqueo\" para ver donde ha ido cada euro",
+          "url": "https://www.20minutos.es/nacional/inicio-campana-electoral-directo-candidatos-29n_7060386_6.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-12T21:06:00.988Z"
+        },
+        {
           "title": "El exchofer de Sanchez imputado en el caso Koldo revelo en 2023 una reunion \"a solas\" con el presidente para hablar de Abalos",
           "url": "https://www.20minutos.es/nacional/exchofer-sanchez-imputado-caso-koldo-revelo-2023-una-reunion-solas-con-presidente-para-hablar-abalos_7060443_0.html",
           "newspaper": "20 Minutos",
           "date": "2026-11-12T21:05:54.291Z"
         },
         {
-          "title": "La Fiscalia Europea manda a la UCO al Ministerio de Igualdad por un posible fraude en la compra de las pulseras antimaltrato",
-          "url": "https://www.20minutos.es/nacional/fiscalia-europea-investiga-ministerio-igualdad-por-posible-fraude-compra-las-pulseras-antimaltrato-con-fondos-ue_7060180_0.html",
+          "title": "Begona Gomez interviene por primera vez en un mitin del PSOE: \"Me habeis dado la mano y el aliento para continuar\"",
+          "url": "https://www.20minutos.es/nacional/begona-gomez-participa-por-primera-vez-un-mitin-psoe-me-habeis-dado-mano-aliento-para-continuar_7060497_0.html",
           "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:52.430Z"
-        },
-        {
-          "title": "La UCO sostiene que Abalos siguio cobrando mordidas despues de abandonar el Ministerio",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682782/uco-sostiene-abalos-siguio-cobrando-mordidas-abandonar-ministerio.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:05:30.625Z"
-        },
-        {
-          "title": "Abascal senala que Sanchez es \"chusma\" por darle voz a Begona Gomez en el inicio de la campana",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af61c69fc6c83561f8b45a2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
+          "date": "2026-11-12T21:05:53.536Z"
         },
         {
           "title": "La UCO senala que Sanchez se reunio 35 minutos en 2023 con el chofer detenido de la trama Koldo, a quien nego conocer",
@@ -171,12 +601,6 @@
           "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-descubre-reunion-privada-sanchez-corvillo-presidente-dijo-no-ver-conmigo/1003744456155_0.html",
           "newspaper": "El Español",
           "date": "2026-11-12T21:01:05.841Z"
-        },
-        {
-          "title": "Cuatro detenidos y 4 empresas investigadas con varios registros por blanqueo en el Parque Joyero de Cordoba",
-          "url": "https://www.elespanol.com/espana/andalucia/20261112/detenidos-empresas-investigadas-varios-registros-blanqueo-parque-joyero-cordoba/1003744456170_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:05.228Z"
         },
         {
           "title": "Abalos pidio a Reyes Maroto agilizar la nacionalidad de un cardiologo de EEUU para tratar de impulsar un negocio",
@@ -213,458 +637,134 @@
           "url": "https://www.eldiario.es/politica/fiscalia-implica-corvillo-militante-socialista-cordobes-intermediario-aldama-abalos-pago-mordidas_1_13659471.html",
           "newspaper": "El Diario",
           "date": "2026-11-12T20:55:25.865Z"
-        },
-        {
-          "title": "Agentes de la UCO acuden al Tribunal de Cuentas por la pieza de financiacion del PSOE",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682461/agentes-uco-acuden-tribunal-cuentas-pieza-financiacion-poe.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:02:14.022Z"
-        },
-        {
-          "title": "Agentes de la UCO acuden al Tribunal de Cuentas por la pieza de financiacion del PSOE",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682461/agentes-uco-acuden-tribunal-cuentas-pieza-financiacion-poe.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:01:13.198Z"
-        },
-        {
-          "title": "La Fiscalia Europea envia a la UCO al Ministerio de Igualdad por un presunto fraude en la compra de pulseras antimaltrato",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af59511e85ecef6528b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:48.980Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas a por informacion sobre presuntas irregularidades en donaciones al PSOE",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af5a9e2fdddff03488b459e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.665Z"
-        },
-        {
-          "title": "La Fiscalia Europea envia a la UCO al Ministerio de Igualdad por un presunto fraude en la compra de pulseras antimaltrato",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af59511e85ecef6528b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.665Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas a reclamar expedientes sobre donaciones al PSOE ante las <<discrepancias>> encontradas",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/12/uco-acude-tribunal-cuentas-reclamar-expedientes-sobre-donaciones-psoe-ante-discrepancias-encontradas/00031794483345246534600.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-12T12:59:35.167Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en las pulseras antimaltrato de Igualdad",
-          "url": "https://www.elespanol.com/mundo/europa/20261112/fiscalia-europea-lanza-investigacion-presunto-fraude-fondos-europeos-destinados-pulseras-antimaltrato/1003744455422_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:46.710Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, en directo | Ultima hora de los sondeos del PSOE, PP, Vox y Frente Amplio, precampana electoral, encuestas y voto por correo",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:07.919Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas al notar \"discrepancias\" en la documentacion sobre las donaciones al PSOE",
-          "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-pide-tribunal-cuentas-informacion-donaciones-psoe-detectar-discrepancias/1003744455572_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:03.806Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en las pulseras antimaltrato de Igualdad",
-          "url": "https://www.elespanol.com/mundo/europa/20261112/fiscalia-europea-lanza-investigacion-presunto-fraude-fondos-europeos-destinados-pulseras-antimaltrato/1003744455422_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:17.388Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas al notar \"discrepancias\" en la documentacion sobre las donaciones al PSOE",
-          "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-pide-tribunal-cuentas-informacion-donaciones-psoe-detectar-discrepancias/1003744455572_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:15.760Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas en busca de informacion de donaciones al PSOE",
-          "url": "https://www.publico.es/politica/tribunales/uco-acude-tribunal-cuentas-busca-informacion-donaciones-psoe.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:23.916Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga un posible fraude en la compra de pulseras antimaltrato en Espana",
-          "url": "https://www.publico.es/politica/tribunales/fiscalia-europea-investiga-posible-fraude-compra-pulseras-antimaltrato-espana.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:23.386Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga un posible fraude en la compra de pulseras antimaltrato en Espana",
-          "url": "https://www.publico.es/politica/tribunales/fiscalia-europea-investiga-posible-fraude-compra-pulseras-antimaltrato-espana.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:59.618Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas en busca de informacion de donaciones al PSOE",
-          "url": "https://www.publico.es/politica/tribunales/uco-acude-tribunal-cuentas-busca-informacion-donaciones-psoe.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:57.555Z"
-        },
-        {
-          "title": "La Fiscalia Europea manda a la UCO al Ministerio de Igualdad por presunto fraude con las pulseras antimaltrato",
-          "url": "https://www.larazon.es/espana/fiscalia-europea-manda-uco-ministerio-igualdad-presunto-fraude-pulseras-antimaltrato_202611126af5999e9a31a65adcd97abc.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:33.401Z"
-        },
-        {
-          "title": "La UCO vuelve al Tribunal de Cuentas por la investigacion sobre la supuesta financiacion ilegal del PSOE",
-          "url": "https://www.larazon.es/espana/uco-vuelve-tribunal-cuentas-investigacion-supuesta-financiacion-ilegal-psoe_202611126af5a5a0ea8d89799782ec15.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:32.220Z"
-        },
-        {
-          "title": "La UCO requiere informacion al Tribunal de Cuentas sobre las cuentas del PSOE",
-          "url": "https://www.eldiario.es/politica/uco-requiere-informacion-tribunal-cuentas-cuentas-psoe_1_13658082.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:40.043Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga al Ministerio de Igualdad por un presunto fraude con las pulseras de control a maltratadores",
-          "url": "https://www.eldiario.es/sociedad/fiscalia-europea-investiga-ministerio-igualdad-presunto-fraude-pulseras-control-maltratadores_1_13657616.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:01.124Z"
-        },
-        {
-          "title": "La UCO requiere informacion al Tribunal de Cuentas sobre las cuentas del PSOE",
-          "url": "https://www.eldiario.es/politica/uco-requiere-informacion-tribunal-cuentas-cuentas-psoe_1_13658082.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:51:54.228Z"
-        },
-        {
-          "title": "Un testaferro denuncio ante Hacienda a la trama de hidrocarburos de Aldama",
-          "url": "https://www.larazon.es/espana/testaferro-denuncio-hacienda-trama-hidrocarburos-aldama_202611126af50f9d9a31a65adcd8fc06.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T03:56:15.866Z"
         }
-      ],
-      "merged_sources": [
-        "google",
-        "x_trends"
       ]
     },
     {
-      "id": 208,
-      "title": "Gobierno de España",
-      "source": "news_tags",
-      "volume": "84 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 84
-    },
-    {
-      "id": 217,
-      "title": "Mas Madrid",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 79
-    },
-    {
-      "id": 209,
-      "title": "Huelga",
-      "source": "news_tags",
-      "volume": "74 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 74
-    },
-    {
-      "id": 210,
-      "title": "Vox",
-      "source": "news_tags",
-      "volume": "70 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 70
-    },
-    {
-      "id": 211,
-      "title": "Política",
-      "source": "news_tags",
-      "volume": "66 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 66
-    },
-    {
-      "id": 212,
-      "title": "Elecciones Anticipadas",
-      "source": "news_tags",
-      "volume": "64 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 64
-    },
-    {
-      "id": 213,
-      "title": "Feijóo",
-      "source": "news_tags",
-      "volume": "56 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 56
-    },
-    {
-      "id": 214,
-      "title": "Partido Popular (pp)",
-      "source": "news_tags",
-      "volume": "55 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 55
-    },
-    {
-      "id": 231,
-      "title": "Nuevas",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 54
-    },
-    {
-      "id": 11,
-      "title": "Decreto",
+      "id": 32,
+      "title": "Felipe González",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 49,
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 11,
       "matched_articles": [
         {
-          "title": "Huelga general contra 'todes', gana Maricarmen",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af5ac73fdddffb6388b45a4.html",
+          "title": "Manu Sanchez muerde donde Broncano no pudo y Pedro Sanchez acaba descojonado",
+          "url": "https://www.elmundo.es/television/momentvs/2026/11/13/6af6992c21efa0af778b45b0.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.326Z"
+          "date": "2026-11-13T09:47:46.441Z"
         },
         {
-          "title": "Elecciones generales 29-N, en directo | El PP publica un video en sus redes como pistoletazo de salida de la campana electoral: \"El cambio necesario\"",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
+          "title": "Lo que ya se juega en campana: la supervivencia de Sanchez fuera del gobierno y el grado de esclavitud de Feijoo",
+          "url": "https://www.elespanol.com/espana/politica/20261113/juega-campana-supervivencia-sanchez-gobierno-grado-esclavitud-feijoo/1003744453267_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-13T02:02:21.509Z"
+          "date": "2026-11-13T09:46:06.474Z"
         },
         {
-          "title": "La huelga general y el CIS insuflan esperanza a la izquierda en el arranque de campana",
-          "url": "https://www.publico.es/politica/huelga-general-cis-insuflan-esperanza-izquierda-arranque-campana.html",
-          "newspaper": "Público",
-          "date": "2026-11-13T02:00:16.626Z"
-        },
-        {
-          "title": "La huelga general y el CIS insuflan esperanza a la izquierda en el arranque de campana",
-          "url": "https://www.publico.es/politica/huelga-general-cis-insuflan-esperanza-izquierda-arranque-campana.html",
-          "newspaper": "Público",
-          "date": "2026-11-13T01:59:49.510Z"
-        },
-        {
-          "title": "Adif ofrece reducir el tiempo de trabajo de los controladores de circulacion en los primeros contactos con sindicatos ante la huelga del 17",
-          "url": "https://www.20minutos.es/nacional/adif-ofrece-reducir-tiempo-trabajo-los-controladores-circulacion-los-primeros-contactos-con-sindicatos-ante-huelga-17_7060143_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:07.012Z"
-        },
-        {
-          "title": "Consumo reclama a dos grandes plataformas de alquiler turistico que retiren mas de 8.000 anuncios ilicitos",
-          "url": "https://www.20minutos.es/nacional/consumo-reclama-dos-grandes-plataformas-alquiler-turistico-que-retiren-mas-8-000-anuncios-ilicitos_7060506_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:05.191Z"
-        },
-        {
-          "title": "La Diputacion Permanente salva el decreto 'antidesahucios' y la prorroga de alquileres y vuelve a tumbar los contratos indefinidos",
-          "url": "https://www.20minutos.es/nacional/diputacion-permanente-salva-decreto-antidesahucios-prorroga-alquileres-vuelve-tumbar-los-contratos-indefinidos_7060053_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:58.567Z"
-        },
-        {
-          "title": "Consumo reclama a dos grandes plataformas de alquiler turistico que retiren mas de 8.000 anuncios ilicitos",
-          "url": "https://www.20minutos.es/nacional/consumo-reclama-dos-grandes-plataformas-alquiler-turistico-que-retiren-mas-8-000-anuncios-ilicitos_7060506_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:57.102Z"
-        },
-        {
-          "title": "Adif ofrece reducir el tiempo de trabajo de los controladores de circulacion en los primeros contactos con sindicatos ante la huelga del 17",
-          "url": "https://www.20minutos.es/nacional/adif-ofrece-reducir-tiempo-trabajo-los-controladores-circulacion-los-primeros-contactos-con-sindicatos-ante-huelga-17_7060143_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:55.002Z"
-        },
-        {
-          "title": "El Frente Amplio arranca la campana en Vallecas al calor de la victoria del 'decreto Maricarmen'",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682867/frente-amplio-arranca-campana-vallecas-calor-victoria-decreto-maricarmen.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:05:29.825Z"
-        },
-        {
-          "title": "La Diputacion Permanente salva el decreto principal de vivienda pero tumba los contratos indefinidos",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682472/diputacion-permanente-salva-decreto-principal-vivienda-tumba-prorroga-alquileres.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:05:22.400Z"
-        },
-        {
-          "title": "El Frente Amplio arranca la campana en Vallecas al calor de la victoria del 'decreto Maricarmen'",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682867/frente-amplio-arranca-campana-vallecas-calor-victoria-decreto-maricarmen.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:04:23.614Z"
-        },
-        {
-          "title": "La Diputacion Permanente salva el decreto principal de vivienda pero tumba los contratos indefinidos",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682472/diputacion-permanente-salva-decreto-principal-vivienda-tumba-prorroga-alquileres.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:04:21.063Z"
-        },
-        {
-          "title": "Colau se lanza con la vivienda para reactivar a la izquierda: \"El siguiente gobierno sera contra la especulacion o no sera\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af60f3c21efa059588b45b3.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
-        },
-        {
-          "title": "Elecciones generales 29-N, en directo | Abascal carga contra el PSOE por la intervencion de Begona Gomez en el arranque de campana: \"No tienen verguenza\"",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
+          "title": "Lo que ya se juega en campana: la supervivencia de Sanchez fuera del gobierno y el grado de esclavitud de Feijoo",
+          "url": "https://www.elespanol.com/espana/politica/20261113/juega-campana-supervivencia-sanchez-gobierno-grado-esclavitud-feijoo/1003744453267_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-12T21:00:56.277Z"
+          "date": "2026-11-13T09:45:34.281Z"
         },
         {
-          "title": "Los sindicatos se niegan a desconvocar la huelga ferroviaria pese a los esfuerzos de Adif y Cuerpo",
-          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20261112/sindicatos-niegan-desconvocar-huelga-ferroviaria-pese-esfuerzos-adif-cuerpo/1003744455540_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:00:27.661Z"
-        },
-        {
-          "title": "Colau advierte a Sanchez: \"El siguiente Gobierno progresista sera contra la especulacion o no sera\"",
-          "url": "https://www.publico.es/politica/colau-advierte-sanchez-siguiente-gobierno-progresista-sera-especulacion-sera.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:11.666Z"
-        },
-        {
-          "title": "Colau advierte a Sanchez: \"El siguiente Gobierno progresista sera contra la especulacion o no sera\"",
-          "url": "https://www.publico.es/politica/colau-advierte-sanchez-siguiente-gobierno-progresista-sera-especulacion-sera.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:44.432Z"
-        },
-        {
-          "title": "Asi te hemos contado la ultima hora tras la huelga general",
-          "url": "https://www.publico.es/sociedad/ultima-hora-huelga-general-directo.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:41.920Z"
-        },
-        {
-          "title": "El Gobierno saca adelante el decreto que prorroga los alquileres y prohibe desahucios",
-          "url": "https://www.eldiario.es/politica/gobierno-sortea-rechazo-pp-vox-junts-logra-prohibir-desahucios-2031-horas-iniciarse-campana_1_13657109.html",
+          "title": "El marido de Begona Gomez y la madre de Manu Sanchez comparten sofa en el cierre de precampana: perro (andaluz) no come perro",
+          "url": "https://www.eldiario.es/vertele/analisis/marido-begona-gomez-madre-manu-sanchez-comparten-sofa-cierre-precampana-perro-andaluz-no-come-perro_129_13660287.html",
           "newspaper": "El Diario",
-          "date": "2026-11-12T20:55:32.387Z"
+          "date": "2026-11-13T09:40:13.862Z"
         },
         {
-          "title": "Las medidas del nuevo decreto de vivienda: prorroga extraordinaria, veto a fondos buitre y alquiler de temporada",
-          "url": "https://www.eldiario.es/economia/medidas-nuevo-decreto-vivienda-prorroga-extraordinaria-escudo-antidesahucios-alquiler-temporada_1_13657013.html",
+          "title": "Sanchez respalda a Marlaska pero se abre a revisar los protocolos de las cargas policiales tras las actuaciones durante la huelga general",
+          "url": "https://www.20minutos.es/nacional/sanchez-respalda-marlaska-pero-se-abre-revisar-los-protocolos-las-cargas-policiales-tras-las-actuaciones-durante-huelga-general_7060528_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-13T02:07:11.696Z"
+        },
+        {
+          "title": "Magdalena Pinera Morel: \"La civilidad de mi padre se resumia en que podemos ser adversarios politicos, pero jamas enemigos\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/13/6af5bb3fe9cf4a396f8b45b2.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-13T02:04:49.758Z"
+        },
+        {
+          "title": "?Cual ha sido la mayoria absoluta mas amplia de la democracia?",
+          "url": "https://www.publico.es/politica/sido-mayoria-absoluta-amplia-democracia.html",
+          "newspaper": "Público",
+          "date": "2026-11-13T02:00:19.511Z"
+        },
+        {
+          "title": "Y el marido de Begona Gomez visito a Manu Sanchez: perros al cuadrado (y en todas partes)",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/y-el-marido-de-begona-gomez-visito-a-manu-sanchez-perros-al-cuadrado-y-en-todas-partes.html",
+          "newspaper": "El País",
+          "date": "2026-11-13T01:57:50.286Z"
+        },
+        {
+          "title": "Mariano Jabonero, el maestro que puso de acuerdo a los lideres mundiales",
+          "url": "https://www.elespanol.com/mundo/20261112/mariano-jabonero-despide-oei-anos-cumbre-iberoamericana-madrid-ultimo-gran-escenario-carrera/1003744449533_32.amp.html",
+          "newspaper": "El Español",
+          "date": "2026-11-12T12:58:52.087Z"
+        },
+        {
+          "title": "Zapatero se autodescarta de la campana del PSOE: Sanchez si contara con Begona Gomez y programa un mitin con Page",
+          "url": "https://www.elespanol.com/espana/politica/20261112/zapatero-autodescarta-campana-psoe-sanchez-contara-begona-gomez-programa-mitin-page/1003744455271_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-12T12:58:04.541Z"
+        },
+        {
+          "title": "Zapatero se autodescarta de la campana del PSOE: Sanchez si contara con Begona Gomez y programa un mitin con Page",
+          "url": "https://www.elespanol.com/espana/politica/20261112/zapatero-autodescarta-campana-psoe-sanchez-contara-begona-gomez-programa-mitin-page/1003744455271_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-12T12:57:24.964Z"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Leire Díez",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 10,
+      "matched_articles": [
+        {
+          "title": "Leire Diez, sobre la oferta de dos millones que recibio del entorno del PP: \"Si hubiese aceptado hubieran vencido\"",
+          "url": "https://www.lavanguardia.com/politica/20261113/11683262/leire-diez-sobre-oferta-dos-millones-recibio-entorno-pp-hubiese-aceptado-hubieran-vencido.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-13T09:49:44.522Z"
+        },
+        {
+          "title": "El exabogado de Koldo dice que \"canalizo\" el pago de 105.000 EUR a un abogado del PSOE por defender a Nervis Villalobos",
+          "url": "https://www.elespanol.com/espana/tribunales/20261113/exabogado-koldo-dice-canalizo-pago-eur-abogado-psoe-defender-nervis-villalobos/1003744455856_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:46:04.833Z"
+        },
+        {
+          "title": "El exabogado de Koldo dice que \"canalizo\" el pago de 105.000 EUR a un abogado del PSOE por defender a Nervis Villalobos",
+          "url": "https://www.elespanol.com/espana/tribunales/20261113/exabogado-koldo-dice-canalizo-pago-eur-abogado-psoe-defender-nervis-villalobos/1003744455856_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:45:30.676Z"
+        },
+        {
+          "title": "Leire Diez denuncia en un libro con decenas de grabaciones seis anos de \"guerra sucia\" de una \"mafia\" policial y mediatica al servicio del PP",
+          "url": "https://www.eldiario.es/politica/leire-diez-denuncia-libro-decenas-grabaciones-seis-anos-guerra-sucia-mafia-policial-mediatica-servicio-pp_1_13656904.html",
           "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:38.410Z"
+          "date": "2026-11-12T20:55:29.359Z"
         },
         {
-          "title": "El Congreso aprueba hoy el decreto de vivienda cuya derogacion provoco el 29-N",
-          "url": "https://www.lavanguardia.com/politica/20261112/11681894/congreso-aprueba-hoy-decreto-vivienda-cuya-derogacion-provoco-29-n.html",
+          "title": "Leire Diez dice tambien que le ofrecieron dos millones por inventarse acusaciones contra Pedro Sanchez",
+          "url": "https://www.lavanguardia.com/politica/20261112/11682212/leire-diez-dice-le-ofrecieron-dos-millones-inventarse-acusaciones-pedro-sanchez.html",
           "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:02:18.670Z"
+          "date": "2026-11-12T13:02:11.613Z"
         },
         {
-          "title": "Las claves del decreto de vivienda convalidado: ?Como te afecta como propietario y como inquilino?",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682366/claves-decreto-vivienda-convalidado-como-te-afecta-propietario-inquilino.html",
+          "title": "Leire Diez dice tambien que le ofrecieron dos millones por inventarse acusaciones contra Pedro Sanchez",
+          "url": "https://www.lavanguardia.com/politica/20261112/11682212/leire-diez-dice-le-ofrecieron-dos-millones-inventarse-acusaciones-pedro-sanchez.html",
           "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:02:09.475Z"
+          "date": "2026-11-12T13:01:13.822Z"
         },
         {
-          "title": "La Diputacion Permanente salva el decreto principal de vivienda pero tumba la prorroga de los alquileres",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682472/diputacion-permanente-salva-decreto-principal-vivienda-tumba-prorroga-alquileres.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:02:09.027Z"
-        },
-        {
-          "title": "Las claves del decreto de vivienda convalidado: ?Como te afecta como propietario y como inquilino?",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682366/claves-decreto-vivienda-convalidado-como-te-afecta-propietario-inquilino.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:01:08.008Z"
-        },
-        {
-          "title": "La Diputacion Permanente salva el decreto principal de vivienda pero tumba la prorroga de los alquileres",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682472/diputacion-permanente-salva-decreto-principal-vivienda-tumba-prorroga-alquileres.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:01:07.708Z"
-        },
-        {
-          "title": "Sanchez blinda en silencio Defensa antes del final de su mandato: millones comprometidos y mision de paz para Ucrania",
-          "url": "https://www.elmundo.es/espana/2026/11/11/6af48f33e85ece74488b45b2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:48.978Z"
-        },
-        {
-          "title": "La Diputacion Permanente enmienda la plana al Pleno del Congreso y convalida el decreto de vivienda impulsado por los socialistas en medio de un agrio combate electoral",
-          "url": "https://www.elmundo.es/elecciones/2026/11/12/6af574fee9cf4a3f318b4571.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.666Z"
-        },
-        {
-          "title": "La Diputacion Permanente del Congreso valida el decreto de vivienda y deroga el de los alquileres indefinidos",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/12/gobierno-reivindica-huelga-defender-decreto-prorroga-automatica-alquileres/00031794477912464874751.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-12T12:59:34.350Z"
-        },
-        {
-          "title": "Sanchez arrastra a UGT y CCOO al mayor fracaso de su historia: minimo seguimiento a la huelga pese a los piquetes violentos",
-          "url": "https://www.elespanol.com/espana/politica/20261112/sanchez-arrastra-ugt-ccoo-mayor-fracaso-historia-minimo-seguimiento-huelga-pese-piquetes-violentos/1003744454771_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:15.602Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, en directo | Ultima hora de los sondeos del PSOE, PP, Vox y Frente Amplio, precampana electoral, encuestas y voto por correo",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:07.919Z"
-        },
-        {
-          "title": "Montse Minguez y el abogado de los \"fondos buitre\" se esconden tras suplentes para reflotar el 'decreto Maricarmen'",
-          "url": "https://www.elespanol.com/espana/politica/20261112/dimitida-montse-minguez-esconde-suplente-reflotar-decreto-maricarmen-tumbo-congreso/1003744455479_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:02.644Z"
-        },
-        {
-          "title": "Montse Minguez y el abogado de los \"fondos buitre\" se esconden tras suplentes para reflotar el 'decreto Maricarmen'",
-          "url": "https://www.elespanol.com/espana/politica/20261112/dimitida-montse-minguez-esconde-suplente-reflotar-decreto-maricarmen-tumbo-congreso/1003744455479_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:20.258Z"
-        },
-        {
-          "title": "El Congreso convalida el decreto de vivienda de Sanchez y se conservan la suspension de desahucios y las rebajas fiscales",
-          "url": "https://www.elespanol.com/invertia/observatorios/vivienda/20261112/medidas-vivienda-sanchez-salva-segunda-desahucios-suspendidos-rebaja-fiscal/1003744454936_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:19.781Z"
-        },
-        {
-          "title": "Sanchez arrastra a UGT y CCOO al mayor fracaso de su historia: minimo seguimiento a la huelga pese a los piquetes violentos",
-          "url": "https://www.elespanol.com/espana/politica/20261112/sanchez-arrastra-ugt-ccoo-mayor-fracaso-historia-minimo-seguimiento-huelga-pese-piquetes-violentos/1003744454771_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:18.682Z"
-        },
-        {
-          "title": "El Gobierno logra la prorroga de alquileres y pone limites a los fondos buitre pero las derechas tumban las renovaciones automaticas",
-          "url": "https://www.publico.es/politica/gobierno-logra-prorroga-alquileres-pone-limites-fondos-buitre-pero-derechas-tumban-renovaciones-automaticas.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:22.882Z"
-        },
-        {
-          "title": "El Gobierno logra la prorroga de alquileres y pone limites a los fondos buitre pero las derechas tumban las renovaciones automaticas",
-          "url": "https://www.publico.es/politica/gobierno-logra-prorroga-alquileres-pone-limites-fondos-buitre-pero-derechas-tumban-renovaciones-automaticas.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:55.057Z"
-        },
-        {
-          "title": "Despedido tras 27 anos en un ayuntamiento: la Justicia obliga a readmitirlo o indemnizarlo con 71.798 euros",
-          "url": "https://www.larazon.es/economia/despedido-27-anos-ayuntamiento-justicia-obliga-readmitirlo-indemnizarlo-71798-euros-b50m_202611126af5b31703bbf30bb049a514.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:41.859Z"
-        },
-        {
-          "title": "Oscar Puente mantendra su acta de diputado y no abandonara el PSOE",
-          "url": "https://www.larazon.es/espana/oscar-puente-mantendra-acta-diputado-abandonara-psoe_202611126af5add4ea8d89799782f7b5.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:37.486Z"
-        },
-        {
-          "title": "El Gobierno convalida \"por la puerta de atras\" el decreto de vivienda ante las criticas del PP: \"Es un acto de absolutismo\"",
-          "url": "https://www.larazon.es/espana/el-gobierno-convalida-por-la-puerta-de-atras-el-decreto-de-vivienda-ante-las-criticas-del-pp-es-un-acto-de-absolutismo_202611126af5a581ea8d89799782ebe7.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:34.239Z"
+          "title": "Leire Diez afirma que abogados afines al PP le ofrecieron dos millones por mentir contra Sanchez",
+          "url": "https://www.eldiario.es/politica/leire-diez-afirma-abogados-afines-pp-le-ofrecieron-millones-mentir-sanchez_1_13656894.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-12T12:52:46.364Z"
         },
         {
           "title": "Ultima hora sobre la actualidad politica, en directo",
@@ -679,1261 +779,151 @@
           "date": "2026-11-12T12:52:44.333Z"
         },
         {
-          "title": "El Gobierno saca adelante el decreto que prorroga los alquileres y prohibe desahucios en la Diputacion Permanente",
-          "url": "https://www.eldiario.es/politica/gobierno-sortea-rechazo-pp-vox-junts-logra-prohibir-desahucios-2031-horas-iniciarse-campana_1_13657109.html",
+          "title": "La abogada de Koldo Garcia responde al juez Pedraz que Okdiario pago la totalidad de su minuta",
+          "url": "https://www.eldiario.es/politica/abogada-koldo-garcia-responde-juez-pedraz-okdiario-pago-totalidad-minuta_1_13657715.html",
           "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:40.594Z"
-        },
-        {
-          "title": "Ayuso, tras la huelga: \"Lo de vaga general en catalan me encanta, ustedes son muy vagos\"",
-          "url": "https://www.eldiario.es/madrid/ayuso-huelga-vaga-general-catalan-encanta-son-vagos_1_13657344.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:51:50.320Z"
-        },
-        {
-          "title": "Feijoo, sobre la huelga general: \"Es un acto camuflado de campana electoral por parte de los sindicatos\"",
-          "url": "https://www.20minutos.es/internacional/feijoo-hormiguero-directo-lider-pp-acude-programa-pablo-motos-dia-huelga-general_7059914_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:47.111Z"
-        },
-        {
-          "title": "La Fiscalia investigara los presuntos casos de abuso sexual infantil en TikTok tras pedir el Gobierno que paralice su actividad en Espana",
-          "url": "https://www.20minutos.es/nacional/fiscalia-investigara-los-presuntos-casos-abuso-sexual-infantil-tiktok_7059854_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:21.633Z"
-        },
-        {
-          "title": "Feijoo acusa a Sanchez de gastar \"un billon de euros\" sin PGE y estudiara la responsabilidad penal si hay falsedad en las cuentas",
-          "url": "https://www.20minutos.es/nacional/feijoo-acusa-sanchez-gastar-un-billon-euros-sin-pge-estudiara-responsabilidad-penal-si-hay-falsedad-las-cuentas_7059993_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:16.801Z"
-        },
-        {
-          "title": "Decretos de vivienda, en directo | El Congreso aprueba este jueves el decreto de vivienda que el PP promete derogar si gobierna",
-          "url": "https://www.20minutos.es/nacional/decretos-vivienda-directo-congreso-aprueba-este-jueves-decreto-vivienda-que-pp-promete-derogar-si-gobierna_7059901_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:14.684Z"
-        },
-        {
-          "title": "Consumo estima que la prorroga del alquiler beneficiara a cinco millones de personas y permitira al inquilino ahorrar 4.300 euros",
-          "url": "https://www.20minutos.es/nacional/consumo-estima-que-prorroga-alquiler-beneficiara-cinco-millones-personas-permitira-inquilino-ahorrar-4-300-euros_7059796_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:09.530Z"
+          "date": "2026-11-12T12:52:41.728Z"
         }
       ]
     },
     {
-      "id": 215,
-      "title": "Nacional",
-      "source": "news_tags",
-      "volume": "49 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 49
-    },
-    {
-      "id": 216,
-      "title": "Sobre",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 218,
-      "title": "Huang",
-      "source": "news_tags",
-      "volume": "44 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 44
-    },
-    {
-      "id": 219,
-      "title": "Frente Amplio",
-      "source": "news_tags",
-      "volume": "43 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 43
-    },
-    {
-      "id": 220,
-      "title": "Viviendas",
-      "source": "news_tags",
-      "volume": "40 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 40
-    },
-    {
-      "id": 221,
-      "title": "Espana-newsletter",
-      "source": "news_tags",
-      "volume": "40 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 40
-    },
-    {
-      "id": 222,
-      "title": "Presidente",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 38
-    },
-    {
-      "id": 223,
-      "title": "Pedro Sánchez",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 30,
-      "title": "Fernando Grande-marlaska",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 35,
-      "matched_articles": [
-        {
-          "title": "Sanchez respalda a Marlaska pero se abre a revisar los protocolos de las cargas policiales tras las actuaciones durante la huelga general",
-          "url": "https://www.20minutos.es/nacional/sanchez-respalda-marlaska-pero-se-abre-revisar-los-protocolos-las-cargas-policiales-tras-las-actuaciones-durante-huelga-general_7060528_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-13T02:07:11.696Z"
-        },
-        {
-          "title": "La desconfianza con Marlaska crece en el PSOE por la sensacion de que no controla sectores de las Fuerzas de Seguridad",
-          "url": "https://www.elmundo.es/espana/2026/11/13/6af617bee4d4d8845c8b457f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.327Z"
-        },
-        {
-          "title": "La desconfianza con Marlaska crece en el PSOE por la sensacion de que no controla sectores de las Fuerzas de Seguridad",
-          "url": "https://www.elmundo.es/espana/2026/11/13/6af617bee4d4d8845c8b457f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:04:31.936Z"
-        },
-        {
-          "title": "Elecciones generales 29-N, en directo | El PP publica un video en sus redes como pistoletazo de salida de la campana electoral: \"El cambio necesario\"",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-13T02:02:21.509Z"
-        },
-        {
-          "title": "Sanchez inicia la pegada de carteles con otro show en TVE: \"Marlaska es mi ojito derecho porque es el mas reprobado\"",
-          "url": "https://www.elespanol.com/espana/politica/20261113/sanchez-inicia-pegada-carteles-show-tve-marlaska-ojito-derecho-reprobado/1003744456647_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-13T02:02:20.677Z"
-        },
-        {
-          "title": "Sanchez inicia la pegada de carteles con otro show en TVE: \"Marlaska es mi ojito derecho porque es el mas reprobado\"",
-          "url": "https://www.elespanol.com/espana/politica/20261113/sanchez-inicia-pegada-carteles-show-tve-marlaska-ojito-derecho-reprobado/1003744456647_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-13T02:01:15.529Z"
-        },
-        {
-          "title": "La huelga general y el CIS insuflan esperanza a la izquierda en el arranque de campana",
-          "url": "https://www.publico.es/politica/huelga-general-cis-insuflan-esperanza-izquierda-arranque-campana.html",
-          "newspaper": "Público",
-          "date": "2026-11-13T02:00:16.626Z"
-        },
-        {
-          "title": "La huelga general y el CIS insuflan esperanza a la izquierda en el arranque de campana",
-          "url": "https://www.publico.es/politica/huelga-general-cis-insuflan-esperanza-izquierda-arranque-campana.html",
-          "newspaper": "Público",
-          "date": "2026-11-13T01:59:49.510Z"
-        },
-        {
-          "title": "Podemos termina su precampana con cargas contra el PSOE y el Frente Amplio: \"Tienen como proyecto que las cosas sigan como estan\"",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/podemos-termina-su-precampana-con-cargas-contra-el-psoe-y-el-frente-amplio-tienen-como-proyecto-que-las-cosas-sigan-como-estan.html",
-          "newspaper": "El País",
-          "date": "2026-11-12T21:50:10.000Z"
-        },
-        {
-          "title": "Marlaska promete investigar las cargas policiales mientras la izquierda le pide la dimision",
-          "url": "https://elpais.com/espana/2026-11-12/marlaska-ordena-una-investigacion-sobre-las-cargas-policiales-en-las-manifestaciones-y-pide-que-no-se-use-gas-lacrimogeno.html",
-          "newspaper": "El País",
-          "date": "2026-11-12T10:49:00.000Z"
-        },
-        {
-          "title": "Interior gasto hace un mes 70.000 euros en el spray pimienta cuyo uso acaba de suspender Marlaska",
-          "url": "https://www.eldiario.es/politica/interior-gasto-mes-70-000-euros-spray-pimienta-cuyo-acaba-suspender-marlaska_1_13659556.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-13T01:55:33.278Z"
-        },
-        {
-          "title": "Marlaska descarta dimitir y cuestiona la proporcionalidad de las cargas policiales durante la huelga general del 11N",
-          "url": "https://www.20minutos.es/nacional/marlaska-descarta-dimitir-cuestiona-proporcionalidad-las-cargas-policiales-durante-huelga-general-11n_7060503_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:06.082Z"
-        },
-        {
-          "title": "Marlaska descarta dimitir y cuestiona la proporcionalidad de las cargas policiales durante la huelga general del 11N",
-          "url": "https://www.20minutos.es/nacional/marlaska-descarta-dimitir-cuestiona-proporcionalidad-las-cargas-policiales-durante-huelga-general-11n_7060503_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:55.747Z"
-        },
-        {
-          "title": "Interior valido hace un mes el empleo de gas lacrimogeno que Marlaska prohibe tras ser usado en los disturbios de la huelga",
-          "url": "https://www.elespanol.com/espana/20261112/interior-valido-hace-mes-empleo-gas-lacrimogeno-marlaska-prohibe-usarse-disturbios-huelga/1003744455336_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:09.893Z"
-        },
-        {
-          "title": "La Policia \"aprieta\" a Tatiana, pareja de 'El Ruso', para que confiese donde esta: \"Estan investigando a sus amigos\"",
-          "url": "https://www.elespanol.com/reportajes/20261112/policia-aprieta-tatiana-pareja-ruso-confiese-investigando-amigos/1003744455619_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:00:13.493Z"
-        },
-        {
-          "title": "Asi te hemos contado la ultima hora tras la huelga general",
-          "url": "https://www.publico.es/sociedad/ultima-hora-huelga-general-directo.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:41.920Z"
-        },
-        {
-          "title": "Policias Nacionales acusan a Marlaska de indigno y cobarde: investiga a los agentes y ni se preocupa de los heridos en la huelga",
-          "url": "https://www.larazon.es/espana/policias-nacionales-acusan-marlaska-indigno-cobarde-investiga-agentes-preocupa-heridos-huelga_202611126af608b1d3bddc0868af70aa.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T20:57:11.583Z"
-        },
-        {
-          "title": "Irene Montero carga contra la idea del \"voto util\": \"Para frenar a la extrema derecha, hace falta votar a Podemos\"",
-          "url": "https://www.eldiario.es/politica/irene-montero-carga-idea-voto-util-frenar-extrema-derecha-falta-votar_1_13659936.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:55:23.284Z"
-        },
-        {
-          "title": "Irene Montero carga contra la idea del \"voto util\": \"Para frenar a la extrema derecha, hace falta votar a Podemos\"",
-          "url": "https://www.eldiario.es/politica/irene-montero-carga-idea-voto-util-frenar-extrema-derecha-falta-votar_1_13659936.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:33.416Z"
-        },
-        {
-          "title": "La Diputacion Permanente enmienda la plana al Pleno del Congreso y convalida el decreto de vivienda impulsado por los socialistas en medio de un agrio combate electoral",
-          "url": "https://www.elmundo.es/elecciones/2026/11/12/6af574fee9cf4a3f318b4571.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.666Z"
-        },
-        {
-          "title": "Marlaska ordena investigar la actuacion policial durante la huelga general",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/12/marlaska-ordena-investigar-actuacion-policial-durante-huelga-general/00031794474985344704366.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-12T12:59:36.651Z"
-        },
-        {
-          "title": "Un grupo de 250 mujeres aspirantes a policia denuncian que se las discrimina por razon de sexo en las pruebas fisicas",
-          "url": "https://www.elespanol.com/espana/20261112/grupo-mujeres-aspirantes-policia-denuncian-discrimina-razon-sexo-pruebas-fisicas/1003744454754_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:16.079Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, en directo | Ultima hora de los sondeos del PSOE, PP, Vox y Frente Amplio, precampana electoral, encuestas y voto por correo",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:07.919Z"
-        },
-        {
-          "title": "Marlaska ordena investigar las cargas policiales en la huelga general mientras los socios de Gobierno piden su dimision",
-          "url": "https://www.elespanol.com/espana/politica/20261112/marlaska-ordena-investigar-cargas-policiales-huelga-general-socios-gobierno-piden-dimision/1003744455203_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:05.191Z"
-        },
-        {
-          "title": "Gobierno y PSOE se desmarcan de la actuacion policial en el 11N y Moncloa fuerza a Marlaska a anunciar una investigacion",
-          "url": "https://www.elespanol.com/espana/politica/20261112/gobierno-psoe-desmarcan-actuacion-policial-moncloa-fuerza-marlaska-anunciar-investigacion/1003744455324_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:01.947Z"
-        },
-        {
-          "title": "Un grupo de 250 mujeres aspirantes a policia denuncian que se las discrimina por razon de sexo en las pruebas fisicas",
-          "url": "https://www.elespanol.com/espana/20261112/grupo-mujeres-aspirantes-policia-denuncian-discrimina-razon-sexo-pruebas-fisicas/1003744454754_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:29.643Z"
-        },
-        {
-          "title": "Criticas a la violencia policial tras una jornada de huelga que los sindicatos califican de \"exito\"",
-          "url": "https://www.publico.es/sociedad/criticas-violencia-policial-jornada-huelga-sindicatos-califican-exito.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:53.485Z"
-        },
-        {
-          "title": "Ultima hora tras la huelga general, en directo | Interior investigara las cargas en la huelga y los socios piden la dimision de Marlaska",
-          "url": "https://www.publico.es/sociedad/ultima-hora-huelga-general-directo.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:52.704Z"
-        },
-        {
-          "title": "Ofensiva contra Marlaska dentro y fuera del Gobierno por las cargas policiales durante la huelga",
-          "url": "https://www.larazon.es/espana/ofensiva-marlaska-dentro-fuera-gobierno-cargas-policiales-huelga_202611126af589d09a31a65adcd96693.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:34.743Z"
-        },
-        {
-          "title": "El Gobierno convalida \"por la puerta de atras\" el decreto de vivienda ante las criticas del PP: \"Es un acto de absolutismo\"",
-          "url": "https://www.larazon.es/espana/el-gobierno-convalida-por-la-puerta-de-atras-el-decreto-de-vivienda-ante-las-criticas-del-pp-es-un-acto-de-absolutismo_202611126af5a581ea8d89799782ebe7.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:34.239Z"
-        },
-        {
-          "title": "La jueza Tardon imputa al exdelegado del Gobierno en Ceuta y le cita a declarar el dia 18",
-          "url": "https://www.larazon.es/espana/jueza-tardon-imputa-exdelegado-gobierno-ceuta-cita-declarar-dia-18_202611126af5b2979a31a65adcd99ba4.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:32.830Z"
-        },
-        {
-          "title": "Marlaska ordena dejar de usar gas lacrimogeno en las manifestaciones y una investigacion sobre las \"incidencias\" en el dia de la huelga",
-          "url": "https://www.eldiario.es/politica/interior-ordena-gas-lacrimogeno-manifestaciones-investigacion-incidencias-dia-huelga_1_13657122.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:42.876Z"
-        },
-        {
-          "title": "Policia Nacional acorto la manifestacion del 11N en Madrid y creo una 'ratonera' que precipito las cargas: \"!Usad la goma!\"",
-          "url": "https://www.eldiario.es/madrid/somos/policia-nacional-acorto-manifestacion-11n-madrid-creo-ratonera-precipito-cargas-usad-goma_1_13656893.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:51:49.247Z"
-        },
-        {
-          "title": "Podemos exige la dimision de Marlaska por la actuacion policial en la huelga y que Sanchez le retire de las listas del PSOE al 29N",
-          "url": "https://www.20minutos.es/nacional/podemos-denuncia-violencia-policial-durante-huelga-carga-contra-pp-vox-por-defender-los-que-se-estan-forrando_7059769_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:23.030Z"
-        },
-        {
-          "title": "Frente Amplio y Podemos reclaman a Sanchez el cese de Marlaska por las cargas policiales durante la huelga",
-          "url": "https://www.20minutos.es/nacional/frente-amplio-podemos-reclaman-sanchez-cese-marlaska-por-las-cargas-policiales-durante-huelga_7059953_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:20.702Z"
-        }
-      ]
-    },
-    {
-      "id": 104,
-      "title": "El Cis",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 34,
-      "matched_articles": [
-        {
-          "title": "Los sindicatos del patron",
-          "url": "https://www.elmundo.es/espana/2026/11/13/6af61852e4d4d8a7448b45bb.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.326Z"
-        },
-        {
-          "title": "El PSOE se aferra a sus 'trackings' para la campana ajeno a los sobresaltos por la corrupcion y sin Zapatero ni Puente, a los que sigue considerando \"un valor\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af598a221efa09a158b458b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.325Z"
-        },
-        {
-          "title": "Feijoo se vuelca en la disputa del voto joven con Vox: \"Los problemas no se solucionan con fiereza, sino con gestion\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/13/6af620eb21efa059588b45bb.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:04:31.935Z"
-        },
-        {
-          "title": "La huelga general y el CIS insuflan esperanza a la izquierda en el arranque de campana",
-          "url": "https://www.publico.es/politica/huelga-general-cis-insuflan-esperanza-izquierda-arranque-campana.html",
-          "newspaper": "Público",
-          "date": "2026-11-13T02:00:16.626Z"
-        },
-        {
-          "title": "La huelga general y el CIS insuflan esperanza a la izquierda en el arranque de campana",
-          "url": "https://www.publico.es/politica/huelga-general-cis-insuflan-esperanza-izquierda-arranque-campana.html",
-          "newspaper": "Público",
-          "date": "2026-11-13T01:59:49.510Z"
-        },
-        {
-          "title": "\"Nos vamos a Madrid\": Adelante Andalucia arranca una campana \"historica\" con la que puede irrumpir en el Congreso",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/nos-vamos-a-madrid-adelante-andalucia-arranca-una-campana-historica-con-la-que-puede-irrumpir-en-el-congreso.html",
-          "newspaper": "El País",
-          "date": "2026-11-13T01:57:47.048Z"
-        },
-        {
-          "title": "El CIS de Tezanos coloca al PSOE en primer lugar y con ocho puntos sobre el PP en una encuesta que apenas recoge el efecto de Urda",
-          "url": "https://www.20minutos.es/nacional/cis-tezanos-coloca-psoe-primer-lugar-con-ocho-puntos-sobre-pp-una-encuesta-que-apenas-recoge-efecto-urda_7060413_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:08.938Z"
-        },
-        {
-          "title": "Marlaska descarta dimitir y cuestiona la proporcionalidad de las cargas policiales durante la huelga general del 11N",
-          "url": "https://www.20minutos.es/nacional/marlaska-descarta-dimitir-cuestiona-proporcionalidad-las-cargas-policiales-durante-huelga-general-11n_7060503_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:06.082Z"
-        },
-        {
-          "title": "Marlaska descarta dimitir y cuestiona la proporcionalidad de las cargas policiales durante la huelga general del 11N",
-          "url": "https://www.20minutos.es/nacional/marlaska-descarta-dimitir-cuestiona-proporcionalidad-las-cargas-policiales-durante-huelga-general-11n_7060503_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:55.747Z"
-        },
-        {
-          "title": "El CIS deja a PP y Vox sin opciones de gobernar, al inicio de la campana",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682736/cis-deja-pp-vox-opciones-gobernar-inicio-campana.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:05:32.741Z"
-        },
-        {
-          "title": "El CIS deja a PP y Vox sin opciones de gobernar, al inicio de la campana",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682736/cis-deja-pp-vox-opciones-gobernar-inicio-campana.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T21:04:25.785Z"
-        },
-        {
-          "title": "Abascal senala que Sanchez es \"chusma\" por darle voz a Begona Gomez en el inicio de la campana",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af61c69fc6c83561f8b45a2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
-        },
-        {
-          "title": "El CIS da ganador al PSOE en un barometro de 45.000 entrevistas que sobrerrepresenta a los socialistas",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/12/cis-da-ganador-psoe-elecciones-pp-vox-sumarian-mayoria-absoluta/00031794500098021868512.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-12T21:02:36.818Z"
-        },
-        {
-          "title": "Tezanos regala a Sanchez el CIS que queria antes del 29-N: gana las elecciones y PP y Vox no suman para formar gobierno",
-          "url": "https://www.elespanol.com/espana/politica/20261112/tezanos-regala-sanchez-cis-queria-gana-elecciones-pp-vox-no-suman-formar-gobierno/1003744455531_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:06.527Z"
-        },
-        {
-          "title": "La ultima estafa del CIS: publica un sondeo al inicio de campana con una muestra sesgada en 17 puntos a favor del PSOE",
-          "url": "https://www.elespanol.com/espana/politica/20261112/ultima-estafa-cis-publica-sondeo-inicio-campana-muestra-sesgada-puntos-favor-psoe/1003744456340_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:03.935Z"
-        },
-        {
-          "title": "La ultima estafa del CIS: publica un sondeo al inicio de campana con una muestra sesgada en 17 puntos a favor del PSOE",
-          "url": "https://www.elespanol.com/espana/politica/20261112/ultima-estafa-cis-publica-sondeo-inicio-campana-muestra-sesgada-puntos-favor-psoe/1003744456340_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:00:07.255Z"
-        },
-        {
-          "title": "PP y Vox arrancan la campana sin mayoria absoluta segun el CIS",
-          "url": "https://www.publico.es/politica/partidos/pp-vox-arrancan-campana-mayoria-absoluta-cis.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:14.216Z"
-        },
-        {
-          "title": "Begona Gomez arranca en Sevilla la campana del PSOE: \"Me habeis dado el aliento para continuar\"",
-          "url": "https://www.publico.es/politica/partidos/begona-gomez-arranca-sevilla-campana-psoe-me-habeis-dado-aliento-continuar.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:12.549Z"
-        },
-        {
-          "title": "Feijoo busca impulso en Catalunya para tumbar a Sanchez: \"El 29N no hay huelga, hay votacion\"",
-          "url": "https://www.publico.es/politica/feijoo-busca-impulso-catalunya-tumbar-sanchez-29n-hay-huelga-hay-votacion.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:11.514Z"
-        },
-        {
-          "title": "PP y Vox arrancan la campana sin mayoria absoluta segun el CIS",
-          "url": "https://www.publico.es/politica/partidos/pp-vox-arrancan-campana-mayoria-absoluta-cis.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:45.352Z"
-        },
-        {
-          "title": "Feijoo busca impulso en Catalunya para tumbar a Sanchez: \"El 29N no hay huelga, hay votacion\"",
-          "url": "https://www.publico.es/politica/feijoo-busca-impulso-catalunya-tumbar-sanchez-29n-hay-huelga-hay-votacion.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:43.927Z"
-        },
-        {
-          "title": "Begona Gomez arranca en Sevilla la campana del PSOE: \"Me habeis dado el aliento para continuar\"",
-          "url": "https://www.publico.es/politica/partidos/begona-gomez-arranca-sevilla-campana-psoe-me-habeis-dado-aliento-continuar.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:43.018Z"
-        },
-        {
-          "title": "El CIS de Tezanos da al PSOE una ventaja de 7,8 puntos sobre el PP y le situa en 143 escanos",
-          "url": "https://www.larazon.es/espana/cis-tezanos-psoe-ventaja-78-puntos-situa-143-escanos_202611126af5e5829a31a65adcd9d977.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T20:57:12.335Z"
-        },
-        {
-          "title": "Abascal encara las elecciones del 29N en maximos historicos y blindando su campana",
-          "url": "https://www.larazon.es/espana/abascal-encara-elecciones-29n-maximos-historicos-blindando-campana_202611126af61dc4d3bddc0868af8687.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T20:57:11.254Z"
-        },
-        {
-          "title": "Feijoo inicia la carrera de su vida a lomos del <<cambio>>: todo o nada",
-          "url": "https://www.larazon.es/espana/feijoo-inicia-carrera-vida-lomos-cambio-todo-nada_202611126af61938ea8d8979978371d1.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T20:57:10.947Z"
-        },
-        {
-          "title": "El CIS preelectoral se aleja del resto de encuestas y situa a la suma de PP y Vox lejos de la mayoria absoluta",
-          "url": "https://www.eldiario.es/politica/cis-preelectoral-aleja-resto-encuestas-situa-suma-pp-vox-lejos-mayoria-absoluta_1_13658236.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:55:28.133Z"
-        },
-        {
-          "title": "El mapa del reparto de escanos y quienes serian los nuevos diputados segun el CIS",
-          "url": "https://www.eldiario.es/politica/mapa-reparto-escanos-serian-diputados-cis_1_13659526.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:55:26.721Z"
-        },
-        {
-          "title": "Un calculo alternativo del CIS preelectoral da la mayoria absoluta a PP y Vox aunque el PSOE seria primera fuerza",
-          "url": "https://www.eldiario.es/politica/calculo-alternativo-cis-preelectoral-da-mayoria-absoluta-pp-vox-psoe-seria-primera-fuerza_1_13659317.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:55:19.879Z"
-        },
-        {
-          "title": "El mapa del reparto de escanos y quienes serian los nuevos diputados segun el CIS",
-          "url": "https://www.eldiario.es/politica/mapa-reparto-escanos-serian-diputados-cis_1_13659526.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:28.111Z"
-        },
-        {
-          "title": "El CIS preelectoral se aleja del resto de encuestas y situa a la suma de PP y Vox lejos de la mayoria absoluta",
-          "url": "https://www.eldiario.es/politica/cis-preelectoral-aleja-resto-encuestas-situa-suma-pp-vox-lejos-mayoria-absoluta_1_13658236.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:27.329Z"
-        },
-        {
-          "title": "Un calculo alternativo del CIS preelectoral da la mayoria absoluta a PP y Vox aunque el PSOE seria primera fuerza",
-          "url": "https://www.eldiario.es/politica/calculo-alternativo-cis-preelectoral-da-mayoria-absoluta-pp-vox-psoe-seria-primera-fuerza_1_13659317.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:25.666Z"
-        },
-        {
-          "title": "Por que esta vez no sera como en 2023: las cinco certezas que se plasmaran el 29-N pese a la propaganda de la Moncloa",
-          "url": "https://www.elespanol.com/espana/politica/20261112/vez-no-certezas-plasmaran-pese-propaganda-moncloa/1003744454735_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:16.829Z"
-        },
-        {
-          "title": "Por que esta vez no sera como en 2023: las cinco certezas que se plasmaran el 29-N pese a la propaganda de la Moncloa",
-          "url": "https://www.elespanol.com/espana/politica/20261112/vez-no-certezas-plasmaran-pese-propaganda-moncloa/1003744454735_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:20.623Z"
-        },
-        {
-          "title": "Feijoo se viste de presidente con traje gris: convierte la sobriedad y la gestion en los ejes de su estrategia",
-          "url": "https://www.larazon.es/espana/feijoo-viste-presidente-traje-gris-convierte-sobriedad-gestion-ejes-estrategia_202611046aeaa0da03bbf30bb03ecbb1.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:55:02.574Z"
-        }
-      ]
-    },
-    {
-      "id": 121,
-      "title": "Ada Colau",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 33,
-      "matched_articles": [
-        {
-          "title": "El 'error Wild' de Vox: Abascal tropieza ante el grupo de votantes que mas lo apoya",
-          "url": "https://elpais.com/espana/2026-11-12/el-error-wild-de-vox-abascal-tropieza-ante-el-grupo-de-votantes-que-mas-lo-apoya.html",
-          "newspaper": "El País",
-          "date": "2026-11-13T01:57:54.358Z"
-        },
-        {
-          "title": "Colau se conjura para \"desmentir\" las encuestas y se compromete a conformar un Gobierno \"contra la especulacion\"",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/colau-se-conjura-para-desmentir-las-encuestas-y-se-compromete-a-conformar-un-gobierno-contra-la-especulacion.html",
-          "newspaper": "El País",
-          "date": "2026-11-13T01:57:46.159Z"
-        },
-        {
-          "title": "Cuenta atras para el 29N: la izquierda apela a la epica para remontar y la derecha sube el tono 'antisanchista'",
-          "url": "https://www.eldiario.es/politica/cuenta-29n-izquierda-apela-epica-remontar-derecha-sube-tono-antisanchista_1_13660189.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-13T01:55:34.202Z"
-        },
-        {
-          "title": "Feijoo sube a las redes la primera imagen de avance de su entrevista con Jordi Wild que se emite este viernes: \"Manana...\"",
-          "url": "https://www.20minutos.es/nacional/feijoo-sube-las-redes-primera-imagen-avance-su-entrevista-con-jordi-wild-que-se-emite-este-viernes-manana_7060500_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:06.791Z"
-        },
-        {
-          "title": "Sanchez augura una \"remontada epica\" el 29N y Feijoo promete \"una auditoria del saqueo\" para ver donde ha ido cada euro",
-          "url": "https://www.20minutos.es/nacional/inicio-campana-electoral-directo-candidatos-29n_7060386_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:00.988Z"
-        },
-        {
-          "title": "Colau se lanza con la vivienda para reactivar a la izquierda: \"El siguiente gobierno sera contra la especulacion o no sera\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af60f3c21efa059588b45b3.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
-        },
-        {
-          "title": "Tezanos regala a Sanchez el CIS que queria antes del 29-N: gana las elecciones y PP y Vox no suman para formar gobierno",
-          "url": "https://www.elespanol.com/espana/politica/20261112/tezanos-regala-sanchez-cis-queria-gana-elecciones-pp-vox-no-suman-formar-gobierno/1003744455531_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:06.527Z"
-        },
-        {
-          "title": "La ultima estafa del CIS: publica un sondeo al inicio de campana con una muestra sesgada en 17 puntos a favor del PSOE",
-          "url": "https://www.elespanol.com/espana/politica/20261112/ultima-estafa-cis-publica-sondeo-inicio-campana-muestra-sesgada-puntos-favor-psoe/1003744456340_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:03.935Z"
-        },
-        {
-          "title": "!A las barricadas!",
-          "url": "https://www.elespanol.com/opinion/columnas/20261112/barricadas/1003744455649_12.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:00:16.669Z"
-        },
-        {
-          "title": "La ultima estafa del CIS: publica un sondeo al inicio de campana con una muestra sesgada en 17 puntos a favor del PSOE",
-          "url": "https://www.elespanol.com/espana/politica/20261112/ultima-estafa-cis-publica-sondeo-inicio-campana-muestra-sesgada-puntos-favor-psoe/1003744456340_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:00:07.255Z"
-        },
-        {
-          "title": "PP y Vox arrancan la campana sin mayoria absoluta segun el CIS",
-          "url": "https://www.publico.es/politica/partidos/pp-vox-arrancan-campana-mayoria-absoluta-cis.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:14.216Z"
-        },
-        {
-          "title": "Colau advierte a Sanchez: \"El siguiente Gobierno progresista sera contra la especulacion o no sera\"",
-          "url": "https://www.publico.es/politica/colau-advierte-sanchez-siguiente-gobierno-progresista-sera-especulacion-sera.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:11.666Z"
-        },
-        {
-          "title": "El NO-DO en tiempos de YouTube: las polemicas con Broncano y Jordi Wild anticipan el control mediatico que promueve Vox",
-          "url": "https://www.publico.es/politica/do-tiempos-youtube-polemicas-broncano-jordi-wild-anticipan-control-mediatico-promueve-vox.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:59:10.496Z"
-        },
-        {
-          "title": "PP y Vox arrancan la campana sin mayoria absoluta segun el CIS",
-          "url": "https://www.publico.es/politica/partidos/pp-vox-arrancan-campana-mayoria-absoluta-cis.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:45.352Z"
-        },
-        {
-          "title": "Colau advierte a Sanchez: \"El siguiente Gobierno progresista sera contra la especulacion o no sera\"",
-          "url": "https://www.publico.es/politica/colau-advierte-sanchez-siguiente-gobierno-progresista-sera-especulacion-sera.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:44.432Z"
-        },
-        {
-          "title": "Asi te hemos contado la ultima hora tras la huelga general",
-          "url": "https://www.publico.es/sociedad/ultima-hora-huelga-general-directo.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T20:58:41.920Z"
-        },
-        {
-          "title": "Feijoo lanza la campana del PP desacreditando la huelga: \"Espana va a cambiar y vamos a abrir una nueva etapa\"",
-          "url": "https://www.eldiario.es/politica/feijoo-lanza-campana-pp-desacreditando-huelga-espana-cambiar-abrir-nueva-etapa_1_13660163.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:55:18.860Z"
-        },
-        {
-          "title": "Las entrevistas de Jordi Wild: como un 'youtuber' se ha convertido en un escaparate relevante para los candidatos",
-          "url": "https://www.eldiario.es/era/entrevistas-jordi-wild-youtuber-convertido-escaparate-relevante-candidatos_1_13653348.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:36.556Z"
-        },
-        {
-          "title": "Del \"se caga encima\" del 'Xokas' al \"les vamos a canear\" de Vito Quiles: influencers ultras cargan contra Abascal por no ir a la entrevista de Jordi Wild",
-          "url": "https://www.eldiario.es/rastreador/les-canear-vito-quiles-caga-xokas-influencers-ultras-cargan-abascal-no-entrevista-jordi-wild_132_13657452.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:34.925Z"
-        },
-        {
-          "title": "Los partidos catalanes inician la campana con el PSC en cabeza y Rufian y Colau peleando por el mismo espacio",
-          "url": "https://www.eldiario.es/catalunya/partidos-catalanes-inician-campana-psc-cabeza-rufian-colau-peleando-espacio_1_13659910.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:30.463Z"
-        },
-        {
-          "title": "Quien es Jordi Wild, el youtuber eclectico que ha llevado a los principales candidatos electorales a 'The Wild Project'",
-          "url": "https://www.lavanguardia.com/politica/20261112/11680757/jordi-wild-youtuber-eclectico-llevado-cuatro-principales-candidatos-electorales-the-wild-project.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:02:13.101Z"
-        },
-        {
-          "title": "Quien es Jordi Wild, el youtuber eclectico que ha llevado a los principales candidatos electorales a 'The Wild Project'",
-          "url": "https://www.lavanguardia.com/politica/20261112/11680757/jordi-wild-youtuber-eclectico-llevado-cuatro-principales-candidatos-electorales-the-wild-project.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:01:11.830Z"
-        },
-        {
-          "title": "Las reacciones de los youtubers decepcionados con Vox tras su cancelacion con Jordi Wild: \"Si sois tan tontos de tomar esta decision, ?que vais a hacer en el Gobierno?\"",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af5836021efa092738b459f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:48.980Z"
-        },
-        {
-          "title": "Las reacciones de los youtubers decepcionados con Vox tras su cancelacion con Jordi Wild: \"Si sois tan tontos de tomar esta decision, ?que vais a hacer en el Gobierno?\"",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af5836021efa092738b459f.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.666Z"
-        },
-        {
-          "title": "Abascal enmarca su 'planton' a Jordi Wild en una \"decision estrategica\": \"Asumo las criticas y las consecuencias\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af579c8fdddff1f1a8b456e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.666Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, en directo | Ultima hora de los sondeos del PSOE, PP, Vox y Frente Amplio, precampana electoral, encuestas y voto por correo",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:07.919Z"
-        },
-        {
-          "title": "Abascal suspende su entrevista con Jordi Wild y todas las que no aseguren a Vox el control de las grabaciones",
-          "url": "https://www.publico.es/politica/abascal-suspende-entrevista-jordi-wild-todas-aseguren-vox-control-grabaciones.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:25.835Z"
-        },
-        {
-          "title": "Feijoo no atrae a 'El Hormiguero' la audiencia de otros politicos en 'La Revuelta'",
-          "url": "https://www.publico.es/mira/feijoo-atrae-hormiguero-audiencia-otros-politicos-revuelta.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:58.253Z"
-        },
-        {
-          "title": "Abascal suspende su entrevista con Jordi Wild y todas las que no aseguren a Vox el control de las grabaciones",
-          "url": "https://www.publico.es/politica/abascal-suspende-entrevista-jordi-wild-todas-aseguren-vox-control-grabaciones.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:55.771Z"
-        },
-        {
-          "title": "Jordi Wild denuncia que Abascal cancele su entrevista para \"minimizar riesgos\" tras su participacion en 'La Revuelta'",
-          "url": "https://www.eldiario.es/politica/jordi-wild-denuncia-abascal-cancele-entrevista-minimizar-riesgos-salir-reforzado-revuelta_1_13656948.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:43.606Z"
-        },
-        {
-          "title": "Jordi Wild denuncia que Abascal cancele su entrevista para \"minimizar riesgos\" tras su participacion en 'La Revuelta'",
-          "url": "https://www.eldiario.es/politica/jordi-wild-denuncia-abascal-cancele-entrevista-minimizar-riesgos-salir-reforzado-revuelta_1_13656948.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:51:53.545Z"
-        },
-        {
-          "title": "La desesperada lucha de Frente Amplio contra el voto util al PSOE: \"Solo nos queda votar 'al Perro' y cruzar los dedos\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/11/6af352d121efa0855e8b45aa.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T04:03:56.417Z"
-        },
-        {
-          "title": "La izquierda, ante las movilizaciones por la huelga general: <<La ciudadania ha dicho que ya basta de excusas>>",
-          "url": "https://www.larazon.es/espana/izquierda-movilizaciones-huelga-general-ciudadania-dicho-que-basta-excusas_202611126af4c3b4d3bddc0868ae2a41.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T03:56:13.966Z"
-        }
-      ]
-    },
-    {
-      "id": 225,
-      "title": "Ceuta",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 226,
-      "title": "Campaña Electoral",
-      "source": "news_tags",
-      "volume": "32 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 32
-    },
-    {
-      "id": 227,
-      "title": "Entrevistas",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 228,
-      "title": "Electorales",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 229,
-      "title": "Investigación",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 230,
-      "title": "Horas",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 232,
-      "title": "Abascal",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 233,
-      "title": "Noviembre",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 234,
-      "title": "Echa",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 235,
-      "title": "Millones",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 236,
-      "title": "Eeuu",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 237,
-      "title": "York",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 238,
-      "title": "Jueza",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 239,
-      "title": "Actos",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 241,
-      "title": "Cuestas",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 242,
-      "title": "Estadounidense",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 4,
-      "title": "Tribunal de Cuentas",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
-      "news_count": 24,
-      "matched_articles": [
-        {
-          "title": "El juez da 10 dias al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres bancarios",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af62498e85ece93128b45a9.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:05:11.327Z"
-        },
-        {
-          "title": "El juez da 10 dias al Tribunal de Cuentas para emitir un nuevo informe sobre las donaciones del PSOE que aclare los descuadres bancarios",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af62498e85ece93128b45a9.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-13T02:04:31.935Z"
-        },
-        {
-          "title": "Abascal dice que \"eliminara o reducira drasticamente\" la financiacion a los sindicatos si llega al Gobierno",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/abascal-dice-que-eliminara-o-reducira-al-maximo-la-financiacion-a-los-sindicatos-si-llega-al-gobierno.html",
-          "newspaper": "El País",
-          "date": "2026-11-12T14:01:20.000Z"
-        },
-        {
-          "title": "La Fiscalia Europea manda a la UCO al Ministerio de Igualdad por un posible fraude en la compra de las pulseras antimaltrato",
-          "url": "https://www.20minutos.es/nacional/fiscalia-europea-investiga-ministerio-igualdad-por-posible-fraude-compra-las-pulseras-antimaltrato-con-fondos-ue_7060180_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:52.430Z"
-        },
-        {
-          "title": "Abascal senala que Sanchez es \"chusma\" por darle voz a Begona Gomez en el inicio de la campana",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af61c69fc6c83561f8b45a2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
-        },
-        {
-          "title": "Hazte Oir reta a Sanchez: lleva cerca de Ferraz un bus que le llama \"corrupto\", \"sumiso\" ante Marruecos y le culpa de Urda",
-          "url": "https://www.elespanol.com/espana/20261112/hazte-oir-reta-sanchez-lleva-cerca-ferraz-bus-llama-corrupto-sumiso-marruecos-culpa-urda/1003744455675_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:01:07.754Z"
-        },
-        {
-          "title": "Agentes de la UCO acuden al Tribunal de Cuentas por la pieza de financiacion del PSOE",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682461/agentes-uco-acuden-tribunal-cuentas-pieza-financiacion-poe.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:02:14.022Z"
-        },
-        {
-          "title": "Agentes de la UCO acuden al Tribunal de Cuentas por la pieza de financiacion del PSOE",
-          "url": "https://www.lavanguardia.com/politica/20261112/11682461/agentes-uco-acuden-tribunal-cuentas-pieza-financiacion-poe.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:01:13.198Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas a por informacion sobre presuntas irregularidades en donaciones al PSOE",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af5a9e2fdddff03488b459e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.665Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas a reclamar expedientes sobre donaciones al PSOE ante las <<discrepancias>> encontradas",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/12/uco-acude-tribunal-cuentas-reclamar-expedientes-sobre-donaciones-psoe-ante-discrepancias-encontradas/00031794483345246534600.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-12T12:59:35.167Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en las pulseras antimaltrato de Igualdad",
-          "url": "https://www.elespanol.com/mundo/europa/20261112/fiscalia-europea-lanza-investigacion-presunto-fraude-fondos-europeos-destinados-pulseras-antimaltrato/1003744455422_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:46.710Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas al notar \"discrepancias\" en la documentacion sobre las donaciones al PSOE",
-          "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-pide-tribunal-cuentas-informacion-donaciones-psoe-detectar-discrepancias/1003744455572_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:03.806Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en las pulseras antimaltrato de Igualdad",
-          "url": "https://www.elespanol.com/mundo/europa/20261112/fiscalia-europea-lanza-investigacion-presunto-fraude-fondos-europeos-destinados-pulseras-antimaltrato/1003744455422_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:17.388Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas al notar \"discrepancias\" en la documentacion sobre las donaciones al PSOE",
-          "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-pide-tribunal-cuentas-informacion-donaciones-psoe-detectar-discrepancias/1003744455572_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:15.760Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas en busca de informacion de donaciones al PSOE",
-          "url": "https://www.publico.es/politica/tribunales/uco-acude-tribunal-cuentas-busca-informacion-donaciones-psoe.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:23.916Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga un posible fraude en la compra de pulseras antimaltrato en Espana",
-          "url": "https://www.publico.es/politica/tribunales/fiscalia-europea-investiga-posible-fraude-compra-pulseras-antimaltrato-espana.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:23.386Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga un posible fraude en la compra de pulseras antimaltrato en Espana",
-          "url": "https://www.publico.es/politica/tribunales/fiscalia-europea-investiga-posible-fraude-compra-pulseras-antimaltrato-espana.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:59.618Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas en busca de informacion de donaciones al PSOE",
-          "url": "https://www.publico.es/politica/tribunales/uco-acude-tribunal-cuentas-busca-informacion-donaciones-psoe.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:57.555Z"
-        },
-        {
-          "title": "La Fiscalia Europea manda a la UCO al Ministerio de Igualdad por presunto fraude con las pulseras antimaltrato",
-          "url": "https://www.larazon.es/espana/fiscalia-europea-manda-uco-ministerio-igualdad-presunto-fraude-pulseras-antimaltrato_202611126af5999e9a31a65adcd97abc.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:33.401Z"
-        },
-        {
-          "title": "La UCO vuelve al Tribunal de Cuentas por la investigacion sobre la supuesta financiacion ilegal del PSOE",
-          "url": "https://www.larazon.es/espana/uco-vuelve-tribunal-cuentas-investigacion-supuesta-financiacion-ilegal-psoe_202611126af5a5a0ea8d89799782ec15.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:32.220Z"
-        },
-        {
-          "title": "La UCO requiere informacion al Tribunal de Cuentas sobre las cuentas del PSOE",
-          "url": "https://www.eldiario.es/politica/uco-requiere-informacion-tribunal-cuentas-cuentas-psoe_1_13658082.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:40.043Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga al Ministerio de Igualdad por un presunto fraude con las pulseras de control a maltratadores",
-          "url": "https://www.eldiario.es/sociedad/fiscalia-europea-investiga-ministerio-igualdad-presunto-fraude-pulseras-control-maltratadores_1_13657616.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:01.124Z"
-        },
-        {
-          "title": "La UCO requiere informacion al Tribunal de Cuentas sobre las cuentas del PSOE",
-          "url": "https://www.eldiario.es/politica/uco-requiere-informacion-tribunal-cuentas-cuentas-psoe_1_13658082.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:51:54.228Z"
-        },
-        {
-          "title": "Lo que podemos prometer a nuestros nietos tras las elecciones",
-          "url": "https://www.elespanol.com/invertia/opinion/20261112/podemos-prometer-nietos-elecciones/1003744453924_13.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T03:59:55.198Z"
-        }
-      ]
-    },
-    {
-      "id": 105,
-      "title": "Fiscalía Europea",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 24,
-      "matched_articles": [
-        {
-          "title": "Elecciones generales 29-N, en directo | El PP publica un video en sus redes como pistoletazo de salida de la campana electoral: \"El cambio necesario\"",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-13T02:02:21.509Z"
-        },
-        {
-          "title": "Abascal dice que \"eliminara o reducira drasticamente\" la financiacion a los sindicatos si llega al Gobierno",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/abascal-dice-que-eliminara-o-reducira-al-maximo-la-financiacion-a-los-sindicatos-si-llega-al-gobierno.html",
-          "newspaper": "El País",
-          "date": "2026-11-12T14:01:20.000Z"
-        },
-        {
-          "title": "Belgica tambien apunta a Iran por los ciberataques a supermercados europeos que han causado perdidas millonarias",
-          "url": "https://elpais.com/internacional/2026-11-12/belgica-tambien-apunta-a-iran-por-los-ciberataques-a-supermercados-europeos-que-han-causado-perdidas-millonarias.html",
-          "newspaper": "El País",
-          "date": "2026-11-13T01:57:25.691Z"
-        },
-        {
-          "title": "Belgica se suma a Francia e investiga posibles vinculos con Iran en los ciberataques a supermercados",
-          "url": "https://www.20minutos.es/internacional/belgica-se-suma-francia-investiga-posibles-vinculos-con-iran-los-ciberataques-supermercados_7060419_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:06:38.117Z"
-        },
-        {
-          "title": "La Fiscalia Europea manda a la UCO al Ministerio de Igualdad por un posible fraude en la compra de las pulseras antimaltrato",
-          "url": "https://www.20minutos.es/nacional/fiscalia-europea-investiga-ministerio-igualdad-por-posible-fraude-compra-las-pulseras-antimaltrato-con-fondos-ue_7060180_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T21:05:52.430Z"
-        },
-        {
-          "title": "Abascal senala que Sanchez es \"chusma\" por darle voz a Begona Gomez en el inicio de la campana",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/12/6af61c69fc6c83561f8b45a2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
-        },
-        {
-          "title": "Elecciones generales 29-N, en directo | Abascal carga contra el PSOE por la intervencion de Begona Gomez en el arranque de campana: \"No tienen verguenza\"",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T21:00:56.277Z"
-        },
-        {
-          "title": "La Agencia Espanola de Proteccion de Datos no bloqueara TikTok por los contenidos de pederastia",
-          "url": "https://www.eldiario.es/sociedad/agencia-espanola-proteccion-datos-no-bloqueara-actividad-total-tiktok-contenidos-pederastia_1_13657191.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T20:54:48.309Z"
-        },
-        {
-          "title": "La Fiscalia Europea lanza una operacion por fraude por las pulseras antimaltrato",
-          "url": "https://www.lavanguardia.com/vida/20261112/11682362/fiscalia-europea-lanza-operacion-fraude-pulseras-telematicas.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-12T13:01:18.738Z"
-        },
-        {
-          "title": "La Fiscalia Europea envia a la UCO al Ministerio de Igualdad por un presunto fraude en la compra de pulseras antimaltrato",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af59511e85ecef6528b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:48.980Z"
-        },
-        {
-          "title": "La Fiscalia Europea envia a la UCO al Ministerio de Igualdad por un presunto fraude en la compra de pulseras antimaltrato",
-          "url": "https://www.elmundo.es/espana/2026/11/12/6af59511e85ecef6528b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:14.665Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en las pulseras antimaltrato de Igualdad",
-          "url": "https://www.elespanol.com/mundo/europa/20261112/fiscalia-europea-lanza-investigacion-presunto-fraude-fondos-europeos-destinados-pulseras-antimaltrato/1003744455422_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:46.710Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, en directo | Ultima hora de los sondeos del PSOE, PP, Vox y Frente Amplio, precampana electoral, encuestas y voto por correo",
-          "url": "https://www.elespanol.com/espana/20261112/elecciones-generales-directo-ultima-hora-pedro-sanchez-precampana-electoral-encuestas-sondeos-voto-correo-espana-2026-partidos/1003744454989_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:07.919Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas al notar \"discrepancias\" en la documentacion sobre las donaciones al PSOE",
-          "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-pide-tribunal-cuentas-informacion-donaciones-psoe-detectar-discrepancias/1003744455572_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:58:03.806Z"
-        },
-        {
-          "title": "La Fiscalia Europea abre una investigacion por fraude de fondos UE en las pulseras antimaltrato de Igualdad",
-          "url": "https://www.elespanol.com/mundo/europa/20261112/fiscalia-europea-lanza-investigacion-presunto-fraude-fondos-europeos-destinados-pulseras-antimaltrato/1003744455422_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:17.388Z"
-        },
-        {
-          "title": "La UCO acude al Tribunal de Cuentas al notar \"discrepancias\" en la documentacion sobre las donaciones al PSOE",
-          "url": "https://www.elespanol.com/espana/tribunales/20261112/uco-pide-tribunal-cuentas-informacion-donaciones-psoe-detectar-discrepancias/1003744455572_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-12T12:57:15.760Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga un posible fraude en la compra de pulseras antimaltrato en Espana",
-          "url": "https://www.publico.es/politica/tribunales/fiscalia-europea-investiga-posible-fraude-compra-pulseras-antimaltrato-espana.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:56:23.386Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga un posible fraude en la compra de pulseras antimaltrato en Espana",
-          "url": "https://www.publico.es/politica/tribunales/fiscalia-europea-investiga-posible-fraude-compra-pulseras-antimaltrato-espana.html",
-          "newspaper": "Público",
-          "date": "2026-11-12T12:55:59.618Z"
-        },
-        {
-          "title": "La Fiscalia Europea manda a la UCO al Ministerio de Igualdad por presunto fraude con las pulseras antimaltrato",
-          "url": "https://www.larazon.es/espana/fiscalia-europea-manda-uco-ministerio-igualdad-presunto-fraude-pulseras-antimaltrato_202611126af5999e9a31a65adcd97abc.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-12T12:54:33.401Z"
-        },
-        {
-          "title": "Belgica tambien senala a Iran por los ciberataques contra supermercados europeos",
-          "url": "https://www.eldiario.es/internacional/belgica-senala-iran-ciberataques-supermercados-europeos_1_13657822.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:53:23.660Z"
-        },
-        {
-          "title": "La UCO requiere informacion al Tribunal de Cuentas sobre las cuentas del PSOE",
-          "url": "https://www.eldiario.es/politica/uco-requiere-informacion-tribunal-cuentas-cuentas-psoe_1_13658082.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:40.043Z"
-        },
-        {
-          "title": "Belgica tambien senala a Iran por los ciberataques contra supermercados europeos",
-          "url": "https://www.eldiario.es/internacional/belgica-senala-iran-ciberataques-supermercados-europeos_1_13657822.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:04.263Z"
-        },
-        {
-          "title": "La Fiscalia Europea investiga al Ministerio de Igualdad por un presunto fraude con las pulseras de control a maltratadores",
-          "url": "https://www.eldiario.es/sociedad/fiscalia-europea-investiga-ministerio-igualdad-presunto-fraude-pulseras-control-maltratadores_1_13657616.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:52:01.124Z"
-        },
-        {
-          "title": "La UCO requiere informacion al Tribunal de Cuentas sobre las cuentas del PSOE",
-          "url": "https://www.eldiario.es/politica/uco-requiere-informacion-tribunal-cuentas-cuentas-psoe_1_13658082.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-12T12:51:54.228Z"
-        }
-      ]
-    },
-    {
-      "id": 243,
-      "title": "29",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 244,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 245,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 246,
-      "title": "Tribunales",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 247,
-      "title": "Guerra en Iran",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 248,
-      "title": "Illa",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 249,
-      "title": "Puente",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 125,
-      "title": "El Ipc",
+      "id": 103,
+      "title": "Rosalía",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 6,
       "matched_articles": [
         {
-          "title": "Telefonica ve margen para subir precios en Espana antes de que termine el ano",
-          "url": "https://www.elmundo.es/economia/empresas/2026/11/13/6af5e328e4d4d82d5f8b45bc.html",
+          "title": "Rosalia sube al cielo de los Latin Grammy al ganar album del ano con 'Lux' y mejor cancion con 'La Perla'",
+          "url": "https://www.lavanguardia.com/cultura/20261113/11683217/rosalia-sube-cielo-latin-grammy-ganar-album-ano-lux-mejor-cancion-perla.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-13T09:48:51.161Z"
+        },
+        {
+          "title": "Los Latin Grammy se rinden al fenomeno Rosalia: premio al album del ano con 'Lux' y a mejor cancion con 'La Perla'",
+          "url": "https://www.elespanol.com/el-cultural/escenarios/musica/20261113/latin-grammy-rinden-fenomeno-rosalia-premio-album-ano-lux-mejor-cancion-perla/1003744456688_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:45:39.075Z"
+        },
+        {
+          "title": "Rosalia conquista los Latin Grammy con seis premios",
+          "url": "https://www.larazon.es/cultura/rosalia-conquista-latin-grammy-seis-premios_202611136af6c83d9a31a65adcdaa2e7.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-13T09:42:50.540Z"
+        },
+        {
+          "title": "Rosalia arrasa en los Latin Grammy con seis premios, entre ellos el de mejor album por 'Lux'",
+          "url": "https://www.eldiario.es/cultura/rosalia-arrasa-latin-grammy-seis-premios_1_13660552.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-13T09:40:28.216Z"
+        },
+        {
+          "title": "U2, entrevista exclusiva: \"Mirar a la oscuridad a la cara y elegir la alegria es un acto de rebeldia\"",
+          "url": "https://www.elmundo.es/la-lectura/2026/11/12/6af4d9bee9cf4a396f8b459d.html",
           "newspaper": "El Mundo",
           "date": "2026-11-13T02:04:31.936Z"
         },
+        {
+          "title": "U2, aun en la busqueda 50 anos despues: Dios, Rosalia, espanol y rock and roll",
+          "url": "https://www.elespanol.com/el-cultural/escenarios/musica/20261112/u2-busqueda-anos-despues-dios-rosalia-espanol-rock-and-roll/1003744453922_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-12T12:57:36.664Z"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Nations League",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 4,
+      "matched_articles": [
+        {
+          "title": "Espana aprovecha los regalos de la Republica Checa para asaltar Praga y mantener su pleno de victorias en la Nations League",
+          "url": "https://www.elespanol.com/deportes/futbol/20261112/espana-aprovecha-regalos-republica-checa-asaltar-praga-mantener-pleno-victorias-nations-league/1003744456536_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T02:01:31.744Z"
+        },
+        {
+          "title": "Republica Checa - Espana | Sigue la ultima hora del partido de la Nations League, en directo",
+          "url": "https://www.lavanguardia.com/deportes/futbol/20261112/11682827/republica-checa-espana-nations-league-selecciones-partido-futbol-hoy-en-directo.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-12T21:04:35.305Z"
+        },
+        {
+          "title": "Republica Checa - Espana, futbol hoy en directo: resultado, goleadores y estadisticas en vivo del partido de la Nations League",
+          "url": "https://www.elespanol.com/deportes/20261112/republica-checa-espana-futbol-hoy-directo-resultado-goleadores-estadisticas-vivo-partido-nations-league/1003744456451_22.html",
+          "newspaper": "El Español",
+          "date": "2026-11-12T21:00:21.934Z"
+        },
+        {
+          "title": "Republica Checa - Espana, en directo hoy: jornada 5 de la fase de grupos de la Nations League",
+          "url": "https://www.larazon.es/deportes/futbol/republica-checa-espana-directo-hoy-jornada-5-fase-grupos-nations-league_202611126af306824196933d7ed7e5f5.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-12T20:57:17.382Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Naranja",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 3,
+      "matched_articles": [
+        {
+          "title": "Cinco comunidades en alerta este viernes antes de la llegada de un nuevo temporal este fin de semana",
+          "url": "https://www.20minutos.es/nacional/cinco-comunidades-alerta-por-este-viernes-antes-llegada-un-nuevo-temporal-este-fin-semana_7060459_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-12T21:06:07.701Z"
+        },
+        {
+          "title": "Las borrascas Bruna y Charles dan sus ultimos coletazos pero 12 comunidades siguen bajo avisos por viento, lluvia o mala mar",
+          "url": "https://www.elmundo.es/espana/2026/11/12/6af56a00fc6c83ff228b4591.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-12T13:00:48.980Z"
+        },
+        {
+          "title": "Mas de 400 personas sobreviven al Atlantico en plena borrasca Charles y llegan a El Hierro en cinco cayucos",
+          "url": "https://www.eldiario.es/canariasahora/migraciones/personas-sobreviven-atlantico-plena-borrasca-charles-llegan-hierro-cayucos_1_13657309.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-12T12:52:03.624Z"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Niña Pastori",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Los Latin Grammy se rinden al fenomeno Rosalia: premio al album del ano con 'Lux' y a mejor cancion con 'La Perla'",
+          "url": "https://www.elespanol.com/el-cultural/escenarios/musica/20261113/latin-grammy-rinden-fenomeno-rosalia-premio-album-ano-lux-mejor-cancion-perla/1003744456688_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-13T09:45:39.075Z"
+        },
+        {
+          "title": "Pedro Sanchez dispara la audiencia de 'El perro andaluz' y firma el record historico del programa",
+          "url": "https://www.publico.es/mira/pedro-sanchez-dispara-audiencia-perro-andaluz-firma-record-historico-programa.html",
+          "newspaper": "Público",
+          "date": "2026-11-13T09:44:16.946Z"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Ipc Pensiones 2027 España",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 2,
+      "matched_articles": [
         {
           "title": "Feijoo impulsara acciones \"penales\" contra Pedro Sanchez si se demuestra que ha \"falseado\" las cuentas publicas",
           "url": "https://www.elespanol.com/espana/politica/20261112/feijoo-impulsara-acciones-penales-pedro-sanchez-demuestra-falseado-cuentas-publicas/1003744455010_0.html",
@@ -1945,55 +935,59 @@
           "url": "https://www.elespanol.com/espana/politica/20261112/feijoo-impulsara-acciones-penales-pedro-sanchez-demuestra-falseado-cuentas-publicas/1003744455010_0.html",
           "newspaper": "El Español",
           "date": "2026-11-12T12:57:21.567Z"
-        },
-        {
-          "title": "Feijoo, sobre la huelga general: \"Es un acto camuflado de campana electoral por parte de los sindicatos\"",
-          "url": "https://www.20minutos.es/internacional/feijoo-hormiguero-directo-lider-pp-acude-programa-pablo-motos-dia-huelga-general_7059914_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:47.111Z"
-        },
-        {
-          "title": "Feijoo acusa a Sanchez de gastar \"un billon de euros\" sin PGE y estudiara la responsabilidad penal si hay falsedad en las cuentas",
-          "url": "https://www.20minutos.es/nacional/feijoo-acusa-sanchez-gastar-un-billon-euros-sin-pge-estudiara-responsabilidad-penal-si-hay-falsedad-las-cuentas_7059993_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:16.801Z"
-        },
-        {
-          "title": "El PSOE exprimira el Consejo de Ministros para aprobar decretos antes de votar",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/12/psoe-exprimira-consejo-ministros-aprobar-decretos-votar/0003_202611G12P7991.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-12T04:02:42.135Z"
         }
       ]
     },
     {
-      "id": 14,
-      "title": "Ley de Dependencia",
+      "id": 30,
+      "title": "Adoctrinamiento",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 2,
       "matched_articles": [
         {
-          "title": "Sanchez blinda en silencio Defensa antes del final de su mandato: millones comprometidos y mision de paz para Ucrania",
-          "url": "https://www.elmundo.es/espana/2026/11/11/6af48f33e85ece74488b45b2.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-12T13:00:48.978Z"
+          "title": "El \"compromiso antiideologico\" que quiere Vox para el cine es la muerte del arte libre",
+          "url": "https://www.eldiario.es/cultura/compromiso-antiideologico-quiere-vox-cine-muerte-arte-libre_129_13660621.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-13T09:40:35.236Z"
         },
         {
-          "title": "Tesh Sidi (Frente Amplio): \"Hay que atajar la privatizacion, hemos visto que una mala gestion de la sanidad publica mata\"",
-          "url": "https://www.20minutos.es/nacional/tesh-sidi-frente-amplio-hay-que-atajar-privatizacion-hemos-visto-que-una-mala-gestion-sanidad-publica-mata_7059266_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-12T04:06:11.500Z"
+          "title": "El Gobierno de PP y Vox en Castilla y Leon obliga a firmar un compromiso 'antiideologico' a los cineastas que piden una subvencion para cortometrajes",
+          "url": "https://www.eldiario.es/castilla-y-leon/politica/junta-castilla-leon-obliga-firmar-compromiso-anti-ideologico-cineastas-piden-subvencion-cortometrajes_1_13659056.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-13T09:40:23.597Z"
         }
       ]
     },
     {
-      "id": 6,
+      "id": 33,
+      "title": "Eduardo Inda",
+      "source": "google",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Un tribunal condena a Alvise y a Okdiario por difundir \"informacion sin contrastar\" sobre un falso terrorista magrebi",
+          "url": "https://www.eldiario.es/politica/tribunal-condena-alvise-okdiario-difundir-noticia-contrastar_1_13637670.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-13T09:41:04.034Z"
+        },
+        {
+          "title": "La exabogada de Koldo informa al juez que el unico pagador que tuvo fue \"la sociedad 2000 Palabras\", editora de 'OkDiario'",
+          "url": "https://www.elespanol.com/espana/tribunales/20261112/exabogada-koldo-informa-juez-unico-pagador-sociedad-palabras-editora-okdiario/1003744455754_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-12T21:01:08.870Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
       "title": "Joyería",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
@@ -2005,141 +999,169 @@
       ]
     },
     {
-      "id": 13,
-      "title": "Pau Cubarsí",
+      "id": 7,
+      "title": "Cayetana Álvarez de Toledo",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
+      "volume": "10 mil+ búsquedas",
       "timeframe": "hace 13 h (24h)",
       "news_count": 1,
       "matched_articles": [
         {
-          "title": "Republica Checa - Espana en directo",
-          "url": "https://www.elmundo.es/deportes/futbol/uefa-nations-league/republica-checa-espana/2026/11/12/01_0195_20261112_367_118-directo.html",
+          "title": "Magdalena Pinera Morel: \"La civilidad de mi padre se resumia en que podemos ser adversarios politicos, pero jamas enemigos\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/13/6af5bb3fe9cf4a396f8b45b2.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-12T21:03:16.037Z"
+          "date": "2026-11-13T02:04:49.758Z"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Río Atmosférico",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 13 h (24h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Un rio atmosferico cargado de humedad traera nuevas lluvias abundantes a Espana a partir del domingo",
+          "url": "https://www.20minutos.es/nacional/rio-atmosferico-cargado-humedad-nuevas-lluvias-abundantes-espana-partir-domingo_7060363_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-12T21:06:12.246Z"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Funcionario Público",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "El presidente en la sombra: que supone el ascenso del ultraderechista Stephen Miller a jefe de Gabinete de Trump",
+          "url": "https://www.eldiario.es/internacional/presidente-sombra-supone-ascenso-ultraderechista-stephen-miller-jefe-gabinete-trump_129_13657576.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-13T09:40:21.186Z"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Hospital Álvaro Cunqueiro",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Los Tedax acuden al Cunqueiro por una maleta abandonada a las puertas de urgencias",
+          "url": "https://www.lavozdegalicia.es/noticia/vigo/2026/11/13/tedax-acuden-cunqueiro-maleta-abandonada-puertas-urgencias/00031794560948606820570.htm",
+          "newspaper": "La Voz De Galicia",
+          "date": "2026-11-13T09:47:18.137Z"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Maria Casado",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Trece anos de privatizaciones, recortes y promesas incumplidas en la sanidad gallega",
+          "url": "https://www.publico.es/politica/trece-anos-privatizaciones-recortes-promesas-incumplidas-sanidad-gallega.html",
+          "newspaper": "Público",
+          "date": "2026-11-12T20:59:11.202Z"
         }
       ]
     },
     {
       "id": 1,
-      "title": "Outlook",
-      "source": "google",
-      "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 2,
       "title": "Chequia - España",
       "source": "google",
       "volume": "200 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 3,
-      "title": "Caida Outlook",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
+      "timeframe": "hace 23 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 5,
-      "title": "Paso de Cebra",
+      "title": "Latif Issman",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 7,
-      "title": "Silvia Alonso",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 22 h (24h)",
+      "timeframe": "hace 20 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 8,
-      "title": "Ganador Supervivientes All Stars 2026",
+      "title": "News Corp",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 9,
+      "title": "Marcial Dorado",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
       "timeframe": "hace 8 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 10,
-      "title": "Latif Issman",
+      "id": 11,
+      "title": "Luka Vušković",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 12 h (24h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 12,
-      "title": "Iñaki López",
+      "title": "Camionero",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 13 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 13,
+      "title": "Ganador Supervivientes 2026",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 17 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 15,
-      "title": "Niña Pastori",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 22,
-      "title": "Teams",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 24,
-      "title": "Ticketmaster",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 25,
-      "title": "News Corp",
+      "title": "Imanol Arias",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 26,
-      "title": "Incendio Bilbao",
+      "id": 20,
+      "title": "Taylor Fritz",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 27,
-      "title": "Entradas U2",
+      "id": 21,
+      "title": "Avril Lavigne",
       "source": "google",
       "volume": "1 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
@@ -2147,61 +1169,52 @@
       "matched_articles": []
     },
     {
-      "id": 28,
-      "title": "Raphinha",
+      "id": 22,
+      "title": "Subida Pensiones 2027 Última Hora",
       "source": "google",
       "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 27,
+      "title": "Gerard López",
+      "source": "google",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 29,
-      "title": "Asraf Beno",
+      "title": "Crimen de Pazos",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 31,
-      "title": "Zoom",
+      "title": "Eugenesia",
       "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 32,
-      "title": "Gmail Correo",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 33,
-      "title": "Black Friday Nintendo Switch",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 34,
-      "title": "Toni Bou",
+      "title": "Irene de Grecia",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 103,
+      "id": 101,
       "title": "#psoeyfrenteampliovetan",
       "source": "x_trends",
       "volume": "N/A",
@@ -2210,8 +1223,26 @@
       "matched_articles": []
     },
     {
+      "id": 102,
+      "title": "#pazcasatrabajo29n",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 121,
+      "title": "Gaitán",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
       "id": 122,
-      "title": "Pipi",
+      "title": "Juliana",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -2220,16 +1251,7 @@
     },
     {
       "id": 123,
-      "title": "Gmail",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 124,
-      "title": "Alfon",
+      "title": "Negreira",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

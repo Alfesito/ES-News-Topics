@@ -1,1211 +1,379 @@
 {
-  "timestamp": "2026-11-25T15:57:09.697459",
+  "timestamp": "2026-11-26T00:44:59.704043",
   "summary": {
     "google_total": 30,
     "xtrends_total": 15,
     "tags_total": 50,
-    "unique_total": 89,
-    "unified_count": 2,
-    "with_news": 70,
-    "without_news": 19
+    "unique_total": 91,
+    "unified_count": 3,
+    "with_news": 62,
+    "without_news": 29
   },
   "trends": [
     {
       "id": 200,
-      "title": "Quedan",
+      "title": "Ia",
       "source": "news_tags",
-      "volume": "313 artículos",
+      "volume": "570 artículos",
       "timeframe": "24h noticias",
-      "news_count": 313
-    },
-    {
-      "id": 113,
-      "title": "El Gobierno",
-      "source": "x_trends",
-      "volume": "3.9MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 275,
-      "matched_articles": [
-        {
-          "title": "Jensen Huang se disculpa con empleados por incumplir el codigo de conducta de Nvidia: \"A veces, es apropiado perdonar\"",
-          "url": "https://www.20minutos.es/internacional/jensen-huang-se-disculpa-con-empleados-por-incumplir-codigo-conducta-nvidia-veces-es-apropiado-perdonar_7065419_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:55.601Z"
-        },
-        {
-          "title": "Sanchez promete cambiar la Ley de Defensa Nacional para prohibir entrar en \"guerras ilegales\" como Irak e Iran",
-          "url": "https://www.20minutos.es/nacional/sanchez-promete-cambiar-ley-defensa-nacional-para-prohibir-entrar-guerras-ilegales-como-irak-iran_7065406_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:35.814Z"
-        },
-        {
-          "title": "La lista de medidas sociales que el Gobierno ha anunciado antes del 29-N: cuales son de efecto inmediato y cuales van a la Diputacion",
-          "url": "https://www.20minutos.es/nacional/lista-medidas-sociales-que-gobierno-ha-anunciado-antes-29-n-cuales-son-efecto-inmediato-cuales-van-diputacion_7065107_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:32.333Z"
-        },
-        {
-          "title": "Todo sobre los nuevos permisos por duelo y paternidad: ?cuando entran en vigor? ?Que ocurre si cambia el Gobierno?",
-          "url": "https://www.20minutos.es/nacional/todo-sobre-los-nuevos-permisos-por-duelo-paternidad-cuando-entran-vigor-que-ocurre-si-cambia-gobierno_7065114_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:31.978Z"
-        },
-        {
-          "title": "Debate oportunidad, debate peligroso",
-          "url": "https://www.20minutos.es/nacional/debate-oportunidad-debate-peligroso_7065158_3.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:30.626Z"
-        },
-        {
-          "title": "\"Que un sistema falle no se cuantas veces al ano no existe\": el tren puede 'copiar' al avion mas control o mejores carreras, no tecnologia",
-          "url": "https://www.20minutos.es/nacional/que-un-sistema-falle-no-se-cuantas-veces-ano-no-existe-tren-puede-copiar-avion-mas-control-mejores-carreras-no-tecnologia_7065246_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:30.245Z"
-        },
-        {
-          "title": "Pedro Sanchez: \"La vivienda sera nuestra gran prioridad, hay que construir mas y regular contra los que especulan\"",
-          "url": "https://www.20minutos.es/nacional/pedro-sanchez-vivienda-sera-nuestra-gran-prioridad-hay-que-construir-mas-regular-contra-los-que-especulan_7065391_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:29.580Z"
-        },
-        {
-          "title": "El 29-N o la ultima bala antes del rencor",
-          "url": "https://www.elmundo.es/espana/2026/11/24/6b05e618fc6c830d1b8b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:49.107Z"
-        },
-        {
-          "title": "Aagesen exigio cambiar el acta clave del rescate de Air Europa para salvar su responsabilidad personal",
-          "url": "https://www.elmundo.es/espana/2026/11/25/6b05e280fc6c83fd3a8b457b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:49.107Z"
-        },
-        {
-          "title": "El 'cachorro' de ETA que ejecuto con su escopeta de caza a dos ertzainas en Itsasondo cumple su condena tras 25 anos en prision",
-          "url": "https://www.elmundo.es/pais-vasco/2026/11/24/6b05c120e85eceb4668b456d.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:49.106Z"
-        },
-        {
-          "title": "Miriam Gonzalez, la candidata que quiere romper el \"divorcio nacional\" entre politicos y ciudadanos",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b05efa6e85ece4a2e8b4574.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:49.105Z"
-        },
-        {
-          "title": "La foto de la reunificacion de la derecha navarra para derrotar la corrupcion del PSOE y el \"binomio con Bildu\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b05d77bfdddfff75d8b4589.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:49.105Z"
-        },
-        {
-          "title": "Kilmar Abrego, el salvadoreno que se enfrento a Trump para no ser deportado a las carceles de Bukele y se convirtio en un simbolo, tira la toalla y se va a Espana",
-          "url": "https://www.elmundo.es/internacional/2026/11/25/6b061c55fdddff330d8b4595.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.312Z"
-        },
-        {
-          "title": "Maria Corina Machado: \"La verdad de los negocios oscuros del chavismo con Espana se sabra y sera peor\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b05e07ae85ecea73c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.312Z"
-        },
-        {
-          "title": "Guerras interconectadas y costes al alza: la guerra de Ucrania agita el Mediterraneo",
-          "url": "https://www.elmundo.es/internacional/2026/11/23/6b04850bfdddffd4538b457f.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
-        },
-        {
-          "title": "Abelardo de la Espriella, ante el ultimo atentado en Colombia: \"Juro que se lo hare pagar a los narcoterroristas\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b056607e4d4d84c4c8b4598.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
-        },
-        {
-          "title": "El Ejercito israeli mata al jefe de seguridad interna de Hamas en Gaza",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b058471e4d4d82d0c8b4583.html?intcmp=masnoticiasportada",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
-        },
-        {
-          "title": "Malestar en el gabinete de Burnham ante su promesa de un nuevo referendum sobre el Brexit",
-          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05a432e4d4d8251d8b456e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
-        },
-        {
-          "title": "Narva, de ciudad puente con Rusia a callejon sin salida: \"Poco a poco, la guerra ha llegado a nuestra puerta\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05d8d5e85eced2248b4577.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.310Z"
-        },
-        {
-          "title": "El rival de Hernandez de Cos por la presidencia del BCE lleva el pulso hasta el final a pesar de sus escasas opciones: \"Pablo es brillante\"",
-          "url": "https://www.elmundo.es/economia/2026/11/25/6b05b6a7e4d4d8064a8b45a1.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.559Z"
-        },
-        {
-          "title": "Aagesen exigio cambiar el acta clave del rescate de Air Europa para salvar su responsabilidad personal",
-          "url": "https://www.elmundo.es/espana/2026/11/25/6b05e280fc6c83fd3a8b457b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.559Z"
-        },
-        {
-          "title": "La decada del prodigioso hundimiento de las 'izquierdas Podemos': mil guerras y sin proyecto nacional hasta la puntilla de Sanchez",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05bd62fdddffba288b45a1.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "El 29-N o la ultima bala antes del rencor",
-          "url": "https://www.elmundo.es/espana/2026/11/24/6b05e618fc6c830d1b8b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "Maria Corina Machado: \"La verdad de los negocios oscuros del chavismo con Espana se sabra y sera peor\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b05e07ae85ecea73c8b45a0.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "La 'traca final' de decretos electorales de Sanchez dispara a casi 22.000 millones la factura extra para el proximo Gobierno",
-          "url": "https://www.elmundo.es/economia/2026/11/24/6b058154fc6c835c2b8b4589.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "El plan con el que suena Sanchez el 29-N: 135 diputados y sumar con sus socios tras impulsar una bateria de medidas \"para el conjunto de la ciudadania\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05ea1d21efa03e588b4576.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "El caos del voto de los nacionalizados por la ley de nietos enfrenta al Gobierno y el PP",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/25/caos-voto-nacionalizados-ley-nietos-enfrenta-gobierno-pp/0003_202611G25P2993.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-25T05:04:42.906Z"
-        },
-        {
-          "title": "Mas alla de la regularizacion: el reto intercultural de la migracion en Espana",
-          "url": "https://www.elespanol.com/enclave-ods/20261117/alla-regularizacion-reto-intercultural-migracion-espana/1003744459653_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:04:02.506Z"
-        },
-        {
-          "title": "Sanchez no podria aprobar sus medidas electoralistas en otro pais: las limitan durante la campana por ley o costumbre",
-          "url": "https://www.elespanol.com/mundo/europa/20261125/sanchez-no-podria-aprobar-medidas-electoralistas-pais-limitan-campana-ley-costumbre/1003744470337_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:59.933Z"
-        },
-        {
-          "title": "Hungria sella la reconciliacion con Ucrania en Transcarpatia: Zelenski y Magyar viajan juntos a la region de minoria hungara",
-          "url": "https://www.elespanol.com/mundo/europa/20261125/hungria-sella-reconciliacion-ucrania-transcarpatia-zelenski-magyar-viajan-juntos-region-minoria-hungara/1003744470799_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:58.510Z"
-        },
-        {
-          "title": "Republicanos y democratas acusan a Trump de ignorar la seguridad de EEUU al presionar a favor de Huang en Nvidia",
-          "url": "https://www.elespanol.com/mundo/america/eeuu/20261125/republicanos-democratas-acusan-trump-ignorar-seguridad-eeuu-presionar-favor-huang-nvidia/1003744470839_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:58.192Z"
-        },
-        {
-          "title": "Los jefes de la Guardia Civil que exoneraron a Rabat sobre Ceuta ante la juez se reunieron antes con cuatro mandos marroquies",
-          "url": "https://www.elespanol.com/espana/20261125/jefes-guardia-civil-exoneraron-rabat-ceuta-juez-reunieron-mandos-marroquies/1003744469029_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:21.811Z"
-        },
-        {
-          "title": "\"Tanto como acordar importa cumplir\": la carta del PP a las victimas de Adamuz para unirse al pacto de Estado ferroviario",
-          "url": "https://www.elespanol.com/espana/politica/20261125/acordar-importa-cumplir-carta-pp-victimas-adamuz-unirse-pacto-ferroviario/1003744469956_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:21.501Z"
-        },
-        {
-          "title": "Sanchez ha aprobado 14 decretos ley desde que disolvio las Cortes, record absoluto de cualquier gobierno desde 1978",
-          "url": "https://www.elespanol.com/espana/politica/20261125/sanchez-aprobado-decretos-ley-disolvio-cortes-record-absoluto-cualquier-gobierno/1003744470336_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:20.455Z"
-        },
-        {
-          "title": "El Hierro como Lampedusa y Lesbos: en 24 dias han llegado 15.025 migrantes, 3.000 mas que habitantes tiene la isla",
-          "url": "https://www.elespanol.com/espana/politica/20261125/hierro-lampedusa-lesbos-dias-llegado-migrantes-habitantes-isla/1003744470479_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:19.980Z"
-        },
-        {
-          "title": "Un delfin muerto y captura de moluscos casi extintos: Ceuta informa a la juez de danos a su fauna protegida tras la invasion",
-          "url": "https://www.elespanol.com/espana/tribunales/20261125/delfin-muerto-captura-moluscos-extintos-ceuta-informa-juez-danos-fauna-protegida-invasion/1003744470685_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:18.911Z"
-        },
-        {
-          "title": "La carambola para que Sanchez gane: participacion del 75%, los indecisos de izquierda con el PSOE y los de derecha en casa",
-          "url": "https://www.elespanol.com/espana/politica/20261125/carambola-sanchez-gane-participacion-indecisos-izquierda-psoe-derecha-casa/1003744470778_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:17.478Z"
-        },
-        {
-          "title": "El cementerio de cayucos reune ya mas de 80 embarcaciones en Frontera: \"Antes se trituraban, pero no damos abasto\"",
-          "url": "https://www.elespanol.com/espana/politica/20261125/cementerio-cayucos-reune-embarcaciones-frontera-trituraban-no-damos-abasto/1003744470835_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:16.020Z"
-        },
-        {
-          "title": "Los negocios de Bono y su duelo con Gonzalez complican el plan de Sanchez de recuperar a los socialistas desencantados",
-          "url": "https://www.elespanol.com/espana/politica/20261125/negocios-bono-duelo-gonzalez-complican-plan-sanchez-recuperar-socialistas-desencantados/1003744471002_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:15.621Z"
-        },
-        {
-          "title": "\"Todo al rojo\": Sanchez pide no votar al Frente Amplio mientras sigue apropiandose de sus propuestas y hasta de su lema",
-          "url": "https://www.elespanol.com/espana/politica/20261125/rojo-sanchez-pide-no-votar-frente-amplio-sigue-apropiandose-propuestas-lema/1003744471063_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:03:15.152Z"
-        },
-        {
-          "title": "Hungria sella la reconciliacion con Ucrania en Transcarpatia: Zelenski y Magyar viajan juntos a la region de minoria hungara",
-          "url": "https://www.elespanol.com/mundo/europa/20261125/hungria-sella-reconciliacion-ucrania-transcarpatia-zelenski-magyar-viajan-juntos-region-minoria-hungara/1003744470799_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:49.664Z"
-        },
-        {
-          "title": "David, el prodigio de 22 anos experto en IA al que Feijoo ha confiado calcular cuanto te ha costado Sanchez desde 2018",
-          "url": "https://www.elespanol.com/castilla-y-leon/region/20261125/david-prodigio-anos-experto-ia-feijoo-confiado-calcular-costado-sanchez-dl/1003744470314_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:47.717Z"
-        },
-        {
-          "title": "El caos en el voto exterior y el coladero de la 'ley de nietos' \"inquietan\" a Feijoo: urnas de carton y falta de papeletas",
-          "url": "https://www.elespanol.com/reportajes/20261125/caos-voto-exterior-coladero-ley-nietos-inquietan-feijoo-urnas-carton-falta-papeletas/1003744471055_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:46.907Z"
-        },
-        {
-          "title": "Trump, tras la derrota electoral: ?\"pato cojo\" o \"pato cabreado\"?",
-          "url": "https://www.elespanol.com/opinion/columnas/20261125/trump-derrota-electoral-pato-cojo-cabreado/1003744470594_12.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:45.921Z"
-        },
-        {
-          "title": "El BOE no es ni puede ser el promotor inmobiliario que necesita Espana",
-          "url": "https://www.elespanol.com/opinion/tribunas/20261125/boe-no-puede-promotor-inmobiliario-necesita-espana/1003744470561_12.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:44.567Z"
-        },
-        {
-          "title": "\"Tanto como acordar importa cumplir\": la carta del PP a las victimas de Adamuz para unirse al pacto de Estado ferroviario",
-          "url": "https://www.elespanol.com/espana/politica/20261125/acordar-importa-cumplir-carta-pp-victimas-adamuz-unirse-pacto-ferroviario/1003744469956_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:39.376Z"
-        },
-        {
-          "title": "Vox cita en Valencia a cargos autonomicos y candidatos para llenar la Plaza de Toros en su cierre de campana",
-          "url": "https://www.elespanol.com/valencia/20261125/vox-cita-valencia-cargos-autonomicos-candidatos-llenar-plaza-toros-cierre-campana/1003744470948_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:37.952Z"
-        },
-        {
-          "title": "El Hierro como Lampedusa y Lesbos: en 24 dias han llegado 15.025 migrantes, 3.000 mas que habitantes tiene la isla",
-          "url": "https://www.elespanol.com/espana/politica/20261125/hierro-lampedusa-lesbos-dias-llegado-migrantes-habitantes-isla/1003744470479_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:34.935Z"
-        },
-        {
-          "title": "Los jefes de la Guardia Civil que exoneraron a Rabat sobre Ceuta ante la juez se reunieron antes con cuatro mandos marroquies",
-          "url": "https://www.elespanol.com/espana/20261125/jefes-guardia-civil-exoneraron-rabat-ceuta-juez-reunieron-mandos-marroquies/1003744469029_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:33.417Z"
-        },
-        {
-          "title": "Los negocios de Bono y su duelo con Gonzalez complican el plan de Sanchez de recuperar a los socialistas desencantados",
-          "url": "https://www.elespanol.com/espana/politica/20261125/negocios-bono-duelo-gonzalez-complican-plan-sanchez-recuperar-socialistas-desencantados/1003744471002_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:32.488Z"
-        }
-      ]
+      "news_count": 570
     },
     {
       "id": 201,
-      "title": "Nueva York",
+      "title": "Quedan",
       "source": "news_tags",
-      "volume": "198 artículos",
+      "volume": "339 artículos",
       "timeframe": "24h noticias",
-      "news_count": 198
+      "news_count": 339
     },
     {
-      "id": 202,
-      "title": "Portavoz",
-      "source": "news_tags",
-      "volume": "180 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 180
-    },
-    {
-      "id": 203,
-      "title": "Era",
-      "source": "news_tags",
-      "volume": "173 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 173
-    },
-    {
-      "id": 204,
-      "title": "Sánchez",
-      "source": "news_tags",
-      "volume": "109 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 109
-    },
-    {
-      "id": 205,
-      "title": "Dos",
-      "source": "news_tags",
-      "volume": "102 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 102
-    },
-    {
-      "id": 206,
-      "title": "Gobierno de Espana",
-      "source": "news_tags",
-      "volume": "97 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 97
-    },
-    {
-      "id": 207,
-      "title": "Psoe",
-      "source": "news_tags",
-      "volume": "82 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 82
-    },
-    {
-      "id": 208,
-      "title": "Les",
-      "source": "news_tags",
-      "volume": "74 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 74
-    },
-    {
-      "id": 209,
-      "title": "Xi Jinping",
-      "source": "news_tags",
-      "volume": "72 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 72
-    },
-    {
-      "id": 210,
-      "title": "Feijóo",
-      "source": "news_tags",
-      "volume": "69 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 69
-    },
-    {
-      "id": 211,
-      "title": "Espana-newsletter-destacada",
-      "source": "news_tags",
-      "volume": "68 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 68
-    },
-    {
-      "id": 212,
-      "title": "Elecciones",
-      "source": "news_tags",
-      "volume": "65 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 65
-    },
-    {
-      "id": 213,
-      "title": "Electoral",
-      "source": "news_tags",
-      "volume": "59 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 59
-    },
-    {
-      "id": 214,
-      "title": "29",
-      "source": "news_tags",
-      "volume": "55 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 55
-    },
-    {
-      "id": 215,
-      "title": "Nacional",
-      "source": "news_tags",
-      "volume": "54 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 54
-    },
-    {
-      "id": 216,
-      "title": "Río",
-      "source": "news_tags",
-      "volume": "52 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 52
-    },
-    {
-      "id": 217,
-      "title": "Partido Popular (pp)",
-      "source": "news_tags",
-      "volume": "50 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 50
-    },
-    {
-      "id": 218,
-      "title": "Frente Amplio",
-      "source": "news_tags",
-      "volume": "46 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 46
-    },
-    {
-      "id": 219,
-      "title": "Sobreseído",
-      "source": "news_tags",
-      "volume": "45 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 45
-    },
-    {
-      "id": 220,
-      "title": "Pedro Sánchez",
-      "source": "news_tags",
-      "volume": "42 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 42
-    },
-    {
-      "id": 221,
-      "title": "Votos",
-      "source": "news_tags",
-      "volume": "41 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 41
-    },
-    {
-      "id": 222,
-      "title": "Política",
-      "source": "news_tags",
-      "volume": "40 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 40
-    },
-    {
-      "id": 223,
-      "title": "Presidente",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 38
-    },
-    {
-      "id": 224,
-      "title": "Directo",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 225,
-      "title": "Mujeres",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 31
-    },
-    {
-      "id": 226,
-      "title": "Ministros",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 227,
-      "title": "Ley de Nietos",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 7,
-      "title": "Bruselas",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 23 h (24h)",
-      "news_count": 28,
+      "id": 112,
+      "title": "El Gobierno",
+      "source": "x_trends",
+      "volume": "3.4MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 293,
       "matched_articles": [
+        {
+          "title": "Medios afines a los huties acusan a Arabia Saudi de atacar el aeropuerto de Hudeida tras dar la orden de evacuacion",
+          "url": "https://www.20minutos.es/internacional/medios-afines-los-huties-acusan-arabia-saudi-atacar-aeropuerto-hudeida-tras-dar-orden-evacuacion_7065423_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:56:20.157Z"
+        },
+        {
+          "title": "El salvadoreno Kilmar Abrego decide abandonar EEUU tras enfrentarse a la Administracion Trump y se dirige a Espana",
+          "url": "https://www.20minutos.es/internacional/salvadoreno-kilmar-abrego-decide-abandonar-eeuu-tras-enfrentarse-administracion-trump-se-dirige-espana_7065428_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:56:19.521Z"
+        },
+        {
+          "title": "Rescatados todos los rehenes del supermercado de Colombia tras una operacion que deja un secuestrador muerto",
+          "url": "https://www.20minutos.es/internacional/rescatados-todos-los-rehenes-supermercado-colombia-tras-una-operacion-que-deja-un-secuestrador-muerto_7065325_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:56:17.316Z"
+        },
+        {
+          "title": "Kilmar Abrego, el salvadoreno deportado por EEUU, llega a Madrid tras su batalla legal con la Administracion Trump",
+          "url": "https://www.20minutos.es/internacional/kilmar-abrego-salvadoreno-deportado-por-eeuu-llega-madrid-tras-su-batalla-legal-con-administracion-trump_7065621_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:56:13.504Z"
+        },
+        {
+          "title": "La Policia exige pulseras antimaltrato fiables, mas agentes para atender a victimas y duda de la \"eficacia\" de las politicas del Gobierno",
+          "url": "https://www.20minutos.es/nacional/policia-exige-pulseras-antimaltrato-fiables-mas-agentes-para-atender-victimas-critica-eficacia-las-politicas-gobierno_7065514_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:50.299Z"
+        },
+        {
+          "title": "La patronal del vapeo critica la prohibicion del Gobierno: \"Podria favorecer la vuelta al cigarrillo\"",
+          "url": "https://www.20minutos.es/nacional/patronal-vapeo-critica-prohibicion-gobierno-podria-favorecer-vuelta-cigarrillo_7065541_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:47.467Z"
+        },
+        {
+          "title": "Casi la mitad de las promesas electorales de los candidatos nunca se habian propuesto para ser debatidas en el Congreso",
+          "url": "https://www.20minutos.es/nacional/casi-mitad-las-promesas-electorales-los-candidatos-nunca-se-habian-propuesto-para-ser-debatidas-congreso_7065526_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:46.468Z"
+        },
+        {
+          "title": "Esta es la unica gran ciudad de Espana que siempre ha votado al partido ganador en las elecciones generales desde 1977",
+          "url": "https://www.20minutos.es/nacional/unica-gran-ciudad-espana-siempre-votado-partido-ganador-elecciones-generales-desde-1977_7065490_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:45.304Z"
+        },
+        {
+          "title": "Puigdemont volvera el 12 de diciembre y celebra la amnistia: \"Espana ha fracasado, retornare sin pedir permiso ni perdon\"",
+          "url": "https://www.20minutos.es/nacional/puigdemont-volvera-espana-12-diciembre-celebra-aministia-esta-es-derrota-represion_7065451_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:44.829Z"
+        },
+        {
+          "title": "Una jueza abre causa por irregularidades de Leire Diez y Juanma Serrano en Correos y les cita a declarar por cuatro delitos",
+          "url": "https://www.20minutos.es/nacional/una-jueza-abre-causa-por-irregularidades-leire-diez-juanma-serrano-correos-les-cita-declarar-por-cuatro-delitos_7065571_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:43.991Z"
+        },
+        {
+          "title": "Lo mas dificil de la campana",
+          "url": "https://www.20minutos.es/nacional/mas-dificil-campana_7065575_3.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:42.724Z"
+        },
+        {
+          "title": "Resultados de las elecciones generales de 2023 calle por calle: consulta a quien voto tu vecino el 23-J",
+          "url": "https://www.20minutos.es/nacional/resultados-las-elecciones-calle-por-calle-consulta-quien-ha-votado-tu-vecino-23-j_5158837_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:41.570Z"
+        },
+        {
+          "title": "La semana decisiva",
+          "url": "https://www.20minutos.es/nacional/semana-decisiva_7065622_3.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:40.957Z"
+        },
+        {
+          "title": "Colau atribuye a la presion de Frente y de las movilizaciones que el PSOE \"se haya visto obligado\" a impulsar medidas de vivienda",
+          "url": "https://www.20minutos.es/nacional/colau-atribuye-presion-frente-las-movilizaciones-que-psoe-se-haya-visto-obligado-impulsar-medidas-vivienda_7065481_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:40.059Z"
+        },
+        {
+          "title": "Los centros de datos recurren en el Supremo y solicitan la suspension del decreto que los regula con criterios energeticos que rechazan",
+          "url": "https://www.20minutos.es/nacional/los-centros-datos-recurren-supremo-solicitan-suspension-decreto-que-los-regula-con-criterios-energeticos-que-rechazan_7065579_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:38.540Z"
+        },
+        {
+          "title": "Jose Maria Figaredo (Vox): \"Es mentira que los espanoles no quieran trabajar en el campo, lo que no quieren son salarios de miseria\"",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/jose-maria-figaredo-vox-es-mentira-que-los-espanoles-no-quieran-trabajar-campo-que-no-quieren-son-salarios-miseria_7063336_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:31.287Z"
+        },
+        {
+          "title": "Sanchez circunscribe a un caso la corrupcion en su Gobierno: \"Abalos me ha hecho mucho dano\"",
+          "url": "https://www.lavanguardia.com/politica/20261125/11692920/sanchez-alerta-gobierno-pp-vox-esfumen-derechos-libertades.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:55:05.473Z"
+        },
+        {
+          "title": "El Gobierno de Ayuso recurrira al TC el decreto de vivienda por \"invadir competencias autonomicas\"",
+          "url": "https://www.lavanguardia.com/politica/20261125/11693119/gobierno-ayuso-recurrira-tc-decreto-vivienda-invadir-competencias-autonomicas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:55:02.951Z"
+        },
+        {
+          "title": "Montero acusa al Gobierno de relegar el feminismo en el 25N en favor del gasto militar",
+          "url": "https://www.lavanguardia.com/politica/20261125/11693136/montero-acusa-gobierno-relegar-feminismo-25n-favor-gasto-militar.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:55:02.271Z"
+        },
+        {
+          "title": "Sanchez circunscribe a un caso la corrupcion en su Gobierno: \"Abalos me ha hecho mucho dano\"",
+          "url": "https://www.lavanguardia.com/politica/20261125/11692920/sanchez-alerta-gobierno-pp-vox-esfumen-derechos-libertades.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:53:50.854Z"
+        },
+        {
+          "title": "Puigdemont volvera a Espana el 12 de diciembre tras la amnistia: \"El Estado ha fracasado, regresare a mi pais, a Cataluna, sin pedir perdon ni permiso\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06b417fc6c83ba038b458e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.321Z"
+        },
+        {
+          "title": "La Audiencia Nacional revoca el tercer grado al etarra Henri Parot y plantea una reforma legal para que las victimas puedan recurrir",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06cf7a21efa0f96d8b457e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.321Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, ultima hora en directo | Cristian Toro (Vox): \"No tiene que decirme nadie como defender a una mujer\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b067d8fd4582356192edfc7-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.320Z"
+        },
+        {
+          "title": "Clavijo pide el apoyo de la UME y una reunion urgente con Ursula von der Leyen para atender una crisis migratoria \"sin precedentes\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b0702d1e9cf4a2c308b4584.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.320Z"
+        },
+        {
+          "title": "El Gobierno eleva a 6 anos la duracion de la carrera de Veterinaria porque 5 anos \"ya no son suficientes\" para adquirir el nivel exigido",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06fa36e85eced65b8b456f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.320Z"
+        },
+        {
+          "title": "El 'sprint' final de Miriam Gonzalez, la candidata que espera una sorpresa en las urnas: \"No me extrana que se haya producido un divorcio nacional entre politicos y ciudadanos\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b05efa6e85ece4a2e8b4574.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.318Z"
+        },
+        {
+          "title": "Una juez cita a declarar como imputados a Leire Diez y al ex presidente de Correos por fraude, prevaricacion, malversacion y trafico de influencias",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06dd84e85ece0e448b45af.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.318Z"
+        },
+        {
+          "title": "Sanchez cuestiona el \"excesivo celo\" de la \"vertiente conservadora\" del CGPJ con sus criticas a los jueces: \"No lo hace cuando esas expresiones vienen de la derecha\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b069124fdddffdf2f8b45b0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.316Z"
+        },
+        {
+          "title": "El abogado del migrante Kilmar Abrego a su llegada a Madrid: \"El Gobierno de Trump quiso deportarlo esposado en un avion a Liberia. El ahora decide su destino\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/25/6b06df0e21efa04d1e8b4581.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:09.141Z"
+        },
         {
           "title": "Malestar en el gabinete de Burnham ante su promesa de un nuevo referendum sobre el Brexit",
-          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05a432e4d4d8251d8b456e.html",
+          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05a432e4d4d8251d8b456e.html?intcmp=masnoticiasportada",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
+          "date": "2026-11-25T15:53:09.140Z"
         },
         {
-          "title": "Los vehiculos superan a las viviendas como el bien mas comprado para blanquear dinero en Espana",
-          "url": "https://www.elmundo.es/economia/2026/11/25/6b05b946e9cf4add278b45be.html",
+          "title": "Narva, de ciudad puente con Rusia a callejon sin salida: \"Poco a poco, la guerra ha llegado a nuestra puerta\"",
+          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05d8d5e85eced2248b4577.html?intcmp=masnoticiasportada",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.559Z"
+          "date": "2026-11-25T15:53:09.139Z"
         },
         {
-          "title": "El rival de Hernandez de Cos por la presidencia del BCE lleva el pulso hasta el final a pesar de sus escasas opciones: \"Pablo es brillante\"",
-          "url": "https://www.elmundo.es/economia/2026/11/25/6b05b6a7e4d4d8064a8b45a1.html",
+          "title": "Chen Jining, la caida de la ultima estrella politica de China",
+          "url": "https://www.elmundo.es/internacional/2026/11/25/6b06a254fdddffec118b458c.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.559Z"
+          "date": "2026-11-25T15:53:09.139Z"
         },
         {
-          "title": "Espana es un pais envidiable, pero tiene una ambicion de canton suizo",
-          "url": "https://www.elespanol.com/opinion/tribunas/20261125/espana-pais-envidiable-ambicion-canton-suizo/1003744470710_12.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:44.203Z"
-        },
-        {
-          "title": "La manta zamorana de Sanchez: busca el voto moderado pidiendoselo a la extrema izquierda",
-          "url": "https://www.elespanol.com/opinion/editoriales/20261125/manta-zamorana-sanchez-busca-voto-moderado-pidiendoselo-extrema-izquierda/1003744470773_14.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:32.112Z"
-        },
-        {
-          "title": "El 'Black Friday' de Sanchez: la UE pide recortar 15.000M por exceso de gasto pero el anade 42.900 mas para comprar votos",
-          "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20261125/black-friday-sanchez-ue-pide-recortar-exceso-gasto-anade-comprar-votos/1003744470821_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:29.311Z"
-        },
-        {
-          "title": "Rutte visitara el miercoles a Trump en su residencia de Florida",
-          "url": "https://www.20minutos.es/internacional/rutte-visitara-miercoles-trump-su-residencia-florida_7065292_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:52.002Z"
-        },
-        {
-          "title": "Bruselas amenaza a Espana con un expediente por exceso de gasto en 2026 y la eleva al \"nivel critico\" por la alta tasa de pobreza",
-          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/bruselas-amenaza-espana-con-un-expediente-por-superar-techo-gasto-2026-eleva-nivel-critico-por-alta-tasa-pobreza_7064886_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:08.433Z"
-        },
-        {
-          "title": "Bruselas amenaza a Espana con un expediente por superar los limites de gasto",
-          "url": "https://www.lavanguardia.com/economia/20261124/11692173/bruselas-amenaza-espana-procedimiento-deficit-excesivo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-24T21:30:39.510Z"
-        },
-        {
-          "title": "Puigdemont volara el sabado 12D a Barcelona y se trasladara directamente al Parlament",
-          "url": "https://cronicaglobal.elespanol.com/politica/20261124/puigdemont-regresara-vuelo-barcelona-sarao-parlament/1003742814625_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T21:26:41.413Z"
-        },
-        {
-          "title": "Bruselas amenaza a Sanchez con un expediente sancionador por rebasar el techo de gasto pactado con la UE",
-          "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20261124/bruselas-amenaza-sanchez-expediente-sancionador-rebasar-techo-gasto-pactado-ue/1003744469849_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T21:26:37.429Z"
-        },
-        {
-          "title": "Bruselas amenaza con abrir expediente a Espana por superar el techo de gasto en 2026",
-          "url": "https://www.publico.es/internacional/bruselas-amenaza-abrir-expediente-espana-superar-techo-gasto-2026.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:26:07.230Z"
-        },
-        {
-          "title": "Que hay detras de las largas colas en los consulados: \"Han tratado de deslegitimizar el voto exterior y les ha salido el tiro por la culata\"",
-          "url": "https://www.publico.es/internacional/hay-detras-largas-colas-consulados-han-tratado-deslegitimizar-voto-exterior-salido-tiro-culata.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:26:05.300Z"
-        },
-        {
-          "title": "La insistencia de Paris y Berlin en la adhesion de Kiev a la OTAN y la escalada belica complican los planes de Trump",
-          "url": "https://www.publico.es/internacional/eeuu/insistencia-paris-berlin-adhesion-kiev-otan-escalada-belica-complican-planes-trump.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:26:04.805Z"
-        },
-        {
-          "title": "Bono emerge como apoyo a Sanchez de la vieja guardia socialista ante la ausencia de Zapatero",
-          "url": "https://www.publico.es/politica/partidos/bono-emerge-apoyo-sanchez-vieja-guardia-socialista-ausencia-zapatero.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:37.585Z"
-        },
-        {
-          "title": "Bono emerge como apoyo a Sanchez de la vieja guardia socialista ante la ausencia de Zapatero",
-          "url": "https://www.publico.es/politica/partidos/bono-emerge-apoyo-sanchez-vieja-guardia-socialista-ausencia-zapatero.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:07.592Z"
-        },
-        {
-          "title": "Ospina reactiva la diplomacia colombiana en Europa",
-          "url": "https://www.larazon.es/internacional/ospina-reactiva-diplomacia-colombiana-europa_202611246b05977cff6fec292199c279.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T21:24:38.477Z"
-        },
-        {
-          "title": "El cerebro economico de Sanchez reconoce al juez que no se valoro el conflicto por Begona Gomez en el rescate de Air Europa",
-          "url": "https://www.larazon.es/espana/cerebro-economico-sanchez-reconoce-juez-que-valoro-conflicto-begona-gomez-rescate-air-europa_202611246b05d73050b7057c6d1557d6.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T21:23:18.297Z"
-        },
-        {
-          "title": "Bruselas amenaza con sancionar a Espana por exceso de gasto publico en plena oleada de medidas electorales de Sanchez",
-          "url": "https://www.larazon.es/economia/bruselas-amenaza-sancionar-espana-exceso-gasto-publico-plena-oleada-medidas-electorales-sanchez_202611246b05a39f5cb1082f89b3c429.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T21:23:14.173Z"
-        },
-        {
-          "title": "La china BYD elige Francia en lugar de Espana para su nueva planta europea",
-          "url": "https://www.eldiario.es/motor/sector_y_mercado/china-byd-decanta-francia-lugar-espana-nueva-planta-europea_1_13689822.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:21:01.063Z"
-        },
-        {
-          "title": "La Comision Europea advierte a Espana por riesgo de deficit excesivo en 2026 y 2027",
-          "url": "https://www.eldiario.es/economia/comision-europea-advierte-espana-riesgo-deficit-excesivo-2026-2027_1_13688720.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:20:47.141Z"
-        },
-        {
-          "title": "La UE impondra restricciones a la importacion de coches hibridos durante seis meses a partir del 1 de diciembre",
-          "url": "https://www.20minutos.es/internacional/ue-impondra-restricciones-importacion-coches-hibridos-durante-seis-meses-partir-1-diciembre_7065015_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:47.365Z"
-        },
-        {
-          "title": "Irene Montero: \"Frente Amplio y el PSOE no solo tienen cercania, tambien la misma lectura de Gobierno\"",
-          "url": "https://www.20minutos.es/nacional/irene-montero-frente-amplio-psoe-no-solo-tienen-cercania-tambien-misma-lectura-gobierno_7062742_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:23.901Z"
-        },
-        {
-          "title": "Puigdemont anuncia su inminente vuelta a Espana con la foto de un bucolico paisaje invernal en Belgica: \"Empiezo la cuenta atras\"",
-          "url": "https://www.20minutos.es/nacional/puigdemont-anuncia-su-inminente-vuelta-espana-empiezo-cuenta-atras-los-ultimos-dias-exilio_7064975_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:15.803Z"
-        },
-        {
-          "title": "Irene Montero: \"Frente Amplio y el PSOE no solo tienen cercania, tambien la misma lectura de Gobierno\"",
-          "url": "https://www.20minutos.es/nacional/irene-montero-frente-amplio-psoe-no-solo-tienen-cercania-tambien-misma-lectura-gobierno_7062742_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:08.134Z"
-        },
-        {
-          "title": "Bruselas fija un tope a la llegada de coches hibridos chinos y \"no permitira\" superarlo",
-          "url": "https://www.lavanguardia.com/economia/20261124/11691980/bruselas-tope-limite-importacion-hibridos-china.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-24T11:13:51.884Z"
-        },
-        {
-          "title": "El PP denuncia a Exteriores por falta de papeletas en los consulados mientras crece la participacion gracias al coladero de la 'ley de nietos'",
-          "url": "https://www.elespanol.com/espana/politica/20261124/pp-denuncia-exteriores-junta-electoral-falta-papeletas-incumplimiento-horarios-consulados/1003744469279_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:10:41.417Z"
-        },
-        {
-          "title": "El PP denuncia a Exteriores por falta de papeletas en los consulados mientras crece la participacion gracias al coladero de la 'ley de nietos'",
-          "url": "https://www.elespanol.com/espana/politica/20261124/pp-denuncia-exteriores-junta-electoral-falta-papeletas-incumplimiento-horarios-consulados/1003744469279_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:09:50.434Z"
-        }
-      ]
-    },
-    {
-      "id": 228,
-      "title": "Ice",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 229,
-      "title": "Horas",
-      "source": "news_tags",
-      "volume": "27 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 27
-    },
-    {
-      "id": 230,
-      "title": "Más",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 231,
-      "title": "Jueza",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 232,
-      "title": "000",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 233,
-      "title": "Pero",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 234,
-      "title": "Piden",
-      "source": "news_tags",
-      "volume": "25 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 25
-    },
-    {
-      "id": 235,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "24 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 24
-    },
-    {
-      "id": 236,
-      "title": "Nuevos",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 237,
-      "title": "Europa",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 238,
-      "title": "Supremo",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 239,
-      "title": "Intxaurrondo",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 240,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 241,
-      "title": "Estadounidense",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 242,
-      "title": "Violencia Sexual",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 243,
-      "title": "Erc-esquerra Republicana de Catalunya",
-      "source": "news_tags",
-      "volume": "21 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 21
-    },
-    {
-      "id": 115,
-      "title": "Venezuela",
-      "source": "x_trends",
-      "volume": "2.5MM tweets",
-      "timeframe": "24h trends",
-      "news_count": 20,
-      "matched_articles": [
-        {
-          "title": "Maria Corina Machado: \"La verdad de los negocios oscuros del chavismo con Espana se sabra y sera peor\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b05e07ae85ecea73c8b45a0.html",
+          "title": "\"Haced lo que os salga del co...\": el Consejo de Informativos de TVE denuncia el \"abuso de poder\" y las injerencias de su propia direccion tras una entrevista a Pedro Sanchez",
+          "url": "https://www.elmundo.es/television/2026/11/25/6b068e54e85eceaf0f8b45ab.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.312Z"
+          "date": "2026-11-25T15:52:48.545Z"
         },
         {
-          "title": "Abelardo de la Espriella, ante el ultimo atentado en Colombia: \"Juro que se lo hare pagar a los narcoterroristas\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b056607e4d4d84c4c8b4598.html?intcmp=masnoticiasportada",
+          "title": "EEUU anuncia nuevos aranceles a la UE, China o Japon tras una investigacion formal sobre presuntos subsidios y exceso de capacidad industrial",
+          "url": "https://www.elmundo.es/economia/2026/11/25/6b06ef89e4d4d8ad388b45b2.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
+          "date": "2026-11-25T15:52:48.544Z"
         },
         {
-          "title": "Maria Corina Machado: \"La verdad de los negocios oscuros del chavismo con Espana se sabra y sera peor\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b05e07ae85ecea73c8b45a0.html",
+          "title": "La Audiencia Nacional revoca el tercer grado al etarra Henri Parot y plantea una reforma legal para que las victimas puedan recurrir",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06cf7a21efa0f96d8b457e.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
+          "date": "2026-11-25T15:52:48.544Z"
         },
         {
-          "title": "Espana es un pais envidiable, pero tiene una ambicion de canton suizo",
-          "url": "https://www.elespanol.com/opinion/tribunas/20261125/espana-pais-envidiable-ambicion-canton-suizo/1003744470710_12.html",
+          "title": "?Adios al IVA trimestral? Las claves de la rebaja fiscal a los autonomos: que cambia, quien gana y quien se queda fuera",
+          "url": "https://www.elmundo.es/economia/2026/11/25/6b05c5ba21efa0d46b8b459c.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.543Z"
+        },
+        {
+          "title": "El legado de Sanchez al proximo Gobierno en Bruselas: un gasto publico \"disparado\", amenaza de expediente y una gestion fiscal sin presupuestos \"que no es la ideal\"",
+          "url": "https://www.elmundo.es/economia/2026/11/25/6b05af6de4d4d8a35c8b459a.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.543Z"
+        },
+        {
+          "title": "Puigdemont volvera a Espana el 12 de diciembre tras la amnistia: \"El Estado ha fracasado, regresare a mi pais, a Cataluna, sin pedir perdon ni permiso\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06b417fc6c83ba038b458e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.542Z"
+        },
+        {
+          "title": "Ley de nietos: urnas de carton, participacion masiva y muchas dudas",
+          "url": "https://www.elmundo.es/podcasts/el-mundo-al-dia/2026/11/25/6b05e783e4d4d8251d8b457c.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.542Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, ultima hora en directo | Cristian Toro (Vox): \"No tiene que decirme nadie como defender a una mujer\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b067d8fd4582356192edfc7-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.541Z"
+        },
+        {
+          "title": "Marruecos recibe al embajador de EEUU ante la ONU mientras los 'cascos azules' empiezan a abandonar el Sahara",
+          "url": "https://www.elespanol.com/mundo/africa/20261118/marruecos-recibe-embajador-eeuu-onu-cascos-azules-empiezan-abandonar-sahara/1003744461654_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-25T05:02:44.203Z"
+          "date": "2026-11-25T15:51:48.820Z"
         },
         {
-          "title": "Los votos de la ley de nietos incautados por el Supremo: \"Esta caja muestra la diferencia entre ciudadanos de primera y de segunda\"",
-          "url": "https://www.eldiario.es/internacional/argentina-ley-de-nietos-elecciones-generales_1_13689812.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-25T04:58:29.255Z"
-        },
-        {
-          "title": "Torrevieja y Benidorm son los municipios donde mas crece la poblacion mientras Coslada y Cadiz lideran los descensos",
-          "url": "https://www.20minutos.es/nacional/torrevieja-benidorm-son-los-municipios-donde-mas-crece-poblacion-mientras-coslada-cadiz-lideran-los-descensos_7065144_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:19.328Z"
-        },
-        {
-          "title": "Abelardo de la Espriella, ante el ultimo atentado en Colombia: \"Juro que se lo hare pagar a los narcoterroristas\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b056607e4d4d84c4c8b4598.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:54.670Z"
-        },
-        {
-          "title": "La participacion en los consulados se dispara con el coladero de la 'ley de nietos': urnas de carton y colas de horas",
-          "url": "https://www.elespanol.com/espana/politica/20261124/participacion-consulados-dispara-coladero-ley-nietos-urnas-carton-colas-horas/1003744469908_0.html",
+          "title": "EEUU carga contra Espana por permitir la entrada a Kilmar Abrego, el salvadoreno al que Trump deporto ilegalmente",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20261125/abrego-garcia-salvadoreno-deportado-trump-error-megacarcel-bukele-va-eeuu-rumbo-espana/1003744471122_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T21:27:28.680Z"
+          "date": "2026-11-25T15:51:27.054Z"
         },
         {
-          "title": "Espana supera los 10 millones de nacidos en el extranjero: Marruecos, Colombia y Rumania lideran el censo",
-          "url": "https://www.elespanol.com/reportajes/20261124/espana-supera-millones-nacidos-extranjero-marruecos-colombia-rumania-lideran-censo/1003744470703_0.html",
+          "title": "Mueren dos militares libios heridos en el ataque ucraniano a la corbeta rusa: \"Su sangre no quedara sin respuesta\"",
+          "url": "https://www.elespanol.com/mundo/africa/20261125/mueren-militares-libios-heridos-ataque-ucraniano-corbeta-rusa-sangre-no-quedara-sin-respuesta/1003744471144_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T21:26:49.601Z"
+          "date": "2026-11-25T15:51:26.295Z"
         },
         {
-          "title": "La participacion en los consulados se dispara con el coladero de la 'ley de nietos': urnas de carton y colas de horas",
-          "url": "https://www.elespanol.com/espana/politica/20261124/participacion-consulados-dispara-coladero-ley-nietos-urnas-carton-colas-horas/1003744469908_0.html",
+          "title": "La Administracion Trump anuncia una nueva tanda de aranceles para la UE, China y otros 12 socios comerciales",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20261125/administracion-trump-anuncia-nueva-tanda-aranceles-ue-china-socios-comerciales/1003744471916_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T21:26:38.786Z"
+          "date": "2026-11-25T15:51:25.236Z"
         },
         {
-          "title": "Que hay detras de las largas colas en los consulados: \"Han tratado de deslegitimizar el voto exterior y les ha salido el tiro por la culata\"",
-          "url": "https://www.publico.es/internacional/hay-detras-largas-colas-consulados-han-tratado-deslegitimizar-voto-exterior-salido-tiro-culata.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:26:05.300Z"
+          "title": "Torres Inclan, expresidente de Duro Felguera, esquiva la carcel al admitir que pago 80 millones en sobornos al chavismo",
+          "url": "https://www.elespanol.com/espana/tribunales/20261125/torres-inclan-expresidente-duro-felguera-esquiva-carcel-admitir-pago-millones-sobornos-chavismo/1003744470739_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:49.757Z"
         },
         {
-          "title": "La patronal carga contra el Gobierno por la ampliacion del permiso por fallecimiento: \"Cada dia mas cerca de la Venezuela chavista\"",
-          "url": "https://www.publico.es/politica/gobierno/patronal-carga-gobierno-ampliacion-permiso-fallecimiento-cada-dia-cerca-venezuela-chavista.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:45.984Z"
+          "title": "Leire Diez y el exjefe de gabinete de Sanchez, investigados por 4 delitos mas por supuestas irregularidades en Correos",
+          "url": "https://www.elespanol.com/espana/tribunales/20261125/leire-exjefe-gabinete-sanchez-investigados-delitos-supuestas-irregularidades-correos/1003744471232_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:49.188Z"
         },
         {
-          "title": "Entrevista a Luis Campos, candidato de Unidad del Pueblo Canario\"El Pacto Migratorio Europeo convierte a Canarias en una carcel a cielo abierto\"",
-          "url": "https://www.publico.es/politica/pacto-migratorio-europeo-convierte-canarias-carcel-cielo-abierto.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:40.426Z"
+          "title": "?Que pasara con la subida de sueldo de los funcionarios con las elecciones anticipadas por Pedro Sanchez?",
+          "url": "https://www.elespanol.com/espana/20261125/pasara-subida-sueldo-funcionarios-elecciones-anticipadas-pedro-sanchez/1003744409726_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:47.884Z"
         },
         {
-          "title": "La patronal se opone una vez mas a las medidas sociales del Gobierno y recurre al comodin de Venezuela",
-          "url": "https://www.publico.es/politica/patronal-opone-vez-medidas-sociales-gobierno-recurre-comodin-venezuela.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:39.748Z"
+          "title": "El nuevo registro horario y el Estatuto del Becario: asi quedan tras la convocatoria de elecciones el 29-N",
+          "url": "https://www.elespanol.com/espana/20261125/nuevo-registro-horario-estatuto-becario-quedan-convocatoria-elecciones/1003744411226_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:46.960Z"
         },
         {
-          "title": "La patronal carga contra el nuevo permiso por duelo de diez dias y las redes les retratan: \"Si por ellos fuera, despues del entierro al curro\"",
-          "url": "https://www.publico.es/tremending/patronal-carga-nuevo-permiso-duelo-diez-dias-redes-retratan-fuera-despues-entierro-curro.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:11.187Z"
-        },
-        {
-          "title": "Todas las claves de los nuevos permisos de duelo y de nacimiento: ?cuanto se amplian y quien los retribuye?",
-          "url": "https://www.eldiario.es/economia/claves-nuevos-permisos-duelo-nacimiento-amplian-retribuye_1_13688753.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:20:38.034Z"
-        },
-        {
-          "title": "Maduro cumple 64 anos en una carcel de Nueva York y el chavismo lo celebra sin grandes actos",
-          "url": "https://www.20minutos.es/internacional/maduro-cumple-64-anos-una-carcel-nueva-york-chavismo-celebra-sin-grandes-actos_7064866_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:52.471Z"
-        },
-        {
-          "title": "Maduro cumple 64 anos en su celda de Nueva York y con minima repercusion en Caracas",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b04e450e9cf4a60608b458e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:13:03.976Z"
-        },
-        {
-          "title": "Abelardo de la Espriella, ante el ultimo atentando en Colombia: \"Juro que se lo hare pagar a los narcoterroristas\"",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b056607e4d4d84c4c8b4598.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:13:03.974Z"
-        },
-        {
-          "title": "La aerolinea Plus Ultra cierra tras reconocer nuevas perdidas economicas",
-          "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/24/plus-ultra-cierra-tras-reconocer-nuevas-perdidas-economicas/0003_202611G24P19991.htm",
-          "newspaper": "La Voz De Galicia",
-          "date": "2026-11-24T11:12:10.420Z"
-        }
-      ]
-    },
-    {
-      "id": 244,
-      "title": "Diez",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 245,
-      "title": "Migración",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 246,
-      "title": "Consejo de Ministros",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 247,
-      "title": "Lista",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 248,
-      "title": "Ucrania",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 249,
-      "title": "Guerras",
-      "source": "news_tags",
-      "volume": "19 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 19
-    },
-    {
-      "id": 29,
-      "title": "Carles Puigdemont",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 14,
-      "matched_articles": [
-        {
-          "title": "Asi te hemos contado la ultima hora de la campana electoral del 29N, en directo",
-          "url": "https://www.publico.es/politica/ultima-hora-campana-electoral-29n-directo-6.html",
-          "newspaper": "Público",
-          "date": "2026-11-25T05:01:48.799Z"
+          "title": "Un Puigdemont triunfante proclama el \"fracaso\" de Espana y que volvera a Cataluna el 12-D \"sin pedir permiso ni perdon\"",
+          "url": "https://www.elespanol.com/espana/politica/20261125/puigdemont-triunfante-proclama-fracaso-espana-volvera-cataluna-sin-pedir-permiso-perdon/1003744471388_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:44.615Z"
         },
         {
           "title": "Elecciones generales 29-N, en directo | Resultados de encuestas, Pedro Sanchez y ultima hora de la campana de PP, PSOE, Vox y Frente Amplio",
-          "url": "https://www.elespanol.com/espana/20261124/elecciones-generales-directo-ganador-debate-encuestas-ultima-hora-pedro-sanchez-campana-pp-psoe-vox/1003744469486_10.html",
+          "url": "https://www.elespanol.com/espana/20261125/elecciones-generales-directo-resultados-encuestas-pedro-sanchez-ultima-hora-campana-electoral-pp-psoe-vox-frente-amplio-sondeos-partidos-voto-correo-2026/1003744471069_10.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T21:27:22.357Z"
-        },
-        {
-          "title": "Puigdemont volara el sabado 12D a Barcelona y se trasladara directamente al Parlament",
-          "url": "https://cronicaglobal.elespanol.com/politica/20261124/puigdemont-regresara-vuelo-barcelona-sarao-parlament/1003742814625_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T21:26:41.413Z"
-        },
-        {
-          "title": "Ultima hora de la campana electoral del 29N, en directo | Aznar sostiene que el 29N se decide si Espana se convierte en una \"confederacion de naciones\"",
-          "url": "https://www.publico.es/politica/ultima-hora-campana-electoral-29n-directo-6.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:49.818Z"
-        },
-        {
-          "title": "Josep Maria Jove y Lluis Salvado, los unicos cargos politicos del 1-O aun no amnistiados",
-          "url": "https://www.publico.es/politica/josep-maria-jove-lluis-salvado-unicos-cargos-politicos-1-aun-amnistiados.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:43.002Z"
-        },
-        {
-          "title": "Sanchez se compromete a blindar por ley que Espana no participe en ninguna \"guerra ilegal\" en un mitin multitudinario en Barcelona",
-          "url": "https://www.publico.es/politica/sanchez-compromete-blindar-ley-espana-participe-ninguna-guerra-ilegal-mitin-multitudinario-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:40.971Z"
-        },
-        {
-          "title": "Ultima hora de la campana electoral del 29N, en directo | Aznar sostiene que el 29N se decide si Espana se convierte en una \"confederacion de naciones\"",
-          "url": "https://www.publico.es/politica/ultima-hora-campana-electoral-29n-directo-6.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:11.712Z"
-        },
-        {
-          "title": "Sanchez se compromete a blindar por ley que Espana no participe en ninguna \"guerra ilegal\" en un mitin multitudinario en Barcelona",
-          "url": "https://www.publico.es/politica/sanchez-compromete-blindar-ley-espana-participe-ninguna-guerra-ilegal-mitin-multitudinario-barcelona.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:09.024Z"
-        },
-        {
-          "title": "Puigdemont anuncia su inminente vuelta a Espana con la foto de un bucolico paisaje invernal en Belgica: \"Empiezo la cuenta atras\"",
-          "url": "https://www.20minutos.es/nacional/puigdemont-anuncia-su-inminente-vuelta-espana-empiezo-cuenta-atras-los-ultimos-dias-exilio_7064975_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:15.803Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, ultima hora en directo | Ayuso defiende su ley del concebido no nacido y acusa a Sanchez de \"alimentar el odio\" con \"monsergas\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b052f2008df1ff64e1a0798-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:13:22.892Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, ultima hora en directo | Ayuso defiende su ley del concebido no nacido y acusa a Sanchez de \"alimentar el odio\" con \"monsergas\"",
-          "url": "https://www.elmundo.es/espana/2026/11/23/6b03de4208df1ff64eebd83b-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:12:45.249Z"
-        },
-        {
-          "title": "Sanchez ignora los sondeos y dice que si PP y Vox \"no suman mayoria absoluta no van a aceptar el resultado electoral\"",
-          "url": "https://www.elespanol.com/espana/politica/20261124/sanchez-ignora-sondeos-dice-pp-vox-no-suman-mayoria-absoluta-van-aceptar-resultado-electoral/1003744469635_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:10:38.676Z"
-        },
-        {
-          "title": "Sanchez ignora los sondeos y dice que si PP y Vox \"no suman mayoria absoluta no van a aceptar el resultado electoral\"",
-          "url": "https://www.elespanol.com/espana/politica/20261124/sanchez-ignora-sondeos-dice-pp-vox-no-suman-mayoria-absoluta-van-aceptar-resultado-electoral/1003744469635_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:09:52.380Z"
-        },
-        {
-          "title": "Santos Cerdan accedio a causas secretas contra el independentismo catalan",
-          "url": "https://www.larazon.es/espana/santos-cerdan-accedio-causas-secretas-contras-independentismo-catalan_202611246b04d393c0d5c85b96c5b28f.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T11:06:46.167Z"
+          "date": "2026-11-25T15:50:43.109Z"
         }
       ]
     },
     {
-      "id": 11,
-      "title": "Londres",
-      "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 8 h (24h)",
-      "news_count": 11,
+      "id": 125,
+      "title": "Les",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 188,
       "matched_articles": [
         {
-          "title": "El Partido Comunista chino purga a su jefe en Shanghai, considerado posible sucesor de Xi",
-          "url": "https://www.20minutos.es/internacional/partido-comunista-chino-purga-su-jefe-shanghai-considerado-posible-sucesor-xi_7065421_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:54.612Z"
+          "title": "Loles Leon apoya a Pedro Sanchez en Barcelona: \"Somos las abuelas de los 70 con las tetas bien puestas\"",
+          "url": "https://www.lavanguardia.com/politica/20261125/11692820/loles-leon-apoya-pedro-sanchez-barcelona-abuelas-70-tetas-puestas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:55:06.812Z"
         },
         {
-          "title": "Malestar en el gabinete de Burnham ante su promesa de un nuevo referendum sobre el Brexit",
-          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05a432e4d4d8251d8b456e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
-        },
-        {
-          "title": "La Policia de Londres detiene a mas de 260 personas e incauta 500 cuchillos en la 'Operacion Spectre'",
-          "url": "https://www.20minutos.es/internacional/policia-londres-detiene-mas-260-personas-incauta-500-cuchillos-operacion-spectre_7065151_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:56.641Z"
-        },
-        {
-          "title": "El 29-N en Asturias: todos contra el peaje, votantes en America y el escano que pelean los nietos de un minero y su patron",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b041392e9cf4a1c7d8b4571.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:30:13.264Z"
-        },
-        {
-          "title": "La euforia por las tecnologicas se evapora y regresa el miedo a la IA, arrastrando a Nvidia y Anthropic con caidas del 8%",
-          "url": "https://www.elmundo.es/economia/dinero-inversion/2026/11/24/6b05d85be9cf4ad2508b4586.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:36.365Z"
-        },
-        {
-          "title": "La participacion en los consulados se dispara con el coladero de la 'ley de nietos': urnas de carton y colas de horas",
-          "url": "https://www.elespanol.com/espana/politica/20261124/participacion-consulados-dispara-coladero-ley-nietos-urnas-carton-colas-horas/1003744469908_0.html",
+          "title": "Juanma Moreno se dirige a las mujeres en el acto del 25N en Sevilla: \"Adelante, y sin miedo. Somos mas y somos mejores\"",
+          "url": "https://www.elespanol.com/espana/andalucia/20261125/juanma-moreno-dirige-mujeres-acto-sevilla-adelante-sin-miedo-mejores/1003744471351_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T21:27:28.680Z"
+          "date": "2026-11-25T15:50:45.486Z"
         },
         {
-          "title": "La participacion en los consulados se dispara con el coladero de la 'ley de nietos': urnas de carton y colas de horas",
-          "url": "https://www.elespanol.com/espana/politica/20261124/participacion-consulados-dispara-coladero-ley-nietos-urnas-carton-colas-horas/1003744469908_0.html",
+          "title": "La izquierda le hace el vacio a Juanma Moreno con los actos del 25-N en busca del voto femenino contra la \"involucion\"",
+          "url": "https://www.elespanol.com/espana/andalucia/20261125/izquierda-hace-vacio-juanma-moreno-actos-busca-voto-femenino-involucion/1003744471415_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T21:26:38.786Z"
+          "date": "2026-11-25T15:50:41.176Z"
         },
         {
-          "title": "Que hay detras de las largas colas en los consulados: \"Han tratado de deslegitimizar el voto exterior y les ha salido el tiro por la culata\"",
-          "url": "https://www.publico.es/internacional/hay-detras-largas-colas-consulados-han-tratado-deslegitimizar-voto-exterior-salido-tiro-culata.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:26:05.300Z"
+          "title": "Loles Leon advierte delante de Sanchez a Felipe Gonzalez: \"Le aconsejo que se muera antes de que yo lo cuente todo\"",
+          "url": "https://www.elespanol.com/espana/20261125/loles-leon-advierte-mitin-psoe-cataluna-felipe-gonzalez-aconsejo-muera-hable/1003744471656_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:39.723Z"
         },
         {
-          "title": "La insistencia de Paris y Berlin en la adhesion de Kiev a la OTAN y la escalada belica complican los planes de Trump",
-          "url": "https://www.publico.es/internacional/eeuu/insistencia-paris-berlin-adhesion-kiev-otan-escalada-belica-complican-planes-trump.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:26:04.805Z"
+          "title": "Loles Leon advierte delante de Sanchez a Felipe Gonzalez: \"Le aconsejo que se muera antes de que yo lo cuente todo\"",
+          "url": "https://www.elespanol.com/espana/20261125/loles-leon-advierte-mitin-psoe-cataluna-felipe-gonzalez-aconsejo-muera-hable/1003744471656_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:49:56.705Z"
         },
-        {
-          "title": "Revelan nuevos detalles de como China ha podido utilizar falsas ofertas de empleo para espiar a Estados Unidos",
-          "url": "https://www.20minutos.es/internacional/revelan-nuevos-detalles-como-china-ha-podido-utilizar-falsas-ofertas-empleo-para-espiar-estados-unidos_7064625_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:53.306Z"
-        },
-        {
-          "title": "Un buque chileno viajara a las Islas Malvinas sin pedir autorizacion a la Argentina: el reclamo de Cancilleria",
-          "url": "https://www.eldiarioar.com/politica/buque-chileno-viajara-islas-malvinas-pedir-autorizacion-argentina-reclamo-cancilleria_1_13688197.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T11:05:49.206Z"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Loles Leon",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 10,
-      "matched_articles": [
         {
           "title": "Sanchez promete cambiar la Ley de Defensa Nacional para prohibir entrar en \"guerras ilegales\" como Irak e Iran",
           "url": "https://www.20minutos.es/nacional/sanchez-promete-cambiar-ley-defensa-nacional-para-prohibir-entrar-guerras-ilegales-como-irak-iran_7065406_0.html",
@@ -1238,87 +406,339 @@
         }
       ],
       "merged_sources": [
-        "x_trends",
-        "google"
+        "news_tags",
+        "x_trends"
       ]
     },
     {
-      "id": 26,
-      "title": "Cayetana Álvarez de Toledo",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 9,
-      "matched_articles": [
-        {
-          "title": "No queremos vivir 'El cuento de la criada'",
-          "url": "https://www.publico.es/opinion/columnas/queremos-vivir-cuento-criada.html",
-          "newspaper": "Público",
-          "date": "2026-11-25T05:01:16.396Z"
-        },
-        {
-          "title": "El piso de Jesica Rodriguez y el parador de Teruel: el PP hara una ruta el 25N por los lugares de \"degradacion\" de Abalos",
-          "url": "https://www.20minutos.es/nacional/piso-jesica-rodriguez-parador-teruel-pp-hara-una-ruta-25n-por-los-lugares-degradacion-abalos_7065295_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:20.060Z"
-        },
-        {
-          "title": "Juanma Moreno: \"Espana no puede ser la Calabria de los anos ochenta\"",
-          "url": "https://www.elespanol.com/espana/andalucia/20261124/juanma-moreno-espana-no-puede-calabria-anos-ochenta/1003744471011_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T21:27:20.540Z"
-        },
-        {
-          "title": "Feijoo siembra dudas sobre un fraude electoral sin aportar ningun tipo de prueba",
-          "url": "https://www.publico.es/politica/feijoo-siembra-dudas-sobre-fraude-electoral-aportar-tipo-prueba.html",
-          "newspaper": "Público",
-          "date": "2026-11-24T21:25:38.609Z"
-        },
-        {
-          "title": "El bipartidismo apela al \"voto util\" en la recta final de la campana entre criticas de Vox, Frente Amplio y Podemos",
-          "url": "https://www.20minutos.es/nacional/bipartidismo-apela-voto-util-recta-final-campana-entre-criticas-vox-frente-amplio-podemos_7064736_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:23.056Z"
-        },
-        {
-          "title": "El bipartidismo apela al \"voto util\" en la recta final de la campana entre criticas de Vox, Frente Amplio y Podemos",
-          "url": "https://www.20minutos.es/nacional/bipartidismo-apela-voto-util-recta-final-campana-entre-criticas-vox-frente-amplio-podemos_7064736_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:07.273Z"
-        },
-        {
-          "title": "Cayetana en estado puro: \"Votar al PSOE en estas elecciones es un acto de indecencia; es avalar cloacas, putas, joyas y mordidas\"",
-          "url": "https://www.elespanol.com/espana/politica/20261124/cayetana-puro-votar-psoe-elecciones-acto-indecencia-avalar-cloacas-putas-joyas-mordidas/1003744468730_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:10:44.320Z"
-        },
-        {
-          "title": "Cayetana en estado puro: \"Votar al PSOE en estas elecciones es un acto de indecencia; es avalar cloacas, putas, joyas y mordidas\"",
-          "url": "https://www.elespanol.com/espana/politica/20261124/cayetana-puro-votar-psoe-elecciones-acto-indecencia-avalar-cloacas-putas-joyas-mordidas/1003744468730_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:09:59.222Z"
-        },
-        {
-          "title": "Vox quiere que Pedro Sanchez sea <<el objetivo comun>> del debate a cuatro del jueves",
-          "url": "https://www.larazon.es/espana/vox-quiere-que-pedro-sanchez-sea-objetivo-comun-debate-cuatro-jueves_202611246b04987450b7057c6d149e0e.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T11:06:48.442Z"
-        }
-      ]
+      "id": 202,
+      "title": "Portavoz",
+      "source": "news_tags",
+      "volume": "188 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 188
     },
     {
-      "id": 31,
-      "title": "La Promesa",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 9,
+      "id": 204,
+      "title": "Nasa",
+      "source": "news_tags",
+      "volume": "168 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 168
+    },
+    {
+      "id": 205,
+      "title": "Sánchez",
+      "source": "news_tags",
+      "volume": "111 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 111
+    },
+    {
+      "id": 206,
+      "title": "Dos",
+      "source": "news_tags",
+      "volume": "99 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 99
+    },
+    {
+      "id": 207,
+      "title": "Gobierno de Espana",
+      "source": "news_tags",
+      "volume": "94 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 94
+    },
+    {
+      "id": 208,
+      "title": "Xi Jinping",
+      "source": "news_tags",
+      "volume": "90 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 90
+    },
+    {
+      "id": 209,
+      "title": "Psoe Toledo",
+      "source": "news_tags",
+      "volume": "79 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 79
+    },
+    {
+      "id": 210,
+      "title": "Elecciones en Espana",
+      "source": "news_tags",
+      "volume": "65 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 65
+    },
+    {
+      "id": 211,
+      "title": "Era",
+      "source": "news_tags",
+      "volume": "64 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 64
+    },
+    {
+      "id": 212,
+      "title": "Ere",
+      "source": "news_tags",
+      "volume": "64 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 64
+    },
+    {
+      "id": 213,
+      "title": "Feijóo",
+      "source": "news_tags",
+      "volume": "57 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 57
+    },
+    {
+      "id": 214,
+      "title": "Frente Amplio",
+      "source": "news_tags",
+      "volume": "55 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 55
+    },
+    {
+      "id": 215,
+      "title": "Política",
+      "source": "news_tags",
+      "volume": "54 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 54
+    },
+    {
+      "id": 216,
+      "title": "Espana-newsletter-destacada",
+      "source": "news_tags",
+      "volume": "53 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 53
+    },
+    {
+      "id": 217,
+      "title": "Sobre",
+      "source": "news_tags",
+      "volume": "49 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 49
+    },
+    {
+      "id": 218,
+      "title": "29",
+      "source": "news_tags",
+      "volume": "48 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 48
+    },
+    {
+      "id": 219,
+      "title": "Nacional",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 220,
+      "title": "Río",
+      "source": "news_tags",
+      "volume": "46 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 46
+    },
+    {
+      "id": 240,
+      "title": "Europa",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 45
+    },
+    {
+      "id": 221,
+      "title": "Partido Popular (pp)",
+      "source": "news_tags",
+      "volume": "44 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 44
+    },
+    {
+      "id": 222,
+      "title": "Electoral",
+      "source": "news_tags",
+      "volume": "39 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 39
+    },
+    {
+      "id": 223,
+      "title": "Presidente",
+      "source": "news_tags",
+      "volume": "38 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 38
+    },
+    {
+      "id": 224,
+      "title": "Votos",
+      "source": "news_tags",
+      "volume": "36 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 36
+    },
+    {
+      "id": 225,
+      "title": "Nuevos",
+      "source": "news_tags",
+      "volume": "36 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 36
+    },
+    {
+      "id": 226,
+      "title": "Pedro Sánchez",
+      "source": "news_tags",
+      "volume": "36 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 36
+    },
+    {
+      "id": 227,
+      "title": "Trump",
+      "source": "news_tags",
+      "volume": "35 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 35
+    },
+    {
+      "id": 122,
+      "title": "De Viernes",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 32,
       "matched_articles": [
         {
-          "title": "El Ejercito israeli mata al jefe de seguridad interna de Hamas en Gaza",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b058471e4d4d82d0c8b4583.html?intcmp=masnoticiasportada",
+          "title": "La Fundacion 26 de Diciembre acogera una jornada intergeneracional sobre \"Cartografias del Sexilio\"",
+          "url": "https://www.20minutos.es/nacional/blogs/1-de-cada10/fundacion-26-diciembre-acogera-una-jornada-intergeneracional-sobre-cartografias-sexilio_7065535_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:49.710Z"
+        },
+        {
+          "title": "Lo mas dificil de la campana",
+          "url": "https://www.20minutos.es/nacional/mas-dificil-campana_7065575_3.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:42.724Z"
+        },
+        {
+          "title": "Nieve, viento y olas ponen en aviso a 13 comunidades y las temperaturas se desploman en buena parte de Espana",
+          "url": "https://www.20minutos.es/nacional/nieve-viento-olas-ponen-aviso-13-comunidades-las-temperaturas-se-desploman-buena-parte-espana_7065591_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:42.239Z"
+        },
+        {
+          "title": "Los centros de datos recurren en el Supremo y solicitan la suspension del decreto que los regula con criterios energeticos que rechazan",
+          "url": "https://www.20minutos.es/nacional/los-centros-datos-recurren-supremo-solicitan-suspension-decreto-que-los-regula-con-criterios-energeticos-que-rechazan_7065579_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:38.540Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, ultima hora en directo | Cristian Toro (Vox): \"No tiene que decirme nadie como defender a una mujer\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b067d8fd4582356192edfc7-directo.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:32.311Z"
+          "date": "2026-11-25T15:53:29.320Z"
+        },
+        {
+          "title": "Sanchez cuestiona el \"excesivo celo\" de la \"vertiente conservadora\" del CGPJ con sus criticas a los jueces: \"No lo hace cuando esas expresiones vienen de la derecha\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b069124fdddffdf2f8b45b0.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.316Z"
+        },
+        {
+          "title": "El Ejercito de EEUU detona la reserva nacional de azida de plomo en Iowa pese al temor de que la nube toxica",
+          "url": "https://www.elmundo.es/internacional/2026/11/25/6b06fe32e9cf4a2a398b458e.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:09.141Z"
+        },
+        {
+          "title": "Malestar en el gabinete de Burnham ante su promesa de un nuevo referendum sobre el Brexit",
+          "url": "https://www.elmundo.es/internacional/2026/11/25/6b05a432e4d4d8251d8b456e.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:09.140Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, ultima hora en directo | Cristian Toro (Vox): \"No tiene que decirme nadie como defender a una mujer\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b067d8fd4582356192edfc7-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.541Z"
+        },
+        {
+          "title": "EEUU carga contra Espana por permitir la entrada a Kilmar Abrego, el salvadoreno al que Trump deporto ilegalmente",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20261125/abrego-garcia-salvadoreno-deportado-trump-error-megacarcel-bukele-va-eeuu-rumbo-espana/1003744471122_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:51:27.054Z"
+        },
+        {
+          "title": "La Audiencia Nacional revoca el tercer grado al exdirigente de ETA Henri Parot",
+          "url": "https://www.publico.es/politica/tribunales/audiencia-nacional-revoca-tercer-grado-exdirigente-eta-henri-parot.html",
+          "newspaper": "Público",
+          "date": "2026-11-25T15:48:47.805Z"
+        },
+        {
+          "title": "EE UU, en vilo ante una posible nube toxica: el Ejercito detona cinco toneladas de compuestos quimicos",
+          "url": "https://www.larazon.es/internacional/vilo-posible-nube-toxica-provocada-propio-ejercito-ventanas-selladas-evacuaciones_202611256b06f8e4ff6fec29219b1183.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T15:48:04.688Z"
+        },
+        {
+          "title": "Una golden retriever salva a una nina de dos anos que se estaba ahogando en una piscina en Brasil",
+          "url": "https://www.larazon.es/actualidad/golden-retriever-salva-nina-dos-anos-que-estaba-ahogando-piscina-brasil-b51m_202611256b06fdda5cb1082f89b50962.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T15:47:08.988Z"
+        },
+        {
+          "title": "EE UU, en vilo ante una posible nube toxica: el Ejercito detona cinco toneladas de compuestos quimicos",
+          "url": "https://www.larazon.es/internacional/vilo-posible-nube-toxica-provocada-propio-ejercito-ventanas-selladas-evacuaciones_202611256b06f8e4ff6fec29219b1183.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T15:47:06.082Z"
+        },
+        {
+          "title": "Los sindicatos asumen que el ERE de Plus Ultra sera extintivo: \"Esto no hay quien lo arregle\"",
+          "url": "https://www.larazon.es/economia/sindicatos-asumen-que-ere-plus-ultra-sera-extintivo-esto-hay-quien-arregle_202611256b06e16cc0d5c85b96c72deb.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T15:47:04.300Z"
+        },
+        {
+          "title": "El Ejercito de EEUU detona cinco toneladas de compuestos quimicos inestables en Iowa por riesgo de explosion espontanea",
+          "url": "https://www.eldiario.es/internacional/ejercito-eeuu-detona-cuatro-toneladas-compuestos-quimicos-inestables-iowa-riesgo-explosion-espontanea_1_13692986.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-25T15:45:49.432Z"
+        },
+        {
+          "title": "El Ejercito de EEUU detona cinco toneladas de compuestos quimicos inestables en Iowa por riesgo de explosion espontanea",
+          "url": "https://www.eldiario.es/internacional/ejercito-eeuu-detona-cuatro-toneladas-compuestos-quimicos-inestables-iowa-riesgo-explosion-espontanea_1_13692986.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-25T15:44:32.548Z"
+        },
+        {
+          "title": "Sanchez promete cambiar la Ley de Defensa Nacional para prohibir entrar en \"guerras ilegales\" como Irak e Iran",
+          "url": "https://www.20minutos.es/nacional/sanchez-promete-cambiar-ley-defensa-nacional-para-prohibir-entrar-guerras-ilegales-como-irak-iran_7065406_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T05:07:35.814Z"
+        },
+        {
+          "title": "El Black Friday y las elecciones",
+          "url": "https://www.20minutos.es/nacional/black-friday-las-elecciones-carmelo-encinas_7065401_3.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T05:07:29.126Z"
         },
         {
           "title": "Malestar en el gabinete de Burnham ante su promesa de un nuevo referendum sobre el Brexit",
@@ -1327,56 +747,486 @@
           "date": "2026-11-25T05:05:32.311Z"
         },
         {
-          "title": "\"Todo al rojo\": Sanchez pide no votar al Frente Amplio mientras sigue apropiandose de sus propuestas y hasta de su lema",
-          "url": "https://www.elespanol.com/espana/politica/20261125/rojo-sanchez-pide-no-votar-frente-amplio-sigue-apropiandose-propuestas-lema/1003744471063_0.html",
+          "title": "Vox cita en Valencia a cargos autonomicos y candidatos para llenar la Plaza de Toros en su cierre de campana",
+          "url": "https://www.elespanol.com/valencia/20261125/vox-cita-valencia-cargos-autonomicos-candidatos-llenar-plaza-toros-cierre-campana/1003744470948_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-25T05:03:15.152Z"
+          "date": "2026-11-25T05:02:37.952Z"
         },
         {
-          "title": "\"Todo al rojo\": Sanchez pide no votar al Frente Amplio mientras sigue apropiandose de sus propuestas y hasta de su lema",
-          "url": "https://www.elespanol.com/espana/politica/20261125/rojo-sanchez-pide-no-votar-frente-amplio-sigue-apropiandose-propuestas-lema/1003744471063_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:31.326Z"
+          "title": "Estefania de los Santos: \"No me fio de la gente que no va a votar\"",
+          "url": "https://www.publico.es/culturas/cine-tv/estefania-santos-me-fio-gente-votar.html",
+          "newspaper": "Público",
+          "date": "2026-11-25T05:01:23.098Z"
         },
         {
-          "title": "El Ejercito israeli mata al jefe de seguridad interna de Hamas en Gaza",
-          "url": "https://www.elmundo.es/internacional/2026/11/24/6b058471e4d4d82d0c8b4583.html",
+          "title": "Dos Hercules de Rabat aterrizaron a 35 kilometros de Melilla en plena crisis fronteriza",
+          "url": "https://www.larazon.es/espana/dos-hercules-rabat-aterrizaron-35-kilometros-melilla-plena-crisis-fronteriza_202611256b05c09150b7057c6d1549a8.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T04:59:37.369Z"
+        },
+        {
+          "title": "La batalla definitiva del 29N se centra en Cadiz, Malaga y Sevilla",
+          "url": "https://www.larazon.es/andalucia/batalla-definitiva-29n-centra-cadiz-malaga-sevilla_202611256b0648b850b7057c6d15942a.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T04:59:35.692Z"
+        },
+        {
+          "title": "Interior anuncia un despliegue record de efectivos de seguridad para el 29N, con mas de 100.700 agentes en toda Espana",
+          "url": "https://www.20minutos.es/nacional/interior-anuncia-un-despliegue-record-efectivos-seguridad-para-29n-con-mas-100-700-agentes-toda-espana_7065116_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-24T21:32:25.932Z"
+        },
+        {
+          "title": "La Generalitat y el Gobierno activan una ofensiva diplomatica para liberar al catalan detenido por el ICE en EEUU",
+          "url": "https://www.elmundo.es/cataluna/2026/11/24/6b054813fc6c831d0e8b45a3.html?intcmp=masnoticiasportada",
           "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:54.669Z"
+          "date": "2026-11-24T21:30:13.263Z"
         },
         {
-          "title": "Elecciones generales del 29-N, ultima hora en directo | Ayuso defiende su ley del concebido no nacido y acusa a Sanchez de \"alimentar el odio\" con \"monsergas\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b052f2008df1ff64e1a0798-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:13:22.892Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, ultima hora en directo | Ayuso defiende su ley del concebido no nacido y acusa a Sanchez de \"alimentar el odio\" con \"monsergas\"",
-          "url": "https://www.elmundo.es/espana/2026/11/23/6b03de4208df1ff64eebd83b-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:12:45.249Z"
-        },
-        {
-          "title": "Miras critica a \"Zapatero el joyero\" por derogar el plan nacional del agua del PP: \"De las mayores traiciones del PSOE\"",
-          "url": "https://www.elespanol.com/espana/murcia/20261124/miras-critica-zapatero-joyero-derogo-plan-hidrologico-nacional-pp-mayores-traiciones-psoe/1003744469814_0.html",
+          "title": "Condenan a un ano de prision a un abogado por calumniar a la jueza victima del bulo del Bar Espana",
+          "url": "https://www.elespanol.com/espana/comunidad-valenciana/20261124/juez-impone-ano-prision-abogado-calumniar-jueza-victima-bulo-bar-espana/1003744470018_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T11:10:33.214Z"
+          "date": "2026-11-24T21:27:29.531Z"
         },
         {
-          "title": "Defensa para Felipe VI y cultura y compromiso social para dona Letizia: que hace la Familia Real durante la campana electoral",
-          "url": "https://www.elespanol.com/reportajes/20261124/defensa-felipe-vi-cultura-compromiso-social-dona-letizia-hace-familia-real-campana-electoral/1003744469290_0.html",
+          "title": "Puigdemont volara el sabado 12D a Barcelona y se trasladara directamente al Parlament",
+          "url": "https://cronicaglobal.elespanol.com/politica/20261124/puigdemont-regresara-vuelo-barcelona-sarao-parlament/1003742814625_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-24T11:09:53.416Z"
+          "date": "2026-11-24T21:26:41.413Z"
+        },
+        {
+          "title": "?Que dice la encuesta secreta sobre el 29N que se publica en Australia?",
+          "url": "https://www.publico.es/politica/dice-encuesta-secreta-sobre-29n-publica-australia.html",
+          "newspaper": "Público",
+          "date": "2026-11-24T21:25:42.089Z"
+        },
+        {
+          "title": "?Que dice la encuesta secreta sobre el 29N que se publica en Australia?",
+          "url": "https://www.publico.es/politica/dice-encuesta-secreta-sobre-29n-publica-australia.html",
+          "newspaper": "Público",
+          "date": "2026-11-24T21:25:19.756Z"
+        },
+        {
+          "title": "El ministro de Finanzas de Alemania defiende el mayor presupuesto del pais en tiempos \"desafiantes\"",
+          "url": "https://www.larazon.es/internacional/ministro-finanzas-alemania-defiende-mayor-presupuesto-pais-tiempos-desafiantes_202611246b05824e5cb1082f89b3a722.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-24T21:24:41.896Z"
+        },
+        {
+          "title": "Moreno cede el Pabellon de la Navegacion a Feijoo para cerrar campana en Sevilla tras poner trabas a un mitin de Sanchez",
+          "url": "https://www.eldiario.es/andalucia/moreno-cede-pabellon-navegacion-feijoo-cerrar-campana-sevilla-poner-trabas-mitin-sanchez_1_13688083.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-24T21:20:42.518Z"
         }
       ]
     },
     {
-      "id": 104,
-      "title": "Senegal",
+      "id": 228,
+      "title": "Uu",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 32
+    },
+    {
+      "id": 229,
+      "title": "Directo",
+      "source": "news_tags",
+      "volume": "32 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 32
+    },
+    {
+      "id": 230,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "31 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 31
+    },
+    {
+      "id": 231,
+      "title": "000",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
+    },
+    {
+      "id": 232,
+      "title": "Jueza",
+      "source": "news_tags",
+      "volume": "29 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 29
+    },
+    {
+      "id": 233,
+      "title": "Diez",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 234,
+      "title": "Pero",
+      "source": "news_tags",
+      "volume": "26 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 26
+    },
+    {
+      "id": 235,
+      "title": "Ley Trans",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 236,
+      "title": "Viviendas",
+      "source": "news_tags",
+      "volume": "25 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 25
+    },
+    {
+      "id": 237,
+      "title": "Ice",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
+    },
+    {
+      "id": 238,
+      "title": "Cuatro",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
+    },
+    {
+      "id": 239,
+      "title": "Supremo",
+      "source": "news_tags",
+      "volume": "24 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 24
+    },
+    {
+      "id": 241,
+      "title": "Ministros",
+      "source": "news_tags",
+      "volume": "23 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 23
+    },
+    {
+      "id": 243,
+      "title": "Evacuar",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 244,
+      "title": "Mascotas",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 245,
+      "title": "Consejo de Ministros",
+      "source": "news_tags",
+      "volume": "22 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 22
+    },
+    {
+      "id": 246,
+      "title": "26",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 247,
+      "title": "Horas",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 248,
+      "title": "Erc-esquerra Republicana de Catalunya",
+      "source": "news_tags",
+      "volume": "21 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 21
+    },
+    {
+      "id": 249,
+      "title": "Guerras",
+      "source": "news_tags",
+      "volume": "20 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 20
+    },
+    {
+      "id": 103,
+      "title": "25-n",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 14,
+      "matched_articles": [
+        {
+          "title": "Reyes Maroto abandona el acto institucional del 25-N en el Ayuntamiento durante el discurso de Almeida",
+          "url": "https://www.lavanguardia.com/local/madrid/20261125/11693102/reyes-maroto-abandona-acto-institucional-25-n-discurso-almeida.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:55:03.774Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, ultima hora en directo | Cristian Toro (Vox): \"No tiene que decirme nadie como defender a una mujer\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b067d8fd4582356192edfc7-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.320Z"
+        },
+        {
+          "title": "El PSOE acusa al PP de usar a la mujer como \"moneda de cambio\" y los 'populares' critican la divergencia entre el \"discurso feminista en publico y los comportamientos en privado\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b06caf9fdddff78028b45a2.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.316Z"
+        },
+        {
+          "title": "Elecciones generales del 29-N, ultima hora en directo | Cristian Toro (Vox): \"No tiene que decirme nadie como defender a una mujer\"",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b067d8fd4582356192edfc7-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.541Z"
+        },
+        {
+          "title": "Juanma Moreno se dirige a las mujeres en el acto del 25N en Sevilla: \"Adelante, y sin miedo. Somos mas y somos mejores\"",
+          "url": "https://www.elespanol.com/espana/andalucia/20261125/juanma-moreno-dirige-mujeres-acto-sevilla-adelante-sin-miedo-mejores/1003744471351_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:45.486Z"
+        },
+        {
+          "title": "El PSOE y 'El cuento de la criada' si gana el PP: \"Cocino, limpio, apoyo a mi marido siempre y no puedo votar\"",
+          "url": "https://www.elespanol.com/espana/politica/20261125/psoe-cuento-criada-gana-pp-cocino-limpio-apoyo-marido-siempre-no-puedo-votar/1003744471531_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:42.549Z"
+        },
+        {
+          "title": "La izquierda le hace el vacio a Juanma Moreno con los actos del 25-N en busca del voto femenino contra la \"involucion\"",
+          "url": "https://www.elespanol.com/espana/andalucia/20261125/izquierda-hace-vacio-juanma-moreno-actos-busca-voto-femenino-involucion/1003744471415_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:41.176Z"
+        },
+        {
+          "title": "El manifiesto por la marcha del 25-N que respalda el PSOE pide prohibir el burka y el niqab y carga contra la Ley Trans",
+          "url": "https://www.elespanol.com/espana/20261125/manifiesto-marcha-respalda-psoe-pide-prohibir-burka-niqab-carga-ley-trans/1003744469473_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:37.435Z"
+        },
+        {
+          "title": "El PP recuerda el 25-N frente al Parador de Teruel y ante el piso que Abalos le puso a Jesica, \"la zona cero de la degradacion\"",
+          "url": "https://www.elespanol.com/espana/politica/20261125/pp-recuerda-frente-parador-teruel-piso-abalos-puso-jesica-zona-cero-degradacion/1003744471719_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:37.023Z"
+        },
+        {
+          "title": "La Guardia Civil busca a Jose 'El Gitano', presunto autor del asesinato a cuchilladas de su pareja en Bullas en pleno 25-N",
+          "url": "https://www.elespanol.com/espana/20261125/guardia-civil-busca-autor-crimen-machista-bullas-murcia-mato-pareja-navajazos/1003744471882_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:00.127Z"
+        },
+        {
+          "title": "El manifiesto por la marcha del 25-N que respalda el PSOE pide prohibir el burka y el niqab y carga contra la Ley Trans",
+          "url": "https://www.elespanol.com/espana/20261125/manifiesto-marcha-respalda-psoe-pide-prohibir-burka-niqab-carga-ley-trans/1003744469473_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:49:53.386Z"
+        },
+        {
+          "title": "El PSOE y 'El cuento de la criada' si gana el PP: \"Cocino, limpio, apoyo a mi marido siempre y no puedo votar\"",
+          "url": "https://www.elespanol.com/espana/politica/20261125/psoe-cuento-criada-gana-pp-cocino-limpio-apoyo-marido-siempre-no-puedo-votar/1003744471531_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:49:52.607Z"
+        },
+        {
+          "title": "Mas de 100.000 mujeres viven bajo el radar policial por maltrato y solo es la punta del iceberg de la violencia machista en Espana",
+          "url": "https://www.20minutos.es/nacional/mas-100-000-mujeres-viven-bajo-radar-policial-por-maltrato-solo-es-punta-iceberg-violencia-machista-espana_7063659_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T05:07:34.132Z"
+        },
+        {
+          "title": "Elecciones generales 29-N, en directo | Resultados de encuestas, Pedro Sanchez y ultima hora de la campana de PP, PSOE, Vox y Frente Amplio",
+          "url": "https://www.elespanol.com/espana/20261124/elecciones-generales-directo-ganador-debate-encuestas-ultima-hora-pedro-sanchez-campana-pp-psoe-vox/1003744469486_10.html",
+          "newspaper": "El Español",
+          "date": "2026-11-24T21:27:22.357Z"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Bono",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 13,
+      "matched_articles": [
+        {
+          "title": "Una juez cita a declarar como imputados a Leire Diez y al ex presidente de Correos por fraude, prevaricacion, malversacion y trafico de influencias",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06dd84e85ece0e448b45af.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:53:29.318Z"
+        },
+        {
+          "title": "Leire Diez y el ex jefe de gabinete de Sanchez, citados el 9 de diciembre por cuatro nuevos delitos",
+          "url": "https://www.larazon.es/espana/juzgado-investiga-leire-diez-jefe-gabinete-sanchez-mas-amanos-contratos-correos_202611256b06ba6bc0d5c85b96c6d018.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T15:47:00.164Z"
+        },
+        {
+          "title": "Los negocios de Bono y su duelo con Gonzalez complican el plan de Sanchez de recuperar a los socialistas desencantados",
+          "url": "https://www.elespanol.com/espana/politica/20261125/negocios-bono-duelo-gonzalez-complican-plan-sanchez-recuperar-socialistas-desencantados/1003744471002_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T05:03:15.621Z"
+        },
+        {
+          "title": "Los negocios de Bono y su duelo con Gonzalez complican el plan de Sanchez de recuperar a los socialistas desencantados",
+          "url": "https://www.elespanol.com/espana/politica/20261125/negocios-bono-duelo-gonzalez-complican-plan-sanchez-recuperar-socialistas-desencantados/1003744471002_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T05:02:32.488Z"
+        },
+        {
+          "title": "Operacion del PSOE para anular el <<efecto Felipe Gonzalez>> en los indecisos",
+          "url": "https://www.larazon.es/espana/operacion-psoe-anular-efecto-felipe-gonzalez-indecisos_202611256b064130ff6fec29219a24ea.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-25T04:59:33.965Z"
+        },
+        {
+          "title": "?Cuanto le debe Bono al PSOE?",
+          "url": "https://www.elmundo.es/opinion/columnistas/2026/11/24/6b05c037e85ece73128b4593.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-24T21:29:36.363Z"
+        },
+        {
+          "title": "Bono, fuera de quicio: graba con su movil a los periodistas, les pregunta que ganan y presume de ser \"pro bono\" y no \"pro Pepe\"",
+          "url": "https://www.elespanol.com/espana/politica/20261124/bono-quicio-graba-movil-periodistas-pregunta-ganan-presume-pro-no-pepe/1003744469899_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-24T21:27:32.016Z"
+        },
+        {
+          "title": "El historico socialista Rafael Escuredo se suma a las criticas a Felipe Gonzalez: \"Es un viejo grunon, su tiempo paso\"",
+          "url": "https://www.elespanol.com/espana/andalucia/20261124/historico-socialista-rafael-escuredo-suma-criticas-felipe-gonzalez-viejo-grunon-tiempo-paso/1003744470029_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-24T21:27:30.902Z"
+        },
+        {
+          "title": "Inquietud en Moncloa por la amenaza de Gonzalez de hacer perder a Sanchez \"millones de votos\" si cuenta lo que sabe",
+          "url": "https://www.elespanol.com/espana/politica/20261124/inquietud-moncloa-amenaza-gonzalez-hacer-perder-sanchez-millones-votos-cuenta-sabe/1003744470454_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-24T21:27:26.865Z"
+        },
+        {
+          "title": "Inquietud en Moncloa por la amenaza de Gonzalez de hacer perder a Sanchez \"millones de votos\" si cuenta lo que sabe",
+          "url": "https://www.elespanol.com/espana/politica/20261124/inquietud-moncloa-amenaza-gonzalez-hacer-perder-sanchez-millones-votos-cuenta-sabe/1003744470454_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-24T21:26:35.722Z"
+        },
+        {
+          "title": "Bono emerge como apoyo a Sanchez de la vieja guardia socialista ante la ausencia de Zapatero",
+          "url": "https://www.publico.es/politica/partidos/bono-emerge-apoyo-sanchez-vieja-guardia-socialista-ausencia-zapatero.html",
+          "newspaper": "Público",
+          "date": "2026-11-24T21:25:37.585Z"
+        },
+        {
+          "title": "Bono emerge como apoyo a Sanchez de la vieja guardia socialista ante la ausencia de Zapatero",
+          "url": "https://www.publico.es/politica/partidos/bono-emerge-apoyo-sanchez-vieja-guardia-socialista-ausencia-zapatero.html",
+          "newspaper": "Público",
+          "date": "2026-11-24T21:25:07.592Z"
+        },
+        {
+          "title": "Nuevo episodio del 'duelo' entre Bono y Felipe Gonzalez: \"Prefiero que sea probono en lugar de ser proPP\"",
+          "url": "https://www.eldiario.es/castilla-la-mancha/politica/nuevo-episodio-duelo-bono-felipe-gonzalez-prefiero-sea-probono-lugar-propp_1_13689138.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-24T21:20:45.183Z"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Loles León",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
       "news_count": 8,
+      "matched_articles": [
+        {
+          "title": "Loles Leon apoya a Pedro Sanchez en Barcelona: \"Somos las abuelas de los 70 con las tetas bien puestas\"",
+          "url": "https://www.lavanguardia.com/politica/20261125/11692820/loles-leon-apoya-pedro-sanchez-barcelona-abuelas-70-tetas-puestas.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-25T15:55:06.812Z"
+        },
+        {
+          "title": "Loles Leon advierte delante de Sanchez a Felipe Gonzalez: \"Le aconsejo que se muera antes de que yo lo cuente todo\"",
+          "url": "https://www.elespanol.com/espana/20261125/loles-leon-advierte-mitin-psoe-cataluna-felipe-gonzalez-aconsejo-muera-hable/1003744471656_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:50:39.723Z"
+        },
+        {
+          "title": "Loles Leon advierte delante de Sanchez a Felipe Gonzalez: \"Le aconsejo que se muera antes de que yo lo cuente todo\"",
+          "url": "https://www.elespanol.com/espana/20261125/loles-leon-advierte-mitin-psoe-cataluna-felipe-gonzalez-aconsejo-muera-hable/1003744471656_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T15:49:56.705Z"
+        },
+        {
+          "title": "Sanchez promete cambiar la Ley de Defensa Nacional para prohibir entrar en \"guerras ilegales\" como Irak e Iran",
+          "url": "https://www.20minutos.es/nacional/sanchez-promete-cambiar-ley-defensa-nacional-para-prohibir-entrar-guerras-ilegales-como-irak-iran_7065406_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T05:07:35.814Z"
+        },
+        {
+          "title": "Asi te hemos contado la ultima hora de la campana electoral del 29N, en directo",
+          "url": "https://www.publico.es/politica/ultima-hora-campana-electoral-29n-directo-6.html",
+          "newspaper": "Público",
+          "date": "2026-11-25T05:01:48.799Z"
+        },
+        {
+          "title": "Sanchez mete a Loles Leon y a Serrat en campana tras el apoyo de Bardem y otras personalidades de la cultura a Frente Amplio",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05d44c21efa0d9778b456d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-24T21:29:36.363Z"
+        },
+        {
+          "title": "Sanchez se compromete a blindar por ley que Espana no participe en ninguna \"guerra ilegal\" en un mitin multitudinario en Barcelona",
+          "url": "https://www.publico.es/politica/sanchez-compromete-blindar-ley-espana-participe-ninguna-guerra-ilegal-mitin-multitudinario-barcelona.html",
+          "newspaper": "Público",
+          "date": "2026-11-24T21:25:40.971Z"
+        },
+        {
+          "title": "Sanchez se compromete a blindar por ley que Espana no participe en ninguna \"guerra ilegal\" en un mitin multitudinario en Barcelona",
+          "url": "https://www.publico.es/politica/sanchez-compromete-blindar-ley-espana-participe-ninguna-guerra-ilegal-mitin-multitudinario-barcelona.html",
+          "newspaper": "Público",
+          "date": "2026-11-24T21:25:09.024Z"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Senegal",
+      "source": "x_trends",
+      "volume": "3.4MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 7,
       "matched_articles": [
         {
           "title": "El Hierro como Lampedusa y Lesbos: en 24 dias han llegado 15.025 migrantes, 3.000 mas que habitantes tiene la isla",
@@ -1419,188 +1269,60 @@
           "url": "https://www.elespanol.com/espana/20261124/elecciones-generales-directo-ganador-debate-encuestas-ultima-hora-pedro-sanchez-campana-pp-psoe-vox/1003744469486_10.html",
           "newspaper": "El Español",
           "date": "2026-11-24T21:27:22.357Z"
-        },
-        {
-          "title": "Organizar una salida de Senegal a Canarias es facil y el miedo ya no disuade a los migrantes: \"Es cuestion de supervivencia\"",
-          "url": "https://www.20minutos.es/internacional/organizar-una-salida-senegal-canarias-es-facil-miedo-ya-no-disuade-los-migrantes-es-cuestion-supervivencia_7065007_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T11:15:47.910Z"
-        }
-      ]
-    },
-    {
-      "id": 124,
-      "title": "Cintia Rocho",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 8,
-      "matched_articles": [
-        {
-          "title": "Cintia Rocho confirma que el exjuez ligado a las cloacas le llamo para \"eliminar\" a la jueza Biedma: \"Yo no estaba para dar palos a nadie\"",
-          "url": "https://www.20minutos.es/nacional/cintia-rocho-confirma-que-exjuez-ligado-las-cloacas-le-llamo-para-eliminar-jueza-biedma-yo-no-estaba-para-dar-palos-nadie_7065069_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:26.440Z"
-        },
-        {
-          "title": "Cintia Rocho confirma que el exjuez ligado a las cloacas le llamo para \"eliminar\" a la jueza Biedma: \"Yo no estaba para dar palos a nadie\"",
-          "url": "https://www.20minutos.es/nacional/cintia-rocho-confirma-que-exjuez-ligado-las-cloacas-le-llamo-para-eliminar-jueza-biedma-yo-no-estaba-para-dar-palos-nadie_7065069_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:12.144Z"
-        },
-        {
-          "title": "Cintia Rocho ratifica ante el juez que le propusieron \"eliminar\" a la juez Biedma",
-          "url": "https://www.larazon.es/espana/cintia-rocho-ratifica-juez-que-propusieron-eliminar-juez-biedma_202611246b055a60f6da642efef96757.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T21:23:20.806Z"
-        },
-        {
-          "title": "La jefa de los Rochos insiste a Pedraz que Saenz de Tejada le hablo de \"eliminar\" a Biedma pero no guarda pruebas",
-          "url": "https://www.eldiario.es/politica/jefa-rochos-insiste-pedraz-saenz-tejada-le-hablo-eliminar-biedma-no-guarda-pruebas_1_13688243.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:21:38.499Z"
-        },
-        {
-          "title": "La jefa de los Rochos insiste a Pedraz que Saenz de Tejada le hablo de \"eliminar\" a Biedma pero no guarda pruebas",
-          "url": "https://www.eldiario.es/politica/jefa-rochos-insiste-pedraz-saenz-tejada-le-hablo-eliminar-biedma-no-guarda-pruebas_1_13688243.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:20:50.287Z"
-        },
-        {
-          "title": "Cintia Rocho se ratifica ante Pedraz: esta \"muy segura\" de que fue el ex juez Saenz de Tejada quien contacto con ella para producirle \"dano fisico\" a la juez del 'hermanisimo'",
-          "url": "https://www.elmundo.es/espana/2026/11/24/6b056e6ce85ece73128b456e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:13:22.890Z"
-        },
-        {
-          "title": "La lider de 'Los Rocho' se ratifica ante el juez: declara que el socio de Leire Diez le propuso \"eliminar\" a Beatriz Biedma",
-          "url": "https://www.elespanol.com/espana/tribunales/20261124/lider-rocho-ratifica-juez-declara-socio-leire-propuso-eliminar-beatriz-biedma/1003744469863_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:10:35.048Z"
-        },
-        {
-          "title": "La lider de 'Los Rocho' se ratifica ante Pedraz: declara que el socio de Leire Diez le propuso \"eliminar\" a la juez Biedma",
-          "url": "https://www.elespanol.com/espana/tribunales/20261124/lider-rocho-ratifica-juez-declara-socio-leire-propuso-eliminar-beatriz-biedma/1003744469863_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T11:09:54.586Z"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Programa Informativo",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 5,
-      "matched_articles": [
-        {
-          "title": "La mayoria conservadora de la Junta Electoral desoyo a sus letrados e impuso expedientar a Silvia Intxaurrondo",
-          "url": "https://www.eldiario.es/politica/mayoria-conservadora-junta-electoral-desoyo-tecnicos-e-impuso-expedientar-silvia-intxaurrondo_1_13690316.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:21:35.273Z"
-        },
-        {
-          "title": "La mayoria conservadora de la Junta Electoral desoyo a sus letrados e impuso expedientar a Silvia Intxaurrondo",
-          "url": "https://www.eldiario.es/politica/mayoria-conservadora-junta-electoral-desoyo-tecnicos-e-impuso-expedientar-silvia-intxaurrondo_1_13690316.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-24T21:20:41.820Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, ultima hora en directo | Ayuso defiende su ley del concebido no nacido y acusa a Sanchez de \"alimentar el odio\" con \"monsergas\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b052f2008df1ff64e1a0798-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:13:22.892Z"
-        },
-        {
-          "title": "Silvia Intxaurrondo desafia a la Junta Electoral en pleno directo: \"La libertad de prensa tambien tiene descuento por pronto pago\"",
-          "url": "https://www.elmundo.es/television/2026/11/24/6b053d36fdddff7b1b8b45a5.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:12:45.252Z"
-        },
-        {
-          "title": "Elecciones generales del 29-N, ultima hora en directo | Ayuso defiende su ley del concebido no nacido y acusa a Sanchez de \"alimentar el odio\" con \"monsergas\"",
-          "url": "https://www.elmundo.es/espana/2026/11/23/6b03de4208df1ff64eebd83b-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T11:12:45.249Z"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Iñigo Errejon",
-      "source": "google",
-      "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 4,
-      "matched_articles": [
-        {
-          "title": "La decada del prodigioso hundimiento de las 'izquierdas Podemos': mil guerras y sin proyecto nacional hasta la puntilla de Sanchez",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05bd62fdddffba288b45a1.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "Errejon declara como testigo en la causa sobre el rescate de Air Europa: \"No se muy bien que hago aqui, yo ni pincho ni corto\"",
-          "url": "https://www.20minutos.es/nacional/errejon-declara-como-testigo-causa-sobre-rescate-air-europa-no-se-muy-bien-que-hago-aqui-yo-ni-pincho-ni-corto_7065123_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:25.146Z"
-        },
-        {
-          "title": "El jefe de la Oficina Economica de Moncloa niega haber apreciado conflicto de intereses en el rescate de Air Europa",
-          "url": "https://www.elmundo.es/espana/2026/11/24/6b057db7e85ece73128b457e.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:30:13.265Z"
-        },
-        {
-          "title": "Errejon niega que viese irregularidades en el rescate de Air Europa: solo dudo de cuestiones medioambientales",
-          "url": "https://www.larazon.es/espana/errejon-niega-que-viese-irregularidades-rescate-air-europa-solo-dudo-cuestiones-medioambientales_202611246b056f14f6da642efef97963.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T21:23:31.416Z"
         }
       ]
     },
     {
       "id": 24,
-      "title": "Incapacidad Temporal",
+      "title": "Herencia",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 1 h (4h)",
-      "news_count": 4,
+      "news_count": 2,
       "matched_articles": [
         {
-          "title": "La lista de medidas sociales que el Gobierno ha anunciado antes del 29-N: cuales son de efecto inmediato y cuales van a la Diputacion",
-          "url": "https://www.20minutos.es/nacional/lista-medidas-sociales-que-gobierno-ha-anunciado-antes-29-n-cuales-son-efecto-inmediato-cuales-van-diputacion_7065107_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-25T05:07:32.333Z"
-        },
-        {
-          "title": "La 'traca final' de decretos electorales de Sanchez dispara a casi 22.000 millones la factura extra para el proximo Gobierno",
-          "url": "https://www.elmundo.es/economia/2026/11/24/6b058154fc6c835c2b8b4589.html",
+          "title": "La foto de la reunificacion de la derecha navarra para derrotar la corrupcion del PSOE y el \"binomio con Bildu\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/25/6b05d77bfdddfff75d8b4589.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
+          "date": "2026-11-25T05:05:49.105Z"
         },
         {
-          "title": "Los medicos de familia vuelven a reclamar las 'autobajas' y que tambien los especialistas puedan firmar las incapacidades temporales",
-          "url": "https://www.20minutos.es/nacional/los-medicos-familia-vuelven-reclamar-las-autobajas-piden-que-los-especialistas-tambien-puedan-firmar-las-incapacidades_7064931_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-24T21:32:23.385Z"
-        },
-        {
-          "title": "Confirmado el despido procedente de un gestor de restaurante que cobraba mas de 6.000 euros al mes por pagar loteria, comida a domicilio y Prime Video con la tarjeta de la empresa estando de baja",
-          "url": "https://www.larazon.es/economia/confirmado-despido-procedente-gestor-restaurante-que-cobraba-mas-6000-euros-mes-pagar-loteria-comida-domicilio-prime-video-tarjeta-empresa-estando-b51_202611246b0560405cb1082f89b389b8.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T11:06:56.849Z"
+          "title": "El 29-N en Asturias: todos contra el peaje, votantes en America y el escano que pelean los nietos de un minero y su patron",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b041392e9cf4a1c7d8b4571.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-24T21:30:13.264Z"
         }
       ]
     },
     {
-      "id": 112,
+      "id": 114,
+      "title": "Bellingham",
+      "source": "x_trends",
+      "volume": "3.2MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 2,
+      "matched_articles": [
+        {
+          "title": "Bellingham revoluciona al Madrid y prende al Bernabeu en una remontada ante el PSV que vale la decima victoria seguida",
+          "url": "https://www.elespanol.com/deportes/futbol/20261124/bellingham-revoluciona-madrid-prende-bernabeu-remontada-psv-vale-decima-victoria-seguida/1003744471006_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-25T05:02:38.521Z"
+        },
+        {
+          "title": "Real Madrid - PSV, en directo: Mbappe golpea de nuevo a un rival desarbolado",
+          "url": "https://www.elmundo.es/deportes/futbol/champions-league/r-madrid-psv/2026/11/24/01_0103_20261124_186_204-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-24T21:29:36.364Z"
+        }
+      ]
+    },
+    {
+      "id": 115,
       "title": "Champions",
       "source": "x_trends",
-      "volume": "4.5MM tweets",
+      "volume": "3.1MM tweets",
       "timeframe": "24h trends",
-      "news_count": 4,
+      "news_count": 2,
       "matched_articles": [
         {
           "title": "Bellingham revoluciona al Madrid y prende al Bernabeu en una remontada ante el PSV que vale la decima victoria seguida",
@@ -1613,162 +1335,121 @@
           "url": "https://www.elespanol.com/deportes/20261124/real-madrid-psv-futbol-hoy-directo-resultado-goleadores-estadisticas-vivo-partido-champions-league/1003744470955_22.html",
           "newspaper": "El Español",
           "date": "2026-11-24T21:26:46.238Z"
-        },
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Maribel Sánchez-maroto",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 10 h (24h)",
+      "news_count": 1,
+      "matched_articles": [
         {
-          "title": "Arturo, profesor de Educacion Secundaria, sobre el absentismo escolar por ocio: <<Hoy es faltar al colegio para ir a un concierto; manana, ?que sera? ?Faltar al trabajo porque hay un partido de futbol?>>",
-          "url": "https://www.larazon.es/sociedad/arturo-profesor-educacion-secundaria-absentismo-escolar-ocio-hoy-faltar-colegio-concierto-manana-que-sera-faltar-trabajo-porque-hay-partido-futbol-b51_202611246b0555ce5cb1082f89b381aa.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T11:06:57.512Z"
-        },
+          "title": "\"Haced lo que os salga del co...\": el Consejo de Informativos de TVE denuncia el \"abuso de poder\" y las injerencias de su propia direccion tras una entrevista a Pedro Sanchez",
+          "url": "https://www.elmundo.es/television/2026/11/25/6b068e54e85eceaf0f8b45ab.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.545Z"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Telediario",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 1,
+      "matched_articles": [
         {
-          "title": "Aldama acompano en viaje oficial a la ex directora de la Guardia Civil Gamez",
-          "url": "https://www.larazon.es/espana/aldama-acompano-viaje-oficial-directora-guardia-civil-gamez_202611246b04e1a3c0d5c85b96c5b7c9.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T11:06:46.659Z"
+          "title": "\"Haced lo que os salga del co...\": el Consejo de Informativos de TVE denuncia el \"abuso de poder\" y las injerencias de su propia direccion tras una entrevista a Pedro Sanchez",
+          "url": "https://www.elmundo.es/television/2026/11/25/6b068e54e85eceaf0f8b45ab.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-25T15:52:48.545Z"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Eclipse Solar del 2 de Agosto de 2027",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Asi se vera el eclipse total de 2027 desde cada localidad de Espana: consulta el nuevo simulador del IGN",
+          "url": "https://www.20minutos.es/nacional/asi-se-vera-eclipse-total-2027-desde-cada-localidad-espana-consulta-nuevo-simulador-ign_7065778_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-25T15:55:35.812Z"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Nacho Duato",
+      "source": "google",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 1,
+      "matched_articles": [
+        {
+          "title": "Asi te hemos contado la ultima hora sobre las elecciones generales y la actualidad politica del 24 de noviembre de 2026",
+          "url": "https://www.eldiario.es/politica/ultima-hora-elecciones-generales-actualidad-politica-directo_6_13687918.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-24T21:21:40.499Z"
         }
       ]
     },
     {
       "id": 1,
-      "title": "Real Madrid - Psv",
+      "title": "Sabah Futbol Klubu - Barcelona",
       "source": "google",
       "volume": "500 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
-      "news_count": 3,
-      "matched_articles": [
-        {
-          "title": "Bellingham revoluciona al Madrid y prende al Bernabeu en una remontada ante el PSV que vale la decima victoria seguida",
-          "url": "https://www.elespanol.com/deportes/futbol/20261124/bellingham-revoluciona-madrid-prende-bernabeu-remontada-psv-vale-decima-victoria-seguida/1003744471006_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:38.521Z"
-        },
-        {
-          "title": "Real Madrid - PSV, en directo: Mbappe golpea de nuevo a un rival desarbolado",
-          "url": "https://www.elmundo.es/deportes/futbol/champions-league/r-madrid-psv/2026/11/24/01_0103_20261124_186_204-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:36.364Z"
-        },
-        {
-          "title": "Real Madrid - PSV, futbol hoy en directo: resultado, goleadores y estadisticas en vivo del partido de la Champions League",
-          "url": "https://www.elespanol.com/deportes/20261124/real-madrid-psv-futbol-hoy-directo-resultado-goleadores-estadisticas-vivo-partido-champions-league/1003744470955_22.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T21:26:46.238Z"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Castillejos",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 21 h (24h)",
-      "news_count": 3,
-      "matched_articles": [
-        {
-          "title": "Un confidente marroqui declara a la juez que el dia antes de la oleada aviso a la Delegacion del Gobierno de la acumulacion de personas, pero no de una entrada \"masiva\"",
-          "url": "https://www.elmundo.es/espana/2026/11/24/6b05c881fdddffb43c8b459b.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:30:13.265Z"
-        },
-        {
-          "title": "Un confidente marroqui dice a la juez que aviso a la Guardia Civil desde el 7 de julio de \"mucha gente\" en torno a Ceuta",
-          "url": "https://www.elespanol.com/espana/tribunales/20261124/confidente-marroqui-dice-juez-aviso-guardia-civil-julio-mucha-gente-torno-ceuta/1003744470371_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-24T21:27:27.373Z"
-        },
-        {
-          "title": "Un testigo protegido explica a Tardon que miembros de las Fuerzas Auxiliares de Marruecos \"avisaron\" a sus familiares para entrar en Ceuta el 30J",
-          "url": "https://www.larazon.es/espana/testigo-protegido-explica-tardon-que-miembros-fuerzas-auxiliares-marruecos-avisaron-sus-familiares-entrar-ceuta-30j_202611246b057bdcff6fec292199a86c.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-24T21:23:20.150Z"
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Bng",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "La decada del prodigioso hundimiento de las 'izquierdas Podemos': mil guerras y sin proyecto nacional hasta la puntilla de Sanchez",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05bd62fdddffba288b45a1.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.558Z"
-        },
-        {
-          "title": "El PSOE se aferra a un milagro en la \"Espana periferica\" mientras asume \"la fortaleza de PP y Vox\"",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/24/6b05f94821efa094338b4587.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-25T05:05:15.557Z"
-        }
-      ]
-    },
-    {
-      "id": 103,
-      "title": "Militao",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "Bellingham revoluciona al Madrid y prende al Bernabeu en una remontada ante el PSV que vale la decima victoria seguida",
-          "url": "https://www.elespanol.com/deportes/futbol/20261124/bellingham-revoluciona-madrid-prende-bernabeu-remontada-psv-vale-decima-victoria-seguida/1003744471006_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:38.521Z"
-        },
-        {
-          "title": "Real Madrid - PSV, en directo: Mbappe golpea de nuevo a un rival desarbolado",
-          "url": "https://www.elmundo.es/deportes/futbol/champions-league/r-madrid-psv/2026/11/24/01_0103_20261124_186_204-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:36.364Z"
-        }
-      ]
-    },
-    {
-      "id": 105,
-      "title": "Bellingham",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 2,
-      "matched_articles": [
-        {
-          "title": "Bellingham revoluciona al Madrid y prende al Bernabeu en una remontada ante el PSV que vale la decima victoria seguida",
-          "url": "https://www.elespanol.com/deportes/futbol/20261124/bellingham-revoluciona-madrid-prende-bernabeu-remontada-psv-vale-decima-victoria-seguida/1003744471006_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-25T05:02:38.521Z"
-        },
-        {
-          "title": "Real Madrid - PSV, en directo: Mbappe golpea de nuevo a un rival desarbolado",
-          "url": "https://www.elmundo.es/deportes/futbol/champions-league/r-madrid-psv/2026/11/24/01_0103_20261124_186_204-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:36.364Z"
-        }
-      ]
-    },
-    {
-      "id": 33,
-      "title": "Petróleo Brent",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 1,
-      "matched_articles": [
-        {
-          "title": "La euforia por las tecnologicas se evapora y regresa el miedo a la IA, arrastrando a Nvidia y Anthropic con caidas del 8%",
-          "url": "https://www.elmundo.es/economia/dinero-inversion/2026/11/24/6b05d85be9cf4ad2508b4586.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-24T21:29:36.365Z"
-        }
-      ]
+      "timeframe": "hace 7 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
     },
     {
       "id": 2,
-      "title": "Telediario",
+      "title": "Atlético Madrid - Viking",
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 3,
+      "title": "Posiciones de Sabah Futbol Klubu Contra Fc Barcelona",
+      "source": "google",
+      "volume": "100 mil+ búsquedas",
+      "timeframe": "hace 6 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 4,
+      "title": "Contribuyente",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 20 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 5,
+      "title": "Psg - Roma",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 6,
+      "title": "Slavia Praga - Villarreal",
       "source": "google",
       "volume": "50 mil+ búsquedas",
       "timeframe": "hace 7 h (24h)",
@@ -1776,89 +1457,98 @@
       "matched_articles": []
     },
     {
-      "id": 3,
-      "title": "Contribuyente",
+      "id": 9,
+      "title": "Pasapalabra",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 11 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 4,
-      "title": "Slovan Bratislava - Real Betis",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 20 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 9,
-      "title": "Salmón",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
+      "timeframe": "hace 4 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 10,
-      "title": "Rècord Mundial",
+      "title": "Posiciones de Atlético de Madrid Contra Viking Stavanger Fk",
       "source": "google",
       "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
+      "timeframe": "hace 2 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 11,
+      "title": "Losc - Bayern",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 12,
-      "title": "Thierry Henry",
+      "title": "Real Madrid - Žalgiris",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 13,
-      "title": "Posiciones de Slovan Bratislava Contra Betis",
+      "title": "Salmón",
       "source": "google",
-      "volume": "20 mil+ búsquedas",
+      "volume": "10 mil+ búsquedas",
       "timeframe": "hace 18 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 14,
-      "title": "Maribel Sánchez-maroto",
+      "title": "Psg",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (24h)",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 15,
+      "title": "Posiciones de Sporting Lisboa Contra Manchester United",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 21,
+      "title": "76ers - Heat",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 22,
-      "title": "Letizia Ortiz",
+      "title": "Andy Taylor",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
+      "volume": "2 mil+ búsquedas",
       "timeframe": "hace 2 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 23,
-      "title": "Marcos Llorente Caviar",
+      "title": "Boca Juniors - Independiente Rivadavia",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "500+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 27,
-      "title": "Nava del Rey",
+      "id": 25,
+      "title": "Elena Furiase",
       "source": "google",
       "volume": "2 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
@@ -1866,53 +1556,89 @@
       "matched_articles": []
     },
     {
-      "id": 28,
-      "title": "Jesús de Miguel Alameda",
+      "id": 27,
+      "title": "Luis Merlo",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 30,
+      "title": "Grand Theft Auto Vi",
       "source": "google",
       "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 40 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 31,
+      "title": "Santa Fe - Once Caldas",
+      "source": "google",
+      "volume": "500+ búsquedas",
       "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 32,
-      "title": "Stickers Whatsapp Sonido",
+      "title": "Sara Carbonero",
       "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 50 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 33,
+      "title": "Cristina Porta",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 34,
-      "title": "Cumpleaños de Tamara Falco",
+      "title": "Oscar Matute",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
+      "volume": "200+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 102,
-      "title": "Cucho",
+      "id": 104,
+      "title": "#niunamenos",
       "source": "x_trends",
       "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 105,
+      "title": "Viking",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 113,
+      "title": "Thanksgiving",
+      "source": "x_trends",
+      "volume": "3.3MM tweets",
       "timeframe": "24h trends",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 121,
-      "title": "#tem25n",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 122,
-      "title": "Fusilable",
+      "title": "#ghvip26n",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -1921,7 +1647,7 @@
     },
     {
       "id": 123,
-      "title": "Adara",
+      "title": "Corbacho",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
@@ -1929,8 +1655,8 @@
       "matched_articles": []
     },
     {
-      "id": 125,
-      "title": "Graupera",
+      "id": 124,
+      "title": "Mosquera",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",

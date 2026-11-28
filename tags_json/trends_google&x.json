@@ -1,55 +1,143 @@
 {
-  "timestamp": "2026-11-28T04:11:08.186305",
+  "timestamp": "2026-11-28T13:23:03.428864",
   "summary": {
-    "google_total": 27,
-    "xtrends_total": 10,
+    "google_total": 30,
+    "xtrends_total": 15,
     "tags_total": 50,
-    "unique_total": 79,
+    "unique_total": 86,
     "unified_count": 2,
-    "with_news": 59,
-    "without_news": 20
+    "with_news": 61,
+    "without_news": 25
   },
   "trends": [
     {
       "id": 200,
-      "title": "Ue - Union Europea",
+      "title": "Ue",
       "source": "news_tags",
-      "volume": "561 artículos",
+      "volume": "465 artículos",
       "timeframe": "24h noticias",
-      "news_count": 561
+      "news_count": 465
     },
     {
       "id": 201,
       "title": "Era",
       "source": "news_tags",
-      "volume": "269 artículos",
+      "volume": "273 artículos",
       "timeframe": "24h noticias",
-      "news_count": 269
+      "news_count": 273
     },
     {
       "id": 202,
-      "title": "Sánchez",
+      "title": "Portugal",
       "source": "news_tags",
-      "volume": "218 artículos",
+      "volume": "142 artículos",
       "timeframe": "24h noticias",
-      "news_count": 218
+      "news_count": 142
+    },
+    {
+      "id": 205,
+      "title": "Dos",
+      "source": "news_tags",
+      "volume": "108 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 131
     },
     {
       "id": 203,
-      "title": "Nido",
+      "title": "Elecciones Anticipadas",
       "source": "news_tags",
-      "volume": "204 artículos",
+      "volume": "123 artículos",
       "timeframe": "24h noticias",
-      "news_count": 204
+      "news_count": 123
     },
     {
-      "id": 113,
+      "id": 204,
+      "title": "Sánchez",
+      "source": "news_tags",
+      "volume": "117 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 117
+    },
+    {
+      "id": 101,
       "title": "Colau",
       "source": "x_trends",
-      "volume": "5.9MM tweets",
+      "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 189,
+      "news_count": 108,
       "matched_articles": [
+        {
+          "title": "Una carambola en Catalunya",
+          "url": "https://www.lavanguardia.com/politica/20261128/11695233/carambola-catalunya-rufian-puigdemont-colau.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-28T04:09:16.010Z"
+        },
+        {
+          "title": "El ticket Sanchez-Colau",
+          "url": "https://www.lavanguardia.com/opinion/20261128/11695216/ticket-sanchez-colau.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-28T04:08:19.470Z"
+        },
+        {
+          "title": "Una carambola en Catalunya",
+          "url": "https://www.lavanguardia.com/politica/20261128/11695233/carambola-catalunya-rufian-puigdemont-colau.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-28T04:08:16.435Z"
+        },
+        {
+          "title": "Colau activa la \"remontada\" del Frente Amplio 'in extremis' con la esperanza de llegar a tiempo",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09f046fdddff6a6a8b45ab.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:18.648Z"
+        },
+        {
+          "title": "Sanchez se aferra al voto de las mujeres como en 2023 en busca de su suma magica: 136 + 41, sin Junts",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09d22fe85ece541a8b45b6.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:18.648Z"
+        },
+        {
+          "title": "Pedro Sanchez no conoce a Pedro Sanchez",
+          "url": "https://www.elespanol.com/opinion/columnas/20261128/pedro-sanchez-no-conoce/1003744475719_12.html",
+          "newspaper": "El Español",
+          "date": "2026-11-28T04:04:42.810Z"
+        },
+        {
+          "title": "Asi te hemos contado la ultima hora de las elecciones generales del 29N, en directo",
+          "url": "https://www.publico.es/politica/elecciones-generales-29n-directo-2.html",
+          "newspaper": "Público",
+          "date": "2026-11-28T04:03:43.911Z"
+        },
+        {
+          "title": "Ada Colau, sobre su infancia: \"Mis padres eran hippies y yo era la rarita de la clase\"",
+          "url": "https://www.larazon.es/espana/ada-colau-infancia-mis-padres-eran-hippies-era-rarita-clase_202611286b0a38dbf6da642efefcd9a9.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-28T04:01:25.903Z"
+        },
+        {
+          "title": "Asi te hemos contado la ultima hora de las elecciones generales y la actualidad politica el 27 de noviembre de 2026",
+          "url": "https://www.eldiario.es/politica/ultima-hora-elecciones-generales-actualidad-politica-directo_6_13697828.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-28T03:59:45.548Z"
+        },
+        {
+          "title": "El Frente Amplio apela a la \"remontada\" en su cierre de campana: \"La historia la escribe siempre la gente\"",
+          "url": "https://www.eldiario.es/politica/frente-amplio-cierra-campana-son-si-ada-ada-ada-ada-remontada_1_13700638.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-28T03:59:32.010Z"
+        },
+        {
+          "title": "Todo con la IA pero sin la IA: la campana desata una avalancha de memes y silencia su impacto real",
+          "url": "https://www.eldiario.es/tecnologia/ia-ia-campana-desata-avalancha-memes-silencia-impacto-real_1_13695902.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-28T03:59:29.738Z"
+        },
+        {
+          "title": "El Frente Amplio apela a la \"remontada\" en su cierre de campana: \"La historia la escribe siempre la gente\"",
+          "url": "https://www.eldiario.es/politica/frente-amplio-cierra-campana-son-si-ada-ada-ada-ada-remontada_1_13700638.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-28T03:58:39.715Z"
+        },
         {
           "title": "El PP no divisa \"transferencias entre bloques\" tras el debate y el PSOE aprovecha la pinza con Colau, que ve un \"punto de inflexion\"",
           "url": "https://www.20minutos.es/nacional/pp-no-divisa-transferencias-entre-bloques-tras-debate-psoe-aprovecha-pinza-con-colau-que-ve-un-punto-inflexion_7066443_0.html",
@@ -277,156 +365,212 @@
           "url": "https://www.publico.es/politica/frente-amplio-reivindica-papeleta-vivienda-aferra-triunfo-debate-cuatro-dar-sorpresa-29n.html",
           "newspaper": "Público",
           "date": "2026-11-27T22:09:35.870Z"
-        },
-        {
-          "title": "Reflexiona con las banderas de 'Publico' que pais quieres meter en el sobre este domingo",
-          "url": "https://www.publico.es/politica/reflexiona-banderas-publico-pais-quieres-meter-sobre-domingo.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T22:09:34.839Z"
-        },
-        {
-          "title": "Abascal, sobre la pregunta de Colau acerca de la violencia de genero: \"Me dio un asco infinito\"",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/abascal-sobre-la-pregunta-de-colau-acerca-de-la-violencia-de-genero-me-dio-un-asco-infinito.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T22:07:43.901Z"
-        },
-        {
-          "title": "Del \"amiga, date cuenta\" de Feijoo a la vestimenta de Colau: asi se divirtieron las redes durante el debate a cuatro",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/del-amiga-date-cuenta-de-feijoo-a-la-vestimenta-de-colau-asi-se-divirtieron-las-redes-durante-el-debate-a-cuatro.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T14:04:36.000Z"
-        },
-        {
-          "title": "Feijoo pide a los catalanes que le voten \"sientan lo que sientan\" en un mitin final en L'Hospitalet",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/feijoo-pide-a-los-catalanes-que-le-voten-sientan-lo-que-sientan-en-un-mitin-final-en-lhospitalet.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T22:07:41.692Z"
-        },
-        {
-          "title": "Frente Amplio evoca el espiritu de 2023 para \"volver a ganar\" las generales",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/frente-amplio-evoca-el-espiritu-de-2023-para-volver-a-ganar-las-generales.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T22:07:36.619Z"
-        },
-        {
-          "title": "La izquierda sale a la ofensiva contra Abascal y Feijoo por los recortes y la violencia machista",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/la-izquierda-sale-a-la-ofensiva-contra-abascal-y-feijoo-por-los-recortes-y-la-violencia-de-genero.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T22:07:34.927Z"
-        },
-        {
-          "title": "Frente Amplio apela a una \"remontada epica\": dos buenas horas de debate rescatan dos semanas grises de campana",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/frente-amplio-apela-a-una-remontada-epica-dos-buenas-horas-de-debate-rescatan-dos-semanas-grises-de-campana.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T18:05:18.000Z"
-        },
-        {
-          "title": "Sanchez confia en revalidar el Gobierno progresista sin depender de Junts y Feijoo insiste en que los socios del PSOE han estado \"calladitos y calladitas\"",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/sanchez-confia-en-revalidar-el-gobierno-progresista-sin-depender-de-junts-y-feijoo-insiste-en-que-los-socios-del-psoe-han-estado-calladitos-y-calladitas.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T12:23:39.000Z"
-        },
-        {
-          "title": "Feijoo se encomienda a Albiol en el cierre de campana: \"Nuestro exito depende de vosotros, asi que 'Visca Catalunya'\"",
-          "url": "https://www.eldiario.es/catalunya/feijoo-encomienda-albiol-cierre-campana-exito-depende-visca-catalunya_1_13698431.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T22:05:41.222Z"
-        },
-        {
-          "title": "Sanchez abarrota la Caja Magica de Madrid en el fin de campana del PSOE: \"Lo vamos a volver a conseguir\"",
-          "url": "https://www.eldiario.es/politica/sanchez-abarrota-caja-magica-madrid-campana-psoe-volver_1_13700400.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T22:05:38.965Z"
-        },
-        {
-          "title": "Feijoo apela al votante de izquierdas a dos dias de de las elecciones: \"No les voy a enganar, voy a ser el presidente de todos\"",
-          "url": "https://www.eldiario.es/politica/feijoo-apela-votante-izquierdas-dias-elecciones-no-les-enganar-presidente_1_13700418.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T22:05:35.882Z"
-        },
-        {
-          "title": "El Frente Amplio cierra su campana al son del \"si se puede\": \"Ada Ada Ada, Ada remontada\"",
-          "url": "https://www.eldiario.es/politica/frente-amplio-cierra-campana-son-si-ada-ada-ada-ada-remontada_1_13700638.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T22:05:32.010Z"
         }
       ]
     },
     {
-      "id": 205,
-      "title": "Portugal",
+      "id": 207,
+      "title": "Nido",
       "source": "news_tags",
-      "volume": "159 artículos",
+      "volume": "73 artículos",
       "timeframe": "24h noticias",
-      "news_count": 159
-    },
-    {
-      "id": 206,
-      "title": "Abascal",
-      "source": "news_tags",
-      "volume": "142 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 142
+      "news_count": 73
     },
     {
       "id": 208,
-      "title": "Dos",
+      "title": "Frente Amplio",
       "source": "news_tags",
-      "volume": "114 artículos",
+      "volume": "72 artículos",
       "timeframe": "24h noticias",
-      "news_count": 142
-    },
-    {
-      "id": 207,
-      "title": "Elecciones Anticipadas",
-      "source": "news_tags",
-      "volume": "136 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 136
+      "news_count": 72
     },
     {
       "id": 209,
-      "title": "Debate a 4",
+      "title": "Abascal",
       "source": "news_tags",
-      "volume": "114 artículos",
+      "volume": "68 artículos",
       "timeframe": "24h noticias",
-      "news_count": 114
+      "news_count": 68
     },
     {
       "id": 210,
-      "title": "Frente Amplio",
+      "title": "Psoe Andalucía",
       "source": "news_tags",
-      "volume": "114 artículos",
+      "volume": "65 artículos",
       "timeframe": "24h noticias",
-      "news_count": 114
+      "news_count": 65
     },
     {
       "id": 211,
-      "title": "Feijóo",
+      "title": "Debates Electorales",
       "source": "news_tags",
-      "volume": "109 artículos",
+      "volume": "63 artículos",
       "timeframe": "24h noticias",
-      "news_count": 109
+      "news_count": 63
     },
     {
-      "id": 2,
+      "id": 212,
+      "title": "Núñez",
+      "source": "news_tags",
+      "volume": "59 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 59
+    },
+    {
+      "id": 213,
+      "title": "España",
+      "source": "news_tags",
+      "volume": "59 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 59
+    },
+    {
+      "id": 214,
+      "title": "Ere",
+      "source": "news_tags",
+      "volume": "58 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 58
+    },
+    {
+      "id": 215,
+      "title": "Politicas Migratorias",
+      "source": "news_tags",
+      "volume": "57 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 57
+    },
+    {
+      "id": 216,
       "title": "Vox Comunidad Valenciana",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 15 h (24h)",
-      "news_count": 98,
+      "source": "news_tags",
+      "volume": "56 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 56
+    },
+    {
+      "id": 217,
+      "title": "Electorales",
+      "source": "news_tags",
+      "volume": "53 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 53
+    },
+    {
+      "id": 218,
+      "title": "Partido Popular (pp)",
+      "source": "news_tags",
+      "volume": "51 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 51
+    },
+    {
+      "id": 219,
+      "title": "Pedro Sánchez",
+      "source": "news_tags",
+      "volume": "50 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 50
+    },
+    {
+      "id": 220,
+      "title": "Feijóo",
+      "source": "news_tags",
+      "volume": "47 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 47
+    },
+    {
+      "id": 221,
+      "title": "29-n",
+      "source": "news_tags",
+      "volume": "45 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 45
+    },
+    {
+      "id": 222,
+      "title": "Directo",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
+      "id": 223,
+      "title": "Gobierno",
+      "source": "news_tags",
+      "volume": "43 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 43
+    },
+    {
+      "id": 224,
+      "title": "Votos",
+      "source": "news_tags",
+      "volume": "39 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 39
+    },
+    {
+      "id": 225,
+      "title": "Izquierdas",
+      "source": "news_tags",
+      "volume": "39 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 39
+    },
+    {
+      "id": 226,
+      "title": "Madrid",
+      "source": "news_tags",
+      "volume": "37 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 37
+    },
+    {
+      "id": 104,
+      "title": "Dana",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 34,
       "matched_articles": [
+        {
+          "title": "\"No esta hecho\": prudencia en Vox ante la movilizacion de la izquierda y con traspies en el final de campana",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09f08d21efa0525f8b456f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:18.648Z"
+        },
+        {
+          "title": "Abascal llena la Plaza de Toros de Valencia e insiste en tildar de \"buitre\" a Sanchez: \"Muy poco es llamarle sinverguenza\"",
+          "url": "https://www.elespanol.com/espana/politica/20261127/abascal-llena-plaza-toros-valencia-insiste-llamar-buitre-sanchez-llamarle-sinverguenza/1003744475242_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-28T04:05:15.632Z"
+        },
+        {
+          "title": "Urda resurge el dia de reflexion al cumplirse un mes de la tragedia: \"Hemos vivido el dolor entre los bailes de los mitines\"",
+          "url": "https://www.elespanol.com/espana/politica/20261128/urda-resurge-dia-reflexion-cumplirse-mes-tragedia-vivido-dolor-bailes-mitines/1003744475463_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-28T04:05:12.800Z"
+        },
+        {
+          "title": "Abascal llena la Plaza de Toros de Valencia e insiste en tildar de \"buitre\" a Sanchez: \"Muy poco es llamarle sinverguenza\"",
+          "url": "https://www.elespanol.com/espana/politica/20261127/abascal-llena-plaza-toros-valencia-insiste-llamar-buitre-sanchez-llamarle-sinverguenza/1003744475242_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-28T04:04:31.047Z"
+        },
+        {
+          "title": "Sanchez convierte el cierre de campana en un mitin-festival y desafia al PP y Vox: \"Tengo una mala noticia, van a perder las elecciones\"",
+          "url": "https://www.20minutos.es/nacional/sanchez-convierte-cierre-campana-un-mitin-festival-desafia-pp-vox-tengo-una-mala-noticia-van-perder-las-elecciones_7066938_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-27T22:17:28.414Z"
+        },
         {
           "title": "Abascal pide votar el 29-N \"con valor\" en el cierre de campana desde Valencia y advierte de que \"las urnas no se llenan con encuestas\"",
           "url": "https://www.20minutos.es/nacional/abascal-pide-votar-29-n-con-valor-cierre-campana-desde-valencia-advierte-que-las-urnas-no-se-llenan-con-encuestas_7066914_0.html",
           "newspaper": "20 Minutos",
           "date": "2026-11-27T22:17:25.512Z"
-        },
-        {
-          "title": "Madrid, Valencia, Sevilla... donde cierran hoy la campana los cinco principales candidatos y por que han elegido esa circunscripcion",
-          "url": "https://www.20minutos.es/nacional/madrid-valencia-sevilla-donde-cierran-hoy-campana-los-cinco-principales-candidatos-por-que-han-elegido-esa-circunscripcion_7065109_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-27T22:17:13.917Z"
         },
         {
           "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
@@ -441,10 +585,10 @@
           "date": "2026-11-27T22:15:06.824Z"
         },
         {
-          "title": "El Gobierno ordena iniciar el remolque del Med Emre a Cartagena con la oposicion del Gobierno de Murcia",
-          "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html",
+          "title": "Pedro Sanchez, a Feijoo y Abascal: \"La Espana de 2026 no tiene calladitas a las mujeres\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b0995ece85ece541a8b4597.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-27T22:14:24.953Z"
+          "date": "2026-11-27T22:15:06.821Z"
         },
         {
           "title": "Abascal exhibe fuerza desde una Plaza de Toros de Valencia abarrotada y llama a votar sin miedo: \"!Echadle cojones y ovarios!\"",
@@ -459,6 +603,12 @@
           "date": "2026-11-27T22:14:24.949Z"
         },
         {
+          "title": "Sanchez apuesta \"todo al rojo\" entre Begona y Almodovar: videos de la Guerra Civil y gritos de \"si se puede\" y \"no pasaran\"",
+          "url": "https://www.elespanol.com/espana/politica/20261127/sanchez-apuesta-rojo-begona-almodovar-videos-guerra-civil-gritos-puede-no-pasaran/1003744475762_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T22:12:06.311Z"
+        },
+        {
           "title": "Abascal llena la Plaza de Toros de Valencia e insiste en llamar \"buitre\" a Sanchez: \"Muy poco es llamarle sinverguenza\"",
           "url": "https://www.elespanol.com/espana/politica/20261127/abascal-llena-plaza-toros-valencia-insiste-llamar-buitre-sanchez-llamarle-sinverguenza/1003744475242_0.html",
           "newspaper": "El Español",
@@ -471,10 +621,46 @@
           "date": "2026-11-27T22:11:12.627Z"
         },
         {
+          "title": "Sanchez apuesta \"todo al rojo\" entre Begona y Almodovar: videos de la Guerra Civil y gritos de \"si se puede\" y \"no pasaran\"",
+          "url": "https://www.elespanol.com/espana/politica/20261127/sanchez-apuesta-rojo-begona-almodovar-videos-guerra-civil-gritos-puede-no-pasaran/1003744475762_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T22:11:12.011Z"
+        },
+        {
+          "title": "Abascal cierra la campana al grito de \"lo han destruido todo\" en una abarrotada plaza de toros de Valencia",
+          "url": "https://www.larazon.es/espana/abascal-cierra-campana-grito-han-destruido-todo-abarrotada-plaza-toros-valencia_202611276b09ee18c0d5c85b96c93f4a.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T22:07:57.407Z"
+        },
+        {
           "title": "Frente Amplio evoca el espiritu de 2023 para \"volver a ganar\" las generales",
           "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/frente-amplio-evoca-el-espiritu-de-2023-para-volver-a-ganar-las-generales.html",
           "newspaper": "El País",
           "date": "2026-11-27T22:07:36.619Z"
+        },
+        {
+          "title": "Sanchez confia en revalidar el Gobierno progresista sin depender de Junts y Feijoo insiste en que los socios del PSOE han estado \"calladitos y calladitas\"",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/sanchez-confia-en-revalidar-el-gobierno-progresista-sin-depender-de-junts-y-feijoo-insiste-en-que-los-socios-del-psoe-han-estado-calladitos-y-calladitas.html",
+          "newspaper": "El País",
+          "date": "2026-11-27T12:23:39.000Z"
+        },
+        {
+          "title": "Abascal acaba la campana con insultos a Sanchez y asegura que en las elecciones puede haber \"trampas\" o \"violencia\"",
+          "url": "https://www.eldiario.es/politica/abascal-acaba-campana-insultos-sanchez-asegura-elecciones-haber-trampas-violencia_1_13700156.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:05:33.449Z"
+        },
+        {
+          "title": "Del \"y usted, calladita\" al \"tiene que traer a esta senora\": el machismo se colo en el debate",
+          "url": "https://www.eldiario.es/sociedad/calladita-traer-senora-machismo-colo-debate_129_13698039.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:04:44.519Z"
+        },
+        {
+          "title": "Abascal acaba la campana con insultos a Sanchez y asegura que en las elecciones puede haber \"trampas\" o \"violencia\"",
+          "url": "https://www.eldiario.es/politica/abascal-acaba-campana-insultos-sanchez-asegura-elecciones-haber-trampas-violencia_1_13700156.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:04:36.208Z"
         },
         {
           "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
@@ -501,28 +687,46 @@
           "date": "2026-11-27T12:47:42.036Z"
         },
         {
-          "title": "Bruselas considera que la \"prioridad nacional\" de PP y Vox en el Pais Valencia vulnera la ley europea",
-          "url": "https://www.publico.es/internacional/europa/bruselas-considera-prioridad-nacional-pp-vox-pais-valencia-vulnera-ley-europea.html",
+          "title": "Sanchez se aferra al \"machismo\" del PP y Feijoo dice que la izquierda lleva \"calladita\" 7 anos \"silenciando\" la corrupcion",
+          "url": "https://www.elespanol.com/espana/politica/20261127/sanchez-aferra-machismo-pp-feijoo-dice-izquierda-lleva-calladita-anos-silenciando-corrupcion/1003744474502_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:37.933Z"
+        },
+        {
+          "title": "El 40% dice que Feijoo gano el debate y se impuso en todos los bloques salvo el de Inmigracion, que domino Abascal",
+          "url": "https://www.elespanol.com/espana/politica/20261127/dice-feijoo-gano-debate-impuso-bloques-salvo-inmigracion-domino-abascal/1003744474729_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:34.808Z"
+        },
+        {
+          "title": "\"Calladito estas mas guapo\": quien si utilizo la expresion de forma imperativa fue Oscar Puente contra Feijoo",
+          "url": "https://www.elespanol.com/espana/politica/20261127/calladito-guapo-utilizo-expresion-forma-imperativa-oscar-puente-feijoo/1003744474920_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:33.372Z"
+        },
+        {
+          "title": "Sanchez se aferra al \"machismo\" del PP y Feijoo dice que la izquierda lleva \"calladita\" 7 anos \"silenciando\" la corrupcion",
+          "url": "https://www.elespanol.com/espana/politica/20261127/sanchez-aferra-machismo-pp-feijoo-dice-izquierda-lleva-calladita-anos-silenciando-corrupcion/1003744474502_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:44:55.348Z"
+        },
+        {
+          "title": "El 40% dice que Feijoo gano el debate y se impuso en todos los bloques salvo el de Inmigracion, que domino Abascal",
+          "url": "https://www.elespanol.com/espana/politica/20261127/dice-feijoo-gano-debate-impuso-bloques-salvo-inmigracion-domino-abascal/1003744474729_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:44:49.960Z"
+        },
+        {
+          "title": "Elecciones generales 29N, en directo | Sanchez: \"La Espana de 2026 no tiene calladitas a las mujeres, van a hablar alto y fuerte con su voto\"",
+          "url": "https://www.publico.es/politica/elecciones-generales-29n-directo-2.html",
           "newspaper": "Público",
-          "date": "2026-11-27T12:44:18.560Z"
+          "date": "2026-11-27T12:43:50.697Z"
         },
         {
-          "title": "Bruselas considera que la \"prioridad nacional\" de PP y Vox en el Pais Valencia vulnera la ley europea",
-          "url": "https://www.publico.es/internacional/europa/bruselas-considera-prioridad-nacional-pp-vox-pais-valencia-vulnera-ley-europea.html",
+          "title": "Elecciones generales 29N, en directo | Sanchez: \"La Espana de 2026 no tiene calladitas a las mujeres, van a hablar alto y fuerte con su voto\"",
+          "url": "https://www.publico.es/politica/elecciones-generales-29n-directo-2.html",
           "newspaper": "Público",
-          "date": "2026-11-27T12:43:33.104Z"
-        },
-        {
-          "title": "Bombazo en MotoGP: Marc Marquez anuncia por sorpresa su retirada",
-          "url": "https://www.larazon.es/deportes/motociclismo/bombazo-motogp-marc-marquez-anuncia-sorpresa-retirada_202611276b095124ff6fec29219c6844.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:56.242Z"
-        },
-        {
-          "title": "El TSJ valenciano confirma la condena por agresion sexual al futbolista Rafa Mir, aunque la rebaja a siete anos de prision",
-          "url": "https://www.eldiario.es/comunitat-valenciana/tsj-valenciano-confirma-condena-agresion-sexual-futbolista-rafa-mir-rebaja-siete-anos-prision_1_13698089.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T12:39:21.606Z"
+          "date": "2026-11-27T12:43:23.900Z"
         },
         {
           "title": "Pradas aprieta al equipo de Mazon: quiere ayudar a la jueza a cazar a quien cometio el delito de revelacion de secretos",
@@ -531,141 +735,302 @@
           "date": "2026-11-27T12:39:17.491Z"
         },
         {
-          "title": "Debate electoral 29-N, en directo | Sanchez da ganador al bloque progresista frente al \"machismo\" y Feijoo dice haber hecho un debate \"leal\"",
-          "url": "https://www.20minutos.es/nacional/debate-cuatro-directo-ultima-hora-cara-cara-entre-pedro-sanchez-alberto-nunez-feijoo-santiago-abascal-ada-colau_7066328_6.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-27T03:06:56.861Z"
-        },
-        {
-          "title": "Sanchez y Colau arrinconan a un Feijoo desbordado y sin respuestas",
-          "url": "https://www.publico.es/politica/sanchez-colau-arrinconan-feijoo-descolocado-respuestas.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T03:01:12.442Z"
-        },
-        {
-          "title": "Sanchez y Colau arrinconan a un Feijoo desbordado y sin respuestas",
-          "url": "https://www.publico.es/politica/sanchez-colau-arrinconan-feijoo-descolocado-respuestas.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T03:00:43.317Z"
+          "title": "Del \"y usted calladita\" al \"tiene que traer a esta senora\": el machismo se colo en el debate",
+          "url": "https://www.eldiario.es/sociedad/calladita-traer-senora-machismo-colo-debate_129_13698039.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T12:39:00.370Z"
         }
-      ],
-      "merged_sources": [
-        "google",
-        "news_tags"
       ]
     },
     {
-      "id": 212,
-      "title": "Núñez",
+      "id": 227,
+      "title": "Campaña Electoral",
       "source": "news_tags",
-      "volume": "96 artículos",
+      "volume": "34 artículos",
       "timeframe": "24h noticias",
-      "news_count": 96
+      "news_count": 34
     },
     {
-      "id": 213,
-      "title": "Electorales",
+      "id": 228,
+      "title": "Valencia",
       "source": "news_tags",
-      "volume": "91 artículos",
+      "volume": "32 artículos",
       "timeframe": "24h noticias",
-      "news_count": 91
+      "news_count": 32
     },
     {
-      "id": 214,
-      "title": "Psoe Andalucía",
-      "source": "news_tags",
-      "volume": "91 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 91
-    },
-    {
-      "id": 215,
-      "title": "Ere Expediente de Regulación de Empleo",
-      "source": "news_tags",
-      "volume": "82 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 82
-    },
-    {
-      "id": 216,
-      "title": "Gobierno de España",
-      "source": "news_tags",
-      "volume": "80 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 80
-    },
-    {
-      "id": 217,
-      "title": "Politicas Migratorias",
-      "source": "news_tags",
-      "volume": "80 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 80
-    },
-    {
-      "id": 219,
+      "id": 229,
       "title": "Cuatro",
       "source": "news_tags",
-      "volume": "75 artículos",
+      "volume": "31 artículos",
       "timeframe": "24h noticias",
-      "news_count": 75
+      "news_count": 31
     },
     {
-      "id": 220,
-      "title": "29",
+      "id": 122,
+      "title": "Y la Junta Electoral Central",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 30,
+      "matched_articles": [
+        {
+          "title": "El PP se juega 14 escanos clave frente a una izquierda movilizada: \"Ya paso en 2023\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/28/6b09d1c8e85eceb5238b459f.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:18.648Z"
+        },
+        {
+          "title": "El futuro del voto exterior del 29N, en el aire tras el veto del Supremo",
+          "url": "https://www.larazon.es/espana/futuro-voto-exterior-29n-aire-veto-supremo_202611286b0a39ac5cb1082f89b6f35b.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-28T04:01:26.745Z"
+        },
+        {
+          "title": "Madrid, Valencia, Sevilla... donde cierran hoy la campana los cinco principales candidatos y por que han elegido esa circunscripcion",
+          "url": "https://www.20minutos.es/nacional/madrid-valencia-sevilla-donde-cierran-hoy-campana-los-cinco-principales-candidatos-por-que-han-elegido-esa-circunscripcion_7065109_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-27T22:17:13.917Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:15:06.826Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:15:06.824Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:14:24.949Z"
+        },
+        {
+          "title": "Feijoo abrio la campana ofreciendo moderacion y la cierra con el \"y usted calladita\" y agitando el fantasma del fraude electoral",
+          "url": "https://www.publico.es/politica/feijoo-abrio-campana-ofreciendo-moderacion-cierra-calladita-agitando-fantasma-fraude-electoral.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T22:10:13.422Z"
+        },
+        {
+          "title": "Intxaurrondo retrata a Feijoo por no acudir a la entrevista de 'La Hora de La 1': \"Mintiendo a la prensa de este pais con la boca asi de grande\"",
+          "url": "https://www.publico.es/tremending/intxaurrondo-retrata-feijoo-acudir-entrevista-hora-1-mintiendo-prensa-pais-boca-asi-grande.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T22:09:40.924Z"
+        },
+        {
+          "title": "Feijoo abrio la campana ofreciendo moderacion y la cierra con el \"y usted calladita\" y agitando el fantasma del fraude electoral",
+          "url": "https://www.publico.es/politica/feijoo-abrio-campana-ofreciendo-moderacion-cierra-calladita-agitando-fantasma-fraude-electoral.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T22:09:40.054Z"
+        },
+        {
+          "title": "Feijoo planta a Silvia Intxaurrondo y no dara entrevistas a TVE",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/feijoo-planta-a-tve-en-el-ultimo-momento-no-dara-entrevista-al-ente-publico.html",
+          "newspaper": "El País",
+          "date": "2026-11-27T22:07:33.566Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:48:22.136Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:48:22.135Z"
+        },
+        {
+          "title": "Feijoo planta a Silvia Intxaurrondo y el PP vuelve a denunciar a la periodista ante la JEC por \"rebeldia\"",
+          "url": "https://www.elmundo.es/television/2026/11/27/6b092e7fe85ece9e398b4578.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.039Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.037Z"
+        },
+        {
+          "title": "El PP denuncia ante la Junta Electoral \"irregularidades\" en el voto por correo y en el reparto de la propaganda electoral",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b0968bbe85ece58048b45a9.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.037Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.036Z"
+        },
+        {
+          "title": "De la musica cofrade y el cierre en Sevilla a la lucha por el AVE y contra el narco: los 'guinos' de Feijoo para Andalucia",
+          "url": "https://www.elespanol.com/espana/andalucia/20261127/musica-cofrade-cierre-sevilla-lucha-ave-narco-guinos-feijoo-andalucia/1003744473681_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:41.884Z"
+        },
+        {
+          "title": "Elecciones generales 29-N, en directo | Ganador del debate a cuatro entre Feijoo, Sanchez, Abascal y Colau, resultados y ultimas noticias de las encuestas",
+          "url": "https://www.elespanol.com/espana/20261127/elecciones-generales-directo-resultado-ganador-debate-encuestas-ultima-hora-pedro-sanchez-psoe-pp-vox/1003744474275_10.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:40.868Z"
+        },
+        {
+          "title": "El PP denuncia en la JEC a RTVE por \"omitir en sus informativos\" el acoso a Jon Echeverria y a Intxaurrondo por \"rebeldia\"",
+          "url": "https://www.elespanol.com/espana/20261127/pp-denuncia-rtve-junta-electoral-omitir-informativos-acoso-jon-echeverria-intxaurrondo-rebeldia/1003744474435_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:38.918Z"
+        },
+        {
+          "title": "El PP denuncia ante la Junta Electoral \"irregularidades\" en el voto por correo y el reparto de propaganda electoral",
+          "url": "https://www.elespanol.com/espana/politica/20261127/pp-denuncia-junta-electoral-irregularidades-graves-incidencias-voto-correo-reparto-propaganda-electoral/1003744474806_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:34.234Z"
+        },
+        {
+          "title": "El PP denuncia en la JEC a RTVE por \"omitir en sus informativos\" el acoso a Jon Echeverria y a Intxaurrondo por \"rebeldia\"",
+          "url": "https://www.elespanol.com/espana/20261127/pp-denuncia-rtve-junta-electoral-omitir-informativos-acoso-jon-echeverria-intxaurrondo-rebeldia/1003744474435_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:44:57.656Z"
+        },
+        {
+          "title": "Feijoo se acobarda, deja plantada a Intxaurrondo y se refugia en los programas de Herrera y Losantos",
+          "url": "https://www.publico.es/politica/partidos/feijoo-acobarda-atreve-entrevista-intxaurrondo.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T12:43:50.025Z"
+        },
+        {
+          "title": "Intxaurrondo retrata al lider del PP tras su espantada: \"Mintiendo a la prensa de este pais con la boca asi de grande\"",
+          "url": "https://www.publico.es/tremending/intxaurrondo-retrata-feijoo-acudir-entrevista-hora-1-mintiendo-prensa-pais-boca-asi-grande.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T12:43:23.179Z"
+        },
+        {
+          "title": "Feijoo se acobarda, deja plantada a Intxaurrondo y se refugia en los programas de Herrera y Losantos",
+          "url": "https://www.publico.es/politica/partidos/feijoo-acobarda-atreve-entrevista-intxaurrondo.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T12:43:22.584Z"
+        },
+        {
+          "title": "Feijoo elude el enfrentamiento con Intxaurrondo y lleva a RTVE ante la Junta Electoral por \"falta de neutralidad\" en la campana",
+          "url": "https://www.larazon.es/espana/feijoo-elude-enfrentamiento-intxaurrondo-lleva-rtve-junta-electoral-falta-neutralidad-campana_202611276b0963955cb1082f89b66dde.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:42:16.882Z"
+        },
+        {
+          "title": "El PP denuncia \"irregularidades\" en el voto por correo y el reparto de su propaganda electoral",
+          "url": "https://www.larazon.es/espana/denuncia-irregularidades-voto-correo-reparto-propaganda-electoral_202611276b09726aff6fec29219c8396.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:42:16.210Z"
+        },
+        {
+          "title": "Feijoo elude el enfrentamiento con Intxaurrondo y lleva a RTVE ante la Junta Electoral por \"falta de neutralidad\" en la campana",
+          "url": "https://www.larazon.es/espana/feijoo-elude-enfrentamiento-intxaurrondo-lleva-rtve-junta-electoral-falta-neutralidad-campana_202611276b0963955cb1082f89b66dde.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:41:49.398Z"
+        },
+        {
+          "title": "El PP denuncia \"irregularidades\" en el voto por correo y el reparto de su propaganda electoral",
+          "url": "https://www.larazon.es/espana/denuncia-irregularidades-voto-correo-reparto-propaganda-electoral_202611276b09726aff6fec29219c8396.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:41:47.613Z"
+        },
+        {
+          "title": "El PP agita el fantasma del fraude con una denuncia ante la Junta Electoral por \"retrasos\" en el voto por correo y unos sobres de propaganda tirados a la basura",
+          "url": "https://www.eldiario.es/politica/pp-agita-fantasma-fraude-denuncia-junta-electoral-retrasos-voto-correo-sobres-propaganda-tirados-basura_1_13698792.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T12:39:52.755Z"
+        },
+        {
+          "title": "Feijoo deja vacia su silla en 'La hora de La 1' y Silvia Intxaurrondo recuerda: \"Mintio cuando dijo a periodistas que iba a venir\"",
+          "url": "https://www.eldiario.es/vertele/noticias/feijoo-deja-vacia-silla-hora-1-silvia-intxaurrondo-recuerda-mintio-dijo-periodistas-iba-venir_1_13698107.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T12:39:01.717Z"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "title": "Politicos",
       "source": "news_tags",
-      "volume": "74 artículos",
+      "volume": "28 artículos",
       "timeframe": "24h noticias",
-      "news_count": 74
+      "news_count": 28
     },
     {
-      "id": 221,
-      "title": "Pedro Sánchez",
+      "id": 231,
+      "title": "Nacional",
       "source": "news_tags",
-      "volume": "74 artículos",
+      "volume": "27 artículos",
       "timeframe": "24h noticias",
-      "news_count": 74
+      "news_count": 27
     },
     {
-      "id": 222,
-      "title": "Directo",
+      "id": 232,
+      "title": "Sobre",
       "source": "news_tags",
-      "volume": "58 artículos",
+      "volume": "26 artículos",
       "timeframe": "24h noticias",
-      "news_count": 58
+      "news_count": 26
     },
     {
-      "id": 223,
-      "title": "Partido Popular (pp)",
+      "id": 233,
+      "title": "Presidente",
       "source": "news_tags",
-      "volume": "57 artículos",
+      "volume": "25 artículos",
       "timeframe": "24h noticias",
-      "news_count": 57
+      "news_count": 25
     },
     {
-      "id": 224,
-      "title": "Izquierdas",
+      "id": 10,
+      "title": "Pero",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 24,
+      "matched_articles": [],
+      "merged_sources": [
+        "news_tags",
+        "google"
+      ]
+    },
+    {
+      "id": 235,
+      "title": "Piden",
       "source": "news_tags",
-      "volume": "46 artículos",
+      "volume": "24 artículos",
       "timeframe": "24h noticias",
-      "news_count": 46
+      "news_count": 24
     },
     {
-      "id": 225,
-      "title": "Votos",
+      "id": 236,
+      "title": "Trump",
       "source": "news_tags",
-      "volume": "43 artículos",
+      "volume": "23 artículos",
       "timeframe": "24h noticias",
-      "news_count": 43
+      "news_count": 23
     },
     {
-      "id": 114,
+      "id": 103,
       "title": "Calladita",
       "source": "x_trends",
-      "volume": "5.9MM tweets",
+      "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 39,
+      "news_count": 21,
       "matched_articles": [
+        {
+          "title": "Calladita... y el dedito",
+          "url": "https://www.lavanguardia.com/opinion/20261128/11695397/calladita-dedito.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-28T04:08:18.699Z"
+        },
         {
           "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
           "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
@@ -785,277 +1150,19 @@
           "url": "https://www.eldiario.es/politica/ultima-hora-elecciones-generales-actualidad-politica-directo_6_13697828.html",
           "newspaper": "El Diario",
           "date": "2026-11-27T12:39:54.665Z"
-        },
-        {
-          "title": "Feijoo reprocha a Colau que estuvo \"calladita\" con Paiporta y acusa a Sanchez de manipular su expresion al tildarla de machismo",
-          "url": "https://www.20minutos.es/nacional/feijoo-reprocha-colau-que-estuvo-calladita-con-paiporta-acusa-sanchez-manipular-su-expresion-tildarla-machismo_7066475_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-27T03:07:00.665Z"
-        },
-        {
-          "title": "\"Y usted calladita\", tres palabras de Feijoo en el debate a cuatro que daran de que hablar",
-          "url": "https://www.lavanguardia.com/politica/20261127/11694436/calladita-tres-palabras-feijoo-debate-daran-hablar.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-27T03:06:34.063Z"
-        },
-        {
-          "title": "\"Y usted calladita\", tres palabras de Feijoo en el debate a cuatro que daran de que hablar",
-          "url": "https://www.lavanguardia.com/politica/20261127/11694436/calladita-tres-palabras-feijoo-debate-daran-hablar.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-27T03:05:36.404Z"
-        },
-        {
-          "title": "Debate electoral a cuatro, reacciones en directo | Feijoo: \"Los de Sumar y el 'Frente Estrecho' han estado calladitos y calladitas durante todos los anos de corrupcion\"",
-          "url": "https://www.elmundo.es/espana/2026/11/26/6b08b73ed45823561987caf3-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:05:14.310Z"
-        },
-        {
-          "title": "Sanchez aprueba el B1 de Errejon",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08ba41fdddff0c638b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:05:14.309Z"
-        },
-        {
-          "title": "'Black Friday' ultra",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08c307e4d4d844058b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:05:14.309Z"
-        },
-        {
-          "title": "Debate electoral a cuatro, reacciones en directo | Feijoo: \"Los de Sumar y el 'Frente Estrecho' han estado calladitos y calladitas durante todos los anos de corrupcion\"",
-          "url": "https://www.elmundo.es/espana/2026/11/26/6b08b73ed45823561987caf3-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:05:14.309Z"
-        },
-        {
-          "title": "'Black Friday' ultra",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08c307e4d4d844058b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.819Z"
-        },
-        {
-          "title": "Sanchez aprueba el B1 de Errejon",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08ba41fdddff0c638b457a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.819Z"
-        },
-        {
-          "title": "Sanchez enmienda a Sanchez y se redime en el 'reality' del debate a cuatro: choque, \"motosierra\", \"aticazo\" de Ayuso y guino a Colau",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b08bbfffdddffd0068b45a3.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.818Z"
-        },
-        {
-          "title": "Debate electoral a cuatro, reacciones en directo | Feijoo: \"Los de Sumar y el 'Frente Estrecho' han estado calladitos y calladitas durante todos los anos de corrupcion\"",
-          "url": "https://www.elmundo.es/espana/2026/11/26/6b08b73ed45823561987caf3-directo.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.817Z"
-        },
-        {
-          "title": "La manipulacion del \"y usted calladita\": un reproche de Feijoo a Colau que Sanchez convirtio en una acusacion de machismo",
-          "url": "https://www.elespanol.com/reportajes/20261127/bulo-usted-calladita-reproche-dana-feijoo-colau-sanchez-convirtio-acusacion-machismo/1003744474147_0.html",
-          "newspaper": "El Español",
-          "date": "2026-11-27T03:02:08.729Z"
-        },
-        {
-          "title": "Sanchez y Colau se lanzan en tandem contra \"los bulos y recortes\" de PP y Vox mientras Feijoo y Abascal se ignoran",
-          "url": "https://www.eldiario.es/politica/sanchez-colau-lanzan-tandem-bulos-recortes-pp-vox-feijoo-abascal-ignoran_1_13697623.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:57:21.914Z"
-        },
-        {
-          "title": "De la mili de Sanchez al \"usted calladita\" de Feijoo a Colau: los mejores videos del debate a cuatro",
-          "url": "https://www.eldiario.es/politica/mili-sanchez-calladita-feijoo-colau-mejores-videos-debate-cuatro_1_13697638.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:57:20.871Z"
-        },
-        {
-          "title": "Feijoo se enreda en la polemica tras su \"calladita\" y Ada Colau responde: \"Las mujeres no vamos a estar calladitas\"",
-          "url": "https://www.eldiario.es/politica/feijoo-enreda-polemica-calladita-referirse-ada-colau-mujeres-no-calladitas_1_13697743.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:57:19.511Z"
-        },
-        {
-          "title": "De la mili de Sanchez al \"usted calladita\" de Feijoo a Colau: los mejores videos del debate a cuatro",
-          "url": "https://www.eldiario.es/politica/mili-sanchez-calladita-feijoo-colau-mejores-videos-debate-cuatro_1_13697638.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:56:33.572Z"
-        },
-        {
-          "title": "Feijoo se enreda en la polemica tras su \"calladita\" y Ada Colau responde: \"Las mujeres no vamos a estar calladitas\"",
-          "url": "https://www.eldiario.es/politica/feijoo-enreda-polemica-calladita-referirse-ada-colau-mujeres-no-calladitas_1_13697743.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:56:32.273Z"
-        },
-        {
-          "title": "Ada Colau no se queda calladita: revoluciona el debate (y a Sanchez) para sacar a la luz todos los tics de la derecha",
-          "url": "https://www.eldiario.es/vertele/analisis/ada-colau-no-queda-calladita-revoluciona-debate-sanchez-sacar-luz-tics-derecha_129_13697431.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:56:30.313Z"
-        },
-        {
-          "title": "Sanchez y Colau se lanzan en tandem contra \"los bulos y recortes\" de PP y Vox mientras Feijoo y Abascal se ignoran",
-          "url": "https://www.eldiario.es/politica/sanchez-colau-lanzan-tandem-bulos-recortes-pp-vox-feijoo-abascal-ignoran_1_13697623.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T02:56:27.585Z"
         }
       ]
     },
     {
-      "id": 226,
-      "title": "Acto",
-      "source": "news_tags",
-      "volume": "38 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 38
-    },
-    {
-      "id": 227,
-      "title": "Espana-newsletter",
-      "source": "news_tags",
-      "volume": "37 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 37
-    },
-    {
-      "id": 228,
-      "title": "Madrid",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 229,
-      "title": "Presidente",
-      "source": "news_tags",
-      "volume": "36 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 36
-    },
-    {
-      "id": 230,
-      "title": "Sobre",
-      "source": "news_tags",
-      "volume": "34 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 34
-    },
-    {
-      "id": 231,
-      "title": "Uso",
-      "source": "news_tags",
-      "volume": "33 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 33
-    },
-    {
-      "id": 232,
-      "title": "Amplio",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 31
-    },
-    {
-      "id": 233,
-      "title": "Campaña Electoral",
-      "source": "news_tags",
-      "volume": "31 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 31
-    },
-    {
-      "id": 234,
-      "title": "Candidato",
-      "source": "news_tags",
-      "volume": "30 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 30
-    },
-    {
-      "id": 235,
-      "title": "Pero",
-      "source": "news_tags",
-      "volume": "29 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 29
-    },
-    {
-      "id": 237,
-      "title": "Piden",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
       "id": 238,
-      "title": "Valencia",
-      "source": "news_tags",
-      "volume": "28 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 28
-    },
-    {
-      "id": 239,
-      "title": "Debate Electoral",
-      "source": "news_tags",
-      "volume": "26 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 26
-    },
-    {
-      "id": 240,
-      "title": "Lista",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 241,
-      "title": "Lesiones",
-      "source": "news_tags",
-      "volume": "23 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 23
-    },
-    {
-      "id": 242,
-      "title": "Trump",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 243,
-      "title": "Horas",
-      "source": "news_tags",
-      "volume": "22 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 22
-    },
-    {
-      "id": 244,
-      "title": "Todas",
+      "title": "Final",
       "source": "news_tags",
       "volume": "21 artículos",
       "timeframe": "24h noticias",
       "news_count": 21
     },
     {
-      "id": 245,
-      "title": "Ppe",
-      "source": "news_tags",
-      "volume": "20 artículos",
-      "timeframe": "24h noticias",
-      "news_count": 20
-    },
-    {
-      "id": 246,
+      "id": 239,
       "title": "Civil",
       "source": "news_tags",
       "volume": "20 artículos",
@@ -1063,242 +1170,380 @@
       "news_count": 20
     },
     {
-      "id": 247,
-      "title": "Estadounidense",
+      "id": 240,
+      "title": "Amplio",
       "source": "news_tags",
       "volume": "20 artículos",
       "timeframe": "24h noticias",
       "news_count": 20
     },
     {
-      "id": 248,
-      "title": "Senado",
+      "id": 241,
+      "title": "Horas",
       "source": "news_tags",
       "volume": "19 artículos",
       "timeframe": "24h noticias",
       "news_count": 19
     },
     {
-      "id": 249,
-      "title": "Montero",
+      "id": 242,
+      "title": "Lista",
       "source": "news_tags",
-      "volume": "19 artículos",
+      "volume": "18 artículos",
       "timeframe": "24h noticias",
-      "news_count": 19
+      "news_count": 18
     },
     {
-      "id": 10,
-      "title": "Últimas Encuestas Elecciones Generales",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 13,
-      "matched_articles": [
-        {
-          "title": "Abascal pide votar el 29-N \"con valor\" en el cierre de campana desde Valencia y advierte de que \"las urnas no se llenan con encuestas\"",
-          "url": "https://www.20minutos.es/nacional/abascal-pide-votar-29-n-con-valor-cierre-campana-desde-valencia-advierte-que-las-urnas-no-se-llenan-con-encuestas_7066914_0.html",
-          "newspaper": "20 Minutos",
-          "date": "2026-11-27T22:17:25.512Z"
-        },
-        {
-          "title": "Feijoo abrio la campana ofreciendo moderacion y la cierra con el \"y usted calladita\" y agitando el fantasma del fraude electoral",
-          "url": "https://www.publico.es/politica/feijoo-abrio-campana-ofreciendo-moderacion-cierra-calladita-agitando-fantasma-fraude-electoral.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T22:10:13.422Z"
-        },
-        {
-          "title": "El BNG busca convertir su fortaleza en Galicia en poder sobre el Estado",
-          "url": "https://www.publico.es/politica/bng-busca-convertir-fortaleza-galicia-poder-sobre.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T22:10:12.684Z"
-        },
-        {
-          "title": "Feijoo abrio la campana ofreciendo moderacion y la cierra con el \"y usted calladita\" y agitando el fantasma del fraude electoral",
-          "url": "https://www.publico.es/politica/feijoo-abrio-campana-ofreciendo-moderacion-cierra-calladita-agitando-fantasma-fraude-electoral.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T22:09:40.054Z"
-        },
-        {
-          "title": "El BNG busca convertir su fortaleza en Galicia en poder sobre el Estado",
-          "url": "https://www.publico.es/politica/bng-busca-convertir-fortaleza-galicia-poder-sobre.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T22:09:37.027Z"
-        },
-        {
-          "title": "Sanchez culmina su sexta campana con el mitin mas multitudinario de su trayectoria: \"Tenemos la mayoria progresista a la vista, !si se puede!\"",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/sanchez-culmina-su-sexta-campana-con-el-mitin-mas-multitudinario-de-su-trayectoria-tenemos-la-mayoria-progresista-a-la-vista-si-se-puede.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T21:05:55.000Z"
-        },
-        {
-          "title": "Frente Amplio evoca el espiritu de 2023 para \"volver a ganar\" las generales",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/frente-amplio-evoca-el-espiritu-de-2023-para-volver-a-ganar-las-generales.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T22:07:36.619Z"
-        },
-        {
-          "title": "Frente Amplio apela a una \"remontada epica\": dos buenas horas de debate rescatan dos semanas grises de campana",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/frente-amplio-apela-a-una-remontada-epica-dos-buenas-horas-de-debate-rescatan-dos-semanas-grises-de-campana.html",
-          "newspaper": "El País",
-          "date": "2026-11-27T18:05:18.000Z"
-        },
-        {
-          "title": "Elecciones generales 29-N, en directo | Ganador del debate a cuatro entre Feijoo, Sanchez, Abascal y Colau, resultados y ultimas noticias de las encuestas",
-          "url": "https://www.elespanol.com/espana/20261127/elecciones-generales-directo-resultado-ganador-debate-encuestas-ultima-hora-pedro-sanchez-psoe-pp-vox/1003744474275_10.html",
-          "newspaper": "El Español",
-          "date": "2026-11-27T12:45:40.868Z"
-        },
-        {
-          "title": "Sanchez alardea de que le <<van a dar los numeros>> para formar gobierno sin Junts",
-          "url": "https://www.larazon.es/espana/sanchez-alardea-que-van-dar-numeros-formar-gobierno-junts_202611276b095b255cb1082f89b66637.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:48.825Z"
-        },
-        {
-          "title": "\"Ha nacido un gran tandem politico\": los expertos dan la victoria a Sanchez y Colau",
-          "url": "https://www.publico.es/politica/nacido-gran-tandem-politico-expertos-dan-victoria-sanchez-colau.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T03:01:10.532Z"
-        },
-        {
-          "title": "Ni invencibles ni inevitables",
-          "url": "https://www.publico.es/opinion/columnas/invencibles-inevitables.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T03:00:48.496Z"
-        },
-        {
-          "title": "\"Ha nacido un gran tandem politico\": los expertos dan la victoria a Sanchez y Colau",
-          "url": "https://www.publico.es/politica/nacido-gran-tandem-politico-expertos-dan-victoria-sanchez-colau.html",
-          "newspaper": "Público",
-          "date": "2026-11-27T03:00:44.333Z"
-        }
-      ]
+      "id": 243,
+      "title": "Adamuz",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
     },
     {
-      "id": 11,
-      "title": "Marc Marquez",
-      "source": "google",
-      "volume": "100 mil+ búsquedas",
-      "timeframe": "hace 18 h (24h)",
-      "news_count": 10,
-      "matched_articles": [
-        {
-          "title": "Marc Marquez, sobre su retirada: \"La unica persona en el mundo que lo sabia era mi hermano\"",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-retirada-unica-persona-mundo-que-sabia-era-hermano_202611276b0982ec50b7057c6d17fe26.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T22:08:09.141Z"
-        },
-        {
-          "title": "Marc Marquez: \"La razon es el riesgo, empece a sentir miedo\"",
-          "url": "https://www.lavanguardia.com/deportes/motociclismo/20261127/11694945/marc-marquez-asustado-he-empezado-sentir-miedo.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-27T12:48:47.740Z"
-        },
-        {
-          "title": "Marc Marquez pilla por sorpresa a todos y anuncia su retirada de MotoGP... al estilo 'Love Actually'",
-          "url": "https://www.lavanguardia.com/deportes/motociclismo/20261127/11694835/marc-marquez-motogp-ducati-reitrada.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-27T12:48:46.914Z"
-        },
-        {
-          "title": "Marquez no es un pionero ni un fruto silvestre, Marquez es la perfeccion",
-          "url": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b097342e9cf4a3f3c8b4599.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T12:47:42.038Z"
-        },
-        {
-          "title": "Marc Marquez anuncia por sorpresa su retirada de MotoGP",
-          "url": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b0951c5e9cf4add388b459a.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T12:47:42.038Z"
-        },
-        {
-          "title": "Marc Marquez, tras su retiro: \"No rendirme nunca siempre ha sido marca de la casa\"",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-rendirme-nunca-siempre-sido-marca-casa_202611276b0957f7f6da642efefc46be.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.865Z"
-        },
-        {
-          "title": "Marc Marquez, el piloto que no se olvido de las victimas de Urda",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-piloto-que-olvido-victimas-urda_202611016b0961beff6fec29219c75c6.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.072Z"
-        },
-        {
-          "title": "Mas de 130 millones de euros, patrocinios, una mansion de 10 millones...: el impresionante botin de Marc Marquez a lo largo de su carrera",
-          "url": "https://www.larazon.es/deportes/motociclismo/mas-130-millones-euros-patrocinios-mansion-10-millones-impresionante-botin-marc-marquez-largo-carrera_202611276b095bc8ff6fec29219c7062.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:57.250Z"
-        },
-        {
-          "title": "Asi ha sido la remontada que ha acabado en la retirada de Marc Marquez",
-          "url": "https://www.larazon.es/deportes/motociclismo/asi-sido-remontada-que-acabado-retirada-marc-marquez_202611276b09630350b7057c6d17dfe2.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:56.690Z"
-        },
-        {
-          "title": "Bombazo en MotoGP: Marc Marquez anuncia por sorpresa su retirada",
-          "url": "https://www.larazon.es/deportes/motociclismo/bombazo-motogp-marc-marquez-anuncia-sorpresa-retirada_202611276b095124ff6fec29219c6844.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:56.242Z"
-        }
-      ]
+      "id": 244,
+      "title": "Correos",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
     },
     {
-      "id": 103,
-      "title": "Motogp",
+      "id": 245,
+      "title": "Lesiones",
+      "source": "news_tags",
+      "volume": "18 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 18
+    },
+    {
+      "id": 121,
+      "title": "El Gobierno de Murcia",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
-      "news_count": 8,
+      "news_count": 17,
       "matched_articles": [
         {
-          "title": "Marc Marquez, sobre su retirada: \"La unica persona en el mundo que lo sabia era mi hermano\"",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-retirada-unica-persona-mundo-que-sabia-era-hermano_202611276b0982ec50b7057c6d17fe26.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T22:08:09.141Z"
-        },
-        {
-          "title": "Marc Marquez pilla por sorpresa a todos y anuncia su retirada de MotoGP... al estilo 'Love Actually'",
-          "url": "https://www.lavanguardia.com/deportes/motociclismo/20261127/11694835/marc-marquez-motogp-ducati-reitrada.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-27T12:48:46.914Z"
-        },
-        {
-          "title": "Marc Marquez anuncia por sorpresa su retirada de MotoGP",
-          "url": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b0951c5e9cf4add388b459a.html",
+          "title": "El Gobierno ordena iniciar el remolque del Med Emre a Cartagena con la oposicion del Gobierno de Murcia",
+          "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html?intcmp=masnoticiasportada",
           "newspaper": "El Mundo",
-          "date": "2026-11-27T12:47:42.038Z"
+          "date": "2026-11-28T04:07:54.296Z"
         },
         {
-          "title": "Marc Marquez, tras su retiro: \"No rendirme nunca siempre ha sido marca de la casa\"",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-rendirme-nunca-siempre-sido-marca-casa_202611276b0957f7f6da642efefc46be.html",
+          "title": "El PP vuelve a la contencion tras la euforia del cara a cara: \"Sanchez es un presidente agotado, pero lo importante es ganar el 29N\"",
+          "url": "https://www.larazon.es/espana/vuelve-contencion-euforia-cara-cara-sanchez-presidente-agotado-pero-importante-ganar-29n_202611206b004f2c50b7057c6d1241db.html",
           "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.865Z"
+          "date": "2026-11-28T04:01:59.788Z"
         },
         {
-          "title": "Marc Marquez, el piloto que no se olvido de las victimas de Urda",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-piloto-que-olvido-victimas-urda_202611016b0961beff6fec29219c75c6.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.072Z"
+          "title": "Murcia rechaza el buque accidentado y exige al Gobierno otro emplazamiento",
+          "url": "https://www.lavanguardia.com/vida/20261127/11695171/prohens-opone-carguero-naufragado-remolque-puerto-balear.html",
+          "newspaper": "La Vanguardia",
+          "date": "2026-11-27T22:15:37.904Z"
         },
         {
-          "title": "Mas de 130 millones de euros, patrocinios, una mansion de 10 millones...: el impresionante botin de Marc Marquez a lo largo de su carrera",
-          "url": "https://www.larazon.es/deportes/motociclismo/mas-130-millones-euros-patrocinios-mansion-10-millones-impresionante-botin-marc-marquez-largo-carrera_202611276b095bc8ff6fec29219c7062.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:57.250Z"
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:15:06.826Z"
         },
         {
-          "title": "Asi ha sido la remontada que ha acabado en la retirada de Marc Marquez",
-          "url": "https://www.larazon.es/deportes/motociclismo/asi-sido-remontada-que-acabado-retirada-marc-marquez_202611276b09630350b7057c6d17dfe2.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:56.690Z"
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:15:06.824Z"
         },
         {
-          "title": "Bombazo en MotoGP: Marc Marquez anuncia por sorpresa su retirada",
-          "url": "https://www.larazon.es/deportes/motociclismo/bombazo-motogp-marc-marquez-anuncia-sorpresa-retirada_202611276b095124ff6fec29219c6844.html",
+          "title": "El Gobierno ordena iniciar el remolque del Med Emre a Cartagena con la oposicion del Gobierno de Murcia",
+          "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:14:24.953Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:14:24.949Z"
+        },
+        {
+          "title": "Miras movilizara a 5.500 militantes del PP en los colegios electorales: \"Espana se merece funcionar, hay ganas de cambio\"",
+          "url": "https://www.elespanol.com/espana/murcia/20261127/miras-movilizara-militantes-pp-colegios-electorales-ganas-cambio-espana-merece-volver-funcionar/1003744475475_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T22:12:13.283Z"
+        },
+        {
+          "title": "Murcia rechaza que el buque que naufrago en Ibiza sea trasladado a Cartagena y exige a Sanchez otro emplazamiento",
+          "url": "https://www.elespanol.com/espana/20261127/murcia-rechaza-buque-naufrago-ibiza-trasladado-cartagena-exige-sanchez-emplazamiento/1003744475700_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T22:12:08.678Z"
+        },
+        {
+          "title": "Murcia rechaza el traslado a Cartagena del petrolero naufragado cerca de Balears",
+          "url": "https://www.publico.es/politica/marlaska-asegura-habra-riesgo-vertidos-hundimiento-petrolero-cerca-ibiza.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T22:10:17.818Z"
+        },
+        {
+          "title": "El Gobierno murciano tambien rechaza el barco naufragado",
+          "url": "https://www.larazon.es/sociedad/gobierno-murciano-tambien-rechaza-barco-naufragado_202611276b09d12af6da642efefca38f.html",
           "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:56.242Z"
+          "date": "2026-11-27T22:08:00.540Z"
+        },
+        {
+          "title": "Murcia rechaza que el buque 'Med Emre', volcado en la costa de Ibiza, sea remolcado al puerto de Cartagena",
+          "url": "https://www.eldiario.es/illes-balears/sociedad/buque-med-emre-volcado-costa-ibiza-sera-remolcado-puerto-cartagena_1_13700210.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:04:53.073Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:48:22.136Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:48:22.135Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.037Z"
+        },
+        {
+          "title": "La campana del 'todo por la patria' de Sanchez con banderas y la mili para sumar votos: \"Los simbolos no son solo de PP y Vox\"",
+          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b096724fc6c83cf3e8b4570.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.037Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro, reacciones en directo | Ayuso arremete contra Colau: \"La ofendidita ha estado calladita mientras arruinaba Barcelona\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:47:42.036Z"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "title": "Ayuso",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 247,
+      "title": "Opinión",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 248,
+      "title": "Candidato",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 249,
+      "title": "Viviendas",
+      "source": "news_tags",
+      "volume": "17 artículos",
+      "timeframe": "24h noticias",
+      "news_count": 17
+    },
+    {
+      "id": 26,
+      "title": "Ingreso",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 13,
+      "matched_articles": [
+        {
+          "title": "La odisea migratoria de Rafael: de Honduras al muro mexicano de Trump",
+          "url": "https://www.elmundo.es/internacional/2026/11/28/6b0821d6fdddff29568b4589.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:35.353Z"
+        },
+        {
+          "title": "Cristobal Colon, duque de Veragua y grande de Espana: \"No siento nada. A lo mejor es que tengo un ego pequenito\"",
+          "url": "https://www.elmundo.es/loc/famosos/2026/11/27/6b09c030fc6c8388188b4583.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:18.649Z"
+        },
+        {
+          "title": "Marc Vidal, economista: \"Hacienda recaudo en 2025 mas de 325.000 millones, dinero que sale de no ajustar el IRPF a la inflacion\"",
+          "url": "https://www.20minutos.es/nacional/marc-vidal-economista-hacienda-recaudo-2025-mas-325-000-millones-dinero-que-sale-no-ajustar-irpf-inflacion_7063849_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-27T22:17:33.573Z"
+        },
+        {
+          "title": "El Gobierno aprueba una subida record del ingreso minimo del 14,1% a 48 horas de las elecciones",
+          "url": "https://www.larazon.es/economia/gobierno-aprueba-subida-record-ingreso-minimo-141-48-horas-elecciones_202611276b09e9baff6fec29219cd916.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T22:08:06.520Z"
+        },
+        {
+          "title": "Quien es Abdellah Mustafa, el candidato al Senado que enfada a la derecha ceuti: \"Nos llaman traidores por dar comida a ninos\"",
+          "url": "https://www.eldiario.es/politica/abdellah-mustafa-candidato-senado-enfada-derecha-ceuti-llaman-traidores-dar-comida-ninos_1_13700322.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:05:39.968Z"
+        },
+        {
+          "title": "Quien es Abdellah Mustafa, el candidato al Senado que enfada a la derecha ceuti: \"Nos llaman traidores por dar comida a ninos\"",
+          "url": "https://www.eldiario.es/politica/abdellah-mustafa-candidato-senado-enfada-derecha-ceuti-llaman-traidores-dar-comida-ninos_1_13700322.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:04:43.100Z"
+        },
+        {
+          "title": "El Gobierno de Costa Rica niega la entrada al pais a la relatora de la ONU que acusa a Israel de genocidio",
+          "url": "https://www.elmundo.es/internacional/2026/11/27/6b09258bfdddff6c288b45b5.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:48:01.603Z"
+        },
+        {
+          "title": "Las pensiones subiran un 3,5% en 2027 y la prestacion media superara los 1.427 euros al mes",
+          "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20261127/pensiones-subiran-prestacion-media-superara-euros-mes/1003744474421_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-27T12:45:03.344Z"
+        },
+        {
+          "title": "Costa Rica niega la entrada al pais a la relatora de la ONU Francesca Albanese por sus \"vinculos con actos terroristas\"",
+          "url": "https://www.larazon.es/internacional/costa-rica-niega-entrada-pais-relatora-onu-francesca-albanese-sus-vinculos-actos-terroristas_202611276b0938d250b7057c6d17c0ed.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:42:54.417Z"
+        },
+        {
+          "title": "Las pensiones contributivas subiran un 3,5% y las minimas y no contributivas entre el 8,8% y el 14,2% en 2027",
+          "url": "https://www.larazon.es/economia/pensiones-contributivas-subiran-35-minimas-contributivas-88-142-2027_202611276b09399150b7057c6d17c185.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:41:59.570Z"
+        },
+        {
+          "title": "\"Los inmigrantes no pueden venir solo a pedir y recibir prestaciones, tienen que venir a trabajar y de forma regulada\"",
+          "url": "https://www.larazon.es/economia/inmigrantes-pueden-venir-solo-pedir-recibir-prestaciones-tienen-que-venir-trabajar-forma-regulada_202611276b090e6fc0d5c85b96c8a74a.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:41:51.650Z"
+        },
+        {
+          "title": "Trabajadores del Garrahan convocan a un cabildo abierto \"en solidaridad\" con los profesionales sancionados",
+          "url": "https://www.eldiarioar.com/sociedad/trabajadores-garrahan-convocan-cabildo-abierto-solidaridad-profesionales-sancionados_1_13698964.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T12:40:39.178Z"
+        },
+        {
+          "title": "Costa Rica veta la entrada a la relatora de la ONU para Palestina y la acusa sin pruebas de \"vinculos terroristas\"",
+          "url": "https://www.eldiario.es/internacional/costa-rica-veta-entrada-relatora-onu-palestina-acusa-pruebas-vinculos-terroristas_1_13698252.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T12:40:32.140Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Embarcación",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 7,
+      "matched_articles": [
+        {
+          "title": "El Gobierno ordena iniciar el remolque del Med Emre a Cartagena con la oposicion del Gobierno de Murcia",
+          "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:54.296Z"
+        },
+        {
+          "title": "Otros tres cayucos y 14 muertos mas en El Hierro un dia despues de que el Gobierno diga que \"el mecanismo esta engrasado\"",
+          "url": "https://www.elespanol.com/espana/politica/20261128/cayucos-muertos-hierro-dia-despues-gobierno-diga-mecanismo-engrasado/1003744475521_0.html",
+          "newspaper": "El Español",
+          "date": "2026-11-28T04:05:11.803Z"
+        },
+        {
+          "title": "Detras del record de llegadas a Canarias: diez razones para subir al cayuco",
+          "url": "https://www.larazon.es/internacional/detras-record-llegadas-canarias-diez-razones-subir-cayuco_202611286b0a3f4c50b7057c6d186c66.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-28T04:02:21.972Z"
+        },
+        {
+          "title": "Detras del record de llegadas a Canarias: diez razones para subir al cayuco",
+          "url": "https://www.larazon.es/internacional/detras-record-llegadas-canarias-diez-razones-subir-cayuco_202611286b0a3f4c50b7057c6d186c66.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-28T04:01:31.175Z"
+        },
+        {
+          "title": "El Gobierno ordena iniciar el remolque del Med Emre a Cartagena con la oposicion del Gobierno de Murcia",
+          "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:14:24.953Z"
+        },
+        {
+          "title": "Salvamento desembarca en El Hierro 14 cadaveres de un cayuco rescatado a la deriva, entre ellos el hombre que se nego a separarse de los cuerpos",
+          "url": "https://www.eldiario.es/canariasahora/migraciones/helicoptero-salvamento-evacua-cinco-personas-mal-salud-cayuco-hierro_1_13698283.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-27T22:04:52.009Z"
+        },
+        {
+          "title": "Salvamento Maritimo halla varios fallecidos en un cayuco rescatado a 62 kilometros de El Hierro",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b097b4ae85ece933c8b45bb.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T12:48:22.134Z"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Cayetana Álvarez de Toledo",
+      "source": "google",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 6,
+      "matched_articles": [
+        {
+          "title": "Cayetana Alvarez de Toledo, numero dos del PP por Madrid, cierra la campana con la camiseta \"A Pedro Sanchez lo eche yo\"",
+          "url": "https://www.20minutos.es/nacional/cayetana-alvarez-toledo-numero-dos-pp-por-madrid-cierra-campana-con-camiseta-pedro-sanchez-eche-yo_7066941_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-27T22:17:27.924Z"
+        },
+        {
+          "title": "Cayetana Alvarez de Toledo: \"Un voto masivo al PP garantiza el cambio y mandar a Sanchez no solo a la oposicion, sino a su casa\"",
+          "url": "https://www.20minutos.es/nacional/cayetana-alvarez-toledo-un-voto-masivo-pp-garantiza-cambio-mandar-sanchez-no-solo-oposicion-sino-su-casa_7066179_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-27T22:17:18.486Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:15:06.826Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:15:06.824Z"
+        },
+        {
+          "title": "Ganador del debate electoral a cuatro y cierre de campana en directo | Sanchez da las gracias a \"la gente migrante\" y Feijoo pide a los votantes de izquierda que le \"presten su voto\"",
+          "url": "https://www.elmundo.es/espana/2026/11/27/6b0924b3d458235619935dc9-directo.html",
+          "newspaper": "El Mundo",
+          "date": "2026-11-27T22:14:24.949Z"
+        },
+        {
+          "title": "Calladita",
+          "url": "https://www.publico.es/opinion/columnas/calladita.html",
+          "newspaper": "Público",
+          "date": "2026-11-27T12:43:24.655Z"
         }
       ]
     },
@@ -1306,9 +1551,9 @@
       "id": 112,
       "title": "Black Friday",
       "source": "x_trends",
-      "volume": "11MM tweets",
+      "volume": "16MM tweets",
       "timeframe": "24h trends",
-      "news_count": 8,
+      "news_count": 6,
       "matched_articles": [
         {
           "title": "Cuponazo Black Friday de la ONCE de hoy viernes 27 de noviembre: resultados y premios",
@@ -1345,142 +1590,84 @@
           "url": "https://www.eldiario.es/politica/black-friday-preelectoral-liquidacion-campana_129_13696782.html",
           "newspaper": "El Diario",
           "date": "2026-11-27T12:39:09.499Z"
-        },
-        {
-          "title": "'Black Friday' ultra",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08c307e4d4d844058b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:05:14.309Z"
-        },
-        {
-          "title": "'Black Friday' ultra",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08c307e4d4d844058b4588.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.819Z"
         }
       ]
     },
     {
-      "id": 4,
-      "title": "Embarcación",
+      "id": 24,
+      "title": "Soldadura",
       "source": "google",
-      "volume": "5 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 7,
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 4,
       "matched_articles": [
         {
-          "title": "El Gobierno ordena iniciar el remolque del Med Emre a Cartagena con la oposicion del Gobierno de Murcia",
-          "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html",
+          "title": "Los informes oficiales de la investigacion apuntalan la responsabilidad politica en la tragedia de Adamuz horas antes de las elecciones",
+          "url": "https://www.elmundo.es/andalucia/2026/11/27/6b084d93fc6c837b068b458b.html?intcmp=masnoticiasportada",
+          "newspaper": "El Mundo",
+          "date": "2026-11-28T04:07:54.296Z"
+        },
+        {
+          "title": "La Guardia Civil apunta que el balasto y las traviesas en la zona del accidente de Adamuz datan del ano 1990",
+          "url": "https://www.20minutos.es/nacional/guardia-civil-apunta-que-balasto-las-traviesas-zona-accidente-adamuz-datan-ano-1990_7066908_0.html",
+          "newspaper": "20 Minutos",
+          "date": "2026-11-27T22:17:32.931Z"
+        },
+        {
+          "title": "La Guardia Civil desmonta la \"renovacion integral\" de Oscar Puente en Adamuz: traviesas, vias y balasto de 1990 en el punto exacto del accidente",
+          "url": "https://www.elmundo.es/andalucia/2026/11/27/6b094bf5fdddfff9158b457b.html",
           "newspaper": "El Mundo",
           "date": "2026-11-27T22:14:24.953Z"
         },
         {
-          "title": "Salvamento desembarca en El Hierro 14 cadaveres de un cayuco rescatado a la deriva, entre ellos el hombre que se nego a separarse de los cuerpos",
-          "url": "https://www.eldiario.es/canariasahora/migraciones/helicoptero-salvamento-evacua-cinco-personas-mal-salud-cayuco-hierro_1_13698283.html",
-          "newspaper": "El Diario",
-          "date": "2026-11-27T22:04:52.009Z"
-        },
-        {
-          "title": "Salvamento Maritimo halla varios fallecidos en un cayuco rescatado a 62 kilometros de El Hierro",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b097b4ae85ece933c8b45bb.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T12:48:22.134Z"
-        },
-        {
-          "title": "La declaracion que apunta al Gobierno por Ceuta: solo \"medidas cosmeticas\" con la ciudad llena de \"espias marroquies\"",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08975821efa07a2e8b4572.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:05:14.309Z"
-        },
-        {
-          "title": "La amenaza del buque turco naufragado frente a Ibiza: volco en solo media hora tras una entrada masiva de agua en pleno temporal",
-          "url": "https://www.elmundo.es/baleares/2026/11/27/6b089132e4d4d82d528b458d.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.820Z"
-        },
-        {
-          "title": "La declaracion que apunta al Gobierno por Ceuta: solo \"medidas cosmeticas\" con la ciudad llena de \"espias marroquies\"",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b08975821efa07a2e8b4572.html",
-          "newspaper": "El Mundo",
-          "date": "2026-11-27T03:04:41.820Z"
-        },
-        {
-          "title": "De Senegal a El Hierro en 4 dias: los cayucos de fibra de vidrio, mas rapidos y seguros, explican la oleada migratoria",
-          "url": "https://www.elespanol.com/mundo/africa/20261119/senegal-hierro-dias-cayucos-fibra-vidrio-rapidos-seguros-explican-oleada-migratoria/1003744463111_0.html",
+          "title": "La Guardia Civil no puede acreditar que la soldadura fuera revisada y situa la fractura como causa del accidente de Adamuz",
+          "url": "https://www.elespanol.com/invertia/observatorios/movilidad/20261127/guardia-civil-no-puede-acreditar-soldadura-revisada-situa-fractura-causa-accidente-adamuz/1003744474566_0.html",
           "newspaper": "El Español",
-          "date": "2026-11-27T03:03:48.251Z"
+          "date": "2026-11-27T12:45:01.807Z"
         }
       ]
     },
     {
-      "id": 104,
-      "title": "Ducati",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 4,
-      "matched_articles": [
-        {
-          "title": "Marc Marquez pilla por sorpresa a todos y anuncia su retirada de MotoGP... al estilo 'Love Actually'",
-          "url": "https://www.lavanguardia.com/deportes/motociclismo/20261127/11694835/marc-marquez-motogp-ducati-reitrada.html",
-          "newspaper": "La Vanguardia",
-          "date": "2026-11-27T12:48:46.914Z"
-        },
-        {
-          "title": "Marc Marquez, tras su retiro: \"No rendirme nunca siempre ha sido marca de la casa\"",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-rendirme-nunca-siempre-sido-marca-casa_202611276b0957f7f6da642efefc46be.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.865Z"
-        },
-        {
-          "title": "Marc Marquez, el piloto que no se olvido de las victimas de Urda",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-piloto-que-olvido-victimas-urda_202611016b0961beff6fec29219c75c6.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.072Z"
-        },
-        {
-          "title": "Mas de 130 millones de euros, patrocinios, una mansion de 10 millones...: el impresionante botin de Marc Marquez a lo largo de su carrera",
-          "url": "https://www.larazon.es/deportes/motociclismo/mas-130-millones-euros-patrocinios-mansion-10-millones-impresionante-botin-marc-marquez-largo-carrera_202611276b095bc8ff6fec29219c7062.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:57.250Z"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Diplopia",
+      "id": 15,
+      "title": "Cáncer",
       "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 16 h (24h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 5 h (24h)",
       "news_count": 2,
       "matched_articles": [
         {
-          "title": "Marquez no es un pionero ni un fruto silvestre, Marquez es la perfeccion",
-          "url": "https://www.elmundo.es/deportes/motociclismo/2026/11/27/6b097342e9cf4a3f3c8b4599.html",
+          "title": "Antonio vota a Vox y Menty al PSOE, la pareja de la Espana polarizada: \"Ahi tienes la puerta y si quieres te vas\"",
+          "url": "https://www.elmundo.es/elecciones/2026/11/27/6b09b874e4d4d8fb548b4587.html",
           "newspaper": "El Mundo",
-          "date": "2026-11-27T12:47:42.038Z"
+          "date": "2026-11-28T04:07:18.648Z"
         },
         {
-          "title": "Marc Marquez, tras su retiro: \"No rendirme nunca siempre ha sido marca de la casa\"",
-          "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-rendirme-nunca-siempre-sido-marca-casa_202611276b0957f7f6da642efefc46be.html",
-          "newspaper": "La Razón",
-          "date": "2026-11-27T12:41:58.865Z"
+          "title": "Sobrevivio a Hiroshima y ha dedicado su vida al desarme: \"Humanidad y armas nucleares no pueden existir juntas\"",
+          "url": "https://www.eldiario.es/internacional/sobrevivio-hiroshima-dedicado-vida-desarme-humanidad-armas-nucleares-no-existir-juntas_128_13686380.html",
+          "newspaper": "El Diario",
+          "date": "2026-11-28T04:00:14.143Z"
         }
       ]
     },
     {
-      "id": 105,
-      "title": "Acosta",
-      "source": "x_trends",
-      "volume": "N/A",
-      "timeframe": "24h trends",
-      "news_count": 1,
+      "id": 30,
+      "title": "Marco Bezzecchi",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
+      "news_count": 2,
       "matched_articles": [
         {
           "title": "Marc Marquez, el piloto que no se olvido de las victimas de Urda",
           "url": "https://www.larazon.es/deportes/motociclismo/marc-marquez-piloto-que-olvido-victimas-urda_202611016b0961beff6fec29219c75c6.html",
           "newspaper": "La Razón",
           "date": "2026-11-27T12:41:58.072Z"
+        },
+        {
+          "title": "Asi ha sido la remontada que ha acabado en la retirada de Marc Marquez",
+          "url": "https://www.larazon.es/deportes/motociclismo/asi-sido-remontada-que-acabado-retirada-marc-marquez_202611276b09630350b7057c6d17dfe2.html",
+          "newspaper": "La Razón",
+          "date": "2026-11-27T12:41:56.690Z"
         }
       ]
     },
@@ -1488,7 +1675,7 @@
       "id": 111,
       "title": "Thanksgiving",
       "source": "x_trends",
-      "volume": "23MM tweets",
+      "volume": "36MM tweets",
       "timeframe": "24h trends",
       "news_count": 1,
       "matched_articles": [
@@ -1502,168 +1689,186 @@
     },
     {
       "id": 1,
-      "title": "Levante - Racing de Santander",
-      "source": "google",
-      "volume": "50 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 3,
-      "title": "Nottingham Forest - Chelsea",
+      "title": "Real Betis - Rayo Vallecano",
       "source": "google",
       "volume": "20 mil+ búsquedas",
-      "timeframe": "hace 9 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 5,
-      "title": "Tabaco",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 14 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 6,
-      "title": "Quique Sánchez Flores",
-      "source": "google",
-      "volume": "10 mil+ búsquedas",
-      "timeframe": "hace 6 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 7,
-      "title": "Columbus Crew - Inter Miami",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 9,
-      "title": "Millonarios - América",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 2 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 12,
-      "title": "Bronson Reed",
-      "source": "google",
-      "volume": "1 mil+ búsquedas",
-      "timeframe": "hace 3 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 13,
-      "title": "Catar",
-      "source": "google",
-      "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 7 h (24h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 14,
-      "title": "Spurs - Lakers",
-      "source": "google",
-      "volume": "500+ búsquedas",
       "timeframe": "hace 1 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 15,
-      "title": "Deportivo Cali - Bucaramanga",
+      "id": 2,
+      "title": "Tabaco",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 3,
+      "title": "Levante - Racing de Santander",
+      "source": "google",
+      "volume": "50 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 5,
+      "title": "Princesa de Gales",
+      "source": "google",
+      "volume": "10 mil+ búsquedas",
+      "timeframe": "hace 3 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 6,
+      "title": "U. D. las Palmas - Fc Andorra",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 1 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 7,
+      "title": "Vidrio",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 8,
+      "title": "Quique Sánchez Flores",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 15 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 9,
+      "title": "Juan Antonio Ruiz «espartaco»",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 23 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 11,
+      "title": "Bronson Reed",
+      "source": "google",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 12 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 12,
+      "title": "Nottingham Forest - Chelsea",
+      "source": "google",
+      "volume": "20 mil+ búsquedas",
+      "timeframe": "hace 18 h (24h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 13,
+      "title": "Paso de Cebra",
       "source": "google",
       "volume": "2 mil+ búsquedas",
-      "timeframe": "hace 5 h (24h)",
+      "timeframe": "hace 1 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 24,
-      "title": "Celtics - Hawks",
+      "id": 14,
+      "title": "Dani Pedrosa",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 25,
-      "title": "Posiciones de Deportivo Cali Contra Atlético Bucaramanga",
-      "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 26,
-      "title": "Pocholo Martínez-bordiú",
-      "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "5 mil+ búsquedas",
+      "timeframe": "hace 7 h (24h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 27,
-      "title": "Pacers - 76ers",
+      "title": "Horario Motogp",
       "source": "google",
-      "volume": "500+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 30 min (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 28,
-      "title": "Iphone",
+      "title": "Boda",
       "source": "google",
-      "volume": "200+ búsquedas",
-      "timeframe": "hace 1 h (4h)",
+      "volume": "2 mil+ búsquedas",
+      "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 29,
-      "title": "Bwin",
+      "title": "The Walking Dead",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 2 h (4h)",
-      "news_count": 0,
-      "matched_articles": []
-    },
-    {
-      "id": 30,
-      "title": "Elsa Pataky",
-      "source": "google",
-      "volume": "200+ búsquedas",
+      "volume": "1 mil+ búsquedas",
       "timeframe": "hace 3 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
       "id": 31,
-      "title": "Hija de Blanca Romero",
+      "title": "Cameron Norrie",
       "source": "google",
-      "volume": "100+ búsquedas",
-      "timeframe": "hace 3 h (4h)",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 1 h (4h)",
       "news_count": 0,
       "matched_articles": []
     },
     {
-      "id": 101,
+      "id": 32,
+      "title": "Leonoticias",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 33,
+      "title": "Judi Dench",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 2 h (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 34,
+      "title": "Multa",
+      "source": "google",
+      "volume": "1 mil+ búsquedas",
+      "timeframe": "hace 10 min (4h)",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 102,
+      "title": "#debatea4rtve",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 105,
       "title": "#ghvip27n",
       "source": "x_trends",
       "volume": "N/A",
@@ -1672,8 +1877,35 @@
       "matched_articles": []
     },
     {
-      "id": 102,
-      "title": "Suchitoto",
+      "id": 114,
+      "title": "#gmmtvstarlympics2026",
+      "source": "x_trends",
+      "volume": "6.1MM tweets",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 123,
+      "title": "Norrie",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 124,
+      "title": "Marvin",
+      "source": "x_trends",
+      "volume": "N/A",
+      "timeframe": "24h trends",
+      "news_count": 0,
+      "matched_articles": []
+    },
+    {
+      "id": 125,
+      "title": "Christensen",
       "source": "x_trends",
       "volume": "N/A",
       "timeframe": "24h trends",
